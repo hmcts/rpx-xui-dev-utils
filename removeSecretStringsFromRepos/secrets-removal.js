@@ -193,14 +193,15 @@ async function cleanRepo(repo, config, dryRun) {
 async function reconstructBranchFromBackup(branchName, branchInfo, backupPath, cleanPath, mainBranch) {
     const cleanBranchName = branchName.replace('origin/', '');
     
-    run(`git checkout ${mainBranch}`, cleanPath);
+    // run(`git checkout ${mainBranch}`, cleanPath);
+    run (`git branch -D ${cleanBranchName} 2>/dev/null`, cleanPath);
     
-    const createBranch = run(`git checkout -b ${cleanBranchName}`, cleanPath);
+    // const createBranch = run(`git checkout -b ${cleanBranchName}`, cleanPath);
     
-    if (!createBranch.success) {
-        console.log('failed to create branch');
-        return false;
-    }
+    // if (!createBranch.success) {
+    //     console.log('failed to create branch');
+    //     return false;
+    // }
 
     const mergeBase = run(
         `git merge-base ${mainBranch} ${branchInfo.sha}`,
@@ -209,6 +210,39 @@ async function reconstructBranchFromBackup(branchName, branchInfo, backupPath, c
     
     if (!mergeBase.success) {
         console.log('could not find merge base where branch diverged');
+        return false;
+    }
+
+    const mergeBaseCommitDetails = run(
+        `git log -1 --format="%s%n%ae%n%at ${mergeBase.output}`,
+        backupPath
+    )
+    
+    if (!mergeBaseCommitDetails.success) {
+        console.log('could not get merge base commit details');
+        return false;
+    }
+
+    const [subject, email, timestamp] = mergeBaseCommitDetails.output.split('\n');
+
+    const findEquivalentCommit = run(
+        `git log -all --format="%H %s %ae %at | grep -F "${subject} ${email} ${timestamp}" | head -1 | cut -d' ' -f1`,
+        cleanPath
+    );
+
+    if (!findEquivalentCommit.success || !findEquivalentCommit.output) {
+        console.log('could not find equivalent commit in clean repo');
+        console.log('failing back to main branch');
+        run (`git checkout ${mainBranch}`, cleanPath);
+    } else {
+        console.log(`branching from equivalent commit: ${findEquivalentCommit.output.sunstring(0, 8)}`);
+        run(`git checkout ${findEquivalentCommit.output}`, cleanPath);
+    }
+
+    const createBranch = run(`git checkout -b ${cleanBranchName}`, cleanPath);
+
+    if (!createBranch.success) {
+        console.log('failed to create branch');
         return false;
     }
 
@@ -230,7 +264,14 @@ async function reconstructBranchFromBackup(branchName, branchInfo, backupPath, c
         }
     }
 
-    run(`git push -u origin ${cleanBranchName}`, cleanPath);
+    const pushResult = run(`git push --force origin ${cleanBranchName}`, cleanPath);
+
+    if (!pushResult.success) {
+        console.log(`failed to push branch ${cleanBranchName}`);
+        return false;
+    }
+
+    console.log(`reconstructed branch ${cleanBranchName} from backup`);
     return true;
 }
 
@@ -352,8 +393,8 @@ async function main() {
         }
     }
     
-    console.log('\n completed secret cleanup');
-    console.log('\n to reconstruct branches for all repos run:');
+    console.log('completed secret cleanup');
+    console.log('to reconstruct branches for all repos run:');
     console.log('./secret-cleanup.js --reconstruct');
 }
 
