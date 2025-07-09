@@ -1,27 +1,11 @@
 {
     "repositories": [
         {
-            "name": "repo1",
-            "path": "/path/to/repo1",
-            "secrets_file": "./secrets/repo1.txt",
-            "main_branch": "main"
-        },
-        {
-            "name": "repo2",
-            "path": "/path/to/repo2",
-            "secrets_file": "./secrets/repo2.txt",
-            "main_branch": "master"
-        },
-        {
-            "name": "repo3",
-            "path": "/path/to/repo3",
-            "secrets_file": "./secrets/repo3.txt",
-            "main_branch": "master"
+            "name": "repo_one",
+            "path": "/path/to/repo",
+            "secrets_file": "./secrets/repo_one.txt",
+            "url": "git@github.com:username/repo-name.git"
         }
     ],
-    "secrets_file": "./secrets/default.txt",
-    "backup_dir": "./backup",
-    "metadata_dir": "./metadata",
-    "days_threshold": 30,
-    "main_branch": "master"
+    "backup_dir": "./backup"
 }
