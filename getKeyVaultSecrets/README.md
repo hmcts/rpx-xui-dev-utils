@@ -8,5 +8,5 @@ A utility that gets and displays all secrets from an Azure Key Vault.
 
 ## Usaage
 ```bash
-./script.sh <keyvault-name>
+./get-secrets.sh <keyvault-name>
 ```
