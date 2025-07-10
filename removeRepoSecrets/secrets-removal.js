@@ -53,7 +53,6 @@ async function cleanSecrets(repoPath, repoUrl, secretsFile) {
     const remoteCheck = run('git remote -v', repoPath);
 
     if (!remoteCheck.success || !remoteCheck.output.includes('origin')) {
-        console.log('no origin remote found, adding it');
         const remoteAdded = run(`git remote add origin ${repoUrl}`, repoPath);
 
         if (!remoteAdded.success) {
