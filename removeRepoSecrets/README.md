@@ -39,3 +39,21 @@ This will:
   ```
 - Verify CI/CD pipelines to ensure they work with the updated repository.
 - Update this documentation for any actions that are missing
+
+## Recovering a Repository from Backup (Force Push)
+
+1. Change directory to the backup you want to restore:
+   ```sh
+   cd ./backup/<repo_name>_<timestamp>
+   ```
+2. (Optional) Set the remote URL to your GitHub repository if not already set:
+   ```sh
+   git remote add origin <repo-url>
+   # or update if it already exists
+   git remote set-url origin <repo-url>
+   ```
+3. Force push the backup to overwrite the remote repository on GitHub:
+   ```sh
+   git push origin --force --all 
+   git push origin --force --tags
+   ```
