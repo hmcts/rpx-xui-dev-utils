@@ -10,10 +10,11 @@ A utility for removing secrets from git repositories using `git-filter-repo`.
 ## Setup
 
 1. Clone this repository.
-2. Edit `config.json` to specify:
+2. Create a .txt file for each repository in the secrets/ directory, containing the sensitive strings to remove (one secret per line).
+3. Edit `config.json` to specify:
    - The repositories to clean
    - The path to each repository (should be relative to this `removeRepoSecrets` directory)
-   - The secrets file for each repository
+   - The path to the secrets file for each repository
    - The remote URL for each repository
 
 ## Usage
