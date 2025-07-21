@@ -1,22 +1,21 @@
 # removeRepoSecrets
 
-A utility for removing secrets from git repositories using `git-filter-repo`.
+A utility for removing secrets from git repositories using `git-filter-repo`. Searches a set of git repos for specific secret strings and replaces them with \*\*Removed\*\*
 
 ## Prerequisites
 
 - Node.js
-- [git-filter-repo](https://github.com/newren/git-filter-repo) installed and available in your PATH
+- [git-filter-repo](https://github.com/newren/git-filter-repo) installed and available in your PATH. For Mac users install with brew install git-filter-repo.
 
 ## Setup
 
 1. Clone this repository.
 2. Create a .txt file for each repository in the secrets/ directory, containing the sensitive strings to remove (one secret per line).
-3. Edit `config.json` to specify:
-   - The repositories to clean
-   - The path to each repository (should be relative to this `removeRepoSecrets` directory)
-   - The path to the secrets file for each repository
-   - The remote URL for each repository
-
+3. Edit `config.json` to specify for each repo that you wish to clean:
+   - "name": A label for the repo to clean
+   - "path": A relative or absolute path to the root of clone of the repo to clean. If a relative path is used it should be relative to the removeRepoSecrets directory
+   - "secrets_file": A relative or absolute path to a file containing the secret text to be replaced, one replacement per line
+   - "url": The git remote url for the repo, for example git@github.com:hmcts/rpx-xui-node-lib.git
 ## Usage
 
 From the `removeRepoSecrets` directory, run:
