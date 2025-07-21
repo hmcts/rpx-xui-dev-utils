@@ -1,0 +1,11 @@
+{
+    "repositories": [
+        {
+            "name": "repo_one",
+            "path": "/path/to/repo",
+            "secrets_file": "./secrets/repo_one.txt",
+            "url": "git@github.com:username/repo-name.git"
+        }
+    ],
+    "backup_dir": "./backup"
+}
