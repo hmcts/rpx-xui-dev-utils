@@ -1,6 +1,6 @@
 # removeRepoSecrets
 
-A utility for removing secrets from git repositories using `git-filter-repo`. Searches a set of git repos for specific secret strings and replaces them with \*\*Removed\*\*
+A utility for removing secrets from git repositories using `git-filter-repo`. Searches a set of git repos for specific secret strings and replaces them with \*\*\*REMOVED\*\*\*
 
 ## Prerequisites
 
