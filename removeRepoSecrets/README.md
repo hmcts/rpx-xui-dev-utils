@@ -6,13 +6,13 @@ A utility for removing secrets from git repositories using `git-filter-repo`. Se
 
 The script can be run in three different modes:
 
-### analysis - (default) 
+### analysis (default) 
 No changes will be made to the local repositories. The script creates a temporary copy of each repository, applies the secrets removal process to it, and generates a diff showing what would change. The diff is saved as a file and also displayed in the browser using diff2html. This allows you to review the changes before they are actually made.
 
-### update - 
+### update
 Creates a backup of each repository, then modifies each local repository by rewriting its git history to remove the specified secrets. After the update completes successfully, the script will display instructions on how to manually push the changes to the remote repository if desired. This mode requires confirmation before proceeding with local history rewriting.
 
-### update-and-push - 
+### update-and-push
 Creates a backup of each repository, modifies the local repository by rewriting its git history to remove the specified secrets, and then force-pushes the changes to the remote repository. This mode requires confirmation before proceeding, as it will affect all users who have cloned or pulled from the repository. Use with extreme caution as it permanently alters the remote git history.
 
 ## Prerequisites
