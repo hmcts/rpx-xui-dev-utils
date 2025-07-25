@@ -96,7 +96,7 @@ function ensureOriginRemote(repoPath, repoUrl) {
 async function showPushToRemoteMessage(repoPath, repoUrl) {
     ensureOriginRemote(repoPath, repoUrl);
     const pushCommand = 'git push --force --all origin';
-    console.log(`\nTo check if a specific secret is still present on your local, run:\n cd ${repoPath} && git log -S "<SECRET_STRING>" --all --oneline`);
+    console.log(`\nTo check if a specific secret is still present on your local, run:\n cd ${repoPath} && git log -G "<SECRET_STRING>" --all --oneline`);
     console.log(`\nOr to push your changes to the remote repository, run:\n cd ${repoPath} && ${pushCommand}\n`);
     return pushCommand;
 }
@@ -176,7 +176,7 @@ async function cleanRepo(repo, config, mode) {
             const backupPath = await createRepoBackup(repo, config, runTimestamp);
             console.log(`Backup successfully created:\n  ${backupPath}`);
             console.log('\nIMPORTANT:');
-            console.log(`This process will rewrite you LOCAL GIT HISTORY to permanently remove the secrets listed in:\n  ${secretsFile}`);
+            console.log(`This process will rewrite your LOCAL GIT HISTORY to permanently remove the secrets listed in:\n  ${secretsFile}`);
             console.log('\n\nAre you sure you want to rewrite your local history?');
 
             const confirmed = await confirmAction('\n\n ');
