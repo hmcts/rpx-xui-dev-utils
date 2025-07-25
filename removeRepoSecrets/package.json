@@ -1,0 +1,8 @@
+{
+  "name": "remove-repo-secrets",
+  "version": "1.0.0",
+  "description": "Utility for removing secrets from git repositories",
+  "dependencies": {
+    "diff2html-cli": "^5.2.1"
+  }
+}
