@@ -106,7 +106,7 @@ async function pushToRemote(repoPath, repoUrl) {
     run('git push --force --all origin', repoPath);
 }
 
-async function analyseRepo(repoPath, secretsFile) {
+async function analyseRepo(repoPath, secretsFile, config) {
     const tempSecretsToRemovePath = path.join(repoPath, 'secrets-to-remove.txt');
     
     await fs.copyFile(secretsFile, tempSecretsToRemovePath);
@@ -116,12 +116,15 @@ async function analyseRepo(repoPath, secretsFile) {
     const timestamp = getTimestamp();
     const tempRepoPath = path.join(process.cwd(), `temp-analysis-${timestamp}`);
     
+    const analysisDir = path.resolve(config.analysis_dir || './analysis');
+    await fs.mkdir(analysisDir, { recursive: true });
+    
     try {
         // create a temp copy of repo
         run(`cp -r "${repoPath}" "${tempRepoPath}"`);
         
         // copy secrets file to temp repo
-         await fs.mkdir(tempRepoPath, { recursive: true });
+        await fs.mkdir(tempRepoPath, { recursive: true });
         await fs.copyFile(secretsFile, path.join(tempRepoPath, 'secrets-to-remove.txt'));
         
         // run filter-repo on temp copy
@@ -135,12 +138,13 @@ async function analyseRepo(repoPath, secretsFile) {
         const diffResult = run(`git diff --no-index --no-prefix "${repoPath}" "${tempRepoPath}" || true`, process.cwd());
         
         if (diffResult.output) {
-            // save diff to file
-            const diffFile = path.join(process.cwd(), `secrets-analysis-${timestamp}.diff`);
-            await fs.writeFile(diffFile, diffResult.output);
-            
+            const repoName = path.basename(repoPath);
+            const diffPath = path.join(analysisDir, `${repoName}-analysis-${timestamp}.diff`);
+            await fs.writeFile(diffPath, diffResult.output);
+            console.log(`Analysis diff saved to: ${diffPath}`);
+
             // open diff in browser
-            run(`npx diff2html-cli -i file -o preview -- "${diffFile}"`, process.cwd());
+            run(`npx diff2html-cli -i file -o preview -- "${diffPath}"`, process.cwd());
         } else {
             console.log('No changes detected in the repository.');
         }
@@ -193,7 +197,7 @@ async function cleanRepo(repo, config, mode) {
     try {
         if (mode === 'analysis') {
             // analyse only, no backup or changes
-            await analyseRepo(repo.path, secretsFile)
+            await analyseRepo(repo.path, secretsFile, config)
         } else if (mode === 'update') {
             // backup and update locally only
             console.log('Creating backup...');
