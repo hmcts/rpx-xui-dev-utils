@@ -120,43 +120,38 @@ async function analyseRepo(repoPath, secretsFile, config) {
     await fs.mkdir(analysisDir, { recursive: true });
     
     try {
-        // create a temp copy of repo
         run(`cp -r "${repoPath}" "${tempRepoPath}"`);
         
-        // copy secrets file to temp repo
         await fs.mkdir(tempRepoPath, { recursive: true });
         await fs.copyFile(secretsFile, path.join(tempRepoPath, 'secrets-to-remove.txt'));
         
-        // run filter-repo on temp copy
         const filterResult = run('git filter-repo --replace-text secrets-to-remove.txt --force', tempRepoPath);
         
         if (!filterResult.success) {
             throw new Error(`git-filter-repo failed: ${filterResult.error}`);
         }
         
-        // generate diff between original and (temp) filtered repos
         const diffResult = run(`git diff --no-index --no-prefix "${repoPath}" "${tempRepoPath}" || true`, process.cwd());
         
         if (diffResult.output) {
             const repoName = path.basename(repoPath);
             const diffPath = path.join(analysisDir, `${repoName}-analysis-${timestamp}.diff`);
             await fs.writeFile(diffPath, diffResult.output);
-            console.log(`Analysis diff saved to: ${diffPath}`);
+            console.log(`Analysis diff saved to:\n  ${diffPath}`);
 
-            // open diff in browser
             run(`npx diff2html-cli -i file -o preview -- "${diffPath}"`, process.cwd());
         } else {
             console.log('No changes detected in the repository.');
         }
         
-        // cleanup
         await fs.rm(tempRepoPath, { recursive: true, force: true });
         
     } catch (error) {
-        // cleanup
         try {
             await fs.rm(tempRepoPath, { recursive: true, force: true });
-        } catch {}
+        } catch (cleanupError) {
+            console.warn(`Warning: Failed to clean up temp directory: ${cleanupError.message}`);
+        }
         throw error;
     } finally {
         await fs.unlink(tempSecretsToRemovePath);
@@ -165,38 +160,15 @@ async function analyseRepo(repoPath, secretsFile, config) {
 
 async function cleanRepo(repo, config, mode) {
     console.log(`Processing: ${repo.name}`);
-
-    // console.log('creating backup...');
-    // await createRepoBackup(repo, config, runTimestamp);
     
     const secretsFile = getSecretsFile(repo, config);
-    
-    // try {
-    //     await fs.access(secretsFile);
-    // } catch {
-    //     console.error(`secrets file not found: ${secretsFile}`);
-    //     return false;
-    // }
-
-    // const runTimestamp = getTimestamp();
-    
-    // console.log(`cleaning these secrets: ${secretsFile}`);
-    
-    // try {
-    //     await cleanSecrets(repo.path, repo.url, secretsFile);
-    //     console.log('secret cleanup completed...');
-        
-    //     return true;
-    // } catch (error) {
-    //     console.error(`failed: ${error.message}`);
-    //     return false;
-    // }
 
     const runTimestamp = getTimestamp();
 
     try {
         if (mode === 'analysis') {
-            // analyse only, no backup or changes
+            // no backup or changes locally
+            // secrets are removed from a temporary copied repo which gets deleted after
             await analyseRepo(repo.path, secretsFile, config)
         } else if (mode === 'update') {
             // backup and update locally only
