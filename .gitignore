@@ -1,4 +1,5 @@
 package-lock.json
 node_modules
-removeSecretStringsFromRepos/backup/
-removeSecretStringsFromRepos/secrets/
+removeRepoSecrets/backup/
+removeRepoSecrets/secrets/
+removeRepoSecrets/analysis/
