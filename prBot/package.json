@@ -1,0 +1,28 @@
+{
+  "name": "@hmcts/pr-bot",
+  "version": "1.0.0",
+  "description": "A bot to be used in Github Actions which posts to Slack contextual information about pull requests.",
+  "main": "dist/prBot.js",
+  "scripts": {
+    "start": "node dist/prBot.js"
+  },
+  "files": [
+    "dist"
+  ],
+  "keywords": [
+    "github",
+    "slack",
+    "pull-request",
+    "bot"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hmcts/rpx-xui-dev-utils.git",
+    "directory": "prBot"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "author": "HMCTS",
+  "license": "MIT"
+}
