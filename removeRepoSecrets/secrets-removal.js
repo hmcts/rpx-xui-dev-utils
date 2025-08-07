@@ -70,7 +70,7 @@ async function cleanSecretsLocally(repoPath, secretsFile) {
     
     await fs.copyFile(secretsFile, tempSecretsToRemovePath);
     
-    const result = run('git filter-repo --replace-text secrets-to-remove.txt --force', repoPath);
+    const result = run('git filter-repo --sensitive-data-removal --replace-text secrets-to-remove.txt --force', repoPath);
     
     await fs.unlink(tempSecretsToRemovePath);
     
@@ -95,7 +95,7 @@ function ensureOriginRemote(repoPath, repoUrl) {
 
 async function showPushToRemoteMessage(repoPath, repoUrl) {
     ensureOriginRemote(repoPath, repoUrl);
-    const pushCommand = 'git push --force --all origin';
+    const pushCommand = 'git push --force --mirror origin';
     console.log(`\nTo check if a specific secret is still present on your local, run:\n cd ${repoPath} && git log -G "<SECRET_STRING>" --all --oneline`);
     console.log(`\nOr to push your changes to the remote repository, run:\n cd ${repoPath} && ${pushCommand}\n`);
     return pushCommand;
@@ -103,7 +103,7 @@ async function showPushToRemoteMessage(repoPath, repoUrl) {
 
 async function pushToRemote(repoPath, repoUrl) {
     ensureOriginRemote(repoPath, repoUrl);
-    run('git push --force --all origin', repoPath);
+    run('git push --force --mirror origin', repoPath);
 }
 
 async function analyseRepo(repoPath, secretsFile, config) {
@@ -125,7 +125,7 @@ async function analyseRepo(repoPath, secretsFile, config) {
         await fs.mkdir(tempRepoPath, { recursive: true });
         await fs.copyFile(secretsFile, path.join(tempRepoPath, 'secrets-to-remove.txt'));
         
-        const filterResult = run('git filter-repo --replace-text secrets-to-remove.txt --force', tempRepoPath);
+        const filterResult = run('git filter-repo --sensitive-data-removal --replace-text secrets-to-remove.txt --force', tempRepoPath);
         
         if (!filterResult.success) {
             throw new Error(`git-filter-repo failed: ${filterResult.error}`);
