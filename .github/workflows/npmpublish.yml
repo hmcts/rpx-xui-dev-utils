@@ -2,8 +2,8 @@ name: Publish prBot Package
 
 on: 
   push:
-    branches:
-      - master
+    tags:
+      - '*'
     paths:
       - 'prbot/**'
 
