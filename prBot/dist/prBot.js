@@ -170,22 +170,19 @@ const stateManager = {
 
       if (response.content) {
         const content = Buffer.from(response.content, 'base64').toString();
-        return JSON.parse(content);
-      } else {
-        return { 
-          metadata : {
-            lastUpdates: new Date().toISOString(),
-            approvalListMessageTs: null
-          },
-          repositories: {}
+        return {
+          state: JSON.parse(content),
+          sha: response.sha
         };
+      } else {
+        console.log('No state file found');
       }
     } catch (error) {
       throw new Error(`Failed to read state: ${error.message}`);
     }
   },
   
-  async writeState(state) {
+  async writeState(state, sha) {
     const path = `/repos/${ENV.dataRepoOwner}/${ENV.dataRepoName}/contents/${ENV.dataStateFilePath}`;
     const headers = {
       'Authorization': `Bearer ${ENV.dataRepoToken}`,
@@ -193,82 +190,127 @@ const stateManager = {
       'User-Agent': 'Node.js'
     }
 
-    let sha = null;
     try {
-      const currentFile = await httpRequest(CONFIG.GITHUB_API_BASE, path, 'GET', headers);
-      sha = currentFile.sha;
-    } catch (error) {
-      // continue if file does not exist
-    }
-
-    const content = Buffer.from(JSON.stringify(state, null, 2)).toString('base64');
-    const body = {
-      message: `Update PR state from ${loadEventData().repo}`,
-      content,
-      branch: 'master'
-    }
-
-    if (sha) {
-      body.sha = sha;
-    }
-
-    const stateAfter = await httpRequest(CONFIG.GITHUB_API_BASE, path, 'PUT', headers, body);
-
-    await sleep(5000);
-
-    console.log('State written successfully, after: ', stateAfter);
-  },
-
-  async updatePR(repo, prNumber, updates) {
-    const state = await this.readState();
-
-    console.log('Updating PR state before:', state);
-
-    if (!state.repositories[repo]) {
-      state.repositories[repo] = { pullRequests: {} };
-    }
-
-    state.repositories[repo].pullRequests[prNumber] = {
-      ...state.repositories[repo].pullRequests[prNumber],
-      ...updates,
-      lastUpdated: new Date().toISOString()
-    };
-
-    state.metadata.lastUpdated = new Date().toISOString();
-
-    await this.writeState(state);
-    return state;
-  },
-
-  async removePR(repo, prNumber) {
-    const state = await this.readState();
-  
-    if (state.repositories[repo]?.pullRequests[prNumber]) {
-      delete state.repositories[repo].pullRequests[prNumber];
-
-      if (Object.keys(state.repositories[repo].pullRequests).length === 0) {
-        delete state.repositories[repo];
+      const content = Buffer.from(JSON.stringify(state, null, 2)).toString('base64');
+      const body = {
+        message: `Update PR state from ${loadEventData().repo}`,
+        content,
+        branch: 'master'
       }
 
-      state.metadata.lastUpdated = new Date().toISOString();
-      await this.writeState(state);
+      if (sha) {
+        body.sha = sha;
+      }
+
+      const stateAfter = await httpRequest(CONFIG.GITHUB_API_BASE, path, 'PUT', headers, body);
+      console.log('State written successfully');
+      await sleep(2000);
+      return stateAfter;
+    } catch (error) {
+      if (error.message?.includes('409')) {
+        console.error('Conflict error while writing state, retrying...');
+        throw new Error('CONFLICT');        
+      }
+
+      throw new Error(`Failed to write state: ${error.message}`);
     }
   },
 
-  async updateMetadata(updates) {
-    const state = await this.readState();
-    state.metadata = {
-      ...state.metadata,
-      ...updates
-    };
-    await this.writeState(state);
+  async updatePR(repo, prNumber, updates, maxRetires = 3) {
+    for (let attempt = 0; attempt < maxRetires; attempt++) {
+      try {
+        const { state, sha } = await this.readState();
+        console.log('Updating PR state before:', state);
+
+        if (!state.repositories[repo]) {
+          state.repositories[repo] = { pullRequests: {} };
+        }
+
+        state.repositories[repo].pullRequests[prNumber] = {
+          ...state.repositories[repo].pullRequests[prNumber],
+          ...updates,
+          lastUpdated: new Date().toISOString()
+        };
+
+        state.metadata.lastUpdated = new Date().toISOString();
+
+        await this.writeState(state, sha);
+        return state;
+      } catch (error) {
+        if (error.message === 'CONFLICT' && attempt < maxRetires) {
+          console.log(`Retrying update PR state due to conflict (attempt ${attempt + 1})...`);
+          await sleep(1000 * (attempt + 1));
+          // re-read state and reapply updates
+          continue;
+        } else {
+          console.error(`Failed to update PR state: ${error.message}`);
+          throw error;
+        }
+      }
+    }
+  },
+
+  async removePR(repo, prNumber, maxRetries = 3) {
+    for (let attempt = 0; attempt < maxRetries; attempt++) {
+      try {
+        const { state, sha } = await this.readState();
+
+        if (state.repositories[repo]?.pullRequests[prNumber]) {
+          delete state.repositories[repo].pullRequests[prNumber];
+
+          if (Object.keys(state.repositories[repo].pullRequests).length === 0) {
+            delete state.repositories[repo];
+          }
+
+          state.metadata.lastUpdated = new Date().toISOString();
+          await this.writeState(state, sha);
+        }
+        return;
+      } catch (error) {
+        if (error.message === 'CONFLICT' && attempt < maxRetires) {
+          console.log(`Retrying remove PR state due to conflict (attempt ${attempt + 1})...`);
+          await sleep(1000 * (attempt + 1));
+          // re-read state and reapply updates
+          continue;
+        } else {
+          console.error(`Failed to remove PR state: ${error.message}`);
+          throw error;
+        }
+      }
+    
+    }
+  },
+
+  async updateMetadata(updates, maxRetires = 3) {
+    for (let attempt = 0; attempt < maxRetires; attempt++) {
+      try {
+        const { state, sha } = await this.readState();
+        state.metadata = {
+          ...state.metadata,
+          ...updates
+        };
+        await this.writeState(state, sha);
+        return;
+      } catch (error) {
+        if (error.message === 'CONFLICT' && attempt < maxRetires) {
+          console.log(`Retrying update metadata due to conflict (attempt ${attempt + 1})...`);
+          await sleep(1000 * (attempt + 1));
+          continue;
+        } else {
+          console.error(`Failed to update metadata: ${error.message}`);
+          throw error;
+        }
+      }
+    }
+    
+    
   }
 }
 
 async function repostApprovalList() {
-  await sleep(5000);
+  await sleep(3000);
 
-  const state = await stateManager.readState();
+  const { state } = await stateManager.readState();
 
   console.log('Reposting approval list with state:', state);
 
