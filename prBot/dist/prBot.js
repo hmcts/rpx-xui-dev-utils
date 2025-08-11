@@ -302,8 +302,6 @@ const stateManager = {
         }
       }
     }
-    
-    
   }
 }
 
@@ -318,7 +316,7 @@ async function repostApprovalList() {
   
   Object.entries(state.repositories).forEach(([repo, data]) => {
     Object.values(data.pullRequests).forEach(pr => {
-      if (pr.status === 'needs_approval' || pr.changesRequested) {
+      if (pr.status === 'needs_approval' || pr.status === 'changes_requested') {
         needsApproval.push({
           ...pr,
           repository: repo
@@ -336,7 +334,7 @@ async function repostApprovalList() {
   let message = '';
 
   needsApproval.forEach(pr => {
-    const emoji = pr.changesRequested ? '🔧 ' : '';
+    const emoji = pr.status === 'changes_requested' ? '🔧 ' : '';
     message += formatPRMessage(pr.number, pr.author, pr.title, pr.repository, pr.approvals, emoji) + '\n\n';
   });
 
@@ -417,14 +415,22 @@ async function handlePRReview(event) {
 }
 
 async function handlePRChangesRequested(event) {
-  const { prNumber, repo, reviewState } = event;
+  const { prNumber, prAuthor, repo, prTitle, reviewState } = event;
+
+  const approvalCount = await github.getReviews(repo, prNumber);
 
   if (reviewState !== 'changes_requested') {
     return;
   }
 
   await stateManager.updatePR(repo, prNumber, {
-    changesRequested: true,
+    number: prNumber,
+    title: prTitle,
+    author: prAuthor,
+    url: `https://github.com/${repo}/pull/${prNumber}`,
+    status: reviewState,
+    approvals: approvalCount,
+    createdAt: new Date().toISOString(),
   });
 
   await repostApprovalList();
