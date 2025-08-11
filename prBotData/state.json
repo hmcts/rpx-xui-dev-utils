@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1754918097.287169",
-    "lastUpdated": "2025-08-11T14:13:57.497Z"
+    "lastUpdated": "2025-08-11T14:14:05.372Z"
   },
   "repositories": {
     "hmcts/ccd-case-ui-toolkit": {
@@ -28,7 +28,8 @@
           "status": "needs_approval",
           "approvals": 0,
           "createdAt": "2025-08-08T14:10:22.754Z",
-          "lastUpdated": "2025-08-08T14:10:23.057Z"
+          "lastUpdated": "2025-08-11T14:14:05.371Z",
+          "changesRequested": true
         }
       }
     },
