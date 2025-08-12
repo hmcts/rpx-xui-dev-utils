@@ -1,8 +1,21 @@
 {
   "metadata": {
     "approvalListMessageTs": null,
-    "lastUpdated": "2025-08-12T10:39:05.697Z"
+    "lastUpdated": "2025-08-12T11:33:56.742Z"
   },
   "repositories": {
+    "hmcts/rpx-xui-common-lib": {
+      "pullRequests": {
+        "509": {
+          "number": 509,
+          "title": "EXU-3114 tool for pr review process v2",
+          "author": "chrisjones-hmcts",
+          "url": "https://github.com/hmcts/rpx-xui-common-lib/pull/509",
+          "changesRequested": false,
+          "createdAt": "2025-08-12T11:33:56.498Z",
+          "lastUpdated": "2025-08-12T11:33:56.742Z"
+        }
+      }
+    }
   }
 }
