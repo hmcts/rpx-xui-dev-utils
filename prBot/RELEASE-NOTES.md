@@ -1,3 +1,6 @@
+Version 1.0.8
+EXUI-3114 Investigate automation tool to improve PR review process
+
 Version 1.0.7
 EXUI-3114 Investigate automation tool to improve PR review process
 
