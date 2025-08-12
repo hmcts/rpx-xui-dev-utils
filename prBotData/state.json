@@ -4,13 +4,5 @@
     "lastUpdated": "2025-08-12T10:39:05.697Z"
   },
   "repositories": {
-    "hmcts/em-media-viewer": {
-      "pullRequests": {
-        "1195": {
-          "changesRequested": true,
-          "lastUpdated": "2025-08-11T14:13:57.496Z"
-        }
-      }
-    }
   }
 }
