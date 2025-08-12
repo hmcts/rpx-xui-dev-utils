@@ -403,7 +403,10 @@ async function handlePRReview(event) {
     // remove from state
     await stateManager.removePR(repo, prNumber)
   } else {
-    await stateManager.updatePR(repo, prNumber, { approvals: approvedCount })
+    await stateManager.updatePR(repo, prNumber, { 
+      approvals: approvedCount,
+      changesRequested: changesRequestedCount > 0
+    })
   }
 
   await repostApprovalList();
