@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 const https = require('https');
 const fs = require('fs');
 
@@ -444,7 +446,7 @@ async function handlePRClosed(event) {
   await repostApprovalList();
 }
 
-async function main() {
+async function run() {
   validateEnvironment();
   const event = loadEventData();
   
@@ -474,4 +476,25 @@ async function main() {
   }
 }
 
-main();
+module.exports = {
+  CONFIG,
+  ENV,
+  validateEnvironment,
+  sleep,
+  loadEventData,
+  httpRequest,
+  github,
+  slack,
+  stateManager,
+  repostApprovalList,
+  formatPRMessage,
+  handlePROpened,
+  handlePRReview,
+  handlePRChangesRequested,
+  handlePRClosed,
+  run
+}
+
+if (require.main === module) {
+  run();
+}
