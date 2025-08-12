@@ -93,10 +93,10 @@ const github = {
     };
     
     const reviews = await httpRequest(CONFIG.GITHUB_API_BASE, path, 'GET', headers),
-      approved = reviews.filter(review => review.state === 'APPROVED').length,
-      changesRequested = reviews.filter(review => review.state === 'CHANGES_REQUESTED').length;
+      approvedCount = reviews.filter(review => review.state === 'APPROVED').length,
+      changesRequestedCount = reviews.filter(review => review.state === 'CHANGES_REQUESTED').length;
 
-    return { approved, changesRequested };
+    return { approvedCount, changesRequestedCount };
   }
 };
 
