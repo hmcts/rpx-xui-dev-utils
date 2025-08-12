@@ -92,8 +92,11 @@ const github = {
       'User-Agent': 'Node.js'
     };
     
-    const reviews = await httpRequest(CONFIG.GITHUB_API_BASE, path, 'GET', headers);
-    return reviews.filter(review => review.state === 'APPROVED').length;
+    const reviews = await httpRequest(CONFIG.GITHUB_API_BASE, path, 'GET', headers),
+      approved = reviews.filter(review => review.state === 'APPROVED').length,
+      changesRequested = reviews.filter(review => review.state === 'CHANGES_REQUESTED').length;
+
+    return { approved, changesRequested };
   }
 };
 
@@ -318,12 +321,10 @@ async function repostApprovalList() {
   
   Object.entries(state.repositories).forEach(([repo, data]) => {
     Object.values(data.pullRequests).forEach(pr => {
-      if (pr.status === 'needs_approval' || pr.status === 'changes_requested') {
-        needsApproval.push({
-          ...pr,
-          repository: repo
-        });
-      }
+      needsApproval.push({
+        ...pr,
+        repository: repo
+      });
     });
   });
 
@@ -336,7 +337,7 @@ async function repostApprovalList() {
   let message = '';
 
   needsApproval.forEach(pr => {
-    const emoji = pr.status === 'changes_requested' ? '🔧 ' : '';
+    const emoji = pr.changesRequested ? '🔧 ' : '';
     message += formatPRMessage(pr.number, pr.author, pr.title, pr.repository, pr.approvals, emoji) + '\n\n';
   });
 
@@ -358,26 +359,26 @@ async function repostApprovalList() {
   }
 }
 
-function formatPRMessage(prNumber, prAuthor, prTitle, repo, approvalCount, emoji = '') {
+function formatPRMessage(prNumber, prAuthor, prTitle, repo, approvedCount, emoji = '') {
   const truncatedTitle = prTitle.length > ENV.titleMaxLength 
     ? prTitle.slice(0, ENV.titleMaxLength) + '…' 
     : prTitle;
   const prLink = `https://github.com/${repo}/pull/${prNumber}`;
   
-  return `(${approvalCount} of ${ENV.requiredApprovals} approvals) PR #${prNumber} by ${prAuthor}:\n${emoji}<${prLink}|${truncatedTitle}>`;
+  return `(${approvedCount} of ${ENV.requiredApprovals} approvals) PR #${prNumber} by ${prAuthor}:\n${emoji}<${prLink}|${truncatedTitle}>`;
 }
 
 async function handlePROpened(event) {
   const { prNumber, prAuthor, prTitle, repo } = event;
-  const approvalCount = await github.getReviews(repo, prNumber);
+  const { approvedCount, changesRequestedCount } = await github.getReviews(repo, prNumber);
 
   await stateManager.updatePR(repo, prNumber, {
     number: prNumber,
     title: prTitle,
     author: prAuthor,
     url: `https://github.com/${repo}/pull/${prNumber}`,
-    status: 'needs_approval',
-    approvals: approvalCount,
+    changesRequested: changesRequestedCount > 0,
+    approvals: approvedCount,
     createdAt: new Date().toISOString(),
   })
 
@@ -392,25 +393,17 @@ async function handlePRReview(event) {
     return;
   }
 
-  if (reviewState !== 'approved') {
-    return;
-  }
-  
-  const approvalCount = await github.getReviews(repo, prNumber);
+  const { approvedCount, changesRequestedCount } = await github.getReviews(repo, prNumber);
 
-  if (approvalCount >= ENV.requiredApprovals) {
-    if (reviewState !== 'changes_requested') {
-      // post standalone approval message
-      const message = formatPRMessage(prNumber, prAuthor, prTitle, repo, approvalCount, '✅✅ ');
-      await slack.postMessage(ENV.slackChannelId, message);
+  if ((approvedCount >= ENV.requiredApprovals) && changesRequestedCount === 0) {
+    // post standalone approval message
+    const message = formatPRMessage(prNumber, prAuthor, prTitle, repo, approvedCount, '✅✅ ');
+    await slack.postMessage(ENV.slackChannelId, message);
 
-      // remove from state
-      await stateManager.removePR(repo, prNumber)
-    }
+    // remove from state
+    await stateManager.removePR(repo, prNumber)
   } else {
-    await stateManager.updatePR(repo, prNumber, {
-      approvals: approvalCount,
-    })
+    await stateManager.updatePR(repo, prNumber, { approvals: approvedCount })
   }
 
   await repostApprovalList();
@@ -419,7 +412,7 @@ async function handlePRReview(event) {
 async function handlePRChangesRequested(event) {
   const { prNumber, prAuthor, repo, prTitle, reviewState } = event;
 
-  const approvalCount = await github.getReviews(repo, prNumber);
+  const { approvedCount } = await github.getReviews(repo, prNumber);
 
   if (reviewState !== 'changes_requested') {
     return;
@@ -430,8 +423,8 @@ async function handlePRChangesRequested(event) {
     title: prTitle,
     author: prAuthor,
     url: `https://github.com/${repo}/pull/${prNumber}`,
-    status: reviewState,
-    approvals: approvalCount,
+    changesRequested: true,
+    approvals: approvedCount,
     createdAt: new Date().toISOString(),
   });
 
