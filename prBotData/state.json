@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1755082256.310699",
-    "lastUpdated": "2025-08-13T10:50:46.295Z"
+    "lastUpdated": "2025-08-13T10:51:15.203Z"
   },
   "repositories": {
     "hmcts/ccd-case-ui-toolkit": {
@@ -54,9 +54,9 @@
           "author": "chrisjones-hmcts",
           "url": "https://github.com/hmcts/rpx-xui-translation/pull/47",
           "changesRequested": false,
-          "approvals": 0,
-          "createdAt": "2025-08-13T10:50:09.231Z",
-          "lastUpdated": "2025-08-13T10:50:09.392Z"
+          "approvals": 1,
+          "createdAt": "2025-08-13T10:51:15.069Z",
+          "lastUpdated": "2025-08-13T10:51:15.203Z"
         }
       }
     }
