@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1755082321.470409",
-    "lastUpdated": "2025-08-13T10:51:51.467Z"
+    "lastUpdated": "2025-08-13T10:52:17.018Z"
   },
   "repositories": {
     "hmcts/ccd-case-ui-toolkit": {
@@ -26,9 +26,9 @@
           "author": "chrisjones-hmcts",
           "url": "https://github.com/hmcts/rpx-xui-manage-organisations/pull/1394",
           "changesRequested": false,
-          "approvals": 0,
-          "createdAt": "2025-08-13T10:46:17.513Z",
-          "lastUpdated": "2025-08-13T10:46:17.711Z"
+          "approvals": 1,
+          "createdAt": "2025-08-13T10:52:16.836Z",
+          "lastUpdated": "2025-08-13T10:52:17.018Z"
         }
       }
     },
