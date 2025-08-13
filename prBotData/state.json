@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1755081987.653829",
-    "lastUpdated": "2025-08-13T10:46:17.711Z"
+    "lastUpdated": "2025-08-13T10:48:09.277Z"
   },
   "repositories": {
     "hmcts/ccd-case-ui-toolkit": {
@@ -29,6 +29,20 @@
           "approvals": 0,
           "createdAt": "2025-08-13T10:46:17.513Z",
           "lastUpdated": "2025-08-13T10:46:17.711Z"
+        }
+      }
+    },
+    "hmcts/rpx-xui-node-lib": {
+      "pullRequests": {
+        "278": {
+          "number": 278,
+          "title": "EXU-3114 tool for pr review process",
+          "author": "chrisjones-hmcts",
+          "url": "https://github.com/hmcts/rpx-xui-node-lib/pull/278",
+          "changesRequested": false,
+          "approvals": 0,
+          "createdAt": "2025-08-13T10:48:09.136Z",
+          "lastUpdated": "2025-08-13T10:48:09.277Z"
         }
       }
     }
