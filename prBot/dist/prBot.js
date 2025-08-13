@@ -403,10 +403,15 @@ async function handlePRReview(event) {
     // remove from state
     await stateManager.removePR(repo, prNumber)
   } else {
-    await stateManager.updatePR(repo, prNumber, { 
+    await stateManager.updatePR(repo, prNumber, {
+      number: prNumber,
+      title: prTitle,
+      author: prAuthor,
+      url: `https://github.com/${repo}/pull/${prNumber}`,
+      changesRequested: changesRequestedCount > 0,
       approvals: approvedCount,
-      changesRequested: changesRequestedCount > 0
-    })
+      createdAt: new Date().toISOString()
+    });
   }
 
   await repostApprovalList();
