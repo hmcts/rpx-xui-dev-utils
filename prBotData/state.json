@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1755267611.978099",
-    "lastUpdated": "2025-08-15T14:20:02.755Z"
+    "lastUpdated": "2025-08-15T14:22:13.721Z"
   },
   "repositories": {
     "hmcts/ccd-case-ui-toolkit": {
@@ -26,9 +26,9 @@
           "author": "chrisjones-hmcts",
           "url": "https://github.com/hmcts/em-media-viewer/pull/1195",
           "changesRequested": true,
-          "approvals": 2,
-          "createdAt": "2025-08-13T10:53:14.442Z",
-          "lastUpdated": "2025-08-13T10:53:14.648Z"
+          "approvals": 3,
+          "createdAt": "2025-08-15T14:22:13.546Z",
+          "lastUpdated": "2025-08-15T14:22:13.721Z"
         }
       }
     },
