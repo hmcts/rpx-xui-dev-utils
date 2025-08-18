@@ -393,6 +393,8 @@ async function handlePRReview(event) {
     return;
   }
 
+  await sleep(2000);
+
   const { approvedCount, changesRequestedCount } = await github.getReviews(repo, prNumber);
 
   if ((approvedCount >= ENV.requiredApprovals) && changesRequestedCount === 0) {
