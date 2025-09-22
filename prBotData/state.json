@@ -1,23 +1,9 @@
 {
   "metadata": {
     "approvalListMessageTs": "1758545976.554299",
-    "lastUpdated": "2025-09-22T12:59:26.555Z"
+    "lastUpdated": "2025-09-22T13:00:32.369Z"
   },
   "repositories": {
-    "hmcts/em-media-viewer": {
-      "pullRequests": {
-        "1213": {
-          "number": 1213,
-          "title": "exui-3503audit scan",
-          "author": "RiteshHMCTS",
-          "url": "https://github.com/hmcts/em-media-viewer/pull/1213",
-          "changesRequested": false,
-          "approvals": 1,
-          "createdAt": "2025-09-22T12:54:58.990Z",
-          "lastUpdated": "2025-09-22T12:54:59.145Z"
-        }
-      }
-    },
     "hmcts/rpx-xui-approve-org": {
       "pullRequests": {
         "913": {
