@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1758617560.927929",
-    "lastUpdated": "2025-09-23T08:52:31.129Z"
+    "lastUpdated": "2025-09-23T08:54:52.471Z"
   },
   "repositories": {
     "hmcts/rpx-xui-webapp": {
@@ -40,9 +40,9 @@
           "author": "balajisridharanhmcts",
           "url": "https://github.com/hmcts/rpx-xui-approve-org/pull/933",
           "changesRequested": false,
-          "approvals": 0,
-          "createdAt": "2025-09-22T17:00:03.812Z",
-          "lastUpdated": "2025-09-22T17:00:03.950Z"
+          "approvals": 1,
+          "createdAt": "2025-09-23T08:54:52.225Z",
+          "lastUpdated": "2025-09-23T08:54:52.471Z"
         },
         "934": {
           "number": 934,
