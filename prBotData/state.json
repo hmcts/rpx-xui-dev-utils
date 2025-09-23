@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1758619294.146629",
-    "lastUpdated": "2025-09-23T09:12:56.998Z"
+    "lastUpdated": "2025-09-23T09:50:41.702Z"
   },
   "repositories": {
     "hmcts/rpx-xui-approve-org": {
@@ -15,6 +15,20 @@
           "approvals": 0,
           "createdAt": "2025-09-22T17:16:27.383Z",
           "lastUpdated": "2025-09-22T17:16:27.666Z"
+        }
+      }
+    },
+    "hmcts/rpx-xui-translation": {
+      "pullRequests": {
+        "49": {
+          "number": 49,
+          "title": "CME-780: angular 20",
+          "author": "AntonyLeons",
+          "url": "https://github.com/hmcts/rpx-xui-translation/pull/49",
+          "changesRequested": false,
+          "approvals": 0,
+          "createdAt": "2025-09-23T09:50:41.472Z",
+          "lastUpdated": "2025-09-23T09:50:41.702Z"
         }
       }
     }
