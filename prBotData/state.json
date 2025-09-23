@@ -1,23 +1,9 @@
 {
   "metadata": {
     "approvalListMessageTs": "1758618762.878499",
-    "lastUpdated": "2025-09-23T09:12:33.256Z"
+    "lastUpdated": "2025-09-23T09:12:45.493Z"
   },
   "repositories": {
-    "hmcts/rpx-xui-webapp": {
-      "pullRequests": {
-        "4650": {
-          "number": 4650,
-          "title": "exui-3502-fortify issue",
-          "author": "RiteshHMCTS",
-          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/4650",
-          "changesRequested": false,
-          "approvals": 1,
-          "createdAt": "2025-09-23T08:50:42.647Z",
-          "lastUpdated": "2025-09-23T08:50:42.780Z"
-        }
-      }
-    },
     "hmcts/rpx-xui-manage-organisations": {
       "pullRequests": {
         "1410": {
