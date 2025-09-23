@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1758617931.807239",
-    "lastUpdated": "2025-09-23T08:54:52.471Z"
+    "lastUpdated": "2025-09-23T09:12:33.256Z"
   },
   "repositories": {
     "hmcts/rpx-xui-webapp": {
@@ -34,16 +34,6 @@
     },
     "hmcts/rpx-xui-approve-org": {
       "pullRequests": {
-        "933": {
-          "number": 933,
-          "title": "Exui 580 request forgery",
-          "author": "balajisridharanhmcts",
-          "url": "https://github.com/hmcts/rpx-xui-approve-org/pull/933",
-          "changesRequested": false,
-          "approvals": 1,
-          "createdAt": "2025-09-23T08:54:52.225Z",
-          "lastUpdated": "2025-09-23T08:54:52.471Z"
-        },
         "934": {
           "number": 934,
           "title": "exui 580 request forgery fix",
