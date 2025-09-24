@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1758702419.527719",
-    "lastUpdated": "2025-09-24T08:26:49.689Z"
+    "lastUpdated": "2025-09-24T10:59:27.618Z"
   },
   "repositories": {
     "hmcts/rpx-xui-approve-org": {
@@ -57,6 +57,16 @@
           "approvals": 1,
           "createdAt": "2025-09-24T08:26:49.470Z",
           "lastUpdated": "2025-09-24T08:26:49.689Z"
+        },
+        "1411": {
+          "number": 1411,
+          "title": "exui-3513-enable fortify scan",
+          "author": "RiteshHMCTS",
+          "url": "https://github.com/hmcts/rpx-xui-manage-organisations/pull/1411",
+          "changesRequested": false,
+          "approvals": 0,
+          "createdAt": "2025-09-24T10:59:27.397Z",
+          "lastUpdated": "2025-09-24T10:59:27.618Z"
         }
       }
     }
