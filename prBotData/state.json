@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1758702321.114249",
-    "lastUpdated": "2025-09-24T08:25:11.916Z"
+    "lastUpdated": "2025-09-24T08:26:49.689Z"
   },
   "repositories": {
     "hmcts/rpx-xui-approve-org": {
@@ -43,6 +43,20 @@
           "approvals": 1,
           "createdAt": "2025-09-24T08:25:11.782Z",
           "lastUpdated": "2025-09-24T08:25:11.916Z"
+        }
+      }
+    },
+    "hmcts/rpx-xui-manage-organisations": {
+      "pullRequests": {
+        "1409": {
+          "number": 1409,
+          "title": "Add initial protractor removal",
+          "author": "connorpgpmcelroy",
+          "url": "https://github.com/hmcts/rpx-xui-manage-organisations/pull/1409",
+          "changesRequested": false,
+          "approvals": 1,
+          "createdAt": "2025-09-24T08:26:49.470Z",
+          "lastUpdated": "2025-09-24T08:26:49.689Z"
         }
       }
     }
