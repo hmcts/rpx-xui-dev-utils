@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1758717761.355019",
-    "lastUpdated": "2025-09-24T12:42:31.872Z"
+    "lastUpdated": "2025-09-24T12:51:28.970Z"
   },
   "repositories": {
     "hmcts/rpx-xui-approve-org": {
@@ -57,20 +57,6 @@
           "approvals": 1,
           "createdAt": "2025-09-24T08:26:49.470Z",
           "lastUpdated": "2025-09-24T08:26:49.689Z"
-        }
-      }
-    },
-    "hmcts/rpx-xui-webapp": {
-      "pullRequests": {
-        "4523": {
-          "number": 4523,
-          "title": "point to preview ICP API",
-          "author": "andywilkinshmcts",
-          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/4523",
-          "changesRequested": false,
-          "approvals": 1,
-          "createdAt": "2025-09-24T12:42:31.724Z",
-          "lastUpdated": "2025-09-24T12:42:31.872Z"
         }
       }
     }
