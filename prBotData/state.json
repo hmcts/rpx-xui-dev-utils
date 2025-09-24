@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1758723961.272629",
-    "lastUpdated": "2025-09-24T14:21:30.399Z"
+    "lastUpdated": "2025-09-24T14:49:23.595Z"
   },
   "repositories": {
     "hmcts/rpx-xui-approve-org": {
@@ -53,6 +53,16 @@
           "approvals": 1,
           "createdAt": "2025-09-24T08:25:11.782Z",
           "lastUpdated": "2025-09-24T08:25:11.916Z"
+        },
+        "1216": {
+          "number": 1216,
+          "title": "exui 3499 media viewer vulnerabilities",
+          "author": "balajisridharanhmcts",
+          "url": "https://github.com/hmcts/em-media-viewer/pull/1216",
+          "changesRequested": false,
+          "approvals": 0,
+          "createdAt": "2025-09-24T14:49:23.359Z",
+          "lastUpdated": "2025-09-24T14:49:23.595Z"
         }
       }
     },
