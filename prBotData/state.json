@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1758728724.900949",
-    "lastUpdated": "2025-09-24T15:45:15.471Z"
+    "lastUpdated": "2025-09-25T09:12:39.124Z"
   },
   "repositories": {
     "hmcts/rpx-xui-approve-org": {
@@ -63,6 +63,16 @@
           "approvals": 0,
           "createdAt": "2025-09-24T14:49:23.359Z",
           "lastUpdated": "2025-09-24T14:49:23.595Z"
+        },
+        "1217": {
+          "number": 1217,
+          "title": "exui-3514-audit scan",
+          "author": "RiteshHMCTS",
+          "url": "https://github.com/hmcts/em-media-viewer/pull/1217",
+          "changesRequested": false,
+          "approvals": 0,
+          "createdAt": "2025-09-25T09:12:38.960Z",
+          "lastUpdated": "2025-09-25T09:12:39.124Z"
         }
       }
     }
