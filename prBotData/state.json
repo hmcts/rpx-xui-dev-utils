@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1758810210.102109",
-    "lastUpdated": "2025-09-25T14:23:20.292Z"
+    "lastUpdated": "2025-09-25T14:55:47.482Z"
   },
   "repositories": {
     "hmcts/rpx-xui-approve-org": {
@@ -59,6 +59,20 @@
           "approvals": 0,
           "createdAt": "2025-09-25T14:23:20.149Z",
           "lastUpdated": "2025-09-25T14:23:20.292Z"
+        }
+      }
+    },
+    "hmcts/rpx-xui-webapp": {
+      "pullRequests": {
+        "4652": {
+          "number": 4652,
+          "title": "fix issue with sending empty data",
+          "author": "olusegz07",
+          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/4652",
+          "changesRequested": false,
+          "approvals": 0,
+          "createdAt": "2025-09-25T14:55:47.294Z",
+          "lastUpdated": "2025-09-25T14:55:47.482Z"
         }
       }
     }
