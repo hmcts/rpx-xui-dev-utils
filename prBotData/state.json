@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1758808089.726989",
-    "lastUpdated": "2025-09-25T13:48:00.385Z"
+    "lastUpdated": "2025-09-25T14:23:20.292Z"
   },
   "repositories": {
     "hmcts/rpx-xui-approve-org": {
@@ -49,6 +49,16 @@
           "approvals": 0,
           "createdAt": "2025-09-25T12:27:06.830Z",
           "lastUpdated": "2025-09-25T12:27:06.992Z"
+        },
+        "1219": {
+          "number": 1219,
+          "title": "Log vault values",
+          "author": "Josh-HMCTS",
+          "url": "https://github.com/hmcts/em-media-viewer/pull/1219",
+          "changesRequested": false,
+          "approvals": 0,
+          "createdAt": "2025-09-25T14:23:20.149Z",
+          "lastUpdated": "2025-09-25T14:23:20.292Z"
         }
       }
     }
