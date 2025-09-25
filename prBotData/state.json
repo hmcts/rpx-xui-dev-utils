@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1758807176.056409",
-    "lastUpdated": "2025-09-25T13:32:46.368Z"
+    "lastUpdated": "2025-09-25T13:48:00.385Z"
   },
   "repositories": {
     "hmcts/rpx-xui-approve-org": {
@@ -15,16 +15,6 @@
           "approvals": 0,
           "createdAt": "2025-09-24T14:21:30.240Z",
           "lastUpdated": "2025-09-24T14:21:30.399Z"
-        },
-        "936": {
-          "number": 936,
-          "title": "DO NOT MERGE - Update index.html",
-          "author": "connorpgpmcelroy",
-          "url": "https://github.com/hmcts/rpx-xui-approve-org/pull/936",
-          "changesRequested": false,
-          "approvals": 0,
-          "createdAt": "2025-09-24T15:27:27.666Z",
-          "lastUpdated": "2025-09-24T15:27:27.834Z"
         }
       }
     },
