@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1758898134.560529",
-    "lastUpdated": "2025-09-26T14:48:45.415Z"
+    "lastUpdated": "2025-09-26T15:01:35.355Z"
   },
   "repositories": {
     "hmcts/rpx-xui-approve-org": {
@@ -67,6 +67,16 @@
           "approvals": 1,
           "createdAt": "2025-09-26T14:10:01.670Z",
           "lastUpdated": "2025-09-26T14:10:01.878Z"
+        },
+        "1413": {
+          "number": 1413,
+          "title": "Update codecept.conf.ts",
+          "author": "connorpgpmcelroy",
+          "url": "https://github.com/hmcts/rpx-xui-manage-organisations/pull/1413",
+          "changesRequested": false,
+          "approvals": 0,
+          "createdAt": "2025-09-26T15:01:35.070Z",
+          "lastUpdated": "2025-09-26T15:01:35.355Z"
         }
       }
     }
