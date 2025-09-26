@@ -1,23 +1,9 @@
 {
   "metadata": {
     "approvalListMessageTs": "1758899789.432109",
-    "lastUpdated": "2025-09-26T15:16:19.800Z"
+    "lastUpdated": "2025-09-26T15:21:54.566Z"
   },
   "repositories": {
-    "hmcts/rpx-xui-approve-org": {
-      "pullRequests": {
-        "935": {
-          "number": 935,
-          "title": "EXUI-3412 - Add csp changes and consumption",
-          "author": "connorpgpmcelroy",
-          "url": "https://github.com/hmcts/rpx-xui-approve-org/pull/935",
-          "changesRequested": false,
-          "approvals": 1,
-          "createdAt": "2025-09-25T14:59:40.482Z",
-          "lastUpdated": "2025-09-25T14:59:40.615Z"
-        }
-      }
-    },
     "hmcts/em-media-viewer": {
       "pullRequests": {
         "1215": {
