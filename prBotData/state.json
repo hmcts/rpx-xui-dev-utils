@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1759135886.791279",
-    "lastUpdated": "2025-09-29T08:49:13.269Z"
+    "lastUpdated": "2025-09-29T08:53:11.868Z"
   },
   "repositories": {
     "hmcts/em-media-viewer": {
@@ -45,6 +45,20 @@
           "approvals": 0,
           "createdAt": "2025-09-29T08:34:22.890Z",
           "lastUpdated": "2025-09-29T08:34:23.429Z"
+        }
+      }
+    },
+    "hmcts/rpx-xui-manage-organisations": {
+      "pullRequests": {
+        "1414": {
+          "number": 1414,
+          "title": "Update dependency @hmcts/rpx-xui-common-lib to v2.1.5",
+          "author": "renovate[bot]",
+          "url": "https://github.com/hmcts/rpx-xui-manage-organisations/pull/1414",
+          "changesRequested": false,
+          "approvals": 0,
+          "createdAt": "2025-09-29T08:53:11.684Z",
+          "lastUpdated": "2025-09-29T08:53:11.868Z"
         }
       }
     }
