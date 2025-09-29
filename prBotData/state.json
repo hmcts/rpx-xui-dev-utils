@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1759136860.392709",
-    "lastUpdated": "2025-09-29T09:07:31.251Z"
+    "lastUpdated": "2025-09-29T09:19:56.391Z"
   },
   "repositories": {
     "hmcts/em-media-viewer": {
@@ -35,16 +35,6 @@
           "approvals": 0,
           "createdAt": "2025-09-26T16:50:45.882Z",
           "lastUpdated": "2025-09-26T16:50:46.028Z"
-        },
-        "1222": {
-          "number": 1222,
-          "title": "audit file",
-          "author": "Josh-HMCTS",
-          "url": "https://github.com/hmcts/em-media-viewer/pull/1222",
-          "changesRequested": false,
-          "approvals": 0,
-          "createdAt": "2025-09-29T08:34:22.890Z",
-          "lastUpdated": "2025-09-29T08:34:23.429Z"
         }
       }
     },
