@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1759136034.151159",
-    "lastUpdated": "2025-09-29T08:53:44.327Z"
+    "lastUpdated": "2025-09-29T08:59:05.772Z"
   },
   "repositories": {
     "hmcts/em-media-viewer": {
@@ -69,20 +69,6 @@
           "approvals": 0,
           "createdAt": "2025-09-29T08:53:44.097Z",
           "lastUpdated": "2025-09-29T08:53:44.327Z"
-        }
-      }
-    },
-    "hmcts/rpx-xui-webapp": {
-      "pullRequests": {
-        "4497": {
-          "number": 4497,
-          "title": "CME-680 update pacts to V3",
-          "author": "rapolaskaseliscgi",
-          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/4497",
-          "changesRequested": false,
-          "approvals": 1,
-          "createdAt": "2025-09-29T08:53:19.595Z",
-          "lastUpdated": "2025-09-29T08:53:19.766Z"
         }
       }
     }
