@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1759137606.076169",
-    "lastUpdated": "2025-09-29T09:19:56.391Z"
+    "lastUpdated": "2025-09-29T09:22:30.383Z"
   },
   "repositories": {
     "hmcts/em-media-viewer": {
@@ -59,6 +59,16 @@
           "approvals": 0,
           "createdAt": "2025-09-29T08:53:44.097Z",
           "lastUpdated": "2025-09-29T08:53:44.327Z"
+        },
+        "1416": {
+          "number": 1416,
+          "title": "Update dependency @types/node to v18.19.127",
+          "author": "renovate[bot]",
+          "url": "https://github.com/hmcts/rpx-xui-manage-organisations/pull/1416",
+          "changesRequested": false,
+          "approvals": 0,
+          "createdAt": "2025-09-29T09:22:30.146Z",
+          "lastUpdated": "2025-09-29T09:22:30.383Z"
         }
       }
     },
