@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1759136655.368849",
-    "lastUpdated": "2025-09-29T08:59:05.772Z"
+    "lastUpdated": "2025-09-29T09:07:31.251Z"
   },
   "repositories": {
     "hmcts/em-media-viewer": {
@@ -69,6 +69,20 @@
           "approvals": 0,
           "createdAt": "2025-09-29T08:53:44.097Z",
           "lastUpdated": "2025-09-29T08:53:44.327Z"
+        }
+      }
+    },
+    "hmcts/rpx-xui-webapp": {
+      "pullRequests": {
+        "4653": {
+          "number": 4653,
+          "title": "Update dependency mochawesome to v7.1.4",
+          "author": "renovate[bot]",
+          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/4653",
+          "changesRequested": false,
+          "approvals": 0,
+          "createdAt": "2025-09-29T09:07:31.101Z",
+          "lastUpdated": "2025-09-29T09:07:31.251Z"
         }
       }
     }
