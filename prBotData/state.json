@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1759161976.603219",
-    "lastUpdated": "2025-09-29T16:06:06.281Z"
+    "lastUpdated": "2025-09-29T18:03:23.636Z"
   },
   "repositories": {
     "hmcts/em-media-viewer": {
@@ -113,6 +113,20 @@
           "approvals": 0,
           "createdAt": "2025-09-29T13:56:28.978Z",
           "lastUpdated": "2025-09-29T13:56:29.131Z"
+        }
+      }
+    },
+    "hmcts/rpx-xui-approve-org": {
+      "pullRequests": {
+        "937": {
+          "number": 937,
+          "title": "CME-774: Angular-19: building",
+          "author": "AntonyLeons",
+          "url": "https://github.com/hmcts/rpx-xui-approve-org/pull/937",
+          "changesRequested": false,
+          "approvals": 0,
+          "createdAt": "2025-09-29T18:03:23.498Z",
+          "lastUpdated": "2025-09-29T18:03:23.636Z"
         }
       }
     }
