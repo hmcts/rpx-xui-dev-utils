@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1759136009.036769",
-    "lastUpdated": "2025-09-29T08:53:19.766Z"
+    "lastUpdated": "2025-09-29T08:53:44.327Z"
   },
   "repositories": {
     "hmcts/em-media-viewer": {
@@ -59,6 +59,16 @@
           "approvals": 0,
           "createdAt": "2025-09-29T08:53:11.684Z",
           "lastUpdated": "2025-09-29T08:53:11.868Z"
+        },
+        "1415": {
+          "number": 1415,
+          "title": "Update dependency @microsoft/applicationinsights-web to v3.3.10",
+          "author": "renovate[bot]",
+          "url": "https://github.com/hmcts/rpx-xui-manage-organisations/pull/1415",
+          "changesRequested": false,
+          "approvals": 0,
+          "createdAt": "2025-09-29T08:53:44.097Z",
+          "lastUpdated": "2025-09-29T08:53:44.327Z"
         }
       }
     },
