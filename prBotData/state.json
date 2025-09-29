@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1759141409.662389",
-    "lastUpdated": "2025-09-29T09:49:01.558Z"
+    "lastUpdated": "2025-09-29T10:24:57.534Z"
   },
   "repositories": {
     "hmcts/em-media-viewer": {
@@ -93,6 +93,16 @@
           "approvals": 0,
           "createdAt": "2025-09-29T09:07:31.101Z",
           "lastUpdated": "2025-09-29T09:07:31.251Z"
+        },
+        "4654": {
+          "number": 4654,
+          "title": "Update dependency tar-fs to v3.1.1",
+          "author": "renovate[bot]",
+          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/4654",
+          "changesRequested": false,
+          "approvals": 0,
+          "createdAt": "2025-09-29T10:24:57.362Z",
+          "lastUpdated": "2025-09-29T10:24:57.534Z"
         }
       }
     }
