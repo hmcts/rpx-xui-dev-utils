@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1759158287.699379",
-    "lastUpdated": "2025-09-29T15:04:38.121Z"
+    "lastUpdated": "2025-09-29T15:10:16.338Z"
   },
   "repositories": {
     "hmcts/em-media-viewer": {
@@ -42,9 +42,9 @@
           "author": "connorpgpmcelroy",
           "url": "https://github.com/hmcts/em-media-viewer/pull/1223",
           "changesRequested": false,
-          "approvals": 0,
-          "createdAt": "2025-09-29T15:04:37.977Z",
-          "lastUpdated": "2025-09-29T15:04:38.121Z"
+          "approvals": 1,
+          "createdAt": "2025-09-29T15:10:16.121Z",
+          "lastUpdated": "2025-09-29T15:10:16.338Z"
         }
       }
     },
