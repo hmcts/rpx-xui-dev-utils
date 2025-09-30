@@ -1,11 +1,21 @@
 {
   "metadata": {
     "approvalListMessageTs": "1759227020.110769",
-    "lastUpdated": "2025-09-30T10:10:09.993Z"
+    "lastUpdated": "2025-09-30T10:10:43.273Z"
   },
   "repositories": {
     "hmcts/em-media-viewer": {
       "pullRequests": {
+        "1215": {
+          "number": 1215,
+          "title": "Update dependency codeceptjs to v3.7.5 [SECURITY]",
+          "author": "renovate[bot]",
+          "url": "https://github.com/hmcts/em-media-viewer/pull/1215",
+          "changesRequested": true,
+          "approvals": 2,
+          "createdAt": "2025-09-30T10:10:43.118Z",
+          "lastUpdated": "2025-09-30T10:10:43.273Z"
+        },
         "1218": {
           "number": 1218,
           "title": "exui-3514-audit scan",
