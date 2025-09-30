@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1759227052.564209",
-    "lastUpdated": "2025-09-30T10:10:43.273Z"
+    "lastUpdated": "2025-09-30T12:45:40.000Z"
   },
   "repositories": {
     "hmcts/em-media-viewer": {
@@ -100,9 +100,9 @@
           "author": "connorpgpmcelroy",
           "url": "https://github.com/hmcts/rpx-xui-webapp/pull/4655",
           "changesRequested": false,
-          "approvals": 0,
-          "createdAt": "2025-09-29T13:56:28.978Z",
-          "lastUpdated": "2025-09-29T13:56:29.131Z"
+          "approvals": 1,
+          "createdAt": "2025-09-30T12:45:39.783Z",
+          "lastUpdated": "2025-09-30T12:45:40.000Z"
         }
       }
     },
