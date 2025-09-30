@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1759236350.412989",
-    "lastUpdated": "2025-09-30T12:45:40.000Z"
+    "lastUpdated": "2025-09-30T13:37:08.902Z"
   },
   "repositories": {
     "hmcts/em-media-viewer": {
@@ -93,16 +93,6 @@
           "approvals": 0,
           "createdAt": "2025-09-29T10:24:57.362Z",
           "lastUpdated": "2025-09-29T10:24:57.534Z"
-        },
-        "4655": {
-          "number": 4655,
-          "title": "Add potential test fix",
-          "author": "connorpgpmcelroy",
-          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/4655",
-          "changesRequested": false,
-          "approvals": 1,
-          "createdAt": "2025-09-30T12:45:39.783Z",
-          "lastUpdated": "2025-09-30T12:45:40.000Z"
         }
       }
     },
