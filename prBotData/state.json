@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1759405291.776389",
-    "lastUpdated": "2025-10-02T11:41:22.628Z"
+    "lastUpdated": "2025-10-02T11:45:18.847Z"
   },
   "repositories": {
     "hmcts/em-media-viewer": {
@@ -187,16 +187,6 @@
           "approvals": 0,
           "createdAt": "2025-09-29T18:03:23.498Z",
           "lastUpdated": "2025-09-29T18:03:23.636Z"
-        },
-        "938": {
-          "number": 938,
-          "title": "EXUI-3542 - Fix bitnami issue",
-          "author": "connorpgpmcelroy",
-          "url": "https://github.com/hmcts/rpx-xui-approve-org/pull/938",
-          "changesRequested": false,
-          "approvals": 1,
-          "createdAt": "2025-10-02T11:35:32.649Z",
-          "lastUpdated": "2025-10-02T11:35:32.865Z"
         }
       }
     }
