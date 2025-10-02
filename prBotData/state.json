@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1759414996.645679",
-    "lastUpdated": "2025-10-02T11:49:25.700Z"
+    "lastUpdated": "2025-10-02T14:30:55.222Z"
   },
   "repositories": {
     "hmcts/em-media-viewer": {
@@ -59,16 +59,6 @@
           "approvals": 0,
           "createdAt": "2025-09-29T09:22:30.146Z",
           "lastUpdated": "2025-09-29T09:22:30.383Z"
-        },
-        "1417": {
-          "number": 1417,
-          "title": "exui-3543-fix for pipeline failure",
-          "author": "RiteshHMCTS",
-          "url": "https://github.com/hmcts/rpx-xui-manage-organisations/pull/1417",
-          "changesRequested": false,
-          "approvals": 1,
-          "createdAt": "2025-10-02T11:46:19.881Z",
-          "lastUpdated": "2025-10-02T11:46:20.011Z"
         }
       }
     },
