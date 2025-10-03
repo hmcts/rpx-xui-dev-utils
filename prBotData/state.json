@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1759503499.972089",
-    "lastUpdated": "2025-10-03T14:58:10.394Z"
+    "lastUpdated": "2025-10-03T15:23:35.123Z"
   },
   "repositories": {
     "hmcts/em-media-viewer": {
@@ -150,9 +150,9 @@
           "author": "kasi-subramaniam",
           "url": "https://github.com/hmcts/rpx-xui-webapp/pull/4661",
           "changesRequested": false,
-          "approvals": 0,
-          "createdAt": "2025-10-02T11:41:22.495Z",
-          "lastUpdated": "2025-10-02T11:41:22.628Z"
+          "approvals": 1,
+          "createdAt": "2025-10-03T15:23:34.842Z",
+          "lastUpdated": "2025-10-03T15:23:35.123Z"
         },
         "4662": {
           "number": 4662,
