@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1759497617.709679",
-    "lastUpdated": "2025-10-03T13:20:08.318Z"
+    "lastUpdated": "2025-10-03T13:52:45.342Z"
   },
   "repositories": {
     "hmcts/em-media-viewer": {
@@ -163,16 +163,6 @@
           "approvals": 0,
           "createdAt": "2025-10-02T16:01:17.903Z",
           "lastUpdated": "2025-10-02T16:01:18.060Z"
-        },
-        "4663": {
-          "number": 4663,
-          "title": "EXUI-3197 scrub old commits",
-          "author": "chrisjones-hmcts",
-          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/4663",
-          "changesRequested": false,
-          "approvals": 0,
-          "createdAt": "2025-10-03T13:20:08.159Z",
-          "lastUpdated": "2025-10-03T13:20:08.318Z"
         }
       }
     },
