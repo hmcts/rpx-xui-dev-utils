@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1759481569.153749",
-    "lastUpdated": "2025-10-03T08:52:39.688Z"
+    "lastUpdated": "2025-10-03T09:34:35.295Z"
   },
   "repositories": {
     "hmcts/em-media-viewer": {
@@ -181,16 +181,6 @@
           "approvals": 0,
           "createdAt": "2025-10-02T14:33:37.733Z",
           "lastUpdated": "2025-10-02T14:33:37.858Z"
-        },
-        "514": {
-          "number": 514,
-          "title": "Cme 778 angular 20",
-          "author": "AntonyLeons",
-          "url": "https://github.com/hmcts/rpx-xui-common-lib/pull/514",
-          "changesRequested": false,
-          "approvals": 0,
-          "createdAt": "2025-10-03T08:52:39.523Z",
-          "lastUpdated": "2025-10-03T08:52:39.688Z"
         }
       }
     },
