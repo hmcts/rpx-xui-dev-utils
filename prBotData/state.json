@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1759421718.834229",
-    "lastUpdated": "2025-10-02T16:15:09.125Z"
+    "lastUpdated": "2025-10-03T07:44:24.624Z"
   },
   "repositories": {
     "hmcts/em-media-viewer": {
@@ -103,16 +103,6 @@
           "approvals": 0,
           "createdAt": "2025-09-30T14:16:33.942Z",
           "lastUpdated": "2025-09-30T14:16:34.115Z"
-        },
-        "4657": {
-          "number": 4657,
-          "title": "Task/ex UI 3532 crossbrowser failing nightly",
-          "author": "connorpgpmcelroy",
-          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/4657",
-          "changesRequested": false,
-          "approvals": 1,
-          "createdAt": "2025-10-02T16:15:08.912Z",
-          "lastUpdated": "2025-10-02T16:15:09.125Z"
         },
         "4658": {
           "number": 4658,
