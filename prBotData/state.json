@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1759505024.896939",
-    "lastUpdated": "2025-10-03T15:23:35.123Z"
+    "lastUpdated": "2025-10-03T15:30:38.525Z"
   },
   "repositories": {
     "hmcts/em-media-viewer": {
@@ -143,16 +143,6 @@
           "approvals": 0,
           "createdAt": "2025-10-01T13:48:27.297Z",
           "lastUpdated": "2025-10-01T13:48:27.468Z"
-        },
-        "4661": {
-          "number": 4661,
-          "title": "EXUI-3541 - Provider -> State name changed to match with the value in the WA Provider Test",
-          "author": "kasi-subramaniam",
-          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/4661",
-          "changesRequested": false,
-          "approvals": 1,
-          "createdAt": "2025-10-03T15:23:34.842Z",
-          "lastUpdated": "2025-10-03T15:23:35.123Z"
         },
         "4662": {
           "number": 4662,
