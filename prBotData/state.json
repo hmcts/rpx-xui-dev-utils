@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1759484084.428649",
-    "lastUpdated": "2025-10-03T09:34:35.295Z"
+    "lastUpdated": "2025-10-03T10:44:44.965Z"
   },
   "repositories": {
     "hmcts/em-media-viewer": {
@@ -25,6 +25,16 @@
           "approvals": 0,
           "createdAt": "2025-09-25T12:27:06.830Z",
           "lastUpdated": "2025-09-25T12:27:06.992Z"
+        },
+        "1224": {
+          "number": 1224,
+          "title": "exui-3550-sonar-issue",
+          "author": "RiteshHMCTS",
+          "url": "https://github.com/hmcts/em-media-viewer/pull/1224",
+          "changesRequested": false,
+          "approvals": 0,
+          "createdAt": "2025-10-03T10:44:44.831Z",
+          "lastUpdated": "2025-10-03T10:44:44.965Z"
         }
       }
     },
