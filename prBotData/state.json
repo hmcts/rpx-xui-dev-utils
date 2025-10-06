@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1759759100.988179",
-    "lastUpdated": "2025-10-06T13:58:10.703Z"
+    "lastUpdated": "2025-10-06T14:15:49.840Z"
   },
   "repositories": {
     "hmcts/em-media-viewer": {
@@ -84,16 +84,6 @@
     },
     "hmcts/rpx-xui-webapp": {
       "pullRequests": {
-        "4609": {
-          "number": 4609,
-          "title": "Exui 2916 welsh translation issues",
-          "author": "chrisjones-hmcts",
-          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/4609",
-          "changesRequested": false,
-          "approvals": 1,
-          "createdAt": "2025-10-06T13:54:57.726Z",
-          "lastUpdated": "2025-10-06T13:54:57.949Z"
-        },
         "4640": {
           "number": 4640,
           "title": "exui-3166",
