@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1759737934.954929",
-    "lastUpdated": "2025-10-03T16:21:55.149Z"
+    "lastUpdated": "2025-10-06T08:07:03.199Z"
   },
   "repositories": {
     "hmcts/em-media-viewer": {
@@ -40,6 +40,16 @@
     },
     "hmcts/rpx-xui-manage-organisations": {
       "pullRequests": {
+        "1412": {
+          "number": 1412,
+          "title": "EXUI-3291 increase unit test coverage",
+          "author": "chrisjones-hmcts",
+          "url": "https://github.com/hmcts/rpx-xui-manage-organisations/pull/1412",
+          "changesRequested": false,
+          "approvals": 1,
+          "createdAt": "2025-10-06T08:07:03.037Z",
+          "lastUpdated": "2025-10-06T08:07:03.199Z"
+        },
         "1414": {
           "number": 1414,
           "title": "Update dependency @hmcts/rpx-xui-common-lib to v2.1.5",
