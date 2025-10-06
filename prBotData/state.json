@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1759760159.585399",
-    "lastUpdated": "2025-10-06T14:15:49.840Z"
+    "lastUpdated": "2025-10-06T14:56:17.553Z"
   },
   "repositories": {
     "hmcts/em-media-viewer": {
@@ -204,13 +204,13 @@
       "pullRequests": {
         "513": {
           "number": 513,
-          "title": "Cme 778 angular 20 upgrade - v18 to v19",
+          "title": "CME 778 angular 20 upgrade",
           "author": "ben-james-hmcts",
           "url": "https://github.com/hmcts/rpx-xui-common-lib/pull/513",
           "changesRequested": false,
-          "approvals": 0,
-          "createdAt": "2025-10-02T14:33:37.733Z",
-          "lastUpdated": "2025-10-02T14:33:37.858Z"
+          "approvals": 1,
+          "createdAt": "2025-10-06T14:56:17.353Z",
+          "lastUpdated": "2025-10-06T14:56:17.552Z"
         }
       }
     },
