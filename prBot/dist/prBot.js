@@ -52,6 +52,9 @@ function loadEventData() {
   try {
     const data = JSON.parse(fs.readFileSync(ENV.githubEventPath, 'utf8'));
     console.log('GitHub event data loaded:', data);
+    console.log('Github pr label 1: ', data.pull_request?.labels[0]);
+    console.log('Github pr label 2: ', data.pull_request?.labels[1]);
+    console.log('[DEBUG CHANGES REQUESTED] data.review?.state: ', data.review?.state);
     return {
       action: data.action,
       prNumber: data.pull_request?.number,
