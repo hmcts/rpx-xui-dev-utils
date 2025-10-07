@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1759843487.909209",
-    "lastUpdated": "2025-10-07T13:24:37.804Z"
+    "lastUpdated": "2025-10-07T13:32:44.879Z"
   },
   "repositories": {
     "hmcts/em-media-viewer": {
@@ -183,16 +183,6 @@
           "approvals": 0,
           "createdAt": "2025-10-07T10:17:04.820Z",
           "lastUpdated": "2025-10-07T10:17:05.008Z"
-        },
-        "4666": {
-          "number": 4666,
-          "title": "EXUI-3469 - use mv and tk release vers for 3469",
-          "author": "Josh-HMCTS",
-          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/4666",
-          "changesRequested": false,
-          "approvals": 1,
-          "createdAt": "2025-10-07T13:24:37.507Z",
-          "lastUpdated": "2025-10-07T13:24:37.804Z"
         }
       }
     },
