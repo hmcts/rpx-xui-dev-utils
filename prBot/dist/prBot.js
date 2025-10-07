@@ -51,6 +51,7 @@ function sleep(ms) {
 function loadEventData() {
   try {
     const data = JSON.parse(fs.readFileSync(ENV.githubEventPath, 'utf8'));
+    console.log('GitHub event data loaded:', data);
     return {
       action: data.action,
       prNumber: data.pull_request?.number,
