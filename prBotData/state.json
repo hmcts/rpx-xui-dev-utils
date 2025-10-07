@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1759832038.333499",
-    "lastUpdated": "2025-10-07T10:13:48.366Z"
+    "lastUpdated": "2025-10-07T10:14:18.973Z"
   },
   "repositories": {
     "hmcts/em-media-viewer": {
@@ -35,16 +35,6 @@
           "approvals": 0,
           "createdAt": "2025-10-03T10:44:44.831Z",
           "lastUpdated": "2025-10-03T10:44:44.965Z"
-        },
-        "1227": {
-          "number": 1227,
-          "title": "update version num",
-          "author": "Josh-HMCTS",
-          "url": "https://github.com/hmcts/em-media-viewer/pull/1227",
-          "changesRequested": false,
-          "approvals": 1,
-          "createdAt": "2025-10-07T10:13:47.939Z",
-          "lastUpdated": "2025-10-07T10:13:48.366Z"
         }
       }
     },
