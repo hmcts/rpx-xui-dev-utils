@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1759832069.190679",
-    "lastUpdated": "2025-10-07T10:14:18.973Z"
+    "lastUpdated": "2025-10-07T10:17:05.008Z"
   },
   "repositories": {
     "hmcts/em-media-viewer": {
@@ -173,6 +173,16 @@
           "approvals": 0,
           "createdAt": "2025-10-03T16:09:28.359Z",
           "lastUpdated": "2025-10-03T16:09:28.598Z"
+        },
+        "4665": {
+          "number": 4665,
+          "title": "EXUI-3552 - update tk ver",
+          "author": "Josh-HMCTS",
+          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/4665",
+          "changesRequested": false,
+          "approvals": 0,
+          "createdAt": "2025-10-07T10:17:04.820Z",
+          "lastUpdated": "2025-10-07T10:17:05.008Z"
         }
       }
     },
