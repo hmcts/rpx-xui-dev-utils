@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1759916358.233649",
-    "lastUpdated": "2025-10-08T08:38:29.173Z"
+    "lastUpdated": "2025-10-08T09:40:52.341Z"
   },
   "repositories": {
     "hmcts/em-media-viewer": {
@@ -25,6 +25,16 @@
           "approvals": 0,
           "createdAt": "2025-09-25T12:27:06.830Z",
           "lastUpdated": "2025-09-25T12:27:06.992Z"
+        },
+        "1228": {
+          "number": 1228,
+          "title": "Update dependency axios to v1.12.0 [SECURITY]",
+          "author": "renovate[bot]",
+          "url": "https://github.com/hmcts/em-media-viewer/pull/1228",
+          "changesRequested": false,
+          "approvals": 0,
+          "createdAt": "2025-10-08T09:40:52.082Z",
+          "lastUpdated": "2025-10-08T09:40:52.341Z"
         }
       }
     },
