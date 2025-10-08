@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1759876394.943309",
-    "lastUpdated": "2025-10-07T22:33:05.581Z"
+    "lastUpdated": "2025-10-08T08:04:09.689Z"
   },
   "repositories": {
     "hmcts/em-media-viewer": {
@@ -197,6 +197,16 @@
           "approvals": 0,
           "createdAt": "2025-09-29T18:03:23.498Z",
           "lastUpdated": "2025-09-29T18:03:23.636Z"
+        },
+        "939": {
+          "number": 939,
+          "title": "Updated yarn-audit-known-issues",
+          "author": "chrisjones-hmcts",
+          "url": "https://github.com/hmcts/rpx-xui-approve-org/pull/939",
+          "changesRequested": false,
+          "approvals": 0,
+          "createdAt": "2025-10-08T08:04:09.370Z",
+          "lastUpdated": "2025-10-08T08:04:09.689Z"
         }
       }
     },
