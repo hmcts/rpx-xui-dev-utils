@@ -70,7 +70,8 @@ function loadEventData() {
       prAuthor: data.pull_request?.user?.login,
       prTitle: data.pull_request?.title,
       repo: data.repository?.full_name,
-      reviewState: data.review?.state || ''
+      reviewState: data.review?.state || '',
+      label: data.label?.name
     };
   } catch (error) {
     console.error('Failed to parse GitHub event:', error.message);
@@ -462,6 +463,55 @@ async function handlePRClosed(event) {
   await repostApprovalList();
 }
 
+async function handlePRLabeled(event) {
+  const { prNumber, repo, label } = event;
+
+  if (label !== 'prbot-ignore') {
+    console.log('Ignoring event, label is not prbot-ignore');
+    return;
+  }
+
+  const { state } = await stateManager.readState();
+
+  // remove pr from state if it exists
+  if (state.repositories[repo]?.pullRequests[prNumber]) {
+    await stateManager.removePR(repo, prNumber);
+    await repostApprovalList();
+  } else {
+    console.log('PR not found in state, ignoring event');
+  }
+}
+
+async function handlePRUnlabeled(event) {
+  const { prNumber, repo, label, prAuthor, prTitle } = event;
+
+  if (label !== 'prbot-ignore') {
+    console.log('Ignoring event, label is not prbot-ignore');
+    return;
+  }
+
+  const { state } = await stateManager.readState();
+
+
+  if (!state.repositories[repo]?.pullRequests[prNumber]) {
+    const { approvedCount, changesRequestedCount } = await github.getReviews(repo, prNumber);
+
+    await stateManager.updatePR(repo, prNumber, {
+      number: prNumber,
+      title: prTitle,
+      author: prAuthor,
+      url: `https://github.com/${repo}/pull/${prNumber}`,
+      changesRequested: changesRequestedCount > 0,
+      approvals: approvedCount,
+      createdAt: new Date().toISOString(),
+    });
+
+    await repostApprovalList();
+  } else {
+    console.log('PR already exists in state, ignoring event');
+  }
+}
+
 async function run() {
   validateEnvironment();
   const event = loadEventData();
@@ -482,6 +532,12 @@ async function run() {
         break;
       case 'closed':
         await handlePRClosed(event);
+        break;
+      case 'labeled':
+        await handlePRLabeled(event);
+        break;
+      case 'unlabeled':
+        await handlePRUnlabeled(event);
         break;
       default:
         console.log(`No workflow required for event: ${event.action}`);
@@ -508,6 +564,8 @@ module.exports = {
   handlePRReview,
   handlePRChangesRequested,
   handlePRClosed,
+  handlePRLabeled,
+  handlePRUnlabeled,
   run
 }
 
