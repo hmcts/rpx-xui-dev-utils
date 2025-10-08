@@ -71,7 +71,8 @@ function loadEventData() {
       prTitle: data.pull_request?.title,
       repo: data.repository?.full_name,
       reviewState: data.review?.state || '',
-      label: data.label?.name
+      label: data.label?.name,
+      labels: data.pull_request?.labels
     };
   } catch (error) {
     console.error('Failed to parse GitHub event:', error.message);
@@ -383,7 +384,13 @@ function formatPRMessage(prNumber, prAuthor, prTitle, repo, approvedCount, emoji
 }
 
 async function handlePROpened(event) {
-  const { prNumber, prAuthor, prTitle, repo } = event;
+  const { prNumber, prAuthor, prTitle, repo, labels } = event;
+
+  if (labels && labels.some(label => label.name === 'prbot-ignore')) {
+    console.log('Ignoring PR, prbot-ignore label is present');
+    return;
+  }
+
   const { approvedCount, changesRequestedCount } = await github.getReviews(repo, prNumber);
 
   await stateManager.updatePR(repo, prNumber, {
