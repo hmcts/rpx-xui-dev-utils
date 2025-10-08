@@ -52,8 +52,17 @@ function loadEventData() {
   try {
     const data = JSON.parse(fs.readFileSync(ENV.githubEventPath, 'utf8'));
     console.log('GitHub event data loaded:', data);
-    console.log('Github pr label 1: ', data.pull_request?.labels[0]);
-    console.log('Github pr label 2: ', data.pull_request?.labels[1]);
+    
+    // Log all PR labels
+    if (data.pull_request?.labels && data.pull_request.labels.length > 0) {
+      console.log('GitHub PR labels:');
+      data.pull_request.labels.forEach((label, index) => {
+        console.log(`Label ${index}: `, label);
+      });
+    } else {
+      console.log('No labels found on this PR');
+    }
+    
     console.log('[DEBUG CHANGES REQUESTED] data.review?.state: ', data.review?.state);
     return {
       action: data.action,
