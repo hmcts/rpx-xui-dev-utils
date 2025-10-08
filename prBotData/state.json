@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1759938333.299649",
-    "lastUpdated": "2025-10-08T15:45:23.861Z"
+    "lastUpdated": "2025-10-08T21:34:46.407Z"
   },
   "repositories": {
     "hmcts/em-media-viewer": {
@@ -279,6 +279,20 @@
           "approvals": 0,
           "createdAt": "2025-10-03T14:58:10.229Z",
           "lastUpdated": "2025-10-03T14:58:10.394Z"
+        }
+      }
+    },
+    "hmcts/rpx-xui-translation": {
+      "pullRequests": {
+        "50": {
+          "number": 50,
+          "title": "Add stalebot config",
+          "author": "danlysiak",
+          "url": "https://github.com/hmcts/rpx-xui-translation/pull/50",
+          "changesRequested": false,
+          "approvals": 0,
+          "createdAt": "2025-10-08T21:34:46.108Z",
+          "lastUpdated": "2025-10-08T21:34:46.407Z"
         }
       }
     }
