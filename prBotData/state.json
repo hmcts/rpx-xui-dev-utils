@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1759916462.278689",
-    "lastUpdated": "2025-10-08T09:40:52.341Z"
+    "lastUpdated": "2025-10-08T09:51:36.250Z"
   },
   "repositories": {
     "hmcts/em-media-viewer": {
@@ -35,6 +35,16 @@
           "approvals": 0,
           "createdAt": "2025-10-08T09:40:52.082Z",
           "lastUpdated": "2025-10-08T09:40:52.341Z"
+        },
+        "1229": {
+          "number": 1229,
+          "title": "Updated yarn-audit-known-issues",
+          "author": "chrisjones-hmcts",
+          "url": "https://github.com/hmcts/em-media-viewer/pull/1229",
+          "changesRequested": false,
+          "approvals": 0,
+          "createdAt": "2025-10-08T09:51:35.954Z",
+          "lastUpdated": "2025-10-08T09:51:36.249Z"
         }
       }
     },
