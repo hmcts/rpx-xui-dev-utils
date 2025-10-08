@@ -1,22 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1759927482.974639",
-    "lastUpdated": "2025-10-08T12:44:36.718Z"
+    "lastUpdated": "2025-10-08T13:16:52.264Z"
   },
-  "repositories": {
-    "hmcts/em-showcase": {
-      "pullRequests": {
-        "721": {
-          "number": 721,
-          "title": "DO NOT MERGE - test pr for prbot functionality",
-          "author": "chrisjones-hmcts",
-          "url": "https://github.com/hmcts/em-showcase/pull/721",
-          "changesRequested": false,
-          "approvals": 0,
-          "createdAt": "2025-10-08T12:44:36.537Z",
-          "lastUpdated": "2025-10-08T12:44:36.718Z"
-        }
-      }
-    }
-  }
+  "repositories": {}
 }
