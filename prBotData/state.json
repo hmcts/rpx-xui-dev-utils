@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1759927175.680419",
-    "lastUpdated": "2025-10-08T12:39:13.105Z"
+    "lastUpdated": "2025-10-08T12:49:27.350Z"
   },
   "repositories": {
     "hmcts/em-media-viewer": {
@@ -193,6 +193,16 @@
           "approvals": 0,
           "createdAt": "2025-10-07T22:33:05.429Z",
           "lastUpdated": "2025-10-07T22:33:05.581Z"
+        },
+        "4669": {
+          "number": 4669,
+          "title": "EXUI-3378 - test new cve script",
+          "author": "Josh-HMCTS",
+          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/4669",
+          "changesRequested": false,
+          "approvals": 0,
+          "createdAt": "2025-10-08T12:49:27.115Z",
+          "lastUpdated": "2025-10-08T12:49:27.350Z"
         }
       }
     },
