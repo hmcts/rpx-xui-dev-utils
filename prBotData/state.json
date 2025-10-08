@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1759932869.283089",
-    "lastUpdated": "2025-10-08T12:49:27.350Z"
+    "lastUpdated": "2025-10-08T15:45:23.861Z"
   },
   "repositories": {
     "hmcts/em-media-viewer": {
@@ -203,6 +203,16 @@
           "approvals": 0,
           "createdAt": "2025-10-08T12:49:27.115Z",
           "lastUpdated": "2025-10-08T12:49:27.350Z"
+        },
+        "4670": {
+          "number": 4670,
+          "title": "Automated update of yarn audit known issues",
+          "author": "xui-github-app[bot]",
+          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/4670",
+          "changesRequested": false,
+          "approvals": 0,
+          "createdAt": "2025-10-08T15:45:23.676Z",
+          "lastUpdated": "2025-10-08T15:45:23.861Z"
         }
       }
     },
