@@ -107,8 +107,10 @@ const github = {
       'User-Agent': 'Node.js'
     };
     
-    const reviews = await httpRequest(CONFIG.GITHUB_API_BASE, path, 'GET', headers),
-      approvedCount = reviews.filter(review => review.state === 'APPROVED').length,
+    const reviews = await httpRequest(CONFIG.GITHUB_API_BASE, path, 'GET', headers);
+    console.log(`Fetched reviews for PR #${prNumber}: `, reviews);
+
+    const approvedCount = reviews.filter(review => review.state === 'APPROVED').length,
       changesRequestedCount = reviews.filter(review => review.state === 'CHANGES_REQUESTED').length;
 
     return { approvedCount, changesRequestedCount };
