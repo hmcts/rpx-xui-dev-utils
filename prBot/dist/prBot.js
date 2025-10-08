@@ -377,12 +377,11 @@ async function repostApprovalList() {
 }
 
 function formatPRMessage(prNumber, prAuthor, prTitle, repo, approvedCount, emoji = '') {
-  const truncatedTitle = prTitle.length > ENV.titleMaxLength 
-    ? prTitle.slice(0, ENV.titleMaxLength) + '…' 
-    : prTitle;
-  const prLink = `https://github.com/${repo}/pull/${prNumber}`;
-  
-  return `(${approvedCount} of ${ENV.requiredApprovals} approvals) ${repo} PR #${prNumber} by ${prAuthor}:\n${emoji}<${prLink}|${truncatedTitle}>`;
+  const truncatedTitle = prTitle.length > ENV.titleMaxLength ? prTitle.slice(0, ENV.titleMaxLength) + '…' : prTitle,
+    prLink = `https://github.com/${repo}/pull/${prNumber}`,
+    repoName = repo.split('/')[1];
+
+  return `(${approvedCount} of ${ENV.requiredApprovals} approvals) ${repoName} PR #${prNumber} by ${prAuthor}:\n${emoji}<${prLink}|${truncatedTitle}>`;
 }
 
 async function handlePROpened(event) {
