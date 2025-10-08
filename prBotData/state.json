@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1759917776.458889",
-    "lastUpdated": "2025-10-08T10:02:47.145Z"
+    "lastUpdated": "2025-10-08T10:14:40.997Z"
   },
   "repositories": {
     "hmcts/em-media-viewer": {
@@ -218,6 +218,16 @@
     },
     "hmcts/rpx-xui-approve-org": {
       "pullRequests": {
+        "935": {
+          "number": 935,
+          "title": "EXUI-3412 - Add csp changes and consumption",
+          "author": "connorpgpmcelroy",
+          "url": "https://github.com/hmcts/rpx-xui-approve-org/pull/935",
+          "changesRequested": false,
+          "approvals": 1,
+          "createdAt": "2025-10-08T10:14:40.852Z",
+          "lastUpdated": "2025-10-08T10:14:40.997Z"
+        },
         "937": {
           "number": 937,
           "title": "CME-774: Angular-19: building",
