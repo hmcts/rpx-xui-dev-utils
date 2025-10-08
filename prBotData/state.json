@@ -1,11 +1,21 @@
 {
   "metadata": {
     "approvalListMessageTs": "1759923406.131909",
-    "lastUpdated": "2025-10-08T10:58:30.510Z"
+    "lastUpdated": "2025-10-08T11:37:05.260Z"
   },
   "repositories": {
     "hmcts/em-media-viewer": {
       "pullRequests": {
+        "1196": {
+          "number": 1196,
+          "title": "Ex UI 2986 tooltip accessibility",
+          "author": "balajisridharanhmcts",
+          "url": "https://github.com/hmcts/em-media-viewer/pull/1196",
+          "changesRequested": true,
+          "approvals": 2,
+          "createdAt": "2025-10-08T11:37:05.105Z",
+          "lastUpdated": "2025-10-08T11:37:05.260Z"
+        },
         "1215": {
           "number": 1215,
           "title": "Update dependency codeceptjs to v3.7.5 [SECURITY]",
