@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1759919493.715279",
-    "lastUpdated": "2025-10-08T10:31:24.216Z"
+    "lastUpdated": "2025-10-08T10:58:30.510Z"
   },
   "repositories": {
     "hmcts/em-media-viewer": {
@@ -74,16 +74,6 @@
     },
     "hmcts/rpx-xui-webapp": {
       "pullRequests": {
-        "4614": {
-          "number": 4614,
-          "title": "exui-3401-cached-data-issue",
-          "author": "RiteshHMCTS",
-          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/4614",
-          "changesRequested": false,
-          "approvals": 1,
-          "createdAt": "2025-10-08T10:02:46.992Z",
-          "lastUpdated": "2025-10-08T10:02:47.145Z"
-        },
         "4640": {
           "number": 4640,
           "title": "exui-3166",
