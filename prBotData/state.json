@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1760017937.577429",
-    "lastUpdated": "2025-10-09T13:51:34.855Z"
+    "lastUpdated": "2025-10-09T14:23:08.666Z"
   },
   "repositories": {
     "hmcts/em-media-viewer": {
@@ -257,20 +257,6 @@
           "approvals": 0,
           "createdAt": "2025-09-29T18:03:23.498Z",
           "lastUpdated": "2025-09-29T18:03:23.636Z"
-        }
-      }
-    },
-    "hmcts/rpx-xui-common-lib": {
-      "pullRequests": {
-        "513": {
-          "number": 513,
-          "title": "CME 778 angular 20 upgrade",
-          "author": "ben-james-hmcts",
-          "url": "https://github.com/hmcts/rpx-xui-common-lib/pull/513",
-          "changesRequested": false,
-          "approvals": 1,
-          "createdAt": "2025-10-06T14:56:17.353Z",
-          "lastUpdated": "2025-10-06T14:56:17.552Z"
         }
       }
     },
