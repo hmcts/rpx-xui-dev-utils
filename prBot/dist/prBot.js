@@ -64,6 +64,17 @@ function loadEventData() {
     }
     
     console.log('[DEBUG CHANGES REQUESTED] data.review?.state: ', data.review?.state);
+
+    if (data.check_suite) {
+      return {
+        action: data.action,
+        repo: data.repository?.full_name,
+        checkSuiteConclusion: data.check_suite?.conclusion,
+        headSha: data.check_suite?.head_sha,
+        prNumbers
+      }
+    }
+
     return {
       action: data.action,
       prNumber: data.pull_request?.number,
@@ -72,7 +83,8 @@ function loadEventData() {
       repo: data.repository?.full_name,
       reviewState: data.review?.state || '',
       label: data.label?.name,
-      labels: data.pull_request?.labels
+      labels: data.pull_request?.labels,
+      headSha: data.pull_request?.head?.sha
     };
   } catch (error) {
     console.error('Failed to parse GitHub event:', error.message);
@@ -129,6 +141,32 @@ const github = {
       changesRequestedCount = latestReviews.filter(review => review.state === 'CHANGES_REQUESTED').length;
 
     return { approvedCount, changesRequestedCount };
+  },
+
+  async getCheckSuites(repo, ref) {
+    const path = `/repos/${repo}/commits/${ref}/check-suites`;
+    const headers = {
+      'Authorization': `Bearer ${ENV.githubToken}`,
+      'Accept': 'application/vnd.github.v3+json',
+      'User-Agent': 'Node.js'
+    };
+
+    const response = await httpRequest(CONFIG.GITHUB_API_BASE, path, 'GET', headers);
+    console.log(`Fetched check suites for ref ${ref} in repo ${repo}: `, response);
+    return response;
+  },
+
+  async getPR(rep, prNumber) {
+    const path = `/repos/${repo}/pulls/${prNumber}`;
+    const headers = {
+      'Authorization': `Bearer ${ENV.githubToken}`,
+      'Accept': 'application/vnd.github.v3+json',
+      'User-Agent': 'Node.js'
+    };
+
+    const pr = await httpRequest(CONFIG.GITHUB_API_BASE, path, 'GET', headers);
+    console.log(`Fetched PR #${prNumber}: `, pr);
+    return pr;
   }
 };
 
@@ -368,9 +406,12 @@ async function repostApprovalList() {
 
   let message = '';
 
+  // only include PRs with green builds
   needsApproval.forEach(pr => {
-    const emoji = pr.changesRequested ? '🔧 ' : '';
-    message += formatPRMessage(pr.number, pr.author, pr.title, pr.repository, pr.approvals, emoji) + '\n\n';
+    if (pr.buildStatus === 'success') {
+      const emoji = pr.changesRequested ? '🔧 ' : '';
+      message += formatPRMessage(pr.number, pr.author, pr.title, pr.repository, pr.approvals, emoji) + '\n\n';
+    }
   });
 
   // delete previous approval list message if it exists to maintain single message at head position
@@ -400,7 +441,7 @@ function formatPRMessage(prNumber, prAuthor, prTitle, repo, approvedCount, emoji
 }
 
 async function handlePROpened(event) {
-  const { prNumber, prAuthor, prTitle, repo, labels } = event;
+  const { prNumber, prAuthor, prTitle, repo, labels, headSha } = event;
 
   if (labels && labels.some(label => label.name === 'prbot-ignore')) {
     console.log('Ignoring PR, prbot-ignore label is present');
@@ -408,6 +449,12 @@ async function handlePROpened(event) {
   }
 
   const { approvedCount, changesRequestedCount } = await github.getReviews(repo, prNumber);
+
+  // check build status
+  let buildStatus = 'pending';
+    
+  const checkSuites = await github.getCheckSuites(repo, headSha);
+  console.log('Check suites for PR:', checkSuites);
 
   await stateManager.updatePR(repo, prNumber, {
     number: prNumber,
