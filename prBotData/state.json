@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1760017684.143479",
-    "lastUpdated": "2025-10-09T13:11:07.866Z"
+    "lastUpdated": "2025-10-09T13:51:34.855Z"
   },
   "repositories": {
     "hmcts/em-media-viewer": {
@@ -233,16 +233,6 @@
           "approvals": 0,
           "createdAt": "2025-10-09T13:00:48.928Z",
           "lastUpdated": "2025-10-09T13:00:49.136Z"
-        },
-        "4674": {
-          "number": 4674,
-          "title": "Fix erroneous use of legacy search APIs",
-          "author": "banderous",
-          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/4674",
-          "changesRequested": false,
-          "approvals": 0,
-          "createdAt": "2025-10-09T13:11:07.561Z",
-          "lastUpdated": "2025-10-09T13:11:07.866Z"
         }
       }
     },
