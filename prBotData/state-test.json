@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": null,
-    "lastUpdated": "2025-10-09T15:32:26.930Z"
+    "lastUpdated": "2025-10-09T15:32:46.771Z"
   },
   "repositories": {
     "hmcts/ccd-case-ui-toolkit": {
@@ -15,6 +15,20 @@
           "approvals": 0,
           "createdAt": "2025-10-09T15:32:26.723Z",
           "lastUpdated": "2025-10-09T15:32:26.930Z"
+        }
+      }
+    },
+    "hmcts/em-showcase": {
+      "pullRequests": {
+        "721": {
+          "number": 721,
+          "title": "DO NOT MERGE - test pr for prbot functionality",
+          "author": "chrisjones-hmcts",
+          "url": "https://github.com/hmcts/em-showcase/pull/721",
+          "changesRequested": false,
+          "approvals": 0,
+          "createdAt": "2025-10-09T15:32:46.581Z",
+          "lastUpdated": "2025-10-09T15:32:46.771Z"
         }
       }
     }
