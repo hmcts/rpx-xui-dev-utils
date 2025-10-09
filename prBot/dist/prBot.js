@@ -110,8 +110,23 @@ const github = {
     const reviews = await httpRequest(CONFIG.GITHUB_API_BASE, path, 'GET', headers);
     console.log(`Fetched reviews for PR #${prNumber}: `, reviews);
 
-    const approvedCount = reviews.filter(review => review.state === 'APPROVED').length,
-      changesRequestedCount = reviews.filter(review => review.state === 'CHANGES_REQUESTED').length;
+    // get the latest review from each unique reviewer
+    const latestReviewsMap = new Map();
+
+    reviews.forEach(review => {
+      const userId = review.user.id;
+      const existingReview = latestReviewsMap.get(userId);
+
+      if (!existingReview || new Date(review.submitted_at) > new Date(existingReview.submitted_at)) {
+        latestReviewsMap.set(userId, review);
+      }
+    });
+
+    const latestReviews = Array.from(latestReviewsMap.values());
+    console.log(`latest reviews (one per user) for pr #${prNumber}: `, latestReviews);
+
+    const approvedCount = latestReviews.filter(review => review.state === 'APPROVED').length,
+      changesRequestedCount = latestReviews.filter(review => review.state === 'CHANGES_REQUESTED').length;
 
     return { approvedCount, changesRequestedCount };
   }
@@ -418,6 +433,10 @@ async function handlePRReview(event) {
   await sleep(2000);
 
   const { approvedCount, changesRequestedCount } = await github.getReviews(repo, prNumber);
+
+  // need unique approval count by reviewer name
+  // need unique changes requested count by reviewer name
+  // need to check if same reviewer has approved after changes requested.
 
   if ((approvedCount >= ENV.requiredApprovals) && changesRequestedCount === 0) {
     // post standalone approval message
