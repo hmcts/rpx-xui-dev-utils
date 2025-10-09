@@ -434,10 +434,6 @@ async function handlePRReview(event) {
 
   const { approvedCount, changesRequestedCount } = await github.getReviews(repo, prNumber);
 
-  // need unique approval count by reviewer name
-  // need unique changes requested count by reviewer name
-  // need to check if same reviewer has approved after changes requested.
-
   if ((approvedCount >= ENV.requiredApprovals) && changesRequestedCount === 0) {
     // post standalone approval message
     const message = formatPRMessage(prNumber, prAuthor, prTitle, repo, approvedCount, '✅✅ ');
