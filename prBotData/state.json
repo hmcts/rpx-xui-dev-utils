@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1759959296.316489",
-    "lastUpdated": "2025-10-08T21:34:46.407Z"
+    "lastUpdated": "2025-10-09T09:12:25.889Z"
   },
   "repositories": {
     "hmcts/em-media-viewer": {
@@ -213,6 +213,16 @@
           "approvals": 0,
           "createdAt": "2025-10-08T15:45:23.676Z",
           "lastUpdated": "2025-10-08T15:45:23.861Z"
+        },
+        "4671": {
+          "number": 4671,
+          "title": "removed the flag icpEnabled: 'icp-enabled'",
+          "author": "olusegz07",
+          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/4671",
+          "changesRequested": false,
+          "approvals": 0,
+          "createdAt": "2025-10-09T09:12:25.558Z",
+          "lastUpdated": "2025-10-09T09:12:25.889Z"
         }
       }
     },
