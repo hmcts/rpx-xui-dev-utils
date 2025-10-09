@@ -1,7 +1,22 @@
 {
   "metadata": {
     "approvalListMessageTs": null,
-    "lastUpdated": "2025-10-09T15:23:14.892Z"
+    "lastUpdated": "2025-10-09T15:32:26.930Z"
   },
-  "repositories": {}
+  "repositories": {
+    "hmcts/ccd-case-ui-toolkit": {
+      "pullRequests": {
+        "2020": {
+          "number": 2020,
+          "title": "DO NOT MERGE - test pr for prbot functionality",
+          "author": "chrisjones-hmcts",
+          "url": "https://github.com/hmcts/ccd-case-ui-toolkit/pull/2020",
+          "changesRequested": false,
+          "approvals": 0,
+          "createdAt": "2025-10-09T15:32:26.723Z",
+          "lastUpdated": "2025-10-09T15:32:26.930Z"
+        }
+      }
+    }
+  }
 }
