@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1760014698.612489",
-    "lastUpdated": "2025-10-09T12:58:08.942Z"
+    "lastUpdated": "2025-10-09T13:00:49.136Z"
   },
   "repositories": {
     "hmcts/em-media-viewer": {
@@ -223,6 +223,16 @@
           "approvals": 0,
           "createdAt": "2025-10-09T12:58:08.735Z",
           "lastUpdated": "2025-10-09T12:58:08.942Z"
+        },
+        "4673": {
+          "number": 4673,
+          "title": "exui-3538-update ld flag value",
+          "author": "RiteshHMCTS",
+          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/4673",
+          "changesRequested": false,
+          "approvals": 0,
+          "createdAt": "2025-10-09T13:00:48.928Z",
+          "lastUpdated": "2025-10-09T13:00:49.136Z"
         }
       }
     },
