@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1760014389.717129",
-    "lastUpdated": "2025-10-09T09:12:25.889Z"
+    "lastUpdated": "2025-10-09T12:54:09.738Z"
   },
   "repositories": {
     "hmcts/em-media-viewer": {
@@ -133,16 +133,6 @@
           "approvals": 0,
           "createdAt": "2025-09-30T17:09:07.325Z",
           "lastUpdated": "2025-09-30T17:09:07.465Z"
-        },
-        "4659": {
-          "number": 4659,
-          "title": "exui-3066-dateime-issue",
-          "author": "RiteshHMCTS",
-          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/4659",
-          "changesRequested": false,
-          "approvals": 0,
-          "createdAt": "2025-10-01T12:44:17.269Z",
-          "lastUpdated": "2025-10-01T12:44:17.519Z"
         },
         "4660": {
           "number": 4660,
