@@ -432,6 +432,29 @@ async function repostApprovalList() {
   }
 }
 
+async function getBuildStatus(repo, sha) {
+  let buildStatus = 'pending';
+  try {
+    const checkSuites = await github.getCheckSuites(repo, sha);
+    if (checkSuites.check_suites?.length > 0) {
+      // sort to get most recent check suite
+      const sortedSuites = checkSuites.check_suites.sort((a, b) =>
+        new Date(b.createdAt) - new Date(a.createdAt)
+      );
+      const mostRecentSuite = sortedSuites[0];
+      
+      if (mostRecentSuite.conclusion === 'success') {
+        buildStatus = 'success';
+      } else {
+        buildStatus = 'failure';
+      }
+    }
+  } catch (error) {
+    console.error(`Failed to get build status: ${error.message}`);
+  }
+  return buildStatus;
+}
+
 function formatPRMessage(prNumber, prAuthor, prTitle, repo, approvedCount, emoji = '') {
   const truncatedTitle = prTitle.length > ENV.titleMaxLength ? prTitle.slice(0, ENV.titleMaxLength) + '…' : prTitle,
     prLink = `https://github.com/${repo}/pull/${prNumber}`,
@@ -450,11 +473,7 @@ async function handlePROpened(event) {
 
   const { approvedCount, changesRequestedCount } = await github.getReviews(repo, prNumber);
 
-  // check build status
-  let buildStatus = 'pending';
-    
-  const checkSuites = await github.getCheckSuites(repo, headSha);
-  console.log('Check suites for PR:', checkSuites);
+  const buildStatus = await getBuildStatus(repo, headSha);
 
   await stateManager.updatePR(repo, prNumber, {
     number: prNumber,
@@ -463,10 +482,16 @@ async function handlePROpened(event) {
     url: `https://github.com/${repo}/pull/${prNumber}`,
     changesRequested: changesRequestedCount > 0,
     approvals: approvedCount,
+    buildStatus,
+    headSha,
     createdAt: new Date().toISOString(),
   })
 
-  await repostApprovalList();
+  if (buildStatus === 'success') {
+    await repostApprovalList();
+  } else {
+    console.log('build status is not success, delaying slack notification');
+  }
 }
 
 async function handlePRReview(event) {
@@ -482,13 +507,17 @@ async function handlePRReview(event) {
   const { approvedCount, changesRequestedCount } = await github.getReviews(repo, prNumber);
 
   if ((approvedCount >= ENV.requiredApprovals) && changesRequestedCount === 0) {
-    // post standalone approval message
+    // post standalone approval message regardless of build status
     const message = formatPRMessage(prNumber, prAuthor, prTitle, repo, approvedCount, '✅✅ ');
     await slack.postMessage(ENV.slackChannelId, message);
 
     // remove from state
     await stateManager.removePR(repo, prNumber)
   } else {
+    // get build status
+    const pr = await github.getPR(repo, prNumber);
+    const buildStatus = await getBuildStatus(repo, pr.head.sha);
+
     await stateManager.updatePR(repo, prNumber, {
       number: prNumber,
       title: prTitle,
@@ -496,6 +525,8 @@ async function handlePRReview(event) {
       url: `https://github.com/${repo}/pull/${prNumber}`,
       changesRequested: changesRequestedCount > 0,
       approvals: approvedCount,
+      buildStatus,
+      headSha: pr.head.sha,
       createdAt: new Date().toISOString()
     });
   }
@@ -512,6 +543,10 @@ async function handlePRChangesRequested(event) {
     return;
   }
 
+  // get build status
+  const pr = await github.getPR(repo, prNumber);
+  const buildStatus = await getBuildStatus(repo, pr.head.sha);
+
   await stateManager.updatePR(repo, prNumber, {
     number: prNumber,
     title: prTitle,
@@ -519,6 +554,8 @@ async function handlePRChangesRequested(event) {
     url: `https://github.com/${repo}/pull/${prNumber}`,
     changesRequested: true,
     approvals: approvedCount,
+    buildStatus,
+    headSha: pr.head.sha,
     createdAt: new Date().toISOString(),
   });
 
@@ -566,6 +603,9 @@ async function handlePRUnlabeled(event) {
   if (!state.repositories[repo]?.pullRequests[prNumber]) {
     const { approvedCount, changesRequestedCount } = await github.getReviews(repo, prNumber);
 
+    const pr = await github.getPR(repo, prNumber);
+    const buildStatus = await getBuildStatus(repo, pr.head.sha);
+
     await stateManager.updatePR(repo, prNumber, {
       number: prNumber,
       title: prTitle,
@@ -573,6 +613,8 @@ async function handlePRUnlabeled(event) {
       url: `https://github.com/${repo}/pull/${prNumber}`,
       changesRequested: changesRequestedCount > 0,
       approvals: approvedCount,
+      buildStatus,
+      headSha: pr.head.sha,
       createdAt: new Date().toISOString(),
     });
 
@@ -580,6 +622,11 @@ async function handlePRUnlabeled(event) {
   } else {
     console.log('PR already exists in state, ignoring event');
   }
+}
+
+// add
+async function handleCheckSuiteCompleted(event) {
+  
 }
 
 async function run() {
