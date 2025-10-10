@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1760031598.975449",
-    "lastUpdated": "2025-10-09T17:39:49.295Z"
+    "lastUpdated": "2025-10-10T08:36:36.405Z"
   },
   "repositories": {
     "hmcts/em-media-viewer": {
@@ -12,9 +12,9 @@
           "author": "balajisridharanhmcts",
           "url": "https://github.com/hmcts/em-media-viewer/pull/1196",
           "changesRequested": true,
-          "approvals": 3,
-          "createdAt": "2025-10-08T11:50:42.466Z",
-          "lastUpdated": "2025-10-08T11:50:42.626Z"
+          "approvals": 4,
+          "createdAt": "2025-10-10T08:36:36.237Z",
+          "lastUpdated": "2025-10-10T08:36:36.405Z"
         },
         "1215": {
           "number": 1215,
