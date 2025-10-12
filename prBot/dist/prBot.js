@@ -483,7 +483,7 @@ async function handlePROpened(event) {
     createdAt: new Date().toISOString(),
   })
 
-  if (buildSSuccess) {
+  if (buildSuccess) {
     await repostApprovalList();
   } else {
     console.log('build status is not success, delaying slack notification');
@@ -649,7 +649,7 @@ async function handleCheckSuiteCompleted(event) {
       lastUpdated: new Date().toISOString()
     });
 
-    if (buildSuccess && !pr.buildSSuccess) {
+    if (buildSuccess && !pr.buildSuccess) {
       console.log(`Build for PR #${prNumber} is now successful, reposting approval list`);
       await repostApprovalList();
     } else if (!buildSuccess) {
