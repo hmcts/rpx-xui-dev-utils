@@ -68,15 +68,27 @@ function loadEventData() {
     if (data.check_suite) {
       return {
         action: data.action,
+        eventType: 'check_suite',
         repo: data.repository?.full_name,
         checkSuiteConclusion: data.check_suite?.conclusion,
         headSha: data.check_suite?.head_sha,
-        prNumbers
-      }
+        prNumbers: data.check_suite?.pull_requests?.map(pr => pr.number) || []
+      };
+    }
+
+    if (data.state && data.sha && data.context) {
+      return {
+        eventType: 'status',
+        repo: data.repository?.full_name,
+        sha: data.sha,
+        state: data.state,
+        context: data.context
+      };
     }
 
     return {
       action: data.action,
+      eventType: 'pull_request',
       prNumber: data.pull_request?.number,
       prAuthor: data.pull_request?.user?.login,
       prTitle: data.pull_request?.title,
@@ -196,6 +208,34 @@ const github = {
     const pr = await httpRequest(CONFIG.GITHUB_API_BASE, path, 'GET', headers);
     console.log(`Fetched PR #${prNumber}: `, pr);
     return pr;
+  },
+
+  async getCommitStatus(repo, sha) {
+    // fetch combined status for a commit (for Jenkins)
+    const path = `/repos/${repo}/commits/${sha}/status`;
+    const headers = {
+      'Authorization': `Bearer ${ENV.githubToken}`,
+      'Accept': 'application/vnd.github.v3+json',
+      'User-Agent': 'Node.js'
+    };
+
+    const response = await httpRequest(CONFIG.GITHUB_API_BASE, path, 'GET', headers);
+    console.log(`Fetched commit status for ${repo}@${sha}: state=${response.state}, statuses=${response.statuses?.length || 0}`);
+    return response;
+  },
+
+  async getCommitPRs(repo, sha) {
+    // get PRs associated with a commit
+    const path = `/repos/${repo}/commits/${sha}/pulls`;
+    const headers = {
+      'Authorization': `Bearer ${ENV.githubToken}`,
+      'Accept': 'application/vnd.github.v3+json',
+      'User-Agent': 'Node.js'
+    };
+
+    const prs = await httpRequest(CONFIG.GITHUB_API_BASE, path, 'GET', headers);
+    console.log(`Fetched PRs for commit ${sha}: ${prs.length} PRs found`);
+    return prs;
   }
 };
 
@@ -463,16 +503,9 @@ async function repostApprovalList() {
 
 async function getBuildStatus(repo, sha) {
   try {
-    const checkSuites = await github.getCheckSuites(repo, sha);
-    if (checkSuites.check_suites?.length > 0) {
-      console.log(`Check suites for ${repo}@${sha}: `, checkSuites);
-      // higher id is more recent
-      const sortedSuites = checkSuites.check_suites.sort((a, b) => b.id - a.id);
-      const mostRecentSuite = sortedSuites[0];
-      console.log(`Most recent check suite: `, mostRecentSuite);
-
-      return mostRecentSuite.conclusion === 'success';
-    }
+    const commitStatus = await github.getCommitStatus(repo, sha);
+    console.log(`Commit status for ${repo}@${sha}: `, commitStatus);
+    return commitStatus?.state === 'success';
   } catch (error) {
     console.error(`Failed to get build status: ${error.message}`);
   }
