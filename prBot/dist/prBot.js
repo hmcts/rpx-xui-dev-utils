@@ -162,16 +162,22 @@ const github = {
       const lastPageMatch = linkHeader.match(/<([^>]+)>;\s*rel="last"/);
       console.log('lastPageMatch for firstResponse: ', lastPageMatch);
       if (lastPageMatch && lastPageMatch[1]) {
-        const lastPageUrl = new URL(lastPageMatch[1]);
+        const lastPageUrl = new String(lastPageMatch[1]);
         console.log('lastPageUrl for firstResponse: ', lastPageUrl);
-        const urlWithoutProtocol = lastPageUrl.replace(`https://`, '');
-        const pathStartIndex = urlWithoutProtocol.indexOf('/');
-        const lastPagePath = pathStartIndex >= 0 ? urlWithoutProtocol.substring(pathStartIndex) : lastPageUrl;
-        console.log('lastPagePath for firstResponse: ', lastPagePath);
 
-        const lastPageResponse = await httpRequest(CONFIG.GITHUB_API_BASE, lastPagePath, 'GET', headers);
-        console.log(`Fetched lastPageResponse of check suites for ref ${ref} in repo ${repo}: `, lastPageResponse);
-        return lastPageResponse;
+        try {
+          const url = new URL(lastPageUrl);
+          const lastPagePath = url.pathname + url.search;
+
+          console.log(`fetching last page of check suites: ${lastPagePath}`);
+
+          const lastPageResponse = await httpRequest(CONFIG.GITHUB_API_BASE, lastPagePath, 'GET', headers);
+          console.log(`Fetched lastPageResponse of check suites for ref ${ref} in repo ${repo}: `, lastPageResponse);
+          return lastPageResponse;
+
+        } catch (error) {
+          console.error(`Error fetching last page of check suites: `, error);
+        }
       }
     }
 
