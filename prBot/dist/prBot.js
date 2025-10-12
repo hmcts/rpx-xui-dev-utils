@@ -144,7 +144,7 @@ const github = {
   },
 
   async getCheckSuites(repo, ref) {
-    const path = `/repos/${repo}/commits/${ref}/check-suites`;
+    const path = `/repos/${repo}/commits/${ref}/check-suites?per_page=1`;
     const headers = {
       'Authorization': `Bearer ${ENV.githubToken}`,
       'Accept': 'application/vnd.github.v3+json',
@@ -436,12 +436,10 @@ async function getBuildStatus(repo, sha) {
   try {
     const checkSuites = await github.getCheckSuites(repo, sha);
     if (checkSuites.check_suites?.length > 0) {
-      // sort to get most recent check suite
-      const sortedSuites = checkSuites.check_suites.sort((a, b) =>
-        new Date(b.create_at) - new Date(a.create_at)
-      );
-      const mostRecentSuite = sortedSuites[0];
-      
+      console.log(`Check suites for ${repo}@${sha}: `, checkSuites);
+      const mostRecentSuite = checkSuites.check_suites[0];
+      console.log(`Most recent check suite: `, mostRecentSuite);
+
       return mostRecentSuite.conclusion === 'success';
     }
   } catch (error) {
