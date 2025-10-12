@@ -100,7 +100,9 @@ async function httpRequest(hostname, path, method = 'GET', headers = {}, body = 
       let data = '';
       res.on('data', chunk => data += chunk);
       res.on('end', () => {
-        resolve(data ? JSON.parse(data || '{}') : {});
+        const result = data ? JSON.parse(data || '{}') : {};
+        result._linkHeader = res.headers.link;
+        resolve(result);
       });
     });
     
@@ -144,16 +146,35 @@ const github = {
   },
 
   async getCheckSuites(repo, ref) {
-    const path = `/repos/${repo}/commits/${ref}/check-suites?per_page=1`;
     const headers = {
       'Authorization': `Bearer ${ENV.githubToken}`,
       'Accept': 'application/vnd.github.v3+json',
       'User-Agent': 'Node.js'
     };
 
-    const response = await httpRequest(CONFIG.GITHUB_API_BASE, path, 'GET', headers);
-    console.log(`Fetched check suites for ref ${ref} in repo ${repo}: `, response);
-    return response;
+    let path = `/repos/${repo}/commits/${ref}/check-suites?per_page=30`;
+    const firstResponse = await httpRequest(CONFIG.GITHUB_API_BASE, path, 'GET', headers);
+    console.log(`Fetched firstResponse check suites for ref ${ref} in repo ${repo}: `, firstResponse);
+
+    const linkHeader = firstResponse._linkHeader;
+    console.log('linkHeader for firstResponse: ', linkHeader);
+    if (linkHeader && firstResponse.total_count > 30) {
+      const lastPageMatch = linkHeader.match(/<([^>]+)>;\s*rel="last"/);
+      console.log('lastPageMatch for firstResponse: ', lastPageMatch);
+      if (lastPageMatch) {
+        const lastPageUrl = new URL(lastPageMatch[1]);
+        console.log('lastPageUrl for firstResponse: ', lastPageUrl);
+        const lastPagePath = lastPageUrl.replace(`https://${CONFIG.GITHUB_API_BASE}`, '');
+        console.log('lastPagePath for firstResponse: ', lastPagePath);
+
+        const lastPageResponse = await httpRequest(CONFIG.GITHUB_API_BASE, lastPagePath, 'GET', headers);
+        console.log(`Fetched lastPageResponse of check suites for ref ${ref} in repo ${repo}: `, lastPageResponse);
+        return lastPageResponse;
+      }
+    }
+
+    // no pagination or no last page
+    return firstResponse;
   },
 
   async getPR(repo, prNumber) {
@@ -437,7 +458,9 @@ async function getBuildStatus(repo, sha) {
     const checkSuites = await github.getCheckSuites(repo, sha);
     if (checkSuites.check_suites?.length > 0) {
       console.log(`Check suites for ${repo}@${sha}: `, checkSuites);
-      const mostRecentSuite = checkSuites.check_suites[0];
+      // higher id is more recent
+      const sortedSuites = checkSuites.check_suites.sort((a, b) => b.id - a.id);
+      const mostRecentSuite = sortedSuites[0];
       console.log(`Most recent check suite: `, mostRecentSuite);
 
       return mostRecentSuite.conclusion === 'success';
