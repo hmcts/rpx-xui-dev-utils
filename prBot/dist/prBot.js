@@ -438,7 +438,7 @@ async function getBuildStatus(repo, sha) {
     if (checkSuites.check_suites?.length > 0) {
       // sort to get most recent check suite
       const sortedSuites = checkSuites.check_suites.sort((a, b) =>
-        new Date(b.createdAt) - new Date(a.createdAt)
+        new Date(b.create_at) - new Date(a.create_at)
       );
       const mostRecentSuite = sortedSuites[0];
       
