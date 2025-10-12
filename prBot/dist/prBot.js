@@ -65,13 +65,13 @@ function loadEventData() {
     
     console.log('[DEBUG CHANGES REQUESTED] data.review?.state: ', data.review?.state);
 
-    if (data.state && data.sha && data.context) {
+    if (data.check_suite) {
       return {
-        eventType: 'status',
+        eventType: 'check_suite',
         repo: data.repository?.full_name,
-        sha: data.sha,
-        state: data.state,
-        context: data.context
+        sha: data.check_suite.head_sha,
+        conclusion: data.check_suite.conclusion,
+        status: data.check_suite.status
       };
     }
 
@@ -631,13 +631,57 @@ async function handlePRUnlabeled(event) {
   }
 }
 
-async function handleStatusSuccess(event) {
-  const { repo, sha, state } = event;
+// async function handleStatusSuccess(event) {
+//   const { repo, sha, state } = event;
 
-  console.log(`Handling status event for ${repo}@${sha} with state: ${state}`);
+//   console.log(`Handling status event for ${repo}@${sha} with state: ${state}`);
 
-  if (state !== 'success') {
-    console.log('Status is not success, ignoring event');
+//   if (state !== 'success') {
+//     console.log('Status is not success, ignoring event');
+//     return;
+//   }
+
+//   // find PRs associated with this commit
+//   const prs = await github.getCommitPRs(repo, sha);
+
+//   if (!prs || prs.length === 0) {
+//     console.log('No PRs associated with this commit, ignoring event');
+//     return;
+//   }
+
+//   const { state: prState } = await stateManager.readState();
+
+//   for (const pr of prs) {
+//     const prNumber = pr.number;
+//     const trackedPR = prState.repositories[repo]?.pullRequests[prNumber];
+
+//     if (!trackedPR) {
+//       console.log(`PR #${prNumber} not found in state, skipping`);
+//       continue;
+//     }
+
+//     // update build status to success
+//     await stateManager.updatePR(repo, prNumber, {
+//       ...trackedPR,
+//       buildSuccess: true,
+//       lastUpdated: new Date().toISOString()
+//     });
+
+//     if (!trackedPR.buildSuccess) {
+//       console.log(`Build for PR #${prNumber} is now successful, reposting approval list`);
+//     }
+//   }
+
+//   await repostApprovalList();
+// }
+
+async function handleCheckSuiteCompleted(event) {
+  const { repo, sha, conclusion, status } = event;
+
+  console.log(`Handling check_suite event for ${repo}@${sha} with conclusion: ${conclusion}, status: ${status}`);
+
+  if (conclusion !== 'success') {
+    console.log('Check suite conclusion is not success, ignoring event');
     return;
   }
 
@@ -684,15 +728,25 @@ async function run() {
     return;
   }
 
-  if (event.eventType === 'status') {
+  if (event.eventType === 'check_suite') {
     try {
-      await handleStatusSuccess(event);
+      await handleCheckSuiteCompleted(event);
     } catch (error) {
-      console.error(`Error processing status event:`, error.message);
+      console.error(`Error processing check_suite event:`, error.message);
       process.exit(1);
     }
     return;
   }
+
+  // if (event.eventType === 'status') {
+  //   try {
+  //     await handleStatusSuccess(event);
+  //   } catch (error) {
+  //     console.error(`Error processing status event:`, error.message);
+  //     process.exit(1);
+  //   }
+  //   return;
+  // }
 
   if (!event.prNumber) {
     console.error('Error with PR data');
@@ -745,7 +799,7 @@ module.exports = {
   handlePRClosed,
   handlePRLabeled,
   handlePRUnlabeled,
-  handleStatusSuccess,
+  handleCheckSuiteCompleted,
   run
 }
 
