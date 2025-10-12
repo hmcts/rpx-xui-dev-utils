@@ -161,10 +161,12 @@ const github = {
     if (linkHeader && firstResponse.total_count > 30) {
       const lastPageMatch = linkHeader.match(/<([^>]+)>;\s*rel="last"/);
       console.log('lastPageMatch for firstResponse: ', lastPageMatch);
-      if (lastPageMatch) {
+      if (lastPageMatch && lastPageMatch[1]) {
         const lastPageUrl = new URL(lastPageMatch[1]);
         console.log('lastPageUrl for firstResponse: ', lastPageUrl);
-        const lastPagePath = lastPageUrl.replace(`https://${CONFIG.GITHUB_API_BASE}`, '');
+        const urlWithoutProtocol = lastPageUrl.replace(`https://`, '');
+        const pathStartIndex = urlWithoutProtocol.indexOf('/');
+        const lastPagePath = pathStartIndex >= 0 ? urlWithoutProtocol.substring(pathStartIndex) : lastPageUrl;
         console.log('lastPagePath for firstResponse: ', lastPagePath);
 
         const lastPageResponse = await httpRequest(CONFIG.GITHUB_API_BASE, lastPagePath, 'GET', headers);
