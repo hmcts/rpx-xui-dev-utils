@@ -156,7 +156,7 @@ const github = {
     return response;
   },
 
-  async getPR(rep, prNumber) {
+  async getPR(repo, prNumber) {
     const path = `/repos/${repo}/pulls/${prNumber}`;
     const headers = {
       'Authorization': `Bearer ${ENV.githubToken}`,
@@ -408,7 +408,7 @@ async function repostApprovalList() {
 
   // only include PRs with green builds
   needsApproval.forEach(pr => {
-    if (pr.buildStatus === 'success') {
+    if (pr.buildSuccess) {
       const emoji = pr.changesRequested ? '🔧 ' : '';
       message += formatPRMessage(pr.number, pr.author, pr.title, pr.repository, pr.approvals, emoji) + '\n\n';
     }
@@ -433,7 +433,6 @@ async function repostApprovalList() {
 }
 
 async function getBuildStatus(repo, sha) {
-  let buildStatus = 'pending';
   try {
     const checkSuites = await github.getCheckSuites(repo, sha);
     if (checkSuites.check_suites?.length > 0) {
@@ -443,16 +442,13 @@ async function getBuildStatus(repo, sha) {
       );
       const mostRecentSuite = sortedSuites[0];
       
-      if (mostRecentSuite.conclusion === 'success') {
-        buildStatus = 'success';
-      } else {
-        buildStatus = 'failure';
-      }
+      return mostRecentSuite.conclusion === 'success';
     }
   } catch (error) {
     console.error(`Failed to get build status: ${error.message}`);
   }
-  return buildStatus;
+
+  return false;
 }
 
 function formatPRMessage(prNumber, prAuthor, prTitle, repo, approvedCount, emoji = '') {
@@ -473,7 +469,7 @@ async function handlePROpened(event) {
 
   const { approvedCount, changesRequestedCount } = await github.getReviews(repo, prNumber);
 
-  const buildStatus = await getBuildStatus(repo, headSha);
+  const buildSuccess = await getBuildStatus(repo, headSha);
 
   await stateManager.updatePR(repo, prNumber, {
     number: prNumber,
@@ -482,12 +478,12 @@ async function handlePROpened(event) {
     url: `https://github.com/${repo}/pull/${prNumber}`,
     changesRequested: changesRequestedCount > 0,
     approvals: approvedCount,
-    buildStatus,
+    buildSuccess,
     headSha,
     createdAt: new Date().toISOString(),
   })
 
-  if (buildStatus === 'success') {
+  if (buildSSuccess) {
     await repostApprovalList();
   } else {
     console.log('build status is not success, delaying slack notification');
@@ -516,7 +512,7 @@ async function handlePRReview(event) {
   } else {
     // get build status
     const pr = await github.getPR(repo, prNumber);
-    const buildStatus = await getBuildStatus(repo, pr.head.sha);
+    const buildSuccess = await getBuildStatus(repo, pr.head.sha);
 
     await stateManager.updatePR(repo, prNumber, {
       number: prNumber,
@@ -525,7 +521,7 @@ async function handlePRReview(event) {
       url: `https://github.com/${repo}/pull/${prNumber}`,
       changesRequested: changesRequestedCount > 0,
       approvals: approvedCount,
-      buildStatus,
+      buildSuccess,
       headSha: pr.head.sha,
       createdAt: new Date().toISOString()
     });
@@ -545,7 +541,7 @@ async function handlePRChangesRequested(event) {
 
   // get build status
   const pr = await github.getPR(repo, prNumber);
-  const buildStatus = await getBuildStatus(repo, pr.head.sha);
+  const buildSuccess = await getBuildStatus(repo, pr.head.sha);
 
   await stateManager.updatePR(repo, prNumber, {
     number: prNumber,
@@ -554,7 +550,7 @@ async function handlePRChangesRequested(event) {
     url: `https://github.com/${repo}/pull/${prNumber}`,
     changesRequested: true,
     approvals: approvedCount,
-    buildStatus,
+    buildSuccess,
     headSha: pr.head.sha,
     createdAt: new Date().toISOString(),
   });
@@ -604,7 +600,7 @@ async function handlePRUnlabeled(event) {
     const { approvedCount, changesRequestedCount } = await github.getReviews(repo, prNumber);
 
     const pr = await github.getPR(repo, prNumber);
-    const buildStatus = await getBuildStatus(repo, pr.head.sha);
+    const buildSuccess = await getBuildStatus(repo, pr.head.sha);
 
     await stateManager.updatePR(repo, prNumber, {
       number: prNumber,
@@ -613,7 +609,7 @@ async function handlePRUnlabeled(event) {
       url: `https://github.com/${repo}/pull/${prNumber}`,
       changesRequested: changesRequestedCount > 0,
       approvals: approvedCount,
-      buildStatus,
+      buildSuccess,
       headSha: pr.head.sha,
       createdAt: new Date().toISOString(),
     });
@@ -624,20 +620,69 @@ async function handlePRUnlabeled(event) {
   }
 }
 
-// add
 async function handleCheckSuiteCompleted(event) {
+  const { repo, checkSuiteConclusion, headSha, prNumbers } = event;
+
+  console.log(`Handling check_suite completed event for ${repo}@${headSha} with checkSuiteConclusion: ${checkSuiteConclusion}`);
+
+  if (!prNumbers || prNumbers.length === 0) {
+    console.log('No PRs assocaited with this check suite, ignoring event');
+    return;
+  }
+
+  const { state } = await stateManager.readState();
   
-}
+  for (const prNumber of prNumbers) {
+    const pr = state.repositories[repo]?.pullRequests[prNumber];
+
+    if (!pr) {
+      console.log(`PR #${prNumber} not found in state, skipping`);
+      continue;
+    }
+
+    // update build status
+    const buildSuccess = checkSuiteConclusion === 'success';
+
+    await stateManager.updatePR(repo, prNumber, {
+      ...pr,
+      buildSuccess,
+      lastUpdated: new Date().toISOString()
+    });
+
+    if (buildSuccess && !pr.buildSSuccess) {
+      console.log(`Build for PR #${prNumber} is now successful, reposting approval list`);
+      await repostApprovalList();
+    } else if (!buildSuccess) {
+      console.log(`Build for PR #${prNumber} is not successful, removing from slack`);
+      await repostApprovalList();
+    }
+  }
+ }
 
 async function run() {
   validateEnvironment();
   const event = loadEventData();
-  
-  if (!event.prNumber || !event.repo) {
+
+  if (!event.repo) {
+    console.error('Error with repo data');
+    return;
+  }
+
+  if (event.action === 'completed' && event.checkSuiteConclusion) {
+    try {
+      await handleCheckSuiteCompleted(event);
+    } catch (error) {
+      console.error(`Error processing check_suite completed event:`, error.message);
+      process.exit(1);
+    }
+    return;
+  }
+
+  if (!event.prNumber) {
     console.error('Error with PR data');
     return;
   }
-  
+
   try {
     switch (event.action) {
       case 'opened':
@@ -676,6 +721,7 @@ module.exports = {
   slack,
   stateManager,
   repostApprovalList,
+  getBuildStatus,
   formatPRMessage,
   handlePROpened,
   handlePRReview,
@@ -683,6 +729,7 @@ module.exports = {
   handlePRClosed,
   handlePRLabeled,
   handlePRUnlabeled,
+  handleCheckSuiteCompleted,
   run
 }
 
