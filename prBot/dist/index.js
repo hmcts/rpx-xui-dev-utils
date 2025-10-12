@@ -17,7 +17,7 @@ module.exports = {
     handlePRClosed: prBot.handlePRClosed,
     handlePrLabeled: prBot.handlePRLabeled,
     handlePRUnlabeled: prBot.handlePRUnlabeled,
-    handleCheckSuiteCompleted: prBot.handleCheckSuiteCompleted,
+    handleStatusSuccess: prBot.handleStatusSuccess,
     run: prBot.run,
     CONFIG: prBot.CONFIG,
     ENV: prBot.ENV

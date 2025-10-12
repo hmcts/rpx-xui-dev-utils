@@ -65,17 +65,6 @@ function loadEventData() {
     
     console.log('[DEBUG CHANGES REQUESTED] data.review?.state: ', data.review?.state);
 
-    if (data.check_suite) {
-      return {
-        action: data.action,
-        eventType: 'check_suite',
-        repo: data.repository?.full_name,
-        checkSuiteConclusion: data.check_suite?.conclusion,
-        headSha: data.check_suite?.head_sha,
-        prNumbers: data.check_suite?.pull_requests?.map(pr => pr.number) || []
-      };
-    }
-
     if (data.state && data.sha && data.context) {
       return {
         eventType: 'status',
@@ -155,46 +144,6 @@ const github = {
       changesRequestedCount = latestReviews.filter(review => review.state === 'CHANGES_REQUESTED').length;
 
     return { approvedCount, changesRequestedCount };
-  },
-
-  async getCheckSuites(repo, ref) {
-    const headers = {
-      'Authorization': `Bearer ${ENV.githubToken}`,
-      'Accept': 'application/vnd.github.v3+json',
-      'User-Agent': 'Node.js'
-    };
-
-    let path = `/repos/${repo}/commits/${ref}/check-suites?per_page=30`;
-    const firstResponse = await httpRequest(CONFIG.GITHUB_API_BASE, path, 'GET', headers);
-    console.log(`Fetched firstResponse check suites for ref ${ref} in repo ${repo}: `, firstResponse);
-
-    const linkHeader = firstResponse._linkHeader;
-    console.log('linkHeader for firstResponse: ', linkHeader);
-    if (linkHeader && firstResponse.total_count > 30) {
-      const lastPageMatch = linkHeader.match(/<([^>]+)>;\s*rel="last"/);
-      console.log('lastPageMatch for firstResponse: ', lastPageMatch);
-      if (lastPageMatch && lastPageMatch[1]) {
-        const lastPageUrl = new String(lastPageMatch[1]);
-        console.log('lastPageUrl for firstResponse: ', lastPageUrl);
-
-        try {
-          const url = new URL(lastPageUrl);
-          const lastPagePath = url.pathname + url.search;
-
-          console.log(`fetching last page of check suites: ${lastPagePath}`);
-
-          const lastPageResponse = await httpRequest(CONFIG.GITHUB_API_BASE, lastPagePath, 'GET', headers);
-          console.log(`Fetched lastPageResponse of check suites for ref ${ref} in repo ${repo}: `, lastPageResponse);
-          return lastPageResponse;
-
-        } catch (error) {
-          console.error(`Error fetching last page of check suites: `, error);
-        }
-      }
-    }
-
-    // no pagination or no last page
-    return firstResponse;
   },
 
   async getPR(repo, prNumber) {
@@ -682,44 +631,49 @@ async function handlePRUnlabeled(event) {
   }
 }
 
-async function handleCheckSuiteCompleted(event) {
-  const { repo, checkSuiteConclusion, headSha, prNumbers } = event;
+async function handleStatusSuccess(event) {
+  const { repo, sha, state } = event;
 
-  console.log(`Handling check_suite completed event for ${repo}@${headSha} with checkSuiteConclusion: ${checkSuiteConclusion}`);
+  console.log(`Handling status event for ${repo}@${sha} with state: ${state}`);
 
-  if (!prNumbers || prNumbers.length === 0) {
-    console.log('No PRs assocaited with this check suite, ignoring event');
+  if (state !== 'success') {
+    console.log('Status is not success, ignoring event');
     return;
   }
 
-  const { state } = await stateManager.readState();
-  
-  for (const prNumber of prNumbers) {
-    const pr = state.repositories[repo]?.pullRequests[prNumber];
+  // find PRs associated with this commit
+  const prs = await github.getCommitPRs(repo, sha);
 
-    if (!pr) {
+  if (!prs || prs.length === 0) {
+    console.log('No PRs associated with this commit, ignoring event');
+    return;
+  }
+
+  const { state: prState } = await stateManager.readState();
+
+  for (const pr of prs) {
+    const prNumber = pr.number;
+    const trackedPR = prState.repositories[repo]?.pullRequests[prNumber];
+
+    if (!trackedPR) {
       console.log(`PR #${prNumber} not found in state, skipping`);
       continue;
     }
 
-    // update build status
-    const buildSuccess = checkSuiteConclusion === 'success';
-
+    // update build status to success
     await stateManager.updatePR(repo, prNumber, {
-      ...pr,
-      buildSuccess,
+      ...trackedPR,
+      buildSuccess: true,
       lastUpdated: new Date().toISOString()
     });
 
-    if (buildSuccess && !pr.buildSuccess) {
+    if (!trackedPR.buildSuccess) {
       console.log(`Build for PR #${prNumber} is now successful, reposting approval list`);
-      await repostApprovalList();
-    } else if (!buildSuccess) {
-      console.log(`Build for PR #${prNumber} is not successful, removing from slack`);
-      await repostApprovalList();
     }
   }
- }
+
+  await repostApprovalList();
+}
 
 async function run() {
   validateEnvironment();
@@ -730,11 +684,11 @@ async function run() {
     return;
   }
 
-  if (event.action === 'completed' && event.checkSuiteConclusion) {
+  if (event.eventType === 'status') {
     try {
-      await handleCheckSuiteCompleted(event);
+      await handleStatusSuccess(event);
     } catch (error) {
-      console.error(`Error processing check_suite completed event:`, error.message);
+      console.error(`Error processing status event:`, error.message);
       process.exit(1);
     }
     return;
@@ -791,7 +745,7 @@ module.exports = {
   handlePRClosed,
   handlePRLabeled,
   handlePRUnlabeled,
-  handleCheckSuiteCompleted,
+  handleStatusSuccess,
   run
 }
 
