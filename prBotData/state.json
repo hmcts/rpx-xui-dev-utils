@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1760351721.030599",
-    "lastUpdated": "2025-10-13T10:34:17.665Z"
+    "lastUpdated": "2025-10-13T11:27:06.735Z"
   },
   "repositories": {
     "hmcts/em-media-viewer": {
@@ -20,6 +20,16 @@
     },
     "hmcts/rpx-xui-webapp": {
       "pullRequests": {
+        "4640": {
+          "number": 4640,
+          "title": "exui-3166",
+          "author": "RiteshHMCTS",
+          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/4640",
+          "changesRequested": true,
+          "approvals": 1,
+          "createdAt": "2025-10-13T11:27:06.578Z",
+          "lastUpdated": "2025-10-13T11:27:06.735Z"
+        },
         "4658": {
           "number": 4658,
           "title": "EXUI-3528 Enabling pactTests that were disabled so far.",
