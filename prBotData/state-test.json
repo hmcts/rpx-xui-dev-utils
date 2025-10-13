@@ -1,22 +1,22 @@
 {
   "metadata": {
     "approvalListMessageTs": null,
-    "lastUpdated": "2025-10-13T09:07:33.027Z"
+    "lastUpdated": "2025-10-13T09:18:12.320Z"
   },
   "repositories": {
     "hmcts/em-showcase": {
       "pullRequests": {
         "721": {
           "number": 721,
-          "title": "DO NOT MERGE - test pr for prbot functionality",
+          "title": "EXUI-3524 - adding pr-bot to showcase",
           "author": "chrisjones-hmcts",
           "url": "https://github.com/hmcts/em-showcase/pull/721",
           "changesRequested": false,
-          "approvals": 0,
+          "approvals": 1,
           "buildSuccess": false,
           "headSha": "5458bd2fc413d3be00be9f052dbccc6dfbcc4f2a",
-          "createdAt": "2025-10-13T09:07:32.789Z",
-          "lastUpdated": "2025-10-13T09:07:33.027Z"
+          "createdAt": "2025-10-13T09:18:12.177Z",
+          "lastUpdated": "2025-10-13T09:18:12.320Z"
         }
       }
     }
