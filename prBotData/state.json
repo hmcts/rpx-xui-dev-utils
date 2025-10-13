@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1760355990.548079",
-    "lastUpdated": "2025-10-13T11:46:21.319Z"
+    "lastUpdated": "2025-10-13T12:43:28.662Z"
   },
   "repositories": {
     "hmcts/em-media-viewer": {
@@ -20,6 +20,16 @@
     },
     "hmcts/rpx-xui-webapp": {
       "pullRequests": {
+        "4614": {
+          "number": 4614,
+          "title": "exui-3401-cached-data-issue",
+          "author": "RiteshHMCTS",
+          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/4614",
+          "changesRequested": false,
+          "approvals": 1,
+          "createdAt": "2025-10-13T12:43:28.515Z",
+          "lastUpdated": "2025-10-13T12:43:28.662Z"
+        },
         "4658": {
           "number": 4658,
           "title": "EXUI-3528 Enabling pactTests that were disabled so far.",
