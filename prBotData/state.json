@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1760444956.110789",
-    "lastUpdated": "2025-10-14T12:28:10.005Z"
+    "lastUpdated": "2025-10-14T13:05:46.529Z"
   },
   "repositories": {
     "hmcts/em-media-viewer": {
@@ -110,9 +110,9 @@
           "author": "AntonyLeons",
           "url": "https://github.com/hmcts/rpx-xui-approve-org/pull/937",
           "changesRequested": false,
-          "approvals": 0,
-          "createdAt": "2025-10-14T09:37:47.861Z",
-          "lastUpdated": "2025-10-14T09:37:48.019Z"
+          "approvals": 1,
+          "createdAt": "2025-10-14T13:05:46.375Z",
+          "lastUpdated": "2025-10-14T13:05:46.529Z"
         }
       }
     },
