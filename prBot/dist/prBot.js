@@ -837,7 +837,7 @@ module.exports = {
   handlePRClosed,
   handlePRLabeled,
   handlePRUnlabeled,
-  handleCheckSuiteCompleted,
+  handleStatus,
   run
 }
 
