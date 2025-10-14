@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1760434677.576249",
-    "lastUpdated": "2025-10-14T09:37:48.019Z"
+    "lastUpdated": "2025-10-14T10:08:45.764Z"
   },
   "repositories": {
     "hmcts/em-media-viewer": {
@@ -94,16 +94,6 @@
     },
     "hmcts/rpx-xui-approve-org": {
       "pullRequests": {
-        "935": {
-          "number": 935,
-          "title": "EXUI-3412 - Add csp changes and consumption",
-          "author": "connorpgpmcelroy",
-          "url": "https://github.com/hmcts/rpx-xui-approve-org/pull/935",
-          "changesRequested": false,
-          "approvals": 1,
-          "createdAt": "2025-10-08T10:14:40.852Z",
-          "lastUpdated": "2025-10-08T10:14:40.997Z"
-        },
         "937": {
           "number": 937,
           "title": "CME-774: Angular-20",
