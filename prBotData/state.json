@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1760373200.580239",
-    "lastUpdated": "2025-10-13T16:33:11.530Z"
+    "lastUpdated": "2025-10-14T07:55:23.761Z"
   },
   "repositories": {
     "hmcts/em-media-viewer": {
@@ -79,6 +79,16 @@
           "approvals": 1,
           "createdAt": "2025-10-13T13:08:53.460Z",
           "lastUpdated": "2025-10-13T13:08:53.629Z"
+        },
+        "4677": {
+          "number": 4677,
+          "title": "EXUI-3209 wave errors on upload additional applications",
+          "author": "chrisjones-hmcts",
+          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/4677",
+          "changesRequested": false,
+          "approvals": 0,
+          "createdAt": "2025-10-14T07:55:23.586Z",
+          "lastUpdated": "2025-10-14T07:55:23.761Z"
         }
       }
     },
