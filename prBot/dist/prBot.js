@@ -65,6 +65,16 @@ function loadEventData() {
     
     console.log('[DEBUG CHANGES REQUESTED] data.review?.state: ', data.review?.state);
 
+    if (data.context === 'continuous-integration/jenkins/pr-head') {
+      return {
+        eventType: 'status',
+        state: data.state,
+        sha: data.sha,
+        branches: data.branches,
+        repo: data.repository?.full_name,
+      }
+    }
+
     // if (data.check_run) {
     //   console.log('Check run event, data: ', data);
     //   return {
@@ -645,6 +655,50 @@ async function handlePRUnlabeled(event) {
 
 async function handleStatus(event) {
   console.log(`Handling status event: ${event}`);
+  const { state, sha, repo } = event;
+
+  const prs = await github.getCommitPRs(repo, sha);
+
+  if (!prs || prs.length === 0) {
+    console.log('No PRs associated with this commit, ignoring event');
+    return;
+  }
+
+  console.log(`found ${prs.length} PRs assocaited with commit: ${sha}`);
+
+  const { state: prState } = await stateManager.readState();
+
+  let needsRepost = false;
+
+  for (const pr of prs) {
+    const prNumber = pr.number;
+    const trackedPR = prState.repositories[repo]?.pullRequests[prNumber];
+
+    if (!trackedPR) {
+      console.log(`PR #${prNumber} not found in state, skipping`);
+      continue;
+    }
+
+    const newBuildSuccess = state === 'success';
+    const oldBuildSuccess = trackedPR.buildSuccess;
+
+    console.log(`PR #${prNumber} build status from: ${oldBuildSuccess} to ${newBuildSuccess}`);
+
+    if (newBuildSuccess !== oldBuildSuccess) {
+      await stateManager.updatePR(repo, prNumber, {
+        ...trackedPR,
+        buildSuccess: newBuildSuccess,
+        headSha: sha,
+        lastUpdated: new Date().toISOString()
+      });
+
+      needsRepost = true;
+    }
+  }
+
+  if (needsRepost) {
+    await repostApprovalList();
+  }
 }
 
 // async function handleCheckRunCompleted(event) {
