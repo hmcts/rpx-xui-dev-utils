@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1760436932.385989",
-    "lastUpdated": "2025-10-14T10:15:22.957Z"
+    "lastUpdated": "2025-10-14T10:15:36.361Z"
   },
   "repositories": {
     "hmcts/em-media-viewer": {
@@ -109,6 +109,16 @@
           "approvals": 0,
           "createdAt": "2025-10-14T10:15:22.795Z",
           "lastUpdated": "2025-10-14T10:15:22.957Z"
+        },
+        "4680": {
+          "number": 4680,
+          "title": "Revert \"toolkit version update\"",
+          "author": "Josh-HMCTS",
+          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/4680",
+          "changesRequested": false,
+          "approvals": 0,
+          "createdAt": "2025-10-14T10:15:36.191Z",
+          "lastUpdated": "2025-10-14T10:15:36.361Z"
         }
       }
     },
