@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1760436828.769649",
-    "lastUpdated": "2025-10-14T10:13:39.130Z"
+    "lastUpdated": "2025-10-14T10:15:22.957Z"
   },
   "repositories": {
     "hmcts/em-media-viewer": {
@@ -99,6 +99,16 @@
           "approvals": 0,
           "createdAt": "2025-10-14T10:13:38.896Z",
           "lastUpdated": "2025-10-14T10:13:39.130Z"
+        },
+        "4679": {
+          "number": 4679,
+          "title": "Revert \"exui-3166\"",
+          "author": "Josh-HMCTS",
+          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/4679",
+          "changesRequested": false,
+          "approvals": 0,
+          "createdAt": "2025-10-14T10:15:22.795Z",
+          "lastUpdated": "2025-10-14T10:15:22.957Z"
         }
       }
     },
