@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1760428532.979349",
-    "lastUpdated": "2025-10-14T07:55:23.761Z"
+    "lastUpdated": "2025-10-14T08:53:39.567Z"
   },
   "repositories": {
     "hmcts/em-media-viewer": {
@@ -106,13 +106,13 @@
         },
         "937": {
           "number": 937,
-          "title": "CME-774: Angular-19: building",
+          "title": "CME-774: Angular-20",
           "author": "AntonyLeons",
           "url": "https://github.com/hmcts/rpx-xui-approve-org/pull/937",
           "changesRequested": false,
           "approvals": 0,
-          "createdAt": "2025-09-29T18:03:23.498Z",
-          "lastUpdated": "2025-09-29T18:03:23.636Z"
+          "createdAt": "2025-10-14T08:53:39.336Z",
+          "lastUpdated": "2025-10-14T08:53:39.567Z"
         }
       }
     },
