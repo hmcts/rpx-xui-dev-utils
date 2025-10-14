@@ -502,7 +502,8 @@ async function handlePROpened(event) {
 
   const { approvedCount, changesRequestedCount } = await github.getReviews(repo, prNumber);
 
-  const buildSuccess = await getBuildStatus(repo, headSha);
+  const skipBuild = labels?.some(label => label.name === 'prbot-skip-ci');
+  const buildSuccess = skipBuild ? true : await getBuildStatus(repo, headSha);
 
   await stateManager.updatePR(repo, prNumber, {
     number: prNumber,
@@ -545,7 +546,9 @@ async function handlePRReview(event) {
   } else {
     // get build status
     const pr = await github.getPR(repo, prNumber);
-    const buildSuccess = await getBuildStatus(repo, pr.head.sha);
+
+    const skipBuild = labels?.some(label => label.name === 'prbot-skip-ci');
+    const buildSuccess = skipBuild ? true : await getBuildStatus(repo, headSha);
 
     await stateManager.updatePR(repo, prNumber, {
       number: prNumber,
@@ -574,7 +577,9 @@ async function handlePRChangesRequested(event) {
 
   // get build status
   const pr = await github.getPR(repo, prNumber);
-  const buildSuccess = await getBuildStatus(repo, pr.head.sha);
+  
+  const skipBuild = labels?.some(label => label.name === 'prbot-skip-ci');
+  const buildSuccess = skipBuild ? true : await getBuildStatus(repo, headSha);
 
   await stateManager.updatePR(repo, prNumber, {
     number: prNumber,
@@ -600,56 +605,105 @@ async function handlePRClosed(event) {
 }
 
 async function handlePRLabeled(event) {
-  const { prNumber, repo, label } = event;
+  const { prNumber, repo, label, prAuthor, prTitle } = event;
 
-  if (label !== 'prbot-ignore') {
-    console.log('Ignoring event, label is not prbot-ignore');
+  if (label !== 'prbot-ignore' && label !== 'prbot-skip-ci') {
+    console.log('Ignoring event, label is not prbot-ignore or prbot-skip-ci');
     return;
   }
 
   const { state } = await stateManager.readState();
 
-  // remove pr from state if it exists
-  if (state.repositories[repo]?.pullRequests[prNumber]) {
-    await stateManager.removePR(repo, prNumber);
-    await repostApprovalList();
-  } else {
-    console.log('PR not found in state, ignoring event');
+  if (label === 'prbot-ignore') {  
+    // remove pr from state if it exists
+    if (state.repositories[repo]?.pullRequests[prNumber]) {
+      await stateManager.removePR(repo, prNumber);
+      await repostApprovalList();
+    } else {
+      console.log('PR not found in state, ignoring event');
+    }
+  } else if (label === 'prbot-skip-ci') {
+    if (state.repositories[repo]?.pullRequests[prNumber]) {
+      const { approvedCount, changesRequestedCount } = await github.getReviews(repo, prNumber);
+      const pr = await github.getPR(repo, prNumber);
+
+      await stateManager.updatePR(repo, prNumber, {
+        number: prNumber,
+        title: prTitle,
+        author: prAuthor,
+        url: `https://github.com/${repo}/pull/${prNumber}`,
+        changesRequested: changesRequestedCount > 0,
+        approvals: approvedCount,
+        buildSuccess: true,
+        headSha: pr.head.sha,
+        createdAt: new Date().toISOString(),
+      });
+
+      await repostApprovalList();
+    } else {
+      console.log('PR not found in state, ignoring event');
+    }
   }
 }
 
 async function handlePRUnlabeled(event) {
   const { prNumber, repo, label, prAuthor, prTitle } = event;
 
-  if (label !== 'prbot-ignore') {
-    console.log('Ignoring event, label is not prbot-ignore');
+  if (label !== 'prbot-ignore' && label !== 'prbot-skip-ci') {
+    console.log('Ignoring event, label is not prbot-ignore or prbot-skip-ci');
     return;
   }
 
   const { state } = await stateManager.readState();
 
+  if (label === 'prbot-ignore') {
+    if (!state.repositories[repo]?.pullRequests[prNumber]) {
+      const { approvedCount, changesRequestedCount } = await github.getReviews(repo, prNumber);
+  
+      const pr = await github.getPR(repo, prNumber);
 
-  if (!state.repositories[repo]?.pullRequests[prNumber]) {
-    const { approvedCount, changesRequestedCount } = await github.getReviews(repo, prNumber);
+      const skipBuild = labels?.some(label => label.name === 'prbot-skip-ci');
+      const buildSuccess = skipBuild ? true : await getBuildStatus(repo, pr.head.sha);
 
-    const pr = await github.getPR(repo, prNumber);
-    const buildSuccess = await getBuildStatus(repo, pr.head.sha);
+      await stateManager.updatePR(repo, prNumber, {
+        number: prNumber,
+        title: prTitle,
+        author: prAuthor,
+        url: `https://github.com/${repo}/pull/${prNumber}`,
+        changesRequested: changesRequestedCount > 0,
+        approvals: approvedCount,
+        buildSuccess,
+        headSha: pr.head.sha,
+        createdAt: new Date().toISOString(),
+      });
+  
+      await repostApprovalList();
+    } else {
+      console.log('PR already exists in state, ignoring event');
+    }
+  } else if (label === 'prbot-skip-ci') {
+    // prbot-skip-ci removed, re-evaluate build status
+    if (state.repositories[repo]?.pullRequests[prNumber]) {
+      const { approvedCount, changesRequestedCount } = await github.getReviews(repo, prNumber);
+      const pr = await github.getPR(repo, prNumber);
+      const buildSuccess = await getBuildStatus(repo, pr.head.sha);
 
-    await stateManager.updatePR(repo, prNumber, {
-      number: prNumber,
-      title: prTitle,
-      author: prAuthor,
-      url: `https://github.com/${repo}/pull/${prNumber}`,
-      changesRequested: changesRequestedCount > 0,
-      approvals: approvedCount,
-      buildSuccess,
-      headSha: pr.head.sha,
-      createdAt: new Date().toISOString(),
-    });
+      await stateManager.updatePR(repo, prNumber, {
+        number: prNumber,
+        title: prTitle,
+        author: prAuthor,
+        url: `https://github.com/${repo}/pull/${prNumber}`,
+        changesRequested: changesRequestedCount > 0,
+        approvals: approvedCount,
+        buildSuccess,
+        headSha: pr.head.sha,
+        createdAt: new Date().toISOString(),
+      });
 
-    await repostApprovalList();
-  } else {
-    console.log('PR already exists in state, ignoring event');
+      await repostApprovalList();
+    } else {
+      console.log('PR not found in state, ignoring event');
+    }
   }
 }
 
@@ -676,6 +730,13 @@ async function handleStatus(event) {
 
     if (!trackedPR) {
       console.log(`PR #${prNumber} not found in state, skipping`);
+      continue;
+    }
+
+    const skipBuild = pr.labels?.some(label => label.name === 'prbot-skip-ci');
+
+    if (skipBuild) {
+      console.log(`PR #${prNumber} has prbot-skip-ci label, skipping build status update`);
       continue;
     }
 
