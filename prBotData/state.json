@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1760458506.648409",
-    "lastUpdated": "2025-10-14T16:14:55.989Z"
+    "lastUpdated": "2025-10-14T16:18:02.057Z"
   },
   "repositories": {
     "hmcts/em-media-viewer": {
@@ -180,9 +180,9 @@
           "author": "Josh-HMCTS",
           "url": "https://github.com/hmcts/rpx-xui-common-lib/pull/515",
           "changesRequested": false,
-          "approvals": 0,
-          "createdAt": "2025-10-14T16:14:55.778Z",
-          "lastUpdated": "2025-10-14T16:14:55.989Z"
+          "approvals": 1,
+          "createdAt": "2025-10-14T16:18:01.894Z",
+          "lastUpdated": "2025-10-14T16:18:02.057Z"
         }
       }
     }
