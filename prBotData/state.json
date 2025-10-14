@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1760436535.548409",
-    "lastUpdated": "2025-10-14T10:08:45.764Z"
+    "lastUpdated": "2025-10-14T10:13:39.130Z"
   },
   "repositories": {
     "hmcts/em-media-viewer": {
@@ -89,6 +89,16 @@
           "approvals": 0,
           "createdAt": "2025-10-14T07:55:23.586Z",
           "lastUpdated": "2025-10-14T07:55:23.761Z"
+        },
+        "4678": {
+          "number": 4678,
+          "title": "Revert \"exui-3401-cached-data-issue\"",
+          "author": "Josh-HMCTS",
+          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/4678",
+          "changesRequested": false,
+          "approvals": 0,
+          "createdAt": "2025-10-14T10:13:38.896Z",
+          "lastUpdated": "2025-10-14T10:13:39.130Z"
         }
       }
     },
