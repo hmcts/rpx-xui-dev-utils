@@ -643,6 +643,10 @@ async function handlePRUnlabeled(event) {
   }
 }
 
+async function handleStatus(event) {
+  console.log(`Handling status event: ${event}`);
+}
+
 async function handleCheckRunCompleted(event) {
   const { repo, sha, conclusion, status, name } = event;
 
@@ -707,6 +711,15 @@ async function run() {
   if (!event.repo) {
     console.error('Error with repo data');
     return;
+  }
+
+  if (event.eventType === 'status') {
+    try {
+      await handleStatus(event);
+    } catch (error) {
+      console.error(`Error processing status event:`, error.message);
+      process.exit(1);
+    }
   }
 
   if (event.eventType === 'check_run') {
