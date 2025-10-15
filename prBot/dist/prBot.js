@@ -51,19 +51,6 @@ function sleep(ms) {
 function loadEventData() {
   try {
     const data = JSON.parse(fs.readFileSync(ENV.githubEventPath, 'utf8'));
-    console.log('GitHub event data loaded:', data);
-    
-    // Log all PR labels
-    if (data.pull_request?.labels && data.pull_request.labels.length > 0) {
-      console.log('GitHub PR labels:');
-      data.pull_request.labels.forEach((label, index) => {
-        console.log(`Label ${index}: `, label);
-      });
-    } else {
-      console.log('No labels found on this PR');
-    }
-    
-    console.log('[DEBUG CHANGES REQUESTED] data.review?.state: ', data.review?.state);
 
     if (data.context === 'continuous-integration/jenkins/pr-head') {
       return {
@@ -72,7 +59,7 @@ function loadEventData() {
         sha: data.sha,
         branches: data.branches,
         repo: data.repository?.full_name,
-      }
+      };
     }
 
     return {
@@ -125,7 +112,6 @@ const github = {
   async getReviews(repo, prNumber) {
     const path = `/repos/${repo}/pulls/${prNumber}/reviews`;
     const reviews = await httpRequest(CONFIG.GITHUB_API_BASE, path, 'GET', this.getHeaders());
-    console.log(`Fetched reviews for PR #${prNumber}: `, reviews);
 
     // get the latest review from each unique reviewer
     const latestReviewsMap = new Map();
@@ -140,7 +126,6 @@ const github = {
     });
 
     const latestReviews = Array.from(latestReviewsMap.values());
-    console.log(`latest reviews (one per user) for pr #${prNumber}: `, latestReviews);
 
     const approvedCount = latestReviews.filter(review => review.state === 'APPROVED').length;
     const changesRequestedCount = latestReviews.filter(review => review.state === 'CHANGES_REQUESTED').length;
@@ -151,23 +136,18 @@ const github = {
   async getPR(repo, prNumber) {
     const path = `/repos/${repo}/pulls/${prNumber}`;
     const pr = await httpRequest(CONFIG.GITHUB_API_BASE, path, 'GET', this.getHeaders());
-    console.log(`Fetched PR #${prNumber}: `, pr);
     return pr;
   },
 
   async getCommitStatus(repo, sha) {
-    // fetch combined status for a commit (for Jenkins)
     const path = `/repos/${repo}/commits/${sha}/status`;
     const response = await httpRequest(CONFIG.GITHUB_API_BASE, path, 'GET', this.getHeaders());
-    console.log(`Fetched commit status for ${repo}@${sha}: state=${response.state}, statuses=${response.statuses?.length || 0}`);
     return response;
   },
 
   async getCommitPRs(repo, sha) {
-    // get PRs associated with a commit
     const path = `/repos/${repo}/commits/${sha}/pulls`;
     const prs = await httpRequest(CONFIG.GITHUB_API_BASE, path, 'GET', this.getHeaders());
-    console.log(`Fetched PRs for commit ${sha}: ${prs.length} PRs found`);
     return prs;
   }
 };
@@ -192,7 +172,6 @@ const slack = {
     if (!response.ok) {
       throw new Error(`Slack API error: ${response.error}`);
     }
-    
     return response.ts;
   },
 
@@ -286,7 +265,6 @@ const stateManager = {
     for (let attempt = 0; attempt < maxRetries; attempt++) {
       try {
         const { state, sha } = await this.readState();
-        console.log('Updating PR state before:', state);
 
         if (!state.repositories[repo]) {
           state.repositories[repo] = { pullRequests: {} };
@@ -375,9 +353,6 @@ async function repostApprovalList() {
   await sleep(3000);
 
   const { state } = await stateManager.readState();
-
-  console.log('Reposting approval list with state:', state);
-
   const needsApproval = [];
   
   Object.entries(state.repositories).forEach(([repo, data]) => {
@@ -392,8 +367,6 @@ async function repostApprovalList() {
   needsApproval.sort((a, b) => {
     return new Date(a.createdAt) - new Date(b.createdAt);
   });
-
-  console.log('Needs approval PRs after sorting:', needsApproval);
 
   let message = '';
 
@@ -415,9 +388,7 @@ async function repostApprovalList() {
     }
   }
 
-  if (message.length > 0) {
-    console.log('Posting approval list message:', message);
-  
+  if (message.length > 0) {  
     const ts = await slack.postMessage(ENV.slackChannelId, message);
     await stateManager.updateMetadata({ approvalListMessageTs: ts });
   }
@@ -465,18 +436,22 @@ async function createPRStateUpdate(repo, prNumber, prTitle, prAuthor, approvedCo
   };
 }
 
+async function fetchPRDataAndCreateState(repo, prNumber, prTitle, prAuthor) {
+  const { approvedCount, changesRequestedCount } = await github.getReviews(repo, prNumber);
+  const pr = await github.getPR(repo, prNumber);
+  const prState = await createPRStateUpdate(repo, prNumber, prTitle, prAuthor, approvedCount, changesRequestedCount, pr);
+  return prState;
+}
+
 async function handlePROpened(event) {
   const { prNumber, prAuthor, prTitle, repo, labels } = event;
 
   if (labels && labels.some(label => label.name === 'prbot-ignore')) {
-    console.log('Ignoring PR, prbot-ignore label is present');
+    console.log('ignoring PR, prbot-ignore label is present');
     return;
   }
 
-  const { approvedCount, changesRequestedCount } = await github.getReviews(repo, prNumber);
-  const pr = await github.getPR(repo, prNumber);
-  const prState = await createPRStateUpdate(repo, prNumber, prTitle, prAuthor, approvedCount, changesRequestedCount, pr);
-
+  const prState = await fetchPRDataAndCreateState(repo, prNumber, prTitle, prAuthor);
   await stateManager.updatePR(repo, prNumber, prState);
 
   if (prState.buildSuccess) {
@@ -524,7 +499,6 @@ async function handlePRChangesRequested(event) {
   const prState = await createPRStateUpdate(repo, prNumber, prTitle, prAuthor, approvedCount, 1, pr);
 
   await stateManager.updatePR(repo, prNumber, prState);
-
   await repostApprovalList();
 }
 
@@ -532,7 +506,6 @@ async function handlePRClosed(event) {
   const { prNumber, repo } = event;
 
   await stateManager.removePR(repo, prNumber);
-
   await repostApprovalList();
 }
 
@@ -547,7 +520,6 @@ async function handlePRLabeled(event) {
   const { state } = await stateManager.readState();
 
   if (label === 'prbot-ignore') {  
-    // remove pr from state if it exists
     if (state.repositories[repo]?.pullRequests[prNumber]) {
       await stateManager.removePR(repo, prNumber);
       await repostApprovalList();
@@ -556,9 +528,7 @@ async function handlePRLabeled(event) {
     }
   } else if (label === 'prbot-skip-ci') {
     if (state.repositories[repo]?.pullRequests[prNumber]) {
-      const { approvedCount, changesRequestedCount } = await github.getReviews(repo, prNumber);
-      const pr = await github.getPR(repo, prNumber);
-      const prState = await createPRStateUpdate(repo, prNumber, prTitle, prAuthor, approvedCount, changesRequestedCount, pr);
+      const prState = await fetchPRDataAndCreateState(repo, prNumber, prTitle, prAuthor);
       await stateManager.updatePR(repo, prNumber, prState);
       await repostApprovalList();
     } else {
@@ -579,14 +549,8 @@ async function handlePRUnlabeled(event) {
 
   if (label === 'prbot-ignore') {
     if (!state.repositories[repo]?.pullRequests[prNumber]) {
-      const { approvedCount, changesRequestedCount } = await github.getReviews(repo, prNumber);
-  
-      const pr = await github.getPR(repo, prNumber);
-
-      const prState = await createPRStateUpdate(repo, prNumber, prTitle, prAuthor, approvedCount, changesRequestedCount, pr);
-
+      const prState = await fetchPRDataAndCreateState(repo, prNumber, prTitle, prAuthor);
       await stateManager.updatePR(repo, prNumber, prState);
-  
       await repostApprovalList();
     } else {
       console.log('PR already exists in state, ignoring event');
@@ -594,9 +558,7 @@ async function handlePRUnlabeled(event) {
   } else if (label === 'prbot-skip-ci') {
     // prbot-skip-ci removed, re-evaluate build status
     if (state.repositories[repo]?.pullRequests[prNumber]) {
-      const { approvedCount, changesRequestedCount } = await github.getReviews(repo, prNumber);
-      const pr = await github.getPR(repo, prNumber);
-      const prState = await createPRStateUpdate(repo, prNumber, prTitle, prAuthor, approvedCount, changesRequestedCount, pr);
+      const prState = await fetchPRDataAndCreateState(repo, prNumber, prTitle, prAuthor);
       await stateManager.updatePR(repo, prNumber, prState);
       await repostApprovalList();
     } else {
