@@ -114,15 +114,17 @@ async function httpRequest(hostname, path, method = 'GET', headers = {}, body = 
 }
 
 const github = {
-  async getReviews(repo, prNumber) {
-    const path = `/repos/${repo}/pulls/${prNumber}/reviews`;
-    const headers = {
+  getHeaders() {
+    return {
       'Authorization': `Bearer ${ENV.githubToken}`,
       'Accept': 'application/vnd.github.v3+json',
       'User-Agent': 'Node.js'
     };
-    
-    const reviews = await httpRequest(CONFIG.GITHUB_API_BASE, path, 'GET', headers);
+  },
+
+  async getReviews(repo, prNumber) {
+    const path = `/repos/${repo}/pulls/${prNumber}/reviews`;
+    const reviews = await httpRequest(CONFIG.GITHUB_API_BASE, path, 'GET', this.getHeaders());
     console.log(`Fetched reviews for PR #${prNumber}: `, reviews);
 
     // get the latest review from each unique reviewer
@@ -148,13 +150,7 @@ const github = {
 
   async getPR(repo, prNumber) {
     const path = `/repos/${repo}/pulls/${prNumber}`;
-    const headers = {
-      'Authorization': `Bearer ${ENV.githubToken}`,
-      'Accept': 'application/vnd.github.v3+json',
-      'User-Agent': 'Node.js'
-    };
-
-    const pr = await httpRequest(CONFIG.GITHUB_API_BASE, path, 'GET', headers);
+    const pr = await httpRequest(CONFIG.GITHUB_API_BASE, path, 'GET', this.getHeaders());
     console.log(`Fetched PR #${prNumber}: `, pr);
     return pr;
   },
@@ -162,13 +158,7 @@ const github = {
   async getCommitStatus(repo, sha) {
     // fetch combined status for a commit (for Jenkins)
     const path = `/repos/${repo}/commits/${sha}/status`;
-    const headers = {
-      'Authorization': `Bearer ${ENV.githubToken}`,
-      'Accept': 'application/vnd.github.v3+json',
-      'User-Agent': 'Node.js'
-    };
-
-    const response = await httpRequest(CONFIG.GITHUB_API_BASE, path, 'GET', headers);
+    const response = await httpRequest(CONFIG.GITHUB_API_BASE, path, 'GET', this.getHeaders());
     console.log(`Fetched commit status for ${repo}@${sha}: state=${response.state}, statuses=${response.statuses?.length || 0}`);
     return response;
   },
@@ -176,13 +166,7 @@ const github = {
   async getCommitPRs(repo, sha) {
     // get PRs associated with a commit
     const path = `/repos/${repo}/commits/${sha}/pulls`;
-    const headers = {
-      'Authorization': `Bearer ${ENV.githubToken}`,
-      'Accept': 'application/vnd.github.v3+json',
-      'User-Agent': 'Node.js'
-    };
-
-    const prs = await httpRequest(CONFIG.GITHUB_API_BASE, path, 'GET', headers);
+    const prs = await httpRequest(CONFIG.GITHUB_API_BASE, path, 'GET', this.getHeaders());
     console.log(`Fetched PRs for commit ${sha}: ${prs.length} PRs found`);
     return prs;
   }
