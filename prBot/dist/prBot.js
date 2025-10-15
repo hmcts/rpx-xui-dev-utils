@@ -568,7 +568,6 @@ async function handlePRUnlabeled(event) {
 }
 
 async function handleStatus(event) {
-  console.log(`Handling status event: ${event}`);
   const { state, sha, repo } = event;
 
   const prs = await github.getCommitPRs(repo, sha);
@@ -577,8 +576,6 @@ async function handleStatus(event) {
     console.log('No PRs associated with this commit, ignoring event');
     return;
   }
-
-  console.log(`found ${prs.length} PRs assocaited with commit: ${sha}`);
 
   const { state: prState } = await stateManager.readState();
 
@@ -686,6 +683,7 @@ module.exports = {
   getBuildStatus,
   formatPRMessage,
   createPRStateUpdate,
+  fetchPRDataAndCreateState,
   handlePROpened,
   handlePRReview,
   handlePRChangesRequested,

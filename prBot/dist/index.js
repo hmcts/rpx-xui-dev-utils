@@ -12,6 +12,7 @@ module.exports = {
     getBuildStatus: prBot.getBuildStatus,
     formatPRMessage: prBot.formatPRMessage,
     createPRStateUpdate: prBot.createPRStateUpdate,
+    fetchPRDataAndCreateState: prBot.fetchPRDataAndCreateState,
     handlePROpened: prBot.handlePROpened,
     handlePRReview: prBot.handlePRReview,
     handlePRChangesRequested: prBot.handlePRChangesRequested,
