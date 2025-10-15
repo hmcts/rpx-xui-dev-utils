@@ -1,7 +1,24 @@
 {
   "metadata": {
     "approvalListMessageTs": null,
-    "lastUpdated": "2025-10-14T19:41:25.150Z"
+    "lastUpdated": "2025-10-15T13:29:40.795Z"
   },
-  "repositories": {}
+  "repositories": {
+    "hmcts/em-showcase": {
+      "pullRequests": {
+        "727": {
+          "number": 727,
+          "title": "EXUI-3524 removed check_suite and check_run events from actions workflow",
+          "author": "chrisjones-hmcts",
+          "url": "https://github.com/hmcts/em-showcase/pull/727",
+          "changesRequested": false,
+          "approvals": 0,
+          "buildSuccess": false,
+          "headSha": "fbeca963c71d0fb51bb6635493bb08403c19a7a6",
+          "createdAt": "2025-10-15T13:29:40.633Z",
+          "lastUpdated": "2025-10-15T13:29:40.795Z"
+        }
+      }
+    }
+  }
 }
