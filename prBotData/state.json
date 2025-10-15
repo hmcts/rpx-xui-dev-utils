@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1760534576.171239",
-    "lastUpdated": "2025-10-15T11:26:17.632Z"
+    "lastUpdated": "2025-10-15T14:36:38.971Z"
   },
   "repositories": {
     "hmcts/em-media-viewer": {
@@ -45,10 +45,10 @@
           "title": "CME-782: Angular 20 upgrade for MC",
           "author": "kiran-yenigala-hmcts",
           "url": "https://github.com/hmcts/rpx-xui-webapp/pull/4667",
-          "changesRequested": false,
+          "changesRequested": true,
           "approvals": 0,
-          "createdAt": "2025-10-15T11:04:29.754Z",
-          "lastUpdated": "2025-10-15T11:04:29.912Z"
+          "createdAt": "2025-10-15T14:36:38.709Z",
+          "lastUpdated": "2025-10-15T14:36:38.971Z"
         },
         "4669": {
           "number": 4669,
