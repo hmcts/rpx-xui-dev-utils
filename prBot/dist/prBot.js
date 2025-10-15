@@ -234,16 +234,18 @@ const slack = {
 };
 
 const stateManager = {
+  getHeaders() {
+    return {
+      'Authorization': `Bearer ${ENV.dataRepoToken}`,
+      'Accept': 'application/vnd.github.v3+json',
+      'User-Agent': 'Node.js'
+    };
+  },
+
   async readState() {
     try {
       const path = `/repos/${ENV.dataRepoOwner}/${ENV.dataRepoName}/contents/${ENV.dataStateFilePath}`;
-      const headers = {
-        'Authorization': `Bearer ${ENV.dataRepoToken}`,
-        'Accept': 'application/vnd.github.v3+json',
-        'User-Agent': 'Node.js'
-      }
-
-      const response = await httpRequest(CONFIG.GITHUB_API_BASE, path, 'GET', headers);
+      const response = await httpRequest(CONFIG.GITHUB_API_BASE, path, 'GET', this.getHeaders());
 
       if (response.content) {
         const content = Buffer.from(response.content, 'base64').toString();
@@ -261,11 +263,6 @@ const stateManager = {
   
   async writeState(state, sha) {
     const path = `/repos/${ENV.dataRepoOwner}/${ENV.dataRepoName}/contents/${ENV.dataStateFilePath}`;
-    const headers = {
-      'Authorization': `Bearer ${ENV.dataRepoToken}`,
-      'Accept': 'application/vnd.github.v3+json',
-      'User-Agent': 'Node.js'
-    }
 
     try {
       const content = Buffer.from(JSON.stringify(state, null, 2)).toString('base64');
@@ -279,7 +276,7 @@ const stateManager = {
         body.sha = sha;
       }
 
-      const stateAfter = await httpRequest(CONFIG.GITHUB_API_BASE, path, 'PUT', headers, body);
+      const stateAfter = await httpRequest(CONFIG.GITHUB_API_BASE, path, 'PUT', this.getHeaders(), body);
       console.log('State written successfully');
       await sleep(2000);
       return stateAfter;
