@@ -732,6 +732,7 @@ module.exports = {
   repostApprovalList,
   getBuildStatus,
   formatPRMessage,
+  createPRStateUpdate,
   handlePROpened,
   handlePRReview,
   handlePRChangesRequested,

@@ -11,6 +11,7 @@ module.exports = {
     repostApprovalList: prBot.repostApprovalList,
     getBuildStatus: prBot.getBuildStatus,
     formatPRMessage: prBot.formatPRMessage,
+    createPRStateUpdate: prBot.createPRStateUpdate,
     handlePROpened: prBot.handlePROpened,
     handlePRReview: prBot.handlePRReview,
     handlePRChangesRequested: prBot.handlePRChangesRequested,
