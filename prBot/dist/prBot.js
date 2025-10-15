@@ -142,8 +142,8 @@ const github = {
     const latestReviews = Array.from(latestReviewsMap.values());
     console.log(`latest reviews (one per user) for pr #${prNumber}: `, latestReviews);
 
-    const approvedCount = latestReviews.filter(review => review.state === 'APPROVED').length,
-      changesRequestedCount = latestReviews.filter(review => review.state === 'CHANGES_REQUESTED').length;
+    const approvedCount = latestReviews.filter(review => review.state === 'APPROVED').length;
+    const changesRequestedCount = latestReviews.filter(review => review.state === 'CHANGES_REQUESTED').length;
 
     return { approvedCount, changesRequestedCount };
   },
@@ -173,17 +173,19 @@ const github = {
 };
 
 const slack = {
-  async postMessage(channel, text) {
-    const headers = {
+  getHeaders() {
+    return {
       'Authorization': `Bearer ${ENV.slackBotToken}`,
       'Content-Type': 'application/json'
     };
-    
+  },
+
+  async postMessage(channel, text) {
     const response = await httpRequest(
       CONFIG.SLACK_API_BASE,
       '/api/chat.postMessage',
       'POST',
-      headers,
+      this.getHeaders(),
       { channel, text }
     );
         
@@ -195,16 +197,11 @@ const slack = {
   },
 
   async updateMessage(channel, ts, text) {
-    const headers = {
-      'Authorization': `Bearer ${ENV.slackBotToken}`,
-      'Content-Type': 'application/json'
-    };
-    
     const response = await httpRequest(
       CONFIG.SLACK_API_BASE,
       '/api/chat.update',
       'POST',
-      headers,
+      this.getHeaders(),
       { channel, ts, text }
     );
     
@@ -214,16 +211,11 @@ const slack = {
   },
 
   async deleteMessage(channel, ts) {
-    const headers = {
-      'Authorization': `Bearer ${ENV.slackBotToken}`,
-      'Content-Type': 'application/json'
-    };
-
     const response = await httpRequest(
       CONFIG.SLACK_API_BASE,
       '/api/chat.delete',
       'POST',
-      headers,
+      this.getHeaders(),
       { channel, ts }
     );
 
@@ -450,9 +442,9 @@ async function getBuildStatus(repo, sha, labels) {
 }
 
 function formatPRMessage(prNumber, prAuthor, prTitle, repo, approvedCount, emoji = '') {
-  const truncatedTitle = prTitle.length > ENV.titleMaxLength ? prTitle.slice(0, ENV.titleMaxLength) + '…' : prTitle,
-    prLink = `https://github.com/${repo}/pull/${prNumber}`,
-    repoName = repo.split('/')[1];
+  const truncatedTitle = prTitle.length > ENV.titleMaxLength ? prTitle.slice(0, ENV.titleMaxLength) + '…' : prTitle;
+  const prLink = `https://github.com/${repo}/pull/${prNumber}`;
+  const repoName = repo.split('/')[1];
 
   return `(${approvedCount} of ${ENV.requiredApprovals} approvals) ${repoName} PR #${prNumber} by ${prAuthor}:\n${emoji}<${prLink}|${truncatedTitle}>`;
 }
@@ -472,7 +464,6 @@ async function createPRStateUpdate(repo, prNumber, prTitle, prAuthor, approvedCo
     createdAt: new Date().toISOString(),
   };
 }
-
 
 async function handlePROpened(event) {
   const { prNumber, prAuthor, prTitle, repo, labels } = event;
@@ -511,7 +502,7 @@ async function handlePRReview(event) {
     // post standalone approval message regardless of build status
     const message = formatPRMessage(prNumber, prAuthor, prTitle, repo, approvedCount, '✅✅ ');
     await slack.postMessage(ENV.slackChannelId, message);
-    await stateManager.removePR(repo, prNumber)
+    await stateManager.removePR(repo, prNumber);
   } else {
     const pr = await github.getPR(repo, prNumber);
     const prState = await createPRStateUpdate(repo, prNumber, prTitle, prAuthor, approvedCount, changesRequestedCount, pr);
