@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1760620648.274199",
-    "lastUpdated": "2025-10-16T13:17:18.146Z"
+    "lastUpdated": "2025-10-16T13:40:00.263Z"
   },
   "repositories": {
     "hmcts/em-media-viewer": {
@@ -138,17 +138,6 @@
     },
     "hmcts/rpx-xui-approve-org": {
       "pullRequests": {
-        "937": {
-          "number": 937,
-          "title": "CME-774: Angular-20",
-          "author": "AntonyLeons",
-          "url": "https://github.com/hmcts/rpx-xui-approve-org/pull/937",
-          "changesRequested": false,
-          "approvals": 1,
-          "createdAt": "2025-10-16T08:03:20.105Z",
-          "lastUpdated": "2025-10-16T08:03:20.363Z",
-          "headSha": "c10cb9ea53501d218e1cbbc59befacc17357316d"
-        },
         "940": {
           "number": 940,
           "title": "EXUI-3524 pr bot enhancements",
