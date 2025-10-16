@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": null,
-    "lastUpdated": "2025-10-16T09:46:22.345Z"
+    "lastUpdated": "2025-10-16T10:28:52.290Z"
   },
   "repositories": {
     "hmcts/em-media-viewer": {
@@ -166,6 +166,22 @@
           "approvals": 0,
           "createdAt": "2025-10-08T21:34:46.108Z",
           "lastUpdated": "2025-10-08T21:34:46.407Z"
+        }
+      }
+    },
+    "hmcts/rpx-xui-manage-organisations": {
+      "pullRequests": {
+        "1420": {
+          "number": 1420,
+          "title": "CME 781 angular 20 upgrade",
+          "author": "ben-james-hmcts",
+          "url": "https://github.com/hmcts/rpx-xui-manage-organisations/pull/1420",
+          "changesRequested": false,
+          "approvals": 0,
+          "buildSuccess": false,
+          "headSha": "758aabebedc5b627bb31e3468f620adf360b4f36",
+          "createdAt": "2025-10-16T10:28:52.056Z",
+          "lastUpdated": "2025-10-16T10:28:52.290Z"
         }
       }
     }
