@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": null,
-    "lastUpdated": "2025-10-16T11:55:39.027Z"
+    "lastUpdated": "2025-10-16T11:58:38.336Z"
   },
   "repositories": {
     "hmcts/em-showcase": {
@@ -15,8 +15,8 @@
           "approvals": 2,
           "buildSuccess": false,
           "headSha": "f7a442bc5c1ffc59504de9d991a7389c883a4a5f",
-          "createdAt": "2025-10-16T11:55:38.872Z",
-          "lastUpdated": "2025-10-16T11:55:39.027Z"
+          "createdAt": "2025-10-16T11:58:38.203Z",
+          "lastUpdated": "2025-10-16T11:58:38.336Z"
         }
       }
     }
