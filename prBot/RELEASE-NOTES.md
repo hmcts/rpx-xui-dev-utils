@@ -1,3 +1,6 @@
+Version 1.0.12
+EXUI-3524 Getting feedback for further enhancements to PR Bot
+
 Version 1.0.11
 EXUI-3114 Investigate automation tool to improve PR review process
 
