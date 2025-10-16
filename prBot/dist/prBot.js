@@ -521,6 +521,7 @@ async function handlePRClosed(event) {
 
 async function handlePRLabeled(event) {
   const { prNumber, repo, label, prAuthor, prTitle } = event;
+  console.log('handlePRLabeled event:', event);
 
   if (label !== 'prbot-ignore' && label !== 'prbot-skip-ci') {
     console.log('Ignoring event, label is not prbot-ignore or prbot-skip-ci');
@@ -551,6 +552,7 @@ async function handlePRLabeled(event) {
 
 async function handlePRUnlabeled(event) {
   const { prNumber, repo, label, prAuthor, prTitle } = event;
+  console.log('handlePRUnlabeled event:', event);
 
   if (label !== 'prbot-ignore' && label !== 'prbot-skip-ci') {
     console.log('Ignoring event, label is not prbot-ignore or prbot-skip-ci');
