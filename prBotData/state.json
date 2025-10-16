@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": null,
-    "lastUpdated": "2025-10-16T10:28:52.290Z"
+    "lastUpdated": "2025-10-16T12:30:54.921Z"
   },
   "repositories": {
     "hmcts/em-media-viewer": {
@@ -152,6 +152,18 @@
           "approvals": 0,
           "createdAt": "2025-10-03T14:58:10.229Z",
           "lastUpdated": "2025-10-03T14:58:10.394Z"
+        },
+        "729": {
+          "number": 729,
+          "title": "EXUI-3524 pr bot enhancements",
+          "author": "chrisjones-hmcts",
+          "url": "https://github.com/hmcts/em-showcase/pull/729",
+          "changesRequested": false,
+          "approvals": 0,
+          "buildSuccess": false,
+          "headSha": "37a2eaaaa3141cdf8a6e0ffa16d02e482beb56a8",
+          "createdAt": "2025-10-16T12:30:54.623Z",
+          "lastUpdated": "2025-10-16T12:30:54.921Z"
         }
       }
     },
