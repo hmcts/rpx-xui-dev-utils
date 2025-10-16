@@ -29,7 +29,7 @@ prBot.run();
 name: pr-bot
 on:
   pull_request:
-    types: [opened, closed, reopene, labeled, unlabeled]
+    types: [opened, closed, reopened, labeled, unlabeled]
   pull_request_review:
     types: [submitted]
   status:
