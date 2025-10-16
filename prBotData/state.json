@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1760619267.900489",
-    "lastUpdated": "2025-10-16T12:57:11.857Z"
+    "lastUpdated": "2025-10-16T12:59:44.892Z"
   },
   "repositories": {
     "hmcts/em-media-viewer": {
@@ -226,6 +226,18 @@
           "approvals": 0,
           "createdAt": "2025-10-08T21:34:46.108Z",
           "lastUpdated": "2025-10-08T21:34:46.407Z"
+        },
+        "51": {
+          "number": 51,
+          "title": "EXUI-3524 pr bot enhancements",
+          "author": "chrisjones-hmcts",
+          "url": "https://github.com/hmcts/rpx-xui-translation/pull/51",
+          "changesRequested": false,
+          "approvals": 0,
+          "buildSuccess": false,
+          "headSha": "b933909ea541055eab711028e6cde8d227453016",
+          "createdAt": "2025-10-16T12:59:44.744Z",
+          "lastUpdated": "2025-10-16T12:59:44.892Z"
         }
       }
     },
