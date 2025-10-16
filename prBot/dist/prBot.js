@@ -19,7 +19,8 @@ const ENV = {
   dataRepoToken: process.env.DATA_REPO_TOKEN,
   dataRepoOwner: process.env.DATA_REPO_OWNER,
   dataRepoName: process.env.DATA_REPO_NAME,
-  dataStateFilePath: process.env.DATA_STATE_FILE_PATH
+  dataStateFilePath: process.env.DATA_STATE_FILE_PATH,
+  skipCICheck: process.env.SKIP_CI_CHECK === 'true'
 };
 
 function validateEnvironment() {
@@ -396,7 +397,7 @@ async function repostApprovalList() {
 async function getBuildStatus(repo, sha, labels) {
   const skipBuild = labels?.some(label => label.name === 'prbot-skip-ci');
 
-  if (skipBuild) {
+  if (skipBuild || ENV.skipCICheck) {
     return true;
   }
 
@@ -601,7 +602,7 @@ async function handleStatus(event) {
 
     const skipBuild = pr.labels?.some(label => label.name === 'prbot-skip-ci');
 
-    if (skipBuild) {
+    if (skipBuild || ENV.skipCICheck) {
       console.log(`PR #${prNumber} has prbot-skip-ci label, skipping build status update`);
       continue;
     }
