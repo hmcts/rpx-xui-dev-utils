@@ -521,7 +521,6 @@ async function handlePRClosed(event) {
 
 async function handlePRLabeled(event) {
   const { prNumber, repo, label, prAuthor, prTitle } = event;
-  console.log('handlePRLabeled event:', event);
 
   if (label !== 'prbot-ignore' && label !== 'prbot-skip-ci') {
     console.log('Ignoring event, label is not prbot-ignore or prbot-skip-ci');
@@ -540,10 +539,8 @@ async function handlePRLabeled(event) {
   } else if (label === 'prbot-skip-ci') {
     if (state.repositories[repo]?.pullRequests[prNumber]) {
       const prState = await fetchPRDataAndCreateState(repo, prNumber, prTitle, prAuthor);
-      if (prState.changesRequested || prState.approvals < ENV.requiredApprovals) {
-        await stateManager.updatePR(repo, prNumber, prState);
-        await repostApprovalList();
-      }
+      await stateManager.updatePR(repo, prNumber, prState);
+      await repostApprovalList();
     } else {
       console.log('PR not found in state, ignoring event');
     }
@@ -552,7 +549,6 @@ async function handlePRLabeled(event) {
 
 async function handlePRUnlabeled(event) {
   const { prNumber, repo, label, prAuthor, prTitle } = event;
-  console.log('handlePRUnlabeled event:', event);
 
   if (label !== 'prbot-ignore' && label !== 'prbot-skip-ci') {
     console.log('Ignoring event, label is not prbot-ignore or prbot-skip-ci');
@@ -575,10 +571,8 @@ async function handlePRUnlabeled(event) {
     // prbot-skip-ci removed, re-evaluate build status
     if (state.repositories[repo]?.pullRequests[prNumber]) {
       const prState = await fetchPRDataAndCreateState(repo, prNumber, prTitle, prAuthor);
-      if (prState.changesRequested || prState.approvals < ENV.requiredApprovals) {
-        await stateManager.updatePR(repo, prNumber, prState);
-        await repostApprovalList();
-      }
+      await stateManager.updatePR(repo, prNumber, prState);
+      await repostApprovalList();
     } else {
       console.log('PR not found in state, ignoring event');
     }
