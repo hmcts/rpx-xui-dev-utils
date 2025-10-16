@@ -1,6 +1,6 @@
 {
   "name": "@hmcts/pr-bot",
-  "version": "1.0.11-exui-3524",
+  "version": "1.0.12",
   "description": "A bot to be used in Github Actions which posts to Slack contextual information about pull requests.",
   "main": "dist/index.js",
   "bin": {
