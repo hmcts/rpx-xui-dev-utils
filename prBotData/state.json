@@ -123,7 +123,6 @@
           "approvals": 1,
           "createdAt": "2025-10-16T08:03:20.105Z",
           "lastUpdated": "2025-10-16T08:03:20.363Z",
-          "buildSuccess": true,
           "headSha": "c10cb9ea53501d218e1cbbc59befacc17357316d"
         }
       }
