@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1760604693.339089",
-    "lastUpdated": "2025-10-16T08:13:34.004Z"
+    "lastUpdated": "2025-10-16T09:46:22.345Z"
   },
   "repositories": {
     "hmcts/em-media-viewer": {
@@ -166,20 +166,6 @@
           "approvals": 0,
           "createdAt": "2025-10-08T21:34:46.108Z",
           "lastUpdated": "2025-10-08T21:34:46.407Z"
-        }
-      }
-    },
-    "hmcts/rpx-xui-manage-organisations": {
-      "pullRequests": {
-        "1403": {
-          "number": 1403,
-          "title": "EXUI-3411 - Add the new csp changes",
-          "author": "connorpgpmcelroy",
-          "url": "https://github.com/hmcts/rpx-xui-manage-organisations/pull/1403",
-          "changesRequested": false,
-          "approvals": 1,
-          "createdAt": "2025-10-14T10:54:41.380Z",
-          "lastUpdated": "2025-10-14T10:54:41.575Z"
         }
       }
     }
