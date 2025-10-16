@@ -321,7 +321,6 @@ const stateManager = {
           throw error;
         }
       }
-    
     }
   },
 
@@ -446,7 +445,7 @@ async function fetchPRDataAndCreateState(repo, prNumber, prTitle, prAuthor) {
 async function handlePROpened(event) {
   const { prNumber, prAuthor, prTitle, repo, labels } = event;
 
-  if (labels && labels.some(label => label.name === 'prbot-ignore')) {
+  if (labels?.some(label => label.name === 'prbot-ignore')) {
     console.log('ignoring PR, prbot-ignore label is present');
     return;
   }
@@ -462,10 +461,15 @@ async function handlePROpened(event) {
 }
 
 async function handlePRReview(event) {
-  const { prNumber, prAuthor, prTitle, repo, reviewState } = event;
+  const { prNumber, prAuthor, prTitle, repo, reviewState, labels } = event;
 
   if (reviewState === 'changes_requested') {
     await handlePRChangesRequested(event);
+    return;
+  }
+
+  if (labels?.some(label => label.name === 'prbot-ignore')) {
+    console.log('ignoring PR, prbot-ignore label is present');
     return;
   }
 
@@ -491,6 +495,11 @@ async function handlePRChangesRequested(event) {
   const { prNumber, prAuthor, repo, prTitle, reviewState } = event;
 
   if (reviewState !== 'changes_requested') {
+    return;
+  }
+
+  if (labels?.some(label => label.name === 'prbot-ignore')) {
+    console.log('ignoring PR, prbot-ignore label is present');
     return;
   }
 
