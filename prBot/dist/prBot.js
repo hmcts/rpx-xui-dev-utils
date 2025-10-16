@@ -539,8 +539,10 @@ async function handlePRLabeled(event) {
   } else if (label === 'prbot-skip-ci') {
     if (state.repositories[repo]?.pullRequests[prNumber]) {
       const prState = await fetchPRDataAndCreateState(repo, prNumber, prTitle, prAuthor);
-      await stateManager.updatePR(repo, prNumber, prState);
-      await repostApprovalList();
+      if (prState.changesRequested || prState.approvals < ENV.requiredApprovals) {
+        await stateManager.updatePR(repo, prNumber, prState);
+        await repostApprovalList();
+      }
     } else {
       console.log('PR not found in state, ignoring event');
     }
@@ -560,8 +562,10 @@ async function handlePRUnlabeled(event) {
   if (label === 'prbot-ignore') {
     if (!state.repositories[repo]?.pullRequests[prNumber]) {
       const prState = await fetchPRDataAndCreateState(repo, prNumber, prTitle, prAuthor);
-      await stateManager.updatePR(repo, prNumber, prState);
-      await repostApprovalList();
+      if (prState.changesRequested || prState.approvals < ENV.requiredApprovals) {
+        await stateManager.updatePR(repo, prNumber, prState);
+        await repostApprovalList();
+      }
     } else {
       console.log('PR already exists in state, ignoring event');
     }
@@ -569,8 +573,10 @@ async function handlePRUnlabeled(event) {
     // prbot-skip-ci removed, re-evaluate build status
     if (state.repositories[repo]?.pullRequests[prNumber]) {
       const prState = await fetchPRDataAndCreateState(repo, prNumber, prTitle, prAuthor);
-      await stateManager.updatePR(repo, prNumber, prState);
-      await repostApprovalList();
+      if (prState.changesRequested || prState.approvals < ENV.requiredApprovals) {
+        await stateManager.updatePR(repo, prNumber, prState);
+        await repostApprovalList();
+      }
     } else {
       console.log('PR not found in state, ignoring event');
     }
