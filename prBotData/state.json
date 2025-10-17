@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1760709338.510239",
-    "lastUpdated": "2025-10-17T13:56:46.749Z"
+    "lastUpdated": "2025-10-17T14:44:41.622Z"
   },
   "repositories": {
     "hmcts/em-media-viewer": {
@@ -271,6 +271,18 @@
           "headSha": "9ea2bcb9cce5533806b0d92564ceb8f214f3006e",
           "createdAt": "2025-10-16T12:41:07.723Z",
           "lastUpdated": "2025-10-16T12:41:07.862Z"
+        },
+        "1423": {
+          "number": 1423,
+          "title": "remove LD flag",
+          "author": "olusegz07",
+          "url": "https://github.com/hmcts/rpx-xui-manage-organisations/pull/1423",
+          "changesRequested": false,
+          "approvals": 0,
+          "buildSuccess": false,
+          "headSha": "1797f89b31e0c0bb8545739048621b455261c0f6",
+          "createdAt": "2025-10-17T14:44:41.464Z",
+          "lastUpdated": "2025-10-17T14:44:41.622Z"
         }
       }
     },
