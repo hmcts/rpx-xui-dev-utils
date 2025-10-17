@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1760701428.289839",
-    "lastUpdated": "2025-10-17T11:43:38.930Z"
+    "lastUpdated": "2025-10-17T11:47:51.278Z"
   },
   "repositories": {
     "hmcts/em-media-viewer": {
@@ -73,18 +73,6 @@
           "approvals": 0,
           "createdAt": "2025-10-08T12:49:27.115Z",
           "lastUpdated": "2025-10-08T12:49:27.350Z"
-        },
-        "4675": {
-          "number": 4675,
-          "title": "toolkit version update; fix console error",
-          "author": "olusegz07",
-          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/4675",
-          "changesRequested": false,
-          "approvals": 1,
-          "createdAt": "2025-10-17T11:43:38.782Z",
-          "lastUpdated": "2025-10-17T11:43:38.930Z",
-          "buildSuccess": true,
-          "headSha": "8d2fcf648591e1caa2da17c817ea878190fca322"
         },
         "4676": {
           "number": 4676,
