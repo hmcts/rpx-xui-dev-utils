@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1760701680.208989",
-    "lastUpdated": "2025-10-17T11:47:51.278Z"
+    "lastUpdated": "2025-10-17T12:10:42.212Z"
   },
   "repositories": {
     "hmcts/em-media-viewer": {
@@ -259,18 +259,6 @@
           "headSha": "9ea2bcb9cce5533806b0d92564ceb8f214f3006e",
           "createdAt": "2025-10-16T12:41:07.723Z",
           "lastUpdated": "2025-10-16T12:41:07.862Z"
-        },
-        "1422": {
-          "number": 1422,
-          "title": "CME-781: Angular 20 Upgrade",
-          "author": "kiran-yenigala-hmcts",
-          "url": "https://github.com/hmcts/rpx-xui-manage-organisations/pull/1422",
-          "changesRequested": false,
-          "approvals": 0,
-          "buildSuccess": false,
-          "headSha": "2b83d660d7793d0f385be97585345adfa206aadc",
-          "createdAt": "2025-10-16T23:08:32.251Z",
-          "lastUpdated": "2025-10-16T23:08:32.416Z"
         }
       }
     },
