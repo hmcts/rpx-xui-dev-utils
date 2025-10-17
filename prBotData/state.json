@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1760712560.922749",
-    "lastUpdated": "2025-10-17T15:36:10.801Z"
+    "lastUpdated": "2025-10-17T15:37:57.960Z"
   },
   "repositories": {
     "hmcts/em-media-viewer": {
@@ -161,6 +161,18 @@
           "headSha": "6613f19da7bc86482be4d803e1e93be6f379fc4b",
           "createdAt": "2025-10-17T13:56:46.520Z",
           "lastUpdated": "2025-10-17T13:56:46.749Z"
+        },
+        "4686": {
+          "number": 4686,
+          "title": "EXUI-2488 Index navigation - media viewer",
+          "author": "chrisjones-hmcts",
+          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/4686",
+          "changesRequested": false,
+          "approvals": 0,
+          "buildSuccess": false,
+          "headSha": "511ee93e3ec8cf8656582d5b0e7211213fe8ac97",
+          "createdAt": "2025-10-17T15:37:57.824Z",
+          "lastUpdated": "2025-10-17T15:37:57.960Z"
         }
       }
     },
