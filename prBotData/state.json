@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1760705287.386189",
-    "lastUpdated": "2025-10-17T13:27:40.653Z"
+    "lastUpdated": "2025-10-17T13:55:28.699Z"
   },
   "repositories": {
     "hmcts/em-media-viewer": {
@@ -137,18 +137,6 @@
           "headSha": "5b647339e0979ea6d18e13b098a5e8eac04b0e09",
           "createdAt": "2025-10-16T12:38:06.996Z",
           "lastUpdated": "2025-10-16T12:38:07.243Z"
-        },
-        "4684": {
-          "number": 4684,
-          "title": "Updated Playwright default report to use Odhin report instead.",
-          "author": "andyg-cgi",
-          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/4684",
-          "changesRequested": false,
-          "approvals": 1,
-          "buildSuccess": true,
-          "headSha": "22b53f0f48acc6b4eded4b8ad3cbb706ee74e766",
-          "createdAt": "2025-10-17T12:12:42.190Z",
-          "lastUpdated": "2025-10-17T12:12:42.389Z"
         }
       }
     },
