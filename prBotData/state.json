@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1760709338.510239",
-    "lastUpdated": "2025-10-17T13:55:28.699Z"
+    "lastUpdated": "2025-10-17T13:56:46.749Z"
   },
   "repositories": {
     "hmcts/em-media-viewer": {
@@ -137,6 +137,18 @@
           "headSha": "5b647339e0979ea6d18e13b098a5e8eac04b0e09",
           "createdAt": "2025-10-16T12:38:06.996Z",
           "lastUpdated": "2025-10-16T12:38:07.243Z"
+        },
+        "4685": {
+          "number": 4685,
+          "title": "EXUI-2821 search present button issues",
+          "author": "chrisjones-hmcts",
+          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/4685",
+          "changesRequested": false,
+          "approvals": 0,
+          "buildSuccess": false,
+          "headSha": "6613f19da7bc86482be4d803e1e93be6f379fc4b",
+          "createdAt": "2025-10-17T13:56:46.520Z",
+          "lastUpdated": "2025-10-17T13:56:46.749Z"
         }
       }
     },
