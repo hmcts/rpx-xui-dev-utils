@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1760969858.931509",
-    "lastUpdated": "2025-10-20T14:17:29.413Z"
+    "lastUpdated": "2025-10-20T14:17:43.563Z"
   },
   "repositories": {
     "hmcts/em-media-viewer": {
@@ -194,6 +194,18 @@
     },
     "hmcts/ccd-case-ui-toolkit": {
       "pullRequests": {
+        "2012": {
+          "number": 2012,
+          "title": "EXUI-3523 - added github actions workflow for pr-bot",
+          "author": "chrisjones-hmcts",
+          "url": "https://github.com/hmcts/ccd-case-ui-toolkit/pull/2012",
+          "changesRequested": false,
+          "approvals": 2,
+          "buildSuccess": false,
+          "headSha": "399c291d3fa6ecec716279d30cd57c6a44e41bb5",
+          "createdAt": "2025-10-20T14:17:43.427Z",
+          "lastUpdated": "2025-10-20T14:17:43.563Z"
+        },
         "2026": {
           "number": 2026,
           "title": "EXUI-3524 pr bot enhancements",
