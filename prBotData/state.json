@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1760961208.573749",
-    "lastUpdated": "2025-10-20T11:53:18.432Z"
+    "lastUpdated": "2025-10-20T12:23:36.589Z"
   },
   "repositories": {
     "hmcts/em-media-viewer": {
@@ -272,6 +272,18 @@
     },
     "hmcts/rpx-xui-manage-organisations": {
       "pullRequests": {
+        "1403": {
+          "number": 1403,
+          "title": "EXUI-3411 - Add the new csp changes",
+          "author": "connorpgpmcelroy",
+          "url": "https://github.com/hmcts/rpx-xui-manage-organisations/pull/1403",
+          "changesRequested": false,
+          "approvals": 1,
+          "buildSuccess": false,
+          "headSha": "939be2baebb09e1f0270e54dbb954b3c65370354",
+          "createdAt": "2025-10-20T12:23:36.465Z",
+          "lastUpdated": "2025-10-20T12:23:36.589Z"
+        },
         "1421": {
           "number": 1421,
           "title": "EXUI-3524 pr bot enhancements",
