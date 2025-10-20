@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1760960492.569589",
-    "lastUpdated": "2025-10-20T11:41:21.387Z"
+    "lastUpdated": "2025-10-20T11:53:18.432Z"
   },
   "repositories": {
     "hmcts/em-media-viewer": {
@@ -272,18 +272,6 @@
     },
     "hmcts/rpx-xui-manage-organisations": {
       "pullRequests": {
-        "1420": {
-          "number": 1420,
-          "title": "CME 781 angular 20 upgrade",
-          "author": "ben-james-hmcts",
-          "url": "https://github.com/hmcts/rpx-xui-manage-organisations/pull/1420",
-          "changesRequested": false,
-          "approvals": 1,
-          "buildSuccess": true,
-          "headSha": "25c76fbb94471e43aae2d918d51f329fb6755b4d",
-          "createdAt": "2025-10-20T11:41:21.178Z",
-          "lastUpdated": "2025-10-20T11:41:21.387Z"
-        },
         "1421": {
           "number": 1421,
           "title": "EXUI-3524 pr bot enhancements",
