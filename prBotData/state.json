@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1761051629.211189",
-    "lastUpdated": "2025-10-21T13:00:18.605Z"
+    "lastUpdated": "2025-10-21T13:00:55.172Z"
   },
   "repositories": {
     "hmcts/em-media-viewer": {
@@ -184,11 +184,11 @@
           "author": "chrisjones-hmcts",
           "url": "https://github.com/hmcts/rpx-xui-approve-org/pull/940",
           "changesRequested": false,
-          "approvals": 0,
-          "buildSuccess": false,
+          "approvals": 1,
+          "buildSuccess": true,
           "headSha": "b2ad52ca0799ad854d0c0255b82eb0eedbca59a3",
-          "createdAt": "2025-10-16T12:44:33.645Z",
-          "lastUpdated": "2025-10-16T12:44:33.900Z"
+          "createdAt": "2025-10-21T13:00:55.021Z",
+          "lastUpdated": "2025-10-21T13:00:55.172Z"
         }
       }
     },
