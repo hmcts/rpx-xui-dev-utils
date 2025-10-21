@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1760977011.733539",
-    "lastUpdated": "2025-10-20T14:23:09.311Z"
+    "lastUpdated": "2025-10-21T10:48:19.767Z"
   },
   "repositories": {
     "hmcts/em-media-viewer": {
@@ -313,6 +313,18 @@
           "headSha": "00dde3093431e314e7cc69dd4a0d9d754ffa8a56",
           "createdAt": "2025-10-16T12:51:53.134Z",
           "lastUpdated": "2025-10-16T12:51:53.419Z"
+        },
+        "517": {
+          "number": 517,
+          "title": "Exui 3166",
+          "author": "RiteshHMCTS",
+          "url": "https://github.com/hmcts/rpx-xui-common-lib/pull/517",
+          "changesRequested": false,
+          "approvals": 1,
+          "buildSuccess": false,
+          "headSha": "75870fa233d2f0512042ece79b8ad14128e51c19",
+          "createdAt": "2025-10-21T10:48:19.578Z",
+          "lastUpdated": "2025-10-21T10:48:19.767Z"
         }
       }
     },
