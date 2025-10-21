@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1761051841.987789",
-    "lastUpdated": "2025-10-21T13:03:52.106Z"
+    "lastUpdated": "2025-10-21T14:28:44.234Z"
   },
   "repositories": {
     "hmcts/em-media-viewer": {
@@ -97,6 +97,18 @@
           "approvals": 0,
           "createdAt": "2025-10-08T12:49:27.115Z",
           "lastUpdated": "2025-10-08T12:49:27.350Z"
+        },
+        "4672": {
+          "number": 4672,
+          "title": "exui-3559-srt-mc-14-10-2025",
+          "author": "RiteshHMCTS",
+          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/4672",
+          "changesRequested": false,
+          "approvals": 1,
+          "buildSuccess": true,
+          "headSha": "003e973748dd7edd64b006e2b6c1020f6b4c158d",
+          "createdAt": "2025-10-21T14:28:44.033Z",
+          "lastUpdated": "2025-10-21T14:28:44.234Z"
         },
         "4676": {
           "number": 4676,
