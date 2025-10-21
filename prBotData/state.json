@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1761060214.052139",
-    "lastUpdated": "2025-10-21T15:23:23.799Z"
+    "lastUpdated": "2025-10-21T15:23:56.406Z"
   },
   "repositories": {
     "hmcts/em-media-viewer": {
@@ -189,22 +189,6 @@
           "headSha": "996f0550d4d3fda71b2649c31bfee4b3c09ac012",
           "createdAt": "2025-10-21T15:21:40.736Z",
           "lastUpdated": "2025-10-21T15:21:40.927Z"
-        }
-      }
-    },
-    "hmcts/ccd-case-ui-toolkit": {
-      "pullRequests": {
-        "2026": {
-          "number": 2026,
-          "title": "EXUI-3524 pr bot enhancements",
-          "author": "chrisjones-hmcts",
-          "url": "https://github.com/hmcts/ccd-case-ui-toolkit/pull/2026",
-          "changesRequested": false,
-          "approvals": 1,
-          "buildSuccess": false,
-          "headSha": "a36426b9f26f880316036862a22a0f1720e2a43e",
-          "createdAt": "2025-10-21T13:01:19.409Z",
-          "lastUpdated": "2025-10-21T13:01:19.583Z"
         }
       }
     },
