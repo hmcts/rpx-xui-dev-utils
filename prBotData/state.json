@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1761051699.304449",
-    "lastUpdated": "2025-10-21T13:01:19.583Z"
+    "lastUpdated": "2025-10-21T13:02:02.146Z"
   },
   "repositories": {
     "hmcts/em-media-viewer": {
@@ -324,11 +324,11 @@
           "author": "chrisjones-hmcts",
           "url": "https://github.com/hmcts/rpx-xui-node-lib/pull/286",
           "changesRequested": false,
-          "approvals": 0,
+          "approvals": 1,
           "buildSuccess": true,
           "headSha": "144fb02cbec39447b32a9ef230f3b882f39af3b3",
-          "createdAt": "2025-10-16T12:54:21.791Z",
-          "lastUpdated": "2025-10-16T12:54:21.928Z"
+          "createdAt": "2025-10-21T13:02:01.928Z",
+          "lastUpdated": "2025-10-21T13:02:02.146Z"
         }
       }
     }
