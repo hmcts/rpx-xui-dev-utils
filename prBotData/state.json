@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1761137539.454349",
-    "lastUpdated": "2025-10-22T12:52:09.739Z"
+    "lastUpdated": "2025-10-22T13:00:21.640Z"
   },
   "repositories": {
     "hmcts/em-media-viewer": {
@@ -161,6 +161,18 @@
           "headSha": "640a0ed0e0c5d0172780e0d9c9e15a35ac4decaf",
           "createdAt": "2025-10-22T10:53:29.058Z",
           "lastUpdated": "2025-10-22T10:53:29.290Z"
+        },
+        "4688": {
+          "number": 4688,
+          "title": "EXUI-2599 - update noc text-input sizing",
+          "author": "Josh-HMCTS",
+          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/4688",
+          "changesRequested": false,
+          "approvals": 0,
+          "buildSuccess": false,
+          "headSha": "af346b9a3972cbc13a686c0d4e877ac4f9818934",
+          "createdAt": "2025-10-22T13:00:21.521Z",
+          "lastUpdated": "2025-10-22T13:00:21.640Z"
         }
       }
     },
