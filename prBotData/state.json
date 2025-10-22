@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1761130154.114869",
-    "lastUpdated": "2025-10-22T10:49:04.304Z"
+    "lastUpdated": "2025-10-22T10:53:29.290Z"
   },
   "repositories": {
     "hmcts/em-media-viewer": {
@@ -149,6 +149,18 @@
           "headSha": "511ee93e3ec8cf8656582d5b0e7211213fe8ac97",
           "createdAt": "2025-10-17T15:37:57.824Z",
           "lastUpdated": "2025-10-17T15:37:57.960Z"
+        },
+        "4687": {
+          "number": 4687,
+          "title": "EXUI-3455 - use tk ver for 3455",
+          "author": "Josh-HMCTS",
+          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/4687",
+          "changesRequested": false,
+          "approvals": 0,
+          "buildSuccess": false,
+          "headSha": "640a0ed0e0c5d0172780e0d9c9e15a35ac4decaf",
+          "createdAt": "2025-10-22T10:53:29.058Z",
+          "lastUpdated": "2025-10-22T10:53:29.290Z"
         }
       }
     },
