@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1761137539.454349",
-    "lastUpdated": "2025-10-22T13:00:21.640Z"
+    "lastUpdated": "2025-10-22T13:06:27.449Z"
   },
   "repositories": {
     "hmcts/em-media-viewer": {
@@ -217,6 +217,22 @@
           "headSha": "cafc5784cf8e878315a925368cbf1e6ac6dca0ef",
           "createdAt": "2025-10-21T15:48:30.453Z",
           "lastUpdated": "2025-10-21T15:48:30.799Z"
+        }
+      }
+    },
+    "hmcts/rpx-xui-approve-org": {
+      "pullRequests": {
+        "937": {
+          "number": 937,
+          "title": "CME-774: Angular-20",
+          "author": "AntonyLeons",
+          "url": "https://github.com/hmcts/rpx-xui-approve-org/pull/937",
+          "changesRequested": false,
+          "approvals": 1,
+          "buildSuccess": true,
+          "headSha": "74e5509d5dc50f69430a573a1292ee46c0a9d58f",
+          "createdAt": "2025-10-22T13:06:27.219Z",
+          "lastUpdated": "2025-10-22T13:06:27.449Z"
         }
       }
     }
