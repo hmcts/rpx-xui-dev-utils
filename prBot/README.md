@@ -29,14 +29,16 @@ prBot.run();
 name: pr-bot
 on:
   pull_request:
-    types: [opened, closed, reopened]
+    types: [opened, closed, reopened, labeled, unlabeled]
   pull_request_review:
     types: [submitted]
+  status:
 
 permissions:
     contents: read
     pull-requests: write
     issues: write
+    statuses: read
 
 jobs:
   slack-notification:
@@ -80,6 +82,7 @@ jobs:
           echo "DATA_STATE_FILE_PATH=$(echo $PR_BOT_CONFIG_JSON | jq -r '.DATA_STATE_FILE_PATH')" >> $GITHUB_ENV
           echo "SLACK_CHANNEL=$(echo $PR_BOT_CONFIG_JSON | jq -r '.SLACK_CHANNEL')" >> $GITHUB_ENV
           echo "SLACK_CHANNEL_ID=$(echo $PR_BOT_CONFIG_JSON | jq -r '.SLACK_CHANNEL_ID')" >> $GITHUB_ENV
+          echo "SKIP_CI_CHECK=$(echo $PR_BOT_CONFIG_JSON | jq -r '.SKIP_CI_CHECK')" >> $GITHUB_ENV
         env:
           PR_BOT_CONFIG_JSON: ${{ vars.PR_BOT_CONFIG_JSON }}
 
@@ -99,6 +102,7 @@ jobs:
           DATA_STATE_FILE_PATH: ${{ env.DATA_STATE_FILE_PATH }}
           SLACK_CHANNEL: ${{ env.SLACK_CHANNEL }}
           SLACK_CHANNEL_ID: ${{ env.SLACK_CHANNEL_ID }}
+          SKIP_CI_CHECK: ${{ env.SKIP_CI_CHECK }}
 ```
 
 ## Configuration
@@ -129,6 +133,7 @@ The bot requires the following configuration variables:
 - `DATA_STATE_FILE_PATH` - Path to the state file in the data repository
 - `SLACK_CHANNEL` - Slack channel name
 - `SLACK_CHANNEL_ID` - Slack channel ID
+- `SKIP_CI_CHECK` - Boolean, should be true if repository does not have the continuous-integration/jenkins/pr-head pipeline
 
 ### GitHub Variables
 
