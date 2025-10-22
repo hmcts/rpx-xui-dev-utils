@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1761126162.336549",
-    "lastUpdated": "2025-10-22T09:42:32.428Z"
+    "lastUpdated": "2025-10-22T10:32:50.514Z"
   },
   "repositories": {
     "hmcts/em-media-viewer": {
@@ -125,6 +125,18 @@
           "approvals": 0,
           "createdAt": "2025-10-14T16:28:44.374Z",
           "lastUpdated": "2025-10-14T16:28:44.508Z"
+        },
+        "4684": {
+          "number": 4684,
+          "title": "EXUI-3592 - Updated Playwright default report to use Odhin report instead.",
+          "author": "andyg-cgi",
+          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/4684",
+          "changesRequested": false,
+          "approvals": 1,
+          "buildSuccess": false,
+          "headSha": "17358c2054d09c0f725a2e50035c3a4d8f57bd92",
+          "createdAt": "2025-10-22T10:32:50.308Z",
+          "lastUpdated": "2025-10-22T10:32:50.514Z"
         },
         "4685": {
           "number": 4685,
