@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1761137206.177359",
-    "lastUpdated": "2025-10-22T12:46:36.567Z"
+    "lastUpdated": "2025-10-22T12:52:09.739Z"
   },
   "repositories": {
     "hmcts/em-media-viewer": {
@@ -175,18 +175,6 @@
           "approvals": 0,
           "createdAt": "2025-10-03T14:58:10.229Z",
           "lastUpdated": "2025-10-03T14:58:10.394Z"
-        },
-        "720": {
-          "number": 720,
-          "title": "EXUI-3539 upgrade yarn to v4",
-          "author": "chrisjones-hmcts",
-          "url": "https://github.com/hmcts/em-showcase/pull/720",
-          "changesRequested": false,
-          "approvals": 1,
-          "buildSuccess": true,
-          "headSha": "d968a06facca58cb75ab4f35157b2a5cf5e04750",
-          "createdAt": "2025-10-22T09:42:32.235Z",
-          "lastUpdated": "2025-10-22T12:46:36.567Z"
         }
       }
     },
