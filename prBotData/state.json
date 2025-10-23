@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1761226564.522359",
-    "lastUpdated": "2025-10-23T13:39:49.380Z"
+    "lastUpdated": "2025-10-23T13:39:58.488Z"
   },
   "repositories": {
     "hmcts/em-media-viewer": {
@@ -211,6 +211,18 @@
           "headSha": "217d69dfe71da933f2fb906ad2a96a708a21f43a",
           "createdAt": "2025-10-23T13:39:49.154Z",
           "lastUpdated": "2025-10-23T13:39:49.380Z"
+        },
+        "4694": {
+          "number": 4694,
+          "title": "Update dependency @types/sinon to v17",
+          "author": "renovate[bot]",
+          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/4694",
+          "changesRequested": false,
+          "approvals": 0,
+          "buildSuccess": false,
+          "headSha": "43c6d093bc0f62d0782ac8e92fb28fe0ec814376",
+          "createdAt": "2025-10-23T13:39:58.349Z",
+          "lastUpdated": "2025-10-23T13:39:58.488Z"
         }
       }
     },
