@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1761210542.528169",
-    "lastUpdated": "2025-10-23T09:33:31.860Z"
+    "lastUpdated": "2025-10-23T09:44:57.117Z"
   },
   "repositories": {
     "hmcts/em-media-viewer": {
@@ -255,6 +255,22 @@
           "headSha": "0b16871e26d45e38e2e02d201dd2d0392a033204",
           "createdAt": "2025-10-23T09:33:31.616Z",
           "lastUpdated": "2025-10-23T09:33:31.860Z"
+        }
+      }
+    },
+    "hmcts/rpx-xui-manage-organisations": {
+      "pullRequests": {
+        "1424": {
+          "number": 1424,
+          "title": "Update dependency axios to v1.12.2",
+          "author": "renovate[bot]",
+          "url": "https://github.com/hmcts/rpx-xui-manage-organisations/pull/1424",
+          "changesRequested": false,
+          "approvals": 2,
+          "buildSuccess": false,
+          "headSha": "769336bc487a43fc1d636d57fecc85c01387432a",
+          "createdAt": "2025-10-23T09:44:56.993Z",
+          "lastUpdated": "2025-10-23T09:44:57.117Z"
         }
       }
     }
