@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1761226564.522359",
-    "lastUpdated": "2025-10-23T13:40:14.160Z"
+    "lastUpdated": "2025-10-23T15:57:26.425Z"
   },
   "repositories": {
     "hmcts/em-media-viewer": {
@@ -235,6 +235,18 @@
           "headSha": "e197b8e968724f56c1d7596bc515e9e71ceea690",
           "createdAt": "2025-10-23T13:40:13.993Z",
           "lastUpdated": "2025-10-23T13:40:14.160Z"
+        },
+        "4696": {
+          "number": 4696,
+          "title": "Exui 3576 vulnerability fix",
+          "author": "balajisridharanhmcts",
+          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/4696",
+          "changesRequested": false,
+          "approvals": 0,
+          "buildSuccess": false,
+          "headSha": "b9dc16ed37ddfe75be9f706234e8783804d59317",
+          "createdAt": "2025-10-23T15:57:26.150Z",
+          "lastUpdated": "2025-10-23T15:57:26.425Z"
         }
       }
     },
