@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1761221711.854469",
-    "lastUpdated": "2025-10-23T12:15:02.325Z"
+    "lastUpdated": "2025-10-23T12:18:22.262Z"
   },
   "repositories": {
     "hmcts/em-media-viewer": {
@@ -70,9 +70,9 @@
           "author": "kiran-yenigala-hmcts",
           "url": "https://github.com/hmcts/rpx-xui-webapp/pull/4667",
           "changesRequested": true,
-          "approvals": 1,
-          "createdAt": "2025-10-23T12:15:02.219Z",
-          "lastUpdated": "2025-10-23T12:15:02.325Z",
+          "approvals": 2,
+          "createdAt": "2025-10-23T12:18:22.097Z",
+          "lastUpdated": "2025-10-23T12:18:22.262Z",
           "buildSuccess": true,
           "headSha": "4de5da6e585cfcfb584fc3c4f12ae557728de830"
         },
