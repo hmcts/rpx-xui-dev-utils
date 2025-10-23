@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1761210542.528169",
-    "lastUpdated": "2025-10-23T09:33:07.389Z"
+    "lastUpdated": "2025-10-23T09:33:31.860Z"
   },
   "repositories": {
     "hmcts/em-media-viewer": {
@@ -243,6 +243,18 @@
           "headSha": "fdd2b1685a9f34ca6def115faaa589418e971a52",
           "createdAt": "2025-10-23T09:33:07.167Z",
           "lastUpdated": "2025-10-23T09:33:07.389Z"
+        },
+        "942": {
+          "number": 942,
+          "title": "Update dependency @types/express-serve-static-core to v4.19.7",
+          "author": "renovate[bot]",
+          "url": "https://github.com/hmcts/rpx-xui-approve-org/pull/942",
+          "changesRequested": false,
+          "approvals": 0,
+          "buildSuccess": false,
+          "headSha": "0b16871e26d45e38e2e02d201dd2d0392a033204",
+          "createdAt": "2025-10-23T09:33:31.616Z",
+          "lastUpdated": "2025-10-23T09:33:31.860Z"
         }
       }
     }
