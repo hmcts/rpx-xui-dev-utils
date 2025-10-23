@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1761213940.641729",
-    "lastUpdated": "2025-10-23T10:05:30.807Z"
+    "lastUpdated": "2025-10-23T10:06:01.360Z"
   },
   "repositories": {
     "hmcts/em-media-viewer": {
@@ -201,18 +201,6 @@
           "approvals": 0,
           "createdAt": "2025-10-03T14:58:10.229Z",
           "lastUpdated": "2025-10-03T14:58:10.394Z"
-        },
-        "722": {
-          "number": 722,
-          "title": "update node to 22.15.0; removed deprecated rule \"no-use-before-declar…",
-          "author": "olusegz07",
-          "url": "https://github.com/hmcts/em-showcase/pull/722",
-          "changesRequested": false,
-          "approvals": 1,
-          "buildSuccess": true,
-          "headSha": "4aa00c7a29f788cd2eb1456590b606ed300ecd24",
-          "createdAt": "2025-10-23T10:05:02.170Z",
-          "lastUpdated": "2025-10-23T10:05:02.392Z"
         }
       }
     },
