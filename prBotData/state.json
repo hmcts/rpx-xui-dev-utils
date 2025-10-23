@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1761226564.522359",
-    "lastUpdated": "2025-10-23T13:39:58.488Z"
+    "lastUpdated": "2025-10-23T13:40:14.160Z"
   },
   "repositories": {
     "hmcts/em-media-viewer": {
@@ -223,6 +223,18 @@
           "headSha": "43c6d093bc0f62d0782ac8e92fb28fe0ec814376",
           "createdAt": "2025-10-23T13:39:58.349Z",
           "lastUpdated": "2025-10-23T13:39:58.488Z"
+        },
+        "4695": {
+          "number": 4695,
+          "title": "Update dependency axios-mock-adapter to v2",
+          "author": "renovate[bot]",
+          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/4695",
+          "changesRequested": false,
+          "approvals": 0,
+          "buildSuccess": false,
+          "headSha": "e197b8e968724f56c1d7596bc515e9e71ceea690",
+          "createdAt": "2025-10-23T13:40:13.993Z",
+          "lastUpdated": "2025-10-23T13:40:14.160Z"
         }
       }
     },
