@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1761226564.522359",
-    "lastUpdated": "2025-10-23T13:32:29.919Z"
+    "lastUpdated": "2025-10-23T13:39:49.380Z"
   },
   "repositories": {
     "hmcts/em-media-viewer": {
@@ -199,6 +199,18 @@
           "headSha": "a57c2acb7e1a517f04001de6c2260161d80d0ca6",
           "createdAt": "2025-10-23T12:42:46.179Z",
           "lastUpdated": "2025-10-23T12:42:46.435Z"
+        },
+        "4693": {
+          "number": 4693,
+          "title": "Update dependency @types/jasmine to v5",
+          "author": "renovate[bot]",
+          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/4693",
+          "changesRequested": false,
+          "approvals": 0,
+          "buildSuccess": false,
+          "headSha": "217d69dfe71da933f2fb906ad2a96a708a21f43a",
+          "createdAt": "2025-10-23T13:39:49.154Z",
+          "lastUpdated": "2025-10-23T13:39:49.380Z"
         }
       }
     },
