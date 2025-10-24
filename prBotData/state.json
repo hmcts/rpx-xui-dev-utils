@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1761226564.522359",
-    "lastUpdated": "2025-10-23T16:13:41.248Z"
+    "lastUpdated": "2025-10-24T11:41:08.689Z"
   },
   "repositories": {
     "hmcts/em-media-viewer": {
@@ -247,6 +247,18 @@
           "headSha": "b9dc16ed37ddfe75be9f706234e8783804d59317",
           "createdAt": "2025-10-23T15:57:26.150Z",
           "lastUpdated": "2025-10-23T15:57:26.425Z"
+        },
+        "4697": {
+          "number": 4697,
+          "title": "EXUI-391 - use pre-release node-lib",
+          "author": "Josh-HMCTS",
+          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/4697",
+          "changesRequested": false,
+          "approvals": 0,
+          "buildSuccess": false,
+          "headSha": "b578fef446ab4a200aa179f9552882e0d8a8c7b2",
+          "createdAt": "2025-10-24T11:41:08.594Z",
+          "lastUpdated": "2025-10-24T11:41:08.689Z"
         }
       }
     },
