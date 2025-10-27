@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1761551882.921779",
-    "lastUpdated": "2025-10-27T07:57:53.165Z"
+    "lastUpdated": "2025-10-27T09:46:58.813Z"
   },
   "repositories": {
     "hmcts/em-media-viewer": {
@@ -273,6 +273,18 @@
           "approvals": 0,
           "createdAt": "2025-10-03T14:58:10.229Z",
           "lastUpdated": "2025-10-03T14:58:10.394Z"
+        },
+        "726": {
+          "number": 726,
+          "title": "cme-784-19",
+          "author": "anthonydummer",
+          "url": "https://github.com/hmcts/em-showcase/pull/726",
+          "changesRequested": false,
+          "approvals": 1,
+          "buildSuccess": true,
+          "headSha": "083870649717d653d30b53c70f48cc460a79b9e3",
+          "createdAt": "2025-10-27T09:46:58.615Z",
+          "lastUpdated": "2025-10-27T09:46:58.813Z"
         },
         "730": {
           "number": 730,
