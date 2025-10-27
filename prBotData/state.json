@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1761320947.111669",
-    "lastUpdated": "2025-10-24T15:48:57.188Z"
+    "lastUpdated": "2025-10-27T07:31:09.584Z"
   },
   "repositories": {
     "hmcts/em-media-viewer": {
@@ -273,6 +273,18 @@
           "approvals": 0,
           "createdAt": "2025-10-03T14:58:10.229Z",
           "lastUpdated": "2025-10-03T14:58:10.394Z"
+        },
+        "730": {
+          "number": 730,
+          "title": "Update dependency @hmcts/media-viewer to v4.1.7",
+          "author": "renovate[bot]",
+          "url": "https://github.com/hmcts/em-showcase/pull/730",
+          "changesRequested": false,
+          "approvals": 0,
+          "buildSuccess": false,
+          "headSha": "24b20123099df8509e338f05cb79ceb4af97f379",
+          "createdAt": "2025-10-27T07:31:09.362Z",
+          "lastUpdated": "2025-10-27T07:31:09.584Z"
         }
       }
     },
