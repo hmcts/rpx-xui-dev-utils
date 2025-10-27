@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1761561782.513849",
-    "lastUpdated": "2025-10-27T10:42:52.957Z"
+    "lastUpdated": "2025-10-27T10:47:12.797Z"
   },
   "repositories": {
     "hmcts/em-media-viewer": {
@@ -259,6 +259,18 @@
           "headSha": "c6c351c2d93ad12fa473e66b371c4f842a986726",
           "createdAt": "2025-10-27T10:42:52.749Z",
           "lastUpdated": "2025-10-27T10:42:52.957Z"
+        },
+        "4699": {
+          "number": 4699,
+          "title": "EXUI-3605 update nightly test pipeline",
+          "author": "danH-test",
+          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/4699",
+          "changesRequested": false,
+          "approvals": 1,
+          "buildSuccess": true,
+          "headSha": "7431cda502880c62583e8f58ad2a9c136d97698b",
+          "createdAt": "2025-10-27T10:47:12.674Z",
+          "lastUpdated": "2025-10-27T10:47:12.797Z"
         }
       }
     },
