@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1761320947.111669",
-    "lastUpdated": "2025-10-27T07:31:09.584Z"
+    "lastUpdated": "2025-10-27T07:31:23.080Z"
   },
   "repositories": {
     "hmcts/em-media-viewer": {
@@ -285,6 +285,18 @@
           "headSha": "24b20123099df8509e338f05cb79ceb4af97f379",
           "createdAt": "2025-10-27T07:31:09.362Z",
           "lastUpdated": "2025-10-27T07:31:09.584Z"
+        },
+        "731": {
+          "number": 731,
+          "title": "Update dependency @types/express to v4.17.24",
+          "author": "renovate[bot]",
+          "url": "https://github.com/hmcts/em-showcase/pull/731",
+          "changesRequested": false,
+          "approvals": 0,
+          "buildSuccess": false,
+          "headSha": "3e5e6b998291c199acbcdbe255b1c65c1f456e7f",
+          "createdAt": "2025-10-27T07:31:22.925Z",
+          "lastUpdated": "2025-10-27T07:31:23.080Z"
         }
       }
     },
