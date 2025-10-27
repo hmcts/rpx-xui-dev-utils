@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1761567519.532489",
-    "lastUpdated": "2025-10-27T11:55:29.672Z"
+    "lastUpdated": "2025-10-27T12:48:37.370Z"
   },
   "repositories": {
     "hmcts/em-media-viewer": {
@@ -235,18 +235,6 @@
           "headSha": "b578fef446ab4a200aa179f9552882e0d8a8c7b2",
           "createdAt": "2025-10-24T11:41:08.594Z",
           "lastUpdated": "2025-10-24T11:41:08.689Z"
-        },
-        "4698": {
-          "number": 4698,
-          "title": "COT-992 re apply action required label",
-          "author": "anthonydummer",
-          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/4698",
-          "changesRequested": false,
-          "approvals": 1,
-          "buildSuccess": true,
-          "headSha": "c6c351c2d93ad12fa473e66b371c4f842a986726",
-          "createdAt": "2025-10-27T10:42:52.749Z",
-          "lastUpdated": "2025-10-27T10:42:52.957Z"
         },
         "4700": {
           "number": 4700,
