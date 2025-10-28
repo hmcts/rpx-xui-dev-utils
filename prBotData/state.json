@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1761655403.312569",
-    "lastUpdated": "2025-10-28T12:43:13.113Z"
+    "lastUpdated": "2025-10-28T12:44:18.330Z"
   },
   "repositories": {
     "hmcts/em-media-viewer": {
@@ -339,18 +339,6 @@
           "headSha": "0b16871e26d45e38e2e02d201dd2d0392a033204",
           "createdAt": "2025-10-23T09:33:31.616Z",
           "lastUpdated": "2025-10-23T09:33:31.860Z"
-        },
-        "943": {
-          "number": 943,
-          "title": "Add test exit status as pass or fail",
-          "author": "connorpgpmcelroy",
-          "url": "https://github.com/hmcts/rpx-xui-approve-org/pull/943",
-          "changesRequested": false,
-          "approvals": 0,
-          "buildSuccess": false,
-          "headSha": "63ac847275a46ae09ea52567026d6454f22ff8c5",
-          "createdAt": "2025-10-23T16:13:41.120Z",
-          "lastUpdated": "2025-10-23T16:13:41.248Z"
         }
       }
     }
