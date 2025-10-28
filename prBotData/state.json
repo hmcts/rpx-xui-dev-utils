@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1761655525.716429",
-    "lastUpdated": "2025-10-28T12:45:15.768Z"
+    "lastUpdated": "2025-10-28T12:47:08.718Z"
   },
   "repositories": {
     "hmcts/em-media-viewer": {
@@ -304,18 +304,6 @@
     },
     "hmcts/rpx-xui-approve-org": {
       "pullRequests": {
-        "937": {
-          "number": 937,
-          "title": "CME-774: Angular-20",
-          "author": "AntonyLeons",
-          "url": "https://github.com/hmcts/rpx-xui-approve-org/pull/937",
-          "changesRequested": false,
-          "approvals": 1,
-          "buildSuccess": true,
-          "headSha": "2066a30b74b6f79c34b761414c60b30cb7360194",
-          "createdAt": "2025-10-23T13:32:29.735Z",
-          "lastUpdated": "2025-10-23T13:32:29.919Z"
-        },
         "941": {
           "number": 941,
           "title": "Update dependency @microsoft/applicationinsights-web to v3.3.10",
