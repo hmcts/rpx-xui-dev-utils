@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1761632117.647789",
-    "lastUpdated": "2025-10-28T06:15:08.175Z"
+    "lastUpdated": "2025-10-28T10:35:14.602Z"
   },
   "repositories": {
     "hmcts/em-media-viewer": {
@@ -285,6 +285,18 @@
           "headSha": "566cb3f6abd90a048d05cb0a21abed902bda456c",
           "createdAt": "2025-10-27T07:31:22.925Z",
           "lastUpdated": "2025-10-28T06:15:08.175Z"
+        },
+        "732": {
+          "number": 732,
+          "title": "Update dependency axios to v1.13.0",
+          "author": "renovate[bot]",
+          "url": "https://github.com/hmcts/em-showcase/pull/732",
+          "changesRequested": false,
+          "approvals": 0,
+          "buildSuccess": false,
+          "headSha": "ea9883e07533804aa4722a92241aac73f6f3a36b",
+          "createdAt": "2025-10-28T10:35:14.450Z",
+          "lastUpdated": "2025-10-28T10:35:14.602Z"
         }
       }
     },
