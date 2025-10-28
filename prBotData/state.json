@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1761666735.099039",
-    "lastUpdated": "2025-10-28T15:52:05.019Z"
+    "lastUpdated": "2025-10-28T16:11:37.511Z"
   },
   "repositories": {
     "hmcts/em-media-viewer": {
@@ -369,6 +369,22 @@
           "headSha": "f6854d85e393f33ceb2e57cfc94e4bbb1e26aadc",
           "createdAt": "2025-10-28T15:17:50.852Z",
           "lastUpdated": "2025-10-28T15:52:05.019Z"
+        }
+      }
+    },
+    "hmcts/ccd-case-ui-toolkit": {
+      "pullRequests": {
+        "2031": {
+          "number": 2031,
+          "title": "EXUI-2451 - Add additional markdown validation",
+          "author": "connorpgpmcelroy",
+          "url": "https://github.com/hmcts/ccd-case-ui-toolkit/pull/2031",
+          "changesRequested": false,
+          "approvals": 0,
+          "buildSuccess": true,
+          "headSha": "dc4f9facc58519bce51c30a559c8ed02c8cc5184",
+          "createdAt": "2025-10-28T16:11:37.341Z",
+          "lastUpdated": "2025-10-28T16:11:37.511Z"
         }
       }
     }
