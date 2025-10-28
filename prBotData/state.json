@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1761665874.552459",
-    "lastUpdated": "2025-10-28T15:37:45.308Z"
+    "lastUpdated": "2025-10-28T15:52:05.019Z"
   },
   "repositories": {
     "hmcts/em-media-viewer": {
@@ -365,10 +365,10 @@
           "url": "https://github.com/hmcts/rpx-xui-manage-organisations/pull/1426",
           "changesRequested": false,
           "approvals": 0,
-          "buildSuccess": false,
+          "buildSuccess": true,
           "headSha": "f6854d85e393f33ceb2e57cfc94e4bbb1e26aadc",
           "createdAt": "2025-10-28T15:17:50.852Z",
-          "lastUpdated": "2025-10-28T15:17:51.027Z"
+          "lastUpdated": "2025-10-28T15:52:05.019Z"
         }
       }
     }
