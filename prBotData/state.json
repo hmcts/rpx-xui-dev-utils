@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1761658546.420299",
-    "lastUpdated": "2025-10-28T15:12:10.382Z"
+    "lastUpdated": "2025-10-28T15:17:51.027Z"
   },
   "repositories": {
     "hmcts/em-media-viewer": {
@@ -353,6 +353,22 @@
           "headSha": "a6d78112f7107d56b5b6124688726bbb1cfb030c",
           "createdAt": "2025-10-28T15:12:10.243Z",
           "lastUpdated": "2025-10-28T15:12:10.382Z"
+        }
+      }
+    },
+    "hmcts/rpx-xui-manage-organisations": {
+      "pullRequests": {
+        "1426": {
+          "number": 1426,
+          "title": "Update yarn-audit-known-issues",
+          "author": "olusegz07",
+          "url": "https://github.com/hmcts/rpx-xui-manage-organisations/pull/1426",
+          "changesRequested": false,
+          "approvals": 0,
+          "buildSuccess": false,
+          "headSha": "f6854d85e393f33ceb2e57cfc94e4bbb1e26aadc",
+          "createdAt": "2025-10-28T15:17:50.852Z",
+          "lastUpdated": "2025-10-28T15:17:51.027Z"
         }
       }
     }
