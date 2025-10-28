@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1761653566.808459",
-    "lastUpdated": "2025-10-28T12:12:36.946Z"
+    "lastUpdated": "2025-10-28T12:41:31.698Z"
   },
   "repositories": {
     "hmcts/em-media-viewer": {
@@ -297,18 +297,6 @@
           "headSha": "ea9883e07533804aa4722a92241aac73f6f3a36b",
           "createdAt": "2025-10-28T10:35:14.450Z",
           "lastUpdated": "2025-10-28T10:35:14.602Z"
-        },
-        "733": {
-          "number": 733,
-          "title": "Update dependency hashicorp/terraform to v1.13.4",
-          "author": "renovate[bot]",
-          "url": "https://github.com/hmcts/em-showcase/pull/733",
-          "changesRequested": false,
-          "approvals": 0,
-          "buildSuccess": true,
-          "headSha": "f80ab9b88f0ca74d6e64a237256184427f5311bb",
-          "createdAt": "2025-10-28T10:35:21.978Z",
-          "lastUpdated": "2025-10-28T12:12:36.946Z"
         }
       }
     },
