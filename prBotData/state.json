@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1761655638.886989",
-    "lastUpdated": "2025-10-28T12:52:07.162Z"
+    "lastUpdated": "2025-10-28T12:52:12.262Z"
   },
   "repositories": {
     "hmcts/em-media-viewer": {
@@ -93,6 +93,18 @@
           "approvals": 0,
           "createdAt": "2025-10-14T13:42:28.474Z",
           "lastUpdated": "2025-10-14T13:42:28.648Z"
+        },
+        "4682": {
+          "number": 4682,
+          "title": "EXUI-3348  contast issues in probate journey",
+          "author": "chrisjones-hmcts",
+          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/4682",
+          "changesRequested": false,
+          "approvals": 0,
+          "buildSuccess": true,
+          "headSha": "eaf8e02f65c446f7a108384c21390ad9da2a302c",
+          "createdAt": "2025-10-28T12:52:12.130Z",
+          "lastUpdated": "2025-10-28T12:52:12.262Z"
         },
         "4685": {
           "number": 4685,
