@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1761658546.420299",
-    "lastUpdated": "2025-10-28T12:52:12.262Z"
+    "lastUpdated": "2025-10-28T15:12:10.382Z"
   },
   "repositories": {
     "hmcts/em-media-viewer": {
@@ -341,6 +341,18 @@
           "headSha": "70e3fd203129eb5bb94396dfa6eaea1882a49ad6",
           "createdAt": "2025-10-28T12:45:15.555Z",
           "lastUpdated": "2025-10-28T12:45:15.768Z"
+        },
+        "945": {
+          "number": 945,
+          "title": "Update yarn-audit-known-issues",
+          "author": "olusegz07",
+          "url": "https://github.com/hmcts/rpx-xui-approve-org/pull/945",
+          "changesRequested": false,
+          "approvals": 0,
+          "buildSuccess": false,
+          "headSha": "a6d78112f7107d56b5b6124688726bbb1cfb030c",
+          "createdAt": "2025-10-28T15:12:10.243Z",
+          "lastUpdated": "2025-10-28T15:12:10.382Z"
         }
       }
     }
