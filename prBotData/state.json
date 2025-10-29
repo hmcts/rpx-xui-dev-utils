@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1761731665.539139",
-    "lastUpdated": "2025-10-29T09:54:15.988Z"
+    "lastUpdated": "2025-10-29T11:45:02.048Z"
   },
   "repositories": {
     "hmcts/em-media-viewer": {
@@ -34,18 +34,6 @@
     },
     "hmcts/rpx-xui-webapp": {
       "pullRequests": {
-        "4682": {
-          "number": 4682,
-          "title": "EXUI-3348  contast issues in probate journey",
-          "author": "chrisjones-hmcts",
-          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/4682",
-          "changesRequested": false,
-          "approvals": 0,
-          "buildSuccess": true,
-          "headSha": "eaf8e02f65c446f7a108384c21390ad9da2a302c",
-          "createdAt": "2025-10-28T12:52:12.130Z",
-          "lastUpdated": "2025-10-28T12:52:12.262Z"
-        },
         "4701": {
           "number": 4701,
           "title": "EXUI-3604 - PR test check pipeline update",
