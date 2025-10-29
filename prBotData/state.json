@@ -1,23 +1,11 @@
 {
   "metadata": {
     "approvalListMessageTs": "1761747141.830259",
-    "lastUpdated": "2025-10-29T14:12:12.255Z"
+    "lastUpdated": "2025-10-29T14:23:12.648Z"
   },
   "repositories": {
     "hmcts/em-media-viewer": {
       "pullRequests": {
-        "1231": {
-          "number": 1231,
-          "title": "EXUI-2821 search present button issues",
-          "author": "chrisjones-hmcts",
-          "url": "https://github.com/hmcts/em-media-viewer/pull/1231",
-          "changesRequested": false,
-          "approvals": 1,
-          "buildSuccess": true,
-          "headSha": "e16e073a3f47b2f870832109454d8e82397dbc75",
-          "createdAt": "2025-10-17T14:49:10.747Z",
-          "lastUpdated": "2025-10-17T14:49:10.896Z"
-        },
         "1233": {
           "number": 1233,
           "title": "EXUI-2600 draw a box keyboard",
