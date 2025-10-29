@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1761740918.152169",
-    "lastUpdated": "2025-10-29T11:45:54.148Z"
+    "lastUpdated": "2025-10-29T13:58:28.383Z"
   },
   "repositories": {
     "hmcts/em-media-viewer": {
@@ -29,6 +29,18 @@
           "headSha": "415b4fcd9f510e35ea018d74d9de3719a8e924cd",
           "createdAt": "2025-10-20T08:40:00.021Z",
           "lastUpdated": "2025-10-20T08:40:00.158Z"
+        },
+        "1233": {
+          "number": 1233,
+          "title": "EXUI-2600 draw a box keyboard",
+          "author": "chrisjones-hmcts",
+          "url": "https://github.com/hmcts/em-media-viewer/pull/1233",
+          "changesRequested": false,
+          "approvals": 0,
+          "buildSuccess": false,
+          "headSha": "676e68b81e46c9ba39404666f7092ecdb544a3f9",
+          "createdAt": "2025-10-29T13:58:28.245Z",
+          "lastUpdated": "2025-10-29T13:58:28.383Z"
         }
       }
     },
