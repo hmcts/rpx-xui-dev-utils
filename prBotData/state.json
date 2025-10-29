@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1761747105.211959",
-    "lastUpdated": "2025-10-29T14:11:34.790Z"
+    "lastUpdated": "2025-10-29T14:12:12.255Z"
   },
   "repositories": {
     "hmcts/em-media-viewer": {
@@ -17,18 +17,6 @@
           "headSha": "e16e073a3f47b2f870832109454d8e82397dbc75",
           "createdAt": "2025-10-17T14:49:10.747Z",
           "lastUpdated": "2025-10-17T14:49:10.896Z"
-        },
-        "1232": {
-          "number": 1232,
-          "title": "EXUI-2488 Index navigation - media viewer",
-          "author": "chrisjones-hmcts",
-          "url": "https://github.com/hmcts/em-media-viewer/pull/1232",
-          "changesRequested": false,
-          "approvals": 1,
-          "buildSuccess": true,
-          "headSha": "415b4fcd9f510e35ea018d74d9de3719a8e924cd",
-          "createdAt": "2025-10-20T08:40:00.021Z",
-          "lastUpdated": "2025-10-20T08:40:00.158Z"
         },
         "1233": {
           "number": 1233,
