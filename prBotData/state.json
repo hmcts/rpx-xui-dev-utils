@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1761730462.545419",
-    "lastUpdated": "2025-10-29T09:34:13.243Z"
+    "lastUpdated": "2025-10-29T09:36:10.498Z"
   },
   "repositories": {
     "hmcts/em-media-viewer": {
@@ -329,6 +329,18 @@
           "headSha": "70e3fd203129eb5bb94396dfa6eaea1882a49ad6",
           "createdAt": "2025-10-28T12:45:15.555Z",
           "lastUpdated": "2025-10-28T12:45:15.768Z"
+        },
+        "946": {
+          "number": 946,
+          "title": "Update dependency @hmcts/ccd-case-ui-toolkit to v7.2.54",
+          "author": "renovate[bot]",
+          "url": "https://github.com/hmcts/rpx-xui-approve-org/pull/946",
+          "changesRequested": false,
+          "approvals": 0,
+          "buildSuccess": false,
+          "headSha": "235b31a2758bcf67a58d8f73340c37b532b9b77a",
+          "createdAt": "2025-10-29T09:36:10.253Z",
+          "lastUpdated": "2025-10-29T09:36:10.498Z"
         }
       }
     },
