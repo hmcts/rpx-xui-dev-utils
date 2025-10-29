@@ -6,16 +6,6 @@
   "repositories": {
     "hmcts/em-media-viewer": {
       "pullRequests": {
-        "1218": {
-          "number": 1218,
-          "title": "exui-3514-audit scan",
-          "author": "RiteshHMCTS",
-          "url": "https://github.com/hmcts/em-media-viewer/pull/1218",
-          "changesRequested": false,
-          "approvals": 0,
-          "createdAt": "2025-09-25T12:27:06.830Z",
-          "lastUpdated": "2025-09-25T12:27:06.992Z"
-        },
         "1231": {
           "number": 1231,
           "title": "EXUI-2821 search present button issues",
@@ -44,56 +34,6 @@
     },
     "hmcts/rpx-xui-webapp": {
       "pullRequests": {
-        "4658": {
-          "number": 4658,
-          "title": "EXUI-3528 Enabling pactTests that were disabled so far.",
-          "author": "kasi-subramaniam",
-          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/4658",
-          "changesRequested": false,
-          "approvals": 0,
-          "createdAt": "2025-09-30T17:09:07.325Z",
-          "lastUpdated": "2025-09-30T17:09:07.465Z"
-        },
-        "4660": {
-          "number": 4660,
-          "title": "CME-717: welsh logic app",
-          "author": "AntonyLeons",
-          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/4660",
-          "changesRequested": false,
-          "approvals": 0,
-          "createdAt": "2025-10-01T13:48:27.297Z",
-          "lastUpdated": "2025-10-01T13:48:27.468Z"
-        },
-        "4669": {
-          "number": 4669,
-          "title": "EXUI-3378 - test new cve script",
-          "author": "Josh-HMCTS",
-          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/4669",
-          "changesRequested": false,
-          "approvals": 0,
-          "createdAt": "2025-10-08T12:49:27.115Z",
-          "lastUpdated": "2025-10-08T12:49:27.350Z"
-        },
-        "4676": {
-          "number": 4676,
-          "title": "DO NOT MERGE - Add tag",
-          "author": "connorpgpmcelroy",
-          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/4676",
-          "changesRequested": false,
-          "approvals": 1,
-          "createdAt": "2025-10-13T13:08:53.460Z",
-          "lastUpdated": "2025-10-13T13:08:53.629Z"
-        },
-        "4681": {
-          "number": 4681,
-          "title": "DO NOT MERGE - Add tag",
-          "author": "connorpgpmcelroy",
-          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/4681",
-          "changesRequested": false,
-          "approvals": 0,
-          "createdAt": "2025-10-14T13:42:28.474Z",
-          "lastUpdated": "2025-10-14T13:42:28.648Z"
-        },
         "4682": {
           "number": 4682,
           "title": "EXUI-3348  contast issues in probate journey",
@@ -105,126 +45,6 @@
           "headSha": "eaf8e02f65c446f7a108384c21390ad9da2a302c",
           "createdAt": "2025-10-28T12:52:12.130Z",
           "lastUpdated": "2025-10-28T12:52:12.262Z"
-        },
-        "4685": {
-          "number": 4685,
-          "title": "EXUI-2821 search present button issues",
-          "author": "chrisjones-hmcts",
-          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/4685",
-          "changesRequested": false,
-          "approvals": 0,
-          "buildSuccess": false,
-          "headSha": "6613f19da7bc86482be4d803e1e93be6f379fc4b",
-          "createdAt": "2025-10-17T13:56:46.520Z",
-          "lastUpdated": "2025-10-17T13:56:46.749Z"
-        },
-        "4686": {
-          "number": 4686,
-          "title": "EXUI-2488 Index navigation - media viewer",
-          "author": "chrisjones-hmcts",
-          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/4686",
-          "changesRequested": false,
-          "approvals": 0,
-          "buildSuccess": false,
-          "headSha": "511ee93e3ec8cf8656582d5b0e7211213fe8ac97",
-          "createdAt": "2025-10-17T15:37:57.824Z",
-          "lastUpdated": "2025-10-17T15:37:57.960Z"
-        },
-        "4687": {
-          "number": 4687,
-          "title": "EXUI-3455 - use tk ver for 3455",
-          "author": "Josh-HMCTS",
-          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/4687",
-          "changesRequested": false,
-          "approvals": 0,
-          "buildSuccess": false,
-          "headSha": "640a0ed0e0c5d0172780e0d9c9e15a35ac4decaf",
-          "createdAt": "2025-10-22T10:53:29.058Z",
-          "lastUpdated": "2025-10-22T10:53:29.290Z"
-        },
-        "4692": {
-          "number": 4692,
-          "title": "EXUI-3504 - use pre-release tk",
-          "author": "Josh-HMCTS",
-          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/4692",
-          "changesRequested": false,
-          "approvals": 0,
-          "buildSuccess": false,
-          "headSha": "a57c2acb7e1a517f04001de6c2260161d80d0ca6",
-          "createdAt": "2025-10-23T12:42:46.179Z",
-          "lastUpdated": "2025-10-23T12:42:46.435Z"
-        },
-        "4693": {
-          "number": 4693,
-          "title": "Update dependency @types/jasmine to v5",
-          "author": "renovate[bot]",
-          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/4693",
-          "changesRequested": false,
-          "approvals": 0,
-          "buildSuccess": false,
-          "headSha": "217d69dfe71da933f2fb906ad2a96a708a21f43a",
-          "createdAt": "2025-10-23T13:39:49.154Z",
-          "lastUpdated": "2025-10-23T13:39:49.380Z"
-        },
-        "4694": {
-          "number": 4694,
-          "title": "Update dependency @types/sinon to v17",
-          "author": "renovate[bot]",
-          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/4694",
-          "changesRequested": false,
-          "approvals": 0,
-          "buildSuccess": false,
-          "headSha": "43c6d093bc0f62d0782ac8e92fb28fe0ec814376",
-          "createdAt": "2025-10-23T13:39:58.349Z",
-          "lastUpdated": "2025-10-23T13:39:58.488Z"
-        },
-        "4695": {
-          "number": 4695,
-          "title": "Update dependency axios-mock-adapter to v2",
-          "author": "renovate[bot]",
-          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/4695",
-          "changesRequested": false,
-          "approvals": 0,
-          "buildSuccess": false,
-          "headSha": "e197b8e968724f56c1d7596bc515e9e71ceea690",
-          "createdAt": "2025-10-23T13:40:13.993Z",
-          "lastUpdated": "2025-10-23T13:40:14.160Z"
-        },
-        "4696": {
-          "number": 4696,
-          "title": "Exui 3576 vulnerability fix",
-          "author": "balajisridharanhmcts",
-          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/4696",
-          "changesRequested": false,
-          "approvals": 0,
-          "buildSuccess": false,
-          "headSha": "b9dc16ed37ddfe75be9f706234e8783804d59317",
-          "createdAt": "2025-10-23T15:57:26.150Z",
-          "lastUpdated": "2025-10-23T15:57:26.425Z"
-        },
-        "4697": {
-          "number": 4697,
-          "title": "EXUI-391 - use pre-release node-lib",
-          "author": "Josh-HMCTS",
-          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/4697",
-          "changesRequested": false,
-          "approvals": 0,
-          "buildSuccess": false,
-          "headSha": "b578fef446ab4a200aa179f9552882e0d8a8c7b2",
-          "createdAt": "2025-10-24T11:41:08.594Z",
-          "lastUpdated": "2025-10-24T11:41:08.689Z"
-        },
-        "4700": {
-          "number": 4700,
-          "title": "dummy commit",
-          "author": "Josh-HMCTS",
-          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/4700",
-          "changesRequested": false,
-          "approvals": 0,
-          "buildSuccess": false,
-          "headSha": "ed5f9648e0029b308f6826c424adfaac104d585c",
-          "createdAt": "2025-10-27T11:11:01.139Z",
-          "lastUpdated": "2025-10-27T11:11:01.440Z"
         },
         "4701": {
           "number": 4701,
@@ -240,84 +60,8 @@
         }
       }
     },
-    "hmcts/em-showcase": {
-      "pullRequests": {
-        "715": {
-          "number": 715,
-          "title": "EXUI-3523 - added github actions workflow for pr-bot",
-          "author": "chrisjones-hmcts",
-          "url": "https://github.com/hmcts/em-showcase/pull/715",
-          "changesRequested": false,
-          "approvals": 0,
-          "createdAt": "2025-10-03T14:58:10.229Z",
-          "lastUpdated": "2025-10-03T14:58:10.394Z"
-        },
-        "730": {
-          "number": 730,
-          "title": "Update dependency @hmcts/media-viewer to v4.1.7",
-          "author": "renovate[bot]",
-          "url": "https://github.com/hmcts/em-showcase/pull/730",
-          "changesRequested": false,
-          "approvals": 0,
-          "buildSuccess": false,
-          "headSha": "6bd56541850fb72dba3318ec416b4d897ba2069e",
-          "createdAt": "2025-10-27T07:31:09.362Z",
-          "lastUpdated": "2025-10-28T11:31:39.738Z"
-        },
-        "731": {
-          "number": 731,
-          "title": "Update dependency @types/express to v4.17.24",
-          "author": "renovate[bot]",
-          "url": "https://github.com/hmcts/em-showcase/pull/731",
-          "changesRequested": false,
-          "approvals": 0,
-          "buildSuccess": false,
-          "headSha": "0c6dbe27288090540f27c9b47353591ee83e3bed",
-          "createdAt": "2025-10-27T07:31:22.925Z",
-          "lastUpdated": "2025-10-28T11:32:10.177Z"
-        }
-      }
-    },
-    "hmcts/rpx-xui-translation": {
-      "pullRequests": {
-        "50": {
-          "number": 50,
-          "title": "Add stalebot config",
-          "author": "danlysiak",
-          "url": "https://github.com/hmcts/rpx-xui-translation/pull/50",
-          "changesRequested": false,
-          "approvals": 0,
-          "createdAt": "2025-10-08T21:34:46.108Z",
-          "lastUpdated": "2025-10-08T21:34:46.407Z"
-        }
-      }
-    },
     "hmcts/rpx-xui-approve-org": {
       "pullRequests": {
-        "941": {
-          "number": 941,
-          "title": "Update dependency @microsoft/applicationinsights-web to v3.3.10",
-          "author": "renovate[bot]",
-          "url": "https://github.com/hmcts/rpx-xui-approve-org/pull/941",
-          "changesRequested": false,
-          "approvals": 0,
-          "buildSuccess": false,
-          "headSha": "fdd2b1685a9f34ca6def115faaa589418e971a52",
-          "createdAt": "2025-10-23T09:33:07.167Z",
-          "lastUpdated": "2025-10-23T09:33:07.389Z"
-        },
-        "942": {
-          "number": 942,
-          "title": "Update dependency @types/express-serve-static-core to v4.19.7",
-          "author": "renovate[bot]",
-          "url": "https://github.com/hmcts/rpx-xui-approve-org/pull/942",
-          "changesRequested": false,
-          "approvals": 0,
-          "buildSuccess": false,
-          "headSha": "0b16871e26d45e38e2e02d201dd2d0392a033204",
-          "createdAt": "2025-10-23T09:33:31.616Z",
-          "lastUpdated": "2025-10-23T09:33:31.860Z"
-        },
         "943": {
           "number": 943,
           "title": "Add test exit status as pass or fail",
@@ -329,18 +73,6 @@
           "headSha": "70e3fd203129eb5bb94396dfa6eaea1882a49ad6",
           "createdAt": "2025-10-28T12:45:15.555Z",
           "lastUpdated": "2025-10-28T12:45:15.768Z"
-        },
-        "946": {
-          "number": 946,
-          "title": "Update dependency @hmcts/ccd-case-ui-toolkit to v7.2.54",
-          "author": "renovate[bot]",
-          "url": "https://github.com/hmcts/rpx-xui-approve-org/pull/946",
-          "changesRequested": false,
-          "approvals": 0,
-          "buildSuccess": true,
-          "headSha": "235b31a2758bcf67a58d8f73340c37b532b9b77a",
-          "createdAt": "2025-10-29T09:36:10.253Z",
-          "lastUpdated": "2025-10-29T09:54:15.988Z"
         }
       }
     },
