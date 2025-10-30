@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1761824142.999009",
-    "lastUpdated": "2025-10-30T11:35:33.203Z"
+    "lastUpdated": "2025-10-30T12:10:59.625Z"
   },
   "repositories": {
     "hmcts/em-media-viewer": {
@@ -33,6 +33,18 @@
           "headSha": "6c9f875d7f92501226722025bd29e403bdac5122",
           "createdAt": "2025-10-28T17:37:39.718Z",
           "lastUpdated": "2025-10-30T11:35:33.203Z"
+        },
+        "4703": {
+          "number": 4703,
+          "title": "remove flag WorkAllocationRelease2",
+          "author": "olusegz07",
+          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/4703",
+          "changesRequested": false,
+          "approvals": 0,
+          "buildSuccess": false,
+          "headSha": "1ab9471455f0256215674dc49c719328ba22d3d0",
+          "createdAt": "2025-10-30T12:10:59.524Z",
+          "lastUpdated": "2025-10-30T12:10:59.625Z"
         }
       }
     },
