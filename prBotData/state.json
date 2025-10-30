@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1761836680.650129",
-    "lastUpdated": "2025-10-30T15:04:31.176Z"
+    "lastUpdated": "2025-10-30T16:23:46.458Z"
   },
   "repositories": {
     "hmcts/em-media-viewer": {
@@ -57,6 +57,18 @@
           "headSha": "882c689d85d185d3bf3b470fb4bbb0e7555bd552",
           "createdAt": "2025-10-30T14:15:40.602Z",
           "lastUpdated": "2025-10-30T14:15:40.771Z"
+        },
+        "4706": {
+          "number": 4706,
+          "title": "Change listingStatus enum",
+          "author": "connorpgpmcelroy",
+          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/4706",
+          "changesRequested": false,
+          "approvals": 0,
+          "buildSuccess": false,
+          "headSha": "b285e1413e4e154a6b45861a9c1830da13cde94e",
+          "createdAt": "2025-10-30T16:23:46.330Z",
+          "lastUpdated": "2025-10-30T16:23:46.458Z"
         }
       }
     },
