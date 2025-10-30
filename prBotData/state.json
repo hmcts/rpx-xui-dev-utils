@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1761818685.643409",
-    "lastUpdated": "2025-10-30T10:04:36.266Z"
+    "lastUpdated": "2025-10-30T10:05:42.373Z"
   },
   "repositories": {
     "hmcts/em-media-viewer": {
@@ -49,22 +49,6 @@
           "headSha": "dc4f9facc58519bce51c30a559c8ed02c8cc5184",
           "createdAt": "2025-10-28T16:11:37.341Z",
           "lastUpdated": "2025-10-28T16:11:37.511Z"
-        }
-      }
-    },
-    "hmcts/em-showcase": {
-      "pullRequests": {
-        "734": {
-          "number": 734,
-          "title": "Update dependency moment-timezone to ^0.6.0",
-          "author": "renovate[bot]",
-          "url": "https://github.com/hmcts/em-showcase/pull/734",
-          "changesRequested": false,
-          "approvals": 0,
-          "buildSuccess": true,
-          "headSha": "b22e7c6b725c9677d88eb5ea9db4870373b69787",
-          "createdAt": "2025-10-30T09:37:31.752Z",
-          "lastUpdated": "2025-10-30T10:04:36.266Z"
         }
       }
     }
