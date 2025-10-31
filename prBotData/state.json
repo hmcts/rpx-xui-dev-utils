@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1761911651.940639",
-    "lastUpdated": "2025-10-31T11:54:02.600Z"
+    "lastUpdated": "2025-10-31T15:00:39.830Z"
   },
   "repositories": {
     "hmcts/em-media-viewer": {
@@ -17,6 +17,18 @@
           "headSha": "676e68b81e46c9ba39404666f7092ecdb544a3f9",
           "createdAt": "2025-10-29T13:58:28.245Z",
           "lastUpdated": "2025-10-29T14:48:01.646Z"
+        },
+        "1234": {
+          "number": 1234,
+          "title": "EXUI-2489 index navigation 2 - mediaviewer",
+          "author": "chrisjones-hmcts",
+          "url": "https://github.com/hmcts/em-media-viewer/pull/1234",
+          "changesRequested": false,
+          "approvals": 0,
+          "buildSuccess": false,
+          "headSha": "4b3146a168d5a5a3680638e7d56257301b2cf56a",
+          "createdAt": "2025-10-31T15:00:39.724Z",
+          "lastUpdated": "2025-10-31T15:00:39.830Z"
         }
       }
     },
