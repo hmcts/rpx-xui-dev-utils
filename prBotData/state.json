@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1761909135.801059",
-    "lastUpdated": "2025-10-31T11:12:06.365Z"
+    "lastUpdated": "2025-10-31T11:54:02.600Z"
   },
   "repositories": {
     "hmcts/em-media-viewer": {
@@ -45,18 +45,6 @@
           "headSha": "1ab9471455f0256215674dc49c719328ba22d3d0",
           "createdAt": "2025-10-30T12:10:59.524Z",
           "lastUpdated": "2025-10-30T12:10:59.625Z"
-        },
-        "4705": {
-          "number": 4705,
-          "title": "exui-3672-redirect to old url",
-          "author": "RiteshHMCTS",
-          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/4705",
-          "changesRequested": false,
-          "approvals": 1,
-          "buildSuccess": true,
-          "headSha": "75690d30088fd1348294c955b59d12e13337f54d",
-          "createdAt": "2025-10-31T11:12:06.190Z",
-          "lastUpdated": "2025-10-31T11:12:06.365Z"
         },
         "4706": {
           "number": 4706,
