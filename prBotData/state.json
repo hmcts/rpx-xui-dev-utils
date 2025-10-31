@@ -1,23 +1,11 @@
 {
   "metadata": {
     "approvalListMessageTs": "1761926843.917799",
-    "lastUpdated": "2025-10-31T16:07:14.773Z"
+    "lastUpdated": "2025-10-31T16:11:11.113Z"
   },
   "repositories": {
     "hmcts/em-media-viewer": {
       "pullRequests": {
-        "1196": {
-          "number": 1196,
-          "title": "Ex UI 2986 tooltip accessibility",
-          "author": "balajisridharanhmcts",
-          "url": "https://github.com/hmcts/em-media-viewer/pull/1196",
-          "changesRequested": true,
-          "approvals": 3,
-          "buildSuccess": true,
-          "headSha": "b43a26f0697f0daf8d0142bd671bd3f06c139c19",
-          "createdAt": "2025-10-31T16:07:14.644Z",
-          "lastUpdated": "2025-10-31T16:07:14.773Z"
-        },
         "1233": {
           "number": 1233,
           "title": "EXUI-2600 draw a box keyboard",
