@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1762190993.124659",
-    "lastUpdated": "2025-11-03T17:29:43.991Z"
+    "lastUpdated": "2025-11-03T18:04:34.531Z"
   },
   "repositories": {
     "hmcts/em-media-viewer": {
@@ -34,6 +34,18 @@
     },
     "hmcts/rpx-xui-webapp": {
       "pullRequests": {
+        "2860": {
+          "number": 2860,
+          "title": "EUI-4129: Activity Tracker",
+          "author": "LucaDelBuonoHMCTS",
+          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/2860",
+          "changesRequested": true,
+          "approvals": 0,
+          "buildSuccess": false,
+          "headSha": "215d6c01503fe3448d82e438aa8c33471c726013",
+          "createdAt": "2025-11-03T18:04:34.371Z",
+          "lastUpdated": "2025-11-03T18:04:34.531Z"
+        },
         "4703": {
           "number": 4703,
           "title": "remove flag WorkAllocationRelease2",
