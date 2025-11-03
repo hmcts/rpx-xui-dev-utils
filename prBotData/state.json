@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1762166058.744949",
-    "lastUpdated": "2025-11-03T10:34:09.465Z"
+    "lastUpdated": "2025-11-03T11:29:18.759Z"
   },
   "repositories": {
     "hmcts/em-media-viewer": {
@@ -74,6 +74,18 @@
     },
     "hmcts/ccd-case-ui-toolkit": {
       "pullRequests": {
+        "1990": {
+          "number": 1990,
+          "title": "EXUI-2906 Revive activity tracker",
+          "author": "andywilkinshmcts",
+          "url": "https://github.com/hmcts/ccd-case-ui-toolkit/pull/1990",
+          "changesRequested": false,
+          "approvals": 1,
+          "buildSuccess": true,
+          "headSha": "cecc062d4784653200384f2b47d841162d610c8e",
+          "createdAt": "2025-11-03T11:29:18.559Z",
+          "lastUpdated": "2025-11-03T11:29:18.759Z"
+        },
         "2031": {
           "number": 2031,
           "title": "EXUI-2451 - Add additional markdown validation",
