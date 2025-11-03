@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1761929834.658119",
-    "lastUpdated": "2025-11-03T09:51:53.094Z"
+    "lastUpdated": "2025-11-03T09:52:04.233Z"
   },
   "repositories": {
     "hmcts/em-media-viewer": {
@@ -34,18 +34,6 @@
     },
     "hmcts/rpx-xui-webapp": {
       "pullRequests": {
-        "4701": {
-          "number": 4701,
-          "title": "EXUI-3604 - PR test check pipeline update",
-          "author": "danH-test",
-          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/4701",
-          "changesRequested": false,
-          "approvals": 1,
-          "buildSuccess": true,
-          "headSha": "6c9f875d7f92501226722025bd29e403bdac5122",
-          "createdAt": "2025-10-31T10:44:01.187Z",
-          "lastUpdated": "2025-10-31T10:44:01.294Z"
-        },
         "4703": {
           "number": 4703,
           "title": "remove flag WorkAllocationRelease2",
