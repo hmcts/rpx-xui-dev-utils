@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1762184985.394709",
-    "lastUpdated": "2025-11-03T15:49:35.750Z"
+    "lastUpdated": "2025-11-03T15:56:47.055Z"
   },
   "repositories": {
     "hmcts/em-media-viewer": {
@@ -81,6 +81,18 @@
           "headSha": "470b4eae6e0aeb01b37461de62605bc51eb34837",
           "createdAt": "2025-11-03T14:17:13.284Z",
           "lastUpdated": "2025-11-03T15:49:35.750Z"
+        },
+        "4710": {
+          "number": 4710,
+          "title": "Update hearing-actual-summary.component.ts",
+          "author": "connorpgpmcelroy",
+          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/4710",
+          "changesRequested": false,
+          "approvals": 0,
+          "buildSuccess": false,
+          "headSha": "255640602df2341efb56ec97ac52f0d13783bec7",
+          "createdAt": "2025-11-03T15:56:46.852Z",
+          "lastUpdated": "2025-11-03T15:56:47.055Z"
         }
       }
     },
