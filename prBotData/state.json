@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1762264684.268089",
-    "lastUpdated": "2025-11-04T13:57:56.778Z"
+    "lastUpdated": "2025-11-04T13:58:14.257Z"
   },
   "repositories": {
     "hmcts/em-media-viewer": {
@@ -144,15 +144,15 @@
       "pullRequests": {
         "735": {
           "number": 735,
-          "title": "exui-3585-cve",
+          "title": "exui-3685-cve",
           "author": "RiteshHMCTS",
           "url": "https://github.com/hmcts/em-showcase/pull/735",
           "changesRequested": false,
-          "approvals": 0,
+          "approvals": 1,
           "buildSuccess": true,
           "headSha": "43bba9a22bdfe31aeba129ddccf4f33f83a43048",
-          "createdAt": "2025-11-04T12:42:21.627Z",
-          "lastUpdated": "2025-11-04T13:28:23.910Z"
+          "createdAt": "2025-11-04T13:58:13.778Z",
+          "lastUpdated": "2025-11-04T13:58:14.257Z"
         }
       }
     },
