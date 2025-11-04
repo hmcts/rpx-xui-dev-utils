@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1762247105.973609",
-    "lastUpdated": "2025-11-04T09:04:56.579Z"
+    "lastUpdated": "2025-11-04T09:43:17.249Z"
   },
   "repositories": {
     "hmcts/em-media-viewer": {
@@ -109,6 +109,18 @@
           "headSha": "cecc062d4784653200384f2b47d841162d610c8e",
           "createdAt": "2025-11-03T11:29:18.559Z",
           "lastUpdated": "2025-11-03T11:29:18.759Z"
+        },
+        "2015": {
+          "number": 2015,
+          "title": "EXUI-3552 - Add additional logs for doc uploads",
+          "author": "Josh-HMCTS",
+          "url": "https://github.com/hmcts/ccd-case-ui-toolkit/pull/2015",
+          "changesRequested": false,
+          "approvals": 1,
+          "buildSuccess": true,
+          "headSha": "89f2ce77ef48dd0c8cb75e727f78563c5cb0e05f",
+          "createdAt": "2025-11-04T09:43:17.130Z",
+          "lastUpdated": "2025-11-04T09:43:17.249Z"
         },
         "2031": {
           "number": 2031,
