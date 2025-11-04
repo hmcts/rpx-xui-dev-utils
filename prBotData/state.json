@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1762259117.796149",
-    "lastUpdated": "2025-11-04T12:25:07.831Z"
+    "lastUpdated": "2025-11-04T12:32:38.561Z"
   },
   "repositories": {
     "hmcts/em-media-viewer": {
@@ -137,6 +137,22 @@
           "headSha": "1c9458b4966eaa6e5ae9132cae6f33e1fd3d49f7",
           "createdAt": "2025-11-04T09:04:56.429Z",
           "lastUpdated": "2025-11-04T09:04:56.579Z"
+        }
+      }
+    },
+    "hmcts/rpx-xui-manage-organisations": {
+      "pullRequests": {
+        "1428": {
+          "number": 1428,
+          "title": "cve",
+          "author": "RiteshHMCTS",
+          "url": "https://github.com/hmcts/rpx-xui-manage-organisations/pull/1428",
+          "changesRequested": false,
+          "approvals": 0,
+          "buildSuccess": false,
+          "headSha": "c87c0e808bc4ca57e84172cfe843b6b8c6540dff",
+          "createdAt": "2025-11-04T12:32:38.402Z",
+          "lastUpdated": "2025-11-04T12:32:38.561Z"
         }
       }
     }
