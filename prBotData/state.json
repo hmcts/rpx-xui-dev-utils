@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1762259117.796149",
-    "lastUpdated": "2025-11-04T12:32:38.561Z"
+    "lastUpdated": "2025-11-04T12:42:21.732Z"
   },
   "repositories": {
     "hmcts/em-media-viewer": {
@@ -153,6 +153,22 @@
           "headSha": "c87c0e808bc4ca57e84172cfe843b6b8c6540dff",
           "createdAt": "2025-11-04T12:32:38.402Z",
           "lastUpdated": "2025-11-04T12:32:38.561Z"
+        }
+      }
+    },
+    "hmcts/em-showcase": {
+      "pullRequests": {
+        "735": {
+          "number": 735,
+          "title": "exui-3585-cve",
+          "author": "RiteshHMCTS",
+          "url": "https://github.com/hmcts/em-showcase/pull/735",
+          "changesRequested": false,
+          "approvals": 0,
+          "buildSuccess": false,
+          "headSha": "57cbf92a7f3411c599aac00cab6181f2ef25ba9c",
+          "createdAt": "2025-11-04T12:42:21.627Z",
+          "lastUpdated": "2025-11-04T12:42:21.732Z"
         }
       }
     }
