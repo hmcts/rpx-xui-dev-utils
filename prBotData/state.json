@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1762264709.760219",
-    "lastUpdated": "2025-11-04T13:58:23.635Z"
+    "lastUpdated": "2025-11-04T14:23:43.655Z"
   },
   "repositories": {
     "hmcts/em-media-viewer": {
@@ -12,11 +12,11 @@
           "author": "chrisjones-hmcts",
           "url": "https://github.com/hmcts/em-media-viewer/pull/1233",
           "changesRequested": false,
-          "approvals": 0,
+          "approvals": 1,
           "buildSuccess": true,
           "headSha": "676e68b81e46c9ba39404666f7092ecdb544a3f9",
-          "createdAt": "2025-11-04T13:47:10.074Z",
-          "lastUpdated": "2025-11-04T13:47:10.211Z"
+          "createdAt": "2025-11-04T14:23:43.508Z",
+          "lastUpdated": "2025-11-04T14:23:43.655Z"
         },
         "1234": {
           "number": 1234,
