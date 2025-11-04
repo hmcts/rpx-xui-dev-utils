@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1762266815.441429",
-    "lastUpdated": "2025-11-04T14:33:25.605Z"
+    "lastUpdated": "2025-11-04T14:38:03.601Z"
   },
   "repositories": {
     "hmcts/em-media-viewer": {
@@ -121,22 +121,6 @@
           "headSha": "58cea76b9985ad332c9265f2ef5d38ac7bed7c54",
           "createdAt": "2025-11-04T14:33:25.218Z",
           "lastUpdated": "2025-11-04T14:33:25.605Z"
-        }
-      }
-    },
-    "hmcts/rpx-xui-approve-org": {
-      "pullRequests": {
-        "947": {
-          "number": 947,
-          "title": "privacy policy update",
-          "author": "balajisridharanhmcts",
-          "url": "https://github.com/hmcts/rpx-xui-approve-org/pull/947",
-          "changesRequested": false,
-          "approvals": 1,
-          "buildSuccess": true,
-          "headSha": "1c9458b4966eaa6e5ae9132cae6f33e1fd3d49f7",
-          "createdAt": "2025-11-04T09:04:56.429Z",
-          "lastUpdated": "2025-11-04T09:04:56.579Z"
         }
       }
     },
