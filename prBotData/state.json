@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1762274457.592019",
-    "lastUpdated": "2025-11-04T16:40:46.924Z"
+    "lastUpdated": "2025-11-04T16:54:57.225Z"
   },
   "repositories": {
     "hmcts/em-media-viewer": {
@@ -72,15 +72,15 @@
         },
         "4710": {
           "number": 4710,
-          "title": "Update hearing-actual-summary.component.ts",
+          "title": "EXUI-3639 - Update hearing-actual-summary.component.ts",
           "author": "connorpgpmcelroy",
           "url": "https://github.com/hmcts/rpx-xui-webapp/pull/4710",
           "changesRequested": false,
-          "approvals": 0,
+          "approvals": 1,
           "buildSuccess": true,
-          "headSha": "3e09f953c74a667ec2dd10f2ad062a1938ffae19",
-          "createdAt": "2025-11-03T15:56:46.852Z",
-          "lastUpdated": "2025-11-04T14:44:52.626Z"
+          "headSha": "4c11d5cea8b1a098162f56e4b33b825cbb05450c",
+          "createdAt": "2025-11-04T16:54:57.120Z",
+          "lastUpdated": "2025-11-04T16:54:57.225Z"
         },
         "4711": {
           "number": 4711,
