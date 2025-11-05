@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1762338996.448559",
-    "lastUpdated": "2025-11-05T10:36:26.409Z"
+    "lastUpdated": "2025-11-05T10:49:43.629Z"
   },
   "repositories": {
     "hmcts/em-media-viewer": {
@@ -69,18 +69,6 @@
           "headSha": "470b4eae6e0aeb01b37461de62605bc51eb34837",
           "createdAt": "2025-11-05T09:53:00.145Z",
           "lastUpdated": "2025-11-05T09:53:00.342Z"
-        },
-        "4712": {
-          "number": 4712,
-          "title": "Add the null improvements",
-          "author": "connorpgpmcelroy",
-          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/4712",
-          "changesRequested": false,
-          "approvals": 1,
-          "buildSuccess": true,
-          "headSha": "b2e6d0b4e464e6a047345e4902a2300811dd7849",
-          "createdAt": "2025-11-05T10:36:26.291Z",
-          "lastUpdated": "2025-11-05T10:36:26.409Z"
         }
       }
     },
