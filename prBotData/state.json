@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1762349960.339929",
-    "lastUpdated": "2025-11-05T13:39:10.560Z"
+    "lastUpdated": "2025-11-05T13:39:58.633Z"
   },
   "repositories": {
     "hmcts/em-media-viewer": {
@@ -85,18 +85,6 @@
           "headSha": "87bdd53091ce9e25dda5b852a573fcef2a706e84",
           "createdAt": "2025-11-05T13:05:33.650Z",
           "lastUpdated": "2025-11-05T13:05:33.843Z"
-        },
-        "2022": {
-          "number": 2022,
-          "title": "Add payment history message",
-          "author": "connorpgpmcelroy",
-          "url": "https://github.com/hmcts/ccd-case-ui-toolkit/pull/2022",
-          "changesRequested": false,
-          "approvals": 1,
-          "buildSuccess": true,
-          "headSha": "876af92f02da3b17fb3d1d3db928a5bbc77bd047",
-          "createdAt": "2025-11-05T13:39:10.400Z",
-          "lastUpdated": "2025-11-05T13:39:10.560Z"
         },
         "2031": {
           "number": 2031,
