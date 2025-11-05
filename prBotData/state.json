@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1762354933.144279",
-    "lastUpdated": "2025-11-05T15:02:03.360Z"
+    "lastUpdated": "2025-11-05T15:22:42.286Z"
   },
   "repositories": {
     "hmcts/em-media-viewer": {
@@ -69,6 +69,18 @@
           "headSha": "cd7c0f94c6effc696fe1183adb2bb2b751b99fca",
           "createdAt": "2025-11-05T15:02:03.215Z",
           "lastUpdated": "2025-11-05T15:02:03.360Z"
+        },
+        "4713": {
+          "number": 4713,
+          "title": "EXUI-2505 - Update proxy packages",
+          "author": "Josh-HMCTS",
+          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/4713",
+          "changesRequested": false,
+          "approvals": 0,
+          "buildSuccess": false,
+          "headSha": "9bb4df0aedf5ddf66f3641fb1b82f578e90908d4",
+          "createdAt": "2025-11-05T15:22:42.171Z",
+          "lastUpdated": "2025-11-05T15:22:42.286Z"
         }
       }
     },
