@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1762421120.672599",
-    "lastUpdated": "2025-11-06T09:25:10.613Z"
+    "lastUpdated": "2025-11-06T09:32:11.333Z"
   },
   "repositories": {
     "hmcts/em-media-viewer": {
@@ -130,9 +130,9 @@
           "changesRequested": false,
           "approvals": 0,
           "buildSuccess": true,
-          "headSha": "58cea76b9985ad332c9265f2ef5d38ac7bed7c54",
-          "createdAt": "2025-11-04T14:33:25.218Z",
-          "lastUpdated": "2025-11-04T14:33:25.605Z"
+          "headSha": "ae987977fd661b6868c50b06ff59241e78e3a0f9",
+          "createdAt": "2025-11-06T09:32:11.092Z",
+          "lastUpdated": "2025-11-06T09:32:11.333Z"
         }
       }
     }
