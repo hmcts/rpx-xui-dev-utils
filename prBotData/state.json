@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1762444434.717039",
-    "lastUpdated": "2025-11-06T15:53:45.330Z"
+    "lastUpdated": "2025-11-06T15:54:41.576Z"
   },
   "repositories": {
     "hmcts/em-media-viewer": {
@@ -41,18 +41,6 @@
           "headSha": "ccc68ff8cc735cb47f259b9f92ca905b81201d35",
           "createdAt": "2025-11-06T10:47:59.183Z",
           "lastUpdated": "2025-11-06T10:47:59.288Z"
-        },
-        "1237": {
-          "number": 1237,
-          "title": "exui-3700-audit",
-          "author": "RiteshHMCTS",
-          "url": "https://github.com/hmcts/em-media-viewer/pull/1237",
-          "changesRequested": false,
-          "approvals": 1,
-          "buildSuccess": true,
-          "headSha": "327d33843a630e17a086d8231d4652ee21e0ef86",
-          "createdAt": "2025-11-06T15:53:45.212Z",
-          "lastUpdated": "2025-11-06T15:53:45.330Z"
         }
       }
     },
