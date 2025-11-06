@@ -1,3 +1,6 @@
+Version 1.0.13
+EXUI-3701 PR Bot bug fixes
+
 Version 1.0.12
 EXUI-3524 Getting feedback for further enhancements to PR Bot
 
