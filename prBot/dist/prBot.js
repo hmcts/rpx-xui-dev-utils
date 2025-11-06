@@ -647,6 +647,7 @@ async function run() {
       console.error(`Error processing status event:`, error.message);
       process.exit(1);
     }
+    return;
   }
 
   if (!event.prNumber) {
