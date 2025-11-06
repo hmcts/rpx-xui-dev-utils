@@ -49,32 +49,41 @@ function sleep(ms) {
   return new Promise(resolve => setTimeout(resolve, ms));
 }
 
+let cachedEventData = null;
+
 function loadEventData() {
+  if (cachedEventData) {
+    return cachedEventData;
+  }
+
   try {
     const data = JSON.parse(fs.readFileSync(ENV.githubEventPath, 'utf8'));
 
     if (data.context === 'continuous-integration/jenkins/pr-head') {
-      return {
+      cachedEventData = {
         eventType: 'status',
         state: data.state,
         sha: data.sha,
         branches: data.branches,
         repo: data.repository?.full_name,
       };
+    } else {
+      cachedEventData = {
+        action: data.action,
+        eventType: 'pull_request',
+        prNumber: data.pull_request?.number,
+        prAuthor: data.pull_request?.user?.login,
+        prTitle: data.pull_request?.title,
+        repo: data.repository?.full_name,
+        reviewState: data.review?.state || '',
+        label: data.label?.name,
+        labels: data.pull_request?.labels,
+        headSha: data.pull_request?.head?.sha
+      };
     }
 
-    return {
-      action: data.action,
-      eventType: 'pull_request',
-      prNumber: data.pull_request?.number,
-      prAuthor: data.pull_request?.user?.login,
-      prTitle: data.pull_request?.title,
-      repo: data.repository?.full_name,
-      reviewState: data.review?.state || '',
-      label: data.label?.name,
-      labels: data.pull_request?.labels,
-      headSha: data.pull_request?.head?.sha
-    };
+    return cachedEventData;
+
   } catch (error) {
     console.error('Failed to parse GitHub event:', error.message);
     process.exit(1);
