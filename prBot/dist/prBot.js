@@ -98,9 +98,19 @@ async function httpRequest(hostname, path, method = 'GET', headers = {}, body = 
       let data = '';
       res.on('data', chunk => data += chunk);
       res.on('end', () => {
-        const result = data ? JSON.parse(data || '{}') : {};
-        result._linkHeader = res.headers.link;
-        resolve(result);
+        try {
+          const result = data ? JSON.parse(data || '{}') : {};
+          result._linkHeader = res.headers.link;
+
+          if (res.statusCode >= 400) {
+            const errorMsg = result.message || result.error || 'HTTP error';
+            reject(new Error(`HTTP ${res.statusCode}: ${errorMsg}`));
+          } else {
+            resolve(result);
+          }
+        } catch (error) {
+          reject(new Error(`Failed to parse response JSON: ${error.message}`));
+        }
       });
     });
     
