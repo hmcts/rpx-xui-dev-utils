@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1762443259.193389",
-    "lastUpdated": "2025-11-06T15:34:08.996Z"
+    "lastUpdated": "2025-11-06T15:49:13.424Z"
   },
   "repositories": {
     "hmcts/em-media-viewer": {
@@ -149,6 +149,22 @@
           "headSha": "ccc1c3d197cd77d59523daa58e13313382831a36",
           "createdAt": "2025-11-06T13:26:42.329Z",
           "lastUpdated": "2025-11-06T13:26:42.684Z"
+        }
+      }
+    },
+    "hmcts/rpx-xui-approve-org": {
+      "pullRequests": {
+        "949": {
+          "number": 949,
+          "title": "EXUI-3660 - Passport release",
+          "author": "Josh-HMCTS",
+          "url": "https://github.com/hmcts/rpx-xui-approve-org/pull/949",
+          "changesRequested": false,
+          "approvals": 0,
+          "buildSuccess": false,
+          "headSha": "facc3ac36d56262593adb11a3a1e6aa4f6b03128",
+          "createdAt": "2025-11-06T15:49:13.277Z",
+          "lastUpdated": "2025-11-06T15:49:13.424Z"
         }
       }
     }
