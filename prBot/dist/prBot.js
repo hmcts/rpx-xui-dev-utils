@@ -2,6 +2,7 @@
 
 const https = require('https');
 const fs = require('fs');
+const crypto = require('crypto');
 
 const CONFIG = {
   SLACK_API_BASE: 'slack.com',
@@ -47,6 +48,10 @@ function validateEnvironment() {
 
 function sleep(ms) {
   return new Promise(resolve => setTimeout(resolve, ms));
+}
+
+function generateMessageHash(message) {
+  return crypto.createHash('sha256').update(message).digest('hex');
 }
 
 let cachedEventData = null;
@@ -398,11 +403,18 @@ async function repostApprovalList() {
     }
   });
 
+  const messageHash = message.length > 0 ? generateMessageHash(message) : null;
+
+  if (messageHash && state.metadata.approvalListMessageHash === messageHash) {
+    console.log('Message content unchanged, skipping repost');
+    return;
+  }
+
   // delete previous approval list message if it exists to maintain single message at head position
   if (state.metadata.approvalListMessageTs) {
     try {
       await slack.deleteMessage(ENV.slackChannelId, state.metadata.approvalListMessageTs);
-      await stateManager.updateMetadata({ approvalListMessageTs: null });
+      await stateManager.updateMetadata({ approvalListMessageTs: null, approvalListMessageHash: null });
     } catch (error) {
       // if message doesn't exist, we can ignore the error
     }
@@ -499,6 +511,13 @@ async function handlePRReview(event) {
   const { approvedCount, changesRequestedCount } = await github.getReviews(repo, prNumber);
 
   if ((approvedCount >= ENV.requiredApprovals) && changesRequestedCount === 0) {
+    // check if PR still exists in state - if not, approval was already processed
+    const { state } = await stateManager.readState();
+    if (!state.repositories[repo]?.pullRequests[prNumber]) {
+      console.log(`PR #${prNumber} already processed for approval, skipping message`);
+      return;
+    }
+    
     // post standalone approval message regardless of build status
     const message = formatPRMessage(prNumber, prAuthor, prTitle, repo, approvedCount, '✅✅ ');
     await slack.postMessage(ENV.slackChannelId, message);
