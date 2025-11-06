@@ -350,7 +350,8 @@ const stateManager = {
 }
 
 async function repostApprovalList() {
-  await sleep(3000);
+  // wait 3-5 seconds for state propogation, random delay to prevent concurrent bot instances from posting simultaneously
+  await sleep(3000 + Math.floor(Math.random() * 2000));
 
   const { state } = await stateManager.readState();
   const needsApproval = [];
