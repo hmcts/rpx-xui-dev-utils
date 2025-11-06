@@ -140,7 +140,7 @@ The bot requires the following configuration variables:
 You should store configuration variables as a stringified JSON object in the repository variables:
 
 ```json
-{"REQUIRED_APPROVALS":2,"TITLE_MAX_LENGTH":60,"DATA_REPO_OWNER":"owner","DATA_REPO_NAME":"name","DATA_STATE_FILE_PATH":"path/to/file.json","SLACK_CHANNEL":"channel","SLACK_CHANNEL_ID":"id"}
+{"REQUIRED_APPROVALS":2,"TITLE_MAX_LENGTH":60,"DATA_REPO_OWNER":"owner","DATA_REPO_NAME":"name","DATA_STATE_FILE_PATH":"path/to/file.json","SLACK_CHANNEL":"channel","SLACK_CHANNEL_ID":"id", "SKIP_CI_CHECK":"true"}
 ```
 
 ## License
