@@ -494,7 +494,7 @@ async function handlePRReview(event) {
 }
 
 async function handlePRChangesRequested(event) {
-  const { prNumber, prAuthor, repo, prTitle, reviewState } = event;
+  const { prNumber, prAuthor, repo, prTitle, reviewState, labels } = event;
 
   if (reviewState !== 'changes_requested') {
     return;
