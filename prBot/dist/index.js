@@ -3,6 +3,7 @@ const prBot = require('./prBot');
 module.exports = {
     validateEnvironment: prBot.validateEnvironment,
     sleep: prBot.sleep,
+    generateMessageHash: prBot.generateMessageHash,
     loadEventData: prBot.loadEventData,
     httpRequest: prBot.httpRequest,
     github: prBot.github,
