@@ -108,22 +108,6 @@
         }
       }
     },
-    "hmcts/ccd-case-ui-toolkit": {
-      "pullRequests": {
-        "2031": {
-          "number": 2031,
-          "title": "EXUI-2451 - Add additional markdown validation",
-          "author": "connorpgpmcelroy",
-          "url": "https://github.com/hmcts/ccd-case-ui-toolkit/pull/2031",
-          "changesRequested": false,
-          "approvals": 0,
-          "buildSuccess": true,
-          "headSha": "b48132713f60edde358232d7dcc65b5db5d00c4f",
-          "createdAt": "2025-11-04T15:26:29.789Z",
-          "lastUpdated": "2025-11-04T15:26:29.948Z"
-        }
-      }
-    },
     "hmcts/rpx-xui-manage-organisations": {
       "pullRequests": {
         "1429": {
