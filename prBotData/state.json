@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1762528131.624459",
-    "lastUpdated": "2025-11-07T15:08:40.716Z",
+    "lastUpdated": "2025-11-07T15:11:08.179Z",
     "approvalListMessageHash": "0a22e228ae0e59fbedfe3c03fd9e6e5cefe2b2b10e4f5983eae19b2d8232fe8b"
   },
   "repositories": {
@@ -136,12 +136,12 @@
           "title": "Test pr - DO NOT MERGE",
           "author": "chrisjones-hmcts",
           "url": "https://github.com/hmcts/rpx-xui-common-lib/pull/519",
-          "changesRequested": true,
-          "approvals": 0,
+          "changesRequested": false,
+          "approvals": 1,
           "buildSuccess": true,
           "headSha": "ce865314719427c91a364501b8aa0aa8481d53a8",
-          "createdAt": "2025-11-07T15:08:40.585Z",
-          "lastUpdated": "2025-11-07T15:08:40.716Z"
+          "createdAt": "2025-11-07T15:11:07.996Z",
+          "lastUpdated": "2025-11-07T15:11:08.179Z"
         }
       }
     },
