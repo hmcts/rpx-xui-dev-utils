@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1762528410.038919",
-    "lastUpdated": "2025-11-07T15:13:19.901Z",
+    "lastUpdated": "2025-11-07T15:14:06.140Z",
     "approvalListMessageHash": "1d6fe6106154dadbd65fc130a930dd05ee370a3855774a146cf44ff07b779e86"
   },
   "repositories": {
@@ -142,22 +142,6 @@
           "headSha": "fd69b5c19437cd312619d68a1e0891d98e03e74c",
           "createdAt": "2025-11-07T14:36:01.527Z",
           "lastUpdated": "2025-11-07T14:36:01.627Z"
-        }
-      }
-    },
-    "hmcts/rpx-xui-common-lib": {
-      "pullRequests": {
-        "519": {
-          "number": 519,
-          "title": "Test pr - DO NOT MERGE",
-          "author": "chrisjones-hmcts",
-          "url": "https://github.com/hmcts/rpx-xui-common-lib/pull/519",
-          "changesRequested": false,
-          "approvals": 1,
-          "buildSuccess": true,
-          "headSha": "ce865314719427c91a364501b8aa0aa8481d53a8",
-          "createdAt": "2025-11-07T15:13:19.793Z",
-          "lastUpdated": "2025-11-07T15:13:19.901Z"
         }
       }
     }
