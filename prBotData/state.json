@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1762507596.863749",
-    "lastUpdated": "2025-11-06T17:01:36.374Z"
+    "lastUpdated": "2025-11-07T09:48:16.130Z"
   },
   "repositories": {
     "hmcts/em-media-viewer": {
@@ -137,6 +137,22 @@
           "headSha": "facc3ac36d56262593adb11a3a1e6aa4f6b03128",
           "createdAt": "2025-11-06T15:49:13.277Z",
           "lastUpdated": "2025-11-06T15:49:13.424Z"
+        }
+      }
+    },
+    "hmcts/rpx-xui-translation": {
+      "pullRequests": {
+        "53": {
+          "number": 53,
+          "title": "fix: welsh translation fix",
+          "author": "olusegz07",
+          "url": "https://github.com/hmcts/rpx-xui-translation/pull/53",
+          "changesRequested": false,
+          "approvals": 0,
+          "buildSuccess": true,
+          "headSha": "d2b08151bcc4dcd94861d8ccff24f9383e82b4e1",
+          "createdAt": "2025-11-07T09:48:15.934Z",
+          "lastUpdated": "2025-11-07T09:48:16.130Z"
         }
       }
     }
