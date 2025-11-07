@@ -422,7 +422,7 @@ async function repostApprovalList() {
 
   if (message.length > 0) {  
     const ts = await slack.postMessage(ENV.slackChannelId, message);
-    await stateManager.updateMetadata({ approvalListMessageTs: ts });
+    await stateManager.updateMetadata({ approvalListMessageTs: ts, approvalListMessageHash: messageHash });
   }
 }
 
