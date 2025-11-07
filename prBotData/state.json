@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1762514497.939309",
-    "lastUpdated": "2025-11-07T11:21:28.985Z",
+    "lastUpdated": "2025-11-07T12:13:09.837Z",
     "approvalListMessageHash": "5c99a0b65f4509239c0c10ed270e073b118e6fdb2ae566eb91db9fa1df7d9c54"
   },
   "repositories": {
@@ -30,18 +30,6 @@
           "headSha": "4b3146a168d5a5a3680638e7d56257301b2cf56a",
           "createdAt": "2025-10-31T15:00:39.724Z",
           "lastUpdated": "2025-10-31T15:38:04.502Z"
-        },
-        "1235": {
-          "number": 1235,
-          "title": "EXUI-1580 highlight text via keyboard",
-          "author": "chrisjones-hmcts",
-          "url": "https://github.com/hmcts/em-media-viewer/pull/1235",
-          "changesRequested": false,
-          "approvals": 0,
-          "buildSuccess": true,
-          "headSha": "ccc68ff8cc735cb47f259b9f92ca905b81201d35",
-          "createdAt": "2025-11-06T10:47:59.183Z",
-          "lastUpdated": "2025-11-06T10:47:59.288Z"
         }
       }
     },
