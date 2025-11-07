@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1762508905.899329",
-    "lastUpdated": "2025-11-07T09:48:16.130Z"
+    "lastUpdated": "2025-11-07T09:55:32.877Z"
   },
   "repositories": {
     "hmcts/em-media-viewer": {
@@ -69,18 +69,6 @@
           "headSha": "1ab9471455f0256215674dc49c719328ba22d3d0",
           "createdAt": "2025-10-30T12:10:59.524Z",
           "lastUpdated": "2025-10-30T12:10:59.625Z"
-        },
-        "4709": {
-          "number": 4709,
-          "title": "Feat/exui 3365/status filter",
-          "author": "gregs-cgi",
-          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/4709",
-          "changesRequested": false,
-          "approvals": 1,
-          "buildSuccess": true,
-          "headSha": "f01b1c7b3978a0f36ec142dfddbb79b4528d08a9",
-          "createdAt": "2025-11-06T17:01:36.240Z",
-          "lastUpdated": "2025-11-06T17:01:36.374Z"
         },
         "4713": {
           "number": 4713,
