@@ -2,6 +2,7 @@
 
 const https = require('https');
 const fs = require('fs');
+const crypto = require('crypto');
 
 const CONFIG = {
   SLACK_API_BASE: 'slack.com',
@@ -49,32 +50,45 @@ function sleep(ms) {
   return new Promise(resolve => setTimeout(resolve, ms));
 }
 
+function generateMessageHash(message) {
+  return crypto.createHash('sha256').update(message).digest('hex');
+}
+
+let cachedEventData = null;
+
 function loadEventData() {
+  if (cachedEventData) {
+    return cachedEventData;
+  }
+
   try {
     const data = JSON.parse(fs.readFileSync(ENV.githubEventPath, 'utf8'));
 
     if (data.context === 'continuous-integration/jenkins/pr-head') {
-      return {
+      cachedEventData = {
         eventType: 'status',
         state: data.state,
         sha: data.sha,
         branches: data.branches,
         repo: data.repository?.full_name,
       };
+    } else {
+      cachedEventData = {
+        action: data.action,
+        eventType: 'pull_request',
+        prNumber: data.pull_request?.number,
+        prAuthor: data.pull_request?.user?.login,
+        prTitle: data.pull_request?.title,
+        repo: data.repository?.full_name,
+        reviewState: data.review?.state || '',
+        label: data.label?.name,
+        labels: data.pull_request?.labels,
+        headSha: data.pull_request?.head?.sha
+      };
     }
 
-    return {
-      action: data.action,
-      eventType: 'pull_request',
-      prNumber: data.pull_request?.number,
-      prAuthor: data.pull_request?.user?.login,
-      prTitle: data.pull_request?.title,
-      repo: data.repository?.full_name,
-      reviewState: data.review?.state || '',
-      label: data.label?.name,
-      labels: data.pull_request?.labels,
-      headSha: data.pull_request?.head?.sha
-    };
+    return cachedEventData;
+
   } catch (error) {
     console.error('Failed to parse GitHub event:', error.message);
     process.exit(1);
@@ -89,9 +103,19 @@ async function httpRequest(hostname, path, method = 'GET', headers = {}, body = 
       let data = '';
       res.on('data', chunk => data += chunk);
       res.on('end', () => {
-        const result = data ? JSON.parse(data || '{}') : {};
-        result._linkHeader = res.headers.link;
-        resolve(result);
+        try {
+          const result = data ? JSON.parse(data || '{}') : {};
+          result._linkHeader = res.headers.link;
+
+          if (res.statusCode >= 400) {
+            const errorMsg = result.message || result.error || 'HTTP error';
+            reject(new Error(`HTTP ${res.statusCode}: ${errorMsg}`));
+          } else {
+            resolve(result);
+          }
+        } catch (error) {
+          reject(new Error(`Failed to parse response JSON: ${error.message}`));
+        }
       });
     });
     
@@ -350,7 +374,8 @@ const stateManager = {
 }
 
 async function repostApprovalList() {
-  await sleep(3000);
+  // wait 3-5 seconds for state propagation, random delay to prevent concurrent bot instances from posting simultaneously
+  await sleep(3000 + Math.floor(Math.random() * 2000));
 
   const { state } = await stateManager.readState();
   const needsApproval = [];
@@ -378,11 +403,18 @@ async function repostApprovalList() {
     }
   });
 
+  const messageHash = message.length > 0 ? generateMessageHash(message) : null;
+
+  if (messageHash && state.metadata.approvalListMessageHash === messageHash) {
+    console.log('Message content unchanged, skipping repost');
+    return;
+  }
+
   // delete previous approval list message if it exists to maintain single message at head position
   if (state.metadata.approvalListMessageTs) {
     try {
       await slack.deleteMessage(ENV.slackChannelId, state.metadata.approvalListMessageTs);
-      await stateManager.updateMetadata({ approvalListMessageTs: null });
+      await stateManager.updateMetadata({ approvalListMessageTs: null, approvalListMessageHash: null });
     } catch (error) {
       // if message doesn't exist, we can ignore the error
     }
@@ -390,7 +422,7 @@ async function repostApprovalList() {
 
   if (message.length > 0) {  
     const ts = await slack.postMessage(ENV.slackChannelId, message);
-    await stateManager.updateMetadata({ approvalListMessageTs: ts });
+    await stateManager.updateMetadata({ approvalListMessageTs: ts, approvalListMessageHash: messageHash });
   }
 }
 
@@ -479,6 +511,13 @@ async function handlePRReview(event) {
   const { approvedCount, changesRequestedCount } = await github.getReviews(repo, prNumber);
 
   if ((approvedCount >= ENV.requiredApprovals) && changesRequestedCount === 0) {
+    // check if PR still exists in state - if not, approval was already processed
+    const { state } = await stateManager.readState();
+    if (!state.repositories[repo]?.pullRequests[prNumber]) {
+      console.log(`PR #${prNumber} already processed for approval, skipping message`);
+      return;
+    }
+    
     // post standalone approval message regardless of build status
     const message = formatPRMessage(prNumber, prAuthor, prTitle, repo, approvedCount, '✅✅ ');
     await slack.postMessage(ENV.slackChannelId, message);
@@ -493,7 +532,7 @@ async function handlePRReview(event) {
 }
 
 async function handlePRChangesRequested(event) {
-  const { prNumber, prAuthor, repo, prTitle, reviewState } = event;
+  const { prNumber, prAuthor, repo, prTitle, reviewState, labels } = event;
 
   if (reviewState !== 'changes_requested') {
     return;
@@ -647,6 +686,7 @@ async function run() {
       console.error(`Error processing status event:`, error.message);
       process.exit(1);
     }
+    return;
   }
 
   if (!event.prNumber) {
