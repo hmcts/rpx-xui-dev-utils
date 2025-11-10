@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1762767891.921159",
-    "lastUpdated": "2025-11-10T09:44:41.324Z",
+    "lastUpdated": "2025-11-10T09:45:56.801Z",
     "approvalListMessageHash": "4c64d5f770d5c6d09fdd7cc324f98549344c8d625c00cb826f79fb9ace5f8da1"
   },
   "repositories": {
@@ -94,18 +94,6 @@
           "headSha": "2d61257c55c91e8f38a1939f96a5d04d4c514c4d",
           "createdAt": "2025-11-06T14:29:18.308Z",
           "lastUpdated": "2025-11-07T11:21:28.985Z"
-        },
-        "4723": {
-          "number": 4723,
-          "title": "toolkit update",
-          "author": "olusegz07",
-          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/4723",
-          "changesRequested": false,
-          "approvals": 1,
-          "buildSuccess": true,
-          "headSha": "5dcf6cb5a697b04110e6fb14a9a15b3e477d5b9c",
-          "createdAt": "2025-11-10T09:43:32.794Z",
-          "lastUpdated": "2025-11-10T09:43:32.907Z"
         },
         "4724": {
           "number": 4724,
