@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1762767407.519649",
-    "lastUpdated": "2025-11-10T09:36:36.709Z",
+    "lastUpdated": "2025-11-10T09:40:00.420Z",
     "approvalListMessageHash": "e68e6979d784952ae79a6580380df02978846e583605dc7cce25c93f3418a00c"
   },
   "repositories": {
@@ -118,6 +118,18 @@
           "headSha": "29d7eae58456cbc6ad4bd54e8962432a3abbd751",
           "createdAt": "2025-11-07T16:36:37.403Z",
           "lastUpdated": "2025-11-07T17:52:49.752Z"
+        },
+        "4725": {
+          "number": 4725,
+          "title": "exui-3703-cve",
+          "author": "RiteshHMCTS",
+          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/4725",
+          "changesRequested": false,
+          "approvals": 0,
+          "buildSuccess": false,
+          "headSha": "c10bd0f07bec874abbe05ed4d45a0d37383309b9",
+          "createdAt": "2025-11-10T09:40:00.255Z",
+          "lastUpdated": "2025-11-10T09:40:00.420Z"
         }
       }
     },
