@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1762785077.033729",
-    "lastUpdated": "2025-11-10T14:31:12.548Z",
+    "lastUpdated": "2025-11-10T15:49:14.116Z",
     "approvalListMessageHash": "0cbfceeecf893a66c55afc6f8e248281a6c5b4d6d746e20acadc5805754a6cb2"
   },
   "repositories": {
@@ -106,6 +106,18 @@
           "headSha": "29d7eae58456cbc6ad4bd54e8962432a3abbd751",
           "createdAt": "2025-11-10T11:22:00.765Z",
           "lastUpdated": "2025-11-10T11:22:00.965Z"
+        },
+        "4726": {
+          "number": 4726,
+          "title": "Test/ex UI 3606 update page objects",
+          "author": "danH-test",
+          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/4726",
+          "changesRequested": false,
+          "approvals": 0,
+          "buildSuccess": false,
+          "headSha": "1222883494b266d2cd4cac0f5149cb8f54edf5c8",
+          "createdAt": "2025-11-10T15:49:13.968Z",
+          "lastUpdated": "2025-11-10T15:49:14.116Z"
         }
       }
     },
