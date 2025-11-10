@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "approvalListMessageTs": null,
+    "approvalListMessageTs": "1762796778.518499",
     "lastUpdated": "2025-11-10T17:46:09.104Z",
-    "approvalListMessageHash": null
+    "approvalListMessageHash": "dc0a7d68476e6287fbcb087db1443d7797a0d683d12ece89a5e54948ef9449df"
   },
   "repositories": {
     "hmcts/em-media-viewer": {
