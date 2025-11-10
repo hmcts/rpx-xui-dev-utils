@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1762777274.975749",
-    "lastUpdated": "2025-11-10T14:31:07.074Z",
+    "lastUpdated": "2025-11-10T14:31:12.548Z",
     "approvalListMessageHash": "90bbe82254a076a9c1c13c87bc7cb30b8f7cf6fc5c4f71267ba580ce9cbf6cf1"
   },
   "repositories": {
@@ -138,6 +138,22 @@
           "headSha": "facc3ac36d56262593adb11a3a1e6aa4f6b03128",
           "createdAt": "2025-11-06T15:49:13.277Z",
           "lastUpdated": "2025-11-06T15:49:13.424Z"
+        }
+      }
+    },
+    "hmcts/ccd-case-ui-toolkit": {
+      "pullRequests": {
+        "2034": {
+          "number": 2034,
+          "title": "exui-3582-hidden fields filled data should be removed",
+          "author": "RiteshHMCTS",
+          "url": "https://github.com/hmcts/ccd-case-ui-toolkit/pull/2034",
+          "changesRequested": false,
+          "approvals": 1,
+          "buildSuccess": true,
+          "headSha": "23783608ff84e0a62a1842137cd01602f8b5f174",
+          "createdAt": "2025-11-10T14:31:12.151Z",
+          "lastUpdated": "2025-11-10T14:31:12.547Z"
         }
       }
     }
