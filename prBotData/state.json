@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1762767823.091239",
-    "lastUpdated": "2025-11-10T09:43:32.907Z",
+    "lastUpdated": "2025-11-10T09:44:41.324Z",
     "approvalListMessageHash": "9678fdd445062f89958c7a39f298b1f27a716feb087f8a8de5c1ff211060887d"
   },
   "repositories": {
@@ -162,22 +162,6 @@
           "headSha": "facc3ac36d56262593adb11a3a1e6aa4f6b03128",
           "createdAt": "2025-11-06T15:49:13.277Z",
           "lastUpdated": "2025-11-06T15:49:13.424Z"
-        }
-      }
-    },
-    "hmcts/ccd-case-ui-toolkit": {
-      "pullRequests": {
-        "2038": {
-          "number": 2038,
-          "title": "update all error message issue",
-          "author": "olusegz07",
-          "url": "https://github.com/hmcts/ccd-case-ui-toolkit/pull/2038",
-          "changesRequested": false,
-          "approvals": 1,
-          "buildSuccess": true,
-          "headSha": "1e9f1296206fa99c8de34f6f2d80254b6d4edaa9",
-          "createdAt": "2025-11-07T17:21:30.885Z",
-          "lastUpdated": "2025-11-07T17:21:30.979Z"
         }
       }
     }
