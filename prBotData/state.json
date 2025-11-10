@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1762795351.276519",
-    "lastUpdated": "2025-11-10T17:22:20.704Z",
+    "lastUpdated": "2025-11-10T17:23:17.025Z",
     "approvalListMessageHash": "e8d9e134e9f586c8fa1ea43217aa0ffb663dc1c3bb703be72bd69d081ce07db3"
   },
   "repositories": {
@@ -123,18 +123,6 @@
     },
     "hmcts/rpx-xui-manage-organisations": {
       "pullRequests": {
-        "1425": {
-          "number": 1425,
-          "title": "Exui 3576 vulnerability fix",
-          "author": "balajisridharanhmcts",
-          "url": "https://github.com/hmcts/rpx-xui-manage-organisations/pull/1425",
-          "changesRequested": false,
-          "approvals": 1,
-          "buildSuccess": true,
-          "headSha": "62d7da2a59ac2c20c612c42f94d21a0169d263f5",
-          "createdAt": "2025-11-10T17:21:46.831Z",
-          "lastUpdated": "2025-11-10T17:21:46.985Z"
-        },
         "1429": {
           "number": 1429,
           "title": "EXUI-3660 - Passport release",
