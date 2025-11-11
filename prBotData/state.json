@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1762850596.144869",
-    "lastUpdated": "2025-11-11T08:43:06.012Z",
+    "lastUpdated": "2025-11-11T08:47:43.821Z",
     "approvalListMessageHash": "368b8c860daf161c26ceca83cf147fccd9e1063798fb17c0090d205df16bb99a"
   },
   "repositories": {
@@ -82,18 +82,6 @@
           "headSha": "f596c3d900f537b95b642d36b7ecb34000331e57",
           "createdAt": "2025-11-10T09:26:53.278Z",
           "lastUpdated": "2025-11-10T09:26:53.424Z"
-        },
-        "4716": {
-          "number": 4716,
-          "title": "exui-3582-show/hide-control",
-          "author": "RiteshHMCTS",
-          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/4716",
-          "changesRequested": false,
-          "approvals": 1,
-          "buildSuccess": true,
-          "headSha": "454b69195447da10f155d29e350b902fb0a60551",
-          "createdAt": "2025-11-10T14:31:06.946Z",
-          "lastUpdated": "2025-11-10T14:31:07.074Z"
         },
         "4726": {
           "number": 4726,
