@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1762850873.719419",
-    "lastUpdated": "2025-11-11T08:47:43.821Z",
+    "lastUpdated": "2025-11-11T08:56:27.707Z",
     "approvalListMessageHash": "f947d60ac3357da255a12e5b55337717400f36296efe39f5fedf7116bdc88fc3"
   },
   "repositories": {
@@ -131,18 +131,6 @@
     },
     "hmcts/ccd-case-ui-toolkit": {
       "pullRequests": {
-        "2034": {
-          "number": 2034,
-          "title": "exui-3582-hidden fields filled data should be removed",
-          "author": "RiteshHMCTS",
-          "url": "https://github.com/hmcts/ccd-case-ui-toolkit/pull/2034",
-          "changesRequested": false,
-          "approvals": 1,
-          "buildSuccess": true,
-          "headSha": "23783608ff84e0a62a1842137cd01602f8b5f174",
-          "createdAt": "2025-11-10T14:31:12.151Z",
-          "lastUpdated": "2025-11-10T14:31:12.547Z"
-        },
         "2039": {
           "number": 2039,
           "title": "exui-3661-performance-issue",
