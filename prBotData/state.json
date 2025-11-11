@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1762855177.246709",
-    "lastUpdated": "2025-11-11T10:26:51.276Z",
+    "lastUpdated": "2025-11-11T10:28:40.517Z",
     "approvalListMessageHash": "63493b8070f2e480890926babe1b31692569a76ca86b08848a8dee24d32ebe15"
   },
   "repositories": {
@@ -94,18 +94,6 @@
           "headSha": "991b2260507631d839b93ced1582a6972144a4eb",
           "createdAt": "2025-11-10T15:49:13.968Z",
           "lastUpdated": "2025-11-10T17:46:09.104Z"
-        },
-        "4728": {
-          "number": 4728,
-          "title": "Update Jenkinsfile_nightly to run at 5.30pm",
-          "author": "danH-test",
-          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/4728",
-          "changesRequested": false,
-          "approvals": 0,
-          "buildSuccess": false,
-          "headSha": "b6d27631bd1cd4691eaa79c21ce7ea2a35b8273c",
-          "createdAt": "2025-11-11T10:26:51.113Z",
-          "lastUpdated": "2025-11-11T10:26:51.276Z"
         }
       }
     },
