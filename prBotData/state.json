@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1762881258.160459",
-    "lastUpdated": "2025-11-11T23:20:30.538Z",
+    "lastUpdated": "2025-11-11T23:21:35.013Z",
     "approvalListMessageHash": "13b8b97360081876c4354bb7c07cf5721956b8d09b2990a488ea2d5f67275198"
   },
   "repositories": {
@@ -134,22 +134,6 @@
           "headSha": "debda6cb560fd7001484e3b4679262b5aab8df2c",
           "createdAt": "2025-11-11T21:31:54.300Z",
           "lastUpdated": "2025-11-11T21:31:54.508Z"
-        }
-      }
-    },
-    "hmcts/rpx-xui-approve-org": {
-      "pullRequests": {
-        "951": {
-          "number": 951,
-          "title": "Revert \"EXUI-3660 - Passport release - AO\"",
-          "author": "Josh-HMCTS",
-          "url": "https://github.com/hmcts/rpx-xui-approve-org/pull/951",
-          "changesRequested": false,
-          "approvals": 0,
-          "buildSuccess": false,
-          "headSha": "d5b4a15627d05c79201c923cd9d5d74eb9ff0041",
-          "createdAt": "2025-11-11T23:17:29.599Z",
-          "lastUpdated": "2025-11-11T23:17:29.808Z"
         }
       }
     }
