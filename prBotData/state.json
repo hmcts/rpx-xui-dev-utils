@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1762881258.160459",
-    "lastUpdated": "2025-11-11T21:31:54.508Z",
+    "lastUpdated": "2025-11-11T21:32:07.949Z",
     "approvalListMessageHash": "13b8b97360081876c4354bb7c07cf5721956b8d09b2990a488ea2d5f67275198"
   },
   "repositories": {
@@ -118,18 +118,6 @@
           "headSha": "e1037fc7aed2f7a70986a16082fa139a173bbc61",
           "createdAt": "2025-11-11T14:25:03.536Z",
           "lastUpdated": "2025-11-11T15:11:52.154Z"
-        },
-        "4732": {
-          "number": 4732,
-          "title": "Revert common pipeline change",
-          "author": "danlysiak",
-          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/4732",
-          "changesRequested": false,
-          "approvals": 1,
-          "buildSuccess": false,
-          "headSha": "e252a0df13f3cec0711bbc2ff9ec4f8b5f0515f2",
-          "createdAt": "2025-11-11T21:30:55.958Z",
-          "lastUpdated": "2025-11-11T21:30:56.156Z"
         }
       }
     },
