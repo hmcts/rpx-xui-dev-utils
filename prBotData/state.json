@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1762881258.160459",
-    "lastUpdated": "2025-11-11T21:30:56.156Z",
+    "lastUpdated": "2025-11-11T21:31:54.508Z",
     "approvalListMessageHash": "13b8b97360081876c4354bb7c07cf5721956b8d09b2990a488ea2d5f67275198"
   },
   "repositories": {
@@ -130,6 +130,22 @@
           "headSha": "e252a0df13f3cec0711bbc2ff9ec4f8b5f0515f2",
           "createdAt": "2025-11-11T21:30:55.958Z",
           "lastUpdated": "2025-11-11T21:30:56.156Z"
+        }
+      }
+    },
+    "hmcts/rpx-xui-manage-organisations": {
+      "pullRequests": {
+        "1432": {
+          "number": 1432,
+          "title": "Revert common pipeline change",
+          "author": "danlysiak",
+          "url": "https://github.com/hmcts/rpx-xui-manage-organisations/pull/1432",
+          "changesRequested": false,
+          "approvals": 2,
+          "buildSuccess": false,
+          "headSha": "debda6cb560fd7001484e3b4679262b5aab8df2c",
+          "createdAt": "2025-11-11T21:31:54.300Z",
+          "lastUpdated": "2025-11-11T21:31:54.508Z"
         }
       }
     }
