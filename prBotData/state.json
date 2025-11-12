@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1762961963.580979",
-    "lastUpdated": "2025-11-12T15:39:13.129Z",
+    "lastUpdated": "2025-11-12T15:43:59.122Z",
     "approvalListMessageHash": "c912e26f687290be6d5f53257d98b9a193189e3f9c5bd62e0f391e910f233c3a"
   },
   "repositories": {
@@ -122,6 +122,22 @@
           "headSha": "debda6cb560fd7001484e3b4679262b5aab8df2c",
           "createdAt": "2025-11-11T21:31:54.300Z",
           "lastUpdated": "2025-11-11T21:31:54.508Z"
+        }
+      }
+    },
+    "hmcts/em-showcase": {
+      "pullRequests": {
+        "739": {
+          "number": 739,
+          "title": "EXUI-3713 - Update audit.json",
+          "author": "connorpgpmcelroy",
+          "url": "https://github.com/hmcts/em-showcase/pull/739",
+          "changesRequested": false,
+          "approvals": 0,
+          "buildSuccess": false,
+          "headSha": "ae85c0142fec94cb12d08f8f8ac7902396c16a26",
+          "createdAt": "2025-11-12T15:43:58.959Z",
+          "lastUpdated": "2025-11-12T15:43:59.122Z"
         }
       }
     }
