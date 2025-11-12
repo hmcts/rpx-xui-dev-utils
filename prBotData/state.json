@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1762961963.580979",
-    "lastUpdated": "2025-11-12T15:43:59.122Z",
+    "lastUpdated": "2025-11-12T15:55:02.897Z",
     "approvalListMessageHash": "c912e26f687290be6d5f53257d98b9a193189e3f9c5bd62e0f391e910f233c3a"
   },
   "repositories": {
@@ -82,18 +82,6 @@
           "headSha": "f596c3d900f537b95b642d36b7ecb34000331e57",
           "createdAt": "2025-11-10T09:26:53.278Z",
           "lastUpdated": "2025-11-10T09:26:53.424Z"
-        },
-        "4726": {
-          "number": 4726,
-          "title": "EXUI-3606 - Update test structure with new page object model and example test",
-          "author": "danH-test",
-          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/4726",
-          "changesRequested": false,
-          "approvals": 1,
-          "buildSuccess": true,
-          "headSha": "4ecd1d19be81ed658e54a00a48f3343f5533a34d",
-          "createdAt": "2025-11-11T16:00:54.573Z",
-          "lastUpdated": "2025-11-11T16:00:54.802Z"
         },
         "4729": {
           "number": 4729,
