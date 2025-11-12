@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1762954042.793369",
-    "lastUpdated": "2025-11-12T13:27:13.015Z",
+    "lastUpdated": "2025-11-12T14:05:06.179Z",
     "approvalListMessageHash": "624a569f8b3d6356a8d52c241e2bab6bcd8dc91ac8a7219806454801083709e9"
   },
   "repositories": {
@@ -129,15 +129,15 @@
       "pullRequests": {
         "289": {
           "number": 289,
-          "title": "add additional logging to login",
+          "title": "chore: add additional logging to login",
           "author": "Josh-HMCTS",
           "url": "https://github.com/hmcts/rpx-xui-node-lib/pull/289",
           "changesRequested": false,
-          "approvals": 0,
+          "approvals": 1,
           "buildSuccess": true,
-          "headSha": "f63c2e21ebafcc008ce9d75cbc91651dbe1217f3",
-          "createdAt": "2025-11-12T11:33:32.781Z",
-          "lastUpdated": "2025-11-12T11:33:32.925Z"
+          "headSha": "5a44c517152b9d999939c46b4f12964343a7c036",
+          "createdAt": "2025-11-12T14:05:06.063Z",
+          "lastUpdated": "2025-11-12T14:05:06.179Z"
         }
       }
     }
