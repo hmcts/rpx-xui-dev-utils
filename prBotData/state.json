@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1762962913.733009",
-    "lastUpdated": "2025-11-12T15:55:02.897Z",
+    "lastUpdated": "2025-11-12T17:15:22.819Z",
     "approvalListMessageHash": "d7d8c5a75551d46318f05686bf9b9ccf3c5e6ddb523aea180f1b068bf8a45bd5"
   },
   "repositories": {
@@ -126,6 +126,22 @@
           "headSha": "ae85c0142fec94cb12d08f8f8ac7902396c16a26",
           "createdAt": "2025-11-12T15:43:58.959Z",
           "lastUpdated": "2025-11-12T15:43:59.122Z"
+        }
+      }
+    },
+    "hmcts/ccd-case-ui-toolkit": {
+      "pullRequests": {
+        "2039": {
+          "number": 2039,
+          "title": "exui-3661-performance-issue",
+          "author": "RiteshHMCTS",
+          "url": "https://github.com/hmcts/ccd-case-ui-toolkit/pull/2039",
+          "changesRequested": false,
+          "approvals": 1,
+          "buildSuccess": true,
+          "headSha": "be7ddda48a68b155833d1b8f73bd858308ca9f70",
+          "createdAt": "2025-11-12T17:15:22.555Z",
+          "lastUpdated": "2025-11-12T17:15:22.819Z"
         }
       }
     }
