@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1762952799.077629",
-    "lastUpdated": "2025-11-12T13:06:27.741Z",
+    "lastUpdated": "2025-11-12T13:23:08.326Z",
     "approvalListMessageHash": "59081595d20e25b0dd361e1fded31edb58c191a7173cdc60a8311d9600fe580a"
   },
   "repositories": {
@@ -149,11 +149,11 @@
           "author": "connorpgpmcelroy",
           "url": "https://github.com/hmcts/em-showcase/pull/738",
           "changesRequested": false,
-          "approvals": 0,
+          "approvals": 1,
           "buildSuccess": true,
           "headSha": "3cc6ebb37249cd0709e2498f78e777e3d42c8f6e",
-          "createdAt": "2025-11-12T13:06:27.545Z",
-          "lastUpdated": "2025-11-12T13:06:27.741Z"
+          "createdAt": "2025-11-12T13:23:08.202Z",
+          "lastUpdated": "2025-11-12T13:23:08.326Z"
         }
       }
     }
