@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1762947222.415439",
-    "lastUpdated": "2025-11-12T11:33:32.925Z",
+    "lastUpdated": "2025-11-12T11:59:41.105Z",
     "approvalListMessageHash": "624a569f8b3d6356a8d52c241e2bab6bcd8dc91ac8a7219806454801083709e9"
   },
   "repositories": {
@@ -138,6 +138,22 @@
           "headSha": "f63c2e21ebafcc008ce9d75cbc91651dbe1217f3",
           "createdAt": "2025-11-12T11:33:32.781Z",
           "lastUpdated": "2025-11-12T11:33:32.925Z"
+        }
+      }
+    },
+    "hmcts/em-showcase": {
+      "pullRequests": {
+        "738": {
+          "number": 738,
+          "title": "EXUI-3707 - Replace pdf file to try to fix functional test issues",
+          "author": "connorpgpmcelroy",
+          "url": "https://github.com/hmcts/em-showcase/pull/738",
+          "changesRequested": false,
+          "approvals": 0,
+          "buildSuccess": false,
+          "headSha": "3cc6ebb37249cd0709e2498f78e777e3d42c8f6e",
+          "createdAt": "2025-11-12T11:59:41.012Z",
+          "lastUpdated": "2025-11-12T11:59:41.105Z"
         }
       }
     }
