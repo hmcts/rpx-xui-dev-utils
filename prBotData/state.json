@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1763041412.811909",
-    "lastUpdated": "2025-11-13T14:14:55.313Z",
+    "lastUpdated": "2025-11-13T14:20:15.617Z",
     "approvalListMessageHash": "009da0ce940bc29a1338befc689ee6de00629a8e4e87a931128e740d550fd274"
   },
   "repositories": {
@@ -94,18 +94,6 @@
           "headSha": "f596c3d900f537b95b642d36b7ecb34000331e57",
           "createdAt": "2025-11-10T09:26:53.278Z",
           "lastUpdated": "2025-11-10T09:26:53.424Z"
-        },
-        "4736": {
-          "number": 4736,
-          "title": "Revert \"Exui 3576 vulnerability fix\"",
-          "author": "RiteshHMCTS",
-          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/4736",
-          "changesRequested": false,
-          "approvals": 1,
-          "buildSuccess": false,
-          "headSha": "08feb15975716f912fbb24bee0edc4769d47de84",
-          "createdAt": "2025-11-13T14:14:55.115Z",
-          "lastUpdated": "2025-11-13T14:14:55.313Z"
         }
       }
     },
