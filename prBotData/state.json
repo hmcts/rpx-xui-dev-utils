@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1763028682.990719",
-    "lastUpdated": "2025-11-13T10:19:55.951Z",
+    "lastUpdated": "2025-11-13T10:22:18.787Z",
     "approvalListMessageHash": "349e1518a794ef8beca205033fdf10eb9dba69b22d0d765b7cbe991f00e45012"
   },
   "repositories": {
@@ -130,6 +130,22 @@
           "headSha": "75a824b76a76b6b07f5bc17e062bd6e45816b27e",
           "createdAt": "2025-11-13T10:19:55.827Z",
           "lastUpdated": "2025-11-13T10:19:55.951Z"
+        }
+      }
+    },
+    "hmcts/rpx-xui-translation": {
+      "pullRequests": {
+        "55": {
+          "number": 55,
+          "title": "chore(deps): update dependency @types/node to v20.19.25",
+          "author": "renovate[bot]",
+          "url": "https://github.com/hmcts/rpx-xui-translation/pull/55",
+          "changesRequested": false,
+          "approvals": 0,
+          "buildSuccess": true,
+          "headSha": "9e7167bb0e2e3c6c5cffdaa48af6cb43589bf749",
+          "createdAt": "2025-11-13T10:22:18.587Z",
+          "lastUpdated": "2025-11-13T10:22:18.787Z"
         }
       }
     }
