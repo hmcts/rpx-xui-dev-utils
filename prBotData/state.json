@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1763036954.029799",
-    "lastUpdated": "2025-11-13T12:29:04.703Z",
+    "lastUpdated": "2025-11-13T13:43:22.797Z",
     "approvalListMessageHash": "cd362eb0fc681cf9d012507ec82c3111cb90c5fe4f61588139cc0ce2215b4eab"
   },
   "repositories": {
@@ -42,6 +42,18 @@
           "headSha": "ccc68ff8cc735cb47f259b9f92ca905b81201d35",
           "createdAt": "2025-11-10T09:36:36.619Z",
           "lastUpdated": "2025-11-10T09:36:36.709Z"
+        },
+        "1239": {
+          "number": 1239,
+          "title": "EXUI-3053 - improve keyboard movement",
+          "author": "chrisjones-hmcts",
+          "url": "https://github.com/hmcts/em-media-viewer/pull/1239",
+          "changesRequested": false,
+          "approvals": 0,
+          "buildSuccess": true,
+          "headSha": "3c7f7872f9339e31dde34b1994851bbf5d71b53d",
+          "createdAt": "2025-11-13T13:43:22.676Z",
+          "lastUpdated": "2025-11-13T13:43:22.797Z"
         }
       }
     },
