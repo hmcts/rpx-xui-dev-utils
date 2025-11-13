@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1763027317.947019",
-    "lastUpdated": "2025-11-13T09:48:28.424Z",
+    "lastUpdated": "2025-11-13T10:11:12.279Z",
     "approvalListMessageHash": "e0e50061020160e2af2a641b85a3ba475de64f24efc3cd352fcebcde0b38df79"
   },
   "repositories": {
@@ -82,18 +82,6 @@
           "headSha": "f596c3d900f537b95b642d36b7ecb34000331e57",
           "createdAt": "2025-11-10T09:26:53.278Z",
           "lastUpdated": "2025-11-10T09:26:53.424Z"
-        },
-        "4729": {
-          "number": 4729,
-          "title": "Moving amend label, to appear next to the subsection header",
-          "author": "anthonydummer",
-          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/4729",
-          "changesRequested": false,
-          "approvals": 1,
-          "buildSuccess": true,
-          "headSha": "f9cb7955fa64f32afc156819e2639b6346529d0f",
-          "createdAt": "2025-11-12T09:48:46.580Z",
-          "lastUpdated": "2025-11-12T09:48:46.751Z"
         }
       }
     },
