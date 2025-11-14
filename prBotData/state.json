@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1763135046.739089",
-    "lastUpdated": "2025-11-14T15:43:55.252Z",
+    "lastUpdated": "2025-11-14T17:00:35.856Z",
     "approvalListMessageHash": "cc79d3270166c4c3bfc08f07470dade9fc3050eb687bcc333bbf75e86e6674ed"
   },
   "repositories": {
@@ -198,6 +198,22 @@
           "headSha": "75a824b76a76b6b07f5bc17e062bd6e45816b27e",
           "createdAt": "2025-11-13T10:19:55.827Z",
           "lastUpdated": "2025-11-13T10:19:55.951Z"
+        }
+      }
+    },
+    "hmcts/ccd-case-ui-toolkit": {
+      "pullRequests": {
+        "2041": {
+          "number": 2041,
+          "title": "exui-3545-add logs",
+          "author": "RiteshHMCTS",
+          "url": "https://github.com/hmcts/ccd-case-ui-toolkit/pull/2041",
+          "changesRequested": false,
+          "approvals": 0,
+          "buildSuccess": true,
+          "headSha": "f4205db3918859e62c405f73dbd6532388de228d",
+          "createdAt": "2025-11-14T17:00:35.743Z",
+          "lastUpdated": "2025-11-14T17:00:35.856Z"
         }
       }
     }
