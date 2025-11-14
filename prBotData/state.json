@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1763064167.641119",
-    "lastUpdated": "2025-11-13T20:02:36.730Z",
+    "lastUpdated": "2025-11-14T08:55:33.900Z",
     "approvalListMessageHash": "2a119a72eb777c0bc8faab6f3a9263d29ef41dd2cdaf2d229f99b5e29c0904f8"
   },
   "repositories": {
@@ -94,6 +94,18 @@
           "headSha": "f596c3d900f537b95b642d36b7ecb34000331e57",
           "createdAt": "2025-11-10T09:26:53.278Z",
           "lastUpdated": "2025-11-10T09:26:53.424Z"
+        },
+        "4731": {
+          "number": 4731,
+          "title": "COT-830 Alteration to move amended labels positions.",
+          "author": "anthonydummer",
+          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/4731",
+          "changesRequested": false,
+          "approvals": 1,
+          "buildSuccess": true,
+          "headSha": "13e7fd8ea8f359c7efbf64a05198d6ebdb6a8dcf",
+          "createdAt": "2025-11-14T08:55:33.759Z",
+          "lastUpdated": "2025-11-14T08:55:33.900Z"
         },
         "4737": {
           "number": 4737,
