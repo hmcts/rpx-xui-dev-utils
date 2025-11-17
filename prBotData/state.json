@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1763396564.266649",
-    "lastUpdated": "2025-11-17T16:22:34.613Z",
+    "lastUpdated": "2025-11-17T16:30:21.683Z",
     "approvalListMessageHash": "e07aef47baeed3d45e0691d8c0b6afb53e48754b48ac939d5502da1746503607"
   },
   "repositories": {
@@ -118,18 +118,6 @@
           "headSha": "17193584628009bd7e07c9cb74b9b87b297fedb3",
           "createdAt": "2025-11-13T16:44:04.781Z",
           "lastUpdated": "2025-11-13T17:24:02.987Z"
-        },
-        "4740": {
-          "number": 4740,
-          "title": "EXUI-3721 pipeline false positive fix",
-          "author": "danH-test",
-          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/4740",
-          "changesRequested": false,
-          "approvals": 1,
-          "buildSuccess": true,
-          "headSha": "2726b60f9ca73a7036a5783aefd25d544b118841",
-          "createdAt": "2025-11-17T16:22:34.512Z",
-          "lastUpdated": "2025-11-17T16:22:34.613Z"
         },
         "4741": {
           "number": 4741,
