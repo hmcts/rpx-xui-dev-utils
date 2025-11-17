@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1763382036.739209",
-    "lastUpdated": "2025-11-17T12:20:26.083Z",
+    "lastUpdated": "2025-11-17T13:56:08.008Z",
     "approvalListMessageHash": "984b05431fa132ad1427b08369b5e4c1226230f0ce8e6a58ff09496655b5daf6"
   },
   "repositories": {
@@ -196,12 +196,12 @@
           "title": "exui-3545-add logs",
           "author": "RiteshHMCTS",
           "url": "https://github.com/hmcts/ccd-case-ui-toolkit/pull/2041",
-          "changesRequested": true,
+          "changesRequested": false,
           "approvals": 1,
           "buildSuccess": true,
-          "headSha": "f4205db3918859e62c405f73dbd6532388de228d",
-          "createdAt": "2025-11-17T11:07:19.207Z",
-          "lastUpdated": "2025-11-17T11:07:19.340Z"
+          "headSha": "667f162cacb5ae0a154aa61d2bb37a865222e688",
+          "createdAt": "2025-11-17T13:56:07.876Z",
+          "lastUpdated": "2025-11-17T13:56:08.008Z"
         }
       }
     }
