@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1763397998.905059",
-    "lastUpdated": "2025-11-17T16:46:28.958Z",
+    "lastUpdated": "2025-11-17T17:18:06.088Z",
     "approvalListMessageHash": "7a20c3900dc9b7c402519dcb425c545d3420fe78484023855f17611032ddbb3e"
   },
   "repositories": {
@@ -142,6 +142,18 @@
           "headSha": "661c127910a40eae481096cb2542a34f2f25e2ee",
           "createdAt": "2025-11-17T10:59:38.438Z",
           "lastUpdated": "2025-11-17T16:07:17.737Z"
+        },
+        "4744": {
+          "number": 4744,
+          "title": "exui-3576-cve remediation",
+          "author": "RiteshHMCTS",
+          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/4744",
+          "changesRequested": false,
+          "approvals": 0,
+          "buildSuccess": false,
+          "headSha": "f1d6fbe98ce7cf4f7d90f5a4bbc845b850d32b74",
+          "createdAt": "2025-11-17T17:18:05.932Z",
+          "lastUpdated": "2025-11-17T17:18:06.088Z"
         }
       }
     },
