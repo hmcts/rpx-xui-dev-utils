@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1763397286.765609",
-    "lastUpdated": "2025-11-17T16:34:35.355Z",
+    "lastUpdated": "2025-11-17T16:39:55.633Z",
     "approvalListMessageHash": "1666f5b7c28152e60eb11423f9e57ecc8b04078e02e5e934171fca5ea70dd1a2"
   },
   "repositories": {
@@ -202,6 +202,18 @@
           "headSha": "0c591523ddeb01c5f1edf7c203301316cfc5f423",
           "createdAt": "2025-11-17T16:34:35.180Z",
           "lastUpdated": "2025-11-17T16:34:35.355Z"
+        },
+        "2043": {
+          "number": 2043,
+          "title": "EXUI-3481 - Show hide condition not working on CYA",
+          "author": "Josh-HMCTS",
+          "url": "https://github.com/hmcts/ccd-case-ui-toolkit/pull/2043",
+          "changesRequested": false,
+          "approvals": 0,
+          "buildSuccess": true,
+          "headSha": "4c12bba03359a349629cc232dd09ae7797603aa8",
+          "createdAt": "2025-11-17T16:39:55.422Z",
+          "lastUpdated": "2025-11-17T16:39:55.633Z"
         }
       }
     }
