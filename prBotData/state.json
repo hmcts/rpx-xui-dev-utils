@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1763377650.860729",
-    "lastUpdated": "2025-11-17T11:07:19.340Z",
+    "lastUpdated": "2025-11-17T11:12:23.448Z",
     "approvalListMessageHash": "d08bf57fbbaf9d88001b108c1838b4ece929d9845c1c02183ea5521df6a8c226"
   },
   "repositories": {
@@ -94,18 +94,6 @@
           "headSha": "f596c3d900f537b95b642d36b7ecb34000331e57",
           "createdAt": "2025-11-10T09:26:53.278Z",
           "lastUpdated": "2025-11-10T09:26:53.424Z"
-        },
-        "4737": {
-          "number": 4737,
-          "title": "Make Welsh blue info banner appear when footer changes to Welsh",
-          "author": "connorpgpmcelroy",
-          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/4737",
-          "changesRequested": false,
-          "approvals": 1,
-          "buildSuccess": true,
-          "headSha": "73a42ab798ad6a48b8ed4c893075a97718798bf8",
-          "createdAt": "2025-11-14T15:43:55.028Z",
-          "lastUpdated": "2025-11-14T15:43:55.252Z"
         },
         "4738": {
           "number": 4738,
