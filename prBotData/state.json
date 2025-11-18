@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1763466539.218719",
-    "lastUpdated": "2025-11-18T11:48:48.682Z",
+    "lastUpdated": "2025-11-18T12:38:56.488Z",
     "approvalListMessageHash": "8323a4bed48e0874714302f5ea4d1632bf27b00fe819aae55b363c69fbb8de11"
   },
   "repositories": {
@@ -178,6 +178,18 @@
           "headSha": "e0f72a3ff28d98a22fa7dcb779ce6274d5622f90",
           "createdAt": "2025-11-18T09:48:02.824Z",
           "lastUpdated": "2025-11-18T09:48:03.001Z"
+        },
+        "4748": {
+          "number": 4748,
+          "title": "EXUI-2071 - Add the exclusion service backend changes",
+          "author": "connorpgpmcelroy",
+          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/4748",
+          "changesRequested": false,
+          "approvals": 0,
+          "buildSuccess": false,
+          "headSha": "dc446a534e8bd16361ac501a73f42acb833bd312",
+          "createdAt": "2025-11-18T12:38:56.327Z",
+          "lastUpdated": "2025-11-18T12:38:56.488Z"
         }
       }
     },
