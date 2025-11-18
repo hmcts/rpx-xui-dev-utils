@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1763397998.905059",
-    "lastUpdated": "2025-11-18T05:07:44.185Z",
+    "lastUpdated": "2025-11-18T09:41:19.549Z",
     "approvalListMessageHash": "7a20c3900dc9b7c402519dcb425c545d3420fe78484023855f17611032ddbb3e"
   },
   "repositories": {
@@ -166,6 +166,18 @@
           "headSha": "f1d6fbe98ce7cf4f7d90f5a4bbc845b850d32b74",
           "createdAt": "2025-11-17T17:18:05.932Z",
           "lastUpdated": "2025-11-17T17:18:06.088Z"
+        },
+        "4745": {
+          "number": 4745,
+          "title": "exui-3737-cve-suppression",
+          "author": "RiteshHMCTS",
+          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/4745",
+          "changesRequested": false,
+          "approvals": 0,
+          "buildSuccess": false,
+          "headSha": "e0f72a3ff28d98a22fa7dcb779ce6274d5622f90",
+          "createdAt": "2025-11-18T09:41:19.403Z",
+          "lastUpdated": "2025-11-18T09:41:19.549Z"
         }
       }
     },
