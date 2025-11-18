@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1763478161.087229",
-    "lastUpdated": "2025-11-18T15:02:31.190Z",
+    "lastUpdated": "2025-11-18T15:05:07.150Z",
     "approvalListMessageHash": "5b44fee8eccabcb4a15bc08648208b2e89bf7c049a54034c7be0a9e35a6993ba"
   },
   "repositories": {
@@ -278,22 +278,6 @@
           "headSha": "fe20292c67b2744d1a7fe37bb69e44f6d3eb2f06",
           "createdAt": "2025-11-18T09:51:21.920Z",
           "lastUpdated": "2025-11-18T09:51:22.176Z"
-        }
-      }
-    },
-    "hmcts/rpx-xui-common-lib": {
-      "pullRequests": {
-        "520": {
-          "number": 520,
-          "title": "Ver update",
-          "author": "Josh-HMCTS",
-          "url": "https://github.com/hmcts/rpx-xui-common-lib/pull/520",
-          "changesRequested": false,
-          "approvals": 0,
-          "buildSuccess": true,
-          "headSha": "c7ad3db7534e74f1862f4fa70d9ae2bb3a335fba",
-          "createdAt": "2025-11-18T15:02:31.049Z",
-          "lastUpdated": "2025-11-18T15:02:31.189Z"
         }
       }
     }
