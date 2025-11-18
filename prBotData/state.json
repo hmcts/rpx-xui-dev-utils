@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1763397998.905059",
-    "lastUpdated": "2025-11-18T09:48:03.001Z",
+    "lastUpdated": "2025-11-18T09:51:22.176Z",
     "approvalListMessageHash": "7a20c3900dc9b7c402519dcb425c545d3420fe78484023855f17611032ddbb3e"
   },
   "repositories": {
@@ -250,6 +250,22 @@
           "headSha": "4c12bba03359a349629cc232dd09ae7797603aa8",
           "createdAt": "2025-11-17T16:39:55.422Z",
           "lastUpdated": "2025-11-17T16:39:55.633Z"
+        }
+      }
+    },
+    "hmcts/rpx-xui-node-lib": {
+      "pullRequests": {
+        "290": {
+          "number": 290,
+          "title": "chore: update trust proxy",
+          "author": "Josh-HMCTS",
+          "url": "https://github.com/hmcts/rpx-xui-node-lib/pull/290",
+          "changesRequested": false,
+          "approvals": 0,
+          "buildSuccess": true,
+          "headSha": "fe20292c67b2744d1a7fe37bb69e44f6d3eb2f06",
+          "createdAt": "2025-11-18T09:51:21.920Z",
+          "lastUpdated": "2025-11-18T09:51:22.176Z"
         }
       }
     }
