@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1763478318.152139",
-    "lastUpdated": "2025-11-18T15:05:07.150Z",
+    "lastUpdated": "2025-11-18T16:59:34.382Z",
     "approvalListMessageHash": "8f23d4a67900b0f9b78e179a8d83ec3cc6bf654f1094cd812f6e825290bfd3f6"
   },
   "repositories": {
@@ -190,6 +190,18 @@
           "headSha": "0034b1ca638d8cada5d5a7d57b64ae4222859dbc",
           "createdAt": "2025-11-18T12:38:56.327Z",
           "lastUpdated": "2025-11-18T13:32:25.960Z"
+        },
+        "4749": {
+          "number": 4749,
+          "title": "WIP: chore: set sonarqube to view src, api and ignored files",
+          "author": "gregs-cgi",
+          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/4749",
+          "changesRequested": false,
+          "approvals": 0,
+          "buildSuccess": false,
+          "headSha": "0ba88ae01c508a3448e519191c680eb8be78e74b",
+          "createdAt": "2025-11-18T16:59:34.251Z",
+          "lastUpdated": "2025-11-18T16:59:34.382Z"
         }
       }
     },
