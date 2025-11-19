@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1763558483.907009",
-    "lastUpdated": "2025-11-19T13:21:13.171Z",
+    "lastUpdated": "2025-11-19T13:24:55.897Z",
     "approvalListMessageHash": "cb6d455da9b09af7abb9e96dfa3827ae2d3927ebac6be190e8663c22ef9586cd"
   },
   "repositories": {
@@ -54,6 +54,18 @@
           "headSha": "3c7f7872f9339e31dde34b1994851bbf5d71b53d",
           "createdAt": "2025-11-13T13:43:22.676Z",
           "lastUpdated": "2025-11-13T13:43:22.797Z"
+        },
+        "1243": {
+          "number": 1243,
+          "title": "EXUI-3739 - Update glob in package.json",
+          "author": "connorpgpmcelroy",
+          "url": "https://github.com/hmcts/em-media-viewer/pull/1243",
+          "changesRequested": false,
+          "approvals": 0,
+          "buildSuccess": false,
+          "headSha": "9651e8054d69caf472b02588f04cae20f587e31e",
+          "createdAt": "2025-11-19T13:24:55.781Z",
+          "lastUpdated": "2025-11-19T13:24:55.897Z"
         }
       }
     },
