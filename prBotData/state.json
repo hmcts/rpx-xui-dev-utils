@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1763557822.054959",
-    "lastUpdated": "2025-11-19T13:10:11.409Z",
+    "lastUpdated": "2025-11-19T13:14:27.952Z",
     "approvalListMessageHash": "9d80fc04a74db9ac6ea6b875ec7434d525c6131bcb3cd7d964e1f5242d42efb9"
   },
   "repositories": {
@@ -54,18 +54,6 @@
           "headSha": "3c7f7872f9339e31dde34b1994851bbf5d71b53d",
           "createdAt": "2025-11-13T13:43:22.676Z",
           "lastUpdated": "2025-11-13T13:43:22.797Z"
-        },
-        "1242": {
-          "number": 1242,
-          "title": "EXUI-3726 - Add CVE changes to media-viewer",
-          "author": "connorpgpmcelroy",
-          "url": "https://github.com/hmcts/em-media-viewer/pull/1242",
-          "changesRequested": false,
-          "approvals": 1,
-          "buildSuccess": true,
-          "headSha": "bf82e72d33b555b024cff45e1ccd1aad3199c9b7",
-          "createdAt": "2025-11-19T10:31:58.147Z",
-          "lastUpdated": "2025-11-19T10:31:58.304Z"
         }
       }
     },
