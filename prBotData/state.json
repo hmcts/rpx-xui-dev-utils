@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1763572649.707399",
-    "lastUpdated": "2025-11-19T17:17:17.413Z",
+    "lastUpdated": "2025-11-19T19:05:39.600Z",
     "approvalListMessageHash": "b2e4f3a3d8daff476760f635de303f7a6705b93064cd5cf76942a705dca2f9f1"
   },
   "repositories": {
@@ -54,6 +54,18 @@
           "headSha": "3c7f7872f9339e31dde34b1994851bbf5d71b53d",
           "createdAt": "2025-11-13T13:43:22.676Z",
           "lastUpdated": "2025-11-13T13:43:22.797Z"
+        },
+        "1240": {
+          "number": 1240,
+          "title": "Update dependency glob to v10.5.0 [SECURITY]",
+          "author": "renovate[bot]",
+          "url": "https://github.com/hmcts/em-media-viewer/pull/1240",
+          "changesRequested": false,
+          "approvals": 0,
+          "buildSuccess": false,
+          "headSha": "70f2458ac85ff67f9bcebdf8421aa5aaca028876",
+          "createdAt": "2025-11-19T19:05:39.402Z",
+          "lastUpdated": "2025-11-19T19:05:39.600Z"
         },
         "1243": {
           "number": 1243,
