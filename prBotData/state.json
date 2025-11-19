@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1763562136.934619",
-    "lastUpdated": "2025-11-19T14:28:30.383Z",
+    "lastUpdated": "2025-11-19T14:54:13.673Z",
     "approvalListMessageHash": "cb5382d986326ce3d5342f3a5b4dabcd984b2e00b701885e2a6b79386ea3c514"
   },
   "repositories": {
@@ -202,6 +202,18 @@
           "headSha": "0ba88ae01c508a3448e519191c680eb8be78e74b",
           "createdAt": "2025-11-18T16:59:34.251Z",
           "lastUpdated": "2025-11-18T16:59:34.382Z"
+        },
+        "4751": {
+          "number": 4751,
+          "title": "cme-789: stalebot",
+          "author": "AntonyLeons",
+          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/4751",
+          "changesRequested": false,
+          "approvals": 0,
+          "buildSuccess": false,
+          "headSha": "7ce6b1f3698b9fcfb2e729bf5cc3b1866d9ee203",
+          "createdAt": "2025-11-19T14:54:13.473Z",
+          "lastUpdated": "2025-11-19T14:54:13.673Z"
         }
       }
     },
