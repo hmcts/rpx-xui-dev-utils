@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1763552798.916569",
-    "lastUpdated": "2025-11-19T11:46:28.805Z",
+    "lastUpdated": "2025-11-19T11:59:25.201Z",
     "approvalListMessageHash": "43fa343b44da06dffb73e3ab5f853a7aae8727a3e1e02eab0e7df44f563c07cd"
   },
   "repositories": {
@@ -207,6 +207,18 @@
     },
     "hmcts/rpx-xui-manage-organisations": {
       "pullRequests": {
+        "1420": {
+          "number": 1420,
+          "title": "CME 781 angular 20 upgrade",
+          "author": "ben-james-hmcts",
+          "url": "https://github.com/hmcts/rpx-xui-manage-organisations/pull/1420",
+          "changesRequested": false,
+          "approvals": 1,
+          "buildSuccess": true,
+          "headSha": "30514624eb0c1b4314721102d2d31589a1d2a6dd",
+          "createdAt": "2025-11-19T11:59:25.101Z",
+          "lastUpdated": "2025-11-19T11:59:25.201Z"
+        },
         "1432": {
           "number": 1432,
           "title": "Revert common pipeline change",
