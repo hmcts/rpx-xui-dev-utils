@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1763557234.188819",
-    "lastUpdated": "2025-11-19T13:00:22.158Z",
+    "lastUpdated": "2025-11-19T13:03:01.502Z",
     "approvalListMessageHash": "08e6fe9b1558b27c64ac235850969a4a9d1d3b8964831ea4b234feb6e2453bc1"
   },
   "repositories": {
@@ -285,11 +285,11 @@
           "author": "Josh-HMCTS",
           "url": "https://github.com/hmcts/rpx-xui-node-lib/pull/290",
           "changesRequested": false,
-          "approvals": 0,
+          "approvals": 1,
           "buildSuccess": true,
           "headSha": "fe20292c67b2744d1a7fe37bb69e44f6d3eb2f06",
-          "createdAt": "2025-11-18T09:51:21.920Z",
-          "lastUpdated": "2025-11-18T09:51:22.176Z"
+          "createdAt": "2025-11-19T13:03:01.330Z",
+          "lastUpdated": "2025-11-19T13:03:01.502Z"
         }
       }
     }
