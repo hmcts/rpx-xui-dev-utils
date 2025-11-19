@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1763547010.129459",
-    "lastUpdated": "2025-11-19T10:09:57.680Z",
+    "lastUpdated": "2025-11-19T10:10:47.814Z",
     "approvalListMessageHash": "adb1c69b6de56b1f3d7c93881428115f70896ddba6944aeed70311544d68ba60"
   },
   "repositories": {
@@ -274,6 +274,18 @@
           "headSha": "5100644c30298a9bd058abceac3aa7c96bf9a5c1",
           "createdAt": "2025-11-19T10:09:57.415Z",
           "lastUpdated": "2025-11-19T10:09:57.680Z"
+        },
+        "2045": {
+          "number": 2045,
+          "title": "Update dependency karma-spec-reporter to v0.0.36",
+          "author": "renovate[bot]",
+          "url": "https://github.com/hmcts/ccd-case-ui-toolkit/pull/2045",
+          "changesRequested": false,
+          "approvals": 0,
+          "buildSuccess": true,
+          "headSha": "dec4150a5a0bdbbd40da0595b4a45888042f73a7",
+          "createdAt": "2025-11-19T10:10:47.674Z",
+          "lastUpdated": "2025-11-19T10:10:47.814Z"
         }
       }
     },
