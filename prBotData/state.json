@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1763487261.128159",
-    "lastUpdated": "2025-11-19T07:10:05.901Z",
+    "lastUpdated": "2025-11-19T10:09:57.680Z",
     "approvalListMessageHash": "8f23d4a67900b0f9b78e179a8d83ec3cc6bf654f1094cd812f6e825290bfd3f6"
   },
   "repositories": {
@@ -262,6 +262,18 @@
           "headSha": "4c12bba03359a349629cc232dd09ae7797603aa8",
           "createdAt": "2025-11-17T16:39:55.422Z",
           "lastUpdated": "2025-11-17T16:39:55.633Z"
+        },
+        "2044": {
+          "number": 2044,
+          "title": "Update dependency @types/node to v20.19.25",
+          "author": "renovate[bot]",
+          "url": "https://github.com/hmcts/ccd-case-ui-toolkit/pull/2044",
+          "changesRequested": false,
+          "approvals": 0,
+          "buildSuccess": true,
+          "headSha": "5100644c30298a9bd058abceac3aa7c96bf9a5c1",
+          "createdAt": "2025-11-19T10:09:57.415Z",
+          "lastUpdated": "2025-11-19T10:09:57.680Z"
         }
       }
     },
