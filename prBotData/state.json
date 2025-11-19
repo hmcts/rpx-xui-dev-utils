@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1763487261.128159",
-    "lastUpdated": "2025-11-18T17:34:10.369Z",
+    "lastUpdated": "2025-11-19T07:10:05.901Z",
     "approvalListMessageHash": "8f23d4a67900b0f9b78e179a8d83ec3cc6bf654f1094cd812f6e825290bfd3f6"
   },
   "repositories": {
@@ -54,18 +54,6 @@
           "headSha": "3c7f7872f9339e31dde34b1994851bbf5d71b53d",
           "createdAt": "2025-11-13T13:43:22.676Z",
           "lastUpdated": "2025-11-13T13:43:22.797Z"
-        },
-        "1240": {
-          "number": 1240,
-          "title": "Update dependency glob to v11 [SECURITY]",
-          "author": "renovate[bot]",
-          "url": "https://github.com/hmcts/em-media-viewer/pull/1240",
-          "changesRequested": false,
-          "approvals": 0,
-          "buildSuccess": false,
-          "headSha": "ac01885ff666f249a08f98b859d86bae0c4bffa2",
-          "createdAt": "2025-11-18T05:07:44.032Z",
-          "lastUpdated": "2025-11-18T05:07:44.185Z"
         }
       }
     },
