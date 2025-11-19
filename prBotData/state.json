@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1763567654.112379",
-    "lastUpdated": "2025-11-19T16:27:00.229Z",
+    "lastUpdated": "2025-11-19T16:54:37.211Z",
     "approvalListMessageHash": "72cf87c62723755a1a81eaa49650856f46323a1d2d5a66a1ec08f5f8ba1763e2"
   },
   "repositories": {
@@ -314,22 +314,6 @@
           "headSha": "fe20292c67b2744d1a7fe37bb69e44f6d3eb2f06",
           "createdAt": "2025-11-19T13:03:01.330Z",
           "lastUpdated": "2025-11-19T13:03:01.502Z"
-        }
-      }
-    },
-    "hmcts/em-showcase": {
-      "pullRequests": {
-        "740": {
-          "number": 740,
-          "title": "Update glob to 11.1.0 to fix high CVE",
-          "author": "connorpgpmcelroy",
-          "url": "https://github.com/hmcts/em-showcase/pull/740",
-          "changesRequested": false,
-          "approvals": 0,
-          "buildSuccess": true,
-          "headSha": "2a4dda9cdfd504161233c163b809568274800d26",
-          "createdAt": "2025-11-19T14:28:30.236Z",
-          "lastUpdated": "2025-11-19T15:54:02.869Z"
         }
       }
     }
