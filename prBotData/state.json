@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1763571410.911199",
-    "lastUpdated": "2025-11-19T16:56:39.417Z",
+    "lastUpdated": "2025-11-19T17:01:01.955Z",
     "approvalListMessageHash": "3872ca7e94f1a83b95281a2f55bf7b7ea6df8e866ffd42c5ccac622aaf79f066"
   },
   "repositories": {
@@ -130,18 +130,6 @@
           "headSha": "17193584628009bd7e07c9cb74b9b87b297fedb3",
           "createdAt": "2025-11-13T16:44:04.781Z",
           "lastUpdated": "2025-11-13T17:24:02.987Z"
-        },
-        "4741": {
-          "number": 4741,
-          "title": "exui-3545-add-wa-logs",
-          "author": "RiteshHMCTS",
-          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/4741",
-          "changesRequested": false,
-          "approvals": 0,
-          "buildSuccess": true,
-          "headSha": "ef5f25909d7a3816d9e7cb9638779662c2b87aea",
-          "createdAt": "2025-11-14T11:51:13.796Z",
-          "lastUpdated": "2025-11-19T13:52:08.432Z"
         },
         "4742": {
           "number": 4742,
