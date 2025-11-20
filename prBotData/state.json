@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1763632876.623949",
-    "lastUpdated": "2025-11-20T10:01:05.723Z",
+    "lastUpdated": "2025-11-20T10:54:56.112Z",
     "approvalListMessageHash": "0ac943b922fa188b5287c165904ea09ec61358a34d84097c399fedad99847fd3"
   },
   "repositories": {
@@ -202,6 +202,18 @@
           "headSha": "23596e449711e9c4726e1de53272611605d29533",
           "createdAt": "2025-11-19T16:27:00.081Z",
           "lastUpdated": "2025-11-19T17:17:17.413Z"
+        },
+        "4755": {
+          "number": 4755,
+          "title": "EXUI-3745 - Update launch-darkly-defaults.constants.ts",
+          "author": "connorpgpmcelroy",
+          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/4755",
+          "changesRequested": false,
+          "approvals": 0,
+          "buildSuccess": false,
+          "headSha": "e6141f4dcde4f7ec1f2ebf6d6ec0088505c9337b",
+          "createdAt": "2025-11-20T10:54:56.009Z",
+          "lastUpdated": "2025-11-20T10:54:56.112Z"
         }
       }
     },
