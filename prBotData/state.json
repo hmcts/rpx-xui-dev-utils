@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1763722286.993689",
-    "lastUpdated": "2025-11-21T10:51:16.313Z",
+    "lastUpdated": "2025-11-21T11:16:06.631Z",
     "approvalListMessageHash": "f71d5a04e8aa19001f8d2ce8d69bbe7de9a102065f52f81ec7da69535926ffb9"
   },
   "repositories": {
@@ -194,18 +194,6 @@
           "headSha": "debda6cb560fd7001484e3b4679262b5aab8df2c",
           "createdAt": "2025-11-11T21:31:54.300Z",
           "lastUpdated": "2025-11-11T21:31:54.508Z"
-        },
-        "1437": {
-          "number": 1437,
-          "title": "Update regulator-details.component.html",
-          "author": "connorpgpmcelroy",
-          "url": "https://github.com/hmcts/rpx-xui-manage-organisations/pull/1437",
-          "changesRequested": false,
-          "approvals": 1,
-          "buildSuccess": true,
-          "headSha": "ee5b806ed54e93059039fa5bd43785f287b7aeb0",
-          "createdAt": "2025-11-21T09:05:35.637Z",
-          "lastUpdated": "2025-11-21T09:05:35.801Z"
         }
       }
     },
