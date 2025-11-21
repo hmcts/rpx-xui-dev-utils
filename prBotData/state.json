@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1763723777.497649",
-    "lastUpdated": "2025-11-21T11:16:06.631Z",
+    "lastUpdated": "2025-11-21T11:50:48.393Z",
     "approvalListMessageHash": "fa5bbcabf248eefa698b99f6476b8a476c5ac93f48501498176df8f43d1c1dbf"
   },
   "repositories": {
@@ -194,6 +194,18 @@
           "headSha": "debda6cb560fd7001484e3b4679262b5aab8df2c",
           "createdAt": "2025-11-11T21:31:54.300Z",
           "lastUpdated": "2025-11-11T21:31:54.508Z"
+        },
+        "1438": {
+          "number": 1438,
+          "title": "EXUI-3750: fix service access showing servicecode for value and key",
+          "author": "Josh-HMCTS",
+          "url": "https://github.com/hmcts/rpx-xui-manage-organisations/pull/1438",
+          "changesRequested": false,
+          "approvals": 0,
+          "buildSuccess": false,
+          "headSha": "9294edcd9046b9a5e038360a81d22e2f3d6ddc54",
+          "createdAt": "2025-11-21T11:50:48.284Z",
+          "lastUpdated": "2025-11-21T11:50:48.392Z"
         }
       }
     },
