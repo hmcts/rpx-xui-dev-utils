@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1763715945.784409",
-    "lastUpdated": "2025-11-21T09:05:35.801Z",
+    "lastUpdated": "2025-11-21T09:51:44.174Z",
     "approvalListMessageHash": "f71d5a04e8aa19001f8d2ce8d69bbe7de9a102065f52f81ec7da69535926ffb9"
   },
   "repositories": {
@@ -211,6 +211,18 @@
     },
     "hmcts/rpx-xui-approve-org": {
       "pullRequests": {
+        "943": {
+          "number": 943,
+          "title": "Add test exit status as pass or fail",
+          "author": "connorpgpmcelroy",
+          "url": "https://github.com/hmcts/rpx-xui-approve-org/pull/943",
+          "changesRequested": false,
+          "approvals": 1,
+          "buildSuccess": true,
+          "headSha": "dd55f1e636db4dfef87477f11b5431a880d15af5",
+          "createdAt": "2025-11-21T09:51:43.985Z",
+          "lastUpdated": "2025-11-21T09:51:44.174Z"
+        },
         "952": {
           "number": 952,
           "title": "Update dependency @hmcts/rpx-xui-node-lib to v2.30.9",
