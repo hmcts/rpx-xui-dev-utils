@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1763983793.638839",
-    "lastUpdated": "2025-11-24T11:29:43.792Z",
+    "lastUpdated": "2025-11-24T12:14:52.851Z",
     "approvalListMessageHash": "b8fff5cec392ca262d04337a64e79f3269abd75cf79d9f5ed263befa23e970f4"
   },
   "repositories": {
@@ -193,15 +193,15 @@
         },
         "4756": {
           "number": 4756,
-          "title": "Test/ex UI 3710 migrate api test",
+          "title": "EXUI-3710 migrate api tests from mocha to playwright",
           "author": "andyg-cgi",
           "url": "https://github.com/hmcts/rpx-xui-webapp/pull/4756",
           "changesRequested": false,
-          "approvals": 0,
+          "approvals": 1,
           "buildSuccess": false,
           "headSha": "47a00fb7a8af596dbbaf1365fa315b1591d314ee",
-          "createdAt": "2025-11-21T15:21:47.919Z",
-          "lastUpdated": "2025-11-24T11:29:43.792Z"
+          "createdAt": "2025-11-24T12:14:52.756Z",
+          "lastUpdated": "2025-11-24T12:14:52.851Z"
         },
         "4757": {
           "number": 4757,
