@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1764082679.075019",
-    "lastUpdated": "2025-11-25T14:57:47.811Z",
+    "lastUpdated": "2025-11-25T17:57:38.950Z",
     "approvalListMessageHash": "0114fabf3cc6daecd8191ecbe86808389ee92f78858873114280de482171e0cd"
   },
   "repositories": {
@@ -106,6 +106,18 @@
           "headSha": "d8a0a6e96b77956dce1185a3ff50aba0fdfffbe0",
           "createdAt": "2025-11-21T16:20:10.684Z",
           "lastUpdated": "2025-11-21T17:37:27.752Z"
+        },
+        "4759": {
+          "number": 4759,
+          "title": "cot-1051 changes to do an explicit check for party details change",
+          "author": "anthonydummer",
+          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/4759",
+          "changesRequested": false,
+          "approvals": 0,
+          "buildSuccess": false,
+          "headSha": "e711d8d5a691aff7712f571083e7265b2369902c",
+          "createdAt": "2025-11-25T17:57:38.845Z",
+          "lastUpdated": "2025-11-25T17:57:38.950Z"
         }
       }
     },
