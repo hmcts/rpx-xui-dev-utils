@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1764070809.148579",
-    "lastUpdated": "2025-11-25T11:39:59.622Z",
+    "lastUpdated": "2025-11-25T14:57:47.811Z",
     "approvalListMessageHash": "875c6d49f23aa2da0b48f781d7cf8afd164eab33c0eea10f8befe76aff05a533"
   },
   "repositories": {
@@ -106,18 +106,6 @@
           "headSha": "d8a0a6e96b77956dce1185a3ff50aba0fdfffbe0",
           "createdAt": "2025-11-21T16:20:10.684Z",
           "lastUpdated": "2025-11-21T17:37:27.752Z"
-        },
-        "4758": {
-          "number": 4758,
-          "title": "Adding spacing between label and checkbox",
-          "author": "anthonydummer",
-          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/4758",
-          "changesRequested": false,
-          "approvals": 1,
-          "buildSuccess": true,
-          "headSha": "83d04f499eb1f1d6d70bba22cc9d82e7180f5840",
-          "createdAt": "2025-11-24T15:52:52.026Z",
-          "lastUpdated": "2025-11-24T15:52:52.250Z"
         }
       }
     },
