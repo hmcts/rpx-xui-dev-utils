@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1764069567.827719",
-    "lastUpdated": "2025-11-25T11:19:17.067Z",
+    "lastUpdated": "2025-11-25T11:20:26.710Z",
     "approvalListMessageHash": "52cb4b88d1f97d0de63eaaa9ad388d5edcfaed6d08d4cdde008aa398790fbcf1"
   },
   "repositories": {
@@ -94,18 +94,6 @@
           "headSha": "0ba88ae01c508a3448e519191c680eb8be78e74b",
           "createdAt": "2025-11-18T16:59:34.251Z",
           "lastUpdated": "2025-11-18T16:59:34.382Z"
-        },
-        "4753": {
-          "number": 4753,
-          "title": "Re-basing from stale branch",
-          "author": "anthonydummer",
-          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/4753",
-          "changesRequested": false,
-          "approvals": 0,
-          "buildSuccess": true,
-          "headSha": "23596e449711e9c4726e1de53272611605d29533",
-          "createdAt": "2025-11-19T16:27:00.081Z",
-          "lastUpdated": "2025-11-19T17:17:17.413Z"
         },
         "4755": {
           "number": 4755,
