@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1764069636.289609",
-    "lastUpdated": "2025-11-25T11:20:26.710Z",
+    "lastUpdated": "2025-11-25T11:21:08.304Z",
     "approvalListMessageHash": "33c96f2b09b99035056aa6a802152d442e0c0a52ce7aafa910f11b373e43ef95"
   },
   "repositories": {
@@ -34,18 +34,6 @@
           "headSha": "6d22168c611d7d657262fcbfa9727f81595c179c",
           "createdAt": "2025-11-05T12:51:20.721Z",
           "lastUpdated": "2025-11-17T15:37:21.788Z"
-        },
-        "4503": {
-          "number": 4503,
-          "title": "cr84-iac-release",
-          "author": "anthonydummer",
-          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/4503",
-          "changesRequested": false,
-          "approvals": 1,
-          "buildSuccess": true,
-          "headSha": "2cd28dc07473451c7637713f12349873dd99fb0e",
-          "createdAt": "2025-11-21T12:46:25.997Z",
-          "lastUpdated": "2025-11-21T12:46:26.125Z"
         },
         "4703": {
           "number": 4703,
