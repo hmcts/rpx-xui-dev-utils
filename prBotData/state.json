@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1764162297.522219",
-    "lastUpdated": "2025-11-26T13:04:47.469Z",
+    "lastUpdated": "2025-11-26T13:29:50.484Z",
     "approvalListMessageHash": "1b38ab7a222797cefb7abb73c11c2d518c0368ec04f2518b37d62267a4f3c583"
   },
   "repositories": {
@@ -94,6 +94,18 @@
           "headSha": "0ba88ae01c508a3448e519191c680eb8be78e74b",
           "createdAt": "2025-11-18T16:59:34.251Z",
           "lastUpdated": "2025-11-18T16:59:34.382Z"
+        },
+        "4750": {
+          "number": 4750,
+          "title": "EXUI-3066 - HALO-23226 dates times",
+          "author": "chrisjones-hmcts",
+          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/4750",
+          "changesRequested": false,
+          "approvals": 0,
+          "buildSuccess": true,
+          "headSha": "f2caa405fc57b56de0877a36cfc7376eebf1b37c",
+          "createdAt": "2025-11-26T13:29:50.339Z",
+          "lastUpdated": "2025-11-26T13:29:50.484Z"
         },
         "4755": {
           "number": 4755,
