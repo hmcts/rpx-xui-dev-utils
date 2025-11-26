@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1764147783.211309",
-    "lastUpdated": "2025-11-26T09:04:15.521Z",
+    "lastUpdated": "2025-11-26T09:04:28.014Z",
     "approvalListMessageHash": "e26752316493f9a6e90ffa948fd4f20edb059246df7ba38513b55b3d50979c24"
   },
   "repositories": {
@@ -190,6 +190,18 @@
           "headSha": "0162992a2accce97e37a9a64e6165e2396ca879d",
           "createdAt": "2025-11-24T17:23:27.272Z",
           "lastUpdated": "2025-11-24T17:23:27.555Z"
+        },
+        "2049": {
+          "number": 2049,
+          "title": "CME-790: stalebot",
+          "author": "AntonyLeons",
+          "url": "https://github.com/hmcts/ccd-case-ui-toolkit/pull/2049",
+          "changesRequested": false,
+          "approvals": 0,
+          "buildSuccess": true,
+          "headSha": "f8f5a4276bbb8ee7df73641dfda5d4074315174f",
+          "createdAt": "2025-11-26T09:04:27.843Z",
+          "lastUpdated": "2025-11-26T09:04:28.014Z"
         }
       }
     },
