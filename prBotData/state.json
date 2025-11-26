@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1764147358.175229",
-    "lastUpdated": "2025-11-26T08:55:48.047Z",
+    "lastUpdated": "2025-11-26T09:00:23.562Z",
     "approvalListMessageHash": "ba18d21501d7023967e5804b9cd1e4bbc10347983c60b9433c5c02a3282c4063"
   },
   "repositories": {
@@ -210,6 +210,22 @@
           "headSha": "3c9b157ce42820ae79a9323ea42d7e816e1b4b8d",
           "createdAt": "2025-11-26T08:55:47.832Z",
           "lastUpdated": "2025-11-26T08:55:48.047Z"
+        }
+      }
+    },
+    "hmcts/rpx-xui-translation": {
+      "pullRequests": {
+        "57": {
+          "number": 57,
+          "title": "chore(deps): update dependency typescript to v5.9.3",
+          "author": "renovate[bot]",
+          "url": "https://github.com/hmcts/rpx-xui-translation/pull/57",
+          "changesRequested": false,
+          "approvals": 0,
+          "buildSuccess": true,
+          "headSha": "8a55e86e54455aa92e8945aed24c2e36a659aee2",
+          "createdAt": "2025-11-26T09:00:23.313Z",
+          "lastUpdated": "2025-11-26T09:00:23.562Z"
         }
       }
     }
