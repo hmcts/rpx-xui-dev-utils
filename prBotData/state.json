@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1764147783.211309",
-    "lastUpdated": "2025-11-26T09:02:52.765Z",
+    "lastUpdated": "2025-11-26T09:04:15.521Z",
     "approvalListMessageHash": "e26752316493f9a6e90ffa948fd4f20edb059246df7ba38513b55b3d50979c24"
   },
   "repositories": {
@@ -18,6 +18,18 @@
           "headSha": "3c7f7872f9339e31dde34b1994851bbf5d71b53d",
           "createdAt": "2025-11-13T13:43:22.676Z",
           "lastUpdated": "2025-11-13T13:43:22.797Z"
+        },
+        "1246": {
+          "number": 1246,
+          "title": "CME-970: stalebot",
+          "author": "AntonyLeons",
+          "url": "https://github.com/hmcts/em-media-viewer/pull/1246",
+          "changesRequested": false,
+          "approvals": 0,
+          "buildSuccess": false,
+          "headSha": "55ce2766e786333eaf95677296fa73abdbb2cc86",
+          "createdAt": "2025-11-26T09:04:15.302Z",
+          "lastUpdated": "2025-11-26T09:04:15.521Z"
         }
       }
     },
