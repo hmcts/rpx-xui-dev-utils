@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": null,
-    "lastUpdated": "2025-11-26T09:05:47.234Z",
+    "lastUpdated": "2025-11-26T09:05:58.830Z",
     "approvalListMessageHash": null
   },
   "repositories": {
@@ -258,6 +258,22 @@
           "headSha": "9951d0c287d85a71417a3d6df0eefc30b1c2c697",
           "createdAt": "2025-11-26T09:05:47.065Z",
           "lastUpdated": "2025-11-26T09:05:47.234Z"
+        }
+      }
+    },
+    "hmcts/rpx-xui-node-lib": {
+      "pullRequests": {
+        "291": {
+          "number": 291,
+          "title": "CME-790: stalebot",
+          "author": "AntonyLeons",
+          "url": "https://github.com/hmcts/rpx-xui-node-lib/pull/291",
+          "changesRequested": false,
+          "approvals": 0,
+          "buildSuccess": true,
+          "headSha": "621a871b3a5bd112c5e8c7c38cfe9ea47fc05626",
+          "createdAt": "2025-11-26T09:05:58.683Z",
+          "lastUpdated": "2025-11-26T09:05:58.830Z"
         }
       }
     }
