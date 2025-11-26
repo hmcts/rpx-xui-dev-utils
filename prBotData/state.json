@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1764183479.191069",
-    "lastUpdated": "2025-11-26T18:57:49.286Z",
+    "lastUpdated": "2025-11-26T20:13:31.530Z",
     "approvalListMessageHash": "51bb2c10be1718588feedb6160f6d7fea176d490e6afd1bd73c7a24f1d23c967"
   },
   "repositories": {
@@ -166,6 +166,18 @@
           "headSha": "6fe7f42b2f9e75b7a194e3f7069f2e1e6a038417",
           "createdAt": "2025-11-26T18:02:46.492Z",
           "lastUpdated": "2025-11-26T18:56:15.819Z"
+        },
+        "4764": {
+          "number": 4764,
+          "title": "EXUI-3783: Add the smoke test and replace the codecept js version",
+          "author": "danH-test",
+          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/4764",
+          "changesRequested": false,
+          "approvals": 0,
+          "buildSuccess": false,
+          "headSha": "644ec476134b8742201c01a07fc79c1d46facca8",
+          "createdAt": "2025-11-26T20:13:31.404Z",
+          "lastUpdated": "2025-11-26T20:13:31.530Z"
         }
       }
     },
