@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1764174730.666539",
-    "lastUpdated": "2025-11-26T17:42:22.820Z",
+    "lastUpdated": "2025-11-26T18:02:46.656Z",
     "approvalListMessageHash": "cedff5f7cc8d1e10f655a6f2de7f80fd19a9e6d235768900e65efa9ea21c3e70"
   },
   "repositories": {
@@ -154,6 +154,18 @@
           "headSha": "72e9acabdb89f41699876360240cf83a25cf33a8",
           "createdAt": "2025-11-26T17:42:22.678Z",
           "lastUpdated": "2025-11-26T17:42:22.820Z"
+        },
+        "4763": {
+          "number": 4763,
+          "title": "cot-1081 fix paper hearing labelling problem",
+          "author": "anthonydummer",
+          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/4763",
+          "changesRequested": false,
+          "approvals": 0,
+          "buildSuccess": false,
+          "headSha": "6fe7f42b2f9e75b7a194e3f7069f2e1e6a038417",
+          "createdAt": "2025-11-26T18:02:46.492Z",
+          "lastUpdated": "2025-11-26T18:02:46.656Z"
         }
       }
     },
