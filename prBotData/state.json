@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1764174730.666539",
-    "lastUpdated": "2025-11-26T16:32:00.587Z",
+    "lastUpdated": "2025-11-26T17:42:22.820Z",
     "approvalListMessageHash": "cedff5f7cc8d1e10f655a6f2de7f80fd19a9e6d235768900e65efa9ea21c3e70"
   },
   "repositories": {
@@ -142,6 +142,18 @@
           "headSha": "fc5b1082ef2d3f5af2668abad59dd706e0ee6c10",
           "createdAt": "2025-11-26T16:32:00.400Z",
           "lastUpdated": "2025-11-26T16:32:00.587Z"
+        },
+        "4762": {
+          "number": 4762,
+          "title": "EXUI-3778 increase coverage and coverage reporting",
+          "author": "andyg-cgi",
+          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/4762",
+          "changesRequested": false,
+          "approvals": 0,
+          "buildSuccess": false,
+          "headSha": "72e9acabdb89f41699876360240cf83a25cf33a8",
+          "createdAt": "2025-11-26T17:42:22.678Z",
+          "lastUpdated": "2025-11-26T17:42:22.820Z"
         }
       }
     },
