@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1764235781.917519",
-    "lastUpdated": "2025-11-27T09:29:30.479Z",
+    "lastUpdated": "2025-11-27T09:29:50.646Z",
     "approvalListMessageHash": "c6a7bbe02aa0f3221e678ac3cec477be8eedaf0d6c0720dcfd7ab2a43a289099"
   },
   "repositories": {
@@ -357,11 +357,11 @@
           "author": "AntonyLeons",
           "url": "https://github.com/hmcts/rpx-xui-translation/pull/58",
           "changesRequested": false,
-          "approvals": 0,
+          "approvals": 1,
           "buildSuccess": true,
           "headSha": "7d6e4de35123632ed73df401a8b5d865f08d12a7",
-          "createdAt": "2025-11-26T09:06:10.162Z",
-          "lastUpdated": "2025-11-26T09:06:10.312Z"
+          "createdAt": "2025-11-27T09:29:50.462Z",
+          "lastUpdated": "2025-11-27T09:29:50.646Z"
         }
       }
     }
