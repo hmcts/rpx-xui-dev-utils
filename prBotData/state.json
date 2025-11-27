@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1764238167.242149",
-    "lastUpdated": "2025-11-27T10:09:17.007Z",
+    "lastUpdated": "2025-11-27T10:48:41.075Z",
     "approvalListMessageHash": "b88770dcfd62b8dfd5ec8025b74aa06225511fa7a544574b13b52c3767353d42"
   },
   "repositories": {
@@ -238,18 +238,6 @@
           "headSha": "7198c81f09e91028c369f24a97e12bade8b5d8f4",
           "createdAt": "2025-11-19T13:00:21.969Z",
           "lastUpdated": "2025-11-19T13:00:22.157Z"
-        },
-        "2046": {
-          "number": 2046,
-          "title": "EXUI-3066 - HALO-23226 dates times",
-          "author": "chrisjones-hmcts",
-          "url": "https://github.com/hmcts/ccd-case-ui-toolkit/pull/2046",
-          "changesRequested": false,
-          "approvals": 1,
-          "buildSuccess": true,
-          "headSha": "2bef5e0e85c42a84663009013c9fe8b6b86c0f83",
-          "createdAt": "2025-11-27T09:49:56.727Z",
-          "lastUpdated": "2025-11-27T09:49:56.878Z"
         },
         "2048": {
           "number": 2048,
