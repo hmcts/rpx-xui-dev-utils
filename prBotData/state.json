@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1764191040.393419",
-    "lastUpdated": "2025-11-26T21:03:50.323Z",
+    "lastUpdated": "2025-11-27T04:38:02.301Z",
     "approvalListMessageHash": "329e272c44afdd3e261588272705679f5c6f329cf220bed4970bbd3e007a1c78"
   },
   "repositories": {
@@ -30,6 +30,18 @@
           "headSha": "55ce2766e786333eaf95677296fa73abdbb2cc86",
           "createdAt": "2025-11-26T09:04:15.302Z",
           "lastUpdated": "2025-11-26T09:42:21.718Z"
+        },
+        "1248": {
+          "number": 1248,
+          "title": "Update dependency @angular/common to v20.3.14 [SECURITY]",
+          "author": "renovate[bot]",
+          "url": "https://github.com/hmcts/em-media-viewer/pull/1248",
+          "changesRequested": false,
+          "approvals": 0,
+          "buildSuccess": false,
+          "headSha": "9b6b9b04260bd30f153b1ba930f5cb5537d06372",
+          "createdAt": "2025-11-27T04:38:02.111Z",
+          "lastUpdated": "2025-11-27T04:38:02.301Z"
         }
       }
     },
