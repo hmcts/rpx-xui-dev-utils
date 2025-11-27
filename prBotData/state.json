@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1764260209.341149",
-    "lastUpdated": "2025-11-27T17:05:05.723Z",
+    "lastUpdated": "2025-11-27T17:11:23.670Z",
     "approvalListMessageHash": "90a01a776ea8259e91be7bb8b782ed67f53263be40278ff3f97f9886a53d08c7"
   },
   "repositories": {
@@ -154,6 +154,18 @@
           "headSha": "ee9650797be6d8e9eae788b1da4f9e8d3a0d11fa",
           "createdAt": "2025-11-27T15:35:03.889Z",
           "lastUpdated": "2025-11-27T16:16:37.956Z"
+        },
+        "4766": {
+          "number": 4766,
+          "title": "Further changes to cot-1081 for hearing channel labelling",
+          "author": "anthonydummer",
+          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/4766",
+          "changesRequested": false,
+          "approvals": 1,
+          "buildSuccess": true,
+          "headSha": "f8f66173e7e66187cd8d063cb8e52e81eb8b2aa3",
+          "createdAt": "2025-11-27T17:11:23.525Z",
+          "lastUpdated": "2025-11-27T17:11:23.670Z"
         }
       }
     },
