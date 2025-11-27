@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1764235762.477489",
-    "lastUpdated": "2025-11-27T09:29:11.431Z",
+    "lastUpdated": "2025-11-27T09:29:30.479Z",
     "approvalListMessageHash": "7b5c83b25196cb071734ec812c9ac1002509a255f918616d1eea47d0251d510f"
   },
   "repositories": {
@@ -341,11 +341,11 @@
           "author": "AntonyLeons",
           "url": "https://github.com/hmcts/rpx-xui-node-lib/pull/291",
           "changesRequested": false,
-          "approvals": 0,
+          "approvals": 1,
           "buildSuccess": true,
           "headSha": "621a871b3a5bd112c5e8c7c38cfe9ea47fc05626",
-          "createdAt": "2025-11-26T09:05:58.683Z",
-          "lastUpdated": "2025-11-26T09:05:58.830Z"
+          "createdAt": "2025-11-27T09:29:30.232Z",
+          "lastUpdated": "2025-11-27T09:29:30.479Z"
         }
       }
     },
