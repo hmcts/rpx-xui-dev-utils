@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1764255146.640859",
-    "lastUpdated": "2025-11-27T15:35:04.021Z",
+    "lastUpdated": "2025-11-27T16:14:37.853Z",
     "approvalListMessageHash": "43a77ebd483bfa5f05d7b11708d7b3477dcb18a6f06781a23dac6f518bfdcbd4"
   },
   "repositories": {
@@ -30,6 +30,18 @@
           "headSha": "55ce2766e786333eaf95677296fa73abdbb2cc86",
           "createdAt": "2025-11-27T09:27:10.545Z",
           "lastUpdated": "2025-11-27T09:27:10.689Z"
+        },
+        "1247": {
+          "number": 1247,
+          "title": "EXUI-3682 - toolbar items repeated by voiceover tools",
+          "author": "chrisjones-hmcts",
+          "url": "https://github.com/hmcts/em-media-viewer/pull/1247",
+          "changesRequested": false,
+          "approvals": 0,
+          "buildSuccess": true,
+          "headSha": "2b5eebfd0b9e2986d5ae26bc11c7bcf3a1adc4f8",
+          "createdAt": "2025-11-27T16:14:37.694Z",
+          "lastUpdated": "2025-11-27T16:14:37.853Z"
         }
       }
     },
