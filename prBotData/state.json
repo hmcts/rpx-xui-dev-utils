@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1764339990.481669",
-    "lastUpdated": "2025-11-28T14:26:20.839Z",
+    "lastUpdated": "2025-11-28T15:54:49.478Z",
     "approvalListMessageHash": "8a8e8e34bf98d6965e29e68246cabc719d271292631150624587151b84e8c890"
   },
   "repositories": {
@@ -142,6 +142,18 @@
           "headSha": "bfd3ee06a037e9a9fce4e43d73c5c5dd97e09744",
           "createdAt": "2025-11-28T12:42:18.928Z",
           "lastUpdated": "2025-11-28T12:42:19.121Z"
+        },
+        "4770": {
+          "number": 4770,
+          "title": "EXUI-3720 - Update OIDC enabled value in default.json",
+          "author": "Josh-HMCTS",
+          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/4770",
+          "changesRequested": false,
+          "approvals": 0,
+          "buildSuccess": false,
+          "headSha": "7c3139aae5d9260dae0256d8701e9cd34a48037d",
+          "createdAt": "2025-11-28T15:54:49.378Z",
+          "lastUpdated": "2025-11-28T15:54:49.478Z"
         }
       }
     },
