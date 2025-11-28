@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1764329740.799549",
-    "lastUpdated": "2025-11-28T11:35:29.860Z",
+    "lastUpdated": "2025-11-28T11:55:10.140Z",
     "approvalListMessageHash": "5eb1e84ec9efed27df6b08a0fda3fc04b1f8d3fb9fffd398181be7fedcae6fd9"
   },
   "repositories": {
@@ -130,18 +130,6 @@
           "headSha": "d8a0a6e96b77956dce1185a3ff50aba0fdfffbe0",
           "createdAt": "2025-11-21T16:20:10.684Z",
           "lastUpdated": "2025-11-21T17:37:27.752Z"
-        },
-        "4764": {
-          "number": 4764,
-          "title": "EXUI-3783: Switch the smoke test from codeceptJS to Playwright",
-          "author": "danH-test",
-          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/4764",
-          "changesRequested": false,
-          "approvals": 1,
-          "buildSuccess": true,
-          "headSha": "5efa0f1fd8af084003b216a512ce9cd24183bc27",
-          "createdAt": "2025-11-27T17:31:27.493Z",
-          "lastUpdated": "2025-11-27T18:17:16.000Z"
         },
         "4767": {
           "number": 4767,
