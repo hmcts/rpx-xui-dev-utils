@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1764339990.481669",
-    "lastUpdated": "2025-11-28T15:54:49.478Z",
+    "lastUpdated": "2025-11-28T16:07:24.065Z",
     "approvalListMessageHash": "8a8e8e34bf98d6965e29e68246cabc719d271292631150624587151b84e8c890"
   },
   "repositories": {
@@ -170,6 +170,18 @@
           "headSha": "debda6cb560fd7001484e3b4679262b5aab8df2c",
           "createdAt": "2025-11-11T21:31:54.300Z",
           "lastUpdated": "2025-11-11T21:31:54.508Z"
+        },
+        "1445": {
+          "number": 1445,
+          "title": "EXUI-3791 nightly pipeline fix mo",
+          "author": "chrisjones-hmcts",
+          "url": "https://github.com/hmcts/rpx-xui-manage-organisations/pull/1445",
+          "changesRequested": false,
+          "approvals": 0,
+          "buildSuccess": true,
+          "headSha": "a537076890474371d2f73b1e9aed2b3c645f5683",
+          "createdAt": "2025-11-28T16:07:23.968Z",
+          "lastUpdated": "2025-11-28T16:07:24.065Z"
         }
       }
     },
