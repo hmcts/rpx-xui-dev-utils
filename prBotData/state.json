@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1764267445.631619",
-    "lastUpdated": "2025-11-27T18:17:16.000Z",
+    "lastUpdated": "2025-11-28T09:19:46.606Z",
     "approvalListMessageHash": "0078f8e0139ccba6504122579046c44589a1deb5776f2ca8bf714c648a06539b"
   },
   "repositories": {
@@ -166,6 +166,18 @@
           "headSha": "c9f149216bc975cd77b405590702fe8dbed19a12",
           "createdAt": "2025-11-27T17:23:55.946Z",
           "lastUpdated": "2025-11-27T18:13:01.120Z"
+        },
+        "4767": {
+          "number": 4767,
+          "title": "EXUI-3778 Add node-api test coverage reporting to API Odhin runs ",
+          "author": "andyg-cgi",
+          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/4767",
+          "changesRequested": false,
+          "approvals": 0,
+          "buildSuccess": false,
+          "headSha": "2cd80c097350a1029a747b388edd0ed3e8f44530",
+          "createdAt": "2025-11-28T09:19:46.318Z",
+          "lastUpdated": "2025-11-28T09:19:46.606Z"
         }
       }
     },
