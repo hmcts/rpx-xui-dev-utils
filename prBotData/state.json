@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1764602962.344549",
-    "lastUpdated": "2025-12-01T15:29:12.545Z",
+    "lastUpdated": "2025-12-01T16:03:01.844Z",
     "approvalListMessageHash": "78a8d81dc69f72c0b7e69febc2cf59c753a6e3a0e4076d332ad3b1c8806f44a6"
   },
   "repositories": {
@@ -190,6 +190,18 @@
           "headSha": "94ddfee4b08f15ef7b74fdddc8ad96bcdbbb0958",
           "createdAt": "2025-12-01T11:42:42.097Z",
           "lastUpdated": "2025-12-01T11:42:42.193Z"
+        },
+        "2035": {
+          "number": 2035,
+          "title": "fixed failing accessibility for minute field",
+          "author": "olusegz07",
+          "url": "https://github.com/hmcts/ccd-case-ui-toolkit/pull/2035",
+          "changesRequested": false,
+          "approvals": 1,
+          "buildSuccess": true,
+          "headSha": "70c68a1b95543e0bd7c529eb0cca50dc384c109c",
+          "createdAt": "2025-12-01T16:03:01.730Z",
+          "lastUpdated": "2025-12-01T16:03:01.844Z"
         },
         "2041": {
           "number": 2041,
