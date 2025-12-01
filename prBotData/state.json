@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1764601649.819539",
-    "lastUpdated": "2025-12-01T15:07:18.891Z",
+    "lastUpdated": "2025-12-01T15:27:54.449Z",
     "approvalListMessageHash": "24d7da0b4f7339a6b713ab25401d97644c41af94da8db5931e517a6f4bfb7680"
   },
   "repositories": {
@@ -289,15 +289,15 @@
       "pullRequests": {
         "523": {
           "number": 523,
-          "title": "Add upgrade to 20.3.14",
+          "title": "EXUI-3798 - Add upgrade to 20.3.14",
           "author": "connorpgpmcelroy",
           "url": "https://github.com/hmcts/rpx-xui-common-lib/pull/523",
           "changesRequested": false,
-          "approvals": 0,
+          "approvals": 1,
           "buildSuccess": true,
           "headSha": "3d1296ff2478ffea48bef4e433419cbd1ef6866e",
-          "createdAt": "2025-12-01T15:06:56.576Z",
-          "lastUpdated": "2025-12-01T15:06:56.698Z"
+          "createdAt": "2025-12-01T15:27:54.264Z",
+          "lastUpdated": "2025-12-01T15:27:54.449Z"
         }
       }
     }
