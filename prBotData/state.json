@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1764602938.084399",
-    "lastUpdated": "2025-12-01T15:28:47.387Z",
+    "lastUpdated": "2025-12-01T15:29:12.545Z",
     "approvalListMessageHash": "9f249b1df4fbb29d6c315bb38dcb787404ef4e7cb472f728ec9b56d429848591"
   },
   "repositories": {
@@ -241,15 +241,15 @@
         },
         "2053": {
           "number": 2053,
-          "title": "Upgrade Angular to fix CVEs",
+          "title": "EXUI-3798 - Upgrade Angular to fix CVEs",
           "author": "connorpgpmcelroy",
           "url": "https://github.com/hmcts/ccd-case-ui-toolkit/pull/2053",
           "changesRequested": false,
-          "approvals": 0,
+          "approvals": 1,
           "buildSuccess": true,
-          "headSha": "445d174bec30ee93a2dc47e5291e16f2ae0539be",
-          "createdAt": "2025-12-01T14:08:00.921Z",
-          "lastUpdated": "2025-12-01T14:08:01.078Z"
+          "headSha": "125bca867f8a6f872fa6d04262b98f481c48133f",
+          "createdAt": "2025-12-01T15:29:12.388Z",
+          "lastUpdated": "2025-12-01T15:29:12.545Z"
         }
       }
     },
