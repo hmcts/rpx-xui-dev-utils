@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1764606111.801929",
-    "lastUpdated": "2025-12-01T16:21:42.542Z",
+    "lastUpdated": "2025-12-01T16:59:40.724Z",
     "approvalListMessageHash": "a94f9affc22dfedcfb7f8ce62f7dfcb0af982aca5fb52789dafe36ebfc26639d"
   },
   "repositories": {
@@ -142,6 +142,18 @@
           "headSha": "7c3139aae5d9260dae0256d8701e9cd34a48037d",
           "createdAt": "2025-12-01T16:15:15.840Z",
           "lastUpdated": "2025-12-01T16:15:16.072Z"
+        },
+        "4774": {
+          "number": 4774,
+          "title": "cot-1086 enable cr84 on IAC",
+          "author": "anthonydummer",
+          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/4774",
+          "changesRequested": false,
+          "approvals": 0,
+          "buildSuccess": false,
+          "headSha": "56ef281d45bec1eb46ddfdd82ce3bc5b74cad2a4",
+          "createdAt": "2025-12-01T16:59:40.446Z",
+          "lastUpdated": "2025-12-01T16:59:40.724Z"
         }
       }
     },
