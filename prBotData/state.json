@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1764588483.599659",
-    "lastUpdated": "2025-12-01T11:27:52.563Z",
+    "lastUpdated": "2025-12-01T11:31:50.844Z",
     "approvalListMessageHash": "08728068f1c9953815bf36714456f69d10ac131a4637e0342741833913e28dca"
   },
   "repositories": {
@@ -191,6 +191,18 @@
     },
     "hmcts/ccd-case-ui-toolkit": {
       "pullRequests": {
+        "2029": {
+          "number": 2029,
+          "title": "EXUI-3455 - Update code to redirect user to start of flow if refresh/go direct to…",
+          "author": "Josh-HMCTS",
+          "url": "https://github.com/hmcts/ccd-case-ui-toolkit/pull/2029",
+          "changesRequested": false,
+          "approvals": 1,
+          "buildSuccess": true,
+          "headSha": "74187db5d78a827ae0351a343d580a374f412b42",
+          "createdAt": "2025-12-01T11:31:50.638Z",
+          "lastUpdated": "2025-12-01T11:31:50.844Z"
+        },
         "2041": {
           "number": 2041,
           "title": "exui-3545-add logs",
