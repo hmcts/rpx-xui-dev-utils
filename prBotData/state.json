@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1764598606.595949",
-    "lastUpdated": "2025-12-01T14:16:35.361Z",
+    "lastUpdated": "2025-12-01T14:40:10.565Z",
     "approvalListMessageHash": "7ab89458f8a33b64b90c46ab416c8dd78a03401c0e576600a2c59682b9d01c51"
   },
   "repositories": {
@@ -266,6 +266,22 @@
           "headSha": "481199d27b85b3887df449a700e3b4f11bc5c337",
           "createdAt": "2025-11-20T09:56:36.353Z",
           "lastUpdated": "2025-11-20T09:56:36.568Z"
+        }
+      }
+    },
+    "hmcts/rpx-xui-translation": {
+      "pullRequests": {
+        "59": {
+          "number": 59,
+          "title": "Upgrade angular to 20.3.14",
+          "author": "connorpgpmcelroy",
+          "url": "https://github.com/hmcts/rpx-xui-translation/pull/59",
+          "changesRequested": false,
+          "approvals": 0,
+          "buildSuccess": true,
+          "headSha": "35dfe24f0cda95c7696f9646b52bbbc1c5d178f9",
+          "createdAt": "2025-12-01T14:40:10.314Z",
+          "lastUpdated": "2025-12-01T14:40:10.565Z"
         }
       }
     }
