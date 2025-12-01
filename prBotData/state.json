@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1764600021.924429",
-    "lastUpdated": "2025-12-01T14:40:10.565Z",
+    "lastUpdated": "2025-12-01T15:06:56.698Z",
     "approvalListMessageHash": "fa77ae6f196ec1128ab60d5aa197baaac6ef50f6424b7e0833d0e2008a1e3bbe"
   },
   "repositories": {
@@ -282,6 +282,22 @@
           "headSha": "35dfe24f0cda95c7696f9646b52bbbc1c5d178f9",
           "createdAt": "2025-12-01T14:40:10.314Z",
           "lastUpdated": "2025-12-01T14:40:10.565Z"
+        }
+      }
+    },
+    "hmcts/rpx-xui-common-lib": {
+      "pullRequests": {
+        "523": {
+          "number": 523,
+          "title": "Add upgrade to 20.3.14",
+          "author": "connorpgpmcelroy",
+          "url": "https://github.com/hmcts/rpx-xui-common-lib/pull/523",
+          "changesRequested": false,
+          "approvals": 0,
+          "buildSuccess": true,
+          "headSha": "3d1296ff2478ffea48bef4e433419cbd1ef6866e",
+          "createdAt": "2025-12-01T15:06:56.576Z",
+          "lastUpdated": "2025-12-01T15:06:56.698Z"
         }
       }
     }
