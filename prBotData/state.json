@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1764602885.991959",
-    "lastUpdated": "2025-12-01T15:27:54.449Z",
+    "lastUpdated": "2025-12-01T15:28:47.387Z",
     "approvalListMessageHash": "35efad6acc68beb684049248933f0a4e0f8c7f5fb9d3eff5da2b3ab4a98e7de8"
   },
   "repositories": {
@@ -273,15 +273,15 @@
       "pullRequests": {
         "59": {
           "number": 59,
-          "title": "Upgrade angular to 20.3.14",
+          "title": "EXUI-3798 - Upgrade angular to 20.3.14",
           "author": "connorpgpmcelroy",
           "url": "https://github.com/hmcts/rpx-xui-translation/pull/59",
           "changesRequested": false,
-          "approvals": 0,
+          "approvals": 1,
           "buildSuccess": true,
-          "headSha": "35dfe24f0cda95c7696f9646b52bbbc1c5d178f9",
-          "createdAt": "2025-12-01T14:40:10.314Z",
-          "lastUpdated": "2025-12-01T14:40:10.565Z"
+          "headSha": "12c222881116e04842438a244e91d311a57b859f",
+          "createdAt": "2025-12-01T15:28:47.265Z",
+          "lastUpdated": "2025-12-01T15:28:47.387Z"
         }
       }
     },
