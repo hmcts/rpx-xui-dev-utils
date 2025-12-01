@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1764593349.313429",
-    "lastUpdated": "2025-12-01T12:48:59.273Z",
+    "lastUpdated": "2025-12-01T14:08:01.078Z",
     "approvalListMessageHash": "8cd247e4151f53d3191d040db060585cf5ec2586dbf35690d754e90c4728bfe8"
   },
   "repositories": {
@@ -238,6 +238,18 @@
           "headSha": "48404d1d6e51ea04e2cf25d0893fcc726a6d4c25",
           "createdAt": "2025-11-28T14:26:20.673Z",
           "lastUpdated": "2025-11-28T14:26:20.839Z"
+        },
+        "2053": {
+          "number": 2053,
+          "title": "Upgrade Angular to fix CVEs",
+          "author": "connorpgpmcelroy",
+          "url": "https://github.com/hmcts/ccd-case-ui-toolkit/pull/2053",
+          "changesRequested": false,
+          "approvals": 0,
+          "buildSuccess": true,
+          "headSha": "445d174bec30ee93a2dc47e5291e16f2ae0539be",
+          "createdAt": "2025-12-01T14:08:00.921Z",
+          "lastUpdated": "2025-12-01T14:08:01.078Z"
         }
       }
     },
