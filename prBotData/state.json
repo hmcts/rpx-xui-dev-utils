@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1764591705.928299",
-    "lastUpdated": "2025-12-01T12:21:35.402Z",
+    "lastUpdated": "2025-12-01T12:34:51.847Z",
     "approvalListMessageHash": "8cd247e4151f53d3191d040db060585cf5ec2586dbf35690d754e90c4728bfe8"
   },
   "repositories": {
@@ -202,6 +202,18 @@
           "headSha": "7198c81f09e91028c369f24a97e12bade8b5d8f4",
           "createdAt": "2025-11-19T13:00:21.969Z",
           "lastUpdated": "2025-11-19T13:00:22.157Z"
+        },
+        "2042": {
+          "number": 2042,
+          "title": "EXUI-3552 - Get case type from URL ",
+          "author": "Josh-HMCTS",
+          "url": "https://github.com/hmcts/ccd-case-ui-toolkit/pull/2042",
+          "changesRequested": false,
+          "approvals": 1,
+          "buildSuccess": true,
+          "headSha": "12dd51da1255a19d79c0e6440eba028f7464208a",
+          "createdAt": "2025-12-01T12:34:51.584Z",
+          "lastUpdated": "2025-12-01T12:34:51.847Z"
         },
         "2048": {
           "number": 2048,
