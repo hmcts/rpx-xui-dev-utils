@@ -203,18 +203,6 @@
           "createdAt": "2025-11-24T17:23:27.272Z",
           "lastUpdated": "2025-11-24T17:23:27.555Z"
         },
-        "2051": {
-          "number": 2051,
-          "title": "EXUI-2645 - Add the getUserByIdamId functionality",
-          "author": "connorpgpmcelroy",
-          "url": "https://github.com/hmcts/ccd-case-ui-toolkit/pull/2051",
-          "changesRequested": false,
-          "approvals": 1,
-          "buildSuccess": true,
-          "headSha": "a0a671c28aa76a9d71e8e43617b0a0594821d3ec",
-          "createdAt": "2025-12-01T11:27:52.431Z",
-          "lastUpdated": "2025-12-01T11:27:52.563Z"
-        },
         "2052": {
           "number": 2052,
           "title": "exui-3759-summary tab default",
