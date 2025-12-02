@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1764695841.807439",
-    "lastUpdated": "2025-12-02T17:17:10.721Z",
+    "lastUpdated": "2025-12-02T19:49:11.627Z",
     "approvalListMessageHash": "01f798a3488b5b561e0620d2654d196dd745ac7df85520aecffa37d80671a473"
   },
   "repositories": {
@@ -130,6 +130,18 @@
           "headSha": "109c7d348838c79f16185a842ece83398b4cd3c9",
           "createdAt": "2025-12-02T10:39:19.551Z",
           "lastUpdated": "2025-12-02T10:39:19.716Z"
+        },
+        "4777": {
+          "number": 4777,
+          "title": "fix for cot-1088",
+          "author": "anthonydummer",
+          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/4777",
+          "changesRequested": false,
+          "approvals": 0,
+          "buildSuccess": false,
+          "headSha": "ff2f81df5bb1d853ae495797bf533050244db912",
+          "createdAt": "2025-12-02T19:49:11.440Z",
+          "lastUpdated": "2025-12-02T19:49:11.627Z"
         }
       }
     },
