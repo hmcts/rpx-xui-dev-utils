@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1764612378.126199",
-    "lastUpdated": "2025-12-02T09:04:08.222Z",
+    "lastUpdated": "2025-12-02T09:17:46.645Z",
     "approvalListMessageHash": "e6d02f1a0d5d3de276a6562f73bc2001cacfc7ddc6b1b0d77ba66f10d875869c"
   },
   "repositories": {
@@ -182,18 +182,6 @@
           "headSha": "debda6cb560fd7001484e3b4679262b5aab8df2c",
           "createdAt": "2025-11-11T21:31:54.300Z",
           "lastUpdated": "2025-11-11T21:31:54.508Z"
-        },
-        "1446": {
-          "number": 1446,
-          "title": "exui-3806-Update contact details Employment",
-          "author": "RiteshHMCTS",
-          "url": "https://github.com/hmcts/rpx-xui-manage-organisations/pull/1446",
-          "changesRequested": false,
-          "approvals": 1,
-          "buildSuccess": false,
-          "headSha": "e18f621bbc972f00f4333d99a7e57d21fc433ce0",
-          "createdAt": "2025-12-02T09:04:08.090Z",
-          "lastUpdated": "2025-12-02T09:04:08.222Z"
         }
       }
     },
