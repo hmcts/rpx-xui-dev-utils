@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1764671970.140569",
-    "lastUpdated": "2025-12-02T12:07:47.393Z",
+    "lastUpdated": "2025-12-02T12:21:55.346Z",
     "approvalListMessageHash": "69672c34aa2589b6fb4ff34b348f9594b6a8546693eac19cc9de71fb73b93bc2"
   },
   "repositories": {
@@ -170,6 +170,18 @@
           "headSha": "debda6cb560fd7001484e3b4679262b5aab8df2c",
           "createdAt": "2025-11-11T21:31:54.300Z",
           "lastUpdated": "2025-11-11T21:31:54.508Z"
+        },
+        "1447": {
+          "number": 1447,
+          "title": "Add angular minor upgrade to 20.3.15",
+          "author": "connorpgpmcelroy",
+          "url": "https://github.com/hmcts/rpx-xui-manage-organisations/pull/1447",
+          "changesRequested": false,
+          "approvals": 0,
+          "buildSuccess": false,
+          "headSha": "8c96830cfc2d3e759a4f8b5c5a9ecfb59d9def32",
+          "createdAt": "2025-12-02T12:21:55.232Z",
+          "lastUpdated": "2025-12-02T12:21:55.346Z"
         }
       }
     },
