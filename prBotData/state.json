@@ -131,18 +131,6 @@
           "createdAt": "2025-12-01T16:19:08.565Z",
           "lastUpdated": "2025-12-01T16:19:08.741Z"
         },
-        "4769": {
-          "number": 4769,
-          "title": "Bug/ex UI 2645 caseworkers by idam",
-          "author": "connorpgpmcelroy",
-          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/4769",
-          "changesRequested": false,
-          "approvals": 1,
-          "buildSuccess": true,
-          "headSha": "f57034b8a35e73d3997ce5a907798421b0740091",
-          "createdAt": "2025-12-01T12:21:35.303Z",
-          "lastUpdated": "2025-12-01T12:21:35.402Z"
-        },
         "4770": {
           "number": 4770,
           "title": "EXUI-3720 - Update OIDC enabled value in default.json",
