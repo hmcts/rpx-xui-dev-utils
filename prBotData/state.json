@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1764612378.126199",
-    "lastUpdated": "2025-12-01T18:06:06.678Z",
+    "lastUpdated": "2025-12-02T03:44:58.456Z",
     "approvalListMessageHash": "e6d02f1a0d5d3de276a6562f73bc2001cacfc7ddc6b1b0d77ba66f10d875869c"
   },
   "repositories": {
@@ -30,6 +30,18 @@
           "headSha": "2b5eebfd0b9e2986d5ae26bc11c7bcf3a1adc4f8",
           "createdAt": "2025-12-01T16:17:25.056Z",
           "lastUpdated": "2025-12-01T16:17:25.221Z"
+        },
+        "1249": {
+          "number": 1249,
+          "title": "Update dependency @angular/compiler to v20.3.15 [SECURITY]",
+          "author": "renovate[bot]",
+          "url": "https://github.com/hmcts/em-media-viewer/pull/1249",
+          "changesRequested": false,
+          "approvals": 0,
+          "buildSuccess": false,
+          "headSha": "aee0818c1848436fdd6fd2cc086e5db33a27216e",
+          "createdAt": "2025-12-02T03:44:58.276Z",
+          "lastUpdated": "2025-12-02T03:44:58.456Z"
         }
       }
     },
