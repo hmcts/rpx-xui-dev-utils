@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1764690122.274999",
-    "lastUpdated": "2025-12-02T15:41:51.487Z",
+    "lastUpdated": "2025-12-02T16:02:28.183Z",
     "approvalListMessageHash": "91e76cd70deffbd1bd16cf96db24a307e43d6f241e0b02fc28c2149e6d9de1e6"
   },
   "repositories": {
@@ -174,18 +174,6 @@
           "headSha": "75a824b76a76b6b07f5bc17e062bd6e45816b27e",
           "createdAt": "2025-11-13T10:19:55.827Z",
           "lastUpdated": "2025-11-13T10:19:55.951Z"
-        },
-        "960": {
-          "number": 960,
-          "title": "EXUI-3800 - Add upgrade to 20.3.15",
-          "author": "connorpgpmcelroy",
-          "url": "https://github.com/hmcts/rpx-xui-approve-org/pull/960",
-          "changesRequested": false,
-          "approvals": 1,
-          "buildSuccess": true,
-          "headSha": "6ccbb3aa1432da6e025918fe9c3f3c41f6237de6",
-          "createdAt": "2025-12-02T15:35:34.195Z",
-          "lastUpdated": "2025-12-02T15:35:34.488Z"
         }
       }
     },
