@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1764689745.531139",
-    "lastUpdated": "2025-12-02T15:35:34.488Z",
+    "lastUpdated": "2025-12-02T15:41:51.487Z",
     "approvalListMessageHash": "d0ec3357003f4668e1b674dbc6cccd479e72979d71976506407a0b2b95f8a48a"
   },
   "repositories": {
@@ -262,10 +262,10 @@
           "url": "https://github.com/hmcts/em-showcase/pull/745",
           "changesRequested": false,
           "approvals": 0,
-          "buildSuccess": false,
+          "buildSuccess": true,
           "headSha": "7f30b6a707cbc76946e679c171cc00753471df13",
           "createdAt": "2025-12-02T15:12:25.045Z",
-          "lastUpdated": "2025-12-02T15:12:25.287Z"
+          "lastUpdated": "2025-12-02T15:41:51.487Z"
         }
       }
     }
