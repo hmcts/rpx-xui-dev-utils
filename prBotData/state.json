@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1764691442.600919",
-    "lastUpdated": "2025-12-02T16:03:51.290Z",
+    "lastUpdated": "2025-12-02T16:09:09.526Z",
     "approvalListMessageHash": "79b942a35e17d24fd1c49d9cd166b55114f03f906a4be5932ef9efa72eb71609"
   },
   "repositories": {
@@ -130,18 +130,6 @@
           "headSha": "109c7d348838c79f16185a842ece83398b4cd3c9",
           "createdAt": "2025-12-02T10:39:19.551Z",
           "lastUpdated": "2025-12-02T10:39:19.716Z"
-        },
-        "4776": {
-          "number": 4776,
-          "title": "exui-3805-consider sscs roles for roleCategory",
-          "author": "RiteshHMCTS",
-          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/4776",
-          "changesRequested": false,
-          "approvals": 1,
-          "buildSuccess": true,
-          "headSha": "fe4965996351862b31716a89bac953a8e963a20b",
-          "createdAt": "2025-12-02T16:03:51.116Z",
-          "lastUpdated": "2025-12-02T16:03:51.290Z"
         }
       }
     },
