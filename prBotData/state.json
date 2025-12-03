@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1764774492.355949",
-    "lastUpdated": "2025-12-03T15:07:59.564Z",
+    "lastUpdated": "2025-12-03T15:38:20.881Z",
     "approvalListMessageHash": "7630ee6a9bcbcd8adf49f01a588dc3206502403b5d69701fc03281fd8c9308fa"
   },
   "repositories": {
@@ -106,6 +106,18 @@
           "headSha": "109c7d348838c79f16185a842ece83398b4cd3c9",
           "createdAt": "2025-12-02T10:39:19.551Z",
           "lastUpdated": "2025-12-02T10:39:19.716Z"
+        },
+        "4778": {
+          "number": 4778,
+          "title": "Move playwright install to run before test",
+          "author": "Josh-HMCTS",
+          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/4778",
+          "changesRequested": false,
+          "approvals": 0,
+          "buildSuccess": false,
+          "headSha": "3607d20e547d5bd31fef096bc81d9b9847a254fb",
+          "createdAt": "2025-12-03T15:38:20.789Z",
+          "lastUpdated": "2025-12-03T15:38:20.881Z"
         }
       }
     },
