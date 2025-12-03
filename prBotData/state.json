@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1764757790.223109",
-    "lastUpdated": "2025-12-03T10:29:39.458Z",
+    "lastUpdated": "2025-12-03T12:49:40.654Z",
     "approvalListMessageHash": "ceeea3bff4dfa9577d84335de57c726df6eaa9ede8152c35206344b54a4c26da"
   },
   "repositories": {
@@ -30,18 +30,6 @@
           "headSha": "aee0818c1848436fdd6fd2cc086e5db33a27216e",
           "createdAt": "2025-12-02T03:44:58.276Z",
           "lastUpdated": "2025-12-02T03:44:58.456Z"
-        },
-        "1250": {
-          "number": 1250,
-          "title": "exui-3807 pipeline audit suppression",
-          "author": "balajisridharanhmcts",
-          "url": "https://github.com/hmcts/em-media-viewer/pull/1250",
-          "changesRequested": false,
-          "approvals": 1,
-          "buildSuccess": true,
-          "headSha": "4880adb2d2800bf74b2db8a5ec69ec089550714e",
-          "createdAt": "2025-12-03T09:12:08.203Z",
-          "lastUpdated": "2025-12-03T09:12:08.380Z"
         }
       }
     },
