@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1764857304.229049",
-    "lastUpdated": "2025-12-04T14:24:34.059Z",
+    "lastUpdated": "2025-12-04T14:34:00.241Z",
     "approvalListMessageHash": "5f25d0aa0a12e435104068c069eb7fe058c28be315449949a4c0e90997151a58"
   },
   "repositories": {
@@ -154,6 +154,18 @@
           "headSha": "bf44022a88b3aacaa312ab46194dec85cc96b511",
           "createdAt": "2025-12-04T13:40:55.028Z",
           "lastUpdated": "2025-12-04T13:40:55.178Z"
+        },
+        "4784": {
+          "number": 4784,
+          "title": "exui 3762 idam token issue",
+          "author": "balajisridharanhmcts",
+          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/4784",
+          "changesRequested": false,
+          "approvals": 0,
+          "buildSuccess": false,
+          "headSha": "27afc07eb6a8e1166c5460ea161226abf4feb919",
+          "createdAt": "2025-12-04T14:33:59.936Z",
+          "lastUpdated": "2025-12-04T14:34:00.241Z"
         }
       }
     },
