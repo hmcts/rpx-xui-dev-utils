@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1764852977.731939",
-    "lastUpdated": "2025-12-04T13:20:26.198Z",
+    "lastUpdated": "2025-12-04T13:20:31.892Z",
     "approvalListMessageHash": "6978b16f49348ea7c8c49e834280909581e182e024008b597cd22b345619df65"
   },
   "repositories": {
@@ -146,6 +146,18 @@
           "headSha": "debda6cb560fd7001484e3b4679262b5aab8df2c",
           "createdAt": "2025-11-11T21:31:54.300Z",
           "lastUpdated": "2025-11-11T21:31:54.508Z"
+        },
+        "1451": {
+          "number": 1451,
+          "title": "EXUI-3779 - Test Failures but overall pipeline is Green",
+          "author": "chrisjones-hmcts",
+          "url": "https://github.com/hmcts/rpx-xui-manage-organisations/pull/1451",
+          "changesRequested": false,
+          "approvals": 0,
+          "buildSuccess": false,
+          "headSha": "8f1e55076fde3ba594a06a5dfc9a97b3a6783ef2",
+          "createdAt": "2025-12-04T13:20:31.664Z",
+          "lastUpdated": "2025-12-04T13:20:31.892Z"
         }
       }
     },
