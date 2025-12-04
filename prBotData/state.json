@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1764852977.731939",
-    "lastUpdated": "2025-12-04T13:17:32.720Z",
+    "lastUpdated": "2025-12-04T13:19:49.923Z",
     "approvalListMessageHash": "6978b16f49348ea7c8c49e834280909581e182e024008b597cd22b345619df65"
   },
   "repositories": {
@@ -130,6 +130,18 @@
           "headSha": "f2ba36790268d2268054b3c0b7758fc9c823ff8d",
           "createdAt": "2025-12-03T15:55:30.208Z",
           "lastUpdated": "2025-12-04T10:04:50.901Z"
+        },
+        "4782": {
+          "number": 4782,
+          "title": "Revert \"Test(EXUI-3347): update tests for new content\"",
+          "author": "gregs-cgi",
+          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/4782",
+          "changesRequested": false,
+          "approvals": 1,
+          "buildSuccess": false,
+          "headSha": "1cd47c6a389a33a2bb12e73e37a18e58453843f8",
+          "createdAt": "2025-12-04T13:19:49.713Z",
+          "lastUpdated": "2025-12-04T13:19:49.923Z"
         }
       }
     },
