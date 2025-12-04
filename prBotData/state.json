@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1764857304.229049",
-    "lastUpdated": "2025-12-04T14:34:00.241Z",
+    "lastUpdated": "2025-12-04T14:42:41.594Z",
     "approvalListMessageHash": "5f25d0aa0a12e435104068c069eb7fe058c28be315449949a4c0e90997151a58"
   },
   "repositories": {
@@ -130,18 +130,6 @@
           "headSha": "f2ba36790268d2268054b3c0b7758fc9c823ff8d",
           "createdAt": "2025-12-03T15:55:30.208Z",
           "lastUpdated": "2025-12-04T10:04:50.901Z"
-        },
-        "4780": {
-          "number": 4780,
-          "title": "EXUI-3820 Add Swagger UI for local endpoints and link upstream API docs",
-          "author": "andyg-cgi",
-          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/4780",
-          "changesRequested": false,
-          "approvals": 1,
-          "buildSuccess": false,
-          "headSha": "4323c4b65ee79c00a4a90da9c82e6b1fd7375855",
-          "createdAt": "2025-12-04T14:24:33.958Z",
-          "lastUpdated": "2025-12-04T14:24:34.059Z"
         },
         "4783": {
           "number": 4783,
