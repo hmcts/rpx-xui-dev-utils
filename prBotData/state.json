@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1764842473.084159",
-    "lastUpdated": "2025-12-04T10:01:02.617Z",
+    "lastUpdated": "2025-12-04T10:02:11.109Z",
     "approvalListMessageHash": "064f663edd11f1b36673e3be553be565c731da771beebb2cf57d28c9ea245b54"
   },
   "repositories": {
@@ -109,15 +109,15 @@
         },
         "4778": {
           "number": 4778,
-          "title": "Move playwright install to run before test",
+          "title": "EXUI-3940 - Move playwright install to run before test",
           "author": "Josh-HMCTS",
           "url": "https://github.com/hmcts/rpx-xui-webapp/pull/4778",
           "changesRequested": false,
-          "approvals": 0,
+          "approvals": 1,
           "buildSuccess": false,
-          "headSha": "3607d20e547d5bd31fef096bc81d9b9847a254fb",
-          "createdAt": "2025-12-03T15:38:20.789Z",
-          "lastUpdated": "2025-12-03T15:38:20.881Z"
+          "headSha": "dc9a0af63fbcf1828c0ab335a278b953ad8989ec",
+          "createdAt": "2025-12-04T10:02:10.971Z",
+          "lastUpdated": "2025-12-04T10:02:11.109Z"
         },
         "4779": {
           "number": 4779,
