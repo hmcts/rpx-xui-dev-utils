@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1764842246.483209",
-    "lastUpdated": "2025-12-04T09:57:15.450Z",
+    "lastUpdated": "2025-12-04T09:57:29.032Z",
     "approvalListMessageHash": "16dab0e687024414d7f98a986acae4325860c4ef1c206a5b0bf46eb15802afe6"
   },
   "repositories": {
@@ -254,18 +254,6 @@
           "headSha": "481199d27b85b3887df449a700e3b4f11bc5c337",
           "createdAt": "2025-11-20T09:56:36.353Z",
           "lastUpdated": "2025-11-20T09:56:36.568Z"
-        },
-        "745": {
-          "number": 745,
-          "title": "yarn audit suppression",
-          "author": "balajisridharanhmcts",
-          "url": "https://github.com/hmcts/em-showcase/pull/745",
-          "changesRequested": false,
-          "approvals": 1,
-          "buildSuccess": true,
-          "headSha": "7f30b6a707cbc76946e679c171cc00753471df13",
-          "createdAt": "2025-12-03T09:10:56.401Z",
-          "lastUpdated": "2025-12-03T09:10:56.666Z"
         }
       }
     }
