@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1764941965.867329",
-    "lastUpdated": "2025-12-05T14:00:28.805Z",
+    "lastUpdated": "2025-12-05T14:17:35.740Z",
     "approvalListMessageHash": "7fd0ef2d95c7922be0d6d5bbc0eb5d545d21822d2306adad9e3af4298d37fb36"
   },
   "repositories": {
@@ -250,6 +250,18 @@
           "headSha": "48404d1d6e51ea04e2cf25d0893fcc726a6d4c25",
           "createdAt": "2025-11-28T14:26:20.673Z",
           "lastUpdated": "2025-11-28T14:26:20.839Z"
+        },
+        "2055": {
+          "number": 2055,
+          "title": "Ex UI 3694 new query journey",
+          "author": "olusegz07",
+          "url": "https://github.com/hmcts/ccd-case-ui-toolkit/pull/2055",
+          "changesRequested": false,
+          "approvals": 0,
+          "buildSuccess": true,
+          "headSha": "da551ba77685b76db40c7d367d055b802984f5e8",
+          "createdAt": "2025-12-05T14:17:35.538Z",
+          "lastUpdated": "2025-12-05T14:17:35.740Z"
         }
       }
     },
