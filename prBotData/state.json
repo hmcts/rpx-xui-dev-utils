@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1764945793.127589",
-    "lastUpdated": "2025-12-05T14:43:02.618Z",
+    "lastUpdated": "2025-12-05T15:01:55.691Z",
     "approvalListMessageHash": "b354f2cf27ad8ddef838fd89f49132ce94d79eedd87dd732bc05722dc98c895b"
   },
   "repositories": {
@@ -238,18 +238,6 @@
           "headSha": "da551ba77685b76db40c7d367d055b802984f5e8",
           "createdAt": "2025-12-05T14:17:35.538Z",
           "lastUpdated": "2025-12-05T14:17:35.740Z"
-        },
-        "2056": {
-          "number": 2056,
-          "title": "exui-3824-srt-pr",
-          "author": "RiteshHMCTS",
-          "url": "https://github.com/hmcts/ccd-case-ui-toolkit/pull/2056",
-          "changesRequested": false,
-          "approvals": 0,
-          "buildSuccess": true,
-          "headSha": "3f7dc18e03080d6dd261b6347e86f9993b6c497a",
-          "createdAt": "2025-12-05T14:38:11.546Z",
-          "lastUpdated": "2025-12-05T14:38:11.745Z"
         }
       }
     },
