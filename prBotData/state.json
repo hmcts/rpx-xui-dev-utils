@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1764945548.264029",
-    "lastUpdated": "2025-12-05T14:38:58.015Z",
+    "lastUpdated": "2025-12-05T14:43:02.618Z",
     "approvalListMessageHash": "356fb5d2b2c89879e779c7457c0b1c1aee55a6d5b46e0a3c8fc8bb5ec5e137ee"
   },
   "repositories": {
@@ -203,18 +203,6 @@
     },
     "hmcts/ccd-case-ui-toolkit": {
       "pullRequests": {
-        "2029": {
-          "number": 2029,
-          "title": "EXUI-3455 - Update code to redirect user to start of flow if refresh/go direct to…",
-          "author": "Josh-HMCTS",
-          "url": "https://github.com/hmcts/ccd-case-ui-toolkit/pull/2029",
-          "changesRequested": false,
-          "approvals": 1,
-          "buildSuccess": true,
-          "headSha": "94ddfee4b08f15ef7b74fdddc8ad96bcdbbb0958",
-          "createdAt": "2025-12-01T11:42:42.097Z",
-          "lastUpdated": "2025-12-01T11:42:42.193Z"
-        },
         "2048": {
           "number": 2048,
           "title": "first potentail fix",
