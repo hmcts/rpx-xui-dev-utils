@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1764946995.337859",
-    "lastUpdated": "2025-12-05T15:21:45.100Z",
+    "lastUpdated": "2025-12-05T15:27:48.787Z",
     "approvalListMessageHash": "65d5a8ea94ebce2d220dbbbad715f2f4896b8da4ec873102a9c50c53b1c3b42e"
   },
   "repositories": {
@@ -154,6 +154,18 @@
           "headSha": "4ff8fc421d84a2b2f3a4aace4a133695fee6be5a",
           "createdAt": "2025-12-05T15:21:44.992Z",
           "lastUpdated": "2025-12-05T15:21:45.100Z"
+        },
+        "4787": {
+          "number": 4787,
+          "title": "exui-3824-srt-pr",
+          "author": "RiteshHMCTS",
+          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/4787",
+          "changesRequested": false,
+          "approvals": 0,
+          "buildSuccess": false,
+          "headSha": "36b87c58218f8b699122c97248b30c289e4040c9",
+          "createdAt": "2025-12-05T15:27:48.653Z",
+          "lastUpdated": "2025-12-05T15:27:48.787Z"
         }
       }
     },
