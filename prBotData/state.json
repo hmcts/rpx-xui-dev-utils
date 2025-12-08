@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1765184749.717139",
-    "lastUpdated": "2025-12-08T09:05:39.233Z",
+    "lastUpdated": "2025-12-08T10:05:29.868Z",
     "approvalListMessageHash": "bbb887a14c16911fcad7e3dd834f9403960e9bddf344300d8c73934cee6814c0"
   },
   "repositories": {
@@ -106,18 +106,6 @@
           "headSha": "109c7d348838c79f16185a842ece83398b4cd3c9",
           "createdAt": "2025-12-02T10:39:19.551Z",
           "lastUpdated": "2025-12-02T10:39:19.716Z"
-        },
-        "4779": {
-          "number": 4779,
-          "title": "Updated hearings error logs to include case/hearing ID where available.",
-          "author": "ben-james-hmcts",
-          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/4779",
-          "changesRequested": false,
-          "approvals": 1,
-          "buildSuccess": true,
-          "headSha": "f2ba36790268d2268054b3c0b7758fc9c823ff8d",
-          "createdAt": "2025-12-04T14:56:43.043Z",
-          "lastUpdated": "2025-12-04T14:56:43.246Z"
         },
         "4783": {
           "number": 4783,
