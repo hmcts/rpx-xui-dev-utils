@@ -215,30 +215,6 @@
     },
     "hmcts/ccd-case-ui-toolkit": {
       "pullRequests": {
-        "2048": {
-          "number": 2048,
-          "title": "first potentail fix",
-          "author": "RiteshHMCTS",
-          "url": "https://github.com/hmcts/ccd-case-ui-toolkit/pull/2048",
-          "changesRequested": false,
-          "approvals": 0,
-          "buildSuccess": true,
-          "headSha": "0162992a2accce97e37a9a64e6165e2396ca879d",
-          "createdAt": "2025-11-24T17:23:27.272Z",
-          "lastUpdated": "2025-11-24T17:23:27.555Z"
-        },
-        "2052": {
-          "number": 2052,
-          "title": "exui-3759-summary tab default",
-          "author": "RiteshHMCTS",
-          "url": "https://github.com/hmcts/ccd-case-ui-toolkit/pull/2052",
-          "changesRequested": false,
-          "approvals": 0,
-          "buildSuccess": true,
-          "headSha": "48404d1d6e51ea04e2cf25d0893fcc726a6d4c25",
-          "createdAt": "2025-11-28T14:26:20.673Z",
-          "lastUpdated": "2025-11-28T14:26:20.839Z"
-        },
         "2055": {
           "number": 2055,
           "title": "Ex UI 3694 new query journey",
