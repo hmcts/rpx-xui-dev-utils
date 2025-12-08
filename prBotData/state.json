@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1765188339.293379",
-    "lastUpdated": "2025-12-08T10:05:29.868Z",
+    "lastUpdated": "2025-12-08T10:57:42.950Z",
     "approvalListMessageHash": "5175b1aeeb98c691e838d0e6ab51d375d192828ac9ad23684e41738d11f29109"
   },
   "repositories": {
@@ -170,6 +170,18 @@
           "headSha": "8f1e55076fde3ba594a06a5dfc9a97b3a6783ef2",
           "createdAt": "2025-12-04T13:27:41.304Z",
           "lastUpdated": "2025-12-04T13:27:41.443Z"
+        },
+        "1452": {
+          "number": 1452,
+          "title": "exui-3822-on parge refresh unhide menus",
+          "author": "RiteshHMCTS",
+          "url": "https://github.com/hmcts/rpx-xui-manage-organisations/pull/1452",
+          "changesRequested": false,
+          "approvals": 1,
+          "buildSuccess": true,
+          "headSha": "b27699e166af21e7000676ee775ad21c06445f20",
+          "createdAt": "2025-12-08T10:57:42.832Z",
+          "lastUpdated": "2025-12-08T10:57:42.950Z"
         }
       }
     },
