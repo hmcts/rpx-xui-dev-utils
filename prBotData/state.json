@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1765192319.602019",
-    "lastUpdated": "2025-12-08T11:11:49.066Z",
+    "lastUpdated": "2025-12-08T14:12:50.089Z",
     "approvalListMessageHash": "5034f8a887d4f9aeb5f1c6781a4a586023225a69a20d6614e6bac69915983582"
   },
   "repositories": {
@@ -190,6 +190,18 @@
           "headSha": "da551ba77685b76db40c7d367d055b802984f5e8",
           "createdAt": "2025-12-05T14:17:35.538Z",
           "lastUpdated": "2025-12-05T14:17:35.740Z"
+        },
+        "2058": {
+          "number": 2058,
+          "title": "EXUI-3859 - Refactor CDAM to use caseInfo session data",
+          "author": "Josh-HMCTS",
+          "url": "https://github.com/hmcts/ccd-case-ui-toolkit/pull/2058",
+          "changesRequested": false,
+          "approvals": 0,
+          "buildSuccess": true,
+          "headSha": "8093f8efc909b3536eaec2ec018c9c5e318fd763",
+          "createdAt": "2025-12-08T14:12:49.949Z",
+          "lastUpdated": "2025-12-08T14:12:50.089Z"
         }
       }
     },
