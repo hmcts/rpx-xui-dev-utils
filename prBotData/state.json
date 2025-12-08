@@ -1,24 +1,12 @@
 {
   "metadata": {
     "approvalListMessageTs": "1765191680.705239",
-    "lastUpdated": "2025-12-08T11:01:09.080Z",
+    "lastUpdated": "2025-12-08T11:04:16.672Z",
     "approvalListMessageHash": "5175b1aeeb98c691e838d0e6ab51d375d192828ac9ad23684e41738d11f29109"
   },
   "repositories": {
     "hmcts/em-media-viewer": {
       "pullRequests": {
-        "1247": {
-          "number": 1247,
-          "title": "EXUI-3682 - toolbar items repeated by voiceover tools",
-          "author": "chrisjones-hmcts",
-          "url": "https://github.com/hmcts/em-media-viewer/pull/1247",
-          "changesRequested": true,
-          "approvals": 1,
-          "buildSuccess": true,
-          "headSha": "8953abed279b6ffdce33802f2d644179a2554aaf",
-          "createdAt": "2025-12-02T14:58:11.016Z",
-          "lastUpdated": "2025-12-03T17:21:29.413Z"
-        },
         "1249": {
           "number": 1249,
           "title": "Update dependency @angular/compiler to v20.3.15 [SECURITY]",
