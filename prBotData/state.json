@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1765281226.805009",
-    "lastUpdated": "2025-12-09T11:53:34.882Z",
+    "lastUpdated": "2025-12-09T11:56:20.275Z",
     "approvalListMessageHash": "6cbcf622d93492983451c3c59d59f75be5cf2c6ddc7d34a2c3508aa9f0add03d"
   },
   "repositories": {
@@ -142,6 +142,18 @@
           "headSha": "4ff8fc421d84a2b2f3a4aace4a133695fee6be5a",
           "createdAt": "2025-12-05T15:21:44.992Z",
           "lastUpdated": "2025-12-05T15:21:45.100Z"
+        },
+        "4791": {
+          "number": 4791,
+          "title": "Ex UI 3694 new query journey",
+          "author": "olusegz07",
+          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/4791",
+          "changesRequested": false,
+          "approvals": 0,
+          "buildSuccess": false,
+          "headSha": "9710dafec5db3212416208705ad74778d6064c93",
+          "createdAt": "2025-12-09T11:56:20.192Z",
+          "lastUpdated": "2025-12-09T11:56:20.275Z"
         }
       }
     },
