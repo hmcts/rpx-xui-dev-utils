@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1765285601.064039",
-    "lastUpdated": "2025-12-09T13:08:56.999Z",
+    "lastUpdated": "2025-12-09T13:09:42.104Z",
     "approvalListMessageHash": "0e7c6d26ac7008ab307f50eaab438cb109e3360401afb36781160e8b54d310fe"
   },
   "repositories": {
@@ -82,18 +82,6 @@
           "headSha": "0ba88ae01c508a3448e519191c680eb8be78e74b",
           "createdAt": "2025-11-18T16:59:34.251Z",
           "lastUpdated": "2025-11-18T16:59:34.382Z"
-        },
-        "4771": {
-          "number": 4771,
-          "title": "EXUI-3625 : Playwright integration tests",
-          "author": "danH-test",
-          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/4771",
-          "changesRequested": false,
-          "approvals": 1,
-          "buildSuccess": true,
-          "headSha": "e14ee39dec3427f7e455660396994fc8e15cf941",
-          "createdAt": "2025-12-09T13:08:56.597Z",
-          "lastUpdated": "2025-12-09T13:08:56.999Z"
         },
         "4774": {
           "number": 4774,
