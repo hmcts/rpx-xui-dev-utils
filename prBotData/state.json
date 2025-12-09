@@ -230,18 +230,6 @@
           "headSha": "481199d27b85b3887df449a700e3b4f11bc5c337",
           "createdAt": "2025-11-20T09:56:36.353Z",
           "lastUpdated": "2025-11-20T09:56:36.568Z"
-        },
-        "746": {
-          "number": 746,
-          "title": "Update known issues file for CVE suppressions",
-          "author": "ben-james-hmcts",
-          "url": "https://github.com/hmcts/em-showcase/pull/746",
-          "changesRequested": false,
-          "approvals": 1,
-          "buildSuccess": true,
-          "headSha": "6b0efe2b379e9f1ef761bd9a203351d0482e6f6e",
-          "createdAt": "2025-12-09T10:41:09.418Z",
-          "lastUpdated": "2025-12-09T10:41:09.561Z"
         }
       }
     }
