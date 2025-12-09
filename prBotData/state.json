@@ -18,18 +18,6 @@
           "headSha": "aee0818c1848436fdd6fd2cc086e5db33a27216e",
           "createdAt": "2025-12-02T03:44:58.276Z",
           "lastUpdated": "2025-12-02T03:44:58.456Z"
-        },
-        "1252": {
-          "number": 1252,
-          "title": "Added vulnerabilities to known issues file",
-          "author": "ben-james-hmcts",
-          "url": "https://github.com/hmcts/em-media-viewer/pull/1252",
-          "changesRequested": false,
-          "approvals": 1,
-          "buildSuccess": true,
-          "headSha": "2bc4e3565caac53d430303553acea8f3344a9708",
-          "createdAt": "2025-12-09T09:16:25.129Z",
-          "lastUpdated": "2025-12-09T09:16:25.271Z"
         }
       }
     },
