@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1765288829.768809",
-    "lastUpdated": "2025-12-09T14:00:18.377Z",
+    "lastUpdated": "2025-12-09T14:49:16.227Z",
     "approvalListMessageHash": "683eed8962dbff58c0b1289fb234ab2bf2282875db09fe4171342074a5a1929c"
   },
   "repositories": {
@@ -186,6 +186,18 @@
           "headSha": "75a824b76a76b6b07f5bc17e062bd6e45816b27e",
           "createdAt": "2025-11-13T10:19:55.827Z",
           "lastUpdated": "2025-11-13T10:19:55.951Z"
+        },
+        "962": {
+          "number": 962,
+          "title": "Update known-issues to reflect current state",
+          "author": "ben-james-hmcts",
+          "url": "https://github.com/hmcts/rpx-xui-approve-org/pull/962",
+          "changesRequested": false,
+          "approvals": 0,
+          "buildSuccess": false,
+          "headSha": "8a7114dad343b8776e8e3064e534fb921e191034",
+          "createdAt": "2025-12-09T14:49:15.992Z",
+          "lastUpdated": "2025-12-09T14:49:16.227Z"
         }
       }
     },
