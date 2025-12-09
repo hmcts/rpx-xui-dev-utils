@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1765278763.495629",
-    "lastUpdated": "2025-12-09T11:12:33.073Z",
+    "lastUpdated": "2025-12-09T11:17:44.282Z",
     "approvalListMessageHash": "cd4b9bdef29f164d50d60d4274f4c9aeeaebddbdf19b3ce4951449e6fe9cac91"
   },
   "repositories": {
@@ -130,18 +130,6 @@
           "headSha": "4ff8fc421d84a2b2f3a4aace4a133695fee6be5a",
           "createdAt": "2025-12-05T15:21:44.992Z",
           "lastUpdated": "2025-12-05T15:21:45.100Z"
-        },
-        "4790": {
-          "number": 4790,
-          "title": "Upgraded Angular to 20.3.15",
-          "author": "ben-james-hmcts",
-          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/4790",
-          "changesRequested": false,
-          "approvals": 1,
-          "buildSuccess": true,
-          "headSha": "749f2d8dd67f6683db9d2c2aa0a35db4b774e7f4",
-          "createdAt": "2025-12-09T11:12:32.962Z",
-          "lastUpdated": "2025-12-09T11:12:33.073Z"
         }
       }
     },
