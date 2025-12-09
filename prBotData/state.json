@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1765271796.465909",
-    "lastUpdated": "2025-12-09T09:16:25.271Z",
+    "lastUpdated": "2025-12-09T09:30:10.087Z",
     "approvalListMessageHash": "90a640ed02a2a23a7a1db7dd96ddc2e629abbedcad43eec2276aa1c9a625247d"
   },
   "repositories": {
@@ -218,6 +218,18 @@
           "headSha": "481199d27b85b3887df449a700e3b4f11bc5c337",
           "createdAt": "2025-11-20T09:56:36.353Z",
           "lastUpdated": "2025-11-20T09:56:36.568Z"
+        },
+        "746": {
+          "number": 746,
+          "title": "Update known issues file for CVE suppressions",
+          "author": "ben-james-hmcts",
+          "url": "https://github.com/hmcts/em-showcase/pull/746",
+          "changesRequested": false,
+          "approvals": 0,
+          "buildSuccess": false,
+          "headSha": "6b0efe2b379e9f1ef761bd9a203351d0482e6f6e",
+          "createdAt": "2025-12-09T09:30:09.981Z",
+          "lastUpdated": "2025-12-09T09:30:10.087Z"
         }
       }
     }
