@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1765406616.917259",
-    "lastUpdated": "2025-12-10T22:43:27.261Z",
+    "lastUpdated": "2025-12-10T22:47:47.996Z",
     "approvalListMessageHash": "a71c64d90eb8abe8040ed0e9eb8942b87c65c9b7e6de5868218eb60fc6e86dc9"
   },
   "repositories": {
@@ -190,6 +190,18 @@
           "headSha": "9f35781fd747508d6a8607079433959fd42336f8",
           "createdAt": "2025-12-10T16:55:28.513Z",
           "lastUpdated": "2025-12-10T17:49:08.271Z"
+        },
+        "4797": {
+          "number": 4797,
+          "title": "test: update build system",
+          "author": "danlysiak",
+          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/4797",
+          "changesRequested": false,
+          "approvals": 0,
+          "buildSuccess": false,
+          "headSha": "20b57322ac4af5876a43b021e924b9539efef61e",
+          "createdAt": "2025-12-10T22:47:47.913Z",
+          "lastUpdated": "2025-12-10T22:47:47.996Z"
         }
       }
     },
