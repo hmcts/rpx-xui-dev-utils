@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1765359483.424989",
-    "lastUpdated": "2025-12-10T09:37:52.450Z",
+    "lastUpdated": "2025-12-10T11:41:36.841Z",
     "approvalListMessageHash": "683eed8962dbff58c0b1289fb234ab2bf2282875db09fe4171342074a5a1929c"
   },
   "repositories": {
@@ -242,6 +242,18 @@
           "headSha": "481199d27b85b3887df449a700e3b4f11bc5c337",
           "createdAt": "2025-11-20T09:56:36.353Z",
           "lastUpdated": "2025-11-20T09:56:36.568Z"
+        },
+        "748": {
+          "number": 748,
+          "title": "increased angular to v20.3.15",
+          "author": "ben-james-hmcts",
+          "url": "https://github.com/hmcts/em-showcase/pull/748",
+          "changesRequested": false,
+          "approvals": 0,
+          "buildSuccess": false,
+          "headSha": "4c816bdb247f6d8c65bb0d278dfd62d39a6b641e",
+          "createdAt": "2025-12-10T11:41:36.764Z",
+          "lastUpdated": "2025-12-10T11:41:36.841Z"
         }
       }
     }
