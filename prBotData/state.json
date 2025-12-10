@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1765359483.424989",
-    "lastUpdated": "2025-12-10T11:41:36.841Z",
+    "lastUpdated": "2025-12-10T12:20:48.639Z",
     "approvalListMessageHash": "683eed8962dbff58c0b1289fb234ab2bf2282875db09fe4171342074a5a1929c"
   },
   "repositories": {
@@ -154,6 +154,18 @@
           "headSha": "6c661f5d1864946bff3b4a2d45ba4d4d1539eb9e",
           "createdAt": "2025-12-09T13:57:06.648Z",
           "lastUpdated": "2025-12-09T13:57:06.732Z"
+        },
+        "4794": {
+          "number": 4794,
+          "title": "test: docker build/context optimisations",
+          "author": "danlysiak",
+          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/4794",
+          "changesRequested": false,
+          "approvals": 0,
+          "buildSuccess": false,
+          "headSha": "811460c988ba72af4ae4d8779d2a5b197459317f",
+          "createdAt": "2025-12-10T12:20:48.497Z",
+          "lastUpdated": "2025-12-10T12:20:48.639Z"
         }
       }
     },
