@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1765446399.734079",
-    "lastUpdated": "2025-12-11T11:26:33.790Z",
+    "lastUpdated": "2025-12-11T11:38:55.052Z",
     "approvalListMessageHash": "f3d2900421a466b265f8d7174c0739fed6977bff41ff89d12e280d332e536dd0"
   },
   "repositories": {
@@ -190,18 +190,6 @@
           "headSha": "20b57322ac4af5876a43b021e924b9539efef61e",
           "createdAt": "2025-12-10T22:47:47.913Z",
           "lastUpdated": "2025-12-10T23:48:21.288Z"
-        },
-        "4798": {
-          "number": 4798,
-          "title": "Push the expect timeout up to 45 seconds, tests are failing with the …",
-          "author": "danH-test",
-          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/4798",
-          "changesRequested": false,
-          "approvals": 1,
-          "buildSuccess": false,
-          "headSha": "92937690a2b83352afe8f0ac05fbb22e5c074a99",
-          "createdAt": "2025-12-11T11:26:33.732Z",
-          "lastUpdated": "2025-12-11T11:26:33.790Z"
         }
       }
     },
