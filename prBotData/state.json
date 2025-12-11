@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1765446399.734079",
-    "lastUpdated": "2025-12-11T11:38:55.052Z",
+    "lastUpdated": "2025-12-11T12:23:33.489Z",
     "approvalListMessageHash": "f3d2900421a466b265f8d7174c0739fed6977bff41ff89d12e280d332e536dd0"
   },
   "repositories": {
@@ -190,6 +190,18 @@
           "headSha": "20b57322ac4af5876a43b021e924b9539efef61e",
           "createdAt": "2025-12-10T22:47:47.913Z",
           "lastUpdated": "2025-12-10T23:48:21.288Z"
+        },
+        "4799": {
+          "number": 4799,
+          "title": "cot-1092 addition of new warning message",
+          "author": "anthonydummer",
+          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/4799",
+          "changesRequested": false,
+          "approvals": 0,
+          "buildSuccess": false,
+          "headSha": "8a02ca3883445a72de62ffc0c20348436cabead3",
+          "createdAt": "2025-12-11T12:23:33.409Z",
+          "lastUpdated": "2025-12-11T12:23:33.489Z"
         }
       }
     },
