@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1765461035.267679",
-    "lastUpdated": "2025-12-11T13:50:24.961Z",
+    "lastUpdated": "2025-12-11T14:18:00.766Z",
     "approvalListMessageHash": "b8a4987b967cb3aefac94a23f5cc72c8bc579656cde178cf0fe8c85dafe03635"
   },
   "repositories": {
@@ -274,6 +274,18 @@
           "headSha": "8093f8efc909b3536eaec2ec018c9c5e318fd763",
           "createdAt": "2025-12-08T14:12:49.949Z",
           "lastUpdated": "2025-12-08T14:12:50.089Z"
+        },
+        "2061": {
+          "number": 2061,
+          "title": "Ex UI 3695 add suffix",
+          "author": "olusegz07",
+          "url": "https://github.com/hmcts/ccd-case-ui-toolkit/pull/2061",
+          "changesRequested": false,
+          "approvals": 0,
+          "buildSuccess": true,
+          "headSha": "da7c455bd89bc635356d833d679569cba1c3d69a",
+          "createdAt": "2025-12-11T14:18:00.683Z",
+          "lastUpdated": "2025-12-11T14:18:00.766Z"
         }
       }
     },
