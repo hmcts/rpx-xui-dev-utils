@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1765462692.870119",
-    "lastUpdated": "2025-12-11T14:18:00.766Z",
+    "lastUpdated": "2025-12-11T14:49:24.497Z",
     "approvalListMessageHash": "0b810cfc1a65a5b7eb3c6415c6f33ce2252281888a76f45363e8030805fea02b"
   },
   "repositories": {
@@ -246,6 +246,18 @@
           "headSha": "add2a632919527795152828b6cf757c21c517438",
           "createdAt": "2025-12-10T09:27:39.551Z",
           "lastUpdated": "2025-12-10T09:27:39.631Z"
+        },
+        "965": {
+          "number": 965,
+          "title": "pa11y test failure",
+          "author": "RiteshHMCTS",
+          "url": "https://github.com/hmcts/rpx-xui-approve-org/pull/965",
+          "changesRequested": false,
+          "approvals": 0,
+          "buildSuccess": false,
+          "headSha": "4866c9641312381f9fae9d581aa0007ab2b09e07",
+          "createdAt": "2025-12-11T14:49:24.416Z",
+          "lastUpdated": "2025-12-11T14:49:24.497Z"
         }
       }
     },
