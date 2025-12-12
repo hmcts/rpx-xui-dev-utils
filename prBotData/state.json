@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1765541449.577509",
-    "lastUpdated": "2025-12-12T12:10:39.138Z",
+    "lastUpdated": "2025-12-12T12:20:48.924Z",
     "approvalListMessageHash": "690dd93300d7a69adcb12784f0cbf5fd2a346529a761b984d91f2a288a7f0968"
   },
   "repositories": {
@@ -190,6 +190,18 @@
           "headSha": "8a02ca3883445a72de62ffc0c20348436cabead3",
           "createdAt": "2025-12-11T15:17:54.570Z",
           "lastUpdated": "2025-12-11T15:17:54.647Z"
+        },
+        "4800": {
+          "number": 4800,
+          "title": "EXUI-3880: Update criteria for nightly steps to run and report",
+          "author": "danH-test",
+          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/4800",
+          "changesRequested": false,
+          "approvals": 0,
+          "buildSuccess": false,
+          "headSha": "ecccd9a02200a26e585a712cb17e27f5e5553a54",
+          "createdAt": "2025-12-12T12:20:48.818Z",
+          "lastUpdated": "2025-12-12T12:20:48.924Z"
         }
       }
     },
