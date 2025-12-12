@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1765551772.765979",
-    "lastUpdated": "2025-12-12T15:02:41.843Z",
+    "lastUpdated": "2025-12-12T15:46:35.941Z",
     "approvalListMessageHash": "457785df96cb73582b585d9efd988705556354dfd74ea313daf27203a0e79b54"
   },
   "repositories": {
@@ -18,6 +18,18 @@
           "headSha": "aee0818c1848436fdd6fd2cc086e5db33a27216e",
           "createdAt": "2025-12-02T03:44:58.276Z",
           "lastUpdated": "2025-12-02T03:44:58.456Z"
+        },
+        "1253": {
+          "number": 1253,
+          "title": "Updated nightly build time",
+          "author": "ben-james-hmcts",
+          "url": "https://github.com/hmcts/em-media-viewer/pull/1253",
+          "changesRequested": false,
+          "approvals": 0,
+          "buildSuccess": false,
+          "headSha": "d66ab6f3626ebc89f2845c8ec7edf097d8649dd2",
+          "createdAt": "2025-12-12T15:46:35.863Z",
+          "lastUpdated": "2025-12-12T15:46:35.941Z"
         }
       }
     },
