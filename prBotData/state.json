@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1765541449.577509",
-    "lastUpdated": "2025-12-12T12:20:48.924Z",
+    "lastUpdated": "2025-12-12T12:23:35.698Z",
     "approvalListMessageHash": "690dd93300d7a69adcb12784f0cbf5fd2a346529a761b984d91f2a288a7f0968"
   },
   "repositories": {
@@ -333,11 +333,11 @@
           "author": "ben-james-hmcts",
           "url": "https://github.com/hmcts/em-showcase/pull/748",
           "changesRequested": false,
-          "approvals": 0,
+          "approvals": 1,
           "buildSuccess": true,
           "headSha": "d15abfd044f54466a8718bc14be6b1556fd41c1c",
-          "createdAt": "2025-12-10T11:41:36.764Z",
-          "lastUpdated": "2025-12-10T14:31:24.041Z"
+          "createdAt": "2025-12-12T12:23:35.583Z",
+          "lastUpdated": "2025-12-12T12:23:35.698Z"
         }
       }
     }
