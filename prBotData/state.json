@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1765547140.293339",
-    "lastUpdated": "2025-12-12T13:45:29.231Z",
+    "lastUpdated": "2025-12-12T13:48:00.049Z",
     "approvalListMessageHash": "f0d650a83fd33bbdb20e8f952c119ca4e540c1407295f5d0d2a9614137f80268"
   },
   "repositories": {
@@ -154,18 +154,6 @@
           "headSha": "b9e213f539eeebd8ecd0897910a33c4503a9f9e8",
           "createdAt": "2025-12-10T12:20:48.497Z",
           "lastUpdated": "2025-12-10T23:55:00.758Z"
-        },
-        "4795": {
-          "number": 4795,
-          "title": "cot-1094 fix to split participants details back to two lines",
-          "author": "anthonydummer",
-          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/4795",
-          "changesRequested": false,
-          "approvals": 1,
-          "buildSuccess": true,
-          "headSha": "2f93136f7ad494b357fb52118240585c0389450b",
-          "createdAt": "2025-12-11T13:27:52.673Z",
-          "lastUpdated": "2025-12-11T13:27:52.839Z"
         },
         "4797": {
           "number": 4797,
