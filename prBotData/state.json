@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1765801145.102839",
-    "lastUpdated": "2025-12-15T12:18:55.054Z",
+    "lastUpdated": "2025-12-15T14:23:19.425Z",
     "approvalListMessageHash": "cb3489bd8c1cfe4c7e1c499e05354df9a478eced62bb373bf980be318af6f3d5"
   },
   "repositories": {
@@ -106,18 +106,6 @@
           "headSha": "06b77f3a8c253ab62b93dfcc81fe07c9209e42cc",
           "createdAt": "2025-12-04T14:33:59.936Z",
           "lastUpdated": "2025-12-08T18:52:29.066Z"
-        },
-        "4786": {
-          "number": 4786,
-          "title": "Feat/exui 3347/hearing date input update",
-          "author": "gregs-cgi",
-          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/4786",
-          "changesRequested": false,
-          "approvals": 1,
-          "buildSuccess": true,
-          "headSha": "e6c6590feaab2e739f97aa5f9ff79d1caa1a31a8",
-          "createdAt": "2025-12-12T10:29:23.315Z",
-          "lastUpdated": "2025-12-12T10:29:23.485Z"
         },
         "4791": {
           "number": 4791,
