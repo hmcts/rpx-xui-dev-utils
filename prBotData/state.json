@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1765894076.219829",
-    "lastUpdated": "2025-12-16T14:36:33.076Z",
+    "lastUpdated": "2025-12-16T15:07:27.539Z",
     "approvalListMessageHash": "db05bc59bfb145476ab02426f698a3d2458c587cf893829bce2e054e76d33e02"
   },
   "repositories": {
@@ -214,6 +214,18 @@
           "headSha": "83004e091352f653f38aeae36fe473994c0a4be3",
           "createdAt": "2025-12-16T13:33:17.181Z",
           "lastUpdated": "2025-12-16T13:33:17.269Z"
+        },
+        "4808": {
+          "number": 4808,
+          "title": "EXUI-3860 - CVE Vulnerability - High - CVE-2025-65945 - rpx-xui-webapp",
+          "author": "chrisjones-hmcts",
+          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/4808",
+          "changesRequested": false,
+          "approvals": 0,
+          "buildSuccess": true,
+          "headSha": "cd86b3113c588cc39624ab282c4db5e7385619b7",
+          "createdAt": "2025-12-16T15:07:27.358Z",
+          "lastUpdated": "2025-12-16T15:07:27.539Z"
         },
         "4809": {
           "number": 4809,
