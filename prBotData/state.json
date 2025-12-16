@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1765877122.381889",
-    "lastUpdated": "2025-12-16T09:25:12.473Z",
+    "lastUpdated": "2025-12-16T09:25:58.570Z",
     "approvalListMessageHash": "0eb4f468e35720cfb1941d8794583d33d9e5b0d998440aa7cfd6e453aba1d581"
   },
   "repositories": {
@@ -275,18 +275,6 @@
     },
     "hmcts/ccd-case-ui-toolkit": {
       "pullRequests": {
-        "2052": {
-          "number": 2052,
-          "title": "exui-3759-summary tab default",
-          "author": "RiteshHMCTS",
-          "url": "https://github.com/hmcts/ccd-case-ui-toolkit/pull/2052",
-          "changesRequested": false,
-          "approvals": 1,
-          "buildSuccess": true,
-          "headSha": "0809635726a05001b1f3393b188ebbecd7a6ff4a",
-          "createdAt": "2025-12-16T09:25:12.347Z",
-          "lastUpdated": "2025-12-16T09:25:12.473Z"
-        },
         "2055": {
           "number": 2055,
           "title": "Ex UI 3694 new query journey",
