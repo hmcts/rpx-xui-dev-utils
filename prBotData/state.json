@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1765903690.882919",
-    "lastUpdated": "2025-12-16T16:48:00.167Z",
+    "lastUpdated": "2025-12-16T16:53:06.978Z",
     "approvalListMessageHash": "a6adcf8f65b758b34ca6b6eecc0b924685d20a44861705658a5431c7cb02c612"
   },
   "repositories": {
@@ -250,6 +250,18 @@
           "headSha": "64735562fd989462a448b98f553e7e2d6859e8b1",
           "createdAt": "2025-12-16T15:37:02.586Z",
           "lastUpdated": "2025-12-16T16:48:00.167Z"
+        },
+        "4811": {
+          "number": 4811,
+          "title": "WIP: Docs: added mermaid state diagram of approach to get to steady state",
+          "author": "gregs-cgi",
+          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/4811",
+          "changesRequested": false,
+          "approvals": 0,
+          "buildSuccess": false,
+          "headSha": "082951326f473e967beab7ee145b53bc5a375f44",
+          "createdAt": "2025-12-16T16:53:06.842Z",
+          "lastUpdated": "2025-12-16T16:53:06.978Z"
         }
       }
     },
