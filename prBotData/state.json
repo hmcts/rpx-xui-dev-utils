@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1765876307.600209",
-    "lastUpdated": "2025-12-16T09:11:37.841Z",
+    "lastUpdated": "2025-12-16T09:13:29.447Z",
     "approvalListMessageHash": "8d872ed4cc17d6b2bc12ba63623703f12141e9d453e8dd5bf8f469d3864f83dc"
   },
   "repositories": {
@@ -286,6 +286,18 @@
           "headSha": "da551ba77685b76db40c7d367d055b802984f5e8",
           "createdAt": "2025-12-05T14:17:35.538Z",
           "lastUpdated": "2025-12-05T14:17:35.740Z"
+        },
+        "2057": {
+          "number": 2057,
+          "title": "EXUI 3740 - dynamic multiselect box bug",
+          "author": "chrisjones-hmcts",
+          "url": "https://github.com/hmcts/ccd-case-ui-toolkit/pull/2057",
+          "changesRequested": false,
+          "approvals": 0,
+          "buildSuccess": true,
+          "headSha": "ba039988b0d86eeb33b1bc0c95c213f49fd8a52a",
+          "createdAt": "2025-12-16T09:13:29.362Z",
+          "lastUpdated": "2025-12-16T09:13:29.447Z"
         },
         "2061": {
           "number": 2061,
