@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1765897658.060059",
-    "lastUpdated": "2025-12-16T15:07:27.539Z",
+    "lastUpdated": "2025-12-16T15:13:23.949Z",
     "approvalListMessageHash": "c0541c6f2bc910182ad816e26e04124966349e35b06b0baec3bb9c0c35522652"
   },
   "repositories": {
@@ -82,6 +82,18 @@
           "headSha": "0ba88ae01c508a3448e519191c680eb8be78e74b",
           "createdAt": "2025-11-18T16:59:34.251Z",
           "lastUpdated": "2025-11-18T16:59:34.382Z"
+        },
+        "4773": {
+          "number": 4773,
+          "title": "EXUI-3798 - Added the Angular versions 20.3.14",
+          "author": "connorpgpmcelroy",
+          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/4773",
+          "changesRequested": false,
+          "approvals": 1,
+          "buildSuccess": true,
+          "headSha": "fa8876dda7b5aff4c2e40de75185400bee0fed9d",
+          "createdAt": "2025-12-16T15:13:23.863Z",
+          "lastUpdated": "2025-12-16T15:13:23.949Z"
         },
         "4783": {
           "number": 4783,
