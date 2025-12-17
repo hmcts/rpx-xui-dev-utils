@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1765906828.845199",
-    "lastUpdated": "2025-12-16T17:40:16.994Z",
+    "lastUpdated": "2025-12-17T08:49:35.343Z",
     "approvalListMessageHash": "a59de10fd8298bea8c961a91de55b1d81e1e8bf3dee4af1d4294c8edb1e1717c"
   },
   "repositories": {
@@ -178,18 +178,6 @@
           "headSha": "605ee90ece699cd1ceb959d233e97de0d52a4fdd",
           "createdAt": "2025-12-12T16:58:08.628Z",
           "lastUpdated": "2025-12-12T16:58:08.707Z"
-        },
-        "4805": {
-          "number": 4805,
-          "title": "Increased express version to 4.22.0 due to CVE",
-          "author": "ben-james-hmcts",
-          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/4805",
-          "changesRequested": false,
-          "approvals": 0,
-          "buildSuccess": false,
-          "headSha": "cfb8f6f6fb86528b1bef053c240d56f839a78653",
-          "createdAt": "2025-12-15T14:59:16.897Z",
-          "lastUpdated": "2025-12-15T14:59:17.034Z"
         },
         "4806": {
           "number": 4806,
