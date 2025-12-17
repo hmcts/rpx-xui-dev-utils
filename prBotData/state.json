@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1765989004.069419",
-    "lastUpdated": "2025-12-17T16:29:53.405Z",
+    "lastUpdated": "2025-12-17T16:40:37.856Z",
     "approvalListMessageHash": "46df773b93f721e50e87c03338752c0bd08c12c3638cfab65cf82615051a2cdf"
   },
   "repositories": {
@@ -30,18 +30,6 @@
           "headSha": "9d81cc69ec4b8884c94746368f8564ea9efe6f90",
           "createdAt": "2025-12-17T14:49:06.448Z",
           "lastUpdated": "2025-12-17T14:49:06.516Z"
-        },
-        "1255": {
-          "number": 1255,
-          "title": "EXUI-3875 - Add angular upgrades",
-          "author": "connorpgpmcelroy",
-          "url": "https://github.com/hmcts/em-media-viewer/pull/1255",
-          "changesRequested": false,
-          "approvals": 1,
-          "buildSuccess": true,
-          "headSha": "f8717e6dc52929f93cb6d6d284f888e72a3a29d7",
-          "createdAt": "2025-12-17T16:29:53.241Z",
-          "lastUpdated": "2025-12-17T16:29:53.405Z"
         }
       }
     },
@@ -310,8 +298,7 @@
       }
     },
     "hmcts/ccd-case-ui-toolkit": {
-      "pullRequests": {
-      }
+      "pullRequests": {}
     },
     "hmcts/em-showcase": {
       "pullRequests": {
