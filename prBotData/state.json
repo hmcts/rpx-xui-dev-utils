@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1765990120.751129",
-    "lastUpdated": "2025-12-17T16:48:29.400Z",
+    "lastUpdated": "2025-12-17T16:58:55.668Z",
     "approvalListMessageHash": "f5ff63a3b3b4ec0bbeb76db33dcdcb22f80a20fe93064f1b2b3084d68f368ad8"
   },
   "repositories": {
@@ -178,18 +178,6 @@
           "headSha": "900809e20d38c377354e92413330901cb16c7fa7",
           "createdAt": "2025-12-17T12:12:29.188Z",
           "lastUpdated": "2025-12-17T12:12:29.268Z"
-        },
-        "4810": {
-          "number": 4810,
-          "title": "Task/ex UI 3747 secure cookie",
-          "author": "connorpgpmcelroy",
-          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/4810",
-          "changesRequested": false,
-          "approvals": 1,
-          "buildSuccess": true,
-          "headSha": "64735562fd989462a448b98f553e7e2d6859e8b1",
-          "createdAt": "2025-12-17T12:13:53.242Z",
-          "lastUpdated": "2025-12-17T12:13:53.425Z"
         },
         "4811": {
           "number": 4811,
