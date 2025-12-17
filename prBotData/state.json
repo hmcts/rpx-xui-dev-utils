@@ -191,18 +191,6 @@
           "createdAt": "2025-12-16T13:33:17.181Z",
           "lastUpdated": "2025-12-17T10:56:31.410Z"
         },
-        "4808": {
-          "number": 4808,
-          "title": "EXUI-3860 - CVE Vulnerability - High - CVE-2025-65945 - rpx-xui-webapp",
-          "author": "chrisjones-hmcts",
-          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/4808",
-          "changesRequested": false,
-          "approvals": 0,
-          "buildSuccess": true,
-          "headSha": "cd86b3113c588cc39624ab282c4db5e7385619b7",
-          "createdAt": "2025-12-16T15:07:27.358Z",
-          "lastUpdated": "2025-12-16T15:07:27.539Z"
-        },
         "4809": {
           "number": 4809,
           "title": "cot-1091 initial checkin",
