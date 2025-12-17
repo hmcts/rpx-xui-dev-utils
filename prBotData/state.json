@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1765969001.159149",
-    "lastUpdated": "2025-12-17T10:56:31.410Z",
+    "lastUpdated": "2025-12-17T11:07:32.489Z",
     "approvalListMessageHash": "75944d5f279e485d084579aa5dbc472336369758f85e2e2ffcf85d3777c6839c"
   },
   "repositories": {
@@ -166,18 +166,6 @@
           "headSha": "605ee90ece699cd1ceb959d233e97de0d52a4fdd",
           "createdAt": "2025-12-12T16:58:08.628Z",
           "lastUpdated": "2025-12-12T16:58:08.707Z"
-        },
-        "4806": {
-          "number": 4806,
-          "title": "Add hearing fixes and error handling",
-          "author": "connorpgpmcelroy",
-          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/4806",
-          "changesRequested": false,
-          "approvals": 1,
-          "buildSuccess": true,
-          "headSha": "6beac1b0921d1ee1a51da7813986d5de42fefb31",
-          "createdAt": "2025-12-17T09:59:30.170Z",
-          "lastUpdated": "2025-12-17T09:59:30.251Z"
         },
         "4807": {
           "number": 4807,
