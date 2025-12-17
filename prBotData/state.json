@@ -107,18 +107,6 @@
           "createdAt": "2025-12-04T14:33:59.936Z",
           "lastUpdated": "2025-12-17T10:28:48.316Z"
         },
-        "4791": {
-          "number": 4791,
-          "title": "Ex UI 3694 new query journey",
-          "author": "olusegz07",
-          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/4791",
-          "changesRequested": false,
-          "approvals": 0,
-          "buildSuccess": true,
-          "headSha": "0ec3477049f6f101163eaa884c9dde86f0a6a630",
-          "createdAt": "2025-12-09T11:56:20.192Z",
-          "lastUpdated": "2025-12-09T14:00:18.377Z"
-        },
         "4792": {
           "number": 4792,
           "title": "EXUI-3755 - Remove unused commands from package.json",
