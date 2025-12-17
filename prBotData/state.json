@@ -143,18 +143,6 @@
           "createdAt": "2025-12-10T22:47:47.913Z",
           "lastUpdated": "2025-12-10T23:48:21.288Z"
         },
-        "4802": {
-          "number": 4802,
-          "title": "Ex UI 3695 add suffix",
-          "author": "olusegz07",
-          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/4802",
-          "changesRequested": false,
-          "approvals": 1,
-          "buildSuccess": true,
-          "headSha": "ea71f34018283fbaa715a9244aed7bb87a79b5a7",
-          "createdAt": "2025-12-12T13:51:12.902Z",
-          "lastUpdated": "2025-12-12T14:47:24.822Z"
-        },
         "4803": {
           "number": 4803,
           "title": "Test/ex UI 3624 case flag e2e tests",
