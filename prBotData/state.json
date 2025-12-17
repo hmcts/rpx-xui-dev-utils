@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1765906828.845199",
-    "lastUpdated": "2025-12-17T08:49:35.343Z",
+    "lastUpdated": "2025-12-17T08:51:27.427Z",
     "approvalListMessageHash": "a59de10fd8298bea8c961a91de55b1d81e1e8bf3dee4af1d4294c8edb1e1717c"
   },
   "repositories": {
@@ -250,6 +250,18 @@
           "headSha": "082951326f473e967beab7ee145b53bc5a375f44",
           "createdAt": "2025-12-16T16:53:06.842Z",
           "lastUpdated": "2025-12-16T16:53:06.978Z"
+        },
+        "4812": {
+          "number": 4812,
+          "title": "Increased version of Express.js to 4.22.0",
+          "author": "ben-james-hmcts",
+          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/4812",
+          "changesRequested": false,
+          "approvals": 0,
+          "buildSuccess": false,
+          "headSha": "6c25ba1929713098b0cc27822c5deb33e68de4c0",
+          "createdAt": "2025-12-17T08:51:27.287Z",
+          "lastUpdated": "2025-12-17T08:51:27.427Z"
         }
       }
     },
