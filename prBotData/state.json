@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1766064323.033929",
-    "lastUpdated": "2025-12-18T13:25:12.577Z",
+    "lastUpdated": "2025-12-18T13:26:46.152Z",
     "approvalListMessageHash": "8c41b1d4e57bdb7baafcc7434c4544cdc850c6a1c6609bea2aaeba0c6cf684f2"
   },
   "repositories": {
@@ -25,11 +25,11 @@
           "author": "chrisjones-hmcts",
           "url": "https://github.com/hmcts/em-media-viewer/pull/1254",
           "changesRequested": false,
-          "approvals": 0,
+          "approvals": 1,
           "buildSuccess": true,
           "headSha": "9d81cc69ec4b8884c94746368f8564ea9efe6f90",
-          "createdAt": "2025-12-17T14:49:06.448Z",
-          "lastUpdated": "2025-12-17T14:49:06.516Z"
+          "createdAt": "2025-12-18T13:26:46.060Z",
+          "lastUpdated": "2025-12-18T13:26:46.152Z"
         }
       }
     },
