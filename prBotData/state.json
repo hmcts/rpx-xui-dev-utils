@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1766079014.946829",
-    "lastUpdated": "2025-12-18T17:30:04.131Z",
+    "lastUpdated": "2025-12-18T17:33:40.102Z",
     "approvalListMessageHash": "9fa296fbef37393ad1c87e5d5030f179c6e685f6f5704d6882a1f8c996690193"
   },
   "repositories": {
@@ -166,18 +166,6 @@
           "headSha": "29e2c5e74eb29883780157cbc715e88b60528810",
           "createdAt": "2025-12-16T13:33:17.181Z",
           "lastUpdated": "2025-12-17T10:56:31.410Z"
-        },
-        "4809": {
-          "number": 4809,
-          "title": "cot-1091 initial checkin",
-          "author": "anthonydummer",
-          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/4809",
-          "changesRequested": false,
-          "approvals": 1,
-          "buildSuccess": true,
-          "headSha": "900809e20d38c377354e92413330901cb16c7fa7",
-          "createdAt": "2025-12-17T12:12:29.188Z",
-          "lastUpdated": "2025-12-17T12:12:29.268Z"
         },
         "4811": {
           "number": 4811,
