@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1766076682.573029",
-    "lastUpdated": "2025-12-18T16:51:13.104Z",
+    "lastUpdated": "2025-12-18T17:15:48.599Z",
     "approvalListMessageHash": "1d9044255b0b3705c469ba356aa6a8b1f848b3fff5f08867383a8d5ed9b6bdb8"
   },
   "repositories": {
@@ -46,6 +46,18 @@
           "headSha": "6d22168c611d7d657262fcbfa9727f81595c179c",
           "createdAt": "2025-11-05T12:51:20.721Z",
           "lastUpdated": "2025-11-17T15:37:21.788Z"
+        },
+        "4692": {
+          "number": 4692,
+          "title": "EXUI-3504 - use pre-release tk",
+          "author": "Josh-HMCTS",
+          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/4692",
+          "changesRequested": false,
+          "approvals": 1,
+          "buildSuccess": true,
+          "headSha": "11cb4ae0916908ee78f72e991b7130dba26d8cda",
+          "createdAt": "2025-12-18T17:15:48.523Z",
+          "lastUpdated": "2025-12-18T17:15:48.599Z"
         },
         "4703": {
           "number": 4703,
