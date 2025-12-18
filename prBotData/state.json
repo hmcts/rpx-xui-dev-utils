@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1765994949.310549",
-    "lastUpdated": "2025-12-17T18:08:58.374Z",
+    "lastUpdated": "2025-12-18T09:06:38.739Z",
     "approvalListMessageHash": "081704f06eb37656884e085d98d76b83ced0795d9176b3865e14be6bbd96cffa"
   },
   "repositories": {
@@ -214,6 +214,18 @@
           "headSha": "2424fab24ba3011eba81b1198ee22e2c7819bb55",
           "createdAt": "2025-12-17T17:10:54.495Z",
           "lastUpdated": "2025-12-17T18:08:58.374Z"
+        },
+        "4815": {
+          "number": 4815,
+          "title": "Increase version of Express JS for CVE",
+          "author": "ben-james-hmcts",
+          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/4815",
+          "changesRequested": false,
+          "approvals": 0,
+          "buildSuccess": false,
+          "headSha": "ee2c0b7d23d72ff2bb0c0d70fa80eef9a976118b",
+          "createdAt": "2025-12-18T09:06:38.676Z",
+          "lastUpdated": "2025-12-18T09:06:38.739Z"
         }
       }
     },
