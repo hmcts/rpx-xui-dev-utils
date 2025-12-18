@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1766072546.270289",
-    "lastUpdated": "2025-12-18T15:42:16.864Z",
+    "lastUpdated": "2025-12-18T15:43:54.217Z",
     "approvalListMessageHash": "77058ff83d87447a55748c19596f45e16ab8762804db4c616c22df204f835dd6"
   },
   "repositories": {
@@ -46,18 +46,6 @@
           "headSha": "6d22168c611d7d657262fcbfa9727f81595c179c",
           "createdAt": "2025-11-05T12:51:20.721Z",
           "lastUpdated": "2025-11-17T15:37:21.788Z"
-        },
-        "4689": {
-          "number": 4689,
-          "title": "EXUI-2060 - Remove redirect URL",
-          "author": "connorpgpmcelroy",
-          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/4689",
-          "changesRequested": false,
-          "approvals": 1,
-          "buildSuccess": true,
-          "headSha": "4d8bb0886564500743892eec1f9bfcced94ee849",
-          "createdAt": "2025-12-18T15:42:16.793Z",
-          "lastUpdated": "2025-12-18T15:42:16.864Z"
         },
         "4703": {
           "number": 4703,
