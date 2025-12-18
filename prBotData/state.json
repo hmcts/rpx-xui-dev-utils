@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1766079719.602349",
-    "lastUpdated": "2025-12-18T17:41:50.465Z",
+    "lastUpdated": "2025-12-18T17:48:28.644Z",
     "approvalListMessageHash": "4699c301b884d5fffd533668bb810e48c10eea21bbf7bcf695c456987df4adef"
   },
   "repositories": {
@@ -310,6 +310,18 @@
           "headSha": "481199d27b85b3887df449a700e3b4f11bc5c337",
           "createdAt": "2025-11-20T09:56:36.353Z",
           "lastUpdated": "2025-11-20T09:56:36.568Z"
+        },
+        "751": {
+          "number": 751,
+          "title": "exui-3876 angular 20.3.15 upgrade",
+          "author": "balajisridharanhmcts",
+          "url": "https://github.com/hmcts/em-showcase/pull/751",
+          "changesRequested": false,
+          "approvals": 0,
+          "buildSuccess": false,
+          "headSha": "b58c1461c513a8382587afe49dd705edf9d6f286",
+          "createdAt": "2025-12-18T17:48:28.532Z",
+          "lastUpdated": "2025-12-18T17:48:28.644Z"
         }
       }
     },
