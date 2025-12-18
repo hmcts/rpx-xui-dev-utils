@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1766074750.810509",
-    "lastUpdated": "2025-12-18T16:19:01.115Z",
+    "lastUpdated": "2025-12-18T16:26:06.857Z",
     "approvalListMessageHash": "66de945d7094037e04fdc798f4f6342858d5008d39da765150d268fb6af93f39"
   },
   "repositories": {
@@ -238,6 +238,18 @@
           "headSha": "9fb29d1aa93708f939ff56c389f36345674251bd",
           "createdAt": "2025-12-18T12:33:21.311Z",
           "lastUpdated": "2025-12-18T13:25:12.577Z"
+        },
+        "4817": {
+          "number": 4817,
+          "title": "EXUI-3607 EXUI E2E Improvements - Add / Update Case tests",
+          "author": "ShamrezDarw",
+          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/4817",
+          "changesRequested": false,
+          "approvals": 0,
+          "buildSuccess": false,
+          "headSha": "4f1e6e8aaf01071d55d2ee44cfe92f5f1a679469",
+          "createdAt": "2025-12-18T16:26:06.746Z",
+          "lastUpdated": "2025-12-18T16:26:06.857Z"
         }
       }
     },
