@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1766068012.748999",
-    "lastUpdated": "2025-12-18T14:26:42.812Z",
+    "lastUpdated": "2025-12-18T14:49:52.844Z",
     "approvalListMessageHash": "c06bac97bf080731705f4ea1caac052399bfe12c6960d137956a2088658e2af7"
   },
   "repositories": {
@@ -303,6 +303,18 @@
     },
     "hmcts/ccd-case-ui-toolkit": {
       "pullRequests": {
+        "2030": {
+          "number": 2030,
+          "title": "EXUI-3504 - disable button when user searches for an address using postcode input",
+          "author": "Josh-HMCTS",
+          "url": "https://github.com/hmcts/ccd-case-ui-toolkit/pull/2030",
+          "changesRequested": false,
+          "approvals": 1,
+          "buildSuccess": true,
+          "headSha": "e40bcf4744f98d6e27b6a8b66a2981827716ee1c",
+          "createdAt": "2025-12-18T14:49:52.706Z",
+          "lastUpdated": "2025-12-18T14:49:52.844Z"
+        },
         "2063": {
           "number": 2063,
           "title": "EXUI-3856 - Add slight angular upgrade",
