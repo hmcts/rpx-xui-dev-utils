@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1766164335.710329",
-    "lastUpdated": "2025-12-19T17:12:05.469Z",
+    "lastUpdated": "2025-12-19T17:34:20.746Z",
     "approvalListMessageHash": "b7f464cbab40a8c7e1f24554dfc9781e9baa05c3115a40b226d5abdaf485ec9a"
   },
   "repositories": {
@@ -202,6 +202,18 @@
           "headSha": "cf99e6d2df5922b50fe7549e6a12888cfa9c5aca",
           "createdAt": "2025-12-19T16:43:21.165Z",
           "lastUpdated": "2025-12-19T16:43:21.232Z"
+        },
+        "4823": {
+          "number": 4823,
+          "title": "EXUI-3854 - Add package",
+          "author": "connorpgpmcelroy",
+          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/4823",
+          "changesRequested": false,
+          "approvals": 0,
+          "buildSuccess": false,
+          "headSha": "688a11ded109b7ffe45f920d44307aa07f354fdf",
+          "createdAt": "2025-12-19T17:34:20.587Z",
+          "lastUpdated": "2025-12-19T17:34:20.746Z"
         }
       }
     },
