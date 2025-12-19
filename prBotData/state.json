@@ -327,18 +327,6 @@
     },
     "hmcts/ccd-case-ui-toolkit": {
       "pullRequests": {
-        "2063": {
-          "number": 2063,
-          "title": "EXUI-3856 - Add slight angular upgrade",
-          "author": "connorpgpmcelroy",
-          "url": "https://github.com/hmcts/ccd-case-ui-toolkit/pull/2063",
-          "changesRequested": false,
-          "approvals": 1,
-          "buildSuccess": true,
-          "headSha": "e4391e986bd097ebc1e9ac2c9688b2c52f12c4cf",
-          "createdAt": "2025-12-18T13:29:16.584Z",
-          "lastUpdated": "2025-12-18T13:29:16.712Z"
-        },
         "2064": {
           "number": 2064,
           "title": "EXUI-3857 - Add the deprecated package removal as well as codacy changes",
