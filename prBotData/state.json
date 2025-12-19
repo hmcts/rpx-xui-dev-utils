@@ -238,18 +238,6 @@
           "headSha": "0d55b7c8887ee41ca4cd71fc8915d214f1e7ea1d",
           "createdAt": "2025-12-18T16:26:06.746Z",
           "lastUpdated": "2025-12-19T09:26:49.300Z"
-        },
-        "4818": {
-          "number": 4818,
-          "title": "EXUI-3857 - Add new toolkit package",
-          "author": "connorpgpmcelroy",
-          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/4818",
-          "changesRequested": false,
-          "approvals": 0,
-          "buildSuccess": true,
-          "headSha": "92853ff1fbec4805ece3d9789a1323ba798eb9e6",
-          "createdAt": "2025-12-18T16:33:51.496Z",
-          "lastUpdated": "2025-12-18T17:30:04.131Z"
         }
       }
     },
