@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1766156730.425099",
-    "lastUpdated": "2025-12-19T15:05:18.985Z",
+    "lastUpdated": "2025-12-19T15:06:37.263Z",
     "approvalListMessageHash": "4d6b7e25484e34b3b890033addd6f44ef0d2718ae18ed33e6cb0dd768bdf7cf6"
   },
   "repositories": {
@@ -350,6 +350,18 @@
           "headSha": "d8d0ed4f5950e51643d33bee4e89d35d356b0aba",
           "createdAt": "2025-12-19T15:05:18.854Z",
           "lastUpdated": "2025-12-19T15:05:18.985Z"
+        },
+        "2068": {
+          "number": 2068,
+          "title": "exui 3851 cve fixed",
+          "author": "balajisridharanhmcts",
+          "url": "https://github.com/hmcts/ccd-case-ui-toolkit/pull/2068",
+          "changesRequested": false,
+          "approvals": 0,
+          "buildSuccess": true,
+          "headSha": "bc3cd8bc18abce9902006f7b8eb2f709674f87fa",
+          "createdAt": "2025-12-19T15:06:37.125Z",
+          "lastUpdated": "2025-12-19T15:06:37.263Z"
         }
       }
     }
