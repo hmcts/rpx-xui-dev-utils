@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1766142882.621259",
-    "lastUpdated": "2025-12-19T11:14:31.972Z",
+    "lastUpdated": "2025-12-19T11:21:56.176Z",
     "approvalListMessageHash": "86a12e165ff6f4cfb75da037533a6dc5066b09d487788002f66e62fc4fa79cc6"
   },
   "repositories": {
@@ -242,6 +242,18 @@
           "headSha": "debda6cb560fd7001484e3b4679262b5aab8df2c",
           "createdAt": "2025-11-11T21:31:54.300Z",
           "lastUpdated": "2025-11-11T21:31:54.508Z"
+        },
+        "1456": {
+          "number": 1456,
+          "title": "exui-3893-avoid authentication",
+          "author": "RiteshHMCTS",
+          "url": "https://github.com/hmcts/rpx-xui-manage-organisations/pull/1456",
+          "changesRequested": false,
+          "approvals": 0,
+          "buildSuccess": false,
+          "headSha": "11645b877197df9a871b91fc176a4a89383ebde6",
+          "createdAt": "2025-12-19T11:21:56.105Z",
+          "lastUpdated": "2025-12-19T11:21:56.176Z"
         }
       }
     },
