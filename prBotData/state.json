@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1766157433.459919",
-    "lastUpdated": "2025-12-19T15:17:02.464Z",
+    "lastUpdated": "2025-12-19T15:17:23.896Z",
     "approvalListMessageHash": "7636b810404e925f426212a2485550931ef029b76d1d547f9e0f831f02e16f93"
   },
   "repositories": {
@@ -190,18 +190,6 @@
           "headSha": "60638e25dcc38d02f91093da2d5a88dc00923f07",
           "createdAt": "2025-12-19T11:56:52.804Z",
           "lastUpdated": "2025-12-19T13:01:14.220Z"
-        },
-        "4819": {
-          "number": 4819,
-          "title": "EXUI-3892 - Use pre-release tk",
-          "author": "Josh-HMCTS",
-          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/4819",
-          "changesRequested": false,
-          "approvals": 1,
-          "buildSuccess": true,
-          "headSha": "e7da9dbba93158c5c12e4b55454dc35d0f24c6a6",
-          "createdAt": "2025-12-19T15:13:42.800Z",
-          "lastUpdated": "2025-12-19T15:13:42.956Z"
         },
         "4820": {
           "number": 4820,
