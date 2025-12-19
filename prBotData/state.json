@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1766157372.863189",
-    "lastUpdated": "2025-12-19T15:16:01.354Z",
+    "lastUpdated": "2025-12-19T15:17:02.464Z",
     "approvalListMessageHash": "859fe9bc50bc9194dc9b276738ca3f13718115619ec7c582bc8fec8117d85a84"
   },
   "repositories": {
@@ -303,18 +303,6 @@
     },
     "hmcts/ccd-case-ui-toolkit": {
       "pullRequests": {
-        "2065": {
-          "number": 2065,
-          "title": "EXUI-3892 - Add new code to document management service",
-          "author": "Josh-HMCTS",
-          "url": "https://github.com/hmcts/ccd-case-ui-toolkit/pull/2065",
-          "changesRequested": false,
-          "approvals": 1,
-          "buildSuccess": true,
-          "headSha": "9541dc6db530452d6e1a15a573f529c01ee9667c",
-          "createdAt": "2025-12-19T15:13:06.876Z",
-          "lastUpdated": "2025-12-19T15:13:06.974Z"
-        },
         "2066": {
           "number": 2066,
           "title": "EXUI-3850 - Fix marked CVE",
