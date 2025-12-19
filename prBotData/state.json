@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1766159731.150199",
-    "lastUpdated": "2025-12-19T15:55:22.037Z",
+    "lastUpdated": "2025-12-19T16:08:04.418Z",
     "approvalListMessageHash": "0a0426c513afef207d6dbd19e05c86c494e644dfac7b78298f585aac7779e3d1"
   },
   "repositories": {
@@ -190,18 +190,6 @@
           "headSha": "60638e25dcc38d02f91093da2d5a88dc00923f07",
           "createdAt": "2025-12-19T11:56:52.804Z",
           "lastUpdated": "2025-12-19T13:01:14.220Z"
-        },
-        "4820": {
-          "number": 4820,
-          "title": "EXUI-3850 - Add package",
-          "author": "connorpgpmcelroy",
-          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/4820",
-          "changesRequested": false,
-          "approvals": 1,
-          "buildSuccess": true,
-          "headSha": "becf2569389333c0fe9dbe03267668b094440ca4",
-          "createdAt": "2025-12-19T15:14:32.309Z",
-          "lastUpdated": "2025-12-19T15:14:32.421Z"
         },
         "4821": {
           "number": 4821,
