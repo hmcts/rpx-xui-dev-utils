@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1766160637.790249",
-    "lastUpdated": "2025-12-19T16:10:26.953Z",
+    "lastUpdated": "2025-12-19T16:43:21.232Z",
     "approvalListMessageHash": "f2b3eed9fb6462d186c392b5f18a82a9c55b686902f698ffd502302eb108e639"
   },
   "repositories": {
@@ -190,6 +190,18 @@
           "headSha": "60638e25dcc38d02f91093da2d5a88dc00923f07",
           "createdAt": "2025-12-19T11:56:52.804Z",
           "lastUpdated": "2025-12-19T13:01:14.220Z"
+        },
+        "4822": {
+          "number": 4822,
+          "title": "cot-1094-v2",
+          "author": "anthonydummer",
+          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/4822",
+          "changesRequested": false,
+          "approvals": 0,
+          "buildSuccess": false,
+          "headSha": "cf99e6d2df5922b50fe7549e6a12888cfa9c5aca",
+          "createdAt": "2025-12-19T16:43:21.165Z",
+          "lastUpdated": "2025-12-19T16:43:21.232Z"
         }
       }
     },
