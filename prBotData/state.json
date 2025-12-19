@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1766142882.621259",
-    "lastUpdated": "2025-12-19T11:21:56.176Z",
+    "lastUpdated": "2025-12-19T11:25:44.715Z",
     "approvalListMessageHash": "86a12e165ff6f4cfb75da037533a6dc5066b09d487788002f66e62fc4fa79cc6"
   },
   "repositories": {
@@ -326,6 +326,18 @@
           "headSha": "de40155679484ca30ed051ff7f049c7724dc744b",
           "createdAt": "2025-12-18T15:46:13.990Z",
           "lastUpdated": "2025-12-18T15:46:14.061Z"
+        },
+        "2065": {
+          "number": 2065,
+          "title": "EXUI-3892 - Add new code to document management service",
+          "author": "Josh-HMCTS",
+          "url": "https://github.com/hmcts/ccd-case-ui-toolkit/pull/2065",
+          "changesRequested": false,
+          "approvals": 0,
+          "buildSuccess": true,
+          "headSha": "9541dc6db530452d6e1a15a573f529c01ee9667c",
+          "createdAt": "2025-12-19T11:25:44.606Z",
+          "lastUpdated": "2025-12-19T11:25:44.715Z"
         }
       }
     }
