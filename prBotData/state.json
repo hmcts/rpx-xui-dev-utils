@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1766157298.260669",
-    "lastUpdated": "2025-12-19T15:14:46.752Z",
+    "lastUpdated": "2025-12-19T15:15:46.052Z",
     "approvalListMessageHash": "605276f069770b804ce28adb1e10fb713a602627b4fbecd11620e8e49193cb5b"
   },
   "repositories": {
@@ -18,18 +18,6 @@
           "headSha": "aee0818c1848436fdd6fd2cc086e5db33a27216e",
           "createdAt": "2025-12-02T03:44:58.276Z",
           "lastUpdated": "2025-12-02T03:44:58.456Z"
-        },
-        "1254": {
-          "number": 1254,
-          "title": "EXUI-3866 - CVE Vulnerability - High - CVE-2025-65945 - em-media-viewer",
-          "author": "chrisjones-hmcts",
-          "url": "https://github.com/hmcts/em-media-viewer/pull/1254",
-          "changesRequested": false,
-          "approvals": 1,
-          "buildSuccess": true,
-          "headSha": "9d81cc69ec4b8884c94746368f8564ea9efe6f90",
-          "createdAt": "2025-12-18T13:26:46.060Z",
-          "lastUpdated": "2025-12-18T13:26:46.152Z"
         }
       }
     },
