@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1766403638.808219",
-    "lastUpdated": "2025-12-22T11:40:29.053Z",
+    "lastUpdated": "2025-12-22T11:45:21.932Z",
     "approvalListMessageHash": "0c4bdc621bc85c9dfd350e9450782d713b818cd171a82e70c462bd2bab6383e4"
   },
   "repositories": {
@@ -314,18 +314,6 @@
           "headSha": "c06a18f9dcc4657dabb7532c40468cef9ccbc766",
           "createdAt": "2025-12-22T11:40:28.954Z",
           "lastUpdated": "2025-12-22T11:40:29.053Z"
-        },
-        "2069": {
-          "number": 2069,
-          "title": "Task/ex UI 3854 fix CVE",
-          "author": "connorpgpmcelroy",
-          "url": "https://github.com/hmcts/ccd-case-ui-toolkit/pull/2069",
-          "changesRequested": false,
-          "approvals": 1,
-          "buildSuccess": true,
-          "headSha": "33de9d04c169414d6de6bf09e541056a13f560ce",
-          "createdAt": "2025-12-22T11:32:35.108Z",
-          "lastUpdated": "2025-12-22T11:32:35.255Z"
         }
       }
     }
