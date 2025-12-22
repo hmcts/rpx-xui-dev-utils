@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1766395550.540389",
-    "lastUpdated": "2025-12-22T09:25:39.514Z",
+    "lastUpdated": "2025-12-22T09:38:41.125Z",
     "approvalListMessageHash": "c3ea682cd062639b88c3a559f47c14c80aab960f7fe50a680237d989e66a2c35"
   },
   "repositories": {
@@ -302,18 +302,6 @@
           "headSha": "52b734bd92bdfcca398ed5162ff35a17d3ad13d0",
           "createdAt": "2025-12-19T17:11:17.004Z",
           "lastUpdated": "2025-12-19T17:11:17.079Z"
-        },
-        "2066": {
-          "number": 2066,
-          "title": "EXUI-3850 - Fix marked CVE",
-          "author": "connorpgpmcelroy",
-          "url": "https://github.com/hmcts/ccd-case-ui-toolkit/pull/2066",
-          "changesRequested": false,
-          "approvals": 1,
-          "buildSuccess": true,
-          "headSha": "8301a5c9f2670a9f25238fa7a3153d7554d0c0d8",
-          "createdAt": "2025-12-19T15:00:13.063Z",
-          "lastUpdated": "2025-12-19T15:00:13.130Z"
         },
         "2067": {
           "number": 2067,
