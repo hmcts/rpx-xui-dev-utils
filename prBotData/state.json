@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1766403931.430429",
-    "lastUpdated": "2025-12-22T11:45:21.932Z",
+    "lastUpdated": "2025-12-22T11:52:52.357Z",
     "approvalListMessageHash": "74d4d32bfada3b00393353b477113763e5b41af95445dec540dd4fa4ad83662c"
   },
   "repositories": {
@@ -309,11 +309,11 @@
           "author": "balajisridharanhmcts",
           "url": "https://github.com/hmcts/ccd-case-ui-toolkit/pull/2068",
           "changesRequested": false,
-          "approvals": 0,
+          "approvals": 1,
           "buildSuccess": true,
           "headSha": "c06a18f9dcc4657dabb7532c40468cef9ccbc766",
-          "createdAt": "2025-12-22T11:40:28.954Z",
-          "lastUpdated": "2025-12-22T11:40:29.053Z"
+          "createdAt": "2025-12-22T11:52:52.268Z",
+          "lastUpdated": "2025-12-22T11:52:52.357Z"
         }
       }
     }
