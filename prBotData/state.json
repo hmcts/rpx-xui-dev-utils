@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1766498010.570589",
-    "lastUpdated": "2025-12-23T13:53:19.786Z",
+    "lastUpdated": "2025-12-23T14:27:21.229Z",
     "approvalListMessageHash": "a3936f6357a8294a009fcfa09aaa4d5273e4c76dad89650f67cb9f3e31e407bb"
   },
   "repositories": {
@@ -230,6 +230,18 @@
           "headSha": "debda6cb560fd7001484e3b4679262b5aab8df2c",
           "createdAt": "2025-11-11T21:31:54.300Z",
           "lastUpdated": "2025-11-11T21:31:54.508Z"
+        },
+        "1458": {
+          "number": 1458,
+          "title": "Upgraded to the latest release of xui-node-lib. Fixed a number of CVEs",
+          "author": "ben-james-hmcts",
+          "url": "https://github.com/hmcts/rpx-xui-manage-organisations/pull/1458",
+          "changesRequested": false,
+          "approvals": 0,
+          "buildSuccess": false,
+          "headSha": "d07951036527db234468666063bb58d73f52b139",
+          "createdAt": "2025-12-23T14:27:21.115Z",
+          "lastUpdated": "2025-12-23T14:27:21.229Z"
         }
       }
     },
