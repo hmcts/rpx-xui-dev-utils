@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1766486981.248549",
-    "lastUpdated": "2025-12-23T10:49:30.677Z",
+    "lastUpdated": "2025-12-23T10:50:51.775Z",
     "approvalListMessageHash": "9dfed8f167bc9c3c6d44edc4e467709867098951126e655e680f16d072fb2aee"
   },
   "repositories": {
@@ -314,18 +314,6 @@
           "headSha": "d8d0ed4f5950e51643d33bee4e89d35d356b0aba",
           "createdAt": "2025-12-19T15:14:46.604Z",
           "lastUpdated": "2025-12-19T15:14:46.752Z"
-        },
-        "2071": {
-          "number": 2071,
-          "title": "Removed dependency on ip package",
-          "author": "ben-james-hmcts",
-          "url": "https://github.com/hmcts/ccd-case-ui-toolkit/pull/2071",
-          "changesRequested": false,
-          "approvals": 1,
-          "buildSuccess": true,
-          "headSha": "52ee679cc80b4466c89f14f13bdc9e6c725c5486",
-          "createdAt": "2025-12-23T10:49:30.533Z",
-          "lastUpdated": "2025-12-23T10:49:30.677Z"
         }
       }
     }
