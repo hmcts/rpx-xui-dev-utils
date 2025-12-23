@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1766493302.311099",
-    "lastUpdated": "2025-12-23T12:34:51.271Z",
+    "lastUpdated": "2025-12-23T12:43:03.464Z",
     "approvalListMessageHash": "d6fc046159bf7cc3111ae3859788ae550234f1825247ef27819237850c51d074"
   },
   "repositories": {
@@ -230,6 +230,18 @@
           "headSha": "debda6cb560fd7001484e3b4679262b5aab8df2c",
           "createdAt": "2025-11-11T21:31:54.300Z",
           "lastUpdated": "2025-11-11T21:31:54.508Z"
+        },
+        "1457": {
+          "number": 1457,
+          "title": "EXUI-3932-3943: Upgraded ejs and class-transformer packages",
+          "author": "ben-james-hmcts",
+          "url": "https://github.com/hmcts/rpx-xui-manage-organisations/pull/1457",
+          "changesRequested": false,
+          "approvals": 0,
+          "buildSuccess": false,
+          "headSha": "25ede53b02efbdaca8533ba036003d5cdf350f8c",
+          "createdAt": "2025-12-23T12:43:03.338Z",
+          "lastUpdated": "2025-12-23T12:43:03.464Z"
         }
       }
     },
