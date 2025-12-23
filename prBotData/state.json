@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1766498010.570589",
-    "lastUpdated": "2025-12-23T14:27:21.229Z",
+    "lastUpdated": "2025-12-23T15:25:35.395Z",
     "approvalListMessageHash": "a3936f6357a8294a009fcfa09aaa4d5273e4c76dad89650f67cb9f3e31e407bb"
   },
   "repositories": {
@@ -214,6 +214,18 @@
           "headSha": "ccbb4cd00dbb0a0f45f8b45613b7237a7b190d84",
           "createdAt": "2025-12-23T11:12:08.796Z",
           "lastUpdated": "2025-12-23T11:43:17.590Z"
+        },
+        "4827": {
+          "number": 4827,
+          "title": "exui-3815 min doc cve fix",
+          "author": "balajisridharanhmcts",
+          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/4827",
+          "changesRequested": false,
+          "approvals": 0,
+          "buildSuccess": false,
+          "headSha": "83b909e93ff55c68bc2691ffcb0054d6b53ae5ed",
+          "createdAt": "2025-12-23T15:25:35.330Z",
+          "lastUpdated": "2025-12-23T15:25:35.395Z"
         }
       }
     },
