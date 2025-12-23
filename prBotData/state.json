@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1766490715.059869",
-    "lastUpdated": "2025-12-23T11:51:44.783Z",
+    "lastUpdated": "2025-12-23T11:53:30.662Z",
     "approvalListMessageHash": "0d5b707c8f0604c099f0fd0c7bcf3e9fd4a3adec06e9d6a632d62ddcb7f3cf76"
   },
   "repositories": {
@@ -281,11 +281,11 @@
           "author": "balajisridharanhmcts",
           "url": "https://github.com/hmcts/em-showcase/pull/751",
           "changesRequested": false,
-          "approvals": 0,
+          "approvals": 1,
           "buildSuccess": true,
           "headSha": "9c5d4109ff103542cf37fa8b5e0f602daedb2ba5",
-          "createdAt": "2025-12-18T17:48:28.532Z",
-          "lastUpdated": "2025-12-23T11:51:44.783Z"
+          "createdAt": "2025-12-23T11:53:30.562Z",
+          "lastUpdated": "2025-12-23T11:53:30.662Z"
         }
       }
     },
