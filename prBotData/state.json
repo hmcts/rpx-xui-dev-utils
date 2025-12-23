@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1766486578.600029",
-    "lastUpdated": "2025-12-23T10:42:49.067Z",
+    "lastUpdated": "2025-12-23T10:49:30.677Z",
     "approvalListMessageHash": "dafedff99a34286918aa1b0b401294026a8d6cdbb29ceed457b9efe7d1aea0b3"
   },
   "repositories": {
@@ -321,11 +321,11 @@
           "author": "ben-james-hmcts",
           "url": "https://github.com/hmcts/ccd-case-ui-toolkit/pull/2071",
           "changesRequested": false,
-          "approvals": 0,
+          "approvals": 1,
           "buildSuccess": true,
           "headSha": "52ee679cc80b4466c89f14f13bdc9e6c725c5486",
-          "createdAt": "2025-12-23T10:42:48.999Z",
-          "lastUpdated": "2025-12-23T10:42:49.067Z"
+          "createdAt": "2025-12-23T10:49:30.533Z",
+          "lastUpdated": "2025-12-23T10:49:30.677Z"
         }
       }
     }
