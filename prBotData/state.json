@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1766510001.832459",
-    "lastUpdated": "2025-12-23T17:13:11.854Z",
+    "lastUpdated": "2025-12-24T09:48:06.378Z",
     "approvalListMessageHash": "60bbba11152b64c28a8b230de0ae23f1ba77b39a311e3ed40a9c40aca059bcc3"
   },
   "repositories": {
@@ -82,18 +82,6 @@
           "headSha": "0ba88ae01c508a3448e519191c680eb8be78e74b",
           "createdAt": "2025-11-18T16:59:34.251Z",
           "lastUpdated": "2025-11-18T16:59:34.382Z"
-        },
-        "4783": {
-          "number": 4783,
-          "title": "Cme 717 welsh logic app",
-          "author": "AntonyLeons",
-          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/4783",
-          "changesRequested": false,
-          "approvals": 1,
-          "buildSuccess": true,
-          "headSha": "c9c13a39919780bb7f2549548575b1d6f2a13f31",
-          "createdAt": "2025-12-15T12:01:40.261Z",
-          "lastUpdated": "2025-12-15T12:01:40.395Z"
         },
         "4792": {
           "number": 4792,
