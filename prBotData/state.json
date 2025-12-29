@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1767016611.437509",
-    "lastUpdated": "2025-12-29T13:56:41.003Z",
+    "lastUpdated": "2025-12-29T16:20:19.132Z",
     "approvalListMessageHash": "f0fba50cf7bcd8219b3a4613b93dc2e8c354ed86a86d77bcf12846c813f0ddfa"
   },
   "repositories": {
@@ -238,6 +238,18 @@
           "headSha": "c640a12c06ede449e9453ce4bdd48c24ef76bea5",
           "createdAt": "2025-12-29T12:10:47.478Z",
           "lastUpdated": "2025-12-29T13:04:20.306Z"
+        },
+        "4830": {
+          "number": 4830,
+          "title": "EXUI-3965 - Add readonly attributes",
+          "author": "connorpgpmcelroy",
+          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/4830",
+          "changesRequested": false,
+          "approvals": 0,
+          "buildSuccess": false,
+          "headSha": "b28837160ece14f06ba7be0048cac077b3891228",
+          "createdAt": "2025-12-29T16:20:19.039Z",
+          "lastUpdated": "2025-12-29T16:20:19.132Z"
         }
       }
     },
