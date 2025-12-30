@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1767035878.463299",
-    "lastUpdated": "2025-12-30T11:25:01.861Z",
+    "lastUpdated": "2025-12-30T11:51:10.707Z",
     "approvalListMessageHash": "9c0d62356ae60781c3863c40065b6fbd996b563ad24b2b1462eecd5222be0a76"
   },
   "repositories": {
@@ -262,6 +262,18 @@
           "headSha": "c4a662de9116e9807e93459f622d05df13fc9d16",
           "createdAt": "2025-12-30T11:25:01.777Z",
           "lastUpdated": "2025-12-30T11:25:01.861Z"
+        },
+        "4833": {
+          "number": 4833,
+          "title": "Task/ex UI 3853 ip CVE",
+          "author": "connorpgpmcelroy",
+          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/4833",
+          "changesRequested": false,
+          "approvals": 0,
+          "buildSuccess": false,
+          "headSha": "64e25051af0ce02cab5b5a803cf5542cffd97c9b",
+          "createdAt": "2025-12-30T11:51:10.636Z",
+          "lastUpdated": "2025-12-30T11:51:10.707Z"
         }
       }
     },
