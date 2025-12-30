@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1767035878.463299",
-    "lastUpdated": "2025-12-30T11:01:07.131Z",
+    "lastUpdated": "2025-12-30T11:25:01.861Z",
     "approvalListMessageHash": "9c0d62356ae60781c3863c40065b6fbd996b563ad24b2b1462eecd5222be0a76"
   },
   "repositories": {
@@ -250,6 +250,18 @@
           "headSha": "728c3ebb8b83e36bbea4c72a42bc8b6018d48d47",
           "createdAt": "2025-12-29T16:20:19.039Z",
           "lastUpdated": "2025-12-29T17:28:21.906Z"
+        },
+        "4832": {
+          "number": 4832,
+          "title": "Task/ex UI 3852 braces CVE",
+          "author": "connorpgpmcelroy",
+          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/4832",
+          "changesRequested": false,
+          "approvals": 0,
+          "buildSuccess": false,
+          "headSha": "c4a662de9116e9807e93459f622d05df13fc9d16",
+          "createdAt": "2025-12-30T11:25:01.777Z",
+          "lastUpdated": "2025-12-30T11:25:01.861Z"
         }
       }
     },
