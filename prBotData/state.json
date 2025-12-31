@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1767103113.778589",
-    "lastUpdated": "2025-12-30T13:58:23.422Z",
+    "lastUpdated": "2025-12-31T15:58:59.373Z",
     "approvalListMessageHash": "bb2a2cb520b92efbe29a7ed5bebbb76f6df06c4aa04c742dad1009efe29c40a8"
   },
   "repositories": {
@@ -262,6 +262,18 @@
           "headSha": "64e25051af0ce02cab5b5a803cf5542cffd97c9b",
           "createdAt": "2025-12-30T11:51:10.636Z",
           "lastUpdated": "2025-12-30T13:58:23.422Z"
+        },
+        "4834": {
+          "number": 4834,
+          "title": "EXUI-3966 - Add the window removals via globalThis and angular common location",
+          "author": "connorpgpmcelroy",
+          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/4834",
+          "changesRequested": false,
+          "approvals": 0,
+          "buildSuccess": false,
+          "headSha": "3b90700359a7956d80872c6acfbcb4d350d9abb8",
+          "createdAt": "2025-12-31T15:58:59.172Z",
+          "lastUpdated": "2025-12-31T15:58:59.373Z"
         }
       }
     },
