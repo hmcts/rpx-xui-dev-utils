@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1767368327.294879",
-    "lastUpdated": "2026-01-02T15:38:37.348Z",
+    "lastUpdated": "2026-01-02T15:46:32.404Z",
     "approvalListMessageHash": "a7c3b7bb6c95d5f7e7f4971ee7e0d150e17f89183e478103b1c83688a17392b0"
   },
   "repositories": {
@@ -406,6 +406,18 @@
           "headSha": "1ba2ba3749cfe02139c58f78566b5d83a516436d",
           "createdAt": "2025-12-29T13:29:07.536Z",
           "lastUpdated": "2026-01-02T11:43:32.528Z"
+        },
+        "754": {
+          "number": 754,
+          "title": "cve fix 3925",
+          "author": "balajisridharanhmcts",
+          "url": "https://github.com/hmcts/em-showcase/pull/754",
+          "changesRequested": false,
+          "approvals": 0,
+          "buildSuccess": false,
+          "headSha": "69e64548c92e3240424306011b03d64ce6340e84",
+          "createdAt": "2026-01-02T15:46:32.349Z",
+          "lastUpdated": "2026-01-02T15:46:32.404Z"
         }
       }
     },
