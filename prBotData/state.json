@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1767607018.910029",
-    "lastUpdated": "2026-01-05T09:56:47.600Z",
+    "lastUpdated": "2026-01-05T09:57:22.590Z",
     "approvalListMessageHash": "3164c3cffc377f24f66f4e92ff5fa06a8169c406baf702662f058d0277416ad6"
   },
   "repositories": {
@@ -358,18 +358,6 @@
           "headSha": "4c0d349c65479491d40bcebf4651784022b87df9",
           "createdAt": "2026-01-02T16:54:56.351Z",
           "lastUpdated": "2026-01-02T16:54:56.409Z"
-        },
-        "753": {
-          "number": 753,
-          "title": "EXUI-3972 - Update yarn-audit-known-issues",
-          "author": "connorpgpmcelroy",
-          "url": "https://github.com/hmcts/em-showcase/pull/753",
-          "changesRequested": false,
-          "approvals": 1,
-          "buildSuccess": true,
-          "headSha": "1ba2ba3749cfe02139c58f78566b5d83a516436d",
-          "createdAt": "2026-01-02T17:30:02.389Z",
-          "lastUpdated": "2026-01-02T17:30:02.554Z"
         },
         "754": {
           "number": 754,
