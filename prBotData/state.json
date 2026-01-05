@@ -303,18 +303,6 @@
     },
     "hmcts/ccd-case-ui-toolkit": {
       "pullRequests": {
-        "2065": {
-          "number": 2065,
-          "title": "EXUI-3892 - Add new code to document management service",
-          "author": "Josh-HMCTS",
-          "url": "https://github.com/hmcts/ccd-case-ui-toolkit/pull/2065",
-          "changesRequested": false,
-          "approvals": 1,
-          "buildSuccess": true,
-          "headSha": "45aca76913ba1cca82bf92307cc3ce552b2325be",
-          "createdAt": "2026-01-05T09:51:13.746Z",
-          "lastUpdated": "2026-01-05T09:51:13.960Z"
-        },
         "2067": {
           "number": 2067,
           "title": "exui-3849-cve-fix",
