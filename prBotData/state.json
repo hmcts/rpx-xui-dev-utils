@@ -303,18 +303,6 @@
     },
     "hmcts/ccd-case-ui-toolkit": {
       "pullRequests": {
-        "2050": {
-          "number": 2050,
-          "title": "EXUI-3682 - toolbar items repeated by voiceover tools",
-          "author": "chrisjones-hmcts",
-          "url": "https://github.com/hmcts/ccd-case-ui-toolkit/pull/2050",
-          "changesRequested": false,
-          "approvals": 1,
-          "buildSuccess": true,
-          "headSha": "52b734bd92bdfcca398ed5162ff35a17d3ad13d0",
-          "createdAt": "2025-12-24T09:50:36.243Z",
-          "lastUpdated": "2025-12-24T09:50:36.434Z"
-        },
         "2065": {
           "number": 2065,
           "title": "EXUI-3892 - Add new code to document management service",
