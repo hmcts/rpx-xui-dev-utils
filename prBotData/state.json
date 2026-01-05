@@ -202,18 +202,6 @@
           "headSha": "83b909e93ff55c68bc2691ffcb0054d6b53ae5ed",
           "createdAt": "2025-12-23T17:13:11.785Z",
           "lastUpdated": "2025-12-23T17:13:11.854Z"
-        },
-        "4833": {
-          "number": 4833,
-          "title": "Task/ex UI 3853 ip CVE",
-          "author": "connorpgpmcelroy",
-          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/4833",
-          "changesRequested": false,
-          "approvals": 0,
-          "buildSuccess": true,
-          "headSha": "64e25051af0ce02cab5b5a803cf5542cffd97c9b",
-          "createdAt": "2025-12-30T11:51:10.636Z",
-          "lastUpdated": "2025-12-30T13:58:23.422Z"
         }
       }
     },
