@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1767627234.544359",
-    "lastUpdated": "2026-01-05T15:33:45.068Z",
+    "lastUpdated": "2026-01-05T15:34:30.960Z",
     "approvalListMessageHash": "f904024c15315cfde338c89fe3b922447b7a83b2dbdec691d26d1de7a0795984"
   },
   "repositories": {
@@ -266,18 +266,6 @@
           "headSha": "d07951036527db234468666063bb58d73f52b139",
           "createdAt": "2025-12-23T14:27:21.115Z",
           "lastUpdated": "2025-12-23T14:27:21.229Z"
-        },
-        "1460": {
-          "number": 1460,
-          "title": "cve fix",
-          "author": "olusegz07",
-          "url": "https://github.com/hmcts/rpx-xui-manage-organisations/pull/1460",
-          "changesRequested": false,
-          "approvals": 1,
-          "buildSuccess": true,
-          "headSha": "8bcd53b6fbb72677d5e6e83b858a0910a9ebc1b9",
-          "createdAt": "2026-01-05T14:20:46.079Z",
-          "lastUpdated": "2026-01-05T14:20:46.161Z"
         },
         "1461": {
           "number": 1461,
