@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1767610393.338919",
-    "lastUpdated": "2026-01-05T10:53:03.068Z",
+    "lastUpdated": "2026-01-05T11:09:21.042Z",
     "approvalListMessageHash": "8afb3d7a2ee9041f420d44a29a3f770006bb29cb7e434acaf7e275506c6d0fd1"
   },
   "repositories": {
@@ -314,18 +314,6 @@
           "headSha": "52b734bd92bdfcca398ed5162ff35a17d3ad13d0",
           "createdAt": "2025-12-24T09:50:36.243Z",
           "lastUpdated": "2025-12-24T09:50:36.434Z"
-        },
-        "2063": {
-          "number": 2063,
-          "title": "EXUI-3856 - Add slight angular upgrade",
-          "author": "connorpgpmcelroy",
-          "url": "https://github.com/hmcts/ccd-case-ui-toolkit/pull/2063",
-          "changesRequested": false,
-          "approvals": 1,
-          "buildSuccess": true,
-          "headSha": "3f0c6a91f8b0c74829ea60f07e47c2ab4b72bc25",
-          "createdAt": "2026-01-05T10:53:02.912Z",
-          "lastUpdated": "2026-01-05T10:53:03.068Z"
         },
         "2065": {
           "number": 2065,
