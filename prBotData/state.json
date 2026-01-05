@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1767607081.769979",
-    "lastUpdated": "2026-01-05T09:57:51.714Z",
+    "lastUpdated": "2026-01-05T09:58:14.690Z",
     "approvalListMessageHash": "aaffbd54affd32b3d808ee18df246147afe4eaa01daabe9fda5be39f828f4a5d"
   },
   "repositories": {
@@ -226,18 +226,6 @@
           "headSha": "0e02ea527bba451f1d257a5e1eeec67127f33ca9",
           "createdAt": "2025-12-24T17:01:26.982Z",
           "lastUpdated": "2025-12-29T10:11:23.348Z"
-        },
-        "4829": {
-          "number": 4829,
-          "title": "EXUI-3970 - Update yarn-audit-known-issues",
-          "author": "connorpgpmcelroy",
-          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/4829",
-          "changesRequested": false,
-          "approvals": 1,
-          "buildSuccess": true,
-          "headSha": "7fb89a724da79b73ef2bbb869fc75c64d8294843",
-          "createdAt": "2026-01-02T17:30:16.400Z",
-          "lastUpdated": "2026-01-02T17:30:16.488Z"
         },
         "4830": {
           "number": 4830,
