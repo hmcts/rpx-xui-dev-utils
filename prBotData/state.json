@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1767606987.997349",
-    "lastUpdated": "2026-01-05T09:56:18.686Z",
+    "lastUpdated": "2026-01-05T09:56:47.600Z",
     "approvalListMessageHash": "79095600789f6494d8a14a6f58af9f6270786b9b171c45e09d7f077818d95df5"
   },
   "repositories": {
@@ -330,18 +330,6 @@
           "headSha": "add2a632919527795152828b6cf757c21c517438",
           "createdAt": "2025-12-10T09:27:39.551Z",
           "lastUpdated": "2025-12-10T09:27:39.631Z"
-        },
-        "968": {
-          "number": 968,
-          "title": "EXUI-3981 - Update yarn-audit-known-issues",
-          "author": "connorpgpmcelroy",
-          "url": "https://github.com/hmcts/rpx-xui-approve-org/pull/968",
-          "changesRequested": false,
-          "approvals": 1,
-          "buildSuccess": true,
-          "headSha": "0e2049cbc21255d040af5f811d24e4a3744b1679",
-          "createdAt": "2026-01-02T17:15:01.600Z",
-          "lastUpdated": "2026-01-02T17:15:01.704Z"
         }
       }
     },
