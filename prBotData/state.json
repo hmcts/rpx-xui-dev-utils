@@ -179,18 +179,6 @@
           "createdAt": "2025-12-19T11:56:52.804Z",
           "lastUpdated": "2026-01-02T15:38:37.348Z"
         },
-        "4825": {
-          "number": 4825,
-          "title": "EXUI-3816 - Fix tar cve",
-          "author": "connorpgpmcelroy",
-          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/4825",
-          "changesRequested": false,
-          "approvals": 1,
-          "buildSuccess": true,
-          "headSha": "95bb8ce4d44de12d7cb326e7d25f8e06e601d6fa",
-          "createdAt": "2025-12-22T16:51:50.966Z",
-          "lastUpdated": "2025-12-29T19:17:48.740Z"
-        },
         "4826": {
           "number": 4826,
           "title": "Exui 3815 CVE fix",
