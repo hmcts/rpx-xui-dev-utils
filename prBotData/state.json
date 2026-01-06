@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1767697504.695849",
-    "lastUpdated": "2026-01-06T12:16:36.143Z",
+    "lastUpdated": "2026-01-06T12:47:46.186Z",
     "approvalListMessageHash": "30c0b3a7813df5200fe5bb0f061ddab0f75049de40769e83a980bb2821cfef69"
   },
   "repositories": {
@@ -178,6 +178,18 @@
           "headSha": "84c296d2a749b6f3209166030fc1a942ae8548e3",
           "createdAt": "2026-01-05T13:22:06.057Z",
           "lastUpdated": "2026-01-05T14:18:11.584Z"
+        },
+        "4824": {
+          "number": 4824,
+          "title": "EXUI-3817 - Make changes to fix js-yaml CVE",
+          "author": "connorpgpmcelroy",
+          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/4824",
+          "changesRequested": false,
+          "approvals": 1,
+          "buildSuccess": true,
+          "headSha": "4ad059626abaea6b817e06d3392fecf3014ef07a",
+          "createdAt": "2026-01-06T12:47:46.122Z",
+          "lastUpdated": "2026-01-06T12:47:46.186Z"
         },
         "4826": {
           "number": 4826,
