@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1767708477.784359",
-    "lastUpdated": "2026-01-06T15:09:24.018Z",
+    "lastUpdated": "2026-01-06T15:10:59.329Z",
     "approvalListMessageHash": "045f160e59cdad9519bbb68fcd52769315350a5ea3ff771605029e1c0a8ea09d"
   },
   "repositories": {
@@ -358,22 +358,6 @@
           "headSha": "327c00cd4e9a874af863d1dc8405a4d0b8e91651",
           "createdAt": "2026-01-05T11:27:12.334Z",
           "lastUpdated": "2026-01-05T11:27:12.494Z"
-        }
-      }
-    },
-    "hmcts/ccd-case-ui-toolkit": {
-      "pullRequests": {
-        "2067": {
-          "number": 2067,
-          "title": "exui-3849-cve-fix",
-          "author": "RiteshHMCTS",
-          "url": "https://github.com/hmcts/ccd-case-ui-toolkit/pull/2067",
-          "changesRequested": false,
-          "approvals": 1,
-          "buildSuccess": true,
-          "headSha": "4af72fbc1a03b6c267182b60767472e69c0cafa1",
-          "createdAt": "2026-01-06T09:21:03.129Z",
-          "lastUpdated": "2026-01-06T09:21:03.235Z"
         }
       }
     },
