@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1767633727.350469",
-    "lastUpdated": "2026-01-05T17:21:56.807Z",
+    "lastUpdated": "2026-01-06T09:06:32.745Z",
     "approvalListMessageHash": "aafa68d9b0592200d7b00072fc78877408023e001783cf44187cc030a91f56cb"
   },
   "repositories": {
@@ -250,18 +250,6 @@
           "headSha": "c63aa8aa15a2e92b309de63ff8de76645edaad78",
           "createdAt": "2026-01-05T15:31:47.802Z",
           "lastUpdated": "2026-01-05T15:31:47.898Z"
-        },
-        "4840": {
-          "number": 4840,
-          "title": "EXUI-3933 - CVE Vulnerability - CVE-2024-28176 - rpx-xui-webapp",
-          "author": "chrisjones-hmcts",
-          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/4840",
-          "changesRequested": false,
-          "approvals": 0,
-          "buildSuccess": true,
-          "headSha": "e5bf12683d8b45b4a9277f66a418deec646b5742",
-          "createdAt": "2026-01-05T17:18:24.527Z",
-          "lastUpdated": "2026-01-05T17:20:58.250Z"
         }
       }
     },
