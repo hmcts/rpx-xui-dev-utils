@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1767691274.194819",
-    "lastUpdated": "2026-01-06T09:21:05.219Z",
+    "lastUpdated": "2026-01-06T11:04:54.469Z",
     "approvalListMessageHash": "0fdc352904da72e6d42c7dca3e7d344a18bf96670c866712c84d8095e4e2b71c"
   },
   "repositories": {
@@ -202,18 +202,6 @@
           "headSha": "83b909e93ff55c68bc2691ffcb0054d6b53ae5ed",
           "createdAt": "2025-12-23T17:13:11.785Z",
           "lastUpdated": "2025-12-23T17:13:11.854Z"
-        },
-        "4835": {
-          "number": 4835,
-          "title": "cve fix",
-          "author": "olusegz07",
-          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/4835",
-          "changesRequested": false,
-          "approvals": 1,
-          "buildSuccess": true,
-          "headSha": "a8fd77593ba828a42ac7782796785a4d8356004f",
-          "createdAt": "2026-01-05T13:31:35.364Z",
-          "lastUpdated": "2026-01-05T13:48:38.755Z"
         },
         "4836": {
           "number": 4836,
