@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1767796025.368419",
-    "lastUpdated": "2026-01-07T14:26:55.432Z",
+    "lastUpdated": "2026-01-07T15:24:03.678Z",
     "approvalListMessageHash": "592d72445053d96f45a05dcfe0e929d48d9581818e405b2d1603c00dc99fded4"
   },
   "repositories": {
@@ -178,6 +178,18 @@
           "headSha": "84c296d2a749b6f3209166030fc1a942ae8548e3",
           "createdAt": "2026-01-05T13:22:06.057Z",
           "lastUpdated": "2026-01-05T14:18:11.584Z"
+        },
+        "4825": {
+          "number": 4825,
+          "title": "EXUI-3816 - Fix tar cve",
+          "author": "connorpgpmcelroy",
+          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/4825",
+          "changesRequested": false,
+          "approvals": 1,
+          "buildSuccess": true,
+          "headSha": "5934409563165aaa0f3f1a809336f08fe9ee65da",
+          "createdAt": "2026-01-07T15:24:03.616Z",
+          "lastUpdated": "2026-01-07T15:24:03.678Z"
         },
         "4826": {
           "number": 4826,
