@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1767789217.798199",
-    "lastUpdated": "2026-01-07T12:33:28.630Z",
+    "lastUpdated": "2026-01-07T12:34:18.520Z",
     "approvalListMessageHash": "8194e2ebe4981e130f4bb17af64094d67030e41833e6fadad7e205ad671b4772"
   },
   "repositories": {
@@ -382,22 +382,6 @@
           "headSha": "327c00cd4e9a874af863d1dc8405a4d0b8e91651",
           "createdAt": "2026-01-05T11:27:12.334Z",
           "lastUpdated": "2026-01-05T11:27:12.494Z"
-        }
-      }
-    },
-    "hmcts/rpx-xui-common-lib": {
-      "pullRequests": {
-        "524": {
-          "number": 524,
-          "title": "exui-3889-logout-issue",
-          "author": "RiteshHMCTS",
-          "url": "https://github.com/hmcts/rpx-xui-common-lib/pull/524",
-          "changesRequested": false,
-          "approvals": 1,
-          "buildSuccess": true,
-          "headSha": "248a0abc9ebbffe56e783a568e54270d84b82cfa",
-          "createdAt": "2026-01-06T15:16:12.623Z",
-          "lastUpdated": "2026-01-06T15:16:12.716Z"
         }
       }
     }
