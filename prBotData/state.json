@@ -239,18 +239,6 @@
           "createdAt": "2026-01-06T14:57:44.470Z",
           "lastUpdated": "2026-01-06T16:46:13.870Z"
         },
-        "4846": {
-          "number": 4846,
-          "title": "Task/ex UI 3875 mv CVE",
-          "author": "connorpgpmcelroy",
-          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/4846",
-          "changesRequested": false,
-          "approvals": 0,
-          "buildSuccess": true,
-          "headSha": "7641f83f87c5cc020a077248a0aa50a694e12d6a",
-          "createdAt": "2026-01-06T15:26:42.766Z",
-          "lastUpdated": "2026-01-07T11:53:14.445Z"
-        },
         "4847": {
           "number": 4847,
           "title": "EXUI-3968 - Edit negation statements for Sonar",
