@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1767787210.774889",
-    "lastUpdated": "2026-01-07T12:00:55.903Z",
+    "lastUpdated": "2026-01-07T12:06:42.867Z",
     "approvalListMessageHash": "94234b3ae3432ac0b4133c310d20cdea0a2fc42f41f4619b546d775b49a64072"
   },
   "repositories": {
@@ -302,6 +302,18 @@
           "headSha": "d07951036527db234468666063bb58d73f52b139",
           "createdAt": "2025-12-23T14:27:21.115Z",
           "lastUpdated": "2025-12-23T14:27:21.229Z"
+        },
+        "1463": {
+          "number": 1463,
+          "title": "keepAlive version upgrade to sync with common-lib",
+          "author": "RiteshHMCTS",
+          "url": "https://github.com/hmcts/rpx-xui-manage-organisations/pull/1463",
+          "changesRequested": false,
+          "approvals": 0,
+          "buildSuccess": false,
+          "headSha": "8b48c79b8b76313bf5d44ef0dfd02730e5013d11",
+          "createdAt": "2026-01-07T12:06:42.795Z",
+          "lastUpdated": "2026-01-07T12:06:42.867Z"
         }
       }
     },
