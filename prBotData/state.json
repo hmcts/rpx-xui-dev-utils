@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1767801731.560699",
-    "lastUpdated": "2026-01-07T16:02:49.660Z",
+    "lastUpdated": "2026-01-07T16:03:27.330Z",
     "approvalListMessageHash": "37d3d318b871af1a261c8d38f3e6d56a0368589f042b3e66210ed154a2b8feff"
   },
   "repositories": {
@@ -370,22 +370,6 @@
           "headSha": "327c00cd4e9a874af863d1dc8405a4d0b8e91651",
           "createdAt": "2026-01-05T11:27:12.334Z",
           "lastUpdated": "2026-01-05T11:27:12.494Z"
-        }
-      }
-    },
-    "hmcts/ccd-case-ui-toolkit": {
-      "pullRequests": {
-        "2073": {
-          "number": 2073,
-          "title": "Revert \"EXUI-3870 - Update ccpay web comp, update pre-release name\"",
-          "author": "Josh-HMCTS",
-          "url": "https://github.com/hmcts/ccd-case-ui-toolkit/pull/2073",
-          "changesRequested": false,
-          "approvals": 1,
-          "buildSuccess": true,
-          "headSha": "1d61918445d52702130f16c519aae7504d823343",
-          "createdAt": "2026-01-07T16:02:49.492Z",
-          "lastUpdated": "2026-01-07T16:02:49.660Z"
         }
       }
     }
