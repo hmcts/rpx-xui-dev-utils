@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1767787210.774889",
-    "lastUpdated": "2026-01-07T12:09:30.928Z",
+    "lastUpdated": "2026-01-07T12:33:28.630Z",
     "approvalListMessageHash": "94234b3ae3432ac0b4133c310d20cdea0a2fc42f41f4619b546d775b49a64072"
   },
   "repositories": {
@@ -226,18 +226,6 @@
           "headSha": "58b13a2dda236d4f862ebd2d7d68220e8cf9fe45",
           "createdAt": "2026-01-06T12:16:36.078Z",
           "lastUpdated": "2026-01-06T16:41:36.310Z"
-        },
-        "4843": {
-          "number": 4843,
-          "title": "exui-3945-cve-fix",
-          "author": "RiteshHMCTS",
-          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/4843",
-          "changesRequested": false,
-          "approvals": 1,
-          "buildSuccess": true,
-          "headSha": "d0e1d9a84a25ddf855261d3e6ff6c11d477422f1",
-          "createdAt": "2026-01-06T15:15:44.626Z",
-          "lastUpdated": "2026-01-06T17:27:58.762Z"
         },
         "4845": {
           "number": 4845,
