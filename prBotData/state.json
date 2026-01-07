@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1767787210.774889",
-    "lastUpdated": "2026-01-07T11:59:59.391Z",
+    "lastUpdated": "2026-01-07T12:00:55.903Z",
     "approvalListMessageHash": "94234b3ae3432ac0b4133c310d20cdea0a2fc42f41f4619b546d775b49a64072"
   },
   "repositories": {
@@ -262,6 +262,18 @@
           "headSha": "7641f83f87c5cc020a077248a0aa50a694e12d6a",
           "createdAt": "2026-01-06T15:26:42.766Z",
           "lastUpdated": "2026-01-07T11:53:14.445Z"
+        },
+        "4847": {
+          "number": 4847,
+          "title": "EXUI-3968 - Edit negation statements for Sonar",
+          "author": "connorpgpmcelroy",
+          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/4847",
+          "changesRequested": false,
+          "approvals": 0,
+          "buildSuccess": false,
+          "headSha": "3b3ddaf519ea3feab1b74a2be77b15c4c90d59fd",
+          "createdAt": "2026-01-07T12:00:55.769Z",
+          "lastUpdated": "2026-01-07T12:00:55.903Z"
         }
       }
     },
