@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1767869957.695139",
-    "lastUpdated": "2026-01-08T10:59:06.724Z",
+    "lastUpdated": "2026-01-08T11:18:19.688Z",
     "approvalListMessageHash": "9402b24114da551db85bd7cc35acd57765ee9087f7cf2898382f8e7125d18696"
   },
   "repositories": {
@@ -358,6 +358,18 @@
           "headSha": "481199d27b85b3887df449a700e3b4f11bc5c337",
           "createdAt": "2025-11-20T09:56:36.353Z",
           "lastUpdated": "2025-11-20T09:56:36.568Z"
+        },
+        "752": {
+          "number": 752,
+          "title": "exui-3811 express version update",
+          "author": "balajisridharanhmcts",
+          "url": "https://github.com/hmcts/em-showcase/pull/752",
+          "changesRequested": false,
+          "approvals": 1,
+          "buildSuccess": false,
+          "headSha": "2af556a2d1244438d749ed943bef3b8cd28fc245",
+          "createdAt": "2026-01-08T11:18:19.609Z",
+          "lastUpdated": "2026-01-08T11:18:19.688Z"
         },
         "754": {
           "number": 754,
