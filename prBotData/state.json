@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1767882312.729559",
-    "lastUpdated": "2026-01-08T14:25:00.959Z",
+    "lastUpdated": "2026-01-08T14:25:47.056Z",
     "approvalListMessageHash": "06883025e1502c4556f2dbd3cf3416394fa8200581579ee41576994ed2730dc2"
   },
   "repositories": {
@@ -262,6 +262,18 @@
           "headSha": "b01066b2372b311c48d520079e73e31cbd72d3a3",
           "createdAt": "2026-01-08T14:08:22.835Z",
           "lastUpdated": "2026-01-08T14:08:22.973Z"
+        },
+        "4852": {
+          "number": 4852,
+          "title": "Update sonar-project.properties",
+          "author": "connorpgpmcelroy",
+          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/4852",
+          "changesRequested": false,
+          "approvals": 0,
+          "buildSuccess": false,
+          "headSha": "246dac729df8225e6c95e3d6ba963360558fe107",
+          "createdAt": "2026-01-08T14:25:47.001Z",
+          "lastUpdated": "2026-01-08T14:25:47.056Z"
         }
       }
     },
