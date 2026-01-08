@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1767869759.506879",
-    "lastUpdated": "2026-01-08T10:55:48.874Z",
+    "lastUpdated": "2026-01-08T10:59:06.724Z",
     "approvalListMessageHash": "d256e50336abbc948b55d9082d34e1ef50d08e9171720c73cc1fc0566bf97e69"
   },
   "repositories": {
@@ -330,18 +330,6 @@
           "headSha": "add2a632919527795152828b6cf757c21c517438",
           "createdAt": "2025-12-10T09:27:39.551Z",
           "lastUpdated": "2025-12-10T09:27:39.631Z"
-        },
-        "971": {
-          "number": 971,
-          "title": "exui-3947-cve",
-          "author": "RiteshHMCTS",
-          "url": "https://github.com/hmcts/rpx-xui-approve-org/pull/971",
-          "changesRequested": false,
-          "approvals": 1,
-          "buildSuccess": true,
-          "headSha": "7c3753993e5d0940cc934596ffeee5e6a224a7b3",
-          "createdAt": "2026-01-06T15:11:30.809Z",
-          "lastUpdated": "2026-01-06T15:11:30.882Z"
         },
         "974": {
           "number": 974,
