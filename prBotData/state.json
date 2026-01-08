@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1767869452.581109",
-    "lastUpdated": "2026-01-08T10:50:41.907Z",
+    "lastUpdated": "2026-01-08T10:51:00.142Z",
     "approvalListMessageHash": "d0f48616ee1dc4545eeea795420b3701174a1730c7c61218583d6687666b9578"
   },
   "repositories": {
@@ -293,15 +293,15 @@
         },
         "1463": {
           "number": 1463,
-          "title": "keepAlive version upgrade to sync with common-lib",
+          "title": "exui-3889-logout-issue",
           "author": "RiteshHMCTS",
           "url": "https://github.com/hmcts/rpx-xui-manage-organisations/pull/1463",
           "changesRequested": false,
-          "approvals": 0,
+          "approvals": 1,
           "buildSuccess": true,
           "headSha": "8b48c79b8b76313bf5d44ef0dfd02730e5013d11",
-          "createdAt": "2026-01-07T12:06:42.795Z",
-          "lastUpdated": "2026-01-07T13:44:40.768Z"
+          "createdAt": "2026-01-08T10:50:59.969Z",
+          "lastUpdated": "2026-01-08T10:51:00.142Z"
         }
       }
     },
