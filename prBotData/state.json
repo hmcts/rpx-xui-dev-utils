@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1767877162.984429",
-    "lastUpdated": "2026-01-08T12:59:11.909Z",
+    "lastUpdated": "2026-01-08T12:59:59.979Z",
     "approvalListMessageHash": "5f65dc742b8e7ecb79dfecd1abf33f670ffb6e657b69931d3145c0c79a0c1121"
   },
   "repositories": {
@@ -346,6 +346,22 @@
           "headSha": "327c00cd4e9a874af863d1dc8405a4d0b8e91651",
           "createdAt": "2026-01-05T11:27:12.334Z",
           "lastUpdated": "2026-01-05T11:27:12.494Z"
+        }
+      }
+    },
+    "hmcts/ccd-case-ui-toolkit": {
+      "pullRequests": {
+        "2047": {
+          "number": 2047,
+          "title": "field name added",
+          "author": "olusegz07",
+          "url": "https://github.com/hmcts/ccd-case-ui-toolkit/pull/2047",
+          "changesRequested": false,
+          "approvals": 1,
+          "buildSuccess": true,
+          "headSha": "cc63ca8678e9dc1583bc2be806c84c1f2605f18a",
+          "createdAt": "2026-01-08T12:59:59.897Z",
+          "lastUpdated": "2026-01-08T12:59:59.978Z"
         }
       }
     }
