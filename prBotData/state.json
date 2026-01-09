@@ -1,26 +1,10 @@
 {
   "metadata": {
     "approvalListMessageTs": "1767964098.838509",
-    "lastUpdated": "2026-01-09T13:08:08.476Z",
+    "lastUpdated": "2026-01-09T13:09:58.021Z",
     "approvalListMessageHash": "3dc0870e45d30c1398811c062ee8d9104c75bc866803fc068cc8805e013c1302"
   },
   "repositories": {
-    "hmcts/em-media-viewer": {
-      "pullRequests": {
-        "1249": {
-          "number": 1249,
-          "title": "Update dependency @angular/compiler to v20.3.15 [SECURITY]",
-          "author": "renovate[bot]",
-          "url": "https://github.com/hmcts/em-media-viewer/pull/1249",
-          "changesRequested": false,
-          "approvals": 0,
-          "buildSuccess": true,
-          "headSha": "0f29a63a610b23b42a1fa3c0cfe6dce0729b2f88",
-          "createdAt": "2025-12-02T03:44:58.276Z",
-          "lastUpdated": "2026-01-09T11:44:01.506Z"
-        }
-      }
-    },
     "hmcts/rpx-xui-webapp": {
       "pullRequests": {
         "2860": {
