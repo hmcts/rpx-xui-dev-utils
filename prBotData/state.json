@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1767978445.026909",
-    "lastUpdated": "2026-01-09T17:07:14.246Z",
+    "lastUpdated": "2026-01-09T17:16:20.510Z",
     "approvalListMessageHash": "745138ae838579a4e0a3687e945e54782e49cd6ac89f15a40d52e0f1f371ca48"
   },
   "repositories": {
@@ -174,18 +174,6 @@
           "headSha": "79bc28220cc1c76c6f555f389404efedf4e57e0b",
           "createdAt": "2026-01-08T14:06:30.530Z",
           "lastUpdated": "2026-01-08T14:06:30.643Z"
-        },
-        "4851": {
-          "number": 4851,
-          "title": "EXUI-3969 - Add all sonar issue changes",
-          "author": "connorpgpmcelroy",
-          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/4851",
-          "changesRequested": false,
-          "approvals": 1,
-          "buildSuccess": true,
-          "headSha": "b01066b2372b311c48d520079e73e31cbd72d3a3",
-          "createdAt": "2026-01-08T14:08:22.835Z",
-          "lastUpdated": "2026-01-08T14:08:22.973Z"
         },
         "4852": {
           "number": 4852,
