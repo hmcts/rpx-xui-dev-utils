@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1767900418.866129",
-    "lastUpdated": "2026-01-08T19:26:47.178Z",
+    "lastUpdated": "2026-01-09T09:37:17.722Z",
     "approvalListMessageHash": "aa4a1d7117b2269eadcc9c38cb7a7f127baca3c4c77617954b21ca9c5c788035"
   },
   "repositories": {
@@ -118,18 +118,6 @@
           "headSha": "20b57322ac4af5876a43b021e924b9539efef61e",
           "createdAt": "2025-12-10T22:47:47.913Z",
           "lastUpdated": "2025-12-10T23:48:21.288Z"
-        },
-        "4803": {
-          "number": 4803,
-          "title": "Test/ex UI 3624 case flag e2e tests",
-          "author": "danH-test",
-          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/4803",
-          "changesRequested": false,
-          "approvals": 1,
-          "buildSuccess": true,
-          "headSha": "99286f36fe23bb03c376300f9bb0bcb1e8e61c9d",
-          "createdAt": "2026-01-08T16:00:56.885Z",
-          "lastUpdated": "2026-01-08T17:56:26.137Z"
         },
         "4807": {
           "number": 4807,
