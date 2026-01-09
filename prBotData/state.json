@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1767951448.052149",
-    "lastUpdated": "2026-01-09T09:37:17.722Z",
+    "lastUpdated": "2026-01-09T10:46:30.552Z",
     "approvalListMessageHash": "80219bf11d35b2af0d1a251bd78b7a4525178e03789b44e409ea3b32820b90d5"
   },
   "repositories": {
@@ -250,6 +250,18 @@
           "headSha": "3a9a1bcbfda0154c318464b42478a0f9becc98cd",
           "createdAt": "2026-01-08T14:25:47.001Z",
           "lastUpdated": "2026-01-08T16:27:07.075Z"
+        },
+        "4853": {
+          "number": 4853,
+          "title": "EXUI-4010 - accessibility issues in private law e2e test pipeline",
+          "author": "chrisjones-hmcts",
+          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/4853",
+          "changesRequested": false,
+          "approvals": 0,
+          "buildSuccess": false,
+          "headSha": "ef503d7d8982022e22102658d9e2bed786502874",
+          "createdAt": "2026-01-09T10:46:30.492Z",
+          "lastUpdated": "2026-01-09T10:46:30.552Z"
         }
       }
     },
