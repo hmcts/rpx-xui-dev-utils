@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1767964209.044329",
-    "lastUpdated": "2026-01-09T13:09:58.021Z",
+    "lastUpdated": "2026-01-09T13:23:47.699Z",
     "approvalListMessageHash": "e2152521ace1ee2313510000fa75da606b7917f6e65059c8b6421b2a0eb53818"
   },
   "repositories": {
@@ -306,6 +306,22 @@
           "headSha": "481199d27b85b3887df449a700e3b4f11bc5c337",
           "createdAt": "2025-11-20T09:56:36.353Z",
           "lastUpdated": "2025-11-20T09:56:36.568Z"
+        }
+      }
+    },
+    "hmcts/em-media-viewer": {
+      "pullRequests": {
+        "1260": {
+          "number": 1260,
+          "title": "exui-3927-cve fix",
+          "author": "RiteshHMCTS",
+          "url": "https://github.com/hmcts/em-media-viewer/pull/1260",
+          "changesRequested": false,
+          "approvals": 1,
+          "buildSuccess": true,
+          "headSha": "e02238c60e105daee225ec5f3836a63e0e7129b6",
+          "createdAt": "2026-01-09T13:23:47.637Z",
+          "lastUpdated": "2026-01-09T13:23:47.699Z"
         }
       }
     }
