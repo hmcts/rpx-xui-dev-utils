@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1767969184.984379",
-    "lastUpdated": "2026-01-09T14:32:55.190Z",
+    "lastUpdated": "2026-01-09T14:33:55.737Z",
     "approvalListMessageHash": "0d003247fe2600fceffa93bbac8d435c2cf7a1aee605ee263c2d964917bee06b"
   },
   "repositories": {
@@ -282,6 +282,18 @@
           "headSha": "481199d27b85b3887df449a700e3b4f11bc5c337",
           "createdAt": "2025-11-20T09:56:36.353Z",
           "lastUpdated": "2025-11-20T09:56:36.568Z"
+        },
+        "758": {
+          "number": 758,
+          "title": "Added resolution for 'glob' to be greater than version 9",
+          "author": "ben-james-hmcts",
+          "url": "https://github.com/hmcts/em-showcase/pull/758",
+          "changesRequested": false,
+          "approvals": 0,
+          "buildSuccess": false,
+          "headSha": "0b0f01f94534dac494f55560809a0cde5c916348",
+          "createdAt": "2026-01-09T14:33:55.565Z",
+          "lastUpdated": "2026-01-09T14:33:55.737Z"
         }
       }
     },
