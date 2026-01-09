@@ -1,26 +1,10 @@
 {
   "metadata": {
-    "approvalListMessageTs": "1767796025.368419",
-    "lastUpdated": "2026-01-07T14:26:55.432Z",
-    "approvalListMessageHash": "592d72445053d96f45a05dcfe0e929d48d9581818e405b2d1603c00dc99fded4"
+    "approvalListMessageTs": "1767965283.600999",
+    "lastUpdated": "2026-01-09T13:27:52.624Z",
+    "approvalListMessageHash": "89d8de2853d9f4c38ff5dc294eb819d62f7d94161e8a2ee60bd6a2eb1d0c73b4"
   },
   "repositories": {
-    "hmcts/em-media-viewer": {
-      "pullRequests": {
-        "1249": {
-          "number": 1249,
-          "title": "Update dependency @angular/compiler to v20.3.15 [SECURITY]",
-          "author": "renovate[bot]",
-          "url": "https://github.com/hmcts/em-media-viewer/pull/1249",
-          "changesRequested": false,
-          "approvals": 0,
-          "buildSuccess": false,
-          "headSha": "aee0818c1848436fdd6fd2cc086e5db33a27216e",
-          "createdAt": "2025-12-02T03:44:58.276Z",
-          "lastUpdated": "2025-12-02T03:44:58.456Z"
-        }
-      }
-    },
     "hmcts/rpx-xui-webapp": {
       "pullRequests": {
         "2860": {
@@ -78,10 +62,10 @@
           "url": "https://github.com/hmcts/rpx-xui-webapp/pull/4749",
           "changesRequested": false,
           "approvals": 0,
-          "buildSuccess": false,
-          "headSha": "0ba88ae01c508a3448e519191c680eb8be78e74b",
+          "buildSuccess": true,
+          "headSha": "0a2545b638decff9de075193920594ec0b32622c",
           "createdAt": "2025-11-18T16:59:34.251Z",
-          "lastUpdated": "2025-11-18T16:59:34.382Z"
+          "lastUpdated": "2026-01-08T15:58:35.387Z"
         },
         "4792": {
           "number": 4792,
@@ -118,18 +102,6 @@
           "headSha": "20b57322ac4af5876a43b021e924b9539efef61e",
           "createdAt": "2025-12-10T22:47:47.913Z",
           "lastUpdated": "2025-12-10T23:48:21.288Z"
-        },
-        "4803": {
-          "number": 4803,
-          "title": "Test/ex UI 3624 case flag e2e tests",
-          "author": "danH-test",
-          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/4803",
-          "changesRequested": false,
-          "approvals": 0,
-          "buildSuccess": true,
-          "headSha": "105ca1964a2329a3b10866f28cfd4f2be134aa4a",
-          "createdAt": "2025-12-12T16:58:08.628Z",
-          "lastUpdated": "2026-01-07T11:59:59.391Z"
         },
         "4807": {
           "number": 4807,
@@ -174,10 +146,10 @@
           "url": "https://github.com/hmcts/rpx-xui-webapp/pull/4817",
           "changesRequested": true,
           "approvals": 0,
-          "buildSuccess": true,
-          "headSha": "84c296d2a749b6f3209166030fc1a942ae8548e3",
+          "buildSuccess": false,
+          "headSha": "73ef5d15ef515f8498488d71a7d7cf803a53db5d",
           "createdAt": "2026-01-05T13:22:06.057Z",
-          "lastUpdated": "2026-01-05T14:18:11.584Z"
+          "lastUpdated": "2026-01-09T11:20:03.188Z"
         },
         "4826": {
           "number": 4826,
@@ -209,35 +181,47 @@
           "author": "connorpgpmcelroy",
           "url": "https://github.com/hmcts/rpx-xui-webapp/pull/4842",
           "changesRequested": false,
-          "approvals": 0,
+          "approvals": 1,
           "buildSuccess": true,
-          "headSha": "58b13a2dda236d4f862ebd2d7d68220e8cf9fe45",
-          "createdAt": "2026-01-06T12:16:36.078Z",
-          "lastUpdated": "2026-01-06T16:41:36.310Z"
+          "headSha": "79bc28220cc1c76c6f555f389404efedf4e57e0b",
+          "createdAt": "2026-01-08T14:06:30.530Z",
+          "lastUpdated": "2026-01-08T14:06:30.643Z"
         },
-        "4845": {
-          "number": 4845,
-          "title": "exui-3889-logout-issue",
-          "author": "RiteshHMCTS",
-          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/4845",
-          "changesRequested": false,
-          "approvals": 0,
-          "buildSuccess": true,
-          "headSha": "a1933f796e96f8251cd410a68f2f8eace03bd864",
-          "createdAt": "2026-01-06T14:57:44.470Z",
-          "lastUpdated": "2026-01-06T16:46:13.870Z"
-        },
-        "4847": {
-          "number": 4847,
-          "title": "EXUI-3968 - Edit negation statements for Sonar",
+        "4851": {
+          "number": 4851,
+          "title": "EXUI-3969 - Add all sonar issue changes",
           "author": "connorpgpmcelroy",
-          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/4847",
+          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/4851",
           "changesRequested": false,
           "approvals": 1,
           "buildSuccess": true,
-          "headSha": "66cde3d24d602316d39a9f04475e176d771f0e8d",
-          "createdAt": "2026-01-07T14:26:55.340Z",
-          "lastUpdated": "2026-01-07T14:26:55.432Z"
+          "headSha": "b01066b2372b311c48d520079e73e31cbd72d3a3",
+          "createdAt": "2026-01-08T14:08:22.835Z",
+          "lastUpdated": "2026-01-08T14:08:22.973Z"
+        },
+        "4852": {
+          "number": 4852,
+          "title": "Update sonar-project.properties",
+          "author": "connorpgpmcelroy",
+          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/4852",
+          "changesRequested": false,
+          "approvals": 0,
+          "buildSuccess": true,
+          "headSha": "3a9a1bcbfda0154c318464b42478a0f9becc98cd",
+          "createdAt": "2026-01-08T14:25:47.001Z",
+          "lastUpdated": "2026-01-08T16:27:07.075Z"
+        },
+        "4853": {
+          "number": 4853,
+          "title": "EXUI-4010 - accessibility issues in private law e2e test pipeline",
+          "author": "chrisjones-hmcts",
+          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/4853",
+          "changesRequested": false,
+          "approvals": 1,
+          "buildSuccess": true,
+          "headSha": "ef503d7d8982022e22102658d9e2bed786502874",
+          "createdAt": "2026-01-09T13:08:08.416Z",
+          "lastUpdated": "2026-01-09T13:08:08.476Z"
         }
       }
     },
@@ -266,18 +250,6 @@
           "headSha": "d07951036527db234468666063bb58d73f52b139",
           "createdAt": "2025-12-23T14:27:21.115Z",
           "lastUpdated": "2025-12-23T14:27:21.229Z"
-        },
-        "1463": {
-          "number": 1463,
-          "title": "keepAlive version upgrade to sync with common-lib",
-          "author": "RiteshHMCTS",
-          "url": "https://github.com/hmcts/rpx-xui-manage-organisations/pull/1463",
-          "changesRequested": false,
-          "approvals": 0,
-          "buildSuccess": true,
-          "headSha": "8b48c79b8b76313bf5d44ef0dfd02730e5013d11",
-          "createdAt": "2026-01-07T12:06:42.795Z",
-          "lastUpdated": "2026-01-07T13:44:40.768Z"
         }
       }
     },
@@ -306,30 +278,6 @@
           "headSha": "add2a632919527795152828b6cf757c21c517438",
           "createdAt": "2025-12-10T09:27:39.551Z",
           "lastUpdated": "2025-12-10T09:27:39.631Z"
-        },
-        "971": {
-          "number": 971,
-          "title": "exui-3947-cve",
-          "author": "RiteshHMCTS",
-          "url": "https://github.com/hmcts/rpx-xui-approve-org/pull/971",
-          "changesRequested": false,
-          "approvals": 1,
-          "buildSuccess": true,
-          "headSha": "7c3753993e5d0940cc934596ffeee5e6a224a7b3",
-          "createdAt": "2026-01-06T15:11:30.809Z",
-          "lastUpdated": "2026-01-06T15:11:30.882Z"
-        },
-        "974": {
-          "number": 974,
-          "title": "exui-3889-logout-issue",
-          "author": "RiteshHMCTS",
-          "url": "https://github.com/hmcts/rpx-xui-approve-org/pull/974",
-          "changesRequested": false,
-          "approvals": 0,
-          "buildSuccess": true,
-          "headSha": "b01b177ec775d3044774f8ec9e4ef53937defa89",
-          "createdAt": "2026-01-07T12:09:30.815Z",
-          "lastUpdated": "2026-01-07T13:44:18.492Z"
         }
       }
     },
@@ -346,18 +294,22 @@
           "headSha": "481199d27b85b3887df449a700e3b4f11bc5c337",
           "createdAt": "2025-11-20T09:56:36.353Z",
           "lastUpdated": "2025-11-20T09:56:36.568Z"
-        },
-        "754": {
-          "number": 754,
-          "title": "cve fix 3925",
-          "author": "balajisridharanhmcts",
-          "url": "https://github.com/hmcts/em-showcase/pull/754",
+        }
+      }
+    },
+    "hmcts/em-media-viewer": {
+      "pullRequests": {
+        "1260": {
+          "number": 1260,
+          "title": "exui-3927-cve fix",
+          "author": "RiteshHMCTS",
+          "url": "https://github.com/hmcts/em-media-viewer/pull/1260",
           "changesRequested": false,
           "approvals": 1,
           "buildSuccess": true,
-          "headSha": "327c00cd4e9a874af863d1dc8405a4d0b8e91651",
-          "createdAt": "2026-01-05T11:27:12.334Z",
-          "lastUpdated": "2026-01-05T11:27:12.494Z"
+          "headSha": "e02238c60e105daee225ec5f3836a63e0e7129b6",
+          "createdAt": "2026-01-09T13:23:47.637Z",
+          "lastUpdated": "2026-01-09T13:23:47.699Z"
         }
       }
     }
