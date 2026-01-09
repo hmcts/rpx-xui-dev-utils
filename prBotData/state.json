@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1767965037.263099",
-    "lastUpdated": "2026-01-09T13:23:47.699Z",
+    "lastUpdated": "2026-01-09T13:27:52.624Z",
     "approvalListMessageHash": "e40e6c6b1c3acb231258c8bced888a1b5224a31b2f71ed2bbcd4900330b2f19c"
   },
   "repositories": {
@@ -186,18 +186,6 @@
           "headSha": "79bc28220cc1c76c6f555f389404efedf4e57e0b",
           "createdAt": "2026-01-08T14:06:30.530Z",
           "lastUpdated": "2026-01-08T14:06:30.643Z"
-        },
-        "4850": {
-          "number": 4850,
-          "title": "Enabling family law in demo and aat for branch.",
-          "author": "anthonydummer",
-          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/4850",
-          "changesRequested": false,
-          "approvals": 1,
-          "buildSuccess": true,
-          "headSha": "b74f87fb87acb1f8bbcb78c1d4a561efbf982390",
-          "createdAt": "2026-01-08T10:42:15.104Z",
-          "lastUpdated": "2026-01-08T10:55:48.874Z"
         },
         "4851": {
           "number": 4851,
