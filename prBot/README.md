@@ -145,7 +145,7 @@ You should store configuration variables as a stringified JSON object in the rep
 
 ## License
 
-MIT - See [LICENSE.md](LICENSE.md) for details.
+MIT - See [LICENSE.md](LICENSE.md) for details
 
 ## Repository
 
