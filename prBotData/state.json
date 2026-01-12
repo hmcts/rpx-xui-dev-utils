@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1768229845.826749",
-    "lastUpdated": "2026-01-12T15:20:01.573Z",
+    "lastUpdated": "2026-01-12T16:33:45.490Z",
     "approvalListMessageHash": "4c04d71ac7f5e40a5d0eed8befd4a8d9e5511bc54a7f4ab76edbacb2b3cac7fb"
   },
   "repositories": {
@@ -210,6 +210,18 @@
           "headSha": "66876a2be72530b229304471e117bf3264c2bbbe",
           "createdAt": "2026-01-12T15:20:01.479Z",
           "lastUpdated": "2026-01-12T15:20:01.573Z"
+        },
+        "4867": {
+          "number": 4867,
+          "title": "EXUI-3621 welsh language e2e test",
+          "author": "danH-test",
+          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/4867",
+          "changesRequested": false,
+          "approvals": 0,
+          "buildSuccess": false,
+          "headSha": "611b8f0f9a39d9bdaedeeb1ae5e8a7bc3d6cc57b",
+          "createdAt": "2026-01-12T16:33:45.398Z",
+          "lastUpdated": "2026-01-12T16:33:45.490Z"
         }
       }
     },
