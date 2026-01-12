@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1768187166.677529",
-    "lastUpdated": "2026-01-12T03:05:56.519Z",
+    "lastUpdated": "2026-01-12T11:35:55.645Z",
     "approvalListMessageHash": "be0432f5a22ea9f034141f26ed5224af74dccd6576620608e0a6ca76d11a1255"
   },
   "repositories": {
@@ -162,18 +162,6 @@
           "headSha": "ccbb4cd00dbb0a0f45f8b45613b7237a7b190d84",
           "createdAt": "2025-12-23T11:12:08.796Z",
           "lastUpdated": "2025-12-23T11:43:17.590Z"
-        },
-        "4842": {
-          "number": 4842,
-          "title": "Task/ex UI 3967 todo checks",
-          "author": "connorpgpmcelroy",
-          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/4842",
-          "changesRequested": false,
-          "approvals": 1,
-          "buildSuccess": true,
-          "headSha": "79bc28220cc1c76c6f555f389404efedf4e57e0b",
-          "createdAt": "2026-01-08T14:06:30.530Z",
-          "lastUpdated": "2026-01-08T14:06:30.643Z"
         },
         "4852": {
           "number": 4852,
