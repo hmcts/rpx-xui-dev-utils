@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1768218991.935519",
-    "lastUpdated": "2026-01-12T11:56:22.281Z",
+    "lastUpdated": "2026-01-12T12:03:24.414Z",
     "approvalListMessageHash": "3d440ef2d9cbc376d95831f0acde3be0da45f2e7a54290be79840f099f84fad1"
   },
   "repositories": {
@@ -286,22 +286,6 @@
           "headSha": "29a4796424d838e6e59c559185b57d04cbba74f9",
           "createdAt": "2026-01-09T22:31:28.589Z",
           "lastUpdated": "2026-01-09T22:31:28.745Z"
-        }
-      }
-    },
-    "hmcts/ccd-case-ui-toolkit": {
-      "pullRequests": {
-        "2076": {
-          "number": 2076,
-          "title": "EXUI-3870 - CCPAY ",
-          "author": "Josh-HMCTS",
-          "url": "https://github.com/hmcts/ccd-case-ui-toolkit/pull/2076",
-          "changesRequested": false,
-          "approvals": 0,
-          "buildSuccess": true,
-          "headSha": "e75375ec56af303cf44ee7a6748fa9791e7a36b1",
-          "createdAt": "2026-01-12T11:56:22.175Z",
-          "lastUpdated": "2026-01-12T11:56:22.281Z"
         }
       }
     }
