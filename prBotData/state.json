@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1768219415.011819",
-    "lastUpdated": "2026-01-12T12:03:24.414Z",
+    "lastUpdated": "2026-01-12T12:30:58.474Z",
     "approvalListMessageHash": "a11b880c9b607749365540f13728e2020ce5d96271a0f6f1801c66ac5d5bdb10"
   },
   "repositories": {
@@ -230,6 +230,18 @@
           "headSha": "add2a632919527795152828b6cf757c21c517438",
           "createdAt": "2025-12-10T09:27:39.551Z",
           "lastUpdated": "2025-12-10T09:27:39.631Z"
+        },
+        "966": {
+          "number": 966,
+          "title": "EXUI-3823 - PerfTest admin-org pipeline keeps failing",
+          "author": "chrisjones-hmcts",
+          "url": "https://github.com/hmcts/rpx-xui-approve-org/pull/966",
+          "changesRequested": false,
+          "approvals": 1,
+          "buildSuccess": true,
+          "headSha": "de5581482a81a0324dacb02a2adee9f02ccd9b8d",
+          "createdAt": "2026-01-12T12:30:58.332Z",
+          "lastUpdated": "2026-01-12T12:30:58.474Z"
         }
       }
     },
