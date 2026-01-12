@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1768221069.904989",
-    "lastUpdated": "2026-01-12T12:30:58.474Z",
+    "lastUpdated": "2026-01-12T13:07:02.272Z",
     "approvalListMessageHash": "b9820614020f5fe294b5f23544e834e8befce1cf76623c10234af31d87dd7880"
   },
   "repositories": {
@@ -286,6 +286,22 @@
           "headSha": "29a4796424d838e6e59c559185b57d04cbba74f9",
           "createdAt": "2026-01-09T22:31:28.589Z",
           "lastUpdated": "2026-01-09T22:31:28.745Z"
+        }
+      }
+    },
+    "hmcts/ccd-case-ui-toolkit": {
+      "pullRequests": {
+        "2070": {
+          "number": 2070,
+          "title": "Increased braces version and resolution to 3.0.3",
+          "author": "ben-james-hmcts",
+          "url": "https://github.com/hmcts/ccd-case-ui-toolkit/pull/2070",
+          "changesRequested": false,
+          "approvals": 1,
+          "buildSuccess": true,
+          "headSha": "d3aef58953f760e4aa3cba66786b97bcc2a546e7",
+          "createdAt": "2026-01-12T13:07:02.156Z",
+          "lastUpdated": "2026-01-12T13:07:02.272Z"
         }
       }
     }
