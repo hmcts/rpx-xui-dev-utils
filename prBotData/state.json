@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1768305060.330209",
-    "lastUpdated": "2026-01-13T11:52:59.838Z",
+    "lastUpdated": "2026-01-13T11:53:52.794Z",
     "approvalListMessageHash": "8ede42e8d983df67f53657b279bbfe850dc3b784103e04a3bf26a0a8101586e2"
   },
   "repositories": {
@@ -346,6 +346,22 @@
           "headSha": "29a4796424d838e6e59c559185b57d04cbba74f9",
           "createdAt": "2026-01-09T22:31:28.589Z",
           "lastUpdated": "2026-01-09T22:31:28.745Z"
+        }
+      }
+    },
+    "hmcts/ccd-case-ui-toolkit": {
+      "pullRequests": {
+        "2050": {
+          "number": 2050,
+          "title": "EXUI-3682 - toolbar items repeated by voiceover tools",
+          "author": "chrisjones-hmcts",
+          "url": "https://github.com/hmcts/ccd-case-ui-toolkit/pull/2050",
+          "changesRequested": false,
+          "approvals": 1,
+          "buildSuccess": true,
+          "headSha": "df7c460a4df612edc3d48e62f5fa72bb15c4aadc",
+          "createdAt": "2026-01-13T11:53:52.675Z",
+          "lastUpdated": "2026-01-13T11:53:52.794Z"
         }
       }
     }
