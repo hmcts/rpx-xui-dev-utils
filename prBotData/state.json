@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1768313157.965559",
-    "lastUpdated": "2026-01-13T14:05:48.429Z",
+    "lastUpdated": "2026-01-13T14:07:51.177Z",
     "approvalListMessageHash": "923eec2624e620bd21c195671e60360faad9eba3d836d362c47a23dbfd187dca"
   },
   "repositories": {
@@ -210,18 +210,6 @@
           "headSha": "bb048fe836a2f517d8d60c4da3f63f196b8f5904",
           "createdAt": "2026-01-12T14:34:37.481Z",
           "lastUpdated": "2026-01-13T14:05:48.429Z"
-        },
-        "4862": {
-          "number": 4862,
-          "title": "PR for extendin Playwright API Coverage tests  EXUI-4031 ",
-          "author": "andyg-cgi",
-          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/4862",
-          "changesRequested": false,
-          "approvals": 1,
-          "buildSuccess": false,
-          "headSha": "3b75f9f429b1e5c6b4e9cca3fdadc5aa873e265b",
-          "createdAt": "2026-01-13T14:01:30.778Z",
-          "lastUpdated": "2026-01-13T14:01:30.851Z"
         },
         "4867": {
           "number": 4867,
