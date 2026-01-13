@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1768320046.931319",
-    "lastUpdated": "2026-01-13T16:03:43.361Z",
+    "lastUpdated": "2026-01-13T16:48:45.449Z",
     "approvalListMessageHash": "908d2b7ab9ac70091fe099487e0601e0f71b39eedbf36a4c16470bca122adf7a"
   },
   "repositories": {
@@ -278,6 +278,18 @@
           "headSha": "add2a632919527795152828b6cf757c21c517438",
           "createdAt": "2025-12-10T09:27:39.551Z",
           "lastUpdated": "2025-12-10T09:27:39.631Z"
+        },
+        "976": {
+          "number": 976,
+          "title": "test",
+          "author": "RiteshHMCTS",
+          "url": "https://github.com/hmcts/rpx-xui-approve-org/pull/976",
+          "changesRequested": false,
+          "approvals": 0,
+          "buildSuccess": false,
+          "headSha": "bad736bb68859842b6960f8c5d131ddc70594215",
+          "createdAt": "2026-01-13T16:48:45.331Z",
+          "lastUpdated": "2026-01-13T16:48:45.449Z"
         }
       }
     },
