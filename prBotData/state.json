@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1768472133.080609",
-    "lastUpdated": "2026-01-15T10:15:23.350Z",
+    "lastUpdated": "2026-01-15T10:52:35.570Z",
     "approvalListMessageHash": "fb0591d466ded2bff8f966d796afae866f99cb2cf80694b9d779b66b84fecc6f"
   },
   "repositories": {
@@ -322,6 +322,22 @@
           "headSha": "29a4796424d838e6e59c559185b57d04cbba74f9",
           "createdAt": "2026-01-09T22:31:28.589Z",
           "lastUpdated": "2026-01-09T22:31:28.745Z"
+        }
+      }
+    },
+    "hmcts/ccd-case-ui-toolkit": {
+      "pullRequests": {
+        "2078": {
+          "number": 2078,
+          "title": "EXUI-3951 - Remove @hmcts/frontend, refactor mq queries",
+          "author": "Josh-HMCTS",
+          "url": "https://github.com/hmcts/ccd-case-ui-toolkit/pull/2078",
+          "changesRequested": false,
+          "approvals": 0,
+          "buildSuccess": true,
+          "headSha": "e93da6d28523dd67a6c94b443e3f1f6d059feb62",
+          "createdAt": "2026-01-15T10:52:35.456Z",
+          "lastUpdated": "2026-01-15T10:52:35.570Z"
         }
       }
     }
