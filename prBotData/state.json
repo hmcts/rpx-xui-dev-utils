@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1768392908.187509",
-    "lastUpdated": "2026-01-14T17:51:47.943Z",
+    "lastUpdated": "2026-01-15T10:15:23.350Z",
     "approvalListMessageHash": "9c146c5aff62dff1a66c4d78ffa9e8ac73c31b64c9b11cdc2d4f4a15782ca602"
   },
   "repositories": {
@@ -266,18 +266,6 @@
           "headSha": "75a824b76a76b6b07f5bc17e062bd6e45816b27e",
           "createdAt": "2025-11-13T10:19:55.827Z",
           "lastUpdated": "2025-11-13T10:19:55.951Z"
-        },
-        "953": {
-          "number": 953,
-          "title": "Update dependency @types/node to v20.19.26",
-          "author": "renovate[bot]",
-          "url": "https://github.com/hmcts/rpx-xui-approve-org/pull/953",
-          "changesRequested": false,
-          "approvals": 0,
-          "buildSuccess": true,
-          "headSha": "319e3b7aaecd5ce20d8af1ba5803daf4e1fc73c0",
-          "createdAt": "2025-12-10T09:27:39.551Z",
-          "lastUpdated": "2026-01-14T09:55:43.196Z"
         }
       }
     },
