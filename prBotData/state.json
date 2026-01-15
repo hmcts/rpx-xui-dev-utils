@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1768490659.098969",
-    "lastUpdated": "2026-01-15T15:24:07.972Z",
+    "lastUpdated": "2026-01-15T15:28:26.052Z",
     "approvalListMessageHash": "d4310ef954283039ff4bc267280304be708c69cc30e5cf96131046b245d88cc5"
   },
   "repositories": {
@@ -374,18 +374,6 @@
           "headSha": "e93da6d28523dd67a6c94b443e3f1f6d059feb62",
           "createdAt": "2026-01-15T15:24:07.889Z",
           "lastUpdated": "2026-01-15T15:24:07.972Z"
-        },
-        "2079": {
-          "number": 2079,
-          "title": "EXUI-3907 -  Remove deprecation",
-          "author": "Josh-HMCTS",
-          "url": "https://github.com/hmcts/ccd-case-ui-toolkit/pull/2079",
-          "changesRequested": false,
-          "approvals": 0,
-          "buildSuccess": true,
-          "headSha": "6b7471e042a6c4389af6c4d1e8d916174f90d6ba",
-          "createdAt": "2026-01-15T15:13:43.367Z",
-          "lastUpdated": "2026-01-15T15:13:43.442Z"
         }
       }
     }
