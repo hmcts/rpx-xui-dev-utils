@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1768474981.160929",
-    "lastUpdated": "2026-01-15T11:03:24.125Z",
+    "lastUpdated": "2026-01-15T11:10:38.209Z",
     "approvalListMessageHash": "8a476caa394a0dd8805612314f71922a5acc96334f1ad22aa713fd5e97f7b935"
   },
   "repositories": {
@@ -234,6 +234,18 @@
           "headSha": "19c7677382879d9a8f5ed63d2606952b8256d557",
           "createdAt": "2026-01-14T17:51:47.846Z",
           "lastUpdated": "2026-01-14T17:51:47.943Z"
+        },
+        "4870": {
+          "number": 4870,
+          "title": "EXUI-3951 - Use tk release for 3951",
+          "author": "Josh-HMCTS",
+          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/4870",
+          "changesRequested": false,
+          "approvals": 0,
+          "buildSuccess": false,
+          "headSha": "0e407183685eaed4a7dba14a8ce19ac4b9b5aa13",
+          "createdAt": "2026-01-15T11:10:38.058Z",
+          "lastUpdated": "2026-01-15T11:10:38.209Z"
         }
       }
     },
