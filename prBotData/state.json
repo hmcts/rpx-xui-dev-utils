@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1768491218.288949",
-    "lastUpdated": "2026-01-15T15:33:27.391Z",
+    "lastUpdated": "2026-01-15T15:37:09.520Z",
     "approvalListMessageHash": "71201c5e1743ae183e972781e0a1f1f41ee79f054fd45f56de361f7e84cdba7f"
   },
   "repositories": {
@@ -186,18 +186,6 @@
           "headSha": "6fa28cf1133c8fc4d5879f2034151e4bf6a689a6",
           "createdAt": "2026-01-08T14:25:47.001Z",
           "lastUpdated": "2026-01-09T14:54:09.231Z"
-        },
-        "4855": {
-          "number": 4855,
-          "title": "EXUI-2918 - Tasks, Roles, Hearings tabs should be accessible via fragments",
-          "author": "Josh-HMCTS",
-          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/4855",
-          "changesRequested": false,
-          "approvals": 1,
-          "buildSuccess": false,
-          "headSha": "8e78b5081a5ddc5d6c6fbfd3419b5afbf19bce9e",
-          "createdAt": "2026-01-15T11:03:24.022Z",
-          "lastUpdated": "2026-01-15T11:03:24.125Z"
         },
         "4861": {
           "number": 4861,
