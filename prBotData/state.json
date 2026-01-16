@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1768575769.102959",
-    "lastUpdated": "2026-01-16T15:02:31.150Z",
+    "lastUpdated": "2026-01-16T15:30:16.900Z",
     "approvalListMessageHash": "c3907b012ab3f0341ab80ff0570af8bbecc682917c893fbcc63ac66c04cf8021"
   },
   "repositories": {
@@ -362,6 +362,18 @@
           "headSha": "75497bd6411e0f902b30fcee86633f285048ecb6",
           "createdAt": "2026-01-16T14:27:08.879Z",
           "lastUpdated": "2026-01-16T14:27:09.032Z"
+        },
+        "983": {
+          "number": 983,
+          "title": "Update package.json",
+          "author": "reespozzi",
+          "url": "https://github.com/hmcts/rpx-xui-approve-org/pull/983",
+          "changesRequested": false,
+          "approvals": 0,
+          "buildSuccess": false,
+          "headSha": "bd2d467558109fc725b32a6be8e5f4f691b968dc",
+          "createdAt": "2026-01-16T15:30:16.833Z",
+          "lastUpdated": "2026-01-16T15:30:16.900Z"
         }
       }
     },
