@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1768573059.584469",
-    "lastUpdated": "2026-01-16T14:27:09.032Z",
+    "lastUpdated": "2026-01-16T14:32:59.121Z",
     "approvalListMessageHash": "84810d1f21fa0b169cf2f741756103559d9a1bef1eb02a84333f97617e0ea820"
   },
   "repositories": {
@@ -246,6 +246,18 @@
           "headSha": "8a19447e1343110eff8727bc45a36222ceaf88a7",
           "createdAt": "2026-01-16T14:02:49.267Z",
           "lastUpdated": "2026-01-16T14:02:49.331Z"
+        },
+        "4874": {
+          "number": 4874,
+          "title": "Update Jenkinsfile_CNP",
+          "author": "danlysiak",
+          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/4874",
+          "changesRequested": false,
+          "approvals": 0,
+          "buildSuccess": false,
+          "headSha": "7ef66edae1f03af16fa9cddd2e2b03fe403a98a7",
+          "createdAt": "2026-01-16T14:32:58.987Z",
+          "lastUpdated": "2026-01-16T14:32:59.120Z"
         }
       }
     },
