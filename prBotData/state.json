@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1768491218.288949",
-    "lastUpdated": "2026-01-16T10:15:48.877Z",
+    "lastUpdated": "2026-01-16T11:28:55.325Z",
     "approvalListMessageHash": "71201c5e1743ae183e972781e0a1f1f41ee79f054fd45f56de361f7e84cdba7f"
   },
   "repositories": {
@@ -186,18 +186,6 @@
           "headSha": "6fa28cf1133c8fc4d5879f2034151e4bf6a689a6",
           "createdAt": "2026-01-08T14:25:47.001Z",
           "lastUpdated": "2026-01-09T14:54:09.231Z"
-        },
-        "4861": {
-          "number": 4861,
-          "title": "exui-3662-query parameter for task cancellation API link",
-          "author": "RiteshHMCTS",
-          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/4861",
-          "changesRequested": false,
-          "approvals": 1,
-          "buildSuccess": true,
-          "headSha": "bb048fe836a2f517d8d60c4da3f63f196b8f5904",
-          "createdAt": "2026-01-15T15:21:48.749Z",
-          "lastUpdated": "2026-01-15T15:21:48.858Z"
         },
         "4868": {
           "number": 4868,
