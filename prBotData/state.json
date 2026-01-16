@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1768573059.584469",
-    "lastUpdated": "2026-01-16T14:17:30.091Z",
+    "lastUpdated": "2026-01-16T14:27:09.032Z",
     "approvalListMessageHash": "84810d1f21fa0b169cf2f741756103559d9a1bef1eb02a84333f97617e0ea820"
   },
   "repositories": {
@@ -350,6 +350,18 @@
           "headSha": "7a3cc4b0d867ee6992f654e7ae272a1ee1bcc709",
           "createdAt": "2026-01-16T13:41:27.842Z",
           "lastUpdated": "2026-01-16T13:41:27.944Z"
+        },
+        "982": {
+          "number": 982,
+          "title": "use jenkins pr lib",
+          "author": "Josh-HMCTS",
+          "url": "https://github.com/hmcts/rpx-xui-approve-org/pull/982",
+          "changesRequested": false,
+          "approvals": 0,
+          "buildSuccess": false,
+          "headSha": "75497bd6411e0f902b30fcee86633f285048ecb6",
+          "createdAt": "2026-01-16T14:27:08.879Z",
+          "lastUpdated": "2026-01-16T14:27:09.032Z"
         }
       }
     },
