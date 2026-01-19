@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1768832234.216639",
-    "lastUpdated": "2026-01-19T14:17:04.577Z",
+    "lastUpdated": "2026-01-19T14:19:20.279Z",
     "approvalListMessageHash": "adc695b3aa93cc1abe4cd53eb3cbc947d9780af1dbf31164ec1f5923da3b66ab"
   },
   "repositories": {
@@ -298,18 +298,6 @@
           "headSha": "d07951036527db234468666063bb58d73f52b139",
           "createdAt": "2025-12-23T14:27:21.115Z",
           "lastUpdated": "2025-12-23T14:27:21.229Z"
-        },
-        "1464": {
-          "number": 1464,
-          "title": "Upgraded Angular packages from 20.3.15 to 20.3.16 due to vulnerability",
-          "author": "ben-james-hmcts",
-          "url": "https://github.com/hmcts/rpx-xui-manage-organisations/pull/1464",
-          "changesRequested": false,
-          "approvals": 1,
-          "buildSuccess": true,
-          "headSha": "0dc31e8256e0c5ec4a34455ed20455ef2e85a016",
-          "createdAt": "2026-01-16T15:02:31.068Z",
-          "lastUpdated": "2026-01-16T15:02:31.150Z"
         }
       }
     },
