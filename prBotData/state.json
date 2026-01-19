@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1768816842.562239",
-    "lastUpdated": "2026-01-19T10:00:33.097Z",
+    "lastUpdated": "2026-01-19T10:52:18.623Z",
     "approvalListMessageHash": "e073954439fe956fa3e5ab1faeb9a61ba7b944c76b5cdbdb08b23bc6a6a23eda"
   },
   "repositories": {
@@ -258,6 +258,18 @@
           "headSha": "3465f054aed06cafa3487fc060f12dddb6b96a80",
           "createdAt": "2026-01-16T17:54:55.048Z",
           "lastUpdated": "2026-01-16T17:54:55.126Z"
+        },
+        "4876": {
+          "number": 4876,
+          "title": "exui-3709-IAC CDAM",
+          "author": "RiteshHMCTS",
+          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/4876",
+          "changesRequested": false,
+          "approvals": 0,
+          "buildSuccess": false,
+          "headSha": "5e3ed7f9465de2ab83b488b48448aa045c1abc95",
+          "createdAt": "2026-01-19T10:52:18.556Z",
+          "lastUpdated": "2026-01-19T10:52:18.623Z"
         }
       }
     },
