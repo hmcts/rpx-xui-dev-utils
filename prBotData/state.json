@@ -435,18 +435,6 @@
           "createdAt": "2026-01-15T15:24:07.889Z",
           "lastUpdated": "2026-01-15T15:24:07.972Z"
         },
-        "2079": {
-          "number": 2079,
-          "title": "EXUI-3907 -  Remove deprecation",
-          "author": "Josh-HMCTS",
-          "url": "https://github.com/hmcts/ccd-case-ui-toolkit/pull/2079",
-          "changesRequested": false,
-          "approvals": 0,
-          "buildSuccess": true,
-          "headSha": "f05c0dbeb41556470c3000db89202baa039a33ae",
-          "createdAt": "2026-01-15T15:33:27.286Z",
-          "lastUpdated": "2026-01-15T15:33:27.391Z"
-        },
         "2080": {
           "number": 2080,
           "title": "exui-3995-case flag data loss issue",
