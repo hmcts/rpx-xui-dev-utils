@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1768831841.013989",
-    "lastUpdated": "2026-01-19T14:10:30.229Z",
+    "lastUpdated": "2026-01-19T14:17:04.577Z",
     "approvalListMessageHash": "871108ba5918305d6cd4517a6eb7792aaea1c7ef087aea838f5de5eedca1c2d2"
   },
   "repositories": {
@@ -201,15 +201,15 @@
         },
         "4869": {
           "number": 4869,
-          "title": "Test/ex UI 4050 fortify report",
+          "title": "EXUI-4050 address fortify report",
           "author": "andyg-cgi",
           "url": "https://github.com/hmcts/rpx-xui-webapp/pull/4869",
           "changesRequested": false,
-          "approvals": 0,
+          "approvals": 1,
           "buildSuccess": true,
           "headSha": "3e5984f422342e406b4b6d36d93b6db8389d32b7",
-          "createdAt": "2026-01-14T17:51:47.846Z",
-          "lastUpdated": "2026-01-19T14:10:30.229Z"
+          "createdAt": "2026-01-19T14:17:04.479Z",
+          "lastUpdated": "2026-01-19T14:17:04.577Z"
         },
         "4871": {
           "number": 4871,
