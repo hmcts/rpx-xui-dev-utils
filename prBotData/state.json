@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1768826086.138369",
-    "lastUpdated": "2026-01-19T12:34:34.922Z",
+    "lastUpdated": "2026-01-19T13:03:49.019Z",
     "approvalListMessageHash": "6b88b7b0b881811e986b21142654cda2ef7e5f236700a4457528dd5808c09c73"
   },
   "repositories": {
@@ -485,15 +485,15 @@
         },
         "2080": {
           "number": 2080,
-          "title": "case flag data loss issue",
+          "title": "exui-3995-case flag data loss issue",
           "author": "RiteshHMCTS",
           "url": "https://github.com/hmcts/ccd-case-ui-toolkit/pull/2080",
           "changesRequested": false,
-          "approvals": 0,
+          "approvals": 1,
           "buildSuccess": true,
-          "headSha": "55dcd8bff4d6276917a249c9962fb2660734751a",
-          "createdAt": "2026-01-15T15:29:25.628Z",
-          "lastUpdated": "2026-01-15T15:29:25.796Z"
+          "headSha": "239bdeeb3942b40853a2d78fe6e49abc3116f5fb",
+          "createdAt": "2026-01-19T13:03:48.843Z",
+          "lastUpdated": "2026-01-19T13:03:49.018Z"
         }
       }
     }
