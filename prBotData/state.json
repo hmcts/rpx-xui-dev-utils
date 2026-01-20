@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1768925113.801549",
-    "lastUpdated": "2026-01-20T16:06:37.101Z",
+    "lastUpdated": "2026-01-20T17:21:28.624Z",
     "approvalListMessageHash": "8c51d70daddc462f3c5342a1b670a540f05bb1e75a6ac7571497d29848d315c5"
   },
   "repositories": {
@@ -274,6 +274,18 @@
           "headSha": "d07951036527db234468666063bb58d73f52b139",
           "createdAt": "2025-12-23T14:27:21.115Z",
           "lastUpdated": "2025-12-23T14:27:21.229Z"
+        },
+        "1465": {
+          "number": 1465,
+          "title": "Ex UI 4029 CVE fix",
+          "author": "olusegz07",
+          "url": "https://github.com/hmcts/rpx-xui-manage-organisations/pull/1465",
+          "changesRequested": false,
+          "approvals": 0,
+          "buildSuccess": false,
+          "headSha": "741e8b93718c9194cd63d0066b7bdb39f14d7492",
+          "createdAt": "2026-01-20T17:21:28.483Z",
+          "lastUpdated": "2026-01-20T17:21:28.624Z"
         }
       }
     },
