@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1768905413.761349",
-    "lastUpdated": "2026-01-20T10:36:42.799Z",
+    "lastUpdated": "2026-01-20T10:56:20.133Z",
     "approvalListMessageHash": "d07da56ff23856ac58117de20ca57d4f70d446d7eed8c30c4d704192bedb93e7"
   },
   "repositories": {
@@ -434,6 +434,22 @@
           "headSha": "239bdeeb3942b40853a2d78fe6e49abc3116f5fb",
           "createdAt": "2026-01-19T13:03:48.843Z",
           "lastUpdated": "2026-01-19T13:03:49.018Z"
+        }
+      }
+    },
+    "hmcts/rpx-xui-common-lib": {
+      "pullRequests": {
+        "527": {
+          "number": 527,
+          "title": "EXUI-3663 - Add the work type find and search components",
+          "author": "connorpgpmcelroy",
+          "url": "https://github.com/hmcts/rpx-xui-common-lib/pull/527",
+          "changesRequested": false,
+          "approvals": 0,
+          "buildSuccess": true,
+          "headSha": "3fe244ae0e31173c5ac585cf159dfd6c93218087",
+          "createdAt": "2026-01-20T10:56:20.006Z",
+          "lastUpdated": "2026-01-20T10:56:20.132Z"
         }
       }
     }
