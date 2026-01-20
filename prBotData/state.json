@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1768925113.801549",
-    "lastUpdated": "2026-01-20T17:34:23.772Z",
+    "lastUpdated": "2026-01-20T17:42:37.515Z",
     "approvalListMessageHash": "8c51d70daddc462f3c5342a1b670a540f05bb1e75a6ac7571497d29848d315c5"
   },
   "repositories": {
@@ -234,6 +234,18 @@
           "headSha": "f6c1c9f97aab86a47c166d22b6c5b0db74b7ba9a",
           "createdAt": "2026-01-16T17:54:55.048Z",
           "lastUpdated": "2026-01-20T11:38:42.415Z"
+        },
+        "4878": {
+          "number": 4878,
+          "title": "EXUI-3632: e2e document upload tests",
+          "author": "danH-test",
+          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/4878",
+          "changesRequested": false,
+          "approvals": 0,
+          "buildSuccess": false,
+          "headSha": "e758361dcf6f1fd0376ab217da48cceaf18c854a",
+          "createdAt": "2026-01-20T17:42:37.443Z",
+          "lastUpdated": "2026-01-20T17:42:37.515Z"
         },
         "4879": {
           "number": 4879,
