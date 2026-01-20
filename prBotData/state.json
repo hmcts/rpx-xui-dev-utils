@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1768907652.527139",
-    "lastUpdated": "2026-01-20T11:15:12.926Z",
+    "lastUpdated": "2026-01-20T11:22:40.669Z",
     "approvalListMessageHash": "473b36b2f279d6715e82fdf63cfc1573a5dd47d884ce85f3109f5c0537bdb543"
   },
   "repositories": {
@@ -333,11 +333,11 @@
           "author": "ben-james-hmcts",
           "url": "https://github.com/hmcts/rpx-xui-approve-org/pull/981",
           "changesRequested": false,
-          "approvals": 0,
+          "approvals": 1,
           "buildSuccess": true,
           "headSha": "e215393ebbdd94872f441e6937de250ab7ad87e9",
-          "createdAt": "2026-01-16T13:41:27.842Z",
-          "lastUpdated": "2026-01-20T10:29:28.216Z"
+          "createdAt": "2026-01-20T11:22:40.603Z",
+          "lastUpdated": "2026-01-20T11:22:40.669Z"
         },
         "982": {
           "number": 982,
