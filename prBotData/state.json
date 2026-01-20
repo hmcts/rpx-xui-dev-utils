@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1768901659.894969",
-    "lastUpdated": "2026-01-20T09:34:09.188Z",
+    "lastUpdated": "2026-01-20T09:43:44.499Z",
     "approvalListMessageHash": "a839dc54291b08f319479d74b4707bfd89004ee7dd392b4b57213b0da46b5162"
   },
   "repositories": {
@@ -186,18 +186,6 @@
           "headSha": "6fa28cf1133c8fc4d5879f2034151e4bf6a689a6",
           "createdAt": "2026-01-08T14:25:47.001Z",
           "lastUpdated": "2026-01-09T14:54:09.231Z"
-        },
-        "4868": {
-          "number": 4868,
-          "title": "Update to ccd-case-ui-toolkit to include no cache option",
-          "author": "anthonydummer",
-          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/4868",
-          "changesRequested": false,
-          "approvals": 1,
-          "buildSuccess": true,
-          "headSha": "bd68ffee234576379ed5791a63424f51f0d12c8c",
-          "createdAt": "2026-01-15T15:22:52.398Z",
-          "lastUpdated": "2026-01-19T14:33:39.603Z"
         },
         "4871": {
           "number": 4871,
