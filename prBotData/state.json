@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1768907499.060369",
-    "lastUpdated": "2026-01-20T11:11:27.990Z",
+    "lastUpdated": "2026-01-20T11:14:03.061Z",
     "approvalListMessageHash": "d553c080f7f4fec2f1d20ee9186fe06038a26947dd3bca4edab5551f011ee402"
   },
   "repositories": {
@@ -189,15 +189,15 @@
         },
         "4871": {
           "number": 4871,
-          "title": "version updated",
+          "title": "exui-3995-data-loss-issue",
           "author": "RiteshHMCTS",
           "url": "https://github.com/hmcts/rpx-xui-webapp/pull/4871",
           "changesRequested": false,
-          "approvals": 0,
+          "approvals": 1,
           "buildSuccess": true,
           "headSha": "94826c8e874b9f3976a24cd8940ac079e1168f91",
-          "createdAt": "2026-01-15T15:57:28.522Z",
-          "lastUpdated": "2026-01-20T11:08:10.067Z"
+          "createdAt": "2026-01-20T11:14:02.957Z",
+          "lastUpdated": "2026-01-20T11:14:03.061Z"
         },
         "4872": {
           "number": 4872,
