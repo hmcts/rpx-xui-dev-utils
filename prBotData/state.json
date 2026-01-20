@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1768925113.801549",
-    "lastUpdated": "2026-01-20T17:21:28.624Z",
+    "lastUpdated": "2026-01-20T17:34:23.772Z",
     "approvalListMessageHash": "8c51d70daddc462f3c5342a1b670a540f05bb1e75a6ac7571497d29848d315c5"
   },
   "repositories": {
@@ -350,6 +350,18 @@
           "headSha": "bd2d467558109fc725b32a6be8e5f4f691b968dc",
           "createdAt": "2026-01-16T15:30:16.833Z",
           "lastUpdated": "2026-01-16T15:30:16.900Z"
+        },
+        "984": {
+          "number": 984,
+          "title": "Ex UI 4030 CVE fix",
+          "author": "olusegz07",
+          "url": "https://github.com/hmcts/rpx-xui-approve-org/pull/984",
+          "changesRequested": false,
+          "approvals": 0,
+          "buildSuccess": false,
+          "headSha": "fbc897a25b44c516ecf7fe6296c7022bb88a8042",
+          "createdAt": "2026-01-20T17:34:23.604Z",
+          "lastUpdated": "2026-01-20T17:34:23.772Z"
         }
       }
     },
