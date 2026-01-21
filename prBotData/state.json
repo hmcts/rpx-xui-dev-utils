@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1768989781.269219",
-    "lastUpdated": "2026-01-21T10:02:49.716Z",
+    "lastUpdated": "2026-01-21T10:10:10.975Z",
     "approvalListMessageHash": "7d5d8c8854b81a54a89e0508a217016cf5c9cc73cce7dac2f22f498b042a765a"
   },
   "repositories": {
@@ -246,6 +246,18 @@
           "headSha": "933f30b1a23658a2e9301c8f99bb2cdf39024a20",
           "createdAt": "2026-01-20T11:15:12.676Z",
           "lastUpdated": "2026-01-20T12:53:55.217Z"
+        },
+        "4880": {
+          "number": 4880,
+          "title": "Move codeceptjs to v 3.7.6",
+          "author": "danH-test",
+          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/4880",
+          "changesRequested": false,
+          "approvals": 0,
+          "buildSuccess": false,
+          "headSha": "cf259cb460d6d805940853db88889a9a22078555",
+          "createdAt": "2026-01-21T10:10:10.909Z",
+          "lastUpdated": "2026-01-21T10:10:10.975Z"
         }
       }
     },
