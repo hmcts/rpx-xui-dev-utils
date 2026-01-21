@@ -175,18 +175,6 @@
           "createdAt": "2026-01-08T14:25:47.001Z",
           "lastUpdated": "2026-01-09T14:54:09.231Z"
         },
-        "4871": {
-          "number": 4871,
-          "title": "exui-3995-data-loss-issue",
-          "author": "RiteshHMCTS",
-          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/4871",
-          "changesRequested": false,
-          "approvals": 1,
-          "buildSuccess": true,
-          "headSha": "94826c8e874b9f3976a24cd8940ac079e1168f91",
-          "createdAt": "2026-01-20T11:14:02.957Z",
-          "lastUpdated": "2026-01-20T11:14:03.061Z"
-        },
         "4872": {
           "number": 4872,
           "title": "Test pipelines",
