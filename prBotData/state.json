@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1769009860.270749",
-    "lastUpdated": "2026-01-21T15:37:28.850Z",
+    "lastUpdated": "2026-01-21T15:54:17.401Z",
     "approvalListMessageHash": "3b2c0e41f245aeae293a245e7132c7c6e584cd8ec7ec824893bcdb5100c10728"
   },
   "repositories": {
@@ -186,6 +186,18 @@
           "headSha": "cf259cb460d6d805940853db88889a9a22078555",
           "createdAt": "2026-01-21T10:10:10.909Z",
           "lastUpdated": "2026-01-21T10:10:10.975Z"
+        },
+        "4881": {
+          "number": 4881,
+          "title": "cot-1146",
+          "author": "anthonydummer",
+          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/4881",
+          "changesRequested": false,
+          "approvals": 1,
+          "buildSuccess": false,
+          "headSha": "1cfec7332e771a08b3386045bd7b3674273c04cb",
+          "createdAt": "2026-01-21T15:54:17.230Z",
+          "lastUpdated": "2026-01-21T15:54:17.401Z"
         },
         "4882": {
           "number": 4882,
