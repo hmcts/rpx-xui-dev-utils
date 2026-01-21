@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1768989720.302419",
-    "lastUpdated": "2026-01-21T10:01:49.528Z",
+    "lastUpdated": "2026-01-21T10:02:10.469Z",
     "approvalListMessageHash": "4e3289a9e4e2a4b8868fd221d4029824802f90a8f31ca78a211686b19029867a"
   },
   "repositories": {
@@ -402,6 +402,18 @@
           "headSha": "c9d459c7415a876fbc99897d1b6a4dc15b0057f7",
           "createdAt": "2026-01-09T22:37:46.511Z",
           "lastUpdated": "2026-01-09T22:37:46.686Z"
+        },
+        "761": {
+          "number": 761,
+          "title": "cve fix",
+          "author": "olusegz07",
+          "url": "https://github.com/hmcts/em-showcase/pull/761",
+          "changesRequested": false,
+          "approvals": 0,
+          "buildSuccess": false,
+          "headSha": "f09f2997ddd0cecf94869fcd3765f5fead5ce8df",
+          "createdAt": "2026-01-21T10:02:10.298Z",
+          "lastUpdated": "2026-01-21T10:02:10.469Z"
         }
       }
     },
