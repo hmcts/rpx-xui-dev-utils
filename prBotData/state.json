@@ -387,18 +387,6 @@
     },
     "hmcts/ccd-case-ui-toolkit": {
       "pullRequests": {
-        "2078": {
-          "number": 2078,
-          "title": "EXUI-3951 - Remove @hmcts/frontend, refactor mq queries",
-          "author": "Josh-HMCTS",
-          "url": "https://github.com/hmcts/ccd-case-ui-toolkit/pull/2078",
-          "changesRequested": false,
-          "approvals": 1,
-          "buildSuccess": true,
-          "headSha": "e93da6d28523dd67a6c94b443e3f1f6d059feb62",
-          "createdAt": "2026-01-15T15:24:07.889Z",
-          "lastUpdated": "2026-01-15T15:24:07.972Z"
-        },
         "2082": {
           "number": 2082,
           "title": "version updated",
