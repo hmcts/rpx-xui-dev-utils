@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1768989534.717179",
-    "lastUpdated": "2026-01-21T09:58:44.506Z",
+    "lastUpdated": "2026-01-21T10:00:29.107Z",
     "approvalListMessageHash": "be37f1305a6fb56531d85b7613a3a062805cc0a00118236e5dd7de570844442f"
   },
   "repositories": {
@@ -407,18 +407,6 @@
     },
     "hmcts/em-media-viewer": {
       "pullRequests": {
-        "1233": {
-          "number": 1233,
-          "title": "EXUI-2600 draw a box keyboard",
-          "author": "chrisjones-hmcts",
-          "url": "https://github.com/hmcts/em-media-viewer/pull/1233",
-          "changesRequested": false,
-          "approvals": 1,
-          "buildSuccess": true,
-          "headSha": "427586eee08532c25fbe4a8409f35a416f63b402",
-          "createdAt": "2026-01-21T09:33:17.088Z",
-          "lastUpdated": "2026-01-21T09:33:17.183Z"
-        },
         "1262": {
           "number": 1262,
           "title": "Update dependency @angular/core to v20.3.16 [SECURITY]",
