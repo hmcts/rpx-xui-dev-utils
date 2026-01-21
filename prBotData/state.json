@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1768994922.116999",
-    "lastUpdated": "2026-01-21T11:28:32.743Z",
+    "lastUpdated": "2026-01-21T11:29:15.903Z",
     "approvalListMessageHash": "e726b08e3fb0e20b6dfc0c119822290dd5505eb0accf75f6d567b6e82acf0a2b"
   },
   "repositories": {
@@ -234,18 +234,6 @@
           "headSha": "e758361dcf6f1fd0376ab217da48cceaf18c854a",
           "createdAt": "2026-01-20T17:48:11.647Z",
           "lastUpdated": "2026-01-21T09:53:50.774Z"
-        },
-        "4879": {
-          "number": 4879,
-          "title": "EXUI-3663 - Add changes to integrate find work type filter",
-          "author": "connorpgpmcelroy",
-          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/4879",
-          "changesRequested": false,
-          "approvals": 0,
-          "buildSuccess": true,
-          "headSha": "933f30b1a23658a2e9301c8f99bb2cdf39024a20",
-          "createdAt": "2026-01-20T11:15:12.676Z",
-          "lastUpdated": "2026-01-20T12:53:55.217Z"
         },
         "4880": {
           "number": 4880,
