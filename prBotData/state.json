@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1768997134.311569",
-    "lastUpdated": "2026-01-21T12:09:25.741Z",
+    "lastUpdated": "2026-01-21T12:11:15.680Z",
     "approvalListMessageHash": "409572c3803d7d6aae6bae77b71f2f5c1a006b765edb6e7bb94e667cdb99262f"
   },
   "repositories": {
@@ -437,11 +437,11 @@
           "author": "olusegz07",
           "url": "https://github.com/hmcts/em-media-viewer/pull/1263",
           "changesRequested": false,
-          "approvals": 0,
+          "approvals": 1,
           "buildSuccess": false,
           "headSha": "9342a94f12021bd31b7966aa5d91c19bc0ebd9a6",
-          "createdAt": "2026-01-21T12:09:25.663Z",
-          "lastUpdated": "2026-01-21T12:09:25.741Z"
+          "createdAt": "2026-01-21T12:11:15.598Z",
+          "lastUpdated": "2026-01-21T12:11:15.680Z"
         }
       }
     },
