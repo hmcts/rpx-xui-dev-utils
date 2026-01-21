@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1769009860.270749",
-    "lastUpdated": "2026-01-21T15:56:41.701Z",
+    "lastUpdated": "2026-01-21T16:01:17.197Z",
     "approvalListMessageHash": "3b2c0e41f245aeae293a245e7132c7c6e584cd8ec7ec824893bcdb5100c10728"
   },
   "repositories": {
@@ -366,6 +366,18 @@
           "headSha": "c9d459c7415a876fbc99897d1b6a4dc15b0057f7",
           "createdAt": "2026-01-09T22:37:46.511Z",
           "lastUpdated": "2026-01-09T22:37:46.686Z"
+        },
+        "762": {
+          "number": 762,
+          "title": "Update yarn-audit-known-issues",
+          "author": "olusegz07",
+          "url": "https://github.com/hmcts/em-showcase/pull/762",
+          "changesRequested": false,
+          "approvals": 0,
+          "buildSuccess": false,
+          "headSha": "86f87587e12c34e110a3ebd3205158b43505ece2",
+          "createdAt": "2026-01-21T16:01:16.965Z",
+          "lastUpdated": "2026-01-21T16:01:17.197Z"
         }
       }
     },
