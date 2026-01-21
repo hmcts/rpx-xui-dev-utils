@@ -163,18 +163,6 @@
           "createdAt": "2025-12-23T11:12:08.796Z",
           "lastUpdated": "2025-12-23T11:43:17.590Z"
         },
-        "4845": {
-          "number": 4845,
-          "title": "exui-3889-logout-issue",
-          "author": "RiteshHMCTS",
-          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/4845",
-          "changesRequested": true,
-          "approvals": 0,
-          "buildSuccess": true,
-          "headSha": "914c66bb2ae9128197d2882a7c9369bb65504515",
-          "createdAt": "2026-01-13T11:17:50.645Z",
-          "lastUpdated": "2026-01-20T10:36:42.799Z"
-        },
         "4852": {
           "number": 4852,
           "title": "Update sonar-project.properties",
