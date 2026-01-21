@@ -163,18 +163,6 @@
           "createdAt": "2026-01-08T14:25:47.001Z",
           "lastUpdated": "2026-01-09T14:54:09.231Z"
         },
-        "4872": {
-          "number": 4872,
-          "title": "Test pipelines",
-          "author": "Josh-HMCTS",
-          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/4872",
-          "changesRequested": false,
-          "approvals": 1,
-          "buildSuccess": true,
-          "headSha": "c1da0bf9bbe1cc9d8784977e9f875de2c5868c4b",
-          "createdAt": "2026-01-21T11:16:31.343Z",
-          "lastUpdated": "2026-01-21T11:16:31.456Z"
-        },
         "4878": {
           "number": 4878,
           "title": "EXUI-3632: e2e document upload tests",
