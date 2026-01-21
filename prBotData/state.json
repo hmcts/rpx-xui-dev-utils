@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1768999248.119329",
-    "lastUpdated": "2026-01-21T12:40:37.124Z",
+    "lastUpdated": "2026-01-21T13:01:12.937Z",
     "approvalListMessageHash": "f9e46046fa99cf396015dffdac599f5dafb285f7fb7f2cc08bcd58ea0c3e6a20"
   },
   "repositories": {
@@ -246,6 +246,18 @@
           "headSha": "cf259cb460d6d805940853db88889a9a22078555",
           "createdAt": "2026-01-21T10:10:10.909Z",
           "lastUpdated": "2026-01-21T10:10:10.975Z"
+        },
+        "4882": {
+          "number": 4882,
+          "title": "Test/update table util",
+          "author": "andyg-cgi",
+          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/4882",
+          "changesRequested": false,
+          "approvals": 0,
+          "buildSuccess": false,
+          "headSha": "8bbc920d7946560ec6c5003d580ff0c1b7bcc880",
+          "createdAt": "2026-01-21T13:01:12.852Z",
+          "lastUpdated": "2026-01-21T13:01:12.937Z"
         }
       }
     },
