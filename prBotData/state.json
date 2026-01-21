@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1768992788.328929",
-    "lastUpdated": "2026-01-21T10:52:56.497Z",
+    "lastUpdated": "2026-01-21T11:07:41.382Z",
     "approvalListMessageHash": "6346abf4540ef7550f1df6e83a06399b2fd2be2ff0583d565bfd651f2be0e1f9"
   },
   "repositories": {
@@ -298,18 +298,6 @@
           "headSha": "741e8b93718c9194cd63d0066b7bdb39f14d7492",
           "createdAt": "2026-01-20T17:21:28.483Z",
           "lastUpdated": "2026-01-20T17:21:28.624Z"
-        },
-        "1467": {
-          "number": 1467,
-          "title": "Update yarn-audit-known-issues",
-          "author": "olusegz07",
-          "url": "https://github.com/hmcts/rpx-xui-manage-organisations/pull/1467",
-          "changesRequested": false,
-          "approvals": 1,
-          "buildSuccess": true,
-          "headSha": "46866717bbafd15cbca622a05fe8377c1d3ef7e0",
-          "createdAt": "2026-01-21T10:52:29.121Z",
-          "lastUpdated": "2026-01-21T10:52:29.254Z"
         }
       }
     },
