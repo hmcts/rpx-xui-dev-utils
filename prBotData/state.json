@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1769095895.849269",
-    "lastUpdated": "2026-01-22T15:35:11.127Z",
+    "lastUpdated": "2026-01-22T15:37:35.116Z",
     "approvalListMessageHash": "baf3153a86727b83e039f1ec55d49f9a98584e0f9473bda3c25b788a6d68068a"
   },
   "repositories": {
@@ -246,6 +246,18 @@
           "headSha": "a50e2f17adc80a4b7252379404afa80bc49ccec1",
           "createdAt": "2026-01-22T12:36:39.883Z",
           "lastUpdated": "2026-01-22T12:36:39.964Z"
+        },
+        "4886": {
+          "number": 4886,
+          "title": "Chore/add prettier",
+          "author": "gregs-cgi",
+          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/4886",
+          "changesRequested": false,
+          "approvals": 0,
+          "buildSuccess": false,
+          "headSha": "80f055b85e7a1594c53ee2a159107a4a0b5c9af2",
+          "createdAt": "2026-01-22T15:37:35.028Z",
+          "lastUpdated": "2026-01-22T15:37:35.116Z"
         }
       }
     },
