@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1769084465.751819",
-    "lastUpdated": "2026-01-22T12:20:53.780Z",
+    "lastUpdated": "2026-01-22T12:36:39.964Z",
     "approvalListMessageHash": "baf3153a86727b83e039f1ec55d49f9a98584e0f9473bda3c25b788a6d68068a"
   },
   "repositories": {
@@ -222,6 +222,18 @@
           "headSha": "b26825d84cd5fc281d363ece4631f4200afc05d9",
           "createdAt": "2026-01-21T13:07:46.244Z",
           "lastUpdated": "2026-01-22T12:02:48.668Z"
+        },
+        "4885": {
+          "number": 4885,
+          "title": "exui-4061-navigation issue for no case found",
+          "author": "RiteshHMCTS",
+          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/4885",
+          "changesRequested": false,
+          "approvals": 0,
+          "buildSuccess": false,
+          "headSha": "a50e2f17adc80a4b7252379404afa80bc49ccec1",
+          "createdAt": "2026-01-22T12:36:39.883Z",
+          "lastUpdated": "2026-01-22T12:36:39.964Z"
         }
       }
     },
