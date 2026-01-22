@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1769076289.017009",
-    "lastUpdated": "2026-01-22T10:04:38.265Z",
+    "lastUpdated": "2026-01-22T10:06:02.056Z",
     "approvalListMessageHash": "02f2653318b56c69cb913b803fe928095609d029e2defee494b8aff2d7a31eda"
   },
   "repositories": {
@@ -262,18 +262,6 @@
           "headSha": "741e8b93718c9194cd63d0066b7bdb39f14d7492",
           "createdAt": "2026-01-20T17:21:28.483Z",
           "lastUpdated": "2026-01-20T17:21:28.624Z"
-        },
-        "1468": {
-          "number": 1468,
-          "title": "exui-4060-update contact details",
-          "author": "RiteshHMCTS",
-          "url": "https://github.com/hmcts/rpx-xui-manage-organisations/pull/1468",
-          "changesRequested": false,
-          "approvals": 1,
-          "buildSuccess": true,
-          "headSha": "941d53bcca5e120936c7e26b3b445795d99d70d8",
-          "createdAt": "2026-01-22T10:04:38.157Z",
-          "lastUpdated": "2026-01-22T10:04:38.265Z"
         }
       }
     },
