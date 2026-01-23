@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1769161461.284159",
-    "lastUpdated": "2026-01-23T09:44:56.879Z",
+    "lastUpdated": "2026-01-23T09:45:45.191Z",
     "approvalListMessageHash": "1e01e058188b8bfb49ada7719f111f45646956b062dc1808f504c3dc494d6779"
   },
   "repositories": {
@@ -186,18 +186,6 @@
           "headSha": "06adb26a7aaf1f94fbc085a594d5232461524025",
           "createdAt": "2026-01-23T09:44:10.797Z",
           "lastUpdated": "2026-01-23T09:44:10.938Z"
-        },
-        "4857": {
-          "number": 4857,
-          "title": "EXUI-4003 - Do actual fix for 4003",
-          "author": "connorpgpmcelroy",
-          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/4857",
-          "changesRequested": false,
-          "approvals": 1,
-          "buildSuccess": false,
-          "headSha": "5269ee11fac885263707a429bffaad832778d357",
-          "createdAt": "2026-01-23T09:44:56.792Z",
-          "lastUpdated": "2026-01-23T09:44:56.879Z"
         },
         "4878": {
           "number": 4878,
