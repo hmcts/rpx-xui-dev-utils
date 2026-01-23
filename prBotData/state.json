@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1769174226.609699",
-    "lastUpdated": "2026-01-23T13:30:13.100Z",
+    "lastUpdated": "2026-01-23T14:34:10.208Z",
     "approvalListMessageHash": "922c0527659594f4888b9e061886e0edc36b58289f4edc1e942d172d7bc94f2c"
   },
   "repositories": {
@@ -482,6 +482,18 @@
           "headSha": "d053a3c24d3ae5dc2b31d5462fa646143c9886c4",
           "createdAt": "2026-01-23T13:16:55.202Z",
           "lastUpdated": "2026-01-23T13:16:55.291Z"
+        },
+        "2085": {
+          "number": 2085,
+          "title": "EXUI-4069 - Use 6.5.17 of ccpay",
+          "author": "Josh-HMCTS",
+          "url": "https://github.com/hmcts/ccd-case-ui-toolkit/pull/2085",
+          "changesRequested": false,
+          "approvals": 0,
+          "buildSuccess": true,
+          "headSha": "149e5e98c85184875683bf55d4fe0ce9cd3dc1c9",
+          "createdAt": "2026-01-23T14:34:10.050Z",
+          "lastUpdated": "2026-01-23T14:34:10.208Z"
         }
       }
     }
