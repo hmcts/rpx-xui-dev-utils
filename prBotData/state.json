@@ -175,18 +175,6 @@
           "createdAt": "2026-01-08T14:25:47.001Z",
           "lastUpdated": "2026-01-09T14:54:09.231Z"
         },
-        "4880": {
-          "number": 4880,
-          "title": "Move codeceptjs to v 3.7.6",
-          "author": "danH-test",
-          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/4880",
-          "changesRequested": false,
-          "approvals": 0,
-          "buildSuccess": true,
-          "headSha": "712e38ea0a3dbaad94f3403059415e4ffedbc277",
-          "createdAt": "2026-01-21T10:10:10.909Z",
-          "lastUpdated": "2026-01-21T16:34:19.260Z"
-        },
         "4882": {
           "number": 4882,
           "title": "Test/update table util",
