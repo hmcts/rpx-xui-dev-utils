@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1769178862.138489",
-    "lastUpdated": "2026-01-23T14:59:32.309Z",
+    "lastUpdated": "2026-01-23T15:11:22.281Z",
     "approvalListMessageHash": "37e30c6d1badf5e905962454599f96bc459a1b20b07dab6f6d3238b3ea6da9d0"
   },
   "repositories": {
@@ -322,6 +322,18 @@
           "headSha": "6a771412896d4ce2668e9d502b2d5fa845f06ff6",
           "createdAt": "2026-01-23T14:59:32.205Z",
           "lastUpdated": "2026-01-23T14:59:32.309Z"
+        },
+        "1470": {
+          "number": 1470,
+          "title": "Test for Passport old",
+          "author": "Josh-HMCTS",
+          "url": "https://github.com/hmcts/rpx-xui-manage-organisations/pull/1470",
+          "changesRequested": false,
+          "approvals": 0,
+          "buildSuccess": false,
+          "headSha": "0105ffdd31af444c2c6cae3ef81fe64c50c0a824",
+          "createdAt": "2026-01-23T15:11:22.194Z",
+          "lastUpdated": "2026-01-23T15:11:22.281Z"
         }
       }
     },
