@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1769189594.661129",
-    "lastUpdated": "2026-01-23T17:33:02.474Z",
+    "lastUpdated": "2026-01-23T17:37:49.038Z",
     "approvalListMessageHash": "25fc3d71f916973c25c346c48b11ead443bb221d8eed39b570a28a2a528e0bb2"
   },
   "repositories": {
@@ -246,6 +246,18 @@
           "headSha": "d1e28dfa2c6aa3d93a8b291952196c17e517dee9",
           "createdAt": "2026-01-23T15:43:25.121Z",
           "lastUpdated": "2026-01-23T15:43:25.275Z"
+        },
+        "4890": {
+          "number": 4890,
+          "title": "EXUI-4068 - Update ccpay version, use tk version",
+          "author": "Josh-HMCTS",
+          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/4890",
+          "changesRequested": false,
+          "approvals": 0,
+          "buildSuccess": false,
+          "headSha": "80b7b9f9ffc9b478ec4fe8049743ddb4eec09264",
+          "createdAt": "2026-01-23T17:37:48.953Z",
+          "lastUpdated": "2026-01-23T17:37:49.038Z"
         }
       }
     },
