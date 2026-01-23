@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1769109260.553889",
-    "lastUpdated": "2026-01-22T19:14:09.761Z",
+    "lastUpdated": "2026-01-23T09:44:10.938Z",
     "approvalListMessageHash": "44ccacfc876dd41dbf4fc92ee88dc6ae287e1ebbc99ce127a39750fb3c980746"
   },
   "repositories": {
@@ -174,6 +174,18 @@
           "headSha": "6fa28cf1133c8fc4d5879f2034151e4bf6a689a6",
           "createdAt": "2026-01-08T14:25:47.001Z",
           "lastUpdated": "2026-01-09T14:54:09.231Z"
+        },
+        "4854": {
+          "number": 4854,
+          "title": "EXUI-Fix codecept issue and js-yaml CVE with minimal changes",
+          "author": "connorpgpmcelroy",
+          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/4854",
+          "changesRequested": false,
+          "approvals": 1,
+          "buildSuccess": true,
+          "headSha": "06adb26a7aaf1f94fbc085a594d5232461524025",
+          "createdAt": "2026-01-23T09:44:10.797Z",
+          "lastUpdated": "2026-01-23T09:44:10.938Z"
         },
         "4878": {
           "number": 4878,
