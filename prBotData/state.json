@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1769184984.046799",
-    "lastUpdated": "2026-01-23T16:16:14.061Z",
+    "lastUpdated": "2026-01-23T16:22:10.408Z",
     "approvalListMessageHash": "1e1ed5d4375d88a771c1b1f7fbb866522a665ddc4e9cad7e41552eb6f3503236"
   },
   "repositories": {
@@ -506,22 +506,6 @@
           "headSha": "d053a3c24d3ae5dc2b31d5462fa646143c9886c4",
           "createdAt": "2026-01-23T15:42:16.487Z",
           "lastUpdated": "2026-01-23T15:42:16.631Z"
-        }
-      }
-    },
-    "hmcts/rpx-xui-node-lib": {
-      "pullRequests": {
-        "299": {
-          "number": 299,
-          "title": "test pipeline dummy commit",
-          "author": "balajisridharanhmcts",
-          "url": "https://github.com/hmcts/rpx-xui-node-lib/pull/299",
-          "changesRequested": false,
-          "approvals": 0,
-          "buildSuccess": true,
-          "headSha": "b7b434d3471d5be8a7b6ef3310c6257366deac2f",
-          "createdAt": "2026-01-23T15:12:43.218Z",
-          "lastUpdated": "2026-01-23T15:12:43.292Z"
         }
       }
     }
