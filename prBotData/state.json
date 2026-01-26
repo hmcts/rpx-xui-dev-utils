@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1769431733.954849",
-    "lastUpdated": "2026-01-26T12:48:44.050Z",
+    "lastUpdated": "2026-01-26T13:06:58.057Z",
     "approvalListMessageHash": "8141cf37c3d52d1051c2b7f2a558b0b1bfec1de003a8dec96377cde4c3978eb8"
   },
   "repositories": {
@@ -506,18 +506,6 @@
           "headSha": "d053a3c24d3ae5dc2b31d5462fa646143c9886c4",
           "createdAt": "2026-01-23T15:42:16.487Z",
           "lastUpdated": "2026-01-23T15:42:16.631Z"
-        },
-        "2086": {
-          "number": 2086,
-          "title": "EXUI-3875 - Use media viewer release",
-          "author": "Josh-HMCTS",
-          "url": "https://github.com/hmcts/ccd-case-ui-toolkit/pull/2086",
-          "changesRequested": false,
-          "approvals": 1,
-          "buildSuccess": true,
-          "headSha": "231d875b11c858639b68e5b2ecd841979b510b26",
-          "createdAt": "2026-01-26T12:48:08.393Z",
-          "lastUpdated": "2026-01-26T12:48:08.580Z"
         }
       }
     }
