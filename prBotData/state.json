@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1769432829.414939",
-    "lastUpdated": "2026-01-26T14:33:32.783Z",
+    "lastUpdated": "2026-01-26T15:16:43.973Z",
     "approvalListMessageHash": "2b0377977b71811d42dbd491e8c736a0851856993f698daa6b38285094208e21"
   },
   "repositories": {
@@ -362,18 +362,6 @@
           "headSha": "75a824b76a76b6b07f5bc17e062bd6e45816b27e",
           "createdAt": "2025-11-13T10:19:55.827Z",
           "lastUpdated": "2025-11-13T10:19:55.951Z"
-        },
-        "975": {
-          "number": 975,
-          "title": "EXUI-3987 - AO Master Pipeline: Functional Test - aat stage logs show Test Failures but overall pipeline is Green",
-          "author": "chrisjones-hmcts",
-          "url": "https://github.com/hmcts/rpx-xui-approve-org/pull/975",
-          "changesRequested": false,
-          "approvals": 0,
-          "buildSuccess": true,
-          "headSha": "3418cad25726f3d0d12e848eff5f2e3319a67767",
-          "createdAt": "2026-01-21T16:23:40.743Z",
-          "lastUpdated": "2026-01-21T16:38:31.388Z"
         },
         "976": {
           "number": 976,
