@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1769525515.661459",
-    "lastUpdated": "2026-01-27T14:51:43.818Z",
+    "lastUpdated": "2026-01-27T15:01:37.218Z",
     "approvalListMessageHash": "9700ed7e7d4bdd7c9a67d5ca3e2bc71ea20c71492534d388628b8acac8346330"
   },
   "repositories": {
@@ -388,12 +388,12 @@
           "title": "Change tar to 7.5.4 (and check pact tests)",
           "author": "connorpgpmcelroy",
           "url": "https://github.com/hmcts/rpx-xui-manage-organisations/pull/1472",
-          "changesRequested": false,
+          "changesRequested": true,
           "approvals": 0,
           "buildSuccess": true,
-          "headSha": "cba7b87db26a6722d35ab2b8b3b99f38c4959bc9",
-          "createdAt": "2026-01-27T14:04:25.515Z",
-          "lastUpdated": "2026-01-27T14:43:56.933Z"
+          "headSha": "5f0b9964c4536a1e45423d73a5e75ee0161df290",
+          "createdAt": "2026-01-27T15:01:37.045Z",
+          "lastUpdated": "2026-01-27T15:01:37.218Z"
         }
       }
     },
