@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1769528476.711739",
-    "lastUpdated": "2026-01-27T15:41:05.195Z",
+    "lastUpdated": "2026-01-27T15:41:39.626Z",
     "approvalListMessageHash": "f70db937fc54594883c2399a58152e176d1aa023dd17229922e8e954a508f1cd"
   },
   "repositories": {
@@ -382,18 +382,6 @@
           "headSha": "a72dc11c1b3e3e0c4b1250486affa6657e2faa64",
           "createdAt": "2026-01-23T15:45:15.966Z",
           "lastUpdated": "2026-01-23T17:40:37.582Z"
-        },
-        "1471": {
-          "number": 1471,
-          "title": "Support/ex UI 1198 sra regulated",
-          "author": "connorpgpmcelroy",
-          "url": "https://github.com/hmcts/rpx-xui-manage-organisations/pull/1471",
-          "changesRequested": false,
-          "approvals": 1,
-          "buildSuccess": true,
-          "headSha": "6c2db081048dad69900e30f2197e6da4bfa941ad",
-          "createdAt": "2026-01-27T14:15:34.165Z",
-          "lastUpdated": "2026-01-27T14:15:34.231Z"
         },
         "1472": {
           "number": 1472,
