@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1769535073.169879",
-    "lastUpdated": "2026-01-27T17:31:02.277Z",
+    "lastUpdated": "2026-01-27T17:49:56.338Z",
     "approvalListMessageHash": "e6799d6eb73eaa35de488d9652a6ded5bdab5e32259a723de9779b5e6738bba0"
   },
   "repositories": {
@@ -526,6 +526,18 @@
           "headSha": "4488010b81425aedb931d72563963fbc525798f9",
           "createdAt": "2026-01-22T03:49:13.417Z",
           "lastUpdated": "2026-01-22T03:49:13.503Z"
+        },
+        "1265": {
+          "number": 1265,
+          "title": "cve fixes",
+          "author": "balajisridharanhmcts",
+          "url": "https://github.com/hmcts/em-media-viewer/pull/1265",
+          "changesRequested": false,
+          "approvals": 0,
+          "buildSuccess": false,
+          "headSha": "9e8d212784c5ff8a151377fdc96e0404d738bee6",
+          "createdAt": "2026-01-27T17:49:56.122Z",
+          "lastUpdated": "2026-01-27T17:49:56.338Z"
         }
       }
     },
