@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1769528613.325189",
-    "lastUpdated": "2026-01-27T15:43:22.748Z",
+    "lastUpdated": "2026-01-27T15:44:09.969Z",
     "approvalListMessageHash": "772526ab2a9e59d3a12a84859818fbc0707ab1739a1c1dab08aac7174e34e997"
   },
   "repositories": {
@@ -531,18 +531,6 @@
     },
     "hmcts/ccd-case-ui-toolkit": {
       "pullRequests": {
-        "2069": {
-          "number": 2069,
-          "title": "Task/ex UI 3854 fix CVE",
-          "author": "connorpgpmcelroy",
-          "url": "https://github.com/hmcts/ccd-case-ui-toolkit/pull/2069",
-          "changesRequested": false,
-          "approvals": 1,
-          "buildSuccess": true,
-          "headSha": "d27a6958fe6e909916541e983a508651f677e488",
-          "createdAt": "2026-01-27T15:43:21.308Z",
-          "lastUpdated": "2026-01-27T15:43:21.447Z"
-        },
         "2082": {
           "number": 2082,
           "title": "exui-3927",
