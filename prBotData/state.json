@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1769617947.629129",
-    "lastUpdated": "2026-01-28T16:32:15.124Z",
+    "lastUpdated": "2026-01-28T16:33:06.146Z",
     "approvalListMessageHash": "264c89461bf564c153ad67c76f970689b783484a8c221b028f66e274f45a0ba9"
   },
   "repositories": {
@@ -495,18 +495,6 @@
     },
     "hmcts/ccd-case-ui-toolkit": {
       "pullRequests": {
-        "2068": {
-          "number": 2068,
-          "title": "exui 3851 cve fixed",
-          "author": "balajisridharanhmcts",
-          "url": "https://github.com/hmcts/ccd-case-ui-toolkit/pull/2068",
-          "changesRequested": false,
-          "approvals": 1,
-          "buildSuccess": true,
-          "headSha": "cb7c7153b6d1ce3b38fc42c45ce66f77c215d3a2",
-          "createdAt": "2026-01-28T16:32:14.960Z",
-          "lastUpdated": "2026-01-28T16:32:15.124Z"
-        },
         "2082": {
           "number": 2082,
           "title": "exui-3927",
