@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1769592130.923199",
-    "lastUpdated": "2026-01-28T09:23:41.058Z",
+    "lastUpdated": "2026-01-28T09:34:30.476Z",
     "approvalListMessageHash": "e23f7a7369f68d77693c1c4e37c664e6653641afb1207b512ef6f13a1edebe94"
   },
   "repositories": {
@@ -306,18 +306,6 @@
           "headSha": "39b9264e98a19408739457d9d7cc6f66556debe4",
           "createdAt": "2026-01-27T14:21:12.591Z",
           "lastUpdated": "2026-01-27T14:21:12.712Z"
-        },
-        "4895": {
-          "number": 4895,
-          "title": "enable failing test",
-          "author": "RiteshHMCTS",
-          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/4895",
-          "changesRequested": false,
-          "approvals": 1,
-          "buildSuccess": true,
-          "headSha": "695023dc2f47b5f3de4a0d0080f819f8c9759a1f",
-          "createdAt": "2026-01-28T09:21:59.762Z",
-          "lastUpdated": "2026-01-28T09:21:59.889Z"
         },
         "4896": {
           "number": 4896,
