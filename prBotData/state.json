@@ -223,18 +223,6 @@
           "createdAt": "2026-01-27T14:51:26.288Z",
           "lastUpdated": "2026-01-27T14:51:26.418Z"
         },
-        "4890": {
-          "number": 4890,
-          "title": "EXUI-4068 - Update ccpay version, use tk version",
-          "author": "Josh-HMCTS",
-          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/4890",
-          "changesRequested": false,
-          "approvals": 1,
-          "buildSuccess": true,
-          "headSha": "80b7b9f9ffc9b478ec4fe8049743ddb4eec09264",
-          "createdAt": "2026-01-28T09:18:14.764Z",
-          "lastUpdated": "2026-01-28T09:18:14.958Z"
-        },
         "4891": {
           "number": 4891,
           "title": "Implement Welsh language usage reporting with Azure Communication Ser…",
