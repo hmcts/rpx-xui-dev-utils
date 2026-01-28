@@ -235,18 +235,6 @@
           "createdAt": "2026-01-27T14:51:26.288Z",
           "lastUpdated": "2026-01-27T14:51:26.418Z"
         },
-        "4889": {
-          "number": 4889,
-          "title": "toolkit and media viewer version",
-          "author": "olusegz07",
-          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/4889",
-          "changesRequested": false,
-          "approvals": 1,
-          "buildSuccess": true,
-          "headSha": "d1e28dfa2c6aa3d93a8b291952196c17e517dee9",
-          "createdAt": "2026-01-23T15:43:25.121Z",
-          "lastUpdated": "2026-01-26T09:44:02.555Z"
-        },
         "4890": {
           "number": 4890,
           "title": "EXUI-4068 - Update ccpay version, use tk version",
