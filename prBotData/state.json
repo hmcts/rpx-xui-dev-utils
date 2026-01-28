@@ -271,18 +271,6 @@
           "createdAt": "2026-01-28T09:19:03.354Z",
           "lastUpdated": "2026-01-28T09:19:03.487Z"
         },
-        "4894": {
-          "number": 4894,
-          "title": "temp disable welsh language test",
-          "author": "Josh-HMCTS",
-          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/4894",
-          "changesRequested": false,
-          "approvals": 1,
-          "buildSuccess": true,
-          "headSha": "39b9264e98a19408739457d9d7cc6f66556debe4",
-          "createdAt": "2026-01-27T14:21:12.591Z",
-          "lastUpdated": "2026-01-27T14:21:12.712Z"
-        },
         "4896": {
           "number": 4896,
           "title": "EXUI-3633 e2e tests for: My work -> Tasks",
