@@ -555,18 +555,6 @@
           "createdAt": "2026-01-27T14:49:55.132Z",
           "lastUpdated": "2026-01-27T14:49:55.347Z"
         },
-        "2084": {
-          "number": 2084,
-          "title": "toolkit and media version update version update",
-          "author": "olusegz07",
-          "url": "https://github.com/hmcts/ccd-case-ui-toolkit/pull/2084",
-          "changesRequested": false,
-          "approvals": 1,
-          "buildSuccess": true,
-          "headSha": "d053a3c24d3ae5dc2b31d5462fa646143c9886c4",
-          "createdAt": "2026-01-23T15:42:16.487Z",
-          "lastUpdated": "2026-01-23T15:42:16.631Z"
-        },
         "2087": {
           "number": 2087,
           "title": "Exui 4061 navigation issue",
