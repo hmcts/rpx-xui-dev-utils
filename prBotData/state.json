@@ -247,18 +247,6 @@
           "createdAt": "2026-01-26T14:33:32.689Z",
           "lastUpdated": "2026-01-26T15:36:25.218Z"
         },
-        "4893": {
-          "number": 4893,
-          "title": "cve fix",
-          "author": "olusegz07",
-          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/4893",
-          "changesRequested": false,
-          "approvals": 1,
-          "buildSuccess": true,
-          "headSha": "6551809b79e976df31c891a60e5e6f6144856494",
-          "createdAt": "2026-01-28T09:19:03.354Z",
-          "lastUpdated": "2026-01-28T09:19:03.487Z"
-        },
         "4896": {
           "number": 4896,
           "title": "EXUI-3633 e2e tests for: My work -> Tasks",
