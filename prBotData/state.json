@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1769597713.638449",
-    "lastUpdated": "2026-01-28T10:55:03.600Z",
+    "lastUpdated": "2026-01-28T11:02:22.093Z",
     "approvalListMessageHash": "a4128d89b052e961acf69c8fc8b5625b0e555e2c63069e77b5c5be637fbe0b2c"
   },
   "repositories": {
@@ -162,6 +162,18 @@
           "headSha": "ccbb4cd00dbb0a0f45f8b45613b7237a7b190d84",
           "createdAt": "2025-12-23T11:12:08.796Z",
           "lastUpdated": "2025-12-23T11:43:17.590Z"
+        },
+        "4872": {
+          "number": 4872,
+          "title": "Test pipelines",
+          "author": "Josh-HMCTS",
+          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/4872",
+          "changesRequested": false,
+          "approvals": 1,
+          "buildSuccess": false,
+          "headSha": "7f03cc8ad3f99f220ade858792e0edb3aff5e43e",
+          "createdAt": "2026-01-28T11:02:22.040Z",
+          "lastUpdated": "2026-01-28T11:02:22.093Z"
         },
         "4882": {
           "number": 4882,
