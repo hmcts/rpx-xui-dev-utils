@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1769595836.095819",
-    "lastUpdated": "2026-01-28T10:23:46.230Z",
+    "lastUpdated": "2026-01-28T10:23:58.617Z",
     "approvalListMessageHash": "ba71d58ddda48eda753bb2b93e60ddf1938d96901cac1b4dd1f9d080af150708"
   },
   "repositories": {
@@ -270,6 +270,18 @@
           "headSha": "4c9a4269a7dcfc76de750a2338f7740ff3cd8a70",
           "createdAt": "2026-01-28T09:23:40.854Z",
           "lastUpdated": "2026-01-28T09:23:41.058Z"
+        },
+        "4897": {
+          "number": 4897,
+          "title": "Add CVE for tar: 7.5.4",
+          "author": "danH-test",
+          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/4897",
+          "changesRequested": false,
+          "approvals": 0,
+          "buildSuccess": false,
+          "headSha": "bc4f143f397b27b7de0c0b38a13873141b7645ff",
+          "createdAt": "2026-01-28T10:23:58.512Z",
+          "lastUpdated": "2026-01-28T10:23:58.617Z"
         }
       }
     },
