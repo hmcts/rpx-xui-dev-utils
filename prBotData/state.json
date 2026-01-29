@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1769707950.330679",
-    "lastUpdated": "2026-01-29T17:32:20.576Z",
+    "lastUpdated": "2026-01-29T17:51:01.797Z",
     "approvalListMessageHash": "476c1b2aa56d592d59d6c39e9aa6edf501a89f2ba038e8a585c48d5ad0724105"
   },
   "repositories": {
@@ -282,6 +282,18 @@
           "headSha": "586d6d2cd2a2326d49987e559b845fd8452d2de2",
           "createdAt": "2026-01-29T16:41:43.996Z",
           "lastUpdated": "2026-01-29T16:41:44.061Z"
+        },
+        "4905": {
+          "number": 4905,
+          "title": "Add suggested fix for case details discrepancy in hearings",
+          "author": "connorpgpmcelroy",
+          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/4905",
+          "changesRequested": false,
+          "approvals": 0,
+          "buildSuccess": false,
+          "headSha": "4ea6782134beb59b0472e5424a3c8dadc7e3f82f",
+          "createdAt": "2026-01-29T17:51:01.715Z",
+          "lastUpdated": "2026-01-29T17:51:01.797Z"
         }
       }
     },
