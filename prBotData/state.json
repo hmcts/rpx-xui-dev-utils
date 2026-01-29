@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1769681527.090949",
-    "lastUpdated": "2026-01-29T10:11:55.949Z",
+    "lastUpdated": "2026-01-29T10:26:58.598Z",
     "approvalListMessageHash": "e715ff28962d8a9b4f936526a348a82cb5cea5e936d932f4fa9fa99f46cbd410"
   },
   "repositories": {
@@ -446,18 +446,6 @@
           "headSha": "f58d3a78d0c3f2158ed20cab0a5ee8f265e7217e",
           "createdAt": "2026-01-23T15:24:09.476Z",
           "lastUpdated": "2026-01-23T15:24:09.588Z"
-        },
-        "989": {
-          "number": 989,
-          "title": "cve fix",
-          "author": "olusegz07",
-          "url": "https://github.com/hmcts/rpx-xui-approve-org/pull/989",
-          "changesRequested": false,
-          "approvals": 1,
-          "buildSuccess": true,
-          "headSha": "501f34b08e5eaa1fcdb53310e0ca89efd596b180",
-          "createdAt": "2026-01-29T10:02:22.881Z",
-          "lastUpdated": "2026-01-29T10:02:22.986Z"
         }
       }
     },
