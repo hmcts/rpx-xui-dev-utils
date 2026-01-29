@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1769694902.848349",
-    "lastUpdated": "2026-01-29T13:54:53.120Z",
+    "lastUpdated": "2026-01-29T13:55:32.759Z",
     "approvalListMessageHash": "8c8266bd9b9368e403fa6b3c21f27538a437a2f19a2eb05d6603408a2fafa29f"
   },
   "repositories": {
@@ -518,18 +518,6 @@
           "headSha": "cad0d475d87dd5a142c39a6be764dd12483ce252",
           "createdAt": "2026-01-27T14:49:55.132Z",
           "lastUpdated": "2026-01-27T14:49:55.347Z"
-        },
-        "2090": {
-          "number": 2090,
-          "title": "Update actions/download-artifact action to v4.3.0",
-          "author": "renovate[bot]",
-          "url": "https://github.com/hmcts/ccd-case-ui-toolkit/pull/2090",
-          "changesRequested": false,
-          "approvals": 0,
-          "buildSuccess": true,
-          "headSha": "562b426e98f441501c0088b103c476531fb3ec3a",
-          "createdAt": "2026-01-29T09:40:40.686Z",
-          "lastUpdated": "2026-01-29T09:40:40.770Z"
         }
       }
     }
