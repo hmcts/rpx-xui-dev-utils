@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1769672778.301029",
-    "lastUpdated": "2026-01-29T07:46:06.457Z",
+    "lastUpdated": "2026-01-29T09:06:42.942Z",
     "approvalListMessageHash": "6af2f4ddcc5baa55c98c3897af4aee9e5e8e94ba7894be25cc4d8d603ed9b4ec"
   },
   "repositories": {
@@ -237,15 +237,15 @@
         },
         "4891": {
           "number": 4891,
-          "title": "Implement Welsh language usage reporting with Azure Communication Ser…",
+          "title": "CME-717: Implement Welsh language usage reporting with Azure Communication Ser…",
           "author": "AntonyLeons",
           "url": "https://github.com/hmcts/rpx-xui-webapp/pull/4891",
           "changesRequested": false,
           "approvals": 0,
           "buildSuccess": true,
           "headSha": "ae668d5d463fbe9cb5dadd64fc0f2ed5f1b65c70",
-          "createdAt": "2026-01-23T17:47:58.020Z",
-          "lastUpdated": "2026-01-28T12:57:21.564Z"
+          "createdAt": "2026-01-29T09:06:42.861Z",
+          "lastUpdated": "2026-01-29T09:06:42.942Z"
         },
         "4892": {
           "number": 4892,
