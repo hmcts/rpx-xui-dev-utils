@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1769680953.871819",
-    "lastUpdated": "2026-01-29T10:02:22.986Z",
+    "lastUpdated": "2026-01-29T10:06:34.969Z",
     "approvalListMessageHash": "83b9732f4f7a36aea25445db10afdd564a179d152111bd240aa325e1233c1ec2"
   },
   "repositories": {
@@ -294,6 +294,18 @@
           "headSha": "d0eb7641dbad2ee5ee273ca6ed6d35470f5d5e40",
           "createdAt": "2026-01-29T09:58:06.470Z",
           "lastUpdated": "2026-01-29T09:58:06.561Z"
+        },
+        "4902": {
+          "number": 4902,
+          "title": "Exui 3747",
+          "author": "RiteshHMCTS",
+          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/4902",
+          "changesRequested": false,
+          "approvals": 0,
+          "buildSuccess": false,
+          "headSha": "7a6dbecc10f7784622d7148189635929f0775a24",
+          "createdAt": "2026-01-29T10:06:34.717Z",
+          "lastUpdated": "2026-01-29T10:06:34.969Z"
         }
       }
     },
