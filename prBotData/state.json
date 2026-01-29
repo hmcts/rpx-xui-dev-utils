@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1769694849.626279",
-    "lastUpdated": "2026-01-29T13:52:31.140Z",
+    "lastUpdated": "2026-01-29T13:54:53.120Z",
     "approvalListMessageHash": "5934ece038502f34253689e10966cf597ba04c607d372b694539959206bd8870"
   },
   "repositories": {
@@ -518,18 +518,6 @@
           "headSha": "cad0d475d87dd5a142c39a6be764dd12483ce252",
           "createdAt": "2026-01-27T14:49:55.132Z",
           "lastUpdated": "2026-01-27T14:49:55.347Z"
-        },
-        "2089": {
-          "number": 2089,
-          "title": "Update SonarSource/sonarqube-scan-action action to v4.2.2",
-          "author": "renovate[bot]",
-          "url": "https://github.com/hmcts/ccd-case-ui-toolkit/pull/2089",
-          "changesRequested": false,
-          "approvals": 0,
-          "buildSuccess": true,
-          "headSha": "790c51d76c62bb7e0ee56d4b35e86e96c8274617",
-          "createdAt": "2026-01-29T07:46:06.320Z",
-          "lastUpdated": "2026-01-29T07:46:06.457Z"
         },
         "2090": {
           "number": 2090,
