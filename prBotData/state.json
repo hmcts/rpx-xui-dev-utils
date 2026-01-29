@@ -139,18 +139,6 @@
           "createdAt": "2025-12-17T08:51:27.287Z",
           "lastUpdated": "2025-12-17T08:51:27.427Z"
         },
-        "4817": {
-          "number": 4817,
-          "title": "EXUI-3607 EXUI E2E Improvements - Add / Update Case tests",
-          "author": "ShamrezDarw",
-          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/4817",
-          "changesRequested": false,
-          "approvals": 1,
-          "buildSuccess": true,
-          "headSha": "9e8aa96721f48239f93115914223ca48ab87e895",
-          "createdAt": "2026-01-28T17:50:42.333Z",
-          "lastUpdated": "2026-01-28T17:50:42.462Z"
-        },
         "4826": {
           "number": 4826,
           "title": "Exui 3815 CVE fix",
