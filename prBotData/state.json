@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1769679651.097249",
-    "lastUpdated": "2026-01-29T09:40:40.770Z",
+    "lastUpdated": "2026-01-29T09:58:06.561Z",
     "approvalListMessageHash": "602e370d2bbcd9988724342af062a8a14cddd8eaab74049a0669eb67053d0761"
   },
   "repositories": {
@@ -282,6 +282,18 @@
           "headSha": "9e434e608b368fe179d3cfc6199e31f895a0ed80",
           "createdAt": "2026-01-29T09:17:03.934Z",
           "lastUpdated": "2026-01-29T09:17:04.051Z"
+        },
+        "4901": {
+          "number": 4901,
+          "title": "Revert \"Task/ex UI 3747 secure cookie\"",
+          "author": "RiteshHMCTS",
+          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/4901",
+          "changesRequested": false,
+          "approvals": 0,
+          "buildSuccess": false,
+          "headSha": "d0eb7641dbad2ee5ee273ca6ed6d35470f5d5e40",
+          "createdAt": "2026-01-29T09:58:06.470Z",
+          "lastUpdated": "2026-01-29T09:58:06.561Z"
         }
       }
     },
