@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1769704581.500109",
-    "lastUpdated": "2026-01-29T16:36:11.360Z",
+    "lastUpdated": "2026-01-29T16:36:59.443Z",
     "approvalListMessageHash": "8ae3ce91166981bf552fc23c8b771a3fdd0749418c749f0bb890a592c047171d"
   },
   "repositories": {
@@ -517,15 +517,15 @@
         },
         "1265": {
           "number": 1265,
-          "title": "cve fixes",
+          "title": "exui 4074 cve fixes",
           "author": "balajisridharanhmcts",
           "url": "https://github.com/hmcts/em-media-viewer/pull/1265",
           "changesRequested": false,
-          "approvals": 0,
+          "approvals": 1,
           "buildSuccess": false,
           "headSha": "3356941a24fca4afdf26fdc67f95402fb4acdb07",
-          "createdAt": "2026-01-27T17:49:56.122Z",
-          "lastUpdated": "2026-01-29T16:36:11.360Z"
+          "createdAt": "2026-01-29T16:36:59.273Z",
+          "lastUpdated": "2026-01-29T16:36:59.443Z"
         }
       }
     },
