@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1769690862.968829",
-    "lastUpdated": "2026-01-29T13:43:07.222Z",
+    "lastUpdated": "2026-01-29T13:50:31.025Z",
     "approvalListMessageHash": "5467f2512091bcf6a9dd854b5eee9df1ef33045fb1aa2dece0907ffc4c9f4e4b"
   },
   "repositories": {
@@ -530,6 +530,18 @@
           "headSha": "cad0d475d87dd5a142c39a6be764dd12483ce252",
           "createdAt": "2026-01-27T14:49:55.132Z",
           "lastUpdated": "2026-01-27T14:49:55.347Z"
+        },
+        "2087": {
+          "number": 2087,
+          "title": "Exui 4061 navigation issue",
+          "author": "RiteshHMCTS",
+          "url": "https://github.com/hmcts/ccd-case-ui-toolkit/pull/2087",
+          "changesRequested": false,
+          "approvals": 1,
+          "buildSuccess": true,
+          "headSha": "6956bff0360a2dcd934f3a707a7baeafb39080d6",
+          "createdAt": "2026-01-29T13:50:30.953Z",
+          "lastUpdated": "2026-01-29T13:50:31.025Z"
         },
         "2089": {
           "number": 2089,
