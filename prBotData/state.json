@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1769764767.606219",
-    "lastUpdated": "2026-01-30T09:19:17.106Z",
+    "lastUpdated": "2026-01-30T09:54:15.973Z",
     "approvalListMessageHash": "54629dfa0af22dd987a1396cdb734ceb4f5d07155fc391fb16eefe3f2e0aaabe"
   },
   "repositories": {
@@ -210,18 +210,6 @@
           "headSha": "fc2a801eb257968cca477e682fc09c594192855b",
           "createdAt": "2026-01-28T10:26:52.577Z",
           "lastUpdated": "2026-01-28T10:26:52.767Z"
-        },
-        "4888": {
-          "number": 4888,
-          "title": "enable probate on wa in test",
-          "author": "anthonydummer",
-          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/4888",
-          "changesRequested": false,
-          "approvals": 1,
-          "buildSuccess": true,
-          "headSha": "4d0a6b047ee9f4844e7942724a9705a4e165707e",
-          "createdAt": "2026-01-27T14:51:26.288Z",
-          "lastUpdated": "2026-01-27T14:51:26.418Z"
         },
         "4891": {
           "number": 4891,
