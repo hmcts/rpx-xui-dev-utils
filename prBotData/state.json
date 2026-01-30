@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1769784372.665389",
-    "lastUpdated": "2026-01-30T14:46:01.315Z",
+    "lastUpdated": "2026-01-30T14:46:54.459Z",
     "approvalListMessageHash": "6951cd395233d9864826c0dbbb8654b927e2b53621cc56393ee8ef30539004ed"
   },
   "repositories": {
@@ -358,6 +358,18 @@
           "headSha": "284cc904b2ffb71635ecd0b175635e246c37386c",
           "createdAt": "2026-01-29T15:53:47.458Z",
           "lastUpdated": "2026-01-29T15:53:47.529Z"
+        },
+        "1475": {
+          "number": 1475,
+          "title": "EXUI-4086 - remove dependency-check.yml",
+          "author": "chrisjones-hmcts",
+          "url": "https://github.com/hmcts/rpx-xui-manage-organisations/pull/1475",
+          "changesRequested": false,
+          "approvals": 0,
+          "buildSuccess": true,
+          "headSha": "f472cb3f108710e5d71a19ba9bf459923377e6bb",
+          "createdAt": "2026-01-30T14:46:54.305Z",
+          "lastUpdated": "2026-01-30T14:46:54.459Z"
         }
       }
     },
