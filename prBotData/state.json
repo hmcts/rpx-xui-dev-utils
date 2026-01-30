@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1769784426.078999",
-    "lastUpdated": "2026-01-30T14:46:54.459Z",
+    "lastUpdated": "2026-01-30T14:47:49.141Z",
     "approvalListMessageHash": "cae5975949dc89863f21aaad3325368b31518a00d48670351e94c416890040d4"
   },
   "repositories": {
@@ -270,6 +270,18 @@
           "headSha": "4ea6782134beb59b0472e5424a3c8dadc7e3f82f",
           "createdAt": "2026-01-29T17:51:01.715Z",
           "lastUpdated": "2026-01-29T17:51:01.797Z"
+        },
+        "4906": {
+          "number": 4906,
+          "title": "EXUI-4086 - remove dependency-check.yml",
+          "author": "chrisjones-hmcts",
+          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/4906",
+          "changesRequested": false,
+          "approvals": 0,
+          "buildSuccess": true,
+          "headSha": "7df8616a6fc6619b20945cb4a542fc092a77cc66",
+          "createdAt": "2026-01-30T14:47:48.993Z",
+          "lastUpdated": "2026-01-30T14:47:49.141Z"
         }
       }
     },
