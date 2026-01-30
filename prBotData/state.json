@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1769792218.890289",
-    "lastUpdated": "2026-01-30T16:56:49.221Z",
+    "lastUpdated": "2026-01-30T17:52:05.121Z",
     "approvalListMessageHash": "be481912b850d9a7c334f4cd94afe1afdec9d70bfeaf8948713707e2f6f9b16c"
   },
   "repositories": {
@@ -550,18 +550,6 @@
           "headSha": "4488010b81425aedb931d72563963fbc525798f9",
           "createdAt": "2026-01-22T03:49:13.417Z",
           "lastUpdated": "2026-01-22T03:49:13.503Z"
-        },
-        "1265": {
-          "number": 1265,
-          "title": "exui 4074 cve fixes",
-          "author": "balajisridharanhmcts",
-          "url": "https://github.com/hmcts/em-media-viewer/pull/1265",
-          "changesRequested": false,
-          "approvals": 1,
-          "buildSuccess": true,
-          "headSha": "3356941a24fca4afdf26fdc67f95402fb4acdb07",
-          "createdAt": "2026-01-29T16:36:59.273Z",
-          "lastUpdated": "2026-01-29T17:32:20.576Z"
         }
       }
     },
