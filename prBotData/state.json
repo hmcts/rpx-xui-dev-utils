@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1769768561.222149",
-    "lastUpdated": "2026-01-30T10:22:31.599Z",
+    "lastUpdated": "2026-01-30T10:28:49.911Z",
     "approvalListMessageHash": "7614f51c626a4ea78b5c3dd5d4a8e46889bdfefb0b0430a1e59fd2193238db38"
   },
   "repositories": {
@@ -258,18 +258,6 @@
           "headSha": "6752a3135c5d8459f23cbdbe7da62e67678d78b0",
           "createdAt": "2026-01-29T10:06:34.717Z",
           "lastUpdated": "2026-01-29T19:14:18.574Z"
-        },
-        "4903": {
-          "number": 4903,
-          "title": "Zod is used for testing, move to devDependencies",
-          "author": "danH-test",
-          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/4903",
-          "changesRequested": false,
-          "approvals": 1,
-          "buildSuccess": true,
-          "headSha": "cc4c8e5aa32d6cf39cdf86695c881bce36c9aa6c",
-          "createdAt": "2026-01-29T16:41:43.996Z",
-          "lastUpdated": "2026-01-30T10:22:31.599Z"
         },
         "4905": {
           "number": 4905,
