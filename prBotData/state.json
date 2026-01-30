@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1769788663.682859",
-    "lastUpdated": "2026-01-30T15:59:17.188Z",
+    "lastUpdated": "2026-01-30T16:05:38.859Z",
     "approvalListMessageHash": "70c07eae1e91d78d82aefd55bef674ee8115e3facc6dbc9c8d0267f5a63b59ec"
   },
   "repositories": {
@@ -578,18 +578,6 @@
           "headSha": "cad0d475d87dd5a142c39a6be764dd12483ce252",
           "createdAt": "2026-01-27T14:49:55.132Z",
           "lastUpdated": "2026-01-27T14:49:55.347Z"
-        },
-        "2091": {
-          "number": 2091,
-          "title": "revert exui-3851",
-          "author": "RiteshHMCTS",
-          "url": "https://github.com/hmcts/ccd-case-ui-toolkit/pull/2091",
-          "changesRequested": false,
-          "approvals": 1,
-          "buildSuccess": true,
-          "headSha": "0bb977c16f89d55116fbcc570ee6de39adf97778",
-          "createdAt": "2026-01-30T15:59:16.994Z",
-          "lastUpdated": "2026-01-30T15:59:17.188Z"
         }
       }
     }
