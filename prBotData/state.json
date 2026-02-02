@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1770025138.475499",
-    "lastUpdated": "2026-02-02T10:43:32.149Z",
+    "lastUpdated": "2026-02-02T11:04:10.563Z",
     "approvalListMessageHash": "89e6f36a650648ec0c4e0b2d4e8a30d15b99c8a03ee38936d5e5056884436f63"
   },
   "repositories": {
@@ -482,6 +482,18 @@
           "headSha": "21c2aa2e546f51317c0f59ce4b51dbf1a2f10df5",
           "createdAt": "2026-02-02T09:20:03.159Z",
           "lastUpdated": "2026-02-02T09:20:03.262Z"
+        },
+        "994": {
+          "number": 994,
+          "title": "CVE-2022-33987: CVE-2022-33987 remediation plan draft for rpx-xui-approve-org",
+          "author": "danlysiak",
+          "url": "https://github.com/hmcts/rpx-xui-approve-org/pull/994",
+          "changesRequested": false,
+          "approvals": 0,
+          "buildSuccess": false,
+          "headSha": "1920a07c3ab9548bab638d9ad754f41d79d6cb34",
+          "createdAt": "2026-02-02T11:04:10.390Z",
+          "lastUpdated": "2026-02-02T11:04:10.563Z"
         }
       }
     },
