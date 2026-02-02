@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1770025138.475499",
-    "lastUpdated": "2026-02-02T10:25:34.098Z",
+    "lastUpdated": "2026-02-02T10:43:32.149Z",
     "approvalListMessageHash": "89e6f36a650648ec0c4e0b2d4e8a30d15b99c8a03ee38936d5e5056884436f63"
   },
   "repositories": {
@@ -210,18 +210,6 @@
           "headSha": "ae668d5d463fbe9cb5dadd64fc0f2ed5f1b65c70",
           "createdAt": "2026-01-29T09:06:42.861Z",
           "lastUpdated": "2026-01-29T09:06:42.942Z"
-        },
-        "4896": {
-          "number": 4896,
-          "title": "EXUI-3633 e2e tests for: My work -> Tasks",
-          "author": "danH-test",
-          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/4896",
-          "changesRequested": false,
-          "approvals": 1,
-          "buildSuccess": false,
-          "headSha": "76759e34bd6465c2d5b7cf933f6293519a482fcf",
-          "createdAt": "2026-02-02T10:25:33.920Z",
-          "lastUpdated": "2026-02-02T10:25:34.098Z"
         },
         "4899": {
           "number": 4899,
