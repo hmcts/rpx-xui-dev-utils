@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1770031476.350279",
-    "lastUpdated": "2026-02-02T11:24:26.125Z",
+    "lastUpdated": "2026-02-02T11:38:50.222Z",
     "approvalListMessageHash": "0741afcf646e30f4e2f0e022c332bf3f5cce71d6a5e40380bdc081efccb84c90"
   },
   "repositories": {
@@ -249,15 +249,15 @@
         },
         "4905": {
           "number": 4905,
-          "title": "Add suggested fix for case details discrepancy in hearings",
+          "title": "EXUI-4080 - Add suggested fix for case details discrepancy in hearings",
           "author": "connorpgpmcelroy",
           "url": "https://github.com/hmcts/rpx-xui-webapp/pull/4905",
           "changesRequested": false,
-          "approvals": 0,
+          "approvals": 1,
           "buildSuccess": false,
-          "headSha": "4ea6782134beb59b0472e5424a3c8dadc7e3f82f",
-          "createdAt": "2026-01-29T17:51:01.715Z",
-          "lastUpdated": "2026-01-29T17:51:01.797Z"
+          "headSha": "c78f2b293bc74793c6b08bdae2e488b1824d1287",
+          "createdAt": "2026-02-02T11:38:50.060Z",
+          "lastUpdated": "2026-02-02T11:38:50.222Z"
         },
         "4906": {
           "number": 4906,
