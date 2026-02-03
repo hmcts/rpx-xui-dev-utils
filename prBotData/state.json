@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1770131236.461859",
-    "lastUpdated": "2026-02-03T16:10:03.184Z",
+    "lastUpdated": "2026-02-03T16:21:59.820Z",
     "approvalListMessageHash": "bfa2f25179de939eee21366442eefe30e20a6d81daa86d0902ed9e2e41b8aca6"
   },
   "repositories": {
@@ -222,18 +222,6 @@
           "headSha": "68b4959ab1bbe4850e1cc09d85da8ac898647e8c",
           "createdAt": "2026-02-02T09:52:09.685Z",
           "lastUpdated": "2026-02-03T12:23:14.106Z"
-        },
-        "4900": {
-          "number": 4900,
-          "title": "CME-773: reenable demo sync",
-          "author": "AntonyLeons",
-          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/4900",
-          "changesRequested": false,
-          "approvals": 1,
-          "buildSuccess": true,
-          "headSha": "9e434e608b368fe179d3cfc6199e31f895a0ed80",
-          "createdAt": "2026-01-30T09:19:16.890Z",
-          "lastUpdated": "2026-01-30T09:19:17.106Z"
         },
         "4902": {
           "number": 4902,
