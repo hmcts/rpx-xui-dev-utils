@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1770130624.822889",
-    "lastUpdated": "2026-02-03T14:56:54.957Z",
+    "lastUpdated": "2026-02-03T15:03:17.517Z",
     "approvalListMessageHash": "b5fa0554557e0a45095e9c737a6573490a414f63e60feeebe688ea7ca79357b4"
   },
   "repositories": {
@@ -542,6 +542,18 @@
           "headSha": "1920a07c3ab9548bab638d9ad754f41d79d6cb34",
           "createdAt": "2026-02-02T11:04:10.390Z",
           "lastUpdated": "2026-02-02T11:04:10.563Z"
+        },
+        "995": {
+          "number": 995,
+          "title": "EXUI-3950  - removing the dependency on @hmcts/frontend - AO",
+          "author": "chrisjones-hmcts",
+          "url": "https://github.com/hmcts/rpx-xui-approve-org/pull/995",
+          "changesRequested": false,
+          "approvals": 0,
+          "buildSuccess": true,
+          "headSha": "02c38681563ce9fab76bb6ac0d4e65fb278196e3",
+          "createdAt": "2026-02-03T15:03:17.433Z",
+          "lastUpdated": "2026-02-03T15:03:17.517Z"
         }
       }
     },
