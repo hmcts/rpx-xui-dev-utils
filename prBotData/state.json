@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1770137214.676489",
-    "lastUpdated": "2026-02-03T16:46:42.642Z",
+    "lastUpdated": "2026-02-03T16:48:14.220Z",
     "approvalListMessageHash": "3fe8c5d43e490e2fb06cfacca51cde779236c120b022b24dbb2fbc939c341247"
   },
   "repositories": {
@@ -270,18 +270,6 @@
           "headSha": "82dcb9df6392c6493b1a00218c820a6f18cae03a",
           "createdAt": "2026-02-03T11:49:19.291Z",
           "lastUpdated": "2026-02-03T11:49:19.377Z"
-        },
-        "4911": {
-          "number": 4911,
-          "title": "cot-1092-non-cr84-fix",
-          "author": "anthonydummer",
-          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/4911",
-          "changesRequested": false,
-          "approvals": 1,
-          "buildSuccess": true,
-          "headSha": "7650f00797d62896dba22cbde82c033cd6b11e52",
-          "createdAt": "2026-02-03T16:43:14.491Z",
-          "lastUpdated": "2026-02-03T16:43:14.689Z"
         }
       }
     },
