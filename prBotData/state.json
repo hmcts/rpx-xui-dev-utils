@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1770053350.805549",
-    "lastUpdated": "2026-02-03T09:45:26.075Z",
+    "lastUpdated": "2026-02-03T09:45:29.244Z",
     "approvalListMessageHash": "0ecb6fecfdcfd07b7444478052bc454d529de7f8c6e1216ae244eb9c4ed80f27"
   },
   "repositories": {
@@ -198,6 +198,18 @@
           "headSha": "80f055b85e7a1594c53ee2a159107a4a0b5c9af2",
           "createdAt": "2026-01-22T15:37:35.028Z",
           "lastUpdated": "2026-01-22T15:37:35.116Z"
+        },
+        "4887": {
+          "number": 4887,
+          "title": "Chore/commit linting",
+          "author": "gregs-cgi",
+          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/4887",
+          "changesRequested": false,
+          "approvals": 1,
+          "buildSuccess": true,
+          "headSha": "9421344ee2829b37634f1102ebdc53d63ce98708",
+          "createdAt": "2026-02-03T09:45:29.053Z",
+          "lastUpdated": "2026-02-03T09:45:29.244Z"
         },
         "4891": {
           "number": 4891,
