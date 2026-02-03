@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1770131009.701339",
-    "lastUpdated": "2026-02-03T15:03:17.517Z",
+    "lastUpdated": "2026-02-03T15:07:03.704Z",
     "approvalListMessageHash": "210675b0eca91c528ee065eded61472d2dea4a16d0f6df0050ec5b695979a6af"
   },
   "repositories": {
@@ -282,18 +282,6 @@
           "headSha": "82dcb9df6392c6493b1a00218c820a6f18cae03a",
           "createdAt": "2026-02-03T11:49:19.291Z",
           "lastUpdated": "2026-02-03T11:49:19.377Z"
-        },
-        "4910": {
-          "number": 4910,
-          "title": "Cot 1043 integration fix",
-          "author": "anthonydummer",
-          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/4910",
-          "changesRequested": false,
-          "approvals": 1,
-          "buildSuccess": true,
-          "headSha": "1203d57a995b0891bd2b56a38f9ed72190f7d399",
-          "createdAt": "2026-02-03T14:56:54.879Z",
-          "lastUpdated": "2026-02-03T14:56:54.957Z"
         }
       }
     },
