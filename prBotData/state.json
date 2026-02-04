@@ -163,18 +163,6 @@
           "createdAt": "2026-01-21T13:01:12.852Z",
           "lastUpdated": "2026-01-22T10:43:46.867Z"
         },
-        "4883": {
-          "number": 4883,
-          "title": "exui-3927",
-          "author": "RiteshHMCTS",
-          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/4883",
-          "changesRequested": false,
-          "approvals": 0,
-          "buildSuccess": true,
-          "headSha": "5f892f283119799a5e0060895f4e48cd29b8d1c5",
-          "createdAt": "2026-01-21T13:07:46.244Z",
-          "lastUpdated": "2026-01-30T08:28:08.764Z"
-        },
         "4885": {
           "number": 4885,
           "title": "exui-4061-navigation issue for no case found",
