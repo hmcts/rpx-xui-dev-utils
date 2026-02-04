@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1770232302.353049",
-    "lastUpdated": "2026-02-04T19:11:31.917Z",
+    "lastUpdated": "2026-02-04T20:11:57.904Z",
     "approvalListMessageHash": "bad43cef8a1bc390804dbbaeddd7503627281804871e542f61819fb2abbc80c2"
   },
   "repositories": {
@@ -461,15 +461,15 @@
         },
         "988": {
           "number": 988,
-          "title": "Passport release",
+          "title": "Passport release AO",
           "author": "Josh-HMCTS",
           "url": "https://github.com/hmcts/rpx-xui-approve-org/pull/988",
           "changesRequested": false,
-          "approvals": 0,
+          "approvals": 1,
           "buildSuccess": true,
           "headSha": "5dedaf7113e3141eea6d93b4b8f91326c1109078",
-          "createdAt": "2026-01-23T15:24:09.476Z",
-          "lastUpdated": "2026-02-04T19:02:41.468Z"
+          "createdAt": "2026-02-04T20:11:57.808Z",
+          "lastUpdated": "2026-02-04T20:11:57.904Z"
         },
         "990": {
           "number": 990,
