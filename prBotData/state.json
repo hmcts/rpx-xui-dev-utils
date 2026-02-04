@@ -591,18 +591,6 @@
     },
     "hmcts/ccd-case-ui-toolkit": {
       "pullRequests": {
-        "2082": {
-          "number": 2082,
-          "title": "exui-3927",
-          "author": "RiteshHMCTS",
-          "url": "https://github.com/hmcts/ccd-case-ui-toolkit/pull/2082",
-          "changesRequested": false,
-          "approvals": 1,
-          "buildSuccess": true,
-          "headSha": "cad0d475d87dd5a142c39a6be764dd12483ce252",
-          "createdAt": "2026-01-27T14:49:55.132Z",
-          "lastUpdated": "2026-01-27T14:49:55.347Z"
-        },
         "2092": {
           "number": 2092,
           "title": "EXUI-3851 - Update marked",
