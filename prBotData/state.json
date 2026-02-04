@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1770197641.858419",
-    "lastUpdated": "2026-02-04T10:28:51.210Z",
+    "lastUpdated": "2026-02-04T11:57:57.023Z",
     "approvalListMessageHash": "7fb113175eb3a9b504396c1e98fc1b76093c466956405c28d5e6f450618d21f8"
   },
   "repositories": {
@@ -570,6 +570,18 @@
           "headSha": "89af112aa570b796545c5e0758bfc83c6715766c",
           "createdAt": "2026-02-04T09:33:50.950Z",
           "lastUpdated": "2026-02-04T09:33:51.053Z"
+        },
+        "766": {
+          "number": 766,
+          "title": "vulnerability fix for CVE-2026-24842, CVE-2025-13465",
+          "author": "olusegz07",
+          "url": "https://github.com/hmcts/em-showcase/pull/766",
+          "changesRequested": false,
+          "approvals": 0,
+          "buildSuccess": false,
+          "headSha": "a453264a562816d7e6976cc73e2a4cdda3effca4",
+          "createdAt": "2026-02-04T11:57:56.929Z",
+          "lastUpdated": "2026-02-04T11:57:57.023Z"
         }
       }
     },
