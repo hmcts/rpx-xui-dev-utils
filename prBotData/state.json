@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1770197292.595339",
-    "lastUpdated": "2026-02-04T09:28:02.994Z",
+    "lastUpdated": "2026-02-04T09:33:51.053Z",
     "approvalListMessageHash": "4637eb4049b1479e27c45f687fe9a0665fe73588d4e14833df0a213b2fb30b94"
   },
   "repositories": {
@@ -552,12 +552,12 @@
           "title": "cve fix 3975",
           "author": "balajisridharanhmcts",
           "url": "https://github.com/hmcts/em-showcase/pull/765",
-          "changesRequested": false,
+          "changesRequested": true,
           "approvals": 0,
           "buildSuccess": true,
           "headSha": "89af112aa570b796545c5e0758bfc83c6715766c",
-          "createdAt": "2026-02-03T16:10:02.982Z",
-          "lastUpdated": "2026-02-03T16:46:42.642Z"
+          "createdAt": "2026-02-04T09:33:50.950Z",
+          "lastUpdated": "2026-02-04T09:33:51.053Z"
         }
       }
     },
