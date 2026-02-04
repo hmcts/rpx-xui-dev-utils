@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1770139139.013099",
-    "lastUpdated": "2026-02-03T17:18:47.341Z",
+    "lastUpdated": "2026-02-04T09:19:07.551Z",
     "approvalListMessageHash": "72e2ebd0c36227c5ca841248d95fd70e09538a959044ca0b333a62f6571b25d7"
   },
   "repositories": {
@@ -313,15 +313,15 @@
         },
         "1469": {
           "number": 1469,
-          "title": "ExUI-3056 - passport upgrade setting",
+          "title": "Passport release MO",
           "author": "Josh-HMCTS",
           "url": "https://github.com/hmcts/rpx-xui-manage-organisations/pull/1469",
           "changesRequested": false,
           "approvals": 1,
           "buildSuccess": true,
           "headSha": "f83d9214c2da0a2c9d306ce0dcfb3f16cf617101",
-          "createdAt": "2026-01-27T14:51:43.630Z",
-          "lastUpdated": "2026-02-03T09:45:26.075Z"
+          "createdAt": "2026-02-04T09:19:07.204Z",
+          "lastUpdated": "2026-02-04T09:19:07.551Z"
         },
         "1470": {
           "number": 1470,
