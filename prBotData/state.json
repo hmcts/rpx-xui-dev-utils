@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1770221328.374799",
-    "lastUpdated": "2026-02-04T16:08:37.942Z",
+    "lastUpdated": "2026-02-04T16:10:48.158Z",
     "approvalListMessageHash": "9dc455d6513d80e2cf3c5a54126c5be61a9aa8e204c69836a030cfbeb3e4798b"
   },
   "repositories": {
@@ -270,18 +270,6 @@
           "headSha": "432d3779a89324428d1093b0ae8eb02c57e31dba",
           "createdAt": "2026-02-03T16:53:40.770Z",
           "lastUpdated": "2026-02-03T16:53:40.975Z"
-        },
-        "4916": {
-          "number": 4916,
-          "title": "exui-lint-merge",
-          "author": "anthonydummer",
-          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/4916",
-          "changesRequested": false,
-          "approvals": 1,
-          "buildSuccess": true,
-          "headSha": "529176f165a6afe3dcf4494fe504901cd6a9f4ff",
-          "createdAt": "2026-02-04T16:08:37.706Z",
-          "lastUpdated": "2026-02-04T16:08:37.942Z"
         }
       }
     },
