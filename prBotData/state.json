@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1770236939.325279",
-    "lastUpdated": "2026-02-04T22:18:33.979Z",
+    "lastUpdated": "2026-02-05T09:57:21.118Z",
     "approvalListMessageHash": "48d984a1e35182d0468544cc0678189aacc3e619b03d7023f1bd38aab62f632a"
   },
   "repositories": {
@@ -270,18 +270,6 @@
           "headSha": "194455a4451468d1eaa23f392d7ceea32c5304b6",
           "createdAt": "2026-02-04T16:22:47.155Z",
           "lastUpdated": "2026-02-04T16:22:47.313Z"
-        },
-        "4919": {
-          "number": 4919,
-          "title": "cot-1043_prl_removal",
-          "author": "anthonydummer",
-          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/4919",
-          "changesRequested": false,
-          "approvals": 0,
-          "buildSuccess": true,
-          "headSha": "74d6d5dfc2daa6d6827b8aeb78fde03f8e6e0549",
-          "createdAt": "2026-02-04T17:04:53.691Z",
-          "lastUpdated": "2026-02-04T17:06:46.259Z"
         },
         "4920": {
           "number": 4920,
