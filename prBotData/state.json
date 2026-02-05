@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1770303319.608299",
-    "lastUpdated": "2026-02-05T14:55:08.936Z",
+    "lastUpdated": "2026-02-05T16:14:22.619Z",
     "approvalListMessageHash": "ef43310ce697fdfa232f2dd37b1fd8a8399d1c36f12d860bbde645ce16056921"
   },
   "repositories": {
@@ -577,11 +577,11 @@
           "author": "olusegz07",
           "url": "https://github.com/hmcts/em-showcase/pull/766",
           "changesRequested": false,
-          "approvals": 0,
+          "approvals": 1,
           "buildSuccess": true,
           "headSha": "e8c3cd47f7547ffa577017e5725efe799a987be6",
-          "createdAt": "2026-02-04T11:57:56.929Z",
-          "lastUpdated": "2026-02-04T13:38:08.165Z"
+          "createdAt": "2026-02-05T16:14:22.487Z",
+          "lastUpdated": "2026-02-05T16:14:22.619Z"
         }
       }
     },
