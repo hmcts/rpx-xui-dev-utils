@@ -199,18 +199,6 @@
           "createdAt": "2026-01-29T09:06:42.861Z",
           "lastUpdated": "2026-01-29T09:06:42.942Z"
         },
-        "4902": {
-          "number": 4902,
-          "title": "Exui 3747",
-          "author": "RiteshHMCTS",
-          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/4902",
-          "changesRequested": false,
-          "approvals": 0,
-          "buildSuccess": true,
-          "headSha": "6752a3135c5d8459f23cbdbe7da62e67678d78b0",
-          "createdAt": "2026-01-29T10:06:34.717Z",
-          "lastUpdated": "2026-01-29T19:14:18.574Z"
-        },
         "4905": {
           "number": 4905,
           "title": "EXUI-4080 - Add suggested fix for case details discrepancy in hearings",
