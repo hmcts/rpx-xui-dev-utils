@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1770285451.242909",
-    "lastUpdated": "2026-02-05T09:57:21.118Z",
+    "lastUpdated": "2026-02-05T10:43:13.611Z",
     "approvalListMessageHash": "754d01133ea063b79f2d4d69a09713984c93f32aaeaf7fbd07ac94625c9b69e4"
   },
   "repositories": {
@@ -282,6 +282,18 @@
           "headSha": "89d90b0cd28c54910bc8937bf80ec64a190406a6",
           "createdAt": "2026-02-04T21:10:09.674Z",
           "lastUpdated": "2026-02-04T21:10:09.794Z"
+        },
+        "4922": {
+          "number": 4922,
+          "title": "Revert passport",
+          "author": "Josh-HMCTS",
+          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/4922",
+          "changesRequested": false,
+          "approvals": 0,
+          "buildSuccess": false,
+          "headSha": "46746c23ff0e9c97d8ff27bffcfd70aa29758caa",
+          "createdAt": "2026-02-05T10:43:13.521Z",
+          "lastUpdated": "2026-02-05T10:43:13.611Z"
         }
       }
     },
