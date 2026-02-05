@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1770296312.769909",
-    "lastUpdated": "2026-02-05T13:04:43.499Z",
+    "lastUpdated": "2026-02-05T13:04:50.894Z",
     "approvalListMessageHash": "4362d7fa7e47632b6641ed3dd4a11d979d84e9543f6eafb16b590dacb58078a0"
   },
   "repositories": {
@@ -394,18 +394,6 @@
           "headSha": "b33923f8fb715bc03cae35897ebe15fcc1acfc18",
           "createdAt": "2026-02-03T16:04:17.843Z",
           "lastUpdated": "2026-02-03T16:04:17.942Z"
-        },
-        "1481": {
-          "number": 1481,
-          "title": "Revert \"Passport release MO (#1469)\"",
-          "author": "Josh-HMCTS",
-          "url": "https://github.com/hmcts/rpx-xui-manage-organisations/pull/1481",
-          "changesRequested": false,
-          "approvals": 1,
-          "buildSuccess": true,
-          "headSha": "8d452d8351f48cfa1a4bbee5ebce9428f6ba3699",
-          "createdAt": "2026-02-05T11:57:20.837Z",
-          "lastUpdated": "2026-02-05T11:57:21.048Z"
         }
       }
     },
