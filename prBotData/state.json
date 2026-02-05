@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1770309920.396059",
-    "lastUpdated": "2026-02-05T17:28:51.715Z",
+    "lastUpdated": "2026-02-05T18:47:47.077Z",
     "approvalListMessageHash": "3999af016e7fbbfca4c8576505b02cfc981fc7280d4ba3657a8cfc2d22d95c4a"
   },
   "repositories": {
@@ -638,6 +638,18 @@
           "headSha": "163f7c7d52de0ee68ccee986187d2b2d9b2cf159",
           "createdAt": "2026-02-03T13:37:46.577Z",
           "lastUpdated": "2026-02-03T13:37:46.676Z"
+        },
+        "2095": {
+          "number": 2095,
+          "title": "exui 4079 fix wip",
+          "author": "balajisridharanhmcts",
+          "url": "https://github.com/hmcts/ccd-case-ui-toolkit/pull/2095",
+          "changesRequested": false,
+          "approvals": 0,
+          "buildSuccess": true,
+          "headSha": "1d40396ec132afaa7e070f39d93e6cbcbae795f6",
+          "createdAt": "2026-02-05T18:47:47.011Z",
+          "lastUpdated": "2026-02-05T18:47:47.077Z"
         }
       }
     }
