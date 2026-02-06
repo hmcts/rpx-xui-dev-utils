@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1770327468.068469",
-    "lastUpdated": "2026-02-06T00:29:39.747Z",
+    "lastUpdated": "2026-02-06T00:29:48.849Z",
     "approvalListMessageHash": "47e2dfe5af7a770b71243f106be7416b441465d8871ea1f652931fcfc7edc8d4"
   },
   "repositories": {
@@ -370,18 +370,6 @@
           "headSha": "752ef72c9fbb94780742472704ab0b329a3961f3",
           "createdAt": "2026-02-02T12:01:53.428Z",
           "lastUpdated": "2026-02-02T12:01:53.517Z"
-        },
-        "1478": {
-          "number": 1478,
-          "title": "CVE-2022-25896: CVE-2022-25896 remediation plan for rpx-xui-manage-organisations",
-          "author": "danlysiak",
-          "url": "https://github.com/hmcts/rpx-xui-manage-organisations/pull/1478",
-          "changesRequested": false,
-          "approvals": 0,
-          "buildSuccess": false,
-          "headSha": "b33923f8fb715bc03cae35897ebe15fcc1acfc18",
-          "createdAt": "2026-02-03T16:04:17.843Z",
-          "lastUpdated": "2026-02-03T16:04:17.942Z"
         }
       }
     },
