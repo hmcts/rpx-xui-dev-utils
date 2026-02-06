@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1770388461.502899",
-    "lastUpdated": "2026-02-06T14:34:11.713Z",
+    "lastUpdated": "2026-02-06T14:38:18.685Z",
     "approvalListMessageHash": "e3a3c78960d4fe5415c264e718f6f1fdec3bf02239ece9930db87d41b5211db4"
   },
   "repositories": {
@@ -222,18 +222,6 @@
           "headSha": "1f3127787c490cca83fb95a2332488c9ced7f02d",
           "createdAt": "2026-02-06T11:23:21.446Z",
           "lastUpdated": "2026-02-06T14:27:55.282Z"
-        },
-        "4917": {
-          "number": 4917,
-          "title": "Exui-4069-race condition causing blank page",
-          "author": "RiteshHMCTS",
-          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/4917",
-          "changesRequested": false,
-          "approvals": 1,
-          "buildSuccess": true,
-          "headSha": "be3637fd0b1865083b2f5cb4ccd57377ca116ace",
-          "createdAt": "2026-02-06T12:00:50.936Z",
-          "lastUpdated": "2026-02-06T12:00:51.108Z"
         },
         "4918": {
           "number": 4918,
