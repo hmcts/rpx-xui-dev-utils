@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1770327468.068469",
-    "lastUpdated": "2026-02-05T21:37:37.416Z",
+    "lastUpdated": "2026-02-06T00:29:39.747Z",
     "approvalListMessageHash": "47e2dfe5af7a770b71243f106be7416b441465d8871ea1f652931fcfc7edc8d4"
   },
   "repositories": {
@@ -270,18 +270,6 @@
           "headSha": "89d90b0cd28c54910bc8937bf80ec64a190406a6",
           "createdAt": "2026-02-04T21:10:09.674Z",
           "lastUpdated": "2026-02-04T21:10:09.794Z"
-        },
-        "4923": {
-          "number": 4923,
-          "title": "CVE-2022-25896: CVE-2022-25896 remediation plan for rpx-xui-webapp",
-          "author": "danlysiak",
-          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/4923",
-          "changesRequested": false,
-          "approvals": 0,
-          "buildSuccess": false,
-          "headSha": "bd293d0931da900ddda51f4fbb7917f3d7d8c6af",
-          "createdAt": "2026-02-05T11:49:15.324Z",
-          "lastUpdated": "2026-02-05T11:49:15.447Z"
         },
         "4924": {
           "number": 4924,
