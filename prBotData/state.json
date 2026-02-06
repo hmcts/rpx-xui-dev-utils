@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1770369009.092829",
-    "lastUpdated": "2026-02-06T09:09:57.349Z",
+    "lastUpdated": "2026-02-06T09:49:42.338Z",
     "approvalListMessageHash": "47e2dfe5af7a770b71243f106be7416b441465d8871ea1f652931fcfc7edc8d4"
   },
   "repositories": {
@@ -540,12 +540,12 @@
           "title": "vulnerability fix for CVE-2026-24842, CVE-2025-13465",
           "author": "olusegz07",
           "url": "https://github.com/hmcts/em-showcase/pull/766",
-          "changesRequested": false,
+          "changesRequested": true,
           "approvals": 1,
           "buildSuccess": true,
           "headSha": "e8c3cd47f7547ffa577017e5725efe799a987be6",
-          "createdAt": "2026-02-05T16:14:22.487Z",
-          "lastUpdated": "2026-02-05T16:14:22.619Z"
+          "createdAt": "2026-02-06T09:49:42.178Z",
+          "lastUpdated": "2026-02-06T09:49:42.338Z"
         }
       }
     },
