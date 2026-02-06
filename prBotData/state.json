@@ -199,18 +199,6 @@
           "createdAt": "2026-01-29T09:06:42.861Z",
           "lastUpdated": "2026-01-29T09:06:42.942Z"
         },
-        "4906": {
-          "number": 4906,
-          "title": "EXUI-4086 - remove dependency-check.yml",
-          "author": "chrisjones-hmcts",
-          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/4906",
-          "changesRequested": false,
-          "approvals": 1,
-          "buildSuccess": true,
-          "headSha": "7df8616a6fc6619b20945cb4a542fc092a77cc66",
-          "createdAt": "2026-02-02T09:19:48.429Z",
-          "lastUpdated": "2026-02-02T09:19:48.655Z"
-        },
         "4909": {
           "number": 4909,
           "title": "Test/ex UI 4104 task details integration tests",
