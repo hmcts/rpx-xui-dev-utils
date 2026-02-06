@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1770327468.068469",
-    "lastUpdated": "2026-02-06T00:29:48.849Z",
+    "lastUpdated": "2026-02-06T00:30:35.600Z",
     "approvalListMessageHash": "47e2dfe5af7a770b71243f106be7416b441465d8871ea1f652931fcfc7edc8d4"
   },
   "repositories": {
@@ -358,18 +358,6 @@
           "headSha": "f472cb3f108710e5d71a19ba9bf459923377e6bb",
           "createdAt": "2026-02-02T09:19:37.291Z",
           "lastUpdated": "2026-02-02T09:19:37.432Z"
-        },
-        "1476": {
-          "number": 1476,
-          "title": "CVE-2024-47764: CVE-2024-47764 remediation plan for rpx-xui-manage-organisations",
-          "author": "danlysiak",
-          "url": "https://github.com/hmcts/rpx-xui-manage-organisations/pull/1476",
-          "changesRequested": false,
-          "approvals": 0,
-          "buildSuccess": false,
-          "headSha": "752ef72c9fbb94780742472704ab0b329a3961f3",
-          "createdAt": "2026-02-02T12:01:53.428Z",
-          "lastUpdated": "2026-02-02T12:01:53.517Z"
         }
       }
     },
