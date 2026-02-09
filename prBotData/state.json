@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1770630272.676969",
-    "lastUpdated": "2026-02-09T09:44:22.684Z",
+    "lastUpdated": "2026-02-09T10:16:15.112Z",
     "approvalListMessageHash": "87c0ef4b2a619041c105cc86643105ea222303d14a8c520bf648b07f21448541"
   },
   "repositories": {
@@ -334,6 +334,18 @@
           "headSha": "284cc904b2ffb71635ecd0b175635e246c37386c",
           "createdAt": "2026-01-29T15:53:47.458Z",
           "lastUpdated": "2026-01-29T15:53:47.529Z"
+        },
+        "1482": {
+          "number": 1482,
+          "title": "CME-835: Reduce logging and sample health endpoints at 1%",
+          "author": "chrisworthcgi",
+          "url": "https://github.com/hmcts/rpx-xui-manage-organisations/pull/1482",
+          "changesRequested": false,
+          "approvals": 0,
+          "buildSuccess": false,
+          "headSha": "551f374a291078908cd7a32ba862a1692b970bff",
+          "createdAt": "2026-02-09T10:16:14.957Z",
+          "lastUpdated": "2026-02-09T10:16:15.112Z"
         }
       }
     },
