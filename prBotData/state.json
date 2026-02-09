@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1770646764.622169",
-    "lastUpdated": "2026-02-09T14:19:13.109Z",
+    "lastUpdated": "2026-02-09T15:06:35.654Z",
     "approvalListMessageHash": "66470a8e4e96a8d5bf476a45b2aa1ae032a6c3f0567908cedf4f5e4f2a297e5a"
   },
   "repositories": {
@@ -282,6 +282,18 @@
           "headSha": "3d0b7b5f2673a8d43b1671bc99e0936a9fc8ab9d",
           "createdAt": "2026-02-09T12:02:26.399Z",
           "lastUpdated": "2026-02-09T12:02:26.565Z"
+        },
+        "4927": {
+          "number": 4927,
+          "title": "EXUI-4106 - Remove setVaultName(vault)",
+          "author": "connorpgpmcelroy",
+          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/4927",
+          "changesRequested": false,
+          "approvals": 0,
+          "buildSuccess": false,
+          "headSha": "4d6ff2dcef962fcb0963439e0f7778911000c643",
+          "createdAt": "2026-02-09T15:06:35.546Z",
+          "lastUpdated": "2026-02-09T15:06:35.654Z"
         }
       }
     },
