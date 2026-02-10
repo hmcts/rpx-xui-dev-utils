@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1770729588.446339",
-    "lastUpdated": "2026-02-10T13:20:26.515Z",
+    "lastUpdated": "2026-02-10T13:21:59.096Z",
     "approvalListMessageHash": "f20133386f1a27e03bb04edd569cee77822e715f8a7c5636e79954eb6e560d0d"
   },
   "repositories": {
@@ -382,6 +382,18 @@
           "headSha": "551f374a291078908cd7a32ba862a1692b970bff",
           "createdAt": "2026-02-09T10:16:14.957Z",
           "lastUpdated": "2026-02-09T10:16:15.112Z"
+        },
+        "1484": {
+          "number": 1484,
+          "title": "CVE-2022-33987: CVE-2022-33987 remediation plan for rpx-xui-manage-organisations",
+          "author": "danlysiak",
+          "url": "https://github.com/hmcts/rpx-xui-manage-organisations/pull/1484",
+          "changesRequested": false,
+          "approvals": 0,
+          "buildSuccess": false,
+          "headSha": "afdcb17efeb9265347aa54f9ba38c1f9880d74a1",
+          "createdAt": "2026-02-10T13:21:58.933Z",
+          "lastUpdated": "2026-02-10T13:21:59.096Z"
         }
       }
     },
