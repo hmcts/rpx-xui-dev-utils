@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1770729588.446339",
-    "lastUpdated": "2026-02-10T13:19:36.761Z",
+    "lastUpdated": "2026-02-10T13:20:26.515Z",
     "approvalListMessageHash": "f20133386f1a27e03bb04edd569cee77822e715f8a7c5636e79954eb6e560d0d"
   },
   "repositories": {
@@ -225,15 +225,15 @@
         },
         "4912": {
           "number": 4912,
-          "title": "FPVTL-2124: DO NOT MERGE - Enable Manual Hearing functionality on Preview environment",
+          "title": "FPVTL-2124: Enable Manual Hearing functionality on Preview environment",
           "author": "SomeshRA",
           "url": "https://github.com/hmcts/rpx-xui-webapp/pull/4912",
           "changesRequested": false,
           "approvals": 0,
           "buildSuccess": false,
           "headSha": "01006e5c56d2381425a26799e02347e633b34db8",
-          "createdAt": "2026-02-10T13:07:25.113Z",
-          "lastUpdated": "2026-02-10T13:19:36.761Z"
+          "createdAt": "2026-02-10T13:20:26.318Z",
+          "lastUpdated": "2026-02-10T13:20:26.515Z"
         },
         "4918": {
           "number": 4918,
