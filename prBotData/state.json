@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1770654184.129519",
-    "lastUpdated": "2026-02-10T09:17:32.789Z",
+    "lastUpdated": "2026-02-10T09:34:34.163Z",
     "approvalListMessageHash": "8906066f64a9b2085076e029dccb5cf17738b41832980f8f1514f1be2df39e02"
   },
   "repositories": {
@@ -222,6 +222,18 @@
           "headSha": "1697cd4e4574fea992b77407050f257764cacdfc",
           "createdAt": "2026-02-03T11:49:19.291Z",
           "lastUpdated": "2026-02-09T16:22:52.473Z"
+        },
+        "4913": {
+          "number": 4913,
+          "title": "EXUI-4062 fixed table parser ",
+          "author": "andyg-cgi",
+          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/4913",
+          "changesRequested": false,
+          "approvals": 1,
+          "buildSuccess": true,
+          "headSha": "341d3616c80f1d0a16082235d9a76440437aa161",
+          "createdAt": "2026-02-10T09:34:34.041Z",
+          "lastUpdated": "2026-02-10T09:34:34.163Z"
         },
         "4918": {
           "number": 4918,
