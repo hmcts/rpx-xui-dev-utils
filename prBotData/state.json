@@ -550,18 +550,6 @@
           "headSha": "4488010b81425aedb931d72563963fbc525798f9",
           "createdAt": "2026-01-22T03:49:13.417Z",
           "lastUpdated": "2026-01-22T03:49:13.503Z"
-        },
-        "1266": {
-          "number": 1266,
-          "title": "EXUI-4101 - CVE Vulnerability - Multiple vulnerabilities - EM-Media Viewer",
-          "author": "chrisjones-hmcts",
-          "url": "https://github.com/hmcts/em-media-viewer/pull/1266",
-          "changesRequested": false,
-          "approvals": 1,
-          "buildSuccess": true,
-          "headSha": "3b9d7e3aff945c265598571f47bbea8de7baa9e2",
-          "createdAt": "2026-02-06T09:58:32.326Z",
-          "lastUpdated": "2026-02-06T09:58:32.426Z"
         }
       }
     },
