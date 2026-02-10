@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1770729588.446339",
-    "lastUpdated": "2026-02-10T13:21:59.096Z",
+    "lastUpdated": "2026-02-10T13:23:34.444Z",
     "approvalListMessageHash": "f20133386f1a27e03bb04edd569cee77822e715f8a7c5636e79954eb6e560d0d"
   },
   "repositories": {
@@ -306,6 +306,18 @@
           "headSha": "7619113e223c9e05a94defb5f12cee788728eff4",
           "createdAt": "2026-02-09T15:14:10.143Z",
           "lastUpdated": "2026-02-09T16:09:10.052Z"
+        },
+        "4931": {
+          "number": 4931,
+          "title": "add Bail in default config",
+          "author": "RiteshHMCTS",
+          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/4931",
+          "changesRequested": false,
+          "approvals": 0,
+          "buildSuccess": false,
+          "headSha": "803f2afe4274602f4bd8f4386e67f1bd25f9b229",
+          "createdAt": "2026-02-10T13:23:34.377Z",
+          "lastUpdated": "2026-02-10T13:23:34.444Z"
         }
       }
     },
