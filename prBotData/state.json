@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1770828735.560189",
-    "lastUpdated": "2026-02-11T17:20:38.118Z",
+    "lastUpdated": "2026-02-11T17:24:42.836Z",
     "approvalListMessageHash": "57ece12c8916b19a90ec5f46276fb9e92664b0eaf2f26b6d2e634637a555611c"
   },
   "repositories": {
@@ -548,12 +548,12 @@
           "title": "exui 4103 cve fix",
           "author": "balajisridharanhmcts",
           "url": "https://github.com/hmcts/rpx-xui-approve-org/pull/1001",
-          "changesRequested": false,
+          "changesRequested": true,
           "approvals": 0,
           "buildSuccess": true,
           "headSha": "89b360d65d3e1995a7bb5713e5c4239e940d09c9",
-          "createdAt": "2026-02-11T13:44:57.716Z",
-          "lastUpdated": "2026-02-11T16:52:05.224Z"
+          "createdAt": "2026-02-11T17:24:42.759Z",
+          "lastUpdated": "2026-02-11T17:24:42.836Z"
         }
       }
     },
