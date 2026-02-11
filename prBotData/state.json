@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1770832058.422739",
-    "lastUpdated": "2026-02-11T18:20:12.783Z",
+    "lastUpdated": "2026-02-11T19:37:31.773Z",
     "approvalListMessageHash": "a752b5f0dcc63bc818b751d402e1fb630fb890a0e9b4622aa888e2d6c6f54991"
   },
   "repositories": {
@@ -610,6 +610,18 @@
           "headSha": "4488010b81425aedb931d72563963fbc525798f9",
           "createdAt": "2026-01-22T03:49:13.417Z",
           "lastUpdated": "2026-01-22T03:49:13.503Z"
+        },
+        "1267": {
+          "number": 1267,
+          "title": "Update dependency axios to v1.13.5 [SECURITY]",
+          "author": "renovate[bot]",
+          "url": "https://github.com/hmcts/em-media-viewer/pull/1267",
+          "changesRequested": false,
+          "approvals": 0,
+          "buildSuccess": false,
+          "headSha": "b33917db3afa8696da62b2fa2e8866a7c85118f4",
+          "createdAt": "2026-02-11T19:37:31.651Z",
+          "lastUpdated": "2026-02-11T19:37:31.773Z"
         }
       }
     },
