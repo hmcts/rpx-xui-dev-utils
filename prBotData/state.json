@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1770814149.376669",
-    "lastUpdated": "2026-02-11T12:48:57.444Z",
+    "lastUpdated": "2026-02-11T13:03:12.418Z",
     "approvalListMessageHash": "b11f40016888481b7700b9f4d0ec68c00ab26b92bd2ffc6045fdde99b72edb9d"
   },
   "repositories": {
@@ -406,18 +406,6 @@
           "headSha": "551f374a291078908cd7a32ba862a1692b970bff",
           "createdAt": "2026-02-09T10:16:14.957Z",
           "lastUpdated": "2026-02-09T10:16:15.112Z"
-        },
-        "1483": {
-          "number": 1483,
-          "title": "EXUI-4075 - Re-add 4075 changes to new branch to fix tar CVE",
-          "author": "connorpgpmcelroy",
-          "url": "https://github.com/hmcts/rpx-xui-manage-organisations/pull/1483",
-          "changesRequested": false,
-          "approvals": 1,
-          "buildSuccess": true,
-          "headSha": "99593c5fef5caa84a55ba8a5fc0de20d9be49b06",
-          "createdAt": "2026-02-11T12:48:57.261Z",
-          "lastUpdated": "2026-02-11T12:48:57.444Z"
         }
       }
     },
