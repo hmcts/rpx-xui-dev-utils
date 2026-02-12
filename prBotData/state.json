@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1770897279.133239",
-    "lastUpdated": "2026-02-12T11:54:29.018Z",
+    "lastUpdated": "2026-02-12T12:08:40.549Z",
     "approvalListMessageHash": "8aa229adb3af592f085177081639d43ad4a6169e5e11ec8d4a1b1e48d2812688"
   },
   "repositories": {
@@ -410,18 +410,6 @@
           "headSha": "75a824b76a76b6b07f5bc17e062bd6e45816b27e",
           "createdAt": "2025-11-13T10:19:55.827Z",
           "lastUpdated": "2025-11-13T10:19:55.951Z"
-        },
-        "958": {
-          "number": 958,
-          "title": "typescript update",
-          "author": "balajisridharanhmcts",
-          "url": "https://github.com/hmcts/rpx-xui-approve-org/pull/958",
-          "changesRequested": false,
-          "approvals": 1,
-          "buildSuccess": true,
-          "headSha": "d67b6352eab2d34abcae1b4b6fc562199f76b8a0",
-          "createdAt": "2026-02-11T15:26:33.460Z",
-          "lastUpdated": "2026-02-11T15:26:33.644Z"
         },
         "976": {
           "number": 976,
