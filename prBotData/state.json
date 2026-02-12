@@ -495,18 +495,6 @@
           "createdAt": "2026-02-02T11:04:10.390Z",
           "lastUpdated": "2026-02-02T11:04:10.563Z"
         },
-        "995": {
-          "number": 995,
-          "title": "EXUI-3950  - removing the dependency on @hmcts/frontend - AO",
-          "author": "chrisjones-hmcts",
-          "url": "https://github.com/hmcts/rpx-xui-approve-org/pull/995",
-          "changesRequested": true,
-          "approvals": 0,
-          "buildSuccess": true,
-          "headSha": "315722e1b6b0b01db6ea755d93fa72ea78fefedf",
-          "createdAt": "2026-02-04T09:28:02.839Z",
-          "lastUpdated": "2026-02-04T14:17:48.115Z"
-        },
         "998": {
           "number": 998,
           "title": "CVE-2022-25896: CVE-2022-25896 remediation plan draft for rpx-xui-approve-org",
