@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1770898169.200369",
-    "lastUpdated": "2026-02-12T12:09:19.404Z",
+    "lastUpdated": "2026-02-12T12:09:55.995Z",
     "approvalListMessageHash": "727c276be0e32752715817621072e47ddf18629ba99fcc0bf74539d754815828"
   },
   "repositories": {
@@ -410,18 +410,6 @@
           "headSha": "7346339521bff52d19942f4ab251cfb800ebbf91",
           "createdAt": "2026-01-15T10:53:32.257Z",
           "lastUpdated": "2026-01-15T10:53:32.348Z"
-        },
-        "979": {
-          "number": 979,
-          "title": "terms conditions updated",
-          "author": "balajisridharanhmcts",
-          "url": "https://github.com/hmcts/rpx-xui-approve-org/pull/979",
-          "changesRequested": false,
-          "approvals": 1,
-          "buildSuccess": true,
-          "headSha": "0fcb79951d58e9e6109f3901a259b54a8aecc53b",
-          "createdAt": "2026-02-11T17:35:28.724Z",
-          "lastUpdated": "2026-02-11T17:35:28.948Z"
         },
         "982": {
           "number": 982,
