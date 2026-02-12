@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1770904471.769869",
-    "lastUpdated": "2026-02-12T13:54:20.490Z",
+    "lastUpdated": "2026-02-12T13:57:25.825Z",
     "approvalListMessageHash": "80fb627bd1c09a55b558bbada2047070af95ec55e7076d24d635b637408f9649"
   },
   "repositories": {
@@ -162,6 +162,18 @@
           "headSha": "6c25ba1929713098b0cc27822c5deb33e68de4c0",
           "createdAt": "2025-12-17T08:51:27.287Z",
           "lastUpdated": "2025-12-17T08:51:27.427Z"
+        },
+        "4814": {
+          "number": 4814,
+          "title": "Exui-3818 glob cve fixes",
+          "author": "balajisridharanhmcts",
+          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/4814",
+          "changesRequested": false,
+          "approvals": 1,
+          "buildSuccess": true,
+          "headSha": "12ea5e4e19d15358750377fe6c024b232177ca37",
+          "createdAt": "2026-02-12T13:57:25.738Z",
+          "lastUpdated": "2026-02-12T13:57:25.825Z"
         },
         "4826": {
           "number": 4826,
