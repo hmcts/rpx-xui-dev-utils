@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1770889972.941569",
-    "lastUpdated": "2026-02-12T09:52:42.193Z",
+    "lastUpdated": "2026-02-12T10:26:08.128Z",
     "approvalListMessageHash": "44c2d5416a1c4eb49dccc8df99d0208009ba17e7379340b1747c01e914589952"
   },
   "repositories": {
@@ -222,18 +222,6 @@
           "headSha": "fec910c2dc8d2a68c438e3bf01ff7003776c3e9c",
           "createdAt": "2026-02-12T08:20:26.315Z",
           "lastUpdated": "2026-02-12T08:20:26.535Z"
-        },
-        "4912": {
-          "number": 4912,
-          "title": "FPVTL-2124: Enable Manual Hearing functionality on Preview environment",
-          "author": "SomeshRA",
-          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/4912",
-          "changesRequested": false,
-          "approvals": 1,
-          "buildSuccess": true,
-          "headSha": "50e697c712714f048cecaf49e83466d0259f645c",
-          "createdAt": "2026-02-11T16:13:59.429Z",
-          "lastUpdated": "2026-02-11T16:13:59.519Z"
         },
         "4918": {
           "number": 4918,
