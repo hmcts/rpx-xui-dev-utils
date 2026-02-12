@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1770912425.576919",
-    "lastUpdated": "2026-02-12T16:43:25.092Z",
+    "lastUpdated": "2026-02-12T17:22:53.242Z",
     "approvalListMessageHash": "f1aa4084c3dbd4126fd2400d0d6124c72ecb3379081e7a4de9b0c781c06c9d2b"
   },
   "repositories": {
@@ -494,6 +494,18 @@
           "headSha": "63646861f6e124b8e18f3b7488cb512a1dd33395",
           "createdAt": "2026-02-12T16:43:24.967Z",
           "lastUpdated": "2026-02-12T16:43:25.092Z"
+        },
+        "1002": {
+          "number": 1002,
+          "title": "exui-3955-deprecated functions",
+          "author": "RiteshHMCTS",
+          "url": "https://github.com/hmcts/rpx-xui-approve-org/pull/1002",
+          "changesRequested": false,
+          "approvals": 0,
+          "buildSuccess": false,
+          "headSha": "73a314da54ce598f7fd6cf03311bc07d8849501a",
+          "createdAt": "2026-02-12T17:22:53.024Z",
+          "lastUpdated": "2026-02-12T17:22:53.242Z"
         }
       }
     },
