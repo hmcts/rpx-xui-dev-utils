@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1770908582.696649",
-    "lastUpdated": "2026-02-12T15:02:51.231Z",
+    "lastUpdated": "2026-02-12T15:27:52.710Z",
     "approvalListMessageHash": "e2dcfe78528b43b87e622674d77b20436dbb5532cc4511eade5d7ac3d8518ed6"
   },
   "repositories": {
@@ -358,18 +358,6 @@
           "headSha": "a72dc11c1b3e3e0c4b1250486affa6657e2faa64",
           "createdAt": "2026-01-23T15:45:15.966Z",
           "lastUpdated": "2026-01-23T17:40:37.582Z"
-        },
-        "1473": {
-          "number": 1473,
-          "title": "Exui 3974 CVE fix",
-          "author": "balajisridharanhmcts",
-          "url": "https://github.com/hmcts/rpx-xui-manage-organisations/pull/1473",
-          "changesRequested": false,
-          "approvals": 1,
-          "buildSuccess": true,
-          "headSha": "51cc31d0cb94b46441de21c38f508cf38d890b4a",
-          "createdAt": "2026-02-12T14:49:27.127Z",
-          "lastUpdated": "2026-02-12T14:49:27.265Z"
         },
         "1474": {
           "number": 1474,
