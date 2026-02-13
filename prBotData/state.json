@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1770976442.424659",
-    "lastUpdated": "2026-02-13T10:10:01.746Z",
+    "lastUpdated": "2026-02-13T10:17:39.503Z",
     "approvalListMessageHash": "b4a74b4a0c4cd392dcd292fee9d7f19db9604351d96b9d94ef22e2728d2168ce"
   },
   "repositories": {
@@ -306,18 +306,6 @@
           "headSha": "c02c3a9ad6650df13b1b3df10fd7b699c879ebf7",
           "createdAt": "2026-02-11T10:42:15.743Z",
           "lastUpdated": "2026-02-13T09:53:51.375Z"
-        },
-        "4939": {
-          "number": 4939,
-          "title": "cot-1169 reasonable adjustments not displaying issue fix",
-          "author": "anthonydummer",
-          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/4939",
-          "changesRequested": false,
-          "approvals": 1,
-          "buildSuccess": true,
-          "headSha": "ce0001327d68c17e199dc57da68f6e77ca5cdc17",
-          "createdAt": "2026-02-13T09:00:47.241Z",
-          "lastUpdated": "2026-02-13T09:00:47.449Z"
         },
         "4940": {
           "number": 4940,
