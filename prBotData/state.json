@@ -603,18 +603,6 @@
     },
     "hmcts/ccd-case-ui-toolkit": {
       "pullRequests": {
-        "2092": {
-          "number": 2092,
-          "title": "EXUI-3851 - Update marked",
-          "author": "Josh-HMCTS",
-          "url": "https://github.com/hmcts/ccd-case-ui-toolkit/pull/2092",
-          "changesRequested": false,
-          "approvals": 1,
-          "buildSuccess": true,
-          "headSha": "163f7c7d52de0ee68ccee986187d2b2d9b2cf159",
-          "createdAt": "2026-02-03T13:37:46.577Z",
-          "lastUpdated": "2026-02-03T13:37:46.676Z"
-        },
         "2095": {
           "number": 2095,
           "title": "exui 4079 fix wip",
