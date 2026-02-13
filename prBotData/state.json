@@ -603,18 +603,6 @@
     },
     "hmcts/ccd-case-ui-toolkit": {
       "pullRequests": {
-        "2095": {
-          "number": 2095,
-          "title": "exui 4079 fix wip",
-          "author": "balajisridharanhmcts",
-          "url": "https://github.com/hmcts/ccd-case-ui-toolkit/pull/2095",
-          "changesRequested": false,
-          "approvals": 0,
-          "buildSuccess": true,
-          "headSha": "1d40396ec132afaa7e070f39d93e6cbcbae795f6",
-          "createdAt": "2026-02-05T18:47:47.011Z",
-          "lastUpdated": "2026-02-05T18:47:47.077Z"
-        },
         "2096": {
           "number": 2096,
           "title": "pofcc-10 - Update to error processing to fix linking within complex fields.",
