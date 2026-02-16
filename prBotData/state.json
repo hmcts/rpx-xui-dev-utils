@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1771010157.419929",
-    "lastUpdated": "2026-02-13T19:15:47.827Z",
+    "lastUpdated": "2026-02-16T09:32:04.712Z",
     "approvalListMessageHash": "ee3b0ed476fae264fa5d6046dd2bfd872a8e6c91edc62235c435a082f4a55d33"
   },
   "repositories": {
@@ -277,11 +277,11 @@
           "author": "chrisworthcgi",
           "url": "https://github.com/hmcts/rpx-xui-webapp/pull/4926",
           "changesRequested": false,
-          "approvals": 0,
+          "approvals": 1,
           "buildSuccess": true,
           "headSha": "b1dae0881c891b37b732f7c934bc9867fe1b5875",
-          "createdAt": "2026-02-09T12:02:26.399Z",
-          "lastUpdated": "2026-02-13T13:48:33.380Z"
+          "createdAt": "2026-02-16T09:32:04.617Z",
+          "lastUpdated": "2026-02-16T09:32:04.712Z"
         },
         "4928": {
           "number": 4928,
