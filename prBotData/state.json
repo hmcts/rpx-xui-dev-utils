@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1771249385.133049",
-    "lastUpdated": "2026-02-16T13:42:52.616Z",
+    "lastUpdated": "2026-02-16T13:54:02.535Z",
     "approvalListMessageHash": "46f15775ccd64ee9cbba57117bf8da3185cf8ae80642a4d7e4f3d19d35664c59"
   },
   "repositories": {
@@ -318,18 +318,6 @@
           "headSha": "601ed2cac878aeb254445332c921ba36498f58a4",
           "createdAt": "2026-02-13T17:47:41.219Z",
           "lastUpdated": "2026-02-13T17:47:41.405Z"
-        },
-        "4945": {
-          "number": 4945,
-          "title": "EXUI-3618 Playwright API timeout bump to 60s",
-          "author": "andyg-cgi",
-          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/4945",
-          "changesRequested": false,
-          "approvals": 1,
-          "buildSuccess": true,
-          "headSha": "8902f0ccf8c19eb890584a8e5eb8b465f401dfd5",
-          "createdAt": "2026-02-16T13:42:52.540Z",
-          "lastUpdated": "2026-02-16T13:42:52.616Z"
         }
       }
     },
