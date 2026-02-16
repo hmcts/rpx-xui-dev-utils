@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1771241859.828489",
-    "lastUpdated": "2026-02-16T11:37:28.192Z",
+    "lastUpdated": "2026-02-16T11:39:37.431Z",
     "approvalListMessageHash": "7b3b314b753f9882621e1eef4851da7ccad2ba59c5f2438d4600c2f0dfcee618"
   },
   "repositories": {
@@ -294,18 +294,6 @@
           "headSha": "7619113e223c9e05a94defb5f12cee788728eff4",
           "createdAt": "2026-02-09T15:14:10.143Z",
           "lastUpdated": "2026-02-09T16:09:10.052Z"
-        },
-        "4934": {
-          "number": 4934,
-          "title": "exui-3302-adding bail case type for wa onboarding",
-          "author": "RiteshHMCTS",
-          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/4934",
-          "changesRequested": false,
-          "approvals": 1,
-          "buildSuccess": true,
-          "headSha": "c02c3a9ad6650df13b1b3df10fd7b699c879ebf7",
-          "createdAt": "2026-02-16T11:37:27.974Z",
-          "lastUpdated": "2026-02-16T11:37:28.192Z"
         },
         "4941": {
           "number": 4941,
