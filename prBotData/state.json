@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1771250053.347169",
-    "lastUpdated": "2026-02-16T13:54:02.535Z",
+    "lastUpdated": "2026-02-16T16:06:39.521Z",
     "approvalListMessageHash": "e6170678604e17050e9e5fc8e5dbaa7106cd1e6967c22b1abc940015331a960b"
   },
   "repositories": {
@@ -318,6 +318,18 @@
           "headSha": "601ed2cac878aeb254445332c921ba36498f58a4",
           "createdAt": "2026-02-13T17:47:41.219Z",
           "lastUpdated": "2026-02-13T17:47:41.405Z"
+        },
+        "4946": {
+          "number": 4946,
+          "title": "DTSCCI-3790: Fix WA for civil in preview",
+          "author": "ruban72",
+          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/4946",
+          "changesRequested": false,
+          "approvals": 0,
+          "buildSuccess": false,
+          "headSha": "6822033f740be566cb42acccc11335393f4c0733",
+          "createdAt": "2026-02-16T16:06:39.339Z",
+          "lastUpdated": "2026-02-16T16:06:39.521Z"
         }
       }
     },
