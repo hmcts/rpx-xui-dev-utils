@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1771260285.417619",
-    "lastUpdated": "2026-02-16T16:44:34.644Z",
+    "lastUpdated": "2026-02-16T16:57:27.836Z",
     "approvalListMessageHash": "e6170678604e17050e9e5fc8e5dbaa7106cd1e6967c22b1abc940015331a960b"
   },
   "repositories": {
@@ -394,6 +394,18 @@
           "headSha": "1446f7f8e42ecf962324838c7862e255287fc1e4",
           "createdAt": "2026-02-09T10:16:14.957Z",
           "lastUpdated": "2026-02-12T16:06:54.824Z"
+        },
+        "1486": {
+          "number": 1486,
+          "title": "EXUI-4187 - Update values.preview.template.yaml",
+          "author": "connorpgpmcelroy",
+          "url": "https://github.com/hmcts/rpx-xui-manage-organisations/pull/1486",
+          "changesRequested": false,
+          "approvals": 0,
+          "buildSuccess": false,
+          "headSha": "51398a80adaf8a55821633a40675332b725dcd61",
+          "createdAt": "2026-02-16T16:57:27.593Z",
+          "lastUpdated": "2026-02-16T16:57:27.836Z"
         }
       }
     },
