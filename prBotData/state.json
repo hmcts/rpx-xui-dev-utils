@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1771329036.583479",
-    "lastUpdated": "2026-02-17T11:50:25.067Z",
+    "lastUpdated": "2026-02-17T12:02:22.748Z",
     "approvalListMessageHash": "ea9b8f78bce53c837ff4632680f4a8215cc32a069ccf7eb5194aaf97c7e4efbd"
   },
   "repositories": {
@@ -610,6 +610,18 @@
           "headSha": "992c04a6c6101b31a57e08f3b9d78d4a13db9013",
           "createdAt": "2026-02-16T18:12:34.287Z",
           "lastUpdated": "2026-02-16T19:37:45.902Z"
+        },
+        "1270": {
+          "number": 1270,
+          "title": "Comment out local settings for security",
+          "author": "connorpgpmcelroy",
+          "url": "https://github.com/hmcts/em-media-viewer/pull/1270",
+          "changesRequested": false,
+          "approvals": 0,
+          "buildSuccess": false,
+          "headSha": "7a6a1841a5ca7d9911d6f1bfd6d81235345d9097",
+          "createdAt": "2026-02-17T12:02:22.538Z",
+          "lastUpdated": "2026-02-17T12:02:22.748Z"
         }
       }
     },
