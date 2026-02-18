@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1771415665.762419",
-    "lastUpdated": "2026-02-18T11:55:40.344Z",
+    "lastUpdated": "2026-02-18T12:04:58.372Z",
     "approvalListMessageHash": "1772f151e86c6798f86456911f67ed7f32520ce5a8a744a059b322f16b6a3b3a"
   },
   "repositories": {
@@ -653,11 +653,11 @@
           "author": "connorpgpmcelroy",
           "url": "https://github.com/hmcts/em-media-viewer/pull/1270",
           "changesRequested": false,
-          "approvals": 0,
+          "approvals": 1,
           "buildSuccess": true,
           "headSha": "23f599cb0e4bfd0817da3084df8ae993e349ada6",
-          "createdAt": "2026-02-17T12:02:22.538Z",
-          "lastUpdated": "2026-02-17T14:37:42.684Z"
+          "createdAt": "2026-02-18T12:04:58.202Z",
+          "lastUpdated": "2026-02-18T12:04:58.372Z"
         }
       }
     },
