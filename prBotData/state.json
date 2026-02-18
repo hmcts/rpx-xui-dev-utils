@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1771370741.824619",
-    "lastUpdated": "2026-02-17T23:25:31.227Z",
+    "lastUpdated": "2026-02-18T08:44:27.676Z",
     "approvalListMessageHash": "49bb24c00c6701a72f216ceafed8c9f45f9c11699fc09add81133ec5f558975a"
   },
   "repositories": {
@@ -318,6 +318,18 @@
           "headSha": "4c104f4ecd412d50e5f65f317c1e575439b5cf91",
           "createdAt": "2026-02-16T16:06:39.339Z",
           "lastUpdated": "2026-02-17T10:07:00.076Z"
+        },
+        "4950": {
+          "number": 4950,
+          "title": "EXUI-4203 - fix(WA): harden downstream error handling and close WA service test gaps",
+          "author": "andyg-cgi",
+          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/4950",
+          "changesRequested": false,
+          "approvals": 0,
+          "buildSuccess": false,
+          "headSha": "6dad29df0fa267962fb295572322bcf9d84d7434",
+          "createdAt": "2026-02-18T08:44:27.555Z",
+          "lastUpdated": "2026-02-18T08:44:27.676Z"
         }
       }
     },
