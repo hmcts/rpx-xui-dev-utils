@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1771420075.581399",
-    "lastUpdated": "2026-02-18T13:07:46.375Z",
+    "lastUpdated": "2026-02-18T13:56:46.929Z",
     "approvalListMessageHash": "8bc1ab84acb0c05c6fdef90428aa0765756252035ee99c6fa89ff8710324c23a"
   },
   "repositories": {
@@ -342,18 +342,6 @@
           "headSha": "8509b52a14ac3f23b203eba0652acf4d57125c3d",
           "createdAt": "2026-02-18T11:30:38.274Z",
           "lastUpdated": "2026-02-18T11:30:38.381Z"
-        },
-        "4952": {
-          "number": 4952,
-          "title": "EXUI-4104 -  task details integration tests",
-          "author": "danH-test",
-          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/4952",
-          "changesRequested": false,
-          "approvals": 0,
-          "buildSuccess": false,
-          "headSha": "6dcd173eab7b76d0528edd796ba7c94a5d98506e",
-          "createdAt": "2026-02-18T11:40:59.111Z",
-          "lastUpdated": "2026-02-18T11:40:59.330Z"
         },
         "4953": {
           "number": 4953,
