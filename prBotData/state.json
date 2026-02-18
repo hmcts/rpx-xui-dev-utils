@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1771416580.341099",
-    "lastUpdated": "2026-02-18T12:09:32.180Z",
+    "lastUpdated": "2026-02-18T12:27:57.560Z",
     "approvalListMessageHash": "c2532a2a44b80fd44b1930730179b01f8fc31ad227c13c5fd5d9422d445416c6"
   },
   "repositories": {
@@ -354,6 +354,18 @@
           "headSha": "6dcd173eab7b76d0528edd796ba7c94a5d98506e",
           "createdAt": "2026-02-18T11:40:59.111Z",
           "lastUpdated": "2026-02-18T11:40:59.330Z"
+        },
+        "4953": {
+          "number": 4953,
+          "title": "EXUI-3771 test(playwright): add search-case integration coverage",
+          "author": "andyg-cgi",
+          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/4953",
+          "changesRequested": false,
+          "approvals": 0,
+          "buildSuccess": false,
+          "headSha": "ab02cd71687ec4bdaea0af72c92e1c50e7baf06c",
+          "createdAt": "2026-02-18T12:27:57.473Z",
+          "lastUpdated": "2026-02-18T12:27:57.559Z"
         }
       }
     },
