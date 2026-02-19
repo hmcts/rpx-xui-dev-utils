@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1771495291.399529",
-    "lastUpdated": "2026-02-19T10:01:20.671Z",
+    "lastUpdated": "2026-02-19T10:58:43.167Z",
     "approvalListMessageHash": "0d5ba07c3f2f09168442f474e2d8e3b609713773c21a8e93deb2d905c543a427"
   },
   "repositories": {
@@ -306,18 +306,6 @@
           "headSha": "4c104f4ecd412d50e5f65f317c1e575439b5cf91",
           "createdAt": "2026-02-16T16:06:39.339Z",
           "lastUpdated": "2026-02-17T10:07:00.076Z"
-        },
-        "4947": {
-          "number": 4947,
-          "title": "EXUI-3636 - Add case details e2e test",
-          "author": "danH-test",
-          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/4947",
-          "changesRequested": false,
-          "approvals": 1,
-          "buildSuccess": true,
-          "headSha": "8bdb177725d7ece7c006cbc1134feab3e5cb23f1",
-          "createdAt": "2026-02-18T18:16:04.034Z",
-          "lastUpdated": "2026-02-18T18:26:33.925Z"
         },
         "4948": {
           "number": 4948,
