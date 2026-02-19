@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1771518228.984759",
-    "lastUpdated": "2026-02-19T16:33:23.217Z",
+    "lastUpdated": "2026-02-19T16:33:25.742Z",
     "approvalListMessageHash": "22ad035d477f289e396daa58084e514c93f843a5af10ecac01693cf87213aa52"
   },
   "repositories": {
@@ -354,18 +354,6 @@
           "headSha": "8d60402d6e8687714cf73f3e52c3220744e0200f",
           "createdAt": "2026-02-18T15:16:05.865Z",
           "lastUpdated": "2026-02-18T15:16:05.946Z"
-        },
-        "4958": {
-          "number": 4958,
-          "title": "EXUI-4185 - Secrets/tokens logged in plaintext",
-          "author": "chrisjones-hmcts",
-          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/4958",
-          "changesRequested": false,
-          "approvals": 0,
-          "buildSuccess": false,
-          "headSha": "8aa189a91a46bf1a1fe4b598f0a0eac4277dbf6c",
-          "createdAt": "2026-02-19T16:32:48.558Z",
-          "lastUpdated": "2026-02-19T16:32:48.688Z"
         }
       }
     },
