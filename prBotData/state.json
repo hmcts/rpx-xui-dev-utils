@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1771518228.984759",
-    "lastUpdated": "2026-02-19T16:32:48.688Z",
+    "lastUpdated": "2026-02-19T16:33:23.217Z",
     "approvalListMessageHash": "22ad035d477f289e396daa58084e514c93f843a5af10ecac01693cf87213aa52"
   },
   "repositories": {
@@ -670,6 +670,18 @@
           "headSha": "1f2835499b30d70609299aabed362aef4cca53f5",
           "createdAt": "2026-02-16T18:12:34.287Z",
           "lastUpdated": "2026-02-18T16:25:09.065Z"
+        },
+        "1272": {
+          "number": 1272,
+          "title": "EXUI-4185 - Secrets/tokens logged in plaintext",
+          "author": "chrisjones-hmcts",
+          "url": "https://github.com/hmcts/em-media-viewer/pull/1272",
+          "changesRequested": false,
+          "approvals": 0,
+          "buildSuccess": true,
+          "headSha": "d80a64e7ee9269d474ab675fc9f6e016144b64ad",
+          "createdAt": "2026-02-19T16:33:23.090Z",
+          "lastUpdated": "2026-02-19T16:33:23.217Z"
         }
       }
     },
