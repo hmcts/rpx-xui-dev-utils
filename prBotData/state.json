@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1771518108.744729",
-    "lastUpdated": "2026-02-19T16:21:38.442Z",
+    "lastUpdated": "2026-02-19T16:23:38.514Z",
     "approvalListMessageHash": "1b855012c8ded6e5f229ef8356195b9bd22cb7f5c6d374615d83e57b1c05204d"
   },
   "repositories": {
@@ -354,18 +354,6 @@
           "headSha": "8d60402d6e8687714cf73f3e52c3220744e0200f",
           "createdAt": "2026-02-18T15:16:05.865Z",
           "lastUpdated": "2026-02-18T15:16:05.946Z"
-        },
-        "4957": {
-          "number": 4957,
-          "title": "Switch video recording off for all tests including failed",
-          "author": "danH-test",
-          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/4957",
-          "changesRequested": false,
-          "approvals": 1,
-          "buildSuccess": true,
-          "headSha": "7e06af14fe3b4c46064690963dc14e0355cdb886",
-          "createdAt": "2026-02-19T16:21:38.342Z",
-          "lastUpdated": "2026-02-19T16:21:38.442Z"
         }
       }
     },
