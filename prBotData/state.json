@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1771499437.377979",
-    "lastUpdated": "2026-02-19T11:10:25.341Z",
+    "lastUpdated": "2026-02-19T11:11:44.562Z",
     "approvalListMessageHash": "4aae507489925b5e419ddda81fd6030f7bbab3c531a39d95d06e25662626b280"
   },
   "repositories": {
@@ -333,15 +333,15 @@
         },
         "4951": {
           "number": 4951,
-          "title": "Integration test updates for Welsh language",
+          "title": "EXUI-4137 : Integration test updates for Welsh language",
           "author": "danH-test",
           "url": "https://github.com/hmcts/rpx-xui-webapp/pull/4951",
           "changesRequested": false,
-          "approvals": 0,
+          "approvals": 1,
           "buildSuccess": true,
           "headSha": "e8c46b29d49c7b1bdde7245ec402ad620f2a9177",
-          "createdAt": "2026-02-18T11:30:38.274Z",
-          "lastUpdated": "2026-02-18T18:02:52.075Z"
+          "createdAt": "2026-02-19T11:11:44.370Z",
+          "lastUpdated": "2026-02-19T11:11:44.562Z"
         },
         "4953": {
           "number": 4953,
