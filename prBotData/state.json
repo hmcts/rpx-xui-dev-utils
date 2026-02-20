@@ -787,18 +787,6 @@
     },
     "hmcts/rpx-xui-common-lib": {
       "pullRequests": {
-        "528": {
-          "number": 528,
-          "title": "test",
-          "author": "RiteshHMCTS",
-          "url": "https://github.com/hmcts/rpx-xui-common-lib/pull/528",
-          "changesRequested": false,
-          "approvals": 0,
-          "buildSuccess": true,
-          "headSha": "0304c0b123ff8ccf7809049116e5bbac782a82f7",
-          "createdAt": "2026-02-18T15:16:08.215Z",
-          "lastUpdated": "2026-02-18T15:16:08.415Z"
-        },
         "529": {
           "number": 529,
           "title": "EXUI-4188 - Add innerHTML changes",
