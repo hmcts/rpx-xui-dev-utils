@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1771586385.879479",
-    "lastUpdated": "2026-02-20T11:19:35.200Z",
+    "lastUpdated": "2026-02-20T11:27:46.617Z",
     "approvalListMessageHash": "833aa4ddb419978e3c053ce4142d6d98d488324e54bb4dbd1fef9233b2cee96b"
   },
   "repositories": {
@@ -770,6 +770,18 @@
           "headSha": "966563eeb28ae13cecbc79dbb3f39b6998288bac",
           "createdAt": "2026-02-18T16:59:39.537Z",
           "lastUpdated": "2026-02-18T16:59:39.760Z"
+        },
+        "2104": {
+          "number": 2104,
+          "title": "POFCC-105-Update money gbp input handling",
+          "author": "padmapriyanalam",
+          "url": "https://github.com/hmcts/ccd-case-ui-toolkit/pull/2104",
+          "changesRequested": false,
+          "approvals": 0,
+          "buildSuccess": true,
+          "headSha": "e43faa44e35f4a295ae503204ace50a8bee30063",
+          "createdAt": "2026-02-20T11:27:46.426Z",
+          "lastUpdated": "2026-02-20T11:27:46.617Z"
         }
       }
     },
