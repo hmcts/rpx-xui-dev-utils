@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1771602782.058479",
-    "lastUpdated": "2026-02-20T15:52:51.699Z",
+    "lastUpdated": "2026-02-20T16:18:33.703Z",
     "approvalListMessageHash": "f5f5c0a7eadc3e426ed829d67704aeb0cd8c386eafb4d3de2443ec226274cd09"
   },
   "repositories": {
@@ -390,18 +390,6 @@
           "headSha": "04a958eb75f4946d1ac06785adf03a48a72cd98c",
           "createdAt": "2026-02-20T15:28:01.019Z",
           "lastUpdated": "2026-02-20T15:28:01.201Z"
-        },
-        "4965": {
-          "number": 4965,
-          "title": "Dtspb 4684 testing",
-          "author": "MarcusHMCTS",
-          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/4965",
-          "changesRequested": false,
-          "approvals": 0,
-          "buildSuccess": true,
-          "headSha": "52976f1e9c79ec721cf15c049c084c2ba19932b6",
-          "createdAt": "2026-02-20T14:56:50.399Z",
-          "lastUpdated": "2026-02-20T15:43:15.694Z"
         }
       }
     },
