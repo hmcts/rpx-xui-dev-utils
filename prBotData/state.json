@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1771853217.854509",
-    "lastUpdated": "2026-02-23T13:36:30.366Z",
+    "lastUpdated": "2026-02-23T13:36:35.934Z",
     "approvalListMessageHash": "97c773ebac9e5b08814ead64ceec5ee7723f3236dcb8ca6b93855950d338f4d9"
   },
   "repositories": {
@@ -406,18 +406,6 @@
           "headSha": "debda6cb560fd7001484e3b4679262b5aab8df2c",
           "createdAt": "2025-11-11T21:31:54.300Z",
           "lastUpdated": "2025-11-11T21:31:54.508Z"
-        },
-        "1443": {
-          "number": 1443,
-          "title": "typescript upgrade",
-          "author": "balajisridharanhmcts",
-          "url": "https://github.com/hmcts/rpx-xui-manage-organisations/pull/1443",
-          "changesRequested": false,
-          "approvals": 1,
-          "buildSuccess": false,
-          "headSha": "bd113252fc3c1d83c90d3d33f2029fe1f5d092d1",
-          "createdAt": "2026-02-23T13:29:57.506Z",
-          "lastUpdated": "2026-02-23T13:29:57.605Z"
         },
         "1458": {
           "number": 1458,
