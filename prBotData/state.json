@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1771870582.479159",
-    "lastUpdated": "2026-02-23T18:16:11.783Z",
+    "lastUpdated": "2026-02-23T18:38:55.906Z",
     "approvalListMessageHash": "a7168816c8e499d4254bf17684e89059a1254c0f82d38cd2e0253a882e62cbe8"
   },
   "repositories": {
@@ -818,6 +818,18 @@
           "headSha": "c1f61f74c94030967cf90a425ca61e95fa803d51",
           "createdAt": "2026-02-23T15:19:07.923Z",
           "lastUpdated": "2026-02-23T15:19:08.480Z"
+        },
+        "2106": {
+          "number": 2106,
+          "title": "exui 4074 media viewer version",
+          "author": "balajisridharanhmcts",
+          "url": "https://github.com/hmcts/ccd-case-ui-toolkit/pull/2106",
+          "changesRequested": false,
+          "approvals": 0,
+          "buildSuccess": true,
+          "headSha": "c26935ef3477518401d7c5c1dc67fcca77b64621",
+          "createdAt": "2026-02-23T18:38:55.819Z",
+          "lastUpdated": "2026-02-23T18:38:55.906Z"
         }
       }
     },
