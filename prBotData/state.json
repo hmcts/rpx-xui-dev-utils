@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1771853802.298639",
-    "lastUpdated": "2026-02-23T13:36:35.934Z",
+    "lastUpdated": "2026-02-23T13:58:49.624Z",
     "approvalListMessageHash": "400642b9cb2d8fa8cd49779d6e57d2e7e7b87d768dca3d74e4ce701048849992"
   },
   "repositories": {
@@ -723,6 +723,18 @@
     },
     "hmcts/ccd-case-ui-toolkit": {
       "pullRequests": {
+        "2061": {
+          "number": 2061,
+          "title": "Ex UI 3695 add suffix",
+          "author": "olusegz07",
+          "url": "https://github.com/hmcts/ccd-case-ui-toolkit/pull/2061",
+          "changesRequested": false,
+          "approvals": 1,
+          "buildSuccess": true,
+          "headSha": "3ef92f5e1e6bf480756b9ea7af0cf1aed84e6a0f",
+          "createdAt": "2026-02-23T13:58:49.533Z",
+          "lastUpdated": "2026-02-23T13:58:49.624Z"
+        },
         "2096": {
           "number": 2096,
           "title": "pofcc-10 - Update to error processing to fix linking within complex fields.",
