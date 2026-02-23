@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1771850846.868589",
-    "lastUpdated": "2026-02-23T12:47:15.449Z",
+    "lastUpdated": "2026-02-23T12:49:00.347Z",
     "approvalListMessageHash": "05a8a9534ef82b61261d6c23814fdad192951e827dfd45e0dae24dfc68c43927"
   },
   "repositories": {
@@ -258,18 +258,6 @@
           "headSha": "7619113e223c9e05a94defb5f12cee788728eff4",
           "createdAt": "2026-02-09T15:14:10.143Z",
           "lastUpdated": "2026-02-09T16:09:10.052Z"
-        },
-        "4941": {
-          "number": 4941,
-          "title": "exui-4155-srt-pr",
-          "author": "RiteshHMCTS",
-          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/4941",
-          "changesRequested": false,
-          "approvals": 1,
-          "buildSuccess": true,
-          "headSha": "ad16c8d9634cb2864c54828e031b3de39234f55c",
-          "createdAt": "2026-02-23T12:47:15.340Z",
-          "lastUpdated": "2026-02-23T12:47:15.449Z"
         },
         "4942": {
           "number": 4942,
