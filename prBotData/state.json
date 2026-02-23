@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1771857187.467739",
-    "lastUpdated": "2026-02-23T14:32:56.305Z",
+    "lastUpdated": "2026-02-23T15:19:08.480Z",
     "approvalListMessageHash": "385714220c875bf4756a8d4f870b7fac0e673fcfae4ca8d1caaf9f75d016722b"
   },
   "repositories": {
@@ -789,11 +789,11 @@
           "author": "padmapriyanalam",
           "url": "https://github.com/hmcts/ccd-case-ui-toolkit/pull/2104",
           "changesRequested": false,
-          "approvals": 0,
+          "approvals": 1,
           "buildSuccess": true,
-          "headSha": "e43faa44e35f4a295ae503204ace50a8bee30063",
-          "createdAt": "2026-02-20T11:27:46.426Z",
-          "lastUpdated": "2026-02-20T11:27:46.617Z"
+          "headSha": "c1f61f74c94030967cf90a425ca61e95fa803d51",
+          "createdAt": "2026-02-23T15:19:07.923Z",
+          "lastUpdated": "2026-02-23T15:19:08.480Z"
         }
       }
     },
