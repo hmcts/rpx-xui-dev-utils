@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1771863882.625769",
-    "lastUpdated": "2026-02-23T16:24:32.184Z",
+    "lastUpdated": "2026-02-23T16:27:10.810Z",
     "approvalListMessageHash": "2e2c0a55307791a96a229977d1de9e7d9751720d310f4ba4167b063aab671677"
   },
   "repositories": {
@@ -102,18 +102,6 @@
           "headSha": "20b57322ac4af5876a43b021e924b9539efef61e",
           "createdAt": "2025-12-10T22:47:47.913Z",
           "lastUpdated": "2025-12-10T23:48:21.288Z"
-        },
-        "4802": {
-          "number": 4802,
-          "title": "Ex UI 3695 add suffix",
-          "author": "olusegz07",
-          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/4802",
-          "changesRequested": false,
-          "approvals": 1,
-          "buildSuccess": true,
-          "headSha": "29f8d78044ce48fe448cd2b7ad1ba8ea7abd2759",
-          "createdAt": "2026-02-23T16:24:32.028Z",
-          "lastUpdated": "2026-02-23T16:24:32.184Z"
         },
         "4811": {
           "number": 4811,
