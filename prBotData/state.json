@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1771871946.524579",
-    "lastUpdated": "2026-02-23T18:38:55.906Z",
+    "lastUpdated": "2026-02-23T18:41:33.727Z",
     "approvalListMessageHash": "78bd688fd547a57980abd40f242ee8f2b55fdabd1e3c01f2af238d352faf7935"
   },
   "repositories": {
@@ -402,6 +402,18 @@
           "headSha": "343958b085977cd8c0aeb99944379cac2baa80d7",
           "createdAt": "2026-02-23T15:42:10.637Z",
           "lastUpdated": "2026-02-23T17:21:04.612Z"
+        },
+        "4968": {
+          "number": 4968,
+          "title": "exui 4074 media viewer version",
+          "author": "balajisridharanhmcts",
+          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/4968",
+          "changesRequested": false,
+          "approvals": 0,
+          "buildSuccess": false,
+          "headSha": "50d73dde5d4f617e681947d03052b3588cbecf47",
+          "createdAt": "2026-02-23T18:41:33.619Z",
+          "lastUpdated": "2026-02-23T18:41:33.727Z"
         }
       }
     },
