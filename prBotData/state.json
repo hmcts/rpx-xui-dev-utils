@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1771845869.514109",
-    "lastUpdated": "2026-02-23T11:24:19.278Z",
+    "lastUpdated": "2026-02-23T11:26:13.757Z",
     "approvalListMessageHash": "adc3f82e84a0b4ed895a9eddfdf208f9345f471cdc5e47bd131c420afc92f5f8"
   },
   "repositories": {
@@ -746,18 +746,6 @@
           "headSha": "a8af2219e93dcdd1ff9a5ca0850a5a386f247fe8",
           "createdAt": "2026-02-19T16:53:53.520Z",
           "lastUpdated": "2026-02-19T16:53:53.617Z"
-        },
-        "2098": {
-          "number": 2098,
-          "title": "exui-4155-srt-pr",
-          "author": "RiteshHMCTS",
-          "url": "https://github.com/hmcts/ccd-case-ui-toolkit/pull/2098",
-          "changesRequested": false,
-          "approvals": 1,
-          "buildSuccess": true,
-          "headSha": "a34c96e7856fa535eb621b9c7041832e77facff0",
-          "createdAt": "2026-02-23T11:24:19.193Z",
-          "lastUpdated": "2026-02-23T11:24:19.278Z"
         },
         "2100": {
           "number": 2100,
