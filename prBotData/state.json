@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1771942803.120839",
-    "lastUpdated": "2026-02-24T14:19:51.817Z",
+    "lastUpdated": "2026-02-24T14:25:24.802Z",
     "approvalListMessageHash": "06cda2b547f66de2e6c16c4d23e2777b89468c5b9d0c1986dd9376a1e76cc374"
   },
   "repositories": {
@@ -414,18 +414,6 @@
           "headSha": "50d73dde5d4f617e681947d03052b3588cbecf47",
           "createdAt": "2026-02-23T18:41:33.619Z",
           "lastUpdated": "2026-02-23T18:41:33.727Z"
-        },
-        "4969": {
-          "number": 4969,
-          "title": "Pulling in the associated change to ccd-case-ui-toolkit for pofcc-105…",
-          "author": "padmapriyanalam",
-          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/4969",
-          "changesRequested": false,
-          "approvals": 1,
-          "buildSuccess": true,
-          "headSha": "c78eb465089fba2e8f528e06a38af7a3ec9e19e6",
-          "createdAt": "2026-02-24T13:22:57.323Z",
-          "lastUpdated": "2026-02-24T13:22:57.465Z"
         }
       }
     },
