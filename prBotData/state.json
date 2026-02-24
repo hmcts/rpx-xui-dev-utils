@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1771953579.846039",
-    "lastUpdated": "2026-02-24T17:19:28.752Z",
+    "lastUpdated": "2026-02-24T17:45:39.865Z",
     "approvalListMessageHash": "b160269864646efcfd6c9999b46ea898aed077b1b76f2f884251f5a17f685622"
   },
   "repositories": {
@@ -750,10 +750,10 @@
           "url": "https://github.com/hmcts/em-media-viewer/pull/1269",
           "changesRequested": false,
           "approvals": 0,
-          "buildSuccess": false,
-          "headSha": "d92fbb6ae68c8fcc65dd77e17555e0227745382b",
+          "buildSuccess": true,
+          "headSha": "6489aee2b5a7fd0b9b34b8e97c745c492ae7d8f7",
           "createdAt": "2026-02-16T18:12:34.287Z",
-          "lastUpdated": "2026-02-23T16:34:57.017Z"
+          "lastUpdated": "2026-02-24T17:45:39.865Z"
         },
         "1272": {
           "number": 1272,
