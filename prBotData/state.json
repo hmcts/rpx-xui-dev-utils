@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1771944149.240769",
-    "lastUpdated": "2026-02-24T14:42:18.921Z",
+    "lastUpdated": "2026-02-24T14:44:10.571Z",
     "approvalListMessageHash": "7aaed9843e9d27a5d9cc5c0a8cd9e72022fbf167e517d0959a9a43404a452ea3"
   },
   "repositories": {
@@ -842,18 +842,6 @@
           "headSha": "c26935ef3477518401d7c5c1dc67fcca77b64621",
           "createdAt": "2026-02-23T18:38:55.819Z",
           "lastUpdated": "2026-02-23T18:38:55.906Z"
-        },
-        "2108": {
-          "number": 2108,
-          "title": "exui-3927-exui-4101",
-          "author": "RiteshHMCTS",
-          "url": "https://github.com/hmcts/ccd-case-ui-toolkit/pull/2108",
-          "changesRequested": false,
-          "approvals": 1,
-          "buildSuccess": true,
-          "headSha": "6690544f1b8df650f58be3b345d49d474b3b4ea4",
-          "createdAt": "2026-02-24T14:42:18.742Z",
-          "lastUpdated": "2026-02-24T14:42:18.921Z"
         }
       }
     },
