@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1772034740.048959",
-    "lastUpdated": "2026-02-25T15:52:09.613Z",
+    "lastUpdated": "2026-02-25T15:52:59.369Z",
     "approvalListMessageHash": "5e07e5fafe399882f538912ce73e1265f44ca475493812f5a8db612b4158f713"
   },
   "repositories": {
@@ -842,22 +842,6 @@
           "headSha": "966563eeb28ae13cecbc79dbb3f39b6998288bac",
           "createdAt": "2026-02-25T12:41:12.708Z",
           "lastUpdated": "2026-02-25T12:41:12.856Z"
-        }
-      }
-    },
-    "hmcts/rpx-xui-common-lib": {
-      "pullRequests": {
-        "529": {
-          "number": 529,
-          "title": "EXUI-4188 - Add innerHTML changes",
-          "author": "connorpgpmcelroy",
-          "url": "https://github.com/hmcts/rpx-xui-common-lib/pull/529",
-          "changesRequested": false,
-          "approvals": 1,
-          "buildSuccess": true,
-          "headSha": "788a3d6b407ca92914a8e9341804e749b03c5460",
-          "createdAt": "2026-02-25T12:40:30.557Z",
-          "lastUpdated": "2026-02-25T12:40:30.702Z"
         }
       }
     }
