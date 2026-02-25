@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1772023044.630689",
-    "lastUpdated": "2026-02-25T12:37:13.734Z",
+    "lastUpdated": "2026-02-25T12:40:30.702Z",
     "approvalListMessageHash": "f0d27b0f0ac62256dd5bcd11e6aaca187db6353f1c73f255f6137a389ebf57bd"
   },
   "repositories": {
@@ -865,11 +865,11 @@
           "author": "connorpgpmcelroy",
           "url": "https://github.com/hmcts/rpx-xui-common-lib/pull/529",
           "changesRequested": false,
-          "approvals": 0,
+          "approvals": 1,
           "buildSuccess": true,
           "headSha": "788a3d6b407ca92914a8e9341804e749b03c5460",
-          "createdAt": "2026-02-18T16:58:07.533Z",
-          "lastUpdated": "2026-02-18T16:58:07.637Z"
+          "createdAt": "2026-02-25T12:40:30.557Z",
+          "lastUpdated": "2026-02-25T12:40:30.702Z"
         },
         "530": {
           "number": 530,
