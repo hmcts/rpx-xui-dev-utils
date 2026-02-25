@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1772039233.039169",
-    "lastUpdated": "2026-02-25T17:21:09.878Z",
+    "lastUpdated": "2026-02-25T18:11:54.165Z",
     "approvalListMessageHash": "9b2e16db231ddd8de8f3b7aa8fd4381367f5e82a3c77a3cc510f449ad7535889"
   },
   "repositories": {
@@ -426,18 +426,6 @@
           "headSha": "b69f62301e933ee59b4b670cb966ce734a715f62",
           "createdAt": "2026-02-25T11:49:47.427Z",
           "lastUpdated": "2026-02-25T12:37:13.734Z"
-        },
-        "4977": {
-          "number": 4977,
-          "title": "Chore: add code owners file",
-          "author": "gregs-cgi",
-          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/4977",
-          "changesRequested": false,
-          "approvals": 1,
-          "buildSuccess": true,
-          "headSha": "2272f7c3be9aaee807169a0f2dfd42cfbe5546fb",
-          "createdAt": "2026-02-25T13:44:59.380Z",
-          "lastUpdated": "2026-02-25T15:32:55.278Z"
         },
         "4978": {
           "number": 4978,
