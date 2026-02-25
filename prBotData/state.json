@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1772030244.502999",
-    "lastUpdated": "2026-02-25T14:37:13.324Z",
+    "lastUpdated": "2026-02-25T15:28:20.519Z",
     "approvalListMessageHash": "33f8faa9d0bbc037851f502e293e08b4e4a267da70d39e8c0d440d03ac4e05d1"
   },
   "repositories": {
@@ -438,6 +438,18 @@
           "headSha": "2272f7c3be9aaee807169a0f2dfd42cfbe5546fb",
           "createdAt": "2026-02-25T13:44:59.380Z",
           "lastUpdated": "2026-02-25T13:44:59.515Z"
+        },
+        "4978": {
+          "number": 4978,
+          "title": "EXUI-3773 integration tests -  add and update case",
+          "author": "danH-test",
+          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/4978",
+          "changesRequested": false,
+          "approvals": 0,
+          "buildSuccess": false,
+          "headSha": "06de86d1379dbe2b9717ba74a57a500ae2e7dc07",
+          "createdAt": "2026-02-25T15:28:20.427Z",
+          "lastUpdated": "2026-02-25T15:28:20.519Z"
         }
       }
     },
