@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1772021512.305719",
-    "lastUpdated": "2026-02-25T12:11:41.605Z",
+    "lastUpdated": "2026-02-25T12:12:34.489Z",
     "approvalListMessageHash": "ba387b0a32aafb3c497c4123bab809006fa7ff4fd29914f83f43f85e93fc0ab9"
   },
   "repositories": {
@@ -438,6 +438,18 @@
           "headSha": "50d73dde5d4f617e681947d03052b3588cbecf47",
           "createdAt": "2026-02-23T18:41:33.619Z",
           "lastUpdated": "2026-02-23T18:41:33.727Z"
+        },
+        "4970": {
+          "number": 4970,
+          "title": "EXUI-3345 - Open HTML case files for viewing",
+          "author": "chrisjones-hmcts",
+          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/4970",
+          "changesRequested": false,
+          "approvals": 1,
+          "buildSuccess": true,
+          "headSha": "0620a04655b2770d5c921acf9fb69262bd22e468",
+          "createdAt": "2026-02-25T12:12:34.269Z",
+          "lastUpdated": "2026-02-25T12:12:34.489Z"
         },
         "4974": {
           "number": 4974,
