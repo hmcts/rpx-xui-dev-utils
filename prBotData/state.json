@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1772006038.854519",
-    "lastUpdated": "2026-02-25T07:53:48.751Z",
+    "lastUpdated": "2026-02-25T09:25:28.343Z",
     "approvalListMessageHash": "6e3fd45f911c3189f4abce327760d833ece482e3c42e211bf967cee4fa824e49"
   },
   "repositories": {
@@ -866,18 +866,6 @@
           "headSha": "c26935ef3477518401d7c5c1dc67fcca77b64621",
           "createdAt": "2026-02-23T18:38:55.819Z",
           "lastUpdated": "2026-02-23T18:38:55.906Z"
-        },
-        "2107": {
-          "number": 2107,
-          "title": "exui-3995-data loss in case flag journey",
-          "author": "RiteshHMCTS",
-          "url": "https://github.com/hmcts/ccd-case-ui-toolkit/pull/2107",
-          "changesRequested": false,
-          "approvals": 1,
-          "buildSuccess": true,
-          "headSha": "709fff6f6dcdcfea3da9c64c9c0d95f1fe0b9fb7",
-          "createdAt": "2026-02-24T17:19:28.678Z",
-          "lastUpdated": "2026-02-24T17:19:28.752Z"
         }
       }
     },
