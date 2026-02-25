@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1772034367.013979",
-    "lastUpdated": "2026-02-25T15:45:54.135Z",
+    "lastUpdated": "2026-02-25T15:47:29.525Z",
     "approvalListMessageHash": "8c6df3e52b5f2dd3c82633a0869a5356a570ffbe67ee8120c3654f0247f88241"
   },
   "repositories": {
@@ -790,18 +790,6 @@
           "headSha": "d80a64e7ee9269d474ab675fc9f6e016144b64ad",
           "createdAt": "2026-02-19T16:34:16.068Z",
           "lastUpdated": "2026-02-19T16:34:16.224Z"
-        },
-        "1274": {
-          "number": 1274,
-          "title": "test",
-          "author": "RiteshHMCTS",
-          "url": "https://github.com/hmcts/em-media-viewer/pull/1274",
-          "changesRequested": false,
-          "approvals": 0,
-          "buildSuccess": true,
-          "headSha": "9afc128d3ba7d1acd03e722ab16c2e96d22e3f97",
-          "createdAt": "2026-02-24T16:27:03.361Z",
-          "lastUpdated": "2026-02-25T14:00:14.285Z"
         }
       }
     },
