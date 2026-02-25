@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1772022890.583299",
-    "lastUpdated": "2026-02-25T12:34:39.978Z",
+    "lastUpdated": "2026-02-25T12:35:19.749Z",
     "approvalListMessageHash": "69a8327e04abfadb922e6044e528814aba6fd915bf4972046f89c3dfa48402c1"
   },
   "repositories": {
@@ -766,18 +766,6 @@
           "headSha": "1342d1599a5f73c34b5001418104d0561f042652",
           "createdAt": "2026-02-20T22:37:37.315Z",
           "lastUpdated": "2026-02-20T22:37:37.464Z"
-        },
-        "1269": {
-          "number": 1269,
-          "title": "vulnerabilities fixes",
-          "author": "balajisridharanhmcts",
-          "url": "https://github.com/hmcts/em-media-viewer/pull/1269",
-          "changesRequested": false,
-          "approvals": 1,
-          "buildSuccess": true,
-          "headSha": "4ccb6db12743e58671ab285f364d8aec31ab67ef",
-          "createdAt": "2026-02-25T11:43:06.981Z",
-          "lastUpdated": "2026-02-25T11:43:07.189Z"
         },
         "1272": {
           "number": 1272,
