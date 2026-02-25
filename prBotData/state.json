@@ -795,18 +795,6 @@
           "createdAt": "2026-02-09T14:19:12.919Z",
           "lastUpdated": "2026-02-09T14:19:13.109Z"
         },
-        "2097": {
-          "number": 2097,
-          "title": "pofcc-107 - adding interpolation to cya submit buttton",
-          "author": "anthonydummer",
-          "url": "https://github.com/hmcts/ccd-case-ui-toolkit/pull/2097",
-          "changesRequested": false,
-          "approvals": 1,
-          "buildSuccess": true,
-          "headSha": "a8af2219e93dcdd1ff9a5ca0850a5a386f247fe8",
-          "createdAt": "2026-02-19T16:53:53.520Z",
-          "lastUpdated": "2026-02-19T16:53:53.617Z"
-        },
         "2100": {
           "number": 2100,
           "title": "exui-3582",
