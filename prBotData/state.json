@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1772019795.077129",
-    "lastUpdated": "2026-02-25T11:49:47.727Z",
+    "lastUpdated": "2026-02-25T12:11:41.605Z",
     "approvalListMessageHash": "327cd375c7201c8ff713f84e39b27918212511627d6cb77305022f11d4bc12e5"
   },
   "repositories": {
@@ -890,6 +890,18 @@
           "headSha": "c1f61f74c94030967cf90a425ca61e95fa803d51",
           "createdAt": "2026-02-23T15:19:07.923Z",
           "lastUpdated": "2026-02-23T15:19:08.480Z"
+        },
+        "2105": {
+          "number": 2105,
+          "title": "EXUI-3345 - Open HTML case files for viewing",
+          "author": "chrisjones-hmcts",
+          "url": "https://github.com/hmcts/ccd-case-ui-toolkit/pull/2105",
+          "changesRequested": false,
+          "approvals": 1,
+          "buildSuccess": true,
+          "headSha": "112cec6c7130e5e1c0bfae3bd800d4a4769c7ea5",
+          "createdAt": "2026-02-25T12:11:41.536Z",
+          "lastUpdated": "2026-02-25T12:11:41.605Z"
         },
         "2106": {
           "number": 2106,
