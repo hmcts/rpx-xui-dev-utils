@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1772023573.387239",
-    "lastUpdated": "2026-02-25T12:46:02.460Z",
+    "lastUpdated": "2026-02-25T12:52:58.306Z",
     "approvalListMessageHash": "e40d031732b25938049dd2bf2d8e3a720aeda9d8570d78b799b8dbd9dd07e681"
   },
   "repositories": {
@@ -246,18 +246,6 @@
           "headSha": "2aa911e0b04fd019bcdaa01e9f8dc78fd68a1c10",
           "createdAt": "2026-02-06T13:39:06.119Z",
           "lastUpdated": "2026-02-06T13:39:06.274Z"
-        },
-        "4926": {
-          "number": 4926,
-          "title": "CME-881: Application Insights sampling and logging reduction",
-          "author": "chrisworthcgi",
-          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/4926",
-          "changesRequested": false,
-          "approvals": 1,
-          "buildSuccess": true,
-          "headSha": "b1dae0881c891b37b732f7c934bc9867fe1b5875",
-          "createdAt": "2026-02-16T09:33:11.180Z",
-          "lastUpdated": "2026-02-16T09:33:11.332Z"
         },
         "4928": {
           "number": 4928,
