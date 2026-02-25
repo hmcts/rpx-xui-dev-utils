@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1772028026.037209",
-    "lastUpdated": "2026-02-25T14:00:14.285Z",
+    "lastUpdated": "2026-02-25T14:04:00.131Z",
     "approvalListMessageHash": "71d3a15aa627a6613aabc6396c22a3e217960449cc4d73b5050a904e52179410"
   },
   "repositories": {
@@ -858,18 +858,6 @@
           "headSha": "788a3d6b407ca92914a8e9341804e749b03c5460",
           "createdAt": "2026-02-25T12:40:30.557Z",
           "lastUpdated": "2026-02-25T12:40:30.702Z"
-        },
-        "530": {
-          "number": 530,
-          "title": "exui-4123-update keep alive interval",
-          "author": "RiteshHMCTS",
-          "url": "https://github.com/hmcts/rpx-xui-common-lib/pull/530",
-          "changesRequested": false,
-          "approvals": 1,
-          "buildSuccess": true,
-          "headSha": "ffd01a94ed9d2b423d05b26e404f2b834f108c08",
-          "createdAt": "2026-02-20T17:16:47.442Z",
-          "lastUpdated": "2026-02-20T17:16:47.631Z"
         }
       }
     }
