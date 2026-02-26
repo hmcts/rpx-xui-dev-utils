@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1772114618.560859",
-    "lastUpdated": "2026-02-26T14:03:28.079Z",
+    "lastUpdated": "2026-02-26T14:04:21.058Z",
     "approvalListMessageHash": "5a1d9a1d178b3a85038677df7abbf463cdf659ed3469e108a25236a4b999f750"
   },
   "repositories": {
@@ -854,18 +854,6 @@
           "headSha": "966563eeb28ae13cecbc79dbb3f39b6998288bac",
           "createdAt": "2026-02-26T09:23:12.240Z",
           "lastUpdated": "2026-02-26T09:23:12.335Z"
-        },
-        "2110": {
-          "number": 2110,
-          "title": "exui-3849-cve-fix (#2067)",
-          "author": "RiteshHMCTS",
-          "url": "https://github.com/hmcts/ccd-case-ui-toolkit/pull/2110",
-          "changesRequested": false,
-          "approvals": 1,
-          "buildSuccess": true,
-          "headSha": "5e8f37ec53b63839bd53d11bb7292af61bbd882b",
-          "createdAt": "2026-02-26T14:03:27.868Z",
-          "lastUpdated": "2026-02-26T14:03:28.078Z"
         }
       }
     }
