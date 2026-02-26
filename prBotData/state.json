@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1772126046.892529",
-    "lastUpdated": "2026-02-26T17:13:55.350Z",
+    "lastUpdated": "2026-02-26T17:23:08.893Z",
     "approvalListMessageHash": "85a7e51aae3e14d362e955fda46adb1b839120d276a7e96fa7ea57cb3e962ee3"
   },
   "repositories": {
@@ -890,6 +890,22 @@
           "headSha": "966563eeb28ae13cecbc79dbb3f39b6998288bac",
           "createdAt": "2026-02-26T09:23:12.240Z",
           "lastUpdated": "2026-02-26T09:23:12.335Z"
+        }
+      }
+    },
+    "hmcts/rpx-xui-node-lib": {
+      "pullRequests": {
+        "305": {
+          "number": 305,
+          "title": "tar version 7.5.9",
+          "author": "balajisridharanhmcts",
+          "url": "https://github.com/hmcts/rpx-xui-node-lib/pull/305",
+          "changesRequested": false,
+          "approvals": 0,
+          "buildSuccess": true,
+          "headSha": "edb3316c82ae5f4eda2351d91b75fe72705cbde5",
+          "createdAt": "2026-02-26T17:23:08.789Z",
+          "lastUpdated": "2026-02-26T17:23:08.893Z"
         }
       }
     }
