@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1772099510.258299",
-    "lastUpdated": "2026-02-26T09:57:48.416Z",
+    "lastUpdated": "2026-02-26T10:01:16.094Z",
     "approvalListMessageHash": "f65f9c1d5672da51fdc51937522c0cf04c479e201a0b12e676c420e070d6dbe2"
   },
   "repositories": {
@@ -354,18 +354,6 @@
           "headSha": "2b4cae88faeed251a5e3de78722a8673d92cfb83",
           "createdAt": "2026-02-26T07:04:34.905Z",
           "lastUpdated": "2026-02-26T07:04:34.994Z"
-        },
-        "4962": {
-          "number": 4962,
-          "title": "exui-4123-early-logout-issue",
-          "author": "RiteshHMCTS",
-          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/4962",
-          "changesRequested": false,
-          "approvals": 1,
-          "buildSuccess": true,
-          "headSha": "2ed751a40cc4e6635de85b976a3e4068355a8def",
-          "createdAt": "2026-02-26T09:24:51.239Z",
-          "lastUpdated": "2026-02-26T09:24:51.436Z"
         },
         "4963": {
           "number": 4963,
