@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1772192173.775179",
-    "lastUpdated": "2026-02-27T11:36:03.647Z",
+    "lastUpdated": "2026-02-27T11:42:11.758Z",
     "approvalListMessageHash": "cd76b4e42092d37cdcdafe1f0f4eedb487b95a414c0b97c12530dcdb81ea2818"
   },
   "repositories": {
@@ -646,10 +646,10 @@
           "url": "https://github.com/hmcts/rpx-xui-approve-org/pull/1005",
           "changesRequested": false,
           "approvals": 0,
-          "buildSuccess": true,
-          "headSha": "4b0fdd1b0ac21aaab7d97a8e6f7f7c92601c1e85",
+          "buildSuccess": false,
+          "headSha": "61965c9c72fb862378a140955d70e1f0344585b6",
           "createdAt": "2026-02-17T17:31:18.527Z",
-          "lastUpdated": "2026-02-25T16:50:15.193Z"
+          "lastUpdated": "2026-02-27T11:42:11.758Z"
         },
         "1006": {
           "number": 1006,
