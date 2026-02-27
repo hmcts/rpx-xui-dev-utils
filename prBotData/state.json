@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1772210665.068529",
-    "lastUpdated": "2026-02-27T16:44:14.587Z",
+    "lastUpdated": "2026-02-27T16:48:03.411Z",
     "approvalListMessageHash": "149bc01ba69f3dc50d56b13656fcb2d275749848e44d8e4ae6d01241b6fcc695"
   },
   "repositories": {
@@ -462,6 +462,18 @@
           "headSha": "aad9085682762403fe988727574af816e7be5b59",
           "createdAt": "2026-02-27T16:00:37.485Z",
           "lastUpdated": "2026-02-27T16:00:37.685Z"
+        },
+        "4984": {
+          "number": 4984,
+          "title": "Tech/ex UI 2111 role assignment batches (#4724)",
+          "author": "RiteshHMCTS",
+          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/4984",
+          "changesRequested": false,
+          "approvals": 0,
+          "buildSuccess": false,
+          "headSha": "ae18a630dd292f75b3246a5556377ee4d6d5f4cb",
+          "createdAt": "2026-02-27T16:48:03.341Z",
+          "lastUpdated": "2026-02-27T16:48:03.411Z"
         }
       }
     },
