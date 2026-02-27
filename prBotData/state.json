@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1772190957.143589",
-    "lastUpdated": "2026-02-27T11:15:45.801Z",
+    "lastUpdated": "2026-02-27T11:23:19.720Z",
     "approvalListMessageHash": "28e8913db87c7e6d344eab5a19f431bf68f18896765696d3cd52e16ee5c42daa"
   },
   "repositories": {
@@ -306,18 +306,6 @@
           "headSha": "a64a6c21c3e4b7e0707c1a1723c18889862d8a67",
           "createdAt": "2026-02-16T16:06:39.339Z",
           "lastUpdated": "2026-02-19T11:10:25.341Z"
-        },
-        "4948": {
-          "number": 4948,
-          "title": "EXUI-4115 task cancellation api tests",
-          "author": "andyg-cgi",
-          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/4948",
-          "changesRequested": false,
-          "approvals": 1,
-          "buildSuccess": true,
-          "headSha": "cc6fcc09ff98f6937870f7739638a3adb6912f4d",
-          "createdAt": "2026-02-27T11:07:29.711Z",
-          "lastUpdated": "2026-02-27T11:07:29.795Z"
         },
         "4950": {
           "number": 4950,
