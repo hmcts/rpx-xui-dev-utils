@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1772192075.684899",
-    "lastUpdated": "2026-02-27T11:34:24.588Z",
+    "lastUpdated": "2026-02-27T11:36:03.647Z",
     "approvalListMessageHash": "1470f25a664e25e1c545bb327ca6b05901182bfa93de61666d4cc3c3ca318a7c"
   },
   "repositories": {
@@ -138,18 +138,6 @@
           "headSha": "ccbb4cd00dbb0a0f45f8b45613b7237a7b190d84",
           "createdAt": "2025-12-23T11:12:08.796Z",
           "lastUpdated": "2025-12-23T11:43:17.590Z"
-        },
-        "4837": {
-          "number": 4837,
-          "title": "EXUI-3720 - Enable oidc by default",
-          "author": "Josh-HMCTS",
-          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/4837",
-          "changesRequested": false,
-          "approvals": 1,
-          "buildSuccess": true,
-          "headSha": "76d3171628584d87038ec8c1f03c2b8012121a30",
-          "createdAt": "2026-02-26T15:54:21.853Z",
-          "lastUpdated": "2026-02-26T17:32:10.468Z"
         },
         "4847": {
           "number": 4847,
