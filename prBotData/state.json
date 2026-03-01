@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1772217191.098949",
-    "lastUpdated": "2026-02-27T18:33:00.235Z",
+    "lastUpdated": "2026-03-01T22:50:51.366Z",
     "approvalListMessageHash": "ab45703c00b7666a47cfdc15f53261658cb143548aa349d570ae4e43e5eb1d7a"
   },
   "repositories": {
@@ -826,6 +826,18 @@
           "headSha": "c5c603c9121b19e2ec0e5d45ad5c62d1947e230f",
           "createdAt": "2026-02-26T01:02:32.870Z",
           "lastUpdated": "2026-02-26T01:02:33.001Z"
+        },
+        "1276": {
+          "number": 1276,
+          "title": "Update dependency @angular/core to v20.3.17 [SECURITY]",
+          "author": "renovate[bot]",
+          "url": "https://github.com/hmcts/em-media-viewer/pull/1276",
+          "changesRequested": false,
+          "approvals": 0,
+          "buildSuccess": false,
+          "headSha": "7c5a06e81eaa0bf31a3ed2ab66f7a0450200129a",
+          "createdAt": "2026-03-01T22:50:51.291Z",
+          "lastUpdated": "2026-03-01T22:50:51.366Z"
         }
       }
     },
