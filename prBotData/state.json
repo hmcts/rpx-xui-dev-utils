@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1772444188.587559",
-    "lastUpdated": "2026-03-02T09:36:18.621Z",
+    "lastUpdated": "2026-03-02T09:37:07.431Z",
     "approvalListMessageHash": "d10ecf4c3cc293962733eec873c7a6efd1ef7c2ce118ef48ff8440cd441f3ccf"
   },
   "repositories": {
@@ -453,15 +453,15 @@
         },
         "4984": {
           "number": 4984,
-          "title": "Tech/ex UI 2111 role assignment batches (#4724)",
+          "title": "SRT PR",
           "author": "RiteshHMCTS",
           "url": "https://github.com/hmcts/rpx-xui-webapp/pull/4984",
           "changesRequested": false,
-          "approvals": 0,
+          "approvals": 1,
           "buildSuccess": true,
           "headSha": "9282b96643e5cf43878f5518e17ce7d7452fe5d3",
-          "createdAt": "2026-02-27T16:48:03.341Z",
-          "lastUpdated": "2026-03-02T08:23:42.640Z"
+          "createdAt": "2026-03-02T09:37:07.326Z",
+          "lastUpdated": "2026-03-02T09:37:07.431Z"
         },
         "4985": {
           "number": 4985,
