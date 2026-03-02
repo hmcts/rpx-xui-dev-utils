@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1772458848.729869",
-    "lastUpdated": "2026-03-02T13:40:38.324Z",
+    "lastUpdated": "2026-03-02T14:09:45.967Z",
     "approvalListMessageHash": "32d3a87e0ebfe9b1e88e18ccf53edddb2ff61392c10dbeedeb95638199fce3bd"
   },
   "repositories": {
@@ -462,18 +462,6 @@
           "headSha": "9282b96643e5cf43878f5518e17ce7d7452fe5d3",
           "createdAt": "2026-03-02T09:37:07.326Z",
           "lastUpdated": "2026-03-02T09:37:07.431Z"
-        },
-        "4985": {
-          "number": 4985,
-          "title": "exui-4150-Upgrade Marked version to v17.x.x",
-          "author": "RiteshHMCTS",
-          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/4985",
-          "changesRequested": false,
-          "approvals": 1,
-          "buildSuccess": true,
-          "headSha": "d9c50094ca7b58152e1aed797f504436e1344d64",
-          "createdAt": "2026-03-02T13:40:38.259Z",
-          "lastUpdated": "2026-03-02T13:40:38.324Z"
         },
         "4986": {
           "number": 4986,
