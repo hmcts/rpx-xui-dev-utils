@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1772439834.289789",
-    "lastUpdated": "2026-03-02T08:23:42.640Z",
+    "lastUpdated": "2026-03-02T09:35:57.272Z",
     "approvalListMessageHash": "a26086192917c533126eabfe917af741f65902ba8d265b7f5f5a7fe9b2c2ef89"
   },
   "repositories": {
@@ -902,18 +902,6 @@
           "headSha": "868012eb25ba8bb3c4bb10d246365e7f49a1dc07",
           "createdAt": "2026-02-27T11:43:10.253Z",
           "lastUpdated": "2026-02-27T11:43:10.419Z"
-        },
-        "2113": {
-          "number": 2113,
-          "title": "exui 4177 media viewer version update",
-          "author": "balajisridharanhmcts",
-          "url": "https://github.com/hmcts/ccd-case-ui-toolkit/pull/2113",
-          "changesRequested": false,
-          "approvals": 1,
-          "buildSuccess": true,
-          "headSha": "7bca15976459ea0c11260cc36ad044d44a8574ef",
-          "createdAt": "2026-02-27T15:39:14.345Z",
-          "lastUpdated": "2026-02-27T15:39:14.447Z"
         }
       }
     },
