@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1772444168.304209",
-    "lastUpdated": "2026-03-02T09:35:57.272Z",
+    "lastUpdated": "2026-03-02T09:36:18.621Z",
     "approvalListMessageHash": "5982cc39c5b1bc37a4da469d909138de88b9ca9f18e78018ac359eb79056e790"
   },
   "repositories": {
@@ -450,18 +450,6 @@
           "headSha": "30ac6ac7794032cc823144ef3e991cb5ffe26baf",
           "createdAt": "2026-02-26T16:22:19.362Z",
           "lastUpdated": "2026-02-26T16:22:19.496Z"
-        },
-        "4983": {
-          "number": 4983,
-          "title": "exui-4177 toolkit mv update",
-          "author": "balajisridharanhmcts",
-          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/4983",
-          "changesRequested": false,
-          "approvals": 1,
-          "buildSuccess": true,
-          "headSha": "aad9085682762403fe988727574af816e7be5b59",
-          "createdAt": "2026-02-27T16:00:37.485Z",
-          "lastUpdated": "2026-02-27T17:44:43.928Z"
         },
         "4984": {
           "number": 4984,
