@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1772624107.269869",
-    "lastUpdated": "2026-03-04T11:34:57.298Z",
+    "lastUpdated": "2026-03-04T11:36:02.640Z",
     "approvalListMessageHash": "5471cb67b8b1586da2b88b1e2b8466555c2cc28eb4aaa51c49fb82b98940335e"
   },
   "repositories": {
@@ -378,18 +378,6 @@
           "headSha": "b69f62301e933ee59b4b670cb966ce734a715f62",
           "createdAt": "2026-02-25T11:49:47.427Z",
           "lastUpdated": "2026-02-25T12:37:13.734Z"
-        },
-        "4976": {
-          "number": 4976,
-          "title": "Ex UI 4191 security issues",
-          "author": "olusegz07",
-          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/4976",
-          "changesRequested": false,
-          "approvals": 1,
-          "buildSuccess": true,
-          "headSha": "05061b5668e3b57131df7a566ce05c3454ad3eb0",
-          "createdAt": "2026-02-26T14:15:58.030Z",
-          "lastUpdated": "2026-03-03T10:09:33.104Z"
         },
         "4978": {
           "number": 4978,
