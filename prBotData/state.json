@@ -767,18 +767,6 @@
           "createdAt": "2026-02-20T22:37:37.315Z",
           "lastUpdated": "2026-02-20T22:37:37.464Z"
         },
-        "1272": {
-          "number": 1272,
-          "title": "EXUI-4185 - Secrets/tokens logged in plaintext",
-          "author": "chrisjones-hmcts",
-          "url": "https://github.com/hmcts/em-media-viewer/pull/1272",
-          "changesRequested": false,
-          "approvals": 0,
-          "buildSuccess": true,
-          "headSha": "d80a64e7ee9269d474ab675fc9f6e016144b64ad",
-          "createdAt": "2026-02-19T16:34:16.068Z",
-          "lastUpdated": "2026-02-19T16:34:16.224Z"
-        },
         "1275": {
           "number": 1275,
           "title": "Update dependency @angular/ssr to v20.3.17 [SECURITY]",
