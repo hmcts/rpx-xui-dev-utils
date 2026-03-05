@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1772725020.583699",
-    "lastUpdated": "2026-03-05T15:39:23.504Z",
+    "lastUpdated": "2026-03-05T15:46:23.200Z",
     "approvalListMessageHash": "1d3643f84b82bab0dc9f27aaefb489d9558e76da90048dc717936301dc46aa04"
   },
   "repositories": {
@@ -378,18 +378,6 @@
           "headSha": "50d73dde5d4f617e681947d03052b3588cbecf47",
           "createdAt": "2026-02-23T18:41:33.619Z",
           "lastUpdated": "2026-02-23T18:41:33.727Z"
-        },
-        "4975": {
-          "number": 4975,
-          "title": "test pipeline",
-          "author": "nathan-clark",
-          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/4975",
-          "changesRequested": false,
-          "approvals": 0,
-          "buildSuccess": true,
-          "headSha": "b69f62301e933ee59b4b670cb966ce734a715f62",
-          "createdAt": "2026-02-25T11:49:47.427Z",
-          "lastUpdated": "2026-02-25T12:37:13.734Z"
         },
         "4978": {
           "number": 4978,
