@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1772643812.856969",
-    "lastUpdated": "2026-03-05T09:26:21.589Z",
+    "lastUpdated": "2026-03-05T10:10:21.497Z",
     "approvalListMessageHash": "e8ead9396bb598b44231fe10eaaaf81771921e22f726d5fb071355ec6723fef8"
   },
   "repositories": {
@@ -402,18 +402,6 @@
           "headSha": "fdd5f86f0d9c3e13f6cedcf45d424cefd1beb969",
           "createdAt": "2026-02-27T11:34:24.485Z",
           "lastUpdated": "2026-02-27T11:34:24.588Z"
-        },
-        "4982": {
-          "number": 4982,
-          "title": "EXUI-4215: cgi_ISSUE-001-rpx-xui-webapp-unsafe-eval-csp",
-          "author": "ben-james-hmcts",
-          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/4982",
-          "changesRequested": false,
-          "approvals": 1,
-          "buildSuccess": true,
-          "headSha": "52a8ef11a5c4861ed2a7152548be7f350c660e1e",
-          "createdAt": "2026-03-04T11:36:52.088Z",
-          "lastUpdated": "2026-03-04T11:36:52.215Z"
         },
         "4984": {
           "number": 4984,
