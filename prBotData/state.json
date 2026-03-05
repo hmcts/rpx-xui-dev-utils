@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1772705432.269769",
-    "lastUpdated": "2026-03-05T10:10:21.497Z",
+    "lastUpdated": "2026-03-05T10:16:31.079Z",
     "approvalListMessageHash": "8ba0371faf0d1aa80a3d3c327539a62620d6b08ecf6b91224b9f11d1f2b7a4d2"
   },
   "repositories": {
@@ -426,18 +426,6 @@
           "headSha": "6f9862a95fbd1aad3f0bfb601db46a65e453e145",
           "createdAt": "2026-03-02T10:43:12.408Z",
           "lastUpdated": "2026-03-02T10:43:12.499Z"
-        },
-        "4987": {
-          "number": 4987,
-          "title": "EXUI-4011",
-          "author": "Josh-HMCTS",
-          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/4987",
-          "changesRequested": false,
-          "approvals": 1,
-          "buildSuccess": true,
-          "headSha": "bbc86fc9388075858f1b2a87edf7048f3508c3de",
-          "createdAt": "2026-03-04T11:38:29.757Z",
-          "lastUpdated": "2026-03-04T11:38:29.935Z"
         }
       }
     },
