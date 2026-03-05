@@ -491,18 +491,6 @@
           "createdAt": "2026-01-29T15:53:47.458Z",
           "lastUpdated": "2026-01-29T15:53:47.529Z"
         },
-        "1479": {
-          "number": 1479,
-          "title": "EXUI-4112 MO leaking configuration data",
-          "author": "chrisjones-hmcts",
-          "url": "https://github.com/hmcts/rpx-xui-manage-organisations/pull/1479",
-          "changesRequested": false,
-          "approvals": 0,
-          "buildSuccess": true,
-          "headSha": "68b3ed051714340b1f9535c7674faf9dd721b482",
-          "createdAt": "2026-02-18T15:46:18.710Z",
-          "lastUpdated": "2026-02-18T15:46:18.782Z"
-        },
         "1482": {
           "number": 1482,
           "title": "CME-835: Reduce logging and sample health endpoints at 1%",
