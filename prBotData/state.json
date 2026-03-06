@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1772731987.435249",
-    "lastUpdated": "2026-03-05T17:32:56.606Z",
+    "lastUpdated": "2026-03-06T09:26:30.255Z",
     "approvalListMessageHash": "d96cd927bcbfe101987e438818e159eb08796447cc256751f515a849670f4175"
   },
   "repositories": {
@@ -873,15 +873,15 @@
         },
         "309": {
           "number": 309,
-          "title": "EXUI-4190 Update token validation to use IDAM introspect method",
+          "title": "fix: EXUI-4190 Update token validation to use IDAM introspect method",
           "author": "ben-james-hmcts",
           "url": "https://github.com/hmcts/rpx-xui-node-lib/pull/309",
           "changesRequested": false,
-          "approvals": 0,
+          "approvals": 1,
           "buildSuccess": true,
-          "headSha": "4a21642fba3e12d825ad554deefd411e1be977ca",
-          "createdAt": "2026-03-05T14:13:26.844Z",
-          "lastUpdated": "2026-03-05T14:13:27.029Z"
+          "headSha": "ea0b67520c0e484745f3a206b30aa6a994bdf861",
+          "createdAt": "2026-03-06T09:26:30.122Z",
+          "lastUpdated": "2026-03-06T09:26:30.255Z"
         }
       }
     }
