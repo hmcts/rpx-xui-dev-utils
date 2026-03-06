@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1772814913.395349",
-    "lastUpdated": "2026-03-06T16:35:01.687Z",
+    "lastUpdated": "2026-03-06T16:58:29.414Z",
     "approvalListMessageHash": "db680858f8a5b9f96b086fbc6957da2b8ddbf9f9cc6f2c47c946dec64662cdb4"
   },
   "repositories": {
@@ -890,18 +890,6 @@
           "headSha": "b27e3af644d79f2a0f2f7f37dcf6c9903bdbc369",
           "createdAt": "2026-03-06T13:29:52.419Z",
           "lastUpdated": "2026-03-06T13:29:52.511Z"
-        },
-        "2115": {
-          "number": 2115,
-          "title": "exui-4267-Highlight function on Bundles",
-          "author": "RiteshHMCTS",
-          "url": "https://github.com/hmcts/ccd-case-ui-toolkit/pull/2115",
-          "changesRequested": false,
-          "approvals": 0,
-          "buildSuccess": true,
-          "headSha": "30939fa68c11baa50bc6aaf74eae229857cbd94e",
-          "createdAt": "2026-03-06T16:13:03.020Z",
-          "lastUpdated": "2026-03-06T16:13:03.105Z"
         }
       }
     },
