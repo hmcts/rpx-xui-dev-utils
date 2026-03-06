@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1772813592.734199",
-    "lastUpdated": "2026-03-06T16:13:03.105Z",
+    "lastUpdated": "2026-03-06T16:35:01.687Z",
     "approvalListMessageHash": "7ec8d427069ccbcabe8900f01aa87aea0a8a6d0036d65cc194b074aa900d7fb7"
   },
   "repositories": {
@@ -821,11 +821,11 @@
           "author": "RiteshHMCTS",
           "url": "https://github.com/hmcts/em-media-viewer/pull/1279",
           "changesRequested": false,
-          "approvals": 0,
+          "approvals": 1,
           "buildSuccess": true,
           "headSha": "27afdbb1e55e8ab489edc3e6f84d0b15b3584e8b",
-          "createdAt": "2026-03-06T13:56:46.462Z",
-          "lastUpdated": "2026-03-06T15:37:09.888Z"
+          "createdAt": "2026-03-06T16:35:01.566Z",
+          "lastUpdated": "2026-03-06T16:35:01.687Z"
         }
       }
     },
