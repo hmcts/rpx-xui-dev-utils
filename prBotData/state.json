@@ -806,18 +806,6 @@
           "headSha": "966563eeb28ae13cecbc79dbb3f39b6998288bac",
           "createdAt": "2026-02-26T09:23:12.240Z",
           "lastUpdated": "2026-02-26T09:23:12.335Z"
-        },
-        "2112": {
-          "number": 2112,
-          "title": "Exui 4177 tar CVE fix",
-          "author": "balajisridharanhmcts",
-          "url": "https://github.com/hmcts/ccd-case-ui-toolkit/pull/2112",
-          "changesRequested": false,
-          "approvals": 1,
-          "buildSuccess": true,
-          "headSha": "868012eb25ba8bb3c4bb10d246365e7f49a1dc07",
-          "createdAt": "2026-02-27T11:43:10.253Z",
-          "lastUpdated": "2026-02-27T11:43:10.419Z"
         }
       }
     },
