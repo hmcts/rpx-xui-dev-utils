@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1772797532.308339",
-    "lastUpdated": "2026-03-06T13:28:59.460Z",
+    "lastUpdated": "2026-03-06T13:29:26.189Z",
     "approvalListMessageHash": "ed2490f893ae527e29fae83bacaf4ebc8e1d454f9f52daad477b9b6243febcb8"
   },
   "repositories": {
@@ -626,6 +626,18 @@
           "headSha": "c909788e3d236abd85778edbbec96b603a9b7901",
           "createdAt": "2026-03-04T14:32:15.851Z",
           "lastUpdated": "2026-03-04T14:32:15.944Z"
+        },
+        "1009": {
+          "number": 1009,
+          "title": "Chore: add codeowners",
+          "author": "gregs-cgi",
+          "url": "https://github.com/hmcts/rpx-xui-approve-org/pull/1009",
+          "changesRequested": false,
+          "approvals": 0,
+          "buildSuccess": false,
+          "headSha": "35033c97ba77b39917971d9d5fc74908ea3afb33",
+          "createdAt": "2026-03-06T13:29:26.069Z",
+          "lastUpdated": "2026-03-06T13:29:26.189Z"
         }
       }
     },
