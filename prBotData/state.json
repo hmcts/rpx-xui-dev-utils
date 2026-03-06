@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1772816760.980839",
-    "lastUpdated": "2026-03-06T17:09:39.266Z",
+    "lastUpdated": "2026-03-06T17:10:38.500Z",
     "approvalListMessageHash": "ec570b0f3920744d54b9ef13a5e5d7066253c5ab3d9e0ccb92db4efa6025f0b6"
   },
   "repositories": {
@@ -809,11 +809,11 @@
           "author": "gregs-cgi",
           "url": "https://github.com/hmcts/em-media-viewer/pull/1278",
           "changesRequested": false,
-          "approvals": 0,
+          "approvals": 1,
           "buildSuccess": false,
           "headSha": "2248a538f3d22d623b81178af39b84e263c6d91b",
-          "createdAt": "2026-03-06T13:28:27.429Z",
-          "lastUpdated": "2026-03-06T13:28:27.707Z"
+          "createdAt": "2026-03-06T17:10:38.278Z",
+          "lastUpdated": "2026-03-06T17:10:38.500Z"
         }
       }
     },
