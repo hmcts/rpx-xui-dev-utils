@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1772816320.483069",
-    "lastUpdated": "2026-03-06T16:58:29.414Z",
+    "lastUpdated": "2026-03-06T16:59:52.770Z",
     "approvalListMessageHash": "ebbdb46971c63189658bc68a2e9e01ccf7fb2093729983c04ecc5d585be7be18"
   },
   "repositories": {
@@ -814,18 +814,6 @@
           "headSha": "2248a538f3d22d623b81178af39b84e263c6d91b",
           "createdAt": "2026-03-06T13:28:27.429Z",
           "lastUpdated": "2026-03-06T13:28:27.707Z"
-        },
-        "1279": {
-          "number": 1279,
-          "title": "exui-4267-highlight-function-on-bundles",
-          "author": "RiteshHMCTS",
-          "url": "https://github.com/hmcts/em-media-viewer/pull/1279",
-          "changesRequested": false,
-          "approvals": 1,
-          "buildSuccess": true,
-          "headSha": "27afdbb1e55e8ab489edc3e6f84d0b15b3584e8b",
-          "createdAt": "2026-03-06T16:35:01.566Z",
-          "lastUpdated": "2026-03-06T16:35:01.687Z"
         }
       }
     },
