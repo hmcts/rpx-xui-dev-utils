@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1772797532.308339",
-    "lastUpdated": "2026-03-06T13:28:27.707Z",
+    "lastUpdated": "2026-03-06T13:28:59.460Z",
     "approvalListMessageHash": "ed2490f893ae527e29fae83bacaf4ebc8e1d454f9f52daad477b9b6243febcb8"
   },
   "repositories": {
@@ -490,6 +490,18 @@
           "headSha": "1446f7f8e42ecf962324838c7862e255287fc1e4",
           "createdAt": "2026-02-09T10:16:14.957Z",
           "lastUpdated": "2026-02-12T16:06:54.824Z"
+        },
+        "1492": {
+          "number": 1492,
+          "title": "chore: add codeowners",
+          "author": "gregs-cgi",
+          "url": "https://github.com/hmcts/rpx-xui-manage-organisations/pull/1492",
+          "changesRequested": false,
+          "approvals": 0,
+          "buildSuccess": false,
+          "headSha": "4cc831985d42facfc308b6a7545c7f7596ecd253",
+          "createdAt": "2026-03-06T13:28:59.252Z",
+          "lastUpdated": "2026-03-06T13:28:59.460Z"
         }
       }
     },
