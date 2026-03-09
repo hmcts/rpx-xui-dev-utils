@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1773052237.328139",
-    "lastUpdated": "2026-03-09T10:30:27.150Z",
+    "lastUpdated": "2026-03-09T10:34:26.584Z",
     "approvalListMessageHash": "be15b3411f4c2267fd81c4328ab452c32d9b082d94572f36b862220c6d37d925"
   },
   "repositories": {
@@ -866,18 +866,6 @@
           "headSha": "966563eeb28ae13cecbc79dbb3f39b6998288bac",
           "createdAt": "2026-02-26T09:23:12.240Z",
           "lastUpdated": "2026-02-26T09:23:12.335Z"
-        },
-        "2109": {
-          "number": 2109,
-          "title": "Ex UI 4192 security issue",
-          "author": "olusegz07",
-          "url": "https://github.com/hmcts/ccd-case-ui-toolkit/pull/2109",
-          "changesRequested": false,
-          "approvals": 1,
-          "buildSuccess": true,
-          "headSha": "652f3d6039722883f66b0923f486cf606f6bea36",
-          "createdAt": "2026-03-06T14:43:29.739Z",
-          "lastUpdated": "2026-03-06T14:43:29.841Z"
         },
         "2114": {
           "number": 2114,
