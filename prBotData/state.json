@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1773049410.198239",
-    "lastUpdated": "2026-03-09T09:43:18.531Z",
+    "lastUpdated": "2026-03-09T09:58:23.585Z",
     "approvalListMessageHash": "0468b13aa5da33265b67a811222e1a7c98e5aaf81b772931fafb50967cc44b5c"
   },
   "repositories": {
@@ -426,6 +426,18 @@
           "headSha": "feb814b52bcad652c39b039adb65b4ade6bd7d1c",
           "createdAt": "2026-03-06T18:57:37.363Z",
           "lastUpdated": "2026-03-06T18:57:37.429Z"
+        },
+        "4994": {
+          "number": 4994,
+          "title": "exui-4267-Highlight function on Bundles",
+          "author": "RiteshHMCTS",
+          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/4994",
+          "changesRequested": false,
+          "approvals": 0,
+          "buildSuccess": false,
+          "headSha": "0529b809e37805adeb4f3bfd9346f876ae0c0005",
+          "createdAt": "2026-03-09T09:58:23.498Z",
+          "lastUpdated": "2026-03-09T09:58:23.585Z"
         }
       }
     },
