@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1773054124.695709",
-    "lastUpdated": "2026-03-09T11:01:55.284Z",
+    "lastUpdated": "2026-03-09T11:04:17.046Z",
     "approvalListMessageHash": "7ceff5557c20cab9c4c435c49baf5bea321a4eb709e9a9eb0fd8df60569595cc"
   },
   "repositories": {
@@ -894,22 +894,6 @@
           "headSha": "edb3316c82ae5f4eda2351d91b75fe72705cbde5",
           "createdAt": "2026-02-26T17:23:08.789Z",
           "lastUpdated": "2026-02-26T17:23:08.893Z"
-        }
-      }
-    },
-    "hmcts/rpx-xui-common-lib": {
-      "pullRequests": {
-        "532": {
-          "number": 532,
-          "title": "exui-4123-sign-out-issue",
-          "author": "RiteshHMCTS",
-          "url": "https://github.com/hmcts/rpx-xui-common-lib/pull/532",
-          "changesRequested": false,
-          "approvals": 1,
-          "buildSuccess": true,
-          "headSha": "8c65ef1619f3d4e54f2e610dc135cc0646e37d38",
-          "createdAt": "2026-03-09T11:01:55.175Z",
-          "lastUpdated": "2026-03-09T11:01:55.284Z"
         }
       }
     }
