@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1773055231.978729",
-    "lastUpdated": "2026-03-09T11:20:21.836Z",
+    "lastUpdated": "2026-03-09T12:38:35.411Z",
     "approvalListMessageHash": "fe071eb681d01023ec041f392b973b00090dd852a457bbd5df4d3a2317aa555d"
   },
   "repositories": {
@@ -526,6 +526,18 @@
           "headSha": "1446f7f8e42ecf962324838c7862e255287fc1e4",
           "createdAt": "2026-02-09T10:16:14.957Z",
           "lastUpdated": "2026-02-12T16:06:54.824Z"
+        },
+        "1487": {
+          "number": 1487,
+          "title": "Exui 4177 CVE fixes",
+          "author": "balajisridharanhmcts",
+          "url": "https://github.com/hmcts/rpx-xui-manage-organisations/pull/1487",
+          "changesRequested": false,
+          "approvals": 1,
+          "buildSuccess": true,
+          "headSha": "569e81e2352804f7180440956f4082ed77878bdc",
+          "createdAt": "2026-03-09T12:38:35.126Z",
+          "lastUpdated": "2026-03-09T12:38:35.411Z"
         }
       }
     },
