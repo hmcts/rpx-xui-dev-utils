@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1772817512.179949",
-    "lastUpdated": "2026-03-09T09:17:46.363Z",
+    "lastUpdated": "2026-03-09T09:19:17.799Z",
     "approvalListMessageHash": "573379a37eff914e4e8cdee15f595109fddef4afa8b2fb08f81531ae85cbd3a1"
   },
   "repositories": {
@@ -882,22 +882,6 @@
           "headSha": "edb3316c82ae5f4eda2351d91b75fe72705cbde5",
           "createdAt": "2026-02-26T17:23:08.789Z",
           "lastUpdated": "2026-02-26T17:23:08.893Z"
-        }
-      }
-    },
-    "hmcts/rpx-xui-common-lib": {
-      "pullRequests": {
-        "531": {
-          "number": 531,
-          "title": "Chore: add codeowners",
-          "author": "gregs-cgi",
-          "url": "https://github.com/hmcts/rpx-xui-common-lib/pull/531",
-          "changesRequested": false,
-          "approvals": 1,
-          "buildSuccess": true,
-          "headSha": "f368565824d9f7e6d78f88a9451d562046f581d3",
-          "createdAt": "2026-03-06T17:04:29.513Z",
-          "lastUpdated": "2026-03-06T17:04:29.719Z"
         }
       }
     }
