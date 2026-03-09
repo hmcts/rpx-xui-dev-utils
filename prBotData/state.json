@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1773062434.443989",
-    "lastUpdated": "2026-03-09T13:27:15.938Z",
+    "lastUpdated": "2026-03-09T13:30:43.568Z",
     "approvalListMessageHash": "bbdc8458df9e50dbdfe9251bc4816ce54888c650067d2066aac12a3c7527193d"
   },
   "repositories": {
@@ -306,6 +306,18 @@
           "headSha": "8d60402d6e8687714cf73f3e52c3220744e0200f",
           "createdAt": "2026-02-18T15:16:05.865Z",
           "lastUpdated": "2026-02-18T15:16:05.946Z"
+        },
+        "4960": {
+          "number": 4960,
+          "title": "Exui 4177 CVE fixes",
+          "author": "balajisridharanhmcts",
+          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/4960",
+          "changesRequested": false,
+          "approvals": 1,
+          "buildSuccess": true,
+          "headSha": "bcc6b494c024b93302579d0d5b675c945d0fdb37",
+          "createdAt": "2026-03-09T13:30:43.431Z",
+          "lastUpdated": "2026-03-09T13:30:43.568Z"
         },
         "4966": {
           "number": 4966,
