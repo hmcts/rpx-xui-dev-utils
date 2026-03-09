@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1773069106.614369",
-    "lastUpdated": "2026-03-09T15:11:35.431Z",
+    "lastUpdated": "2026-03-09T16:11:12.030Z",
     "approvalListMessageHash": "c5e9218e65b847435f289f82e468ea540ec707dd82199ac04cee4313f22ec035"
   },
   "repositories": {
@@ -866,6 +866,18 @@
           "headSha": "b27e3af644d79f2a0f2f7f37dcf6c9903bdbc369",
           "createdAt": "2026-03-06T17:05:51.345Z",
           "lastUpdated": "2026-03-06T17:05:51.478Z"
+        },
+        "2117": {
+          "number": 2117,
+          "title": "pofcc-78 - removing focus for added radio buttons to prevent early validation.",
+          "author": "anthonydummer",
+          "url": "https://github.com/hmcts/ccd-case-ui-toolkit/pull/2117",
+          "changesRequested": false,
+          "approvals": 0,
+          "buildSuccess": true,
+          "headSha": "256305070d955c47e58b1bbd4f95c5133a1a8418",
+          "createdAt": "2026-03-09T16:11:11.840Z",
+          "lastUpdated": "2026-03-09T16:11:12.030Z"
         }
       }
     },
