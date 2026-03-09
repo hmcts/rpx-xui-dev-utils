@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1773059926.945519",
-    "lastUpdated": "2026-03-09T12:38:55.062Z",
+    "lastUpdated": "2026-03-09T12:39:47.029Z",
     "approvalListMessageHash": "65206c86c193fc3060d98a82c37e41afddcf32fd14332b5e26e2f4382323931d"
   },
   "repositories": {
@@ -638,18 +638,6 @@
           "headSha": "62c689c903568e017402e56db3e5687c5a7d5d82",
           "createdAt": "2026-02-05T13:18:11.742Z",
           "lastUpdated": "2026-02-05T13:18:11.927Z"
-        },
-        "1005": {
-          "number": 1005,
-          "title": "exui 4711 cve fixes",
-          "author": "balajisridharanhmcts",
-          "url": "https://github.com/hmcts/rpx-xui-approve-org/pull/1005",
-          "changesRequested": false,
-          "approvals": 1,
-          "buildSuccess": false,
-          "headSha": "eee4fff5a42a9e0c45a7caef86d394a625dbd6e2",
-          "createdAt": "2026-03-09T12:38:54.937Z",
-          "lastUpdated": "2026-03-09T12:38:55.062Z"
         },
         "1007": {
           "number": 1007,
