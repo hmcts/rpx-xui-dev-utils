@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1773062434.443989",
-    "lastUpdated": "2026-03-09T13:20:21.913Z",
+    "lastUpdated": "2026-03-09T13:27:15.938Z",
     "approvalListMessageHash": "bbdc8458df9e50dbdfe9251bc4816ce54888c650067d2066aac12a3c7527193d"
   },
   "repositories": {
@@ -306,18 +306,6 @@
           "headSha": "8d60402d6e8687714cf73f3e52c3220744e0200f",
           "createdAt": "2026-02-18T15:16:05.865Z",
           "lastUpdated": "2026-02-18T15:16:05.946Z"
-        },
-        "4964": {
-          "number": 4964,
-          "title": "added httpOnly and secure tags to cookieUserId and cookieToken cookies",
-          "author": "ben-james-hmcts",
-          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/4964",
-          "changesRequested": false,
-          "approvals": 1,
-          "buildSuccess": false,
-          "headSha": "7afe14b7a389034a61200f89e947219620a6818e",
-          "createdAt": "2026-03-09T10:38:07.014Z",
-          "lastUpdated": "2026-03-09T13:20:21.913Z"
         },
         "4966": {
           "number": 4966,
