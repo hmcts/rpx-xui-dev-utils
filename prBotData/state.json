@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1773138787.130539",
-    "lastUpdated": "2026-03-10T10:32:57.131Z",
+    "lastUpdated": "2026-03-10T10:36:22.267Z",
     "approvalListMessageHash": "2b06c7707d09e5e765e23711f6e5bbc0a86637f2232a169505b4b33fac3ca021"
   },
   "repositories": {
@@ -614,6 +614,18 @@
           "headSha": "62c689c903568e017402e56db3e5687c5a7d5d82",
           "createdAt": "2026-02-05T13:18:11.742Z",
           "lastUpdated": "2026-02-05T13:18:11.927Z"
+        },
+        "1006": {
+          "number": 1006,
+          "title": "EXUI-4113 AO leaking configuration data",
+          "author": "chrisjones-hmcts",
+          "url": "https://github.com/hmcts/rpx-xui-approve-org/pull/1006",
+          "changesRequested": false,
+          "approvals": 1,
+          "buildSuccess": true,
+          "headSha": "53a695a1bc89428796bdddab7858811293e4f1cb",
+          "createdAt": "2026-03-10T10:36:22.062Z",
+          "lastUpdated": "2026-03-10T10:36:22.267Z"
         },
         "1007": {
           "number": 1007,
