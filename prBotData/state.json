@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1773161792.154109",
-    "lastUpdated": "2026-03-10T16:56:21.121Z",
+    "lastUpdated": "2026-03-10T17:07:31.569Z",
     "approvalListMessageHash": "19df86ecc2d28ca85fc322a14830260156865ae8f7d340b2b3ed66ccdb6d711b"
   },
   "repositories": {
@@ -66,6 +66,18 @@
           "headSha": "e0f72a3ff28d98a22fa7dcb779ce6274d5622f90",
           "createdAt": "2025-11-18T09:48:02.824Z",
           "lastUpdated": "2025-11-18T09:48:03.001Z"
+        },
+        "4760": {
+          "number": 4760,
+          "title": "exui 2657 typescript upgrade",
+          "author": "balajisridharanhmcts",
+          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/4760",
+          "changesRequested": false,
+          "approvals": 1,
+          "buildSuccess": true,
+          "headSha": "65b0828dbd1024a2ec27cb345dcaf095b74a6ded",
+          "createdAt": "2026-03-10T17:07:31.445Z",
+          "lastUpdated": "2026-03-10T17:07:31.569Z"
         },
         "4792": {
           "number": 4792,
