@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1773138993.573409",
-    "lastUpdated": "2026-03-10T10:36:22.267Z",
+    "lastUpdated": "2026-03-10T10:37:23.260Z",
     "approvalListMessageHash": "23e5218c5116b1aab22ab9305af1ce7b04fee9bf79694775a30890d9df19f250"
   },
   "repositories": {
@@ -502,6 +502,18 @@
           "headSha": "284cc904b2ffb71635ecd0b175635e246c37386c",
           "createdAt": "2026-01-29T15:53:47.458Z",
           "lastUpdated": "2026-01-29T15:53:47.529Z"
+        },
+        "1479": {
+          "number": 1479,
+          "title": "EXUI-4112 MO leaking configuration data",
+          "author": "chrisjones-hmcts",
+          "url": "https://github.com/hmcts/rpx-xui-manage-organisations/pull/1479",
+          "changesRequested": false,
+          "approvals": 1,
+          "buildSuccess": false,
+          "headSha": "7350aab8e0dd2c5eedb4d5bdf5e31974b1f784e6",
+          "createdAt": "2026-03-10T10:37:23.186Z",
+          "lastUpdated": "2026-03-10T10:37:23.260Z"
         },
         "1482": {
           "number": 1482,
