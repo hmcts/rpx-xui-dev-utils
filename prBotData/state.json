@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1773225883.982849",
-    "lastUpdated": "2026-03-11T10:44:32.864Z",
+    "lastUpdated": "2026-03-11T11:09:21.215Z",
     "approvalListMessageHash": "4f68be99c8f4f574395197f1ff1c4800786699c74760f923813e155fef00ebd2"
   },
   "repositories": {
@@ -443,6 +443,18 @@
     },
     "hmcts/rpx-xui-manage-organisations": {
       "pullRequests": {
+        "1423": {
+          "number": 1423,
+          "title": "remove LD flag",
+          "author": "olusegz07",
+          "url": "https://github.com/hmcts/rpx-xui-manage-organisations/pull/1423",
+          "changesRequested": false,
+          "approvals": 1,
+          "buildSuccess": true,
+          "headSha": "7ca6cb0ce115454f85264b640e436e6cd7f81e89",
+          "createdAt": "2026-03-11T11:09:21.108Z",
+          "lastUpdated": "2026-03-11T11:09:21.215Z"
+        },
         "1432": {
           "number": 1432,
           "title": "Revert common pipeline change",
