@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1773241655.836629",
-    "lastUpdated": "2026-03-11T15:07:24.343Z",
+    "lastUpdated": "2026-03-11T15:40:40.360Z",
     "approvalListMessageHash": "fb467fd6130972e842ee8e85d7b8ab13fed357d237c80736c3dd66a0a7bf21e3"
   },
   "repositories": {
@@ -462,18 +462,6 @@
           "headSha": "3a915668e6965d10240c8122c47ef6d036dc9c62",
           "createdAt": "2026-03-11T13:41:09.918Z",
           "lastUpdated": "2026-03-11T13:41:10.082Z"
-        },
-        "5002": {
-          "number": 5002,
-          "title": "Testing pr pipeline",
-          "author": "nathan-clark",
-          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/5002",
-          "changesRequested": false,
-          "approvals": 1,
-          "buildSuccess": true,
-          "headSha": "eaae0c4f95ac6746f137fe6a4a8c37f8302e7897",
-          "createdAt": "2026-03-11T14:32:28.240Z",
-          "lastUpdated": "2026-03-11T15:07:24.343Z"
         },
         "5003": {
           "number": 5003,
