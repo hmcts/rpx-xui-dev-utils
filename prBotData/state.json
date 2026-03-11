@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1773232519.549809",
-    "lastUpdated": "2026-03-11T12:35:09.205Z",
+    "lastUpdated": "2026-03-11T12:38:42.881Z",
     "approvalListMessageHash": "d40df900b267a8b54606cc5b76810ac495a724e9cbb34001ef390f7e33131662"
   },
   "repositories": {
@@ -138,18 +138,6 @@
           "headSha": "ccbb4cd00dbb0a0f45f8b45613b7237a7b190d84",
           "createdAt": "2025-12-23T11:12:08.796Z",
           "lastUpdated": "2025-12-23T11:43:17.590Z"
-        },
-        "4828": {
-          "number": 4828,
-          "title": "EXUI-3964 - Add ternary operator changes",
-          "author": "connorpgpmcelroy",
-          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/4828",
-          "changesRequested": false,
-          "approvals": 1,
-          "buildSuccess": true,
-          "headSha": "b20c2179f324f6c45a7335037592e4994a0725e2",
-          "createdAt": "2026-03-11T12:35:08.876Z",
-          "lastUpdated": "2026-03-11T12:35:09.205Z"
         },
         "4830": {
           "number": 4830,
