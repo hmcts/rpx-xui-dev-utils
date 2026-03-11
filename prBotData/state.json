@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1773244445.055319",
-    "lastUpdated": "2026-03-11T16:04:04.967Z",
+    "lastUpdated": "2026-03-11T16:11:14.870Z",
     "approvalListMessageHash": "cd29c8c6e3976672cddf27b21782a88d67d9ff009bbd30fa63a1e29c9efc42aa"
   },
   "repositories": {
@@ -426,6 +426,18 @@
           "headSha": "b4e2a428cb7baba37f0a337d21ee8a195c4365c0",
           "createdAt": "2026-03-10T12:08:48.708Z",
           "lastUpdated": "2026-03-10T12:08:48.846Z"
+        },
+        "4998": {
+          "number": 4998,
+          "title": "chore(ci): tighten Jenkins tag filter guidance and reduce parallel test load EXUI-4306",
+          "author": "andyg-cgi",
+          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/4998",
+          "changesRequested": false,
+          "approvals": 1,
+          "buildSuccess": true,
+          "headSha": "1cb1b8d55b6b8304ccf4a439cfd995283bbd3417",
+          "createdAt": "2026-03-11T16:11:14.709Z",
+          "lastUpdated": "2026-03-11T16:11:14.870Z"
         },
         "5000": {
           "number": 5000,
