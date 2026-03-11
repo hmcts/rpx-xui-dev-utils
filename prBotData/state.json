@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1773244445.055319",
-    "lastUpdated": "2026-03-11T15:59:48.670Z",
+    "lastUpdated": "2026-03-11T16:04:04.967Z",
     "approvalListMessageHash": "cd29c8c6e3976672cddf27b21782a88d67d9ff009bbd30fa63a1e29c9efc42aa"
   },
   "repositories": {
@@ -462,18 +462,6 @@
           "headSha": "379e35c6da81347feaa191f7df1a16328baf05b8",
           "createdAt": "2026-03-11T14:28:14.696Z",
           "lastUpdated": "2026-03-11T14:28:15.134Z"
-        },
-        "5004": {
-          "number": 5004,
-          "title": "[Chore] Update renovate.json",
-          "author": "nathan-clark",
-          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/5004",
-          "changesRequested": false,
-          "approvals": 0,
-          "buildSuccess": false,
-          "headSha": "7490a120a7b9b50896bebdd6f927f92284119ba6",
-          "createdAt": "2026-03-11T15:59:48.548Z",
-          "lastUpdated": "2026-03-11T15:59:48.670Z"
         }
       }
     },
