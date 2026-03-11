@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1773237276.201939",
-    "lastUpdated": "2026-03-11T14:11:24.563Z",
+    "lastUpdated": "2026-03-11T14:28:15.134Z",
     "approvalListMessageHash": "7b83250c3654ed2be3cccc7f40eff71102987ff8f2bc12828c1f5dd7b531f94a"
   },
   "repositories": {
@@ -474,6 +474,18 @@
           "headSha": "c6b5c22263ce3e8aa2f3e2eb16c1116c43bce03a",
           "createdAt": "2026-03-11T14:11:24.375Z",
           "lastUpdated": "2026-03-11T14:11:24.563Z"
+        },
+        "5003": {
+          "number": 5003,
+          "title": "Chore: disable pact tests, pending EXUI-4012, EXUI-4013, EXUI-4014, EXUI-4015",
+          "author": "gregs-cgi",
+          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/5003",
+          "changesRequested": false,
+          "approvals": 0,
+          "buildSuccess": false,
+          "headSha": "379e35c6da81347feaa191f7df1a16328baf05b8",
+          "createdAt": "2026-03-11T14:28:14.696Z",
+          "lastUpdated": "2026-03-11T14:28:15.134Z"
         }
       }
     },
