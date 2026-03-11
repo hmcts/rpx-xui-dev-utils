@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1773249763.518129",
-    "lastUpdated": "2026-03-11T17:22:32.291Z",
+    "lastUpdated": "2026-03-11T18:11:39.373Z",
     "approvalListMessageHash": "dd1db66a9028b537aee8ec02b094aebc7e53f5a9b9af32a85c4591ea9a12e986"
   },
   "repositories": {
@@ -410,10 +410,10 @@
           "url": "https://github.com/hmcts/rpx-xui-webapp/pull/4993",
           "changesRequested": false,
           "approvals": 0,
-          "buildSuccess": false,
-          "headSha": "415f0857918211e7cea4073512787a8d463293e5",
+          "buildSuccess": true,
+          "headSha": "c2f788cc27e6746996068806708217c4a874fce7",
           "createdAt": "2026-03-06T18:57:37.363Z",
-          "lastUpdated": "2026-03-10T15:38:24.857Z"
+          "lastUpdated": "2026-03-11T18:11:39.373Z"
         },
         "4996": {
           "number": 4996,
