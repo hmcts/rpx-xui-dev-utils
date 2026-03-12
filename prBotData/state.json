@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1773322632.671619",
-    "lastUpdated": "2026-03-12T13:37:46.361Z",
+    "lastUpdated": "2026-03-12T13:38:28.594Z",
     "approvalListMessageHash": "7623093c1316c4065bca11bc28d71053f7a0713731ea24e669c646152e656e38"
   },
   "repositories": {
@@ -486,18 +486,6 @@
           "headSha": "379e35c6da81347feaa191f7df1a16328baf05b8",
           "createdAt": "2026-03-11T14:28:14.696Z",
           "lastUpdated": "2026-03-11T14:28:15.134Z"
-        },
-        "5005": {
-          "number": 5005,
-          "title": "Cme 767 org reports",
-          "author": "AntonyLeons",
-          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/5005",
-          "changesRequested": false,
-          "approvals": 0,
-          "buildSuccess": false,
-          "headSha": "54c6eb0923379abbe5fe294661057ee8f1ea7321",
-          "createdAt": "2026-03-11T16:55:16.120Z",
-          "lastUpdated": "2026-03-11T16:55:16.210Z"
         },
         "5006": {
           "number": 5006,
