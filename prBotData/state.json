@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": null,
-    "lastUpdated": "2026-03-12T12:10:52.797Z",
+    "lastUpdated": "2026-03-12T12:11:05.841Z",
     "approvalListMessageHash": null
   },
   "repositories": {
@@ -662,18 +662,6 @@
           "headSha": "251dfbe54a6967cd01ddc76aa0f3afa8c270f4ed",
           "createdAt": "2026-01-29T13:43:07.148Z",
           "lastUpdated": "2026-01-29T13:43:07.222Z"
-        },
-        "993": {
-          "number": 993,
-          "title": "EXUI-4086 - remove dependency-check.yml",
-          "author": "chrisjones-hmcts",
-          "url": "https://github.com/hmcts/rpx-xui-approve-org/pull/993",
-          "changesRequested": false,
-          "approvals": 1,
-          "buildSuccess": true,
-          "headSha": "17d1f1c6bc4247aa7a7830a4752eea241f1eae1c",
-          "createdAt": "2026-03-12T11:40:01.992Z",
-          "lastUpdated": "2026-03-12T11:40:02.171Z"
         },
         "994": {
           "number": 994,
