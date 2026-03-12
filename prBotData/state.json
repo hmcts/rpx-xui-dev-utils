@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1773322632.671619",
-    "lastUpdated": "2026-03-12T13:38:28.594Z",
+    "lastUpdated": "2026-03-12T13:41:45.308Z",
     "approvalListMessageHash": "7623093c1316c4065bca11bc28d71053f7a0713731ea24e669c646152e656e38"
   },
   "repositories": {
@@ -417,15 +417,15 @@
         },
         "4993": {
           "number": 4993,
-          "title": "Test/ex UI 4095 int my work tasks",
+          "title": "EXUI-4095 my work tasks integration tests",
           "author": "danH-test",
           "url": "https://github.com/hmcts/rpx-xui-webapp/pull/4993",
           "changesRequested": false,
           "approvals": 0,
           "buildSuccess": true,
-          "headSha": "7fae8bfa8cd40a8df1db846156f8446bd67a72be",
-          "createdAt": "2026-03-06T18:57:37.363Z",
-          "lastUpdated": "2026-03-11T20:43:19.376Z"
+          "headSha": "4b18bf29b78ad7c1fe463997d4f5a8bdeb53f451",
+          "createdAt": "2026-03-12T13:41:45.171Z",
+          "lastUpdated": "2026-03-12T13:41:45.308Z"
         },
         "4996": {
           "number": 4996,
