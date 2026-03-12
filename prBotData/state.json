@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1773335379.147949",
-    "lastUpdated": "2026-03-12T17:09:27.798Z",
+    "lastUpdated": "2026-03-12T17:11:02.546Z",
     "approvalListMessageHash": "86840726596ac7eb5886c0da5d86998927fab2e6de068c741931f5d5582a823e"
   },
   "repositories": {
@@ -492,12 +492,12 @@
           "title": "cot-1134",
           "author": "anthonydummer",
           "url": "https://github.com/hmcts/rpx-xui-webapp/pull/5006",
-          "changesRequested": true,
-          "approvals": 0,
+          "changesRequested": false,
+          "approvals": 1,
           "buildSuccess": false,
           "headSha": "3df375ece1c8dab40cb2a7130948019245917603",
-          "createdAt": "2026-03-12T11:23:49.329Z",
-          "lastUpdated": "2026-03-12T17:09:27.798Z"
+          "createdAt": "2026-03-12T17:11:02.283Z",
+          "lastUpdated": "2026-03-12T17:11:02.546Z"
         },
         "5009": {
           "number": 5009,
