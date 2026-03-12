@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1773311732.405299",
-    "lastUpdated": "2026-03-12T10:35:22.790Z",
+    "lastUpdated": "2026-03-12T10:38:22.227Z",
     "approvalListMessageHash": "e1f8ba1a49204c2788e03a82d3b203e3dddb2bf0ebe597990bccbff1cf778d8c"
   },
   "repositories": {
@@ -510,18 +510,6 @@
           "headSha": "ebc71b887dcd74237328750e016c72cd0110a0d1",
           "createdAt": "2026-03-12T09:31:35.873Z",
           "lastUpdated": "2026-03-12T09:31:36.094Z"
-        },
-        "5007": {
-          "number": 5007,
-          "title": "EXUI-4306 add Playwright tag filters and Jenkins worker controls",
-          "author": "andyg-cgi",
-          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/5007",
-          "changesRequested": false,
-          "approvals": 1,
-          "buildSuccess": true,
-          "headSha": "68c7d13873c6a3588a5ecac6a25b593fc0f07583",
-          "createdAt": "2026-03-12T10:35:22.706Z",
-          "lastUpdated": "2026-03-12T10:35:22.790Z"
         }
       }
     },
