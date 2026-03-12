@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1773318840.677099",
-    "lastUpdated": "2026-03-12T12:33:49.326Z",
+    "lastUpdated": "2026-03-12T12:44:29.950Z",
     "approvalListMessageHash": "4ecfe26be4ff9b8d8032b4302ede6f605fd5e59786324582bdf1d9fdf3305326"
   },
   "repositories": {
@@ -903,6 +903,18 @@
     },
     "hmcts/ccd-case-ui-toolkit": {
       "pullRequests": {
+        "2078": {
+          "number": 2078,
+          "title": "EXUI-3951 - Remove @hmcts/frontend, refactor mq queries",
+          "author": "Josh-HMCTS",
+          "url": "https://github.com/hmcts/ccd-case-ui-toolkit/pull/2078",
+          "changesRequested": false,
+          "approvals": 1,
+          "buildSuccess": true,
+          "headSha": "cdb1f0989790975b98a1529a223339f303a86837",
+          "createdAt": "2026-03-12T12:44:29.821Z",
+          "lastUpdated": "2026-03-12T12:44:29.950Z"
+        },
         "2096": {
           "number": 2096,
           "title": "pofcc-10 - Update to error processing to fix linking within complex fields.",
