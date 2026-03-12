@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1773322301.889189",
-    "lastUpdated": "2026-03-12T13:31:31.596Z",
+    "lastUpdated": "2026-03-12T13:37:02.355Z",
     "approvalListMessageHash": "f448f6b22e87fc44d16a51d77d7a910e4e6944b6e0d2aa965286aa5a68a962a7"
   },
   "repositories": {
@@ -950,6 +950,18 @@
           "headSha": "734e1ea2f8712599a3f47023f089dd7b7086f9d1",
           "createdAt": "2026-03-11T15:49:12.895Z",
           "lastUpdated": "2026-03-11T15:49:13.157Z"
+        },
+        "2118": {
+          "number": 2118,
+          "title": "Ex UI 3906 remove unsed packages",
+          "author": "olusegz07",
+          "url": "https://github.com/hmcts/ccd-case-ui-toolkit/pull/2118",
+          "changesRequested": false,
+          "approvals": 0,
+          "buildSuccess": true,
+          "headSha": "8895881213fb859347098d61661cf32bc42fa4e3",
+          "createdAt": "2026-03-12T13:37:02.263Z",
+          "lastUpdated": "2026-03-12T13:37:02.355Z"
         }
       }
     },
