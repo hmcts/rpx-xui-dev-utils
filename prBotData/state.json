@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1773389870.758629",
-    "lastUpdated": "2026-03-13T08:17:39.798Z",
+    "lastUpdated": "2026-03-13T09:22:04.817Z",
     "approvalListMessageHash": "824ff6a40fd5dbaf958c0d3578d69d061170e34c743ef28cedbaa25f3914b71b"
   },
   "repositories": {
@@ -498,18 +498,6 @@
           "headSha": "83858a82bca0ad8283c9bc823e5cd44aac351b30",
           "createdAt": "2026-03-12T13:42:39.102Z",
           "lastUpdated": "2026-03-12T13:42:39.199Z"
-        },
-        "5011": {
-          "number": 5011,
-          "title": "EXUI-4125 test(hearing): migrate CR84 hearings access coverage to playwright integration",
-          "author": "andyg-cgi",
-          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/5011",
-          "changesRequested": false,
-          "approvals": 1,
-          "buildSuccess": true,
-          "headSha": "2e8eace3946ead7e1a1493a29e49c2f360c232e9",
-          "createdAt": "2026-03-13T07:52:20.935Z",
-          "lastUpdated": "2026-03-13T08:17:39.798Z"
         }
       }
     },
