@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1773415743.222769",
-    "lastUpdated": "2026-03-13T15:31:42.130Z",
+    "lastUpdated": "2026-03-13T15:39:35.312Z",
     "approvalListMessageHash": "a08e3e00f32150ab157bc2eac20281715fae83a088d81a9276cf59f0960f123a"
   },
   "repositories": {
@@ -586,6 +586,18 @@
           "headSha": "a28b3ee3cd1d4dff7edfb479da77aa2f1bfe5823",
           "createdAt": "2026-03-12T17:31:56.639Z",
           "lastUpdated": "2026-03-13T12:15:04.002Z"
+        },
+        "1495": {
+          "number": 1495,
+          "title": "Bug: set auth cookie to httponly",
+          "author": "gregs-cgi",
+          "url": "https://github.com/hmcts/rpx-xui-manage-organisations/pull/1495",
+          "changesRequested": false,
+          "approvals": 0,
+          "buildSuccess": false,
+          "headSha": "db653b29620ed879fa7c535fb95cd1ff366624ce",
+          "createdAt": "2026-03-13T15:39:35.170Z",
+          "lastUpdated": "2026-03-13T15:39:35.312Z"
         }
       }
     },
