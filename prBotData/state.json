@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1773416525.580879",
-    "lastUpdated": "2026-03-13T15:41:55.684Z",
+    "lastUpdated": "2026-03-13T15:52:26.333Z",
     "approvalListMessageHash": "ea037a3d9e6215c1cb682e13c5dc00b78661f87145fb6a62cd831a2d071343a9"
   },
   "repositories": {
@@ -294,18 +294,6 @@
           "headSha": "8d60402d6e8687714cf73f3e52c3220744e0200f",
           "createdAt": "2026-02-18T15:16:05.865Z",
           "lastUpdated": "2026-02-18T15:16:05.946Z"
-        },
-        "4963": {
-          "number": 4963,
-          "title": "EXUI-4114 MC leaking config",
-          "author": "chrisjones-hmcts",
-          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/4963",
-          "changesRequested": false,
-          "approvals": 1,
-          "buildSuccess": true,
-          "headSha": "f0705f7341ddd1bc7487395e86d1a2c974a22866",
-          "createdAt": "2026-03-12T16:54:21.147Z",
-          "lastUpdated": "2026-03-12T17:13:03.880Z"
         },
         "4966": {
           "number": 4966,
