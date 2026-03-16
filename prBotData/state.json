@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1773668546.159829",
-    "lastUpdated": "2026-03-16T13:42:24.813Z",
+    "lastUpdated": "2026-03-16T13:42:30.825Z",
     "approvalListMessageHash": "67d9121f14297cc2d953f98896a1120b570ad5ae238ee8018c8d87e1a5080cba"
   },
   "repositories": {
@@ -922,18 +922,6 @@
           "headSha": "06d1ea57aeba493809d6d56600570a5f5f50163c",
           "createdAt": "2026-03-02T20:09:11.786Z",
           "lastUpdated": "2026-03-02T20:09:11.952Z"
-        },
-        "1278": {
-          "number": 1278,
-          "title": "Chore: add codeowners",
-          "author": "gregs-cgi",
-          "url": "https://github.com/hmcts/em-media-viewer/pull/1278",
-          "changesRequested": false,
-          "approvals": 1,
-          "buildSuccess": true,
-          "headSha": "3930dea8c1e3b68ce8674604eab0d46c58efefa5",
-          "createdAt": "2026-03-06T17:10:38.278Z",
-          "lastUpdated": "2026-03-16T12:54:49.379Z"
         },
         "1281": {
           "number": 1281,
