@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1773672147.355759",
-    "lastUpdated": "2026-03-16T14:43:12.410Z",
+    "lastUpdated": "2026-03-16T14:44:21.256Z",
     "approvalListMessageHash": "d162b710150a9408a992e9d46225b4f3a1ee41c3a4a7d6ca922cb05c3f600c5e"
   },
   "repositories": {
@@ -938,18 +938,6 @@
           "headSha": "d647fa00c7059141932fa3c8b56db70731925045",
           "createdAt": "2026-03-16T14:41:53.871Z",
           "lastUpdated": "2026-03-16T14:41:54.026Z"
-        },
-        "2120": {
-          "number": 2120,
-          "title": "EXUI-4090 - Case Flags: Ordering logic changes",
-          "author": "chrisjones-hmcts",
-          "url": "https://github.com/hmcts/ccd-case-ui-toolkit/pull/2120",
-          "changesRequested": false,
-          "approvals": 1,
-          "buildSuccess": true,
-          "headSha": "531a150ad3d63511a7a92ff04a473b81c7c94de4",
-          "createdAt": "2026-03-16T12:36:01.213Z",
-          "lastUpdated": "2026-03-16T12:36:01.415Z"
         },
         "2121": {
           "number": 2121,
