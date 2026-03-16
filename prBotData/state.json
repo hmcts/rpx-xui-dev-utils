@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1773668281.668039",
-    "lastUpdated": "2026-03-16T13:37:51.278Z",
+    "lastUpdated": "2026-03-16T13:42:13.961Z",
     "approvalListMessageHash": "fb6f761be403871f54c39787fb1ed283eb44f3c04890a26fec3bcc0db4564c00"
   },
   "repositories": {
@@ -986,6 +986,18 @@
           "headSha": "966563eeb28ae13cecbc79dbb3f39b6998288bac",
           "createdAt": "2026-02-26T09:23:12.240Z",
           "lastUpdated": "2026-02-26T09:23:12.335Z"
+        },
+        "2114": {
+          "number": 2114,
+          "title": "Chore: add codeowners",
+          "author": "gregs-cgi",
+          "url": "https://github.com/hmcts/ccd-case-ui-toolkit/pull/2114",
+          "changesRequested": false,
+          "approvals": 1,
+          "buildSuccess": true,
+          "headSha": "6eebb1760d6952a285ac2829381858085bba741d",
+          "createdAt": "2026-03-16T13:42:13.734Z",
+          "lastUpdated": "2026-03-16T13:42:13.961Z"
         },
         "2117": {
           "number": 2117,
