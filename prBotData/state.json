@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1773653593.401679",
-    "lastUpdated": "2026-03-16T09:50:24.133Z",
+    "lastUpdated": "2026-03-16T10:00:15.695Z",
     "approvalListMessageHash": "b0b66b79304b34ae71c2a183698af0014dbe5d9096cb0bdea305eeb4d5522c69"
   },
   "repositories": {
@@ -486,18 +486,6 @@
           "headSha": "25bf688c64a758292ce0025286c1df167292a87b",
           "createdAt": "2026-03-13T11:35:10.267Z",
           "lastUpdated": "2026-03-13T11:35:10.509Z"
-        },
-        "5015": {
-          "number": 5015,
-          "title": "EXUI-4332-Resolve workers for the master pipeline down to 2",
-          "author": "danH-test",
-          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/5015",
-          "changesRequested": false,
-          "approvals": 1,
-          "buildSuccess": false,
-          "headSha": "ceee505497d0af64397ff0b4056a2dc9d1479d50",
-          "createdAt": "2026-03-16T09:50:24.056Z",
-          "lastUpdated": "2026-03-16T09:50:24.133Z"
         }
       }
     },
