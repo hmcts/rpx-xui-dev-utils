@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1773653593.401679",
-    "lastUpdated": "2026-03-16T10:21:50.383Z",
+    "lastUpdated": "2026-03-16T10:29:48.216Z",
     "approvalListMessageHash": "b0b66b79304b34ae71c2a183698af0014dbe5d9096cb0bdea305eeb4d5522c69"
   },
   "repositories": {
@@ -378,6 +378,18 @@
           "headSha": "6f9862a95fbd1aad3f0bfb601db46a65e453e145",
           "createdAt": "2026-03-02T10:43:12.408Z",
           "lastUpdated": "2026-03-02T10:43:12.499Z"
+        },
+        "4989": {
+          "number": 4989,
+          "title": "Test/ex UI 4261 dynamic users",
+          "author": "andyg-cgi",
+          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/4989",
+          "changesRequested": false,
+          "approvals": 1,
+          "buildSuccess": false,
+          "headSha": "7ec769735ad24c0030d5e5fccdbe9cfe1d1c6b24",
+          "createdAt": "2026-03-16T10:29:48.094Z",
+          "lastUpdated": "2026-03-16T10:29:48.216Z"
         },
         "4992": {
           "number": 4992,
