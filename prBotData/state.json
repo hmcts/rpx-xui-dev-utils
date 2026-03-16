@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1773682430.499799",
-    "lastUpdated": "2026-03-16T17:33:38.907Z",
+    "lastUpdated": "2026-03-16T20:26:57.386Z",
     "approvalListMessageHash": "aca4af927e8b91d656dd78a203a30f4d33245c7bd0b783e6581bb1e1651844b4"
   },
   "repositories": {
@@ -966,22 +966,6 @@
           "headSha": "edb3316c82ae5f4eda2351d91b75fe72705cbde5",
           "createdAt": "2026-02-26T17:23:08.789Z",
           "lastUpdated": "2026-02-26T17:23:08.893Z"
-        }
-      }
-    },
-    "hmcts/rpx-xui-common-lib": {
-      "pullRequests": {
-        "534": {
-          "number": 534,
-          "title": "Task/ex UI 4227 CVE fixes",
-          "author": "connorpgpmcelroy",
-          "url": "https://github.com/hmcts/rpx-xui-common-lib/pull/534",
-          "changesRequested": false,
-          "approvals": 1,
-          "buildSuccess": true,
-          "headSha": "394ce1f1dce60f08379b8186111078555deb06da",
-          "createdAt": "2026-03-16T12:07:36.525Z",
-          "lastUpdated": "2026-03-16T12:07:36.738Z"
         }
       }
     }
