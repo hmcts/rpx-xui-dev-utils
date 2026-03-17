@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1773692828.102859",
-    "lastUpdated": "2026-03-16T20:26:57.386Z",
+    "lastUpdated": "2026-03-17T09:25:46.482Z",
     "approvalListMessageHash": "aa15eb9379e91a5195adb99552d1ce92b1c94d290f18cfd29a9f7a9c9c3e45ff"
   },
   "repositories": {
@@ -879,6 +879,18 @@
     },
     "hmcts/ccd-case-ui-toolkit": {
       "pullRequests": {
+        "2018": {
+          "number": 2018,
+          "title": "Ex UI 3521 remove mc darkly flags",
+          "author": "olusegz07",
+          "url": "https://github.com/hmcts/ccd-case-ui-toolkit/pull/2018",
+          "changesRequested": false,
+          "approvals": 1,
+          "buildSuccess": true,
+          "headSha": "62115c6cd2d98680970a9b1cfa8f21fda0fd9484",
+          "createdAt": "2026-03-17T09:25:46.325Z",
+          "lastUpdated": "2026-03-17T09:25:46.482Z"
+        },
         "2096": {
           "number": 2096,
           "title": "pofcc-10 - Update to error processing to fix linking within complex fields.",
