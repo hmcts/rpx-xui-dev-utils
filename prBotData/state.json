@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1773825865.523929",
-    "lastUpdated": "2026-03-18T09:24:13.151Z",
+    "lastUpdated": "2026-03-18T09:24:57.936Z",
     "approvalListMessageHash": "206ec24c938a456d1c0f9d32eaaf4140505b225d49717871391bd51603b420a8"
   },
   "repositories": {
@@ -522,6 +522,18 @@
           "headSha": "0e6664d085a2531573dc0cf27172d73a03fd84eb",
           "createdAt": "2026-03-17T23:03:22.144Z",
           "lastUpdated": "2026-03-18T08:53:22.483Z"
+        },
+        "5022": {
+          "number": 5022,
+          "title": "chore - updated media viewer version",
+          "author": "olusegz07",
+          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/5022",
+          "changesRequested": false,
+          "approvals": 0,
+          "buildSuccess": false,
+          "headSha": "096cc520ea678336140e8dfcc9313a9afec23b86",
+          "createdAt": "2026-03-18T09:24:57.805Z",
+          "lastUpdated": "2026-03-18T09:24:57.936Z"
         }
       }
     },
