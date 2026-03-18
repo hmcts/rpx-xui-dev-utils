@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1773848848.042299",
-    "lastUpdated": "2026-03-18T15:47:17.901Z",
+    "lastUpdated": "2026-03-18T16:04:16.748Z",
     "approvalListMessageHash": "ae01e7fafbf52d2b2363fbe33fed7d9c620776abe7065b338df6931ea69184c3"
   },
   "repositories": {
@@ -522,6 +522,18 @@
           "headSha": "efcf9d101be5b252d3b5a092ef860828f1c420c5",
           "createdAt": "2026-03-18T12:05:08.580Z",
           "lastUpdated": "2026-03-18T13:25:26.487Z"
+        },
+        "5025": {
+          "number": 5025,
+          "title": "EXUI-4255 - Reset hearing list when component is destroyed",
+          "author": "Josh-HMCTS",
+          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/5025",
+          "changesRequested": false,
+          "approvals": 0,
+          "buildSuccess": false,
+          "headSha": "c43c410efbbc06bc0d1f6378b1e155dc72c4392a",
+          "createdAt": "2026-03-18T16:04:16.653Z",
+          "lastUpdated": "2026-03-18T16:04:16.748Z"
         }
       }
     },
