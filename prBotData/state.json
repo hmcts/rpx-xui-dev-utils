@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1773832682.456709",
-    "lastUpdated": "2026-03-18T12:05:08.750Z",
+    "lastUpdated": "2026-03-18T12:40:54.602Z",
     "approvalListMessageHash": "2bc77f5a867b83c6e6bc6104cab823f821fc74bd4eb423eceb104889a265bea3"
   },
   "repositories": {
@@ -758,18 +758,6 @@
           "headSha": "c909788e3d236abd85778edbbec96b603a9b7901",
           "createdAt": "2026-03-04T14:32:15.851Z",
           "lastUpdated": "2026-03-04T14:32:15.944Z"
-        },
-        "1010": {
-          "number": 1010,
-          "title": "Update angular-cli monorepo to v20.3.20",
-          "author": "renovate[bot]",
-          "url": "https://github.com/hmcts/rpx-xui-approve-org/pull/1010",
-          "changesRequested": false,
-          "approvals": 0,
-          "buildSuccess": true,
-          "headSha": "9b1e83941f6c413ebfe79dab3758ed19f2d2754c",
-          "createdAt": "2026-03-12T10:41:33.570Z",
-          "lastUpdated": "2026-03-13T12:37:22.651Z"
         }
       }
     },
