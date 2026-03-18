@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1773829759.546929",
-    "lastUpdated": "2026-03-18T10:29:08.924Z",
+    "lastUpdated": "2026-03-18T10:30:02.962Z",
     "approvalListMessageHash": "155d520ec401a0f7364b4611d43c475dff49ca90ebf8ab2757b224aac29b0fa2"
   },
   "repositories": {
@@ -915,18 +915,6 @@
     },
     "hmcts/ccd-case-ui-toolkit": {
       "pullRequests": {
-        "2049": {
-          "number": 2049,
-          "title": "CME-790: stalebot",
-          "author": "AntonyLeons",
-          "url": "https://github.com/hmcts/ccd-case-ui-toolkit/pull/2049",
-          "changesRequested": false,
-          "approvals": 1,
-          "buildSuccess": true,
-          "headSha": "bdd63de180e7183ced2c235fc1eaf74e602b9fce",
-          "createdAt": "2026-03-18T10:29:08.795Z",
-          "lastUpdated": "2026-03-18T10:29:08.924Z"
-        },
         "2096": {
           "number": 2096,
           "title": "pofcc-10 - Update to error processing to fix linking within complex fields.",
