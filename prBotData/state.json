@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1773841380.394869",
-    "lastUpdated": "2026-03-18T13:42:49.060Z",
+    "lastUpdated": "2026-03-18T13:44:09.035Z",
     "approvalListMessageHash": "bd2f4ea8cbbac6faa68cfba4a042ca614b0876b6ff875d99da9911ce4704b790"
   },
   "repositories": {
@@ -927,18 +927,6 @@
     },
     "hmcts/ccd-case-ui-toolkit": {
       "pullRequests": {
-        "2077": {
-          "number": 2077,
-          "title": "pofcc-77",
-          "author": "anthonydummer",
-          "url": "https://github.com/hmcts/ccd-case-ui-toolkit/pull/2077",
-          "changesRequested": false,
-          "approvals": 1,
-          "buildSuccess": true,
-          "headSha": "ef16d96175d8a096c1bf0ccc1c0be91ed1a7afa8",
-          "createdAt": "2026-03-18T13:42:48.826Z",
-          "lastUpdated": "2026-03-18T13:42:49.060Z"
-        },
         "2096": {
           "number": 2096,
           "title": "pofcc-10 - Update to error processing to fix linking within complex fields.",
