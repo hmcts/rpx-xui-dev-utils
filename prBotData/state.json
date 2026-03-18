@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1773843468.621069",
-    "lastUpdated": "2026-03-18T14:21:27.973Z",
+    "lastUpdated": "2026-03-18T14:32:59.500Z",
     "approvalListMessageHash": "773ef9a47c9c2cb2c52542d9ab9f24c57ac391a532b49e857844ede97c70ef20"
   },
   "repositories": {
@@ -798,18 +798,6 @@
           "headSha": "1333992d6d6c8e00d42a3576b013df5c5d35218d",
           "createdAt": "2026-02-04T09:33:50.950Z",
           "lastUpdated": "2026-02-09T11:06:49.719Z"
-        },
-        "767": {
-          "number": 767,
-          "title": "days-before-pr-close updated to 30 days.",
-          "author": "kasi-subramaniam",
-          "url": "https://github.com/hmcts/em-showcase/pull/767",
-          "changesRequested": false,
-          "approvals": 0,
-          "buildSuccess": false,
-          "headSha": "568e96381316dfedc96b9b9dacf098e834c27195",
-          "createdAt": "2026-02-24T10:55:03.936Z",
-          "lastUpdated": "2026-02-24T10:55:04.097Z"
         },
         "768": {
           "number": 768,
