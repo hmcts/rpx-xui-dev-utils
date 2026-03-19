@@ -319,18 +319,6 @@
           "createdAt": "2026-02-23T11:55:06.812Z",
           "lastUpdated": "2026-02-23T11:55:06.944Z"
         },
-        "4967": {
-          "number": 4967,
-          "title": "cot-1170",
-          "author": "anthonydummer",
-          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/4967",
-          "changesRequested": false,
-          "approvals": 0,
-          "buildSuccess": true,
-          "headSha": "51ecc0fdb2dca3c999bd16075b710f7882c4a051",
-          "createdAt": "2026-02-23T15:42:10.637Z",
-          "lastUpdated": "2026-03-16T16:53:08.401Z"
-        },
         "4968": {
           "number": 4968,
           "title": "exui 4074 media viewer version",
