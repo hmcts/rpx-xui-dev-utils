@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1773920647.152749",
-    "lastUpdated": "2026-03-19T11:43:55.294Z",
+    "lastUpdated": "2026-03-19T11:48:20.993Z",
     "approvalListMessageHash": "ad7834c41ca0662e08f1753bdc1d448d43e38fb15cdca2a4593da8363ea6c766"
   },
   "repositories": {
@@ -1050,6 +1050,22 @@
           "headSha": "0baf0347150bdcd38a9c9c123b859cd49db684a5",
           "createdAt": "2026-03-19T08:47:41.743Z",
           "lastUpdated": "2026-03-19T08:47:41.834Z"
+        }
+      }
+    },
+    "hmcts/rpx-xui-translation": {
+      "pullRequests": {
+        "64": {
+          "number": 64,
+          "title": "Task/ex UI 4227 fix angular CVE",
+          "author": "connorpgpmcelroy",
+          "url": "https://github.com/hmcts/rpx-xui-translation/pull/64",
+          "changesRequested": false,
+          "approvals": 0,
+          "buildSuccess": true,
+          "headSha": "c816a0fff2953dd43d8e648800ef232f27ee1b2e",
+          "createdAt": "2026-03-19T11:48:20.723Z",
+          "lastUpdated": "2026-03-19T11:48:20.993Z"
         }
       }
     }
