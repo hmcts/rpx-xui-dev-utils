@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1773926314.060439",
-    "lastUpdated": "2026-03-19T13:18:24.395Z",
+    "lastUpdated": "2026-03-19T13:25:10.594Z",
     "approvalListMessageHash": "5235bf62a4d793a27c95ee8d189289737d2d621c61e7e8905f6caa6d024f605e"
   },
   "repositories": {
@@ -753,11 +753,11 @@
           "author": "connorpgpmcelroy",
           "url": "https://github.com/hmcts/rpx-xui-approve-org/pull/1012",
           "changesRequested": false,
-          "approvals": 0,
+          "approvals": 1,
           "buildSuccess": true,
           "headSha": "49cd62c6b488defb46be92eb3db286516b0f5659",
-          "createdAt": "2026-03-19T11:26:54.250Z",
-          "lastUpdated": "2026-03-19T11:41:26.336Z"
+          "createdAt": "2026-03-19T13:25:10.374Z",
+          "lastUpdated": "2026-03-19T13:25:10.594Z"
         },
         "1014": {
           "number": 1014,
