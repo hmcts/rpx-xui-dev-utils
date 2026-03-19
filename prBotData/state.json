@@ -987,18 +987,6 @@
           "createdAt": "2026-02-26T09:23:12.240Z",
           "lastUpdated": "2026-02-26T09:23:12.335Z"
         },
-        "2117": {
-          "number": 2117,
-          "title": "pofcc-78 - removing focus for added radio buttons to prevent early validation.",
-          "author": "anthonydummer",
-          "url": "https://github.com/hmcts/ccd-case-ui-toolkit/pull/2117",
-          "changesRequested": false,
-          "approvals": 1,
-          "buildSuccess": true,
-          "headSha": "734e1ea2f8712599a3f47023f089dd7b7086f9d1",
-          "createdAt": "2026-03-11T15:49:12.895Z",
-          "lastUpdated": "2026-03-11T15:49:13.157Z"
-        },
         "2121": {
           "number": 2121,
           "title": "EXUI-4227 - CVE fixes",
