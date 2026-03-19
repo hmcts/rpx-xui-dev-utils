@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1773921901.976949",
-    "lastUpdated": "2026-03-19T12:04:50.537Z",
+    "lastUpdated": "2026-03-19T12:06:31.338Z",
     "approvalListMessageHash": "916637584bfc82f2d273b77b5ee016ee712abb4a95a8535dbbd7bd6abf57c6a5"
   },
   "repositories": {
@@ -806,6 +806,18 @@
           "headSha": "49cd62c6b488defb46be92eb3db286516b0f5659",
           "createdAt": "2026-03-19T11:26:54.250Z",
           "lastUpdated": "2026-03-19T11:41:26.336Z"
+        },
+        "1014": {
+          "number": 1014,
+          "title": "EXUI-4344 test: strengthen Playwright smoke reporting for approve org",
+          "author": "andyg-cgi",
+          "url": "https://github.com/hmcts/rpx-xui-approve-org/pull/1014",
+          "changesRequested": false,
+          "approvals": 0,
+          "buildSuccess": false,
+          "headSha": "5dee34913163e106114d4ad8d6730c66cc81c4ec",
+          "createdAt": "2026-03-19T12:06:31.268Z",
+          "lastUpdated": "2026-03-19T12:06:31.338Z"
         }
       }
     },
