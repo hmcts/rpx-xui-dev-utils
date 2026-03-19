@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1773864802.818349",
-    "lastUpdated": "2026-03-18T20:13:11.033Z",
+    "lastUpdated": "2026-03-19T08:47:41.834Z",
     "approvalListMessageHash": "1b8367923f3133ae143f86af3c6ee10db5e0b4b3ffb5041c68d0f8a8d0504498"
   },
   "repositories": {
@@ -1014,6 +1014,18 @@
           "headSha": "edb3316c82ae5f4eda2351d91b75fe72705cbde5",
           "createdAt": "2026-02-26T17:23:08.789Z",
           "lastUpdated": "2026-02-26T17:23:08.893Z"
+        },
+        "312": {
+          "number": 312,
+          "title": "Ex UI 3906 remove unsed packages",
+          "author": "olusegz07",
+          "url": "https://github.com/hmcts/rpx-xui-node-lib/pull/312",
+          "changesRequested": false,
+          "approvals": 0,
+          "buildSuccess": true,
+          "headSha": "0baf0347150bdcd38a9c9c123b859cd49db684a5",
+          "createdAt": "2026-03-19T08:47:41.743Z",
+          "lastUpdated": "2026-03-19T08:47:41.834Z"
         }
       }
     },
