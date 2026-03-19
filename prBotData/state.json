@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1773920569.494399",
-    "lastUpdated": "2026-03-19T11:42:38.189Z",
+    "lastUpdated": "2026-03-19T11:43:55.294Z",
     "approvalListMessageHash": "b0828d4d7bbb3bed9b5faed02e04b3eb9a7bdb622a51d8b7b65e039852b42082"
   },
   "repositories": {
@@ -962,18 +962,6 @@
           "headSha": "f90da6fb1870c1ce834127389d9d71722671dc6b",
           "createdAt": "2026-02-09T14:19:12.919Z",
           "lastUpdated": "2026-02-09T14:19:13.109Z"
-        },
-        "2097": {
-          "number": 2097,
-          "title": "pofcc-107 - adding interpolation to cya submit buttton",
-          "author": "anthonydummer",
-          "url": "https://github.com/hmcts/ccd-case-ui-toolkit/pull/2097",
-          "changesRequested": false,
-          "approvals": 1,
-          "buildSuccess": true,
-          "headSha": "88a4a52bd2a0b1a4713aa3a715eb261eca7df146",
-          "createdAt": "2026-03-19T11:42:38.088Z",
-          "lastUpdated": "2026-03-19T11:42:38.189Z"
         },
         "2100": {
           "number": 2100,
