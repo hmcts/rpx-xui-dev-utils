@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1773913995.648329",
-    "lastUpdated": "2026-03-19T09:53:05.377Z",
+    "lastUpdated": "2026-03-19T09:58:51.754Z",
     "approvalListMessageHash": "73dd309e082d7e4e11cbacf5c3c137558380225d19e15ab2c38540420d23ffa2"
   },
   "repositories": {
@@ -658,6 +658,18 @@
           "headSha": "0de4691f9d4a268a6c8d1b9e6c5f8fa81ac0a09a",
           "createdAt": "2026-03-16T16:29:55.959Z",
           "lastUpdated": "2026-03-17T18:25:18.634Z"
+        },
+        "1497": {
+          "number": 1497,
+          "title": "feat: migrate smoke test from CodeceptJS to Playwright",
+          "author": "andyg-cgi",
+          "url": "https://github.com/hmcts/rpx-xui-manage-organisations/pull/1497",
+          "changesRequested": false,
+          "approvals": 0,
+          "buildSuccess": false,
+          "headSha": "278135e514a32ac74abc8a6ff4fa9ec88d84d61b",
+          "createdAt": "2026-03-19T09:58:51.654Z",
+          "lastUpdated": "2026-03-19T09:58:51.754Z"
         }
       }
     },
