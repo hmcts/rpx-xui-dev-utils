@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1773936383.773849",
-    "lastUpdated": "2026-03-19T16:06:12.601Z",
+    "lastUpdated": "2026-03-19T16:08:10.501Z",
     "approvalListMessageHash": "e1284560927ff0c57b6e541b5ed9906305e5f76e234998f6d97f836df3f6e0f9"
   },
   "repositories": {
@@ -246,18 +246,6 @@
           "headSha": "7619113e223c9e05a94defb5f12cee788728eff4",
           "createdAt": "2026-02-09T15:14:10.143Z",
           "lastUpdated": "2026-02-09T16:09:10.052Z"
-        },
-        "4937": {
-          "number": 4937,
-          "title": "pofcc-107 fix to add interpolation to cya submit button",
-          "author": "anthonydummer",
-          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/4937",
-          "changesRequested": false,
-          "approvals": 1,
-          "buildSuccess": true,
-          "headSha": "e3b879122ed3d84136f348054d6b44b66f34df37",
-          "createdAt": "2026-03-19T15:27:19.034Z",
-          "lastUpdated": "2026-03-19T16:06:12.601Z"
         },
         "4942": {
           "number": 4942,
