@@ -499,18 +499,6 @@
           "createdAt": "2026-03-18T09:24:57.805Z",
           "lastUpdated": "2026-03-18T09:57:35.792Z"
         },
-        "5023": {
-          "number": 5023,
-          "title": "version update",
-          "author": "olusegz07",
-          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/5023",
-          "changesRequested": false,
-          "approvals": 0,
-          "buildSuccess": true,
-          "headSha": "efcf9d101be5b252d3b5a092ef860828f1c420c5",
-          "createdAt": "2026-03-18T12:05:08.580Z",
-          "lastUpdated": "2026-03-18T13:25:26.487Z"
-        },
         "5024": {
           "number": 5024,
           "title": "EXUI-4323 - no userID passed in cookies",
