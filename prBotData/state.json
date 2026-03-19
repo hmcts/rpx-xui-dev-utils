@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1773913995.648329",
-    "lastUpdated": "2026-03-19T09:58:51.754Z",
+    "lastUpdated": "2026-03-19T10:09:43.583Z",
     "approvalListMessageHash": "73dd309e082d7e4e11cbacf5c3c137558380225d19e15ab2c38540420d23ffa2"
   },
   "repositories": {
@@ -1049,11 +1049,11 @@
           "author": "olusegz07",
           "url": "https://github.com/hmcts/rpx-xui-common-lib/pull/535",
           "changesRequested": false,
-          "approvals": 0,
+          "approvals": 1,
           "buildSuccess": true,
-          "headSha": "11bac0959107d147338924784951a58c91716417",
-          "createdAt": "2026-03-18T09:46:01.365Z",
-          "lastUpdated": "2026-03-18T09:46:01.457Z"
+          "headSha": "df3b63699d40ed3e069218476b958ca9bb70a2d8",
+          "createdAt": "2026-03-19T10:09:43.482Z",
+          "lastUpdated": "2026-03-19T10:09:43.583Z"
         }
       }
     },
