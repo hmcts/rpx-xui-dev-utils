@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1774000401.170749",
-    "lastUpdated": "2026-03-20T09:53:10.125Z",
+    "lastUpdated": "2026-03-20T10:18:50.276Z",
     "approvalListMessageHash": "ea61d2c4bbdb9aaf888809a3b5e644d6a2c0827e591470e27b53f2dbdb5494de"
   },
   "repositories": {
@@ -474,18 +474,6 @@
           "headSha": "ed62e7b063d4ef16b063b3fcae8f1eeb898a483f",
           "createdAt": "2026-03-19T15:03:05.983Z",
           "lastUpdated": "2026-03-19T16:44:14.002Z"
-        },
-        "5021": {
-          "number": 5021,
-          "title": "test: add hearing integration tests EXUI-4138",
-          "author": "andyg-cgi",
-          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/5021",
-          "changesRequested": false,
-          "approvals": 1,
-          "buildSuccess": true,
-          "headSha": "8655a8316711498440545397b7bd26763ef0dccb",
-          "createdAt": "2026-03-20T09:15:43.455Z",
-          "lastUpdated": "2026-03-20T09:15:43.609Z"
         },
         "5022": {
           "number": 5022,
