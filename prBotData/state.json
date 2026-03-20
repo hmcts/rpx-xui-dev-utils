@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1774017906.668639",
-    "lastUpdated": "2026-03-20T14:45:47.505Z",
+    "lastUpdated": "2026-03-20T14:49:24.486Z",
     "approvalListMessageHash": "f7523c0c7ccc82dfef27cf4a6e2f08912c2ff6b0850962ee6c5aa5b8e9794a3c"
   },
   "repositories": {
@@ -468,12 +468,12 @@
           "title": "Test/EXUI-4124 my access and cases",
           "author": "danH-test",
           "url": "https://github.com/hmcts/rpx-xui-webapp/pull/5020",
-          "changesRequested": false,
-          "approvals": 1,
+          "changesRequested": true,
+          "approvals": 0,
           "buildSuccess": false,
           "headSha": "462b7850624867d5eb6e5be7ed0f8b0c260a84ff",
-          "createdAt": "2026-03-20T14:45:47.418Z",
-          "lastUpdated": "2026-03-20T14:45:47.505Z"
+          "createdAt": "2026-03-20T14:49:24.398Z",
+          "lastUpdated": "2026-03-20T14:49:24.486Z"
         },
         "5022": {
           "number": 5022,
