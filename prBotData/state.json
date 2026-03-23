@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1774263548.746489",
-    "lastUpdated": "2026-03-23T10:58:57.333Z",
+    "lastUpdated": "2026-03-23T11:09:11.579Z",
     "approvalListMessageHash": "f9eb4ecbf466fc30145a672b7d3bc2855599ef324bf0c38a931f000ed0faa300"
   },
   "repositories": {
@@ -782,6 +782,18 @@
           "headSha": "ffa7f0621cc1c007ef52067ee334f220dec853e8",
           "createdAt": "2026-03-19T12:06:31.268Z",
           "lastUpdated": "2026-03-23T10:58:57.333Z"
+        },
+        "1016": {
+          "number": 1016,
+          "title": "EXUI-4344: add side-by-side Playwright suite",
+          "author": "andyg-cgi",
+          "url": "https://github.com/hmcts/rpx-xui-approve-org/pull/1016",
+          "changesRequested": false,
+          "approvals": 0,
+          "buildSuccess": false,
+          "headSha": "f7dd643a1d943ffbbd591b6b25d718092de00eb4",
+          "createdAt": "2026-03-23T11:09:11.403Z",
+          "lastUpdated": "2026-03-23T11:09:11.579Z"
         }
       }
     },
