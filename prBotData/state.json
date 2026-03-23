@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "approvalListMessageTs": null,
+    "approvalListMessageTs": "1774273752.184019",
     "lastUpdated": "2026-03-23T13:49:00.458Z",
-    "approvalListMessageHash": null
+    "approvalListMessageHash": "a892b7208091e2014577c4c27fe7200117bf06905e7f34629dc0a63e012d7b16"
   },
   "repositories": {
     "hmcts/rpx-xui-webapp": {
