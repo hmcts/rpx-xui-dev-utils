@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1774275016.708629",
-    "lastUpdated": "2026-03-23T14:19:12.665Z",
+    "lastUpdated": "2026-03-23T16:30:37.095Z",
     "approvalListMessageHash": "63ca6807c55b2182d6679e5a4e38c6858565f7a439bcabb18db23c4d2e2d0a98"
   },
   "repositories": {
@@ -438,18 +438,6 @@
           "headSha": "096cc520ea678336140e8dfcc9313a9afec23b86",
           "createdAt": "2026-03-18T09:24:57.805Z",
           "lastUpdated": "2026-03-18T09:57:35.792Z"
-        },
-        "5024": {
-          "number": 5024,
-          "title": "EXUI-4323 - no userID passed in cookies",
-          "author": "chrisjones-hmcts",
-          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/5024",
-          "changesRequested": false,
-          "approvals": 1,
-          "buildSuccess": true,
-          "headSha": "9ff92c6f9a023343c96debc71d7b805001b13460",
-          "createdAt": "2026-03-23T13:52:44.850Z",
-          "lastUpdated": "2026-03-23T13:52:44.952Z"
         },
         "5025": {
           "number": 5025,
