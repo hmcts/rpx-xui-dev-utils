@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1774268080.828229",
-    "lastUpdated": "2026-03-23T12:14:29.461Z",
+    "lastUpdated": "2026-03-23T12:19:55.454Z",
     "approvalListMessageHash": "4ed7b00a9ccebaa9d2af9e0dbd391c2bf43e1efcee29891a5e18a61c5aea7efa"
   },
   "repositories": {
@@ -522,18 +522,6 @@
           "headSha": "db987a059cc371cb80bdcc3bb127bbc532d07b37",
           "createdAt": "2026-03-20T16:14:51.770Z",
           "lastUpdated": "2026-03-20T16:14:51.952Z"
-        },
-        "5032": {
-          "number": 5032,
-          "title": "Exui-4346",
-          "author": "Josh-HMCTS",
-          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/5032",
-          "changesRequested": false,
-          "approvals": 0,
-          "buildSuccess": true,
-          "headSha": "6bd7f3c62a3833ef3f364a6d3ffc7572a5d9a183",
-          "createdAt": "2026-03-20T09:10:13.316Z",
-          "lastUpdated": "2026-03-20T11:38:37.339Z"
         },
         "5033": {
           "number": 5033,
