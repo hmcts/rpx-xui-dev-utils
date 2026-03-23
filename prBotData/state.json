@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1774272175.186539",
-    "lastUpdated": "2026-03-23T13:22:45.318Z",
+    "lastUpdated": "2026-03-23T13:39:09.023Z",
     "approvalListMessageHash": "e85d291ceb0f63149ec1a77b438dee7f8c7fc0bb2521c18a4cb08ca58fc84efe"
   },
   "repositories": {
@@ -522,18 +522,6 @@
           "headSha": "d5d122bc60b313c169337fe23b6eec594c9bade1",
           "createdAt": "2026-03-20T10:46:14.636Z",
           "lastUpdated": "2026-03-20T10:57:21.688Z"
-        },
-        "5034": {
-          "number": 5034,
-          "title": "EXUI-4263",
-          "author": "Josh-HMCTS",
-          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/5034",
-          "changesRequested": false,
-          "approvals": 1,
-          "buildSuccess": true,
-          "headSha": "1172f496560a3d0242c8b31ce869ddf195402a39",
-          "createdAt": "2026-03-23T12:14:29.352Z",
-          "lastUpdated": "2026-03-23T12:14:29.461Z"
         },
         "5035": {
           "number": 5035,
