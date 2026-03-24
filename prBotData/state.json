@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1774348468.551899",
-    "lastUpdated": "2026-03-24T10:34:17.955Z",
+    "lastUpdated": "2026-03-24T10:52:53.573Z",
     "approvalListMessageHash": "3d2418d9a60c50d6b08cfcebfd32529ba8a7166a8b34a18e43748853397b62e8"
   },
   "repositories": {
@@ -498,18 +498,6 @@
           "headSha": "2f365584e413590db698c2a829f7b2a99fcfb88e",
           "createdAt": "2026-03-23T12:47:46.830Z",
           "lastUpdated": "2026-03-23T13:07:03.627Z"
-        },
-        "5038": {
-          "number": 5038,
-          "title": "chore: add qualifying questions",
-          "author": "olusegz07",
-          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/5038",
-          "changesRequested": false,
-          "approvals": 1,
-          "buildSuccess": true,
-          "headSha": "7a4694e732d2dc9b55dd93ea33fd13b883cfcaac",
-          "createdAt": "2026-03-24T10:34:17.886Z",
-          "lastUpdated": "2026-03-24T10:34:17.955Z"
         },
         "5040": {
           "number": 5040,
