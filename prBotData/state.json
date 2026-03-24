@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1774370039.459849",
-    "lastUpdated": "2026-03-24T16:33:48.701Z",
+    "lastUpdated": "2026-03-24T16:35:56.306Z",
     "approvalListMessageHash": "6781bcc767a9e9e57c7da3c913100a2d1c3f0d04e3e10799b2f7e222bdbe1ef3"
   },
   "repositories": {
@@ -950,18 +950,6 @@
           "headSha": "bac9b2d8e40b349f0453f2f8843044d6aa87ea0b",
           "createdAt": "2026-03-23T12:00:23.326Z",
           "lastUpdated": "2026-03-23T12:00:23.405Z"
-        },
-        "2127": {
-          "number": 2127,
-          "title": "exui-4338-case-flag-data-loss",
-          "author": "RiteshHMCTS",
-          "url": "https://github.com/hmcts/ccd-case-ui-toolkit/pull/2127",
-          "changesRequested": false,
-          "approvals": 1,
-          "buildSuccess": true,
-          "headSha": "7870180e1916847485bfc93ea280c4905298e015",
-          "createdAt": "2026-03-24T16:30:39.375Z",
-          "lastUpdated": "2026-03-24T16:30:39.547Z"
         }
       }
     },
