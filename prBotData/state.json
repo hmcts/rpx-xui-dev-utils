@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1774425906.865649",
-    "lastUpdated": "2026-03-25T08:04:55.178Z",
+    "lastUpdated": "2026-03-25T08:07:03.091Z",
     "approvalListMessageHash": "ce37f3daccff8c95a8674ad8afaaf5d9b15838a23101d6eb6a9cb3aa2981e4fd"
   },
   "repositories": {
@@ -830,18 +830,6 @@
           "headSha": "966563eeb28ae13cecbc79dbb3f39b6998288bac",
           "createdAt": "2026-02-26T09:23:12.240Z",
           "lastUpdated": "2026-02-26T09:23:12.335Z"
-        },
-        "2124": {
-          "number": 2124,
-          "title": "Exui 4302 datepicker days showing incorrectly",
-          "author": "RiteshHMCTS",
-          "url": "https://github.com/hmcts/ccd-case-ui-toolkit/pull/2124",
-          "changesRequested": false,
-          "approvals": 1,
-          "buildSuccess": true,
-          "headSha": "fa53121768f80cfb24378989e2774dede161eba8",
-          "createdAt": "2026-03-20T11:10:15.710Z",
-          "lastUpdated": "2026-03-20T11:10:15.820Z"
         }
       }
     },
