@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1774456056.747909",
-    "lastUpdated": "2026-03-25T16:27:25.863Z",
+    "lastUpdated": "2026-03-25T16:38:12.911Z",
     "approvalListMessageHash": "b882f6aefece0e10dc5a562528467071f3c6e521e30211cd682ebc01c9a15308"
   },
   "repositories": {
@@ -873,11 +873,11 @@
           "author": "connorpgpmcelroy",
           "url": "https://github.com/hmcts/ccd-case-ui-toolkit/pull/2102",
           "changesRequested": true,
-          "approvals": 1,
+          "approvals": 0,
           "buildSuccess": true,
-          "headSha": "966563eeb28ae13cecbc79dbb3f39b6998288bac",
-          "createdAt": "2026-02-26T09:23:12.240Z",
-          "lastUpdated": "2026-02-26T09:23:12.335Z"
+          "headSha": "b5d9fc9dfce11435030156312b00fd51782da6a1",
+          "createdAt": "2026-03-25T16:38:12.763Z",
+          "lastUpdated": "2026-03-25T16:38:12.911Z"
         }
       }
     },
