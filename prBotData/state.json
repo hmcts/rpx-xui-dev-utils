@@ -831,18 +831,6 @@
     },
     "hmcts/ccd-case-ui-toolkit": {
       "pullRequests": {
-        "2096": {
-          "number": 2096,
-          "title": "pofcc-10 - Update to error processing to fix linking within complex fields.",
-          "author": "anthonydummer",
-          "url": "https://github.com/hmcts/ccd-case-ui-toolkit/pull/2096",
-          "changesRequested": false,
-          "approvals": 0,
-          "buildSuccess": true,
-          "headSha": "f90da6fb1870c1ce834127389d9d71722671dc6b",
-          "createdAt": "2026-02-09T14:19:12.919Z",
-          "lastUpdated": "2026-02-09T14:19:13.109Z"
-        },
         "2100": {
           "number": 2100,
           "title": "exui-3582",
