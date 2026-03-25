@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1774451203.884439",
-    "lastUpdated": "2026-03-25T15:30:34.615Z",
+    "lastUpdated": "2026-03-25T15:33:15.492Z",
     "approvalListMessageHash": "0a29d289a570183eada6c1df364f8efdb209931248b37c0b5cf6d5d72ea0fd17"
   },
   "repositories": {
@@ -681,11 +681,11 @@
           "author": "AntonyLeons",
           "url": "https://github.com/hmcts/rpx-xui-approve-org/pull/1017",
           "changesRequested": false,
-          "approvals": 0,
+          "approvals": 1,
           "buildSuccess": false,
-          "headSha": "e49455ee7bb7e59ec5c70961d69e851c5d701603",
-          "createdAt": "2026-03-25T15:30:34.433Z",
-          "lastUpdated": "2026-03-25T15:30:34.615Z"
+          "headSha": "a3e90e40dd7679e97547a82c1f72dfdca7664b79",
+          "createdAt": "2026-03-25T15:33:15.359Z",
+          "lastUpdated": "2026-03-25T15:33:15.492Z"
         }
       }
     },
