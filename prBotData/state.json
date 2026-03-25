@@ -487,18 +487,6 @@
           "createdAt": "2026-03-20T10:46:14.636Z",
           "lastUpdated": "2026-03-20T10:57:21.688Z"
         },
-        "5035": {
-          "number": 5035,
-          "title": "Hearing demo 23-3-26",
-          "author": "Josh-HMCTS",
-          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/5035",
-          "changesRequested": false,
-          "approvals": 0,
-          "buildSuccess": true,
-          "headSha": "2f365584e413590db698c2a829f7b2a99fcfb88e",
-          "createdAt": "2026-03-23T12:47:46.830Z",
-          "lastUpdated": "2026-03-23T13:07:03.627Z"
-        },
         "5039": {
           "number": 5039,
           "title": "Test/EXUI-3774 - Add case file view integration test",
@@ -950,18 +938,6 @@
           "headSha": "fa53121768f80cfb24378989e2774dede161eba8",
           "createdAt": "2026-03-20T11:10:15.710Z",
           "lastUpdated": "2026-03-20T11:10:15.820Z"
-        },
-        "2125": {
-          "number": 2125,
-          "title": "Hearing demo PR",
-          "author": "Josh-HMCTS",
-          "url": "https://github.com/hmcts/ccd-case-ui-toolkit/pull/2125",
-          "changesRequested": false,
-          "approvals": 0,
-          "buildSuccess": true,
-          "headSha": "bac9b2d8e40b349f0453f2f8843044d6aa87ea0b",
-          "createdAt": "2026-03-23T12:00:23.326Z",
-          "lastUpdated": "2026-03-23T12:00:23.405Z"
         }
       }
     },
