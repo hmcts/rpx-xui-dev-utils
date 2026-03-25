@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1774448495.558539",
-    "lastUpdated": "2026-03-25T14:21:25.529Z",
+    "lastUpdated": "2026-03-25T14:22:14.240Z",
     "approvalListMessageHash": "641bfd67cc5b300bd913e0c4e2b50639307ecb4172238b6320428ea791882e7f"
   },
   "repositories": {
@@ -821,11 +821,11 @@
           "author": "kiran-yenigala-hmcts",
           "url": "https://github.com/hmcts/em-media-viewer/pull/1284",
           "changesRequested": false,
-          "approvals": 0,
+          "approvals": 1,
           "buildSuccess": false,
           "headSha": "00a9c9f84175e3f146a55b303b36bd03b72e5035",
-          "createdAt": "2026-03-25T14:20:49.460Z",
-          "lastUpdated": "2026-03-25T14:20:49.569Z"
+          "createdAt": "2026-03-25T14:22:14.126Z",
+          "lastUpdated": "2026-03-25T14:22:14.240Z"
         }
       }
     },
