@@ -475,18 +475,6 @@
           "createdAt": "2026-03-20T16:14:51.770Z",
           "lastUpdated": "2026-03-20T16:14:51.952Z"
         },
-        "5033": {
-          "number": 5033,
-          "title": "cve",
-          "author": "RiteshHMCTS",
-          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/5033",
-          "changesRequested": true,
-          "approvals": 0,
-          "buildSuccess": true,
-          "headSha": "d5d122bc60b313c169337fe23b6eec594c9bade1",
-          "createdAt": "2026-03-20T10:46:14.636Z",
-          "lastUpdated": "2026-03-20T10:57:21.688Z"
-        },
         "5039": {
           "number": 5039,
           "title": "Test/EXUI-3774 - Add case file view integration test",
