@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1774456703.485579",
-    "lastUpdated": "2026-03-25T16:38:12.911Z",
+    "lastUpdated": "2026-03-25T16:54:30.075Z",
     "approvalListMessageHash": "1caebc99ebebbac90d62f1cea17cc3a8db1b5b901403da5527f5173db92604a5"
   },
   "repositories": {
@@ -872,12 +872,12 @@
           "title": "EXUI-4188 - Make changes to remove innerHTML",
           "author": "connorpgpmcelroy",
           "url": "https://github.com/hmcts/ccd-case-ui-toolkit/pull/2102",
-          "changesRequested": true,
-          "approvals": 0,
+          "changesRequested": false,
+          "approvals": 1,
           "buildSuccess": true,
-          "headSha": "b5d9fc9dfce11435030156312b00fd51782da6a1",
-          "createdAt": "2026-03-25T16:38:12.763Z",
-          "lastUpdated": "2026-03-25T16:38:12.911Z"
+          "headSha": "99e3b932bcc34a1bc075a8b29dfe30bfd056d5aa",
+          "createdAt": "2026-03-25T16:54:29.892Z",
+          "lastUpdated": "2026-03-25T16:54:30.075Z"
         }
       }
     },
