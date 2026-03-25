@@ -235,18 +235,6 @@
           "createdAt": "2026-02-06T13:39:06.119Z",
           "lastUpdated": "2026-02-06T13:39:06.274Z"
         },
-        "4928": {
-          "number": 4928,
-          "title": "pofcc-10 fix to complex field error linking",
-          "author": "anthonydummer",
-          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/4928",
-          "changesRequested": false,
-          "approvals": 0,
-          "buildSuccess": true,
-          "headSha": "7619113e223c9e05a94defb5f12cee788728eff4",
-          "createdAt": "2026-02-09T15:14:10.143Z",
-          "lastUpdated": "2026-02-09T16:09:10.052Z"
-        },
         "4942": {
           "number": 4942,
           "title": "EXUI-3618-odhin_report_update",
