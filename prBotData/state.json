@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1774517625.089229",
-    "lastUpdated": "2026-03-26T09:33:34.921Z",
+    "lastUpdated": "2026-03-26T09:43:15.608Z",
     "approvalListMessageHash": "1f7ef842d51d2bc7c868ff334944051adac333f85ddd6becdc7f003421f1f0bf"
   },
   "repositories": {
@@ -474,6 +474,18 @@
           "headSha": "9797b708213cfdd6d256c1104761fe8283774666",
           "createdAt": "2026-03-26T09:19:24.528Z",
           "lastUpdated": "2026-03-26T09:19:24.607Z"
+        },
+        "5050": {
+          "number": 5050,
+          "title": "EXUI-4220 sync env bootstrap with Key Vault",
+          "author": "andyg-cgi",
+          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/5050",
+          "changesRequested": false,
+          "approvals": 0,
+          "buildSuccess": false,
+          "headSha": "9797b708213cfdd6d256c1104761fe8283774666",
+          "createdAt": "2026-03-26T09:43:15.530Z",
+          "lastUpdated": "2026-03-26T09:43:15.608Z"
         }
       }
     },
