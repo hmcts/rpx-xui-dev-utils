@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1774541973.899929",
-    "lastUpdated": "2026-03-26T16:19:23.793Z",
+    "lastUpdated": "2026-03-26T16:32:04.167Z",
     "approvalListMessageHash": "b2e1084174b13d6b82fe75f4506886bd9287e35ef314ac0068ba933f439bf730"
   },
   "repositories": {
@@ -486,6 +486,18 @@
           "headSha": "d2fa34bb0f8b9bc70bab4abe49dbd8ebac817cb8",
           "createdAt": "2026-03-26T11:12:25.405Z",
           "lastUpdated": "2026-03-26T12:41:05.182Z"
+        },
+        "5053": {
+          "number": 5053,
+          "title": "Test/EXUI-4134 Restricted case access tests",
+          "author": "danH-test",
+          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/5053",
+          "changesRequested": false,
+          "approvals": 0,
+          "buildSuccess": false,
+          "headSha": "cf3d45e32a5ce1c15f0f36682b2c50c76f5c51cf",
+          "createdAt": "2026-03-26T16:32:04.061Z",
+          "lastUpdated": "2026-03-26T16:32:04.167Z"
         }
       }
     },
