@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1774541973.899929",
-    "lastUpdated": "2026-03-26T16:32:04.167Z",
+    "lastUpdated": "2026-03-26T16:37:42.979Z",
     "approvalListMessageHash": "b2e1084174b13d6b82fe75f4506886bd9287e35ef314ac0068ba933f439bf730"
   },
   "repositories": {
@@ -498,6 +498,18 @@
           "headSha": "cf3d45e32a5ce1c15f0f36682b2c50c76f5c51cf",
           "createdAt": "2026-03-26T16:32:04.061Z",
           "lastUpdated": "2026-03-26T16:32:04.167Z"
+        },
+        "5054": {
+          "number": 5054,
+          "title": "Chore: add PR template",
+          "author": "gregs-cgi",
+          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/5054",
+          "changesRequested": false,
+          "approvals": 0,
+          "buildSuccess": false,
+          "headSha": "e821d1ba203d47959b83e859ff2cb9a2e175ba6a",
+          "createdAt": "2026-03-26T16:37:42.862Z",
+          "lastUpdated": "2026-03-26T16:37:42.979Z"
         }
       }
     },
