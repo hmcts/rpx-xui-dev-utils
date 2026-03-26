@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1774518313.457279",
-    "lastUpdated": "2026-03-26T09:45:03.053Z",
+    "lastUpdated": "2026-03-26T09:48:21.749Z",
     "approvalListMessageHash": "06eaac89cac4c0f6dd80524b9a90e39b645283b0ae961d2bbd321662f549642d"
   },
   "repositories": {
@@ -786,18 +786,6 @@
           "headSha": "aa2a29c0cb895b965d0ab5de16aa4ebd55b5297a",
           "createdAt": "2026-02-26T10:59:14.135Z",
           "lastUpdated": "2026-02-26T10:59:14.222Z"
-        },
-        "773": {
-          "number": 773,
-          "title": "Ex UI 3906 remove unsed packages",
-          "author": "olusegz07",
-          "url": "https://github.com/hmcts/em-showcase/pull/773",
-          "changesRequested": false,
-          "approvals": 1,
-          "buildSuccess": true,
-          "headSha": "f057f26e3a2657401f76b2c90f30caa05acc2980",
-          "createdAt": "2026-03-25T12:19:33.480Z",
-          "lastUpdated": "2026-03-25T12:19:33.612Z"
         }
       }
     },
