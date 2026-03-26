@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1774523223.312209",
-    "lastUpdated": "2026-03-26T11:06:52.147Z",
+    "lastUpdated": "2026-03-26T11:12:25.489Z",
     "approvalListMessageHash": "8be6da3fef1e388e94d7996e89ab80a4ac187ed3b16e345e39ca6173e5629a2a"
   },
   "repositories": {
@@ -486,6 +486,18 @@
           "headSha": "7a55533192da8856fb1ee1abfcc8a7921d88fa46",
           "createdAt": "2026-03-26T11:04:23.192Z",
           "lastUpdated": "2026-03-26T11:04:23.368Z"
+        },
+        "5052": {
+          "number": 5052,
+          "title": "EXUI-4179 - Update version of OTP lib",
+          "author": "Josh-HMCTS",
+          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/5052",
+          "changesRequested": false,
+          "approvals": 0,
+          "buildSuccess": false,
+          "headSha": "6214c8618da4ccd25c0ce2860c8d782402f8fbc9",
+          "createdAt": "2026-03-26T11:12:25.405Z",
+          "lastUpdated": "2026-03-26T11:12:25.489Z"
         }
       }
     },
