@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1774521880.062869",
-    "lastUpdated": "2026-03-26T10:44:30.408Z",
+    "lastUpdated": "2026-03-26T11:04:23.368Z",
     "approvalListMessageHash": "d3227f29a41fb65de71711c14f9f87f2e9baaeee5d5fec098bad5b7e7c0ea1c2"
   },
   "repositories": {
@@ -474,6 +474,18 @@
           "headSha": "4370d69ab2cfdc64dab5810fa23bc4a6e5a802b2",
           "createdAt": "2026-03-26T09:43:15.530Z",
           "lastUpdated": "2026-03-26T10:23:07.618Z"
+        },
+        "5051": {
+          "number": 5051,
+          "title": "EXUI-4188 - Add the sanitization of HTML tags",
+          "author": "connorpgpmcelroy",
+          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/5051",
+          "changesRequested": false,
+          "approvals": 0,
+          "buildSuccess": false,
+          "headSha": "7a55533192da8856fb1ee1abfcc8a7921d88fa46",
+          "createdAt": "2026-03-26T11:04:23.192Z",
+          "lastUpdated": "2026-03-26T11:04:23.368Z"
         }
       }
     },
