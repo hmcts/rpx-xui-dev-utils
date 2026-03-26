@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1774518615.320319",
-    "lastUpdated": "2026-03-26T09:50:04.586Z",
+    "lastUpdated": "2026-03-26T09:56:00.484Z",
     "approvalListMessageHash": "e7b07f5d9985e647b251f58bc0f038c0d6376b9661dce057e60ce21cdc1d0be4"
   },
   "repositories": {
@@ -450,18 +450,6 @@
           "headSha": "778a3d30eef4964c5aacca5d909fd601e1b4a4a8",
           "createdAt": "2026-03-25T15:56:24.608Z",
           "lastUpdated": "2026-03-25T15:56:24.846Z"
-        },
-        "5040": {
-          "number": 5040,
-          "title": "EXUI-4133: add case-linking integration coverage",
-          "author": "andyg-cgi",
-          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/5040",
-          "changesRequested": false,
-          "approvals": 1,
-          "buildSuccess": true,
-          "headSha": "38dfe21e2d30441b2667f6ba704b4937ab6b6b59",
-          "createdAt": "2026-03-25T17:31:47.208Z",
-          "lastUpdated": "2026-03-25T17:31:47.322Z"
         },
         "5045": {
           "number": 5045,
