@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1774611883.334999",
-    "lastUpdated": "2026-03-27T11:44:33.826Z",
+    "lastUpdated": "2026-03-27T11:44:57.007Z",
     "approvalListMessageHash": "bf3c00a95f96d438efb6d717f5e470ac2d089fe99724ebb3bb66396eca0a99aa"
   },
   "repositories": {
@@ -498,6 +498,18 @@
           "headSha": "e821d1ba203d47959b83e859ff2cb9a2e175ba6a",
           "createdAt": "2026-03-26T16:54:09.559Z",
           "lastUpdated": "2026-03-26T17:01:48.577Z"
+        },
+        "5056": {
+          "number": 5056,
+          "title": "EXUI-4371 - Work allocation task able to be completed on a different case",
+          "author": "Josh-HMCTS",
+          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/5056",
+          "changesRequested": false,
+          "approvals": 0,
+          "buildSuccess": false,
+          "headSha": "bf157a4939d178cbdd2abf473156877190567e67",
+          "createdAt": "2026-03-27T11:44:56.907Z",
+          "lastUpdated": "2026-03-27T11:44:57.007Z"
         }
       }
     },
