@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1774620775.448889",
-    "lastUpdated": "2026-03-27T14:12:44.200Z",
+    "lastUpdated": "2026-03-27T14:14:02.865Z",
     "approvalListMessageHash": "9651c8a76b8f6bf02fc4e1ddca47adc00e12b07a8eb6a0f32657fd921d30e3ea"
   },
   "repositories": {
@@ -786,18 +786,6 @@
           "headSha": "1333992d6d6c8e00d42a3576b013df5c5d35218d",
           "createdAt": "2026-02-04T09:33:50.950Z",
           "lastUpdated": "2026-02-09T11:06:49.719Z"
-        },
-        "768": {
-          "number": 768,
-          "title": "Exui 4177 CVE fixes",
-          "author": "balajisridharanhmcts",
-          "url": "https://github.com/hmcts/em-showcase/pull/768",
-          "changesRequested": false,
-          "approvals": 0,
-          "buildSuccess": true,
-          "headSha": "ab2934ca28672ac28f264d13c44dd203e1a02102",
-          "createdAt": "2026-02-25T13:10:43.334Z",
-          "lastUpdated": "2026-03-27T14:12:44.200Z"
         },
         "769": {
           "number": 769,
