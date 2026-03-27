@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1774609735.248769",
-    "lastUpdated": "2026-03-27T11:08:43.578Z",
+    "lastUpdated": "2026-03-27T11:09:36.142Z",
     "approvalListMessageHash": "c3fa76885f91de234555c2155c99e132eb3397d6cf717eee2a367b9b472516e1"
   },
   "repositories": {
@@ -498,18 +498,6 @@
           "headSha": "e821d1ba203d47959b83e859ff2cb9a2e175ba6a",
           "createdAt": "2026-03-26T16:54:09.559Z",
           "lastUpdated": "2026-03-26T17:01:48.577Z"
-        },
-        "5055": {
-          "number": 5055,
-          "title": "EXUI-4426: fix nightly Playwright baseURL for cross-browser runs",
-          "author": "andyg-cgi",
-          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/5055",
-          "changesRequested": false,
-          "approvals": 1,
-          "buildSuccess": true,
-          "headSha": "83b1657e1352c9af06feecc92b9be747596269de",
-          "createdAt": "2026-03-27T10:07:14.040Z",
-          "lastUpdated": "2026-03-27T10:07:14.232Z"
         }
       }
     },
