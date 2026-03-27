@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1774610547.579829",
-    "lastUpdated": "2026-03-27T11:22:18.416Z",
+    "lastUpdated": "2026-03-27T11:37:42.196Z",
     "approvalListMessageHash": "c1ca65e95b4d2a0a20ecfd4d6e7aaae53d026acc95ba5b35bc92424de54c385b"
   },
   "repositories": {
@@ -786,18 +786,6 @@
           "headSha": "aa2a29c0cb895b965d0ab5de16aa4ebd55b5297a",
           "createdAt": "2026-02-26T10:59:14.135Z",
           "lastUpdated": "2026-02-26T10:59:14.222Z"
-        },
-        "774": {
-          "number": 774,
-          "title": "CME-930: Update container registry references to production",
-          "author": "SammiChong",
-          "url": "https://github.com/hmcts/em-showcase/pull/774",
-          "changesRequested": false,
-          "approvals": 1,
-          "buildSuccess": true,
-          "headSha": "a47ee09d0eb2301ab60bb5ae49d5cdb6c70b7ba8",
-          "createdAt": "2026-03-27T09:21:17.051Z",
-          "lastUpdated": "2026-03-27T09:21:17.213Z"
         }
       }
     },
