@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1774614390.271389",
-    "lastUpdated": "2026-03-27T12:26:18.625Z",
+    "lastUpdated": "2026-03-27T12:53:27.885Z",
     "approvalListMessageHash": "59ac35b794f037e19f8c789c348849d223ade297dbd13bf2cf13f149a9bab198"
   },
   "repositories": {
@@ -794,10 +794,10 @@
           "url": "https://github.com/hmcts/em-showcase/pull/768",
           "changesRequested": false,
           "approvals": 0,
-          "buildSuccess": false,
-          "headSha": "78797e5178ea8734390e370706306fc2eb4563c8",
+          "buildSuccess": true,
+          "headSha": "77ca11c31f3f5978865aa384cd0485e9d27544a8",
           "createdAt": "2026-02-25T13:10:43.334Z",
-          "lastUpdated": "2026-02-25T13:10:43.507Z"
+          "lastUpdated": "2026-03-27T12:53:27.885Z"
         },
         "769": {
           "number": 769,
