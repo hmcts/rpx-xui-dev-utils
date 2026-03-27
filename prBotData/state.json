@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1774551538.095089",
-    "lastUpdated": "2026-03-27T00:34:56.851Z",
+    "lastUpdated": "2026-03-27T09:21:17.213Z",
     "approvalListMessageHash": "7dab076c568fa4b00de909a5315f8ddba22126667cfca7de410b9c854566fb6c"
   },
   "repositories": {
@@ -805,11 +805,11 @@
           "author": "SammiChong",
           "url": "https://github.com/hmcts/em-showcase/pull/774",
           "changesRequested": false,
-          "approvals": 0,
+          "approvals": 1,
           "buildSuccess": true,
           "headSha": "a47ee09d0eb2301ab60bb5ae49d5cdb6c70b7ba8",
-          "createdAt": "2026-03-26T13:54:43.059Z",
-          "lastUpdated": "2026-03-26T14:45:31.888Z"
+          "createdAt": "2026-03-27T09:21:17.051Z",
+          "lastUpdated": "2026-03-27T09:21:17.213Z"
         }
       }
     },
