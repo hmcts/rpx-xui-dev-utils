@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1774877532.013679",
-    "lastUpdated": "2026-03-30T13:32:01.886Z",
+    "lastUpdated": "2026-03-30T15:00:47.357Z",
     "approvalListMessageHash": "5c462ce52cee0d1da4a7e1bdb4989817af58c2948e2e592602eb046ba2ef13ff"
   },
   "repositories": {
@@ -926,6 +926,18 @@
           "headSha": "8d85ca7b7c2767c620778b045e87816c0995436a",
           "createdAt": "2026-03-30T08:54:14.375Z",
           "lastUpdated": "2026-03-30T08:54:14.511Z"
+        },
+        "2133": {
+          "number": 2133,
+          "title": "EXUI-3229: Event triggers cause duplicate requests",
+          "author": "chrisjones-hmcts",
+          "url": "https://github.com/hmcts/ccd-case-ui-toolkit/pull/2133",
+          "changesRequested": false,
+          "approvals": 0,
+          "buildSuccess": true,
+          "headSha": "d93c08a135522de50eec55c70939427669b02c49",
+          "createdAt": "2026-03-30T15:00:47.256Z",
+          "lastUpdated": "2026-03-30T15:00:47.357Z"
         }
       }
     },
