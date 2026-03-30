@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1774882861.055529",
-    "lastUpdated": "2026-03-30T20:45:27.292Z",
+    "lastUpdated": "2026-03-30T20:46:03.637Z",
     "approvalListMessageHash": "1d063e86f2cfce59829d31a3144427b97a0c93320b95605e61320187f2df142a"
   },
   "repositories": {
@@ -803,6 +803,18 @@
     },
     "hmcts/em-media-viewer": {
       "pullRequests": {
+        "1215": {
+          "number": 1215,
+          "title": "Update dependency codeceptjs to v3.7.5 [SECURITY]",
+          "author": "renovate[bot]",
+          "url": "https://github.com/hmcts/em-media-viewer/pull/1215",
+          "changesRequested": true,
+          "approvals": 1,
+          "buildSuccess": false,
+          "headSha": "e1cf53cdfcf2fa837565c779ebe109510b3203fd",
+          "createdAt": "2026-03-30T20:46:03.486Z",
+          "lastUpdated": "2026-03-30T20:46:03.637Z"
+        },
         "1262": {
           "number": 1262,
           "title": "Update dependency @angular/core to v20.3.16 [SECURITY]",
