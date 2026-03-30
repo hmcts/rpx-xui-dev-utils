@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1774876221.385459",
-    "lastUpdated": "2026-03-30T13:10:10.887Z",
+    "lastUpdated": "2026-03-30T13:12:25.660Z",
     "approvalListMessageHash": "28a9ac16f2bc2a209dcf839dc8d9ff7dc2e490b84f3995b2e1de7e8a738f9836"
   },
   "repositories": {
@@ -562,18 +562,6 @@
           "headSha": "284cc904b2ffb71635ecd0b175635e246c37386c",
           "createdAt": "2026-01-29T15:53:47.458Z",
           "lastUpdated": "2026-01-29T15:53:47.529Z"
-        },
-        "1500": {
-          "number": 1500,
-          "title": "CME-926: Update Azure Container Registries",
-          "author": "AntonyLeons",
-          "url": "https://github.com/hmcts/rpx-xui-manage-organisations/pull/1500",
-          "changesRequested": false,
-          "approvals": 1,
-          "buildSuccess": true,
-          "headSha": "b6d63ecf6e88f7d7d3bfeb25752748701688a914",
-          "createdAt": "2026-03-26T09:30:41.717Z",
-          "lastUpdated": "2026-03-26T09:30:41.920Z"
         }
       }
     },
