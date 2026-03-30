@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1774860864.091479",
-    "lastUpdated": "2026-03-30T08:54:14.511Z",
+    "lastUpdated": "2026-03-30T10:21:13.607Z",
     "approvalListMessageHash": "14bd73437fa5bee1e6e41ed4034a0c9cfd73638e87a7806ec1048090289837b3"
   },
   "repositories": {
@@ -1002,22 +1002,6 @@
           "headSha": "0baf0347150bdcd38a9c9c123b859cd49db684a5",
           "createdAt": "2026-03-19T08:47:41.743Z",
           "lastUpdated": "2026-03-19T08:47:41.834Z"
-        }
-      }
-    },
-    "hmcts/rpx-xui-common-lib": {
-      "pullRequests": {
-        "537": {
-          "number": 537,
-          "title": "exui-4123",
-          "author": "RiteshHMCTS",
-          "url": "https://github.com/hmcts/rpx-xui-common-lib/pull/537",
-          "changesRequested": false,
-          "approvals": 1,
-          "buildSuccess": true,
-          "headSha": "57ebf57566b3f29c0482d22af4f380f13a8e02d3",
-          "createdAt": "2026-03-30T08:41:48.483Z",
-          "lastUpdated": "2026-03-30T08:41:48.590Z"
         }
       }
     }
