@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1774882861.055529",
-    "lastUpdated": "2026-03-30T19:39:41.214Z",
+    "lastUpdated": "2026-03-30T19:40:23.776Z",
     "approvalListMessageHash": "1d063e86f2cfce59829d31a3144427b97a0c93320b95605e61320187f2df142a"
   },
   "repositories": {
@@ -762,6 +762,18 @@
           "headSha": "aa2a29c0cb895b965d0ab5de16aa4ebd55b5297a",
           "createdAt": "2026-02-26T10:59:14.135Z",
           "lastUpdated": "2026-02-26T10:59:14.222Z"
+        },
+        "771": {
+          "number": 771,
+          "title": "Update dependency chromedriver to v119 [SECURITY]",
+          "author": "renovate[bot]",
+          "url": "https://github.com/hmcts/em-showcase/pull/771",
+          "changesRequested": false,
+          "approvals": 0,
+          "buildSuccess": false,
+          "headSha": "de6e33b62c73281deb8ee6418e74e6e07cac345e",
+          "createdAt": "2026-03-30T19:40:23.531Z",
+          "lastUpdated": "2026-03-30T19:40:23.776Z"
         },
         "772": {
           "number": 772,
