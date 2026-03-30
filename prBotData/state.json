@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1774876356.010039",
-    "lastUpdated": "2026-03-30T13:14:24.999Z",
+    "lastUpdated": "2026-03-30T13:14:41.425Z",
     "approvalListMessageHash": "4e78f8b2e948d3f92345d004bb2860472b1f6c47d33a40ff4938282c225a17ba"
   },
   "repositories": {
@@ -745,11 +745,11 @@
           "author": "balajisridharanhmcts",
           "url": "https://github.com/hmcts/em-showcase/pull/768",
           "changesRequested": false,
-          "approvals": 0,
+          "approvals": 1,
           "buildSuccess": true,
           "headSha": "ab2934ca28672ac28f264d13c44dd203e1a02102",
-          "createdAt": "2026-03-27T14:15:14.761Z",
-          "lastUpdated": "2026-03-27T14:15:14.874Z"
+          "createdAt": "2026-03-30T13:14:41.190Z",
+          "lastUpdated": "2026-03-30T13:14:41.425Z"
         },
         "769": {
           "number": 769,
