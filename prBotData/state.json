@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1774866155.567499",
-    "lastUpdated": "2026-03-30T10:22:23.253Z",
+    "lastUpdated": "2026-03-30T10:37:17.994Z",
     "approvalListMessageHash": "f98a97e8946275079e26ceebe972199f5a920983e8921bd0f3870d6ac6756920"
   },
   "repositories": {
@@ -926,18 +926,6 @@
           "headSha": "a0611689456b794c31cf1b5ee57814cd3862304b",
           "createdAt": "2026-02-13T17:31:49.097Z",
           "lastUpdated": "2026-02-13T17:31:49.180Z"
-        },
-        "2129": {
-          "number": 2129,
-          "title": "exui-4368-fix-for-label-substitutor",
-          "author": "RiteshHMCTS",
-          "url": "https://github.com/hmcts/ccd-case-ui-toolkit/pull/2129",
-          "changesRequested": false,
-          "approvals": 1,
-          "buildSuccess": true,
-          "headSha": "0d0893438d7d41337b98546454b4864b6c2efec1",
-          "createdAt": "2026-03-30T08:43:37.387Z",
-          "lastUpdated": "2026-03-30T08:43:37.517Z"
         },
         "2131": {
           "number": 2131,
