@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1774859185.899749",
-    "lastUpdated": "2026-03-30T08:26:14.950Z",
+    "lastUpdated": "2026-03-30T08:41:48.590Z",
     "approvalListMessageHash": "2f10d7452872ae6d8e64016dacb821d5461a9284b7e22a4f82de188b89371baa"
   },
   "repositories": {
@@ -1001,11 +1001,11 @@
           "author": "RiteshHMCTS",
           "url": "https://github.com/hmcts/rpx-xui-common-lib/pull/537",
           "changesRequested": false,
-          "approvals": 0,
+          "approvals": 1,
           "buildSuccess": true,
           "headSha": "57ebf57566b3f29c0482d22af4f380f13a8e02d3",
-          "createdAt": "2026-03-27T11:55:59.840Z",
-          "lastUpdated": "2026-03-27T11:55:59.997Z"
+          "createdAt": "2026-03-30T08:41:48.483Z",
+          "lastUpdated": "2026-03-30T08:41:48.590Z"
         }
       }
     }
