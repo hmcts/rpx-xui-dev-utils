@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1774860227.586459",
-    "lastUpdated": "2026-03-30T08:43:37.517Z",
+    "lastUpdated": "2026-03-30T08:54:14.511Z",
     "approvalListMessageHash": "62e59205c55b0f94a41f44c08ed808a1eb6da12cb91996f51e470acd698807ce"
   },
   "repositories": {
@@ -962,6 +962,18 @@
           "headSha": "5df8574446a67f40784f8ebea223d5cc4910c169",
           "createdAt": "2026-03-27T11:44:33.716Z",
           "lastUpdated": "2026-03-27T11:44:33.826Z"
+        },
+        "2132": {
+          "number": 2132,
+          "title": "fix: package library update to fix cve",
+          "author": "olusegz07",
+          "url": "https://github.com/hmcts/ccd-case-ui-toolkit/pull/2132",
+          "changesRequested": false,
+          "approvals": 0,
+          "buildSuccess": true,
+          "headSha": "8d85ca7b7c2767c620778b045e87816c0995436a",
+          "createdAt": "2026-03-30T08:54:14.375Z",
+          "lastUpdated": "2026-03-30T08:54:14.511Z"
         }
       }
     },
