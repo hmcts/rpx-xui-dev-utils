@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1774882861.055529",
-    "lastUpdated": "2026-03-30T15:18:51.965Z",
+    "lastUpdated": "2026-03-30T15:39:36.893Z",
     "approvalListMessageHash": "1d063e86f2cfce59829d31a3144427b97a0c93320b95605e61320187f2df142a"
   },
   "repositories": {
@@ -462,6 +462,18 @@
           "headSha": "eb2642eff561f2607178408959b418e4849f39d1",
           "createdAt": "2026-03-30T12:40:58.990Z",
           "lastUpdated": "2026-03-30T12:40:59.213Z"
+        },
+        "5060": {
+          "number": 5060,
+          "title": "Docs: adds sequence diagram for creating hearings",
+          "author": "gregs-cgi",
+          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/5060",
+          "changesRequested": false,
+          "approvals": 0,
+          "buildSuccess": false,
+          "headSha": "198872dbb732af79e63d0bfa2db7df3ee49fd6e0",
+          "createdAt": "2026-03-30T15:39:36.676Z",
+          "lastUpdated": "2026-03-30T15:39:36.893Z"
         }
       }
     },
