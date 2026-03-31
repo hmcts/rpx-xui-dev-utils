@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1774945641.210129",
-    "lastUpdated": "2026-03-31T08:27:10.419Z",
+    "lastUpdated": "2026-03-31T08:40:16.742Z",
     "approvalListMessageHash": "35ca8c580a299feb749ccac98b1554fcbe18a6373d247eb69b05386efe153c33"
   },
   "repositories": {
@@ -433,11 +433,11 @@
           "author": "gregs-cgi",
           "url": "https://github.com/hmcts/rpx-xui-webapp/pull/5054",
           "changesRequested": false,
-          "approvals": 0,
+          "approvals": 1,
           "buildSuccess": true,
           "headSha": "e821d1ba203d47959b83e859ff2cb9a2e175ba6a",
-          "createdAt": "2026-03-26T16:54:09.559Z",
-          "lastUpdated": "2026-03-26T17:01:48.577Z"
+          "createdAt": "2026-03-31T08:40:16.626Z",
+          "lastUpdated": "2026-03-31T08:40:16.742Z"
         },
         "5056": {
           "number": 5056,
