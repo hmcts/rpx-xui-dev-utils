@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1774955640.732349",
-    "lastUpdated": "2026-03-31T11:13:49.250Z",
+    "lastUpdated": "2026-03-31T11:31:21.584Z",
     "approvalListMessageHash": "252ef926f3d8137c275ad2609a6319b2c4ef1d4ca9ab3c9935eb84fc426960b0"
   },
   "repositories": {
@@ -366,6 +366,18 @@
           "headSha": "83858a82bca0ad8283c9bc823e5cd44aac351b30",
           "createdAt": "2026-03-12T13:42:39.102Z",
           "lastUpdated": "2026-03-12T13:42:39.199Z"
+        },
+        "5026": {
+          "number": 5026,
+          "title": "EXUI-4266 Integration tests - Update the Case list negative tests",
+          "author": "kasi-subramaniam",
+          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/5026",
+          "changesRequested": false,
+          "approvals": 1,
+          "buildSuccess": true,
+          "headSha": "42ef3819fe69022b41c6befcb14ed40e47a61b66",
+          "createdAt": "2026-03-31T11:31:21.471Z",
+          "lastUpdated": "2026-03-31T11:31:21.584Z"
         },
         "5027": {
           "number": 5027,
