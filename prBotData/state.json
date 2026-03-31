@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1774961100.614949",
-    "lastUpdated": "2026-03-31T12:44:49.229Z",
+    "lastUpdated": "2026-03-31T12:47:12.332Z",
     "approvalListMessageHash": "8e0ab4fe24a9377be9a8660b1ebb2e0d9d1c28a1a57a78f7a99b8b0035de775d"
   },
   "repositories": {
@@ -550,18 +550,6 @@
           "headSha": "284cc904b2ffb71635ecd0b175635e246c37386c",
           "createdAt": "2026-01-29T15:53:47.458Z",
           "lastUpdated": "2026-01-29T15:53:47.529Z"
-        },
-        "1502": {
-          "number": 1502,
-          "title": "exui-4229-httpOnly-cookie-authorisation",
-          "author": "RiteshHMCTS",
-          "url": "https://github.com/hmcts/rpx-xui-manage-organisations/pull/1502",
-          "changesRequested": false,
-          "approvals": 1,
-          "buildSuccess": true,
-          "headSha": "51c00a4f85245c6ef65fbfe0ba1df6722f97d662",
-          "createdAt": "2026-03-31T10:46:53.826Z",
-          "lastUpdated": "2026-03-31T10:46:53.964Z"
         }
       }
     },
