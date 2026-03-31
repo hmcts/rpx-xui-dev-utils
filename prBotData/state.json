@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1774948723.865119",
-    "lastUpdated": "2026-03-31T09:18:32.524Z",
+    "lastUpdated": "2026-03-31T09:37:32.989Z",
     "approvalListMessageHash": "d9603339fe3e27a90d4a3e4a2c1b1a22e6a1fab6a1e9073a8f91600df3081e11"
   },
   "repositories": {
@@ -462,6 +462,18 @@
           "headSha": "198872dbb732af79e63d0bfa2db7df3ee49fd6e0",
           "createdAt": "2026-03-30T15:39:36.676Z",
           "lastUpdated": "2026-03-30T15:39:36.893Z"
+        },
+        "5061": {
+          "number": 5061,
+          "title": "Add positive test cases for booking UI integration",
+          "author": "danH-test",
+          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/5061",
+          "changesRequested": false,
+          "approvals": 0,
+          "buildSuccess": false,
+          "headSha": "72935c765033d4d6f0300bf181e394ba751a669d",
+          "createdAt": "2026-03-31T09:37:32.791Z",
+          "lastUpdated": "2026-03-31T09:37:32.989Z"
         }
       }
     },
