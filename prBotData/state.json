@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1774972108.035639",
-    "lastUpdated": "2026-03-31T15:48:16.658Z",
+    "lastUpdated": "2026-03-31T15:49:36.572Z",
     "approvalListMessageHash": "13f5db714e8c05f6c6e65cbc2ba7d8ecd817bbdd4a6f3b5c5e9c858300b6060f"
   },
   "repositories": {
@@ -693,11 +693,11 @@
           "author": "andyg-cgi",
           "url": "https://github.com/hmcts/rpx-xui-approve-org/pull/1014",
           "changesRequested": false,
-          "approvals": 0,
+          "approvals": 1,
           "buildSuccess": true,
           "headSha": "ffa7f0621cc1c007ef52067ee334f220dec853e8",
-          "createdAt": "2026-03-19T12:06:31.268Z",
-          "lastUpdated": "2026-03-23T10:58:57.333Z"
+          "createdAt": "2026-03-31T15:49:36.463Z",
+          "lastUpdated": "2026-03-31T15:49:36.572Z"
         },
         "1019": {
           "number": 1019,
