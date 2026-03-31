@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1774951394.602749",
-    "lastUpdated": "2026-03-31T10:03:03.974Z",
+    "lastUpdated": "2026-03-31T10:16:42.784Z",
     "approvalListMessageHash": "51badd837b2b52553d378bc201d93d2f0ca2327d3a1eb68d1b2cbcea8a149dad"
   },
   "repositories": {
@@ -686,6 +686,18 @@
           "headSha": "ffa7f0621cc1c007ef52067ee334f220dec853e8",
           "createdAt": "2026-03-19T12:06:31.268Z",
           "lastUpdated": "2026-03-23T10:58:57.333Z"
+        },
+        "1019": {
+          "number": 1019,
+          "title": "chore: library updates",
+          "author": "olusegz07",
+          "url": "https://github.com/hmcts/rpx-xui-approve-org/pull/1019",
+          "changesRequested": false,
+          "approvals": 0,
+          "buildSuccess": false,
+          "headSha": "e74fa9f0f6fc730ac24184f5584041bc662b2c7e",
+          "createdAt": "2026-03-31T10:16:42.520Z",
+          "lastUpdated": "2026-03-31T10:16:42.784Z"
         }
       }
     },
