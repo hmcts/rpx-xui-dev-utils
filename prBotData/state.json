@@ -415,18 +415,6 @@
           "createdAt": "2026-03-26T09:43:15.530Z",
           "lastUpdated": "2026-03-26T14:32:03.465Z"
         },
-        "5051": {
-          "number": 5051,
-          "title": "EXUI-4188 - Add the sanitization of HTML tags",
-          "author": "connorpgpmcelroy",
-          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/5051",
-          "changesRequested": false,
-          "approvals": 0,
-          "buildSuccess": true,
-          "headSha": "7e7394e5f792e3b259901ffd6dfeb17da11182fd",
-          "createdAt": "2026-03-26T11:04:23.192Z",
-          "lastUpdated": "2026-03-26T11:45:52.490Z"
-        },
         "5052": {
           "number": 5052,
           "title": "EXUI-4179 - Update version of OTP lib",
