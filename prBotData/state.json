@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1775038164.305489",
-    "lastUpdated": "2026-04-01T10:09:14.169Z",
+    "lastUpdated": "2026-04-01T10:11:48.804Z",
     "approvalListMessageHash": "ce332f7d267e35d3ec24c806eef536389c31cb69dc61bbf9610168484943d2fc"
   },
   "repositories": {
@@ -498,6 +498,18 @@
           "headSha": "bfc0ebf70e2571f0c6e9be8e56c22a3a87ba70b1",
           "createdAt": "2026-03-31T17:47:37.799Z",
           "lastUpdated": "2026-03-31T18:25:51.325Z"
+        },
+        "5065": {
+          "number": 5065,
+          "title": "EXUI-4143 E2E improvements add media viewer",
+          "author": "ShamrezDarw",
+          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/5065",
+          "changesRequested": false,
+          "approvals": 0,
+          "buildSuccess": false,
+          "headSha": "4473bc71370f89714875cca5c3bab301a63e868e",
+          "createdAt": "2026-04-01T10:11:48.693Z",
+          "lastUpdated": "2026-04-01T10:11:48.804Z"
         }
       }
     },
