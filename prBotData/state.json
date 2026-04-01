@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1775056423.952669",
-    "lastUpdated": "2026-04-01T15:13:33.168Z",
+    "lastUpdated": "2026-04-01T15:14:29.773Z",
     "approvalListMessageHash": "0eac6dbebc9e1aa4cd0351dbe39e20cfcf4b20e44ed89cf5e4c18ed998c7d1b4"
   },
   "repositories": {
@@ -1006,6 +1006,18 @@
           "headSha": "216546fc7b0c51bee605165b8f0c4437e8a2ebfc",
           "createdAt": "2026-03-30T13:14:24.878Z",
           "lastUpdated": "2026-03-31T09:09:10.374Z"
+        },
+        "1291": {
+          "number": 1291,
+          "title": "EXUI-4297: Suppressions - glob - major",
+          "author": "chrisjones-hmcts",
+          "url": "https://github.com/hmcts/em-media-viewer/pull/1291",
+          "changesRequested": false,
+          "approvals": 0,
+          "buildSuccess": true,
+          "headSha": "a2b66c2c5d8bb47ea12744a624c88b08e066557a",
+          "createdAt": "2026-04-01T15:14:29.606Z",
+          "lastUpdated": "2026-04-01T15:14:29.773Z"
         }
       }
     },
