@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1775037473.961759",
-    "lastUpdated": "2026-04-01T09:57:44.238Z",
+    "lastUpdated": "2026-04-01T10:09:14.169Z",
     "approvalListMessageHash": "62659c7da3c4ef99585c8b60b78b3944cef5830d43904fab1a8201286c68dc75"
   },
   "repositories": {
@@ -798,18 +798,6 @@
           "headSha": "3282689990af3699b07b77b97872f3fac9e5b338",
           "createdAt": "2026-03-29T15:24:18.637Z",
           "lastUpdated": "2026-03-29T15:24:18.827Z"
-        },
-        "775": {
-          "number": 775,
-          "title": "EXUI-4275 - Fix functional tests",
-          "author": "Josh-HMCTS",
-          "url": "https://github.com/hmcts/em-showcase/pull/775",
-          "changesRequested": false,
-          "approvals": 1,
-          "buildSuccess": true,
-          "headSha": "857629c6d1c045a1a3dd9f7a0cf26639a952a0df",
-          "createdAt": "2026-03-31T15:58:54.466Z",
-          "lastUpdated": "2026-03-31T15:58:54.589Z"
         },
         "776": {
           "number": 776,
