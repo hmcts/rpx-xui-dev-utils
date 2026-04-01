@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1775033532.192669",
-    "lastUpdated": "2026-04-01T08:52:03.047Z",
+    "lastUpdated": "2026-04-01T09:03:50.077Z",
     "approvalListMessageHash": "62659c7da3c4ef99585c8b60b78b3944cef5830d43904fab1a8201286c68dc75"
   },
   "repositories": {
@@ -998,6 +998,18 @@
           "headSha": "a0611689456b794c31cf1b5ee57814cd3862304b",
           "createdAt": "2026-02-13T17:31:49.097Z",
           "lastUpdated": "2026-02-13T17:31:49.180Z"
+        },
+        "2119": {
+          "number": 2119,
+          "title": "EXUI-4089 Case Flags: Show banner when PVP flag is present on case",
+          "author": "chrisjones-hmcts",
+          "url": "https://github.com/hmcts/ccd-case-ui-toolkit/pull/2119",
+          "changesRequested": false,
+          "approvals": 1,
+          "buildSuccess": true,
+          "headSha": "3fff240392435c6d4f876608515ef7c4af169302",
+          "createdAt": "2026-04-01T09:03:49.979Z",
+          "lastUpdated": "2026-04-01T09:03:50.077Z"
         },
         "2132": {
           "number": 2132,
