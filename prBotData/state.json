@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1775051510.787159",
-    "lastUpdated": "2026-04-01T13:51:40.107Z",
+    "lastUpdated": "2026-04-01T13:56:33.727Z",
     "approvalListMessageHash": "4a91977a011772950511ee4bb1b31d63d08048ac8087d66882d0579e58422cc4"
   },
   "repositories": {
@@ -934,18 +934,6 @@
           "headSha": "11d55fa95ef25ed54a778e8ea2be0cc7133df811",
           "createdAt": "2026-03-30T20:45:27.191Z",
           "lastUpdated": "2026-03-30T20:45:27.292Z"
-        },
-        "1284": {
-          "number": 1284,
-          "title": "CME-928: Update Azure Container Registries- em-media-viewer",
-          "author": "kiran-yenigala-hmcts",
-          "url": "https://github.com/hmcts/em-media-viewer/pull/1284",
-          "changesRequested": false,
-          "approvals": 1,
-          "buildSuccess": false,
-          "headSha": "00a9c9f84175e3f146a55b303b36bd03b72e5035",
-          "createdAt": "2026-03-25T14:22:14.126Z",
-          "lastUpdated": "2026-03-25T14:22:14.240Z"
         },
         "1286": {
           "number": 1286,
