@@ -1010,18 +1010,6 @@
           "headSha": "eaadf0572545d10162418c408b1887273241fbbd",
           "createdAt": "2026-03-31T12:44:49.127Z",
           "lastUpdated": "2026-03-31T12:44:49.229Z"
-        },
-        "2133": {
-          "number": 2133,
-          "title": "EXUI-3229: Event triggers cause duplicate requests",
-          "author": "chrisjones-hmcts",
-          "url": "https://github.com/hmcts/ccd-case-ui-toolkit/pull/2133",
-          "changesRequested": false,
-          "approvals": 1,
-          "buildSuccess": true,
-          "headSha": "d93c08a135522de50eec55c70939427669b02c49",
-          "createdAt": "2026-03-31T12:17:45.227Z",
-          "lastUpdated": "2026-03-31T12:17:45.414Z"
         }
       }
     },
