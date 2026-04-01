@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1775056203.990479",
-    "lastUpdated": "2026-04-01T15:09:52.326Z",
+    "lastUpdated": "2026-04-01T15:12:19.889Z",
     "approvalListMessageHash": "5fd34f7abe06dcfd17f9e678ca06eb4323abb318f004d2945aee96e9398e7c59"
   },
   "repositories": {
@@ -474,6 +474,18 @@
           "headSha": "72935c765033d4d6f0300bf181e394ba751a669d",
           "createdAt": "2026-03-31T09:37:32.791Z",
           "lastUpdated": "2026-03-31T10:03:03.974Z"
+        },
+        "5062": {
+          "number": 5062,
+          "title": "EXUI-4297: Suppressions - glob - major",
+          "author": "chrisjones-hmcts",
+          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/5062",
+          "changesRequested": false,
+          "approvals": 0,
+          "buildSuccess": true,
+          "headSha": "3fdba9b0265e80a43a71c2f979e149606a5b97d0",
+          "createdAt": "2026-04-01T15:12:19.741Z",
+          "lastUpdated": "2026-04-01T15:12:19.889Z"
         },
         "5063": {
           "number": 5063,
