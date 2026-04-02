@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1775118843.185999",
-    "lastUpdated": "2026-04-02T08:56:14.488Z",
+    "lastUpdated": "2026-04-02T08:58:36.171Z",
     "approvalListMessageHash": "18d8b91b8ea1050eabcb1948e1057d8bff626dfa0075e22e2e15795db3c6a1bc"
   },
   "repositories": {
@@ -534,18 +534,6 @@
           "headSha": "9c0b273390737803c1266f9ac4c3475bc7dc8d60",
           "createdAt": "2026-04-02T08:27:38.687Z",
           "lastUpdated": "2026-04-02T08:27:38.768Z"
-        },
-        "5069": {
-          "number": 5069,
-          "title": "Revert \"EXUI-4323 - no userID passed in cookies\"",
-          "author": "RiteshHMCTS",
-          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/5069",
-          "changesRequested": false,
-          "approvals": 0,
-          "buildSuccess": false,
-          "headSha": "7e2ba16f256d652b7c4ea2eff33ad3178c730866",
-          "createdAt": "2026-04-01T14:42:46.505Z",
-          "lastUpdated": "2026-04-02T08:33:52.918Z"
         }
       }
     },
