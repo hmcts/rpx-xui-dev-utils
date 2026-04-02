@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1775131977.286769",
-    "lastUpdated": "2026-04-02T12:18:17.216Z",
+    "lastUpdated": "2026-04-02T12:36:44.357Z",
     "approvalListMessageHash": "ef8e5af690cfff14e9c5091ec593448d451c00a6e49c820947807fbbc3e7d181"
   },
   "repositories": {
@@ -522,18 +522,6 @@
           "headSha": "325551b2333169de56e767cc95291afb1e5423e5",
           "createdAt": "2026-04-01T10:11:48.693Z",
           "lastUpdated": "2026-04-01T10:51:15.574Z"
-        },
-        "5070": {
-          "number": 5070,
-          "title": "Feat: remove unsafe eval",
-          "author": "gregs-cgi",
-          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/5070",
-          "changesRequested": false,
-          "approvals": 1,
-          "buildSuccess": false,
-          "headSha": "8b48d796c025494b795804a02386f0af0cd79d07",
-          "createdAt": "2026-04-02T12:18:17.069Z",
-          "lastUpdated": "2026-04-02T12:18:17.216Z"
         }
       }
     },
