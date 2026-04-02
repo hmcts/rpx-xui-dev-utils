@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1775140196.250759",
-    "lastUpdated": "2026-04-02T14:29:46.464Z",
+    "lastUpdated": "2026-04-02T14:30:13.355Z",
     "approvalListMessageHash": "56a155bb9045708c97cdf65ed04bb6c28535df7cb40a566f6621092b62f955f4"
   },
   "repositories": {
@@ -994,18 +994,6 @@
           "headSha": "30a38095101460ade1eedfb9bc564ae6aac8b834",
           "createdAt": "2026-03-30T06:39:25.665Z",
           "lastUpdated": "2026-03-30T06:39:25.780Z"
-        },
-        "1288": {
-          "number": 1288,
-          "title": "Ex UI 4369 CVE fix",
-          "author": "olusegz07",
-          "url": "https://github.com/hmcts/em-media-viewer/pull/1288",
-          "changesRequested": false,
-          "approvals": 1,
-          "buildSuccess": true,
-          "headSha": "216546fc7b0c51bee605165b8f0c4437e8a2ebfc",
-          "createdAt": "2026-04-02T13:11:49.139Z",
-          "lastUpdated": "2026-04-02T13:11:49.297Z"
         },
         "1291": {
           "number": 1291,
