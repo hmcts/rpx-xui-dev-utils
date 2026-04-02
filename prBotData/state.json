@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1775065214.927269",
-    "lastUpdated": "2026-04-01T17:40:04.725Z",
+    "lastUpdated": "2026-04-02T08:27:38.768Z",
     "approvalListMessageHash": "45a8b68b0a9079301bbb03ef82a58606c88685c9d035f03df26b4f8bade0f196"
   },
   "repositories": {
@@ -522,6 +522,18 @@
           "headSha": "325551b2333169de56e767cc95291afb1e5423e5",
           "createdAt": "2026-04-01T10:11:48.693Z",
           "lastUpdated": "2026-04-01T10:51:15.574Z"
+        },
+        "5067": {
+          "number": 5067,
+          "title": "EXUI-3367 Remove 'classic' AI (test in DEMO)",
+          "author": "nathan-clark",
+          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/5067",
+          "changesRequested": false,
+          "approvals": 1,
+          "buildSuccess": true,
+          "headSha": "9c0b273390737803c1266f9ac4c3475bc7dc8d60",
+          "createdAt": "2026-04-02T08:27:38.687Z",
+          "lastUpdated": "2026-04-02T08:27:38.768Z"
         },
         "5069": {
           "number": 5069,
