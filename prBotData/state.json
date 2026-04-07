@@ -475,18 +475,6 @@
           "createdAt": "2026-04-01T16:00:58.168Z",
           "lastUpdated": "2026-04-01T16:00:58.309Z"
         },
-        "5064": {
-          "number": 5064,
-          "title": "EXUI-4143 E2E improvements add media viewer test",
-          "author": "ShamrezDarw",
-          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/5064",
-          "changesRequested": false,
-          "approvals": 0,
-          "buildSuccess": true,
-          "headSha": "bfc0ebf70e2571f0c6e9be8e56c22a3a87ba70b1",
-          "createdAt": "2026-03-31T17:47:37.799Z",
-          "lastUpdated": "2026-03-31T18:25:51.325Z"
-        },
         "5065": {
           "number": 5065,
           "title": "EXUI-4143 E2E improvements add media viewer",
