@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1775554001.498129",
-    "lastUpdated": "2026-04-07T09:26:30.886Z",
+    "lastUpdated": "2026-04-07T09:28:07.610Z",
     "approvalListMessageHash": "5176466acea72ba77843598d7d730fa18f480707c58a77e52ba0bc4cd2cd494f"
   },
   "repositories": {
@@ -986,6 +986,18 @@
           "headSha": "eeed25a8147b80756537691455ab83d275bb2f8a",
           "createdAt": "2026-04-03T09:25:15.656Z",
           "lastUpdated": "2026-04-03T09:25:15.751Z"
+        },
+        "2136": {
+          "number": 2136,
+          "title": "EXUI-4300 - Update core.js version",
+          "author": "Josh-HMCTS",
+          "url": "https://github.com/hmcts/ccd-case-ui-toolkit/pull/2136",
+          "changesRequested": false,
+          "approvals": 0,
+          "buildSuccess": true,
+          "headSha": "e217ece8038ceeb28f6f3598dd04298b83823bf9",
+          "createdAt": "2026-04-07T09:28:07.370Z",
+          "lastUpdated": "2026-04-07T09:28:07.610Z"
         }
       }
     },
