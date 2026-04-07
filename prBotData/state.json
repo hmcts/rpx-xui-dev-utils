@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1775551867.365599",
-    "lastUpdated": "2026-04-07T08:50:57.411Z",
+    "lastUpdated": "2026-04-07T09:26:30.886Z",
     "approvalListMessageHash": "13730619270a0d8175d8a8a378273cf16ad9e7f4044da442863712473840721e"
   },
   "repositories": {
@@ -1002,6 +1002,22 @@
           "headSha": "edb3316c82ae5f4eda2351d91b75fe72705cbde5",
           "createdAt": "2026-02-26T17:23:08.789Z",
           "lastUpdated": "2026-02-26T17:23:08.893Z"
+        }
+      }
+    },
+    "hmcts/rpx-xui-common-lib": {
+      "pullRequests": {
+        "538": {
+          "number": 538,
+          "title": "EXUI-4300 - Update core.js version",
+          "author": "Josh-HMCTS",
+          "url": "https://github.com/hmcts/rpx-xui-common-lib/pull/538",
+          "changesRequested": false,
+          "approvals": 0,
+          "buildSuccess": true,
+          "headSha": "cbd15c9bd535a29697c55568214389b464010d31",
+          "createdAt": "2026-04-07T09:26:30.778Z",
+          "lastUpdated": "2026-04-07T09:26:30.886Z"
         }
       }
     }
