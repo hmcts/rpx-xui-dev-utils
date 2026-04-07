@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1775554098.099209",
-    "lastUpdated": "2026-04-07T10:09:40.901Z",
+    "lastUpdated": "2026-04-07T10:17:05.847Z",
     "approvalListMessageHash": "df2e31ea717af5d2c9696780f3be9e18b67b2182ec5ac69e8c07f6e30192b331"
   },
   "repositories": {
@@ -498,6 +498,18 @@
           "headSha": "d42a258643e1e3b4b6aee1dd03e4280a92e3c1e2",
           "createdAt": "2026-04-07T08:50:57.319Z",
           "lastUpdated": "2026-04-07T08:50:57.411Z"
+        },
+        "5072": {
+          "number": 5072,
+          "title": "EXUI-4300 - Update core.js version, use tk and cl version",
+          "author": "Josh-HMCTS",
+          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/5072",
+          "changesRequested": false,
+          "approvals": 0,
+          "buildSuccess": false,
+          "headSha": "743033d0706a39d09abaecc756b3e68e507a9cf1",
+          "createdAt": "2026-04-07T10:17:05.677Z",
+          "lastUpdated": "2026-04-07T10:17:05.847Z"
         }
       }
     },
