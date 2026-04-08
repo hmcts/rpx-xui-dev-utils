@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1775645869.605849",
-    "lastUpdated": "2026-04-08T10:57:38.612Z",
+    "lastUpdated": "2026-04-08T12:36:30.050Z",
     "approvalListMessageHash": "aeb86de45fa0fa94ed934cb52eac12d6b0d67e110ce4d3adf5f1fde0c51a6665"
   },
   "repositories": {
@@ -586,18 +586,6 @@
           "headSha": "284cc904b2ffb71635ecd0b175635e246c37386c",
           "createdAt": "2026-01-29T15:53:47.458Z",
           "lastUpdated": "2026-01-29T15:53:47.529Z"
-        },
-        "1505": {
-          "number": 1505,
-          "title": "EXUI-3579 - update sonar config",
-          "author": "Josh-HMCTS",
-          "url": "https://github.com/hmcts/rpx-xui-manage-organisations/pull/1505",
-          "changesRequested": false,
-          "approvals": 1,
-          "buildSuccess": true,
-          "headSha": "0abc41ee848a2ceb6ec0bc56f314df9bdfdba7e4",
-          "createdAt": "2026-04-08T10:57:38.440Z",
-          "lastUpdated": "2026-04-08T10:57:38.612Z"
         }
       }
     },
