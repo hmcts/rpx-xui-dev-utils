@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1775722092.135559",
-    "lastUpdated": "2026-04-09T08:08:02.174Z",
+    "lastUpdated": "2026-04-09T08:49:07.577Z",
     "approvalListMessageHash": "ed3373c98b5391f745fde7c64abcb451e56545a78aa7df6a60c8837b0031bf95"
   },
   "repositories": {
@@ -534,6 +534,18 @@
           "headSha": "5e37cec05ccad0bd7193df01e90e2c41f800f403",
           "createdAt": "2026-04-08T17:00:55.292Z",
           "lastUpdated": "2026-04-08T17:26:25.378Z"
+        },
+        "5075": {
+          "number": 5075,
+          "title": "Ex UI 3622 hearings e2e",
+          "author": "kasi-subramaniam",
+          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/5075",
+          "changesRequested": false,
+          "approvals": 0,
+          "buildSuccess": false,
+          "headSha": "d9af5e736db577c928fc859a6ab7cc12e905e85d",
+          "createdAt": "2026-04-09T08:49:07.447Z",
+          "lastUpdated": "2026-04-09T08:49:07.577Z"
         }
       }
     },
