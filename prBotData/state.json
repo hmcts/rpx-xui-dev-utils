@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1775748144.404569",
-    "lastUpdated": "2026-04-09T15:22:13.766Z",
+    "lastUpdated": "2026-04-09T16:15:23.351Z",
     "approvalListMessageHash": "bde56966902ae79a3bc8c62715d3e1af75bdb20a73b275100318adb8f3da6dcf"
   },
   "repositories": {
@@ -570,6 +570,18 @@
           "headSha": "9c0b273390737803c1266f9ac4c3475bc7dc8d60",
           "createdAt": "2026-04-09T09:19:43.655Z",
           "lastUpdated": "2026-04-09T09:19:43.769Z"
+        },
+        "5078": {
+          "number": 5078,
+          "title": "add additional coverage flagged by sonar",
+          "author": "Josh-HMCTS",
+          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/5078",
+          "changesRequested": false,
+          "approvals": 0,
+          "buildSuccess": false,
+          "headSha": "963e6f4b171e66f3578225334e9c830d2c9a5742",
+          "createdAt": "2026-04-09T16:15:23.241Z",
+          "lastUpdated": "2026-04-09T16:15:23.351Z"
         }
       }
     },
