@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1775729610.161449",
-    "lastUpdated": "2026-04-09T10:13:20.274Z",
+    "lastUpdated": "2026-04-09T10:30:45.954Z",
     "approvalListMessageHash": "3e630df8f7b9056f10218f71d2e93c9ad0907a35ce10bcb5c964b59018c0e23d"
   },
   "repositories": {
@@ -486,18 +486,6 @@
           "headSha": "325551b2333169de56e767cc95291afb1e5423e5",
           "createdAt": "2026-04-01T10:11:48.693Z",
           "lastUpdated": "2026-04-01T10:51:15.574Z"
-        },
-        "5071": {
-          "number": 5071,
-          "title": "exui-4198-logs hearing details when caseName is not matched",
-          "author": "RiteshHMCTS",
-          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/5071",
-          "changesRequested": false,
-          "approvals": 1,
-          "buildSuccess": true,
-          "headSha": "d42a258643e1e3b4b6aee1dd03e4280a92e3c1e2",
-          "createdAt": "2026-04-07T08:50:57.319Z",
-          "lastUpdated": "2026-04-07T08:50:57.411Z"
         },
         "5072": {
           "number": 5072,
