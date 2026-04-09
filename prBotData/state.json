@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1775669197.311889",
-    "lastUpdated": "2026-04-08T17:26:25.378Z",
+    "lastUpdated": "2026-04-09T08:08:02.174Z",
     "approvalListMessageHash": "1b82bf9f22b873bab4a577101fd4f9e8e09ad78541884287b2749ed33f1a3a72"
   },
   "repositories": {
@@ -1034,18 +1034,6 @@
           "headSha": "b32059a04568b2fa9c075d2a7ca75670cd4444be",
           "createdAt": "2026-04-07T13:31:11.783Z",
           "lastUpdated": "2026-04-07T13:31:11.922Z"
-        },
-        "2137": {
-          "number": 2137,
-          "title": "EXUI-4368: Halo 131583 - same data is displayed when navigating between different applications through a dynamic list",
-          "author": "chrisjones-hmcts",
-          "url": "https://github.com/hmcts/ccd-case-ui-toolkit/pull/2137",
-          "changesRequested": false,
-          "approvals": 1,
-          "buildSuccess": true,
-          "headSha": "fe9c6fa4ec4415b30eaf4460ae306c02347e687f",
-          "createdAt": "2026-04-07T14:27:44.032Z",
-          "lastUpdated": "2026-04-07T14:27:44.185Z"
         },
         "2138": {
           "number": 2138,
