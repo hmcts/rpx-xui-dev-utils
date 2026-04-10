@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1775804652.020709",
-    "lastUpdated": "2026-04-10T08:20:47.130Z",
+    "lastUpdated": "2026-04-10T08:39:35.966Z",
     "approvalListMessageHash": "fa0e4b35d516ba515760775ba9c75d7c3c8b6c71c607564fea254a2b2f95cd37"
   },
   "repositories": {
@@ -570,6 +570,18 @@
           "headSha": "c93879d0443a0e92e7a982b724cb983151b559f0",
           "createdAt": "2026-04-09T16:15:23.241Z",
           "lastUpdated": "2026-04-09T17:28:10.088Z"
+        },
+        "5079": {
+          "number": 5079,
+          "title": "task: global-agent version update",
+          "author": "olusegz07",
+          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/5079",
+          "changesRequested": false,
+          "approvals": 0,
+          "buildSuccess": false,
+          "headSha": "94cd1371a85dd301e701e56444dbfe48b0162a80",
+          "createdAt": "2026-04-10T08:39:35.783Z",
+          "lastUpdated": "2026-04-10T08:39:35.966Z"
         }
       }
     },
