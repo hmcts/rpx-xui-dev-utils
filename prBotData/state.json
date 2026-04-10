@@ -427,18 +427,6 @@
           "createdAt": "2026-03-31T08:40:16.626Z",
           "lastUpdated": "2026-04-02T12:12:46.842Z"
         },
-        "5057": {
-          "number": 5057,
-          "title": "exui-4123-logout-issue",
-          "author": "RiteshHMCTS",
-          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/5057",
-          "changesRequested": false,
-          "approvals": 1,
-          "buildSuccess": true,
-          "headSha": "5ea0979f0d3ff7f53881882f79305c5900fa1206",
-          "createdAt": "2026-04-09T15:22:13.543Z",
-          "lastUpdated": "2026-04-09T15:22:13.766Z"
-        },
         "5060": {
           "number": 5060,
           "title": "Docs: adds sequence diagram for creating hearings",
