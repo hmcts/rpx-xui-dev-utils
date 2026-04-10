@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1775755699.841319",
-    "lastUpdated": "2026-04-09T17:28:10.088Z",
+    "lastUpdated": "2026-04-10T03:38:57.197Z",
     "approvalListMessageHash": "3cfcac18aba1bbcab2b6824a5a854fc1dd60fe6dac7c3bad01cf622994e964fb"
   },
   "repositories": {
@@ -1054,6 +1054,18 @@
           "headSha": "a2b66c2c5d8bb47ea12744a624c88b08e066557a",
           "createdAt": "2026-04-01T15:14:29.606Z",
           "lastUpdated": "2026-04-01T15:14:29.773Z"
+        },
+        "1292": {
+          "number": 1292,
+          "title": "Update dependency lodash to v4.18.1 [SECURITY]",
+          "author": "renovate[bot]",
+          "url": "https://github.com/hmcts/em-media-viewer/pull/1292",
+          "changesRequested": false,
+          "approvals": 0,
+          "buildSuccess": false,
+          "headSha": "3a31a85494b03c5e3dd42882011f0d22829f02d4",
+          "createdAt": "2026-04-10T03:38:57.001Z",
+          "lastUpdated": "2026-04-10T03:38:57.197Z"
         }
       }
     },
