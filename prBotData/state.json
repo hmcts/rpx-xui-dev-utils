@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1776071837.846819",
-    "lastUpdated": "2026-04-13T09:17:05.939Z",
+    "lastUpdated": "2026-04-13T09:18:07.517Z",
     "approvalListMessageHash": "675295d96ab7b043dee3dc9b8b6ba38a4dd094d97e44491db05aebef164361af"
   },
   "repositories": {
@@ -378,6 +378,18 @@
           "headSha": "b72d624bd66df2f642bb1056d493d6a6472a2117",
           "createdAt": "2026-03-20T16:14:51.770Z",
           "lastUpdated": "2026-03-31T11:43:50.602Z"
+        },
+        "5044": {
+          "number": 5044,
+          "title": "EXUI-4277: Suppressions to packages to update - easier",
+          "author": "chrisjones-hmcts",
+          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/5044",
+          "changesRequested": false,
+          "approvals": 0,
+          "buildSuccess": true,
+          "headSha": "705766cbeac3f5d879565cb436b84001c0a22c16",
+          "createdAt": "2026-04-13T09:18:07.446Z",
+          "lastUpdated": "2026-04-13T09:18:07.517Z"
         },
         "5049": {
           "number": 5049,
