@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1776071779.605779",
-    "lastUpdated": "2026-04-13T09:16:08.018Z",
+    "lastUpdated": "2026-04-13T09:17:05.939Z",
     "approvalListMessageHash": "0903b02a82d73f778f8880a35a1f63e106087b8c7c6e713c05ff6c360f1ceea1"
   },
   "repositories": {
@@ -634,6 +634,18 @@
           "headSha": "284cc904b2ffb71635ecd0b175635e246c37386c",
           "createdAt": "2026-01-29T15:53:47.458Z",
           "lastUpdated": "2026-01-29T15:53:47.529Z"
+        },
+        "1501": {
+          "number": 1501,
+          "title": "EXUI-4277: Suppressions to packages to update - easier",
+          "author": "chrisjones-hmcts",
+          "url": "https://github.com/hmcts/rpx-xui-manage-organisations/pull/1501",
+          "changesRequested": false,
+          "approvals": 0,
+          "buildSuccess": true,
+          "headSha": "09bb52d6d89e2e73bb6ecd6a6fc006c2727967e6",
+          "createdAt": "2026-04-13T09:17:05.812Z",
+          "lastUpdated": "2026-04-13T09:17:05.939Z"
         },
         "1506": {
           "number": 1506,
