@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1776074417.254789",
-    "lastUpdated": "2026-04-13T10:00:05.941Z",
+    "lastUpdated": "2026-04-13T10:10:03.664Z",
     "approvalListMessageHash": "4d61bb57681739031dca5575a1e1aa6da847ad761279ba7f0b320af7901b5f77"
   },
   "repositories": {
@@ -390,6 +390,18 @@
           "headSha": "705766cbeac3f5d879565cb436b84001c0a22c16",
           "createdAt": "2026-04-13T09:18:07.446Z",
           "lastUpdated": "2026-04-13T09:18:07.517Z"
+        },
+        "5046": {
+          "number": 5046,
+          "title": "CME-925: fix: update container registry references to production",
+          "author": "AntonyLeons",
+          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/5046",
+          "changesRequested": false,
+          "approvals": 1,
+          "buildSuccess": true,
+          "headSha": "84e27aae1f5a52bee7a41b94a954f65c911cfa65",
+          "createdAt": "2026-04-13T10:10:03.532Z",
+          "lastUpdated": "2026-04-13T10:10:03.664Z"
         },
         "5049": {
           "number": 5049,
