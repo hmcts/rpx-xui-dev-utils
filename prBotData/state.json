@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1776071549.820209",
-    "lastUpdated": "2026-04-13T09:12:18.232Z",
+    "lastUpdated": "2026-04-13T09:13:19.015Z",
     "approvalListMessageHash": "9f0a0d2c36983d7507ac319ee0aaf4d2a0d52519c18d3ab15642b99812358cfa"
   },
   "repositories": {
@@ -1030,6 +1030,18 @@
           "headSha": "11d55fa95ef25ed54a778e8ea2be0cc7133df811",
           "createdAt": "2026-03-30T20:45:27.191Z",
           "lastUpdated": "2026-03-30T20:45:27.292Z"
+        },
+        "1285": {
+          "number": 1285,
+          "title": "EXUI-4277: Suppressions to packages to update - easier",
+          "author": "chrisjones-hmcts",
+          "url": "https://github.com/hmcts/em-media-viewer/pull/1285",
+          "changesRequested": false,
+          "approvals": 1,
+          "buildSuccess": true,
+          "headSha": "997f1b8e1f81bdac8aa01f52b1e709a8667a4d0b",
+          "createdAt": "2026-04-13T09:13:18.879Z",
+          "lastUpdated": "2026-04-13T09:13:19.015Z"
         },
         "1286": {
           "number": 1286,
