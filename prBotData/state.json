@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1776075624.512849",
-    "lastUpdated": "2026-04-13T10:20:13.018Z",
+    "lastUpdated": "2026-04-13T10:21:41.701Z",
     "approvalListMessageHash": "4d61bb57681739031dca5575a1e1aa6da847ad761279ba7f0b320af7901b5f77"
   },
   "repositories": {
@@ -830,18 +830,6 @@
           "headSha": "a398b9aa1d562e1fbbaee03864046ebc09ce4d29",
           "createdAt": "2026-04-07T13:29:11.963Z",
           "lastUpdated": "2026-04-07T13:29:12.148Z"
-        },
-        "1022": {
-          "number": 1022,
-          "title": "task: library update",
-          "author": "olusegz07",
-          "url": "https://github.com/hmcts/rpx-xui-approve-org/pull/1022",
-          "changesRequested": false,
-          "approvals": 0,
-          "buildSuccess": true,
-          "headSha": "bd5a900e363244dabff478d3ab7d949dba508da6",
-          "createdAt": "2026-04-10T08:57:42.396Z",
-          "lastUpdated": "2026-04-10T14:15:34.958Z"
         },
         "1023": {
           "number": 1023,
