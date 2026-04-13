@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1776081645.351439",
-    "lastUpdated": "2026-04-13T12:00:34.644Z",
+    "lastUpdated": "2026-04-13T12:27:17.510Z",
     "approvalListMessageHash": "8c7167c72703ea209060b51f12a7f1d29a66bd7ed58bed06f13dfddb2779ae04"
   },
   "repositories": {
@@ -1136,12 +1136,12 @@
           "title": "EXUI-2906 Revive activity tracker",
           "author": "andywilkinshmcts",
           "url": "https://github.com/hmcts/ccd-case-ui-toolkit/pull/1990",
-          "changesRequested": true,
-          "approvals": 0,
+          "changesRequested": false,
+          "approvals": 1,
           "buildSuccess": true,
           "headSha": "415beca0f8fd2ef3b471a05f9c3310600eabf3d2",
-          "createdAt": "2026-04-10T18:00:46.215Z",
-          "lastUpdated": "2026-04-10T18:00:46.385Z"
+          "createdAt": "2026-04-13T12:27:17.311Z",
+          "lastUpdated": "2026-04-13T12:27:17.510Z"
         },
         "2128": {
           "number": 2128,
