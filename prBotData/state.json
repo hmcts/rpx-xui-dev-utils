@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1776071666.778369",
-    "lastUpdated": "2026-04-13T09:14:15.929Z",
+    "lastUpdated": "2026-04-13T09:15:09.752Z",
     "approvalListMessageHash": "1ae4d6eb571db0f8c515b606195874bb43cbf1a8fc2758b062b3a56ed2382310"
   },
   "repositories": {
@@ -1118,6 +1118,18 @@
           "headSha": "415beca0f8fd2ef3b471a05f9c3310600eabf3d2",
           "createdAt": "2026-04-10T18:00:46.215Z",
           "lastUpdated": "2026-04-10T18:00:46.385Z"
+        },
+        "2128": {
+          "number": 2128,
+          "title": "EXUI-4277: Suppressions to packages to update - easier",
+          "author": "chrisjones-hmcts",
+          "url": "https://github.com/hmcts/ccd-case-ui-toolkit/pull/2128",
+          "changesRequested": false,
+          "approvals": 0,
+          "buildSuccess": true,
+          "headSha": "fcc3f17f427b39f6e58b472ec6fbdb24b1fa804a",
+          "createdAt": "2026-04-13T09:15:09.621Z",
+          "lastUpdated": "2026-04-13T09:15:09.752Z"
         },
         "2135": {
           "number": 2135,
