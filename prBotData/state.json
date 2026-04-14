@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1776181736.638179",
-    "lastUpdated": "2026-04-14T16:01:45.260Z",
+    "lastUpdated": "2026-04-14T17:31:09.031Z",
     "approvalListMessageHash": "68c0cb53413db7ef589cc860437bc2520aefb112efb45e8c0f2a87f15b31d51b"
   },
   "repositories": {
@@ -558,6 +558,18 @@
           "headSha": "8788456840340aaf5d36583676ae003f3ca551eb",
           "createdAt": "2026-04-14T10:01:19.543Z",
           "lastUpdated": "2026-04-14T10:46:56.017Z"
+        },
+        "5084": {
+          "number": 5084,
+          "title": "EXUI-4437 - Improved logging ",
+          "author": "Josh-HMCTS",
+          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/5084",
+          "changesRequested": false,
+          "approvals": 0,
+          "buildSuccess": false,
+          "headSha": "8aaa1e0c012c699045176710da86bd7088ecbb5e",
+          "createdAt": "2026-04-14T17:31:08.931Z",
+          "lastUpdated": "2026-04-14T17:31:09.031Z"
         }
       }
     },
