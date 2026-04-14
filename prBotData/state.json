@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1776162050.119699",
-    "lastUpdated": "2026-04-14T10:20:40.719Z",
+    "lastUpdated": "2026-04-14T10:27:09.260Z",
     "approvalListMessageHash": "13489a4d2b7079ea0b6b0385a7cb22c4ff292c1ce65554d2c5847ec77712775b"
   },
   "repositories": {
@@ -1138,18 +1138,6 @@
           "headSha": "95c14c1f0fcd117606c782d5a45bbd3f541a5b17",
           "createdAt": "2026-04-10T09:20:15.310Z",
           "lastUpdated": "2026-04-13T10:22:03.539Z"
-        },
-        "1295": {
-          "number": 1295,
-          "title": "cve",
-          "author": "RiteshHMCTS",
-          "url": "https://github.com/hmcts/em-media-viewer/pull/1295",
-          "changesRequested": false,
-          "approvals": 0,
-          "buildSuccess": false,
-          "headSha": "a3fac3a7c226286dd115942091ba174f0ba70f9f",
-          "createdAt": "2026-04-14T10:03:02.900Z",
-          "lastUpdated": "2026-04-14T10:03:03.017Z"
         }
       }
     },
