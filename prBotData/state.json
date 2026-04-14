@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1776173913.652409",
-    "lastUpdated": "2026-04-14T13:38:22.974Z",
+    "lastUpdated": "2026-04-14T14:33:24.982Z",
     "approvalListMessageHash": "6d1287519fa5fdae53c7e7467d0d3d466b86fa12b462ac3a4b73f20ae70299bf"
   },
   "repositories": {
@@ -794,6 +794,18 @@
           "headSha": "c909788e3d236abd85778edbbec96b603a9b7901",
           "createdAt": "2026-03-04T14:32:15.851Z",
           "lastUpdated": "2026-03-04T14:32:15.944Z"
+        },
+        "1012": {
+          "number": 1012,
+          "title": "EXUI-4227 - Add angular upgrade",
+          "author": "connorpgpmcelroy",
+          "url": "https://github.com/hmcts/rpx-xui-approve-org/pull/1012",
+          "changesRequested": false,
+          "approvals": 1,
+          "buildSuccess": true,
+          "headSha": "8734f90cb3b5f664ece176c33529449bfdc93d29",
+          "createdAt": "2026-04-14T14:33:24.776Z",
+          "lastUpdated": "2026-04-14T14:33:24.982Z"
         },
         "1014": {
           "number": 1014,
