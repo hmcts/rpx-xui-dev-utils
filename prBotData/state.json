@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1776178434.301669",
-    "lastUpdated": "2026-04-14T14:53:42.223Z",
+    "lastUpdated": "2026-04-14T14:54:33.908Z",
     "approvalListMessageHash": "79cfb04b69a5a39ffa1ecec0682a8e4f831f412378d4183a94c5749e7a4dde7d"
   },
   "repositories": {
@@ -306,18 +306,6 @@
           "headSha": "6f9862a95fbd1aad3f0bfb601db46a65e453e145",
           "createdAt": "2026-03-02T10:43:12.408Z",
           "lastUpdated": "2026-03-02T10:43:12.499Z"
-        },
-        "4988": {
-          "number": 4988,
-          "title": "EXUI-4227 - CVE Vulnerabilities Mar26",
-          "author": "chrisjones-hmcts",
-          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/4988",
-          "changesRequested": false,
-          "approvals": 1,
-          "buildSuccess": true,
-          "headSha": "782fa6ee2d3b3000e5fc81d3c4564a2e320308f2",
-          "createdAt": "2026-04-14T14:51:13.418Z",
-          "lastUpdated": "2026-04-14T14:53:42.223Z"
         },
         "4992": {
           "number": 4992,
