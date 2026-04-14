@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1776158503.840499",
-    "lastUpdated": "2026-04-14T09:21:32.098Z",
+    "lastUpdated": "2026-04-14T10:01:19.616Z",
     "approvalListMessageHash": "13489a4d2b7079ea0b6b0385a7cb22c4ff292c1ce65554d2c5847ec77712775b"
   },
   "repositories": {
@@ -570,6 +570,18 @@
           "headSha": "18bdb14008a75a6f596e069c882e71fa4210ace1",
           "createdAt": "2026-04-10T08:39:35.783Z",
           "lastUpdated": "2026-04-10T16:44:00.786Z"
+        },
+        "5083": {
+          "number": 5083,
+          "title": "EXUI-4142 E2E Improvements Case File View",
+          "author": "ShamrezDarw",
+          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/5083",
+          "changesRequested": false,
+          "approvals": 0,
+          "buildSuccess": false,
+          "headSha": "79f2f21d62b2a35424e5f4d5a56e2817a139089b",
+          "createdAt": "2026-04-14T10:01:19.543Z",
+          "lastUpdated": "2026-04-14T10:01:19.616Z"
         }
       }
     },
