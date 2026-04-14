@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1776172320.668849",
-    "lastUpdated": "2026-04-14T13:11:49.149Z",
+    "lastUpdated": "2026-04-14T13:22:33.980Z",
     "approvalListMessageHash": "5c843535c821c9e2a73926ee1ce35122ea1281a8e0081f6301ecf8df86508947"
   },
   "repositories": {
@@ -1142,6 +1142,18 @@
           "headSha": "415beca0f8fd2ef3b471a05f9c3310600eabf3d2",
           "createdAt": "2026-04-13T12:27:17.311Z",
           "lastUpdated": "2026-04-13T12:27:17.510Z"
+        },
+        "2121": {
+          "number": 2121,
+          "title": "EXUI-4227 - CVE fixes",
+          "author": "connorpgpmcelroy",
+          "url": "https://github.com/hmcts/ccd-case-ui-toolkit/pull/2121",
+          "changesRequested": false,
+          "approvals": 1,
+          "buildSuccess": true,
+          "headSha": "6bd6d81b3692b130708dab46872b4c90f4071077",
+          "createdAt": "2026-04-14T13:22:33.867Z",
+          "lastUpdated": "2026-04-14T13:22:33.980Z"
         },
         "2128": {
           "number": 2128,
