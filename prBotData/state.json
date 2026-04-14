@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1776161618.411369",
-    "lastUpdated": "2026-04-14T10:13:27.145Z",
+    "lastUpdated": "2026-04-14T10:20:40.719Z",
     "approvalListMessageHash": "08b81c0ebdfee8208844e51611ba3e1d5ccd48705a03bb90bc55958fb3d9bed8"
   },
   "repositories": {
@@ -54,18 +54,6 @@
           "headSha": "e0f72a3ff28d98a22fa7dcb779ce6274d5622f90",
           "createdAt": "2025-11-18T09:48:02.824Z",
           "lastUpdated": "2025-11-18T09:48:03.001Z"
-        },
-        "4769": {
-          "number": 4769,
-          "title": "Bug/ex UI 2645 caseworkers by idam",
-          "author": "connorpgpmcelroy",
-          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/4769",
-          "changesRequested": false,
-          "approvals": 1,
-          "buildSuccess": true,
-          "headSha": "2c5a28109a30ab910037ed42965430e32a40fcbc",
-          "createdAt": "2026-04-14T10:13:26.954Z",
-          "lastUpdated": "2026-04-14T10:13:27.145Z"
         },
         "4792": {
           "number": 4792,
