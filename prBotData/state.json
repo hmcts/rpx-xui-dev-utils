@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1776181736.638179",
-    "lastUpdated": "2026-04-14T15:48:46.728Z",
+    "lastUpdated": "2026-04-14T16:01:45.260Z",
     "approvalListMessageHash": "68c0cb53413db7ef589cc860437bc2520aefb112efb45e8c0f2a87f15b31d51b"
   },
   "repositories": {
@@ -462,18 +462,6 @@
           "headSha": "3fdba9b0265e80a43a71c2f979e149606a5b97d0",
           "createdAt": "2026-04-01T15:12:19.741Z",
           "lastUpdated": "2026-04-01T15:12:19.889Z"
-        },
-        "5063": {
-          "number": 5063,
-          "title": "Test/EXUI-4135 add Playwright access request coverage",
-          "author": "andyg-cgi",
-          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/5063",
-          "changesRequested": false,
-          "approvals": 1,
-          "buildSuccess": false,
-          "headSha": "29016b90232a3d288764287a7aee4a1b90ad79e4",
-          "createdAt": "2026-04-13T14:05:28.370Z",
-          "lastUpdated": "2026-04-14T15:48:46.728Z"
         },
         "5065": {
           "number": 5065,
