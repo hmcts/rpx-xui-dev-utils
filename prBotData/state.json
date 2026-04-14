@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1776178005.758709",
-    "lastUpdated": "2026-04-14T14:46:33.770Z",
+    "lastUpdated": "2026-04-14T14:50:54.863Z",
     "approvalListMessageHash": "a897d9bb9b6c5f9b819fa81098cfb78cb0aa543f9a7e292c1271bb7b50b3fea6"
   },
   "repositories": {
@@ -634,18 +634,6 @@
           "headSha": "284cc904b2ffb71635ecd0b175635e246c37386c",
           "createdAt": "2026-01-29T15:53:47.458Z",
           "lastUpdated": "2026-01-29T15:53:47.529Z"
-        },
-        "1491": {
-          "number": 1491,
-          "title": "EXUI-4227 - CVE Vulnerabilities Mar26",
-          "author": "chrisjones-hmcts",
-          "url": "https://github.com/hmcts/rpx-xui-manage-organisations/pull/1491",
-          "changesRequested": false,
-          "approvals": 1,
-          "buildSuccess": true,
-          "headSha": "b5532b309f79e33ff4e2f5458713e92281264847",
-          "createdAt": "2026-04-14T14:46:33.615Z",
-          "lastUpdated": "2026-04-14T14:46:33.770Z"
         },
         "1501": {
           "number": 1501,
