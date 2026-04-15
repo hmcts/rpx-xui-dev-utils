@@ -1131,18 +1131,6 @@
           "createdAt": "2026-04-03T09:25:15.656Z",
           "lastUpdated": "2026-04-03T09:25:15.751Z"
         },
-        "2136": {
-          "number": 2136,
-          "title": "EXUI-4300 - Update core.js version",
-          "author": "Josh-HMCTS",
-          "url": "https://github.com/hmcts/ccd-case-ui-toolkit/pull/2136",
-          "changesRequested": false,
-          "approvals": 1,
-          "buildSuccess": true,
-          "headSha": "b32059a04568b2fa9c075d2a7ca75670cd4444be",
-          "createdAt": "2026-04-07T13:31:11.783Z",
-          "lastUpdated": "2026-04-07T13:31:11.922Z"
-        },
         "2138": {
           "number": 2138,
           "title": "pofcc-75 initial check-in. altering tab position on entering page.",
