@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1776249643.161999",
-    "lastUpdated": "2026-04-15T10:40:33.275Z",
+    "lastUpdated": "2026-04-15T10:44:35.285Z",
     "approvalListMessageHash": "17e345a77869d9acfcf6f4153c443edf244ced25448413896624c42395ea52df"
   },
   "repositories": {
@@ -1126,22 +1126,6 @@
           "headSha": "d245729ca44f26192703628438b3c28aa84d134a",
           "createdAt": "2026-04-13T09:14:15.840Z",
           "lastUpdated": "2026-04-13T09:14:15.929Z"
-        }
-      }
-    },
-    "hmcts/rpx-xui-translation": {
-      "pullRequests": {
-        "65": {
-          "number": 65,
-          "title": "EXUI-4277: Suppressions to packages to update - easier",
-          "author": "chrisjones-hmcts",
-          "url": "https://github.com/hmcts/rpx-xui-translation/pull/65",
-          "changesRequested": false,
-          "approvals": 0,
-          "buildSuccess": true,
-          "headSha": "fff49bcc3c7229117d998973b0daa3b18deeb687",
-          "createdAt": "2026-04-13T09:12:18.101Z",
-          "lastUpdated": "2026-04-13T09:12:18.232Z"
         }
       }
     }
