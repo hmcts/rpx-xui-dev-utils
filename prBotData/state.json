@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1776263397.822699",
-    "lastUpdated": "2026-04-15T15:07:35.618Z",
+    "lastUpdated": "2026-04-15T15:24:46.621Z",
     "approvalListMessageHash": "0ec3a61c3d385bc5812589da364de85181f75a58727fb5a6ff297340b8f1f36b"
   },
   "repositories": {
@@ -1042,6 +1042,22 @@
           "headSha": "9a04472c7b81d5af7bcbfafe3390249832f2c8fa",
           "createdAt": "2026-04-15T13:06:15.999Z",
           "lastUpdated": "2026-04-15T13:06:16.151Z"
+        }
+      }
+    },
+    "hmcts/rpx-xui-translation": {
+      "pullRequests": {
+        "66": {
+          "number": 66,
+          "title": "exui-4425-copy dependencies in npm package",
+          "author": "RiteshHMCTS",
+          "url": "https://github.com/hmcts/rpx-xui-translation/pull/66",
+          "changesRequested": false,
+          "approvals": 0,
+          "buildSuccess": true,
+          "headSha": "5c5999f2e27f82b125ed17285524dbe71cea9774",
+          "createdAt": "2026-04-15T15:24:46.485Z",
+          "lastUpdated": "2026-04-15T15:24:46.621Z"
         }
       }
     }
