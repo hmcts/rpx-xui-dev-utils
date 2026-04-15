@@ -451,18 +451,6 @@
           "createdAt": "2026-04-13T14:54:53.284Z",
           "lastUpdated": "2026-04-14T13:38:22.974Z"
         },
-        "5072": {
-          "number": 5072,
-          "title": "EXUI-4300 - Update core.js version, use tk and cl version",
-          "author": "Josh-HMCTS",
-          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/5072",
-          "changesRequested": false,
-          "approvals": 1,
-          "buildSuccess": true,
-          "headSha": "743033d0706a39d09abaecc756b3e68e507a9cf1",
-          "createdAt": "2026-04-07T13:32:20.510Z",
-          "lastUpdated": "2026-04-07T13:32:20.637Z"
-        },
         "5074": {
           "number": 5074,
           "title": "pofcc-75 incorporate change to ccd-case-ui-toolkit",
