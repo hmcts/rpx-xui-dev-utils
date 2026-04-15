@@ -599,18 +599,6 @@
           "createdAt": "2026-04-13T09:17:05.812Z",
           "lastUpdated": "2026-04-13T09:17:05.939Z"
         },
-        "1504": {
-          "number": 1504,
-          "title": "EXUI-4300 - Update core.js version, use tk and cl versions",
-          "author": "Josh-HMCTS",
-          "url": "https://github.com/hmcts/rpx-xui-manage-organisations/pull/1504",
-          "changesRequested": false,
-          "approvals": 1,
-          "buildSuccess": true,
-          "headSha": "9b388487574d88a5caa189671731db0fadf593f6",
-          "createdAt": "2026-04-14T11:06:06.915Z",
-          "lastUpdated": "2026-04-14T11:06:07.092Z"
-        },
         "1507": {
           "number": 1507,
           "title": "task: cve fix",
