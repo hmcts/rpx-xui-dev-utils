@@ -403,18 +403,6 @@
           "createdAt": "2026-04-14T11:15:42.017Z",
           "lastUpdated": "2026-04-14T11:15:42.252Z"
         },
-        "5052": {
-          "number": 5052,
-          "title": "EXUI-4179 - Update version of OTP lib",
-          "author": "Josh-HMCTS",
-          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/5052",
-          "changesRequested": false,
-          "approvals": 0,
-          "buildSuccess": true,
-          "headSha": "d2fa34bb0f8b9bc70bab4abe49dbd8ebac817cb8",
-          "createdAt": "2026-03-26T11:12:25.405Z",
-          "lastUpdated": "2026-03-26T12:41:05.182Z"
-        },
         "5060": {
           "number": 5060,
           "title": "Docs: adds sequence diagram for creating hearings",
