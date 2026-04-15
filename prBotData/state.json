@@ -770,18 +770,6 @@
           "headSha": "c3272283d0d56dbc059b505eb65f6ee5275224c3",
           "createdAt": "2026-04-01T15:13:33.059Z",
           "lastUpdated": "2026-04-01T15:13:33.168Z"
-        },
-        "1023": {
-          "number": 1023,
-          "title": "task:cve fix",
-          "author": "olusegz07",
-          "url": "https://github.com/hmcts/rpx-xui-approve-org/pull/1023",
-          "changesRequested": false,
-          "approvals": 1,
-          "buildSuccess": true,
-          "headSha": "e08a8adc9a0bc1870e32f1f1c11b4664e21b9ee4",
-          "createdAt": "2026-04-14T10:51:31.358Z",
-          "lastUpdated": "2026-04-14T10:51:31.457Z"
         }
       }
     },
