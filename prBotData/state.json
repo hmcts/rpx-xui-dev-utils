@@ -1198,18 +1198,6 @@
           "headSha": "d245729ca44f26192703628438b3c28aa84d134a",
           "createdAt": "2026-04-13T09:14:15.840Z",
           "lastUpdated": "2026-04-13T09:14:15.929Z"
-        },
-        "538": {
-          "number": 538,
-          "title": "EXUI-4300 - Update core.js version",
-          "author": "Josh-HMCTS",
-          "url": "https://github.com/hmcts/rpx-xui-common-lib/pull/538",
-          "changesRequested": false,
-          "approvals": 1,
-          "buildSuccess": true,
-          "headSha": "cbd15c9bd535a29697c55568214389b464010d31",
-          "createdAt": "2026-04-07T13:30:16.264Z",
-          "lastUpdated": "2026-04-07T13:30:16.530Z"
         }
       }
     },
