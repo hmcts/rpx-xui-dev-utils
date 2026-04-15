@@ -271,18 +271,6 @@
           "createdAt": "2026-02-23T18:41:33.619Z",
           "lastUpdated": "2026-02-23T18:41:33.727Z"
         },
-        "4981": {
-          "number": 4981,
-          "title": "EXUI-1111 - Future hearings not required toggle",
-          "author": "Josh-HMCTS",
-          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/4981",
-          "changesRequested": false,
-          "approvals": 0,
-          "buildSuccess": true,
-          "headSha": "fdd5f86f0d9c3e13f6cedcf45d424cefd1beb969",
-          "createdAt": "2026-02-27T11:34:24.485Z",
-          "lastUpdated": "2026-02-27T11:34:24.588Z"
-        },
         "4984": {
           "number": 4984,
           "title": "SRT PR",
