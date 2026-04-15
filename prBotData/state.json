@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1776271878.891529",
-    "lastUpdated": "2026-04-15T16:51:08.240Z",
+    "lastUpdated": "2026-04-15T16:58:04.362Z",
     "approvalListMessageHash": "5e554f0e939e213a6d031886ff2bde8898500b4aeb52a6dffbff84942f7221c9"
   },
   "repositories": {
@@ -786,6 +786,18 @@
           "headSha": "220a4b75c0054e849d244c6f5dc474f440386498",
           "createdAt": "2026-04-10T09:16:50.469Z",
           "lastUpdated": "2026-04-10T09:16:50.698Z"
+        },
+        "780": {
+          "number": 780,
+          "title": "Update dependency body-parser to v2 [SECURITY]",
+          "author": "renovate[bot]",
+          "url": "https://github.com/hmcts/em-showcase/pull/780",
+          "changesRequested": false,
+          "approvals": 0,
+          "buildSuccess": false,
+          "headSha": "61d9e8d0465220cb1b322cb448694d5f7d772d54",
+          "createdAt": "2026-04-15T16:58:04.243Z",
+          "lastUpdated": "2026-04-15T16:58:04.362Z"
         }
       }
     },
