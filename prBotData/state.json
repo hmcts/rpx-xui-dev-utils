@@ -958,18 +958,6 @@
           "headSha": "3a31a85494b03c5e3dd42882011f0d22829f02d4",
           "createdAt": "2026-04-10T03:38:57.001Z",
           "lastUpdated": "2026-04-10T03:38:57.197Z"
-        },
-        "1293": {
-          "number": 1293,
-          "title": "task: axios version update",
-          "author": "olusegz07",
-          "url": "https://github.com/hmcts/em-media-viewer/pull/1293",
-          "changesRequested": false,
-          "approvals": 0,
-          "buildSuccess": true,
-          "headSha": "95c14c1f0fcd117606c782d5a45bbd3f541a5b17",
-          "createdAt": "2026-04-10T09:20:15.310Z",
-          "lastUpdated": "2026-04-13T10:22:03.539Z"
         }
       }
     },
