@@ -895,18 +895,6 @@
           "createdAt": "2026-03-29T15:24:18.637Z",
           "lastUpdated": "2026-03-29T15:24:18.827Z"
         },
-        "776": {
-          "number": 776,
-          "title": "chore: axios version update",
-          "author": "olusegz07",
-          "url": "https://github.com/hmcts/em-showcase/pull/776",
-          "changesRequested": false,
-          "approvals": 1,
-          "buildSuccess": true,
-          "headSha": "615a1c5a98cccce6f522d6d65e4956b3b249306b",
-          "createdAt": "2026-04-02T16:31:54.370Z",
-          "lastUpdated": "2026-04-02T16:31:54.583Z"
-        },
         "778": {
           "number": 778,
           "title": "task: axios version update",
