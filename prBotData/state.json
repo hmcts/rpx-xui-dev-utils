@@ -415,18 +415,6 @@
           "createdAt": "2026-03-31T09:37:32.791Z",
           "lastUpdated": "2026-04-15T10:40:33.275Z"
         },
-        "5062": {
-          "number": 5062,
-          "title": "EXUI-4297: Suppressions - glob - major",
-          "author": "chrisjones-hmcts",
-          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/5062",
-          "changesRequested": false,
-          "approvals": 0,
-          "buildSuccess": true,
-          "headSha": "3fdba9b0265e80a43a71c2f979e149606a5b97d0",
-          "createdAt": "2026-04-01T15:12:19.741Z",
-          "lastUpdated": "2026-04-01T15:12:19.889Z"
-        },
         "5065": {
           "number": 5065,
           "title": "EXUI-4143 E2E improvements add media viewer",
