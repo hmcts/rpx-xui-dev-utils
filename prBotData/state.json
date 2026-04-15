@@ -499,18 +499,6 @@
           "createdAt": "2026-04-09T09:19:43.655Z",
           "lastUpdated": "2026-04-14T10:36:35.616Z"
         },
-        "5079": {
-          "number": 5079,
-          "title": "task: global-agent version update",
-          "author": "olusegz07",
-          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/5079",
-          "changesRequested": false,
-          "approvals": 0,
-          "buildSuccess": true,
-          "headSha": "18bdb14008a75a6f596e069c882e71fa4210ace1",
-          "createdAt": "2026-04-10T08:39:35.783Z",
-          "lastUpdated": "2026-04-10T16:44:00.786Z"
-        },
         "5083": {
           "number": 5083,
           "title": "EXUI-4142 E2E Improvements Case File View",
