@@ -698,18 +698,6 @@
           "headSha": "ffa7f0621cc1c007ef52067ee334f220dec853e8",
           "createdAt": "2026-03-31T15:49:36.463Z",
           "lastUpdated": "2026-03-31T15:49:36.572Z"
-        },
-        "1020": {
-          "number": 1020,
-          "title": "EXUI-4297: Suppressions - glob - major",
-          "author": "chrisjones-hmcts",
-          "url": "https://github.com/hmcts/rpx-xui-approve-org/pull/1020",
-          "changesRequested": false,
-          "approvals": 0,
-          "buildSuccess": true,
-          "headSha": "c3272283d0d56dbc059b505eb65f6ee5275224c3",
-          "createdAt": "2026-04-01T15:13:33.059Z",
-          "lastUpdated": "2026-04-01T15:13:33.168Z"
         }
       }
     },
