@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1776239310.940159",
-    "lastUpdated": "2026-04-15T07:56:12.938Z",
+    "lastUpdated": "2026-04-15T08:13:06.326Z",
     "approvalListMessageHash": "c1ccd440e2d9b4b2a5e3d2d39f6b3e4c9f3442ef3e9e4c981c5112f64c9a90ca"
   },
   "repositories": {
@@ -489,15 +489,15 @@
         },
         "5077": {
           "number": 5077,
-          "title": "EXUI-3367 Remove Deprecated 'Classic' AI Resources",
+          "title": "EXUI-3367 Remove Deprecated 'Classic' AI Resources DO NOT MERGE",
           "author": "nathan-clark",
           "url": "https://github.com/hmcts/rpx-xui-webapp/pull/5077",
           "changesRequested": false,
-          "approvals": 0,
+          "approvals": 1,
           "buildSuccess": true,
           "headSha": "5b2ed8aaeaec9a085d8d871c81da2d6bcf3c3bf1",
-          "createdAt": "2026-04-09T09:19:43.655Z",
-          "lastUpdated": "2026-04-14T10:36:35.616Z"
+          "createdAt": "2026-04-15T08:13:06.224Z",
+          "lastUpdated": "2026-04-15T08:13:06.326Z"
         },
         "5083": {
           "number": 5083,
