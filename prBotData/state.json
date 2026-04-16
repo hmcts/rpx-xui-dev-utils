@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1776347267.896779",
-    "lastUpdated": "2026-04-16T13:47:36.778Z",
+    "lastUpdated": "2026-04-16T13:48:29.330Z",
     "approvalListMessageHash": "ad864c68a5a55efdf067c0a67de35f96bc133c99b0f3bbc80389c9d77dc5b833"
   },
   "repositories": {
@@ -1077,11 +1077,11 @@
           "author": "RiteshHMCTS",
           "url": "https://github.com/hmcts/rpx-xui-translation/pull/66",
           "changesRequested": false,
-          "approvals": 0,
+          "approvals": 1,
           "buildSuccess": true,
-          "headSha": "5c5999f2e27f82b125ed17285524dbe71cea9774",
-          "createdAt": "2026-04-15T15:24:46.485Z",
-          "lastUpdated": "2026-04-15T15:24:46.621Z"
+          "headSha": "5cf27997f1cf543232ca6e6ac071497eb2f7dfc9",
+          "createdAt": "2026-04-16T13:48:29.226Z",
+          "lastUpdated": "2026-04-16T13:48:29.330Z"
         }
       }
     }
