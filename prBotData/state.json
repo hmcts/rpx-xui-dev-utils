@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1776350436.105629",
-    "lastUpdated": "2026-04-16T14:40:23.790Z",
+    "lastUpdated": "2026-04-16T14:40:40.678Z",
     "approvalListMessageHash": "0295c0fff657dda1e86864dafe3aa8608bb61948367f61c7d9481f96a6ddf36f"
   },
   "repositories": {
@@ -970,18 +970,6 @@
           "headSha": "3a31a85494b03c5e3dd42882011f0d22829f02d4",
           "createdAt": "2026-04-10T03:38:57.001Z",
           "lastUpdated": "2026-04-10T03:38:57.197Z"
-        },
-        "1296": {
-          "number": 1296,
-          "title": "exui-4425-copying dependencies in npm package",
-          "author": "RiteshHMCTS",
-          "url": "https://github.com/hmcts/em-media-viewer/pull/1296",
-          "changesRequested": false,
-          "approvals": 1,
-          "buildSuccess": true,
-          "headSha": "36e07cecc146bb92e773c0c8117fc54c9a525eb7",
-          "createdAt": "2026-04-16T13:48:52.065Z",
-          "lastUpdated": "2026-04-16T13:48:52.437Z"
         }
       }
     },
