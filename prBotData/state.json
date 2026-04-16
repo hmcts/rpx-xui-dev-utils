@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1776356761.580639",
-    "lastUpdated": "2026-04-16T16:25:50.671Z",
+    "lastUpdated": "2026-04-16T16:52:01.456Z",
     "approvalListMessageHash": "b361a9435ab5df35207e6e04399d1dafca4d26255d8827694c9179abe2793366"
   },
   "repositories": {
@@ -987,18 +987,6 @@
     },
     "hmcts/ccd-case-ui-toolkit": {
       "pullRequests": {
-        "1990": {
-          "number": 1990,
-          "title": "EXUI-2906 Revive activity tracker",
-          "author": "andywilkinshmcts",
-          "url": "https://github.com/hmcts/ccd-case-ui-toolkit/pull/1990",
-          "changesRequested": false,
-          "approvals": 1,
-          "buildSuccess": true,
-          "headSha": "aedaf9383fc6e8e88ec1242947b6b6ae70ecc4a2",
-          "createdAt": "2026-04-16T15:59:13.595Z",
-          "lastUpdated": "2026-04-16T15:59:13.944Z"
-        },
         "2135": {
           "number": 2135,
           "title": "include dependencies package in npm package",
