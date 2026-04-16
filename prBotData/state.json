@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1776352346.907119",
-    "lastUpdated": "2026-04-16T15:12:15.816Z",
+    "lastUpdated": "2026-04-16T15:49:38.502Z",
     "approvalListMessageHash": "2cbcbcfb994a7006af43e2b2addba34ac5f5fbcde7ecd84fb7d48b33fb8f035b"
   },
   "repositories": {
@@ -1010,6 +1010,18 @@
           "headSha": "611a663aa7395ec80c595bb73b17b86032c0e421",
           "createdAt": "2026-04-08T16:46:32.168Z",
           "lastUpdated": "2026-04-08T16:46:32.260Z"
+        },
+        "2139": {
+          "number": 2139,
+          "title": "exui-4442-accessibility issue with confirm button text",
+          "author": "RiteshHMCTS",
+          "url": "https://github.com/hmcts/ccd-case-ui-toolkit/pull/2139",
+          "changesRequested": false,
+          "approvals": 0,
+          "buildSuccess": true,
+          "headSha": "3dac85c471f6dff3d33f32f484c9181dc8a8883a",
+          "createdAt": "2026-04-16T15:49:38.360Z",
+          "lastUpdated": "2026-04-16T15:49:38.502Z"
         }
       }
     },
