@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1776438078.927169",
-    "lastUpdated": "2026-04-17T15:01:08.340Z",
+    "lastUpdated": "2026-04-17T15:04:20.896Z",
     "approvalListMessageHash": "e69ce2127c56cb157d464ab6319635cd894bace122125db8bd91cd353f944feb"
   },
   "repositories": {
@@ -522,6 +522,18 @@
           "headSha": "f5b23a0b288064afff1677eb4d0d9ec9a3c6f294",
           "createdAt": "2026-04-17T14:01:18.681Z",
           "lastUpdated": "2026-04-17T14:01:18.909Z"
+        },
+        "5093": {
+          "number": 5093,
+          "title": "Chore: remove initial cache load to prevent high load on AM",
+          "author": "gregs-cgi",
+          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/5093",
+          "changesRequested": false,
+          "approvals": 0,
+          "buildSuccess": false,
+          "headSha": "9b0c23cc615714cad01a449920ae16ebcd30d090",
+          "createdAt": "2026-04-17T15:04:20.776Z",
+          "lastUpdated": "2026-04-17T15:04:20.896Z"
         }
       }
     },
