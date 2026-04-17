@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1776415406.353579",
-    "lastUpdated": "2026-04-17T08:43:15.987Z",
+    "lastUpdated": "2026-04-17T09:06:41.663Z",
     "approvalListMessageHash": "3e5ea62d9b173f52068b7c68885d18fa7ff49d2c87df7ef237e38df5a903bebd"
   },
   "repositories": {
@@ -498,6 +498,18 @@
           "headSha": "1fe40145522a211f16e912a19a8ff74008570cbc",
           "createdAt": "2026-04-16T18:25:21.068Z",
           "lastUpdated": "2026-04-17T08:43:15.987Z"
+        },
+        "5090": {
+          "number": 5090,
+          "title": "Test/EXUI-4213 add Playwright work allocation mock coverage",
+          "author": "andyg-cgi",
+          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/5090",
+          "changesRequested": false,
+          "approvals": 0,
+          "buildSuccess": false,
+          "headSha": "bc73fe927234273ddd6f68b060f4b9f9288685d7",
+          "createdAt": "2026-04-17T09:06:41.570Z",
+          "lastUpdated": "2026-04-17T09:06:41.663Z"
         }
       }
     },
