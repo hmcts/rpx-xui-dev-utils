@@ -1035,18 +1035,6 @@
     },
     "hmcts/ccd-case-ui-toolkit": {
       "pullRequests": {
-        "2135": {
-          "number": 2135,
-          "title": "include dependencies package in npm package",
-          "author": "RiteshHMCTS",
-          "url": "https://github.com/hmcts/ccd-case-ui-toolkit/pull/2135",
-          "changesRequested": false,
-          "approvals": 0,
-          "buildSuccess": true,
-          "headSha": "eeed25a8147b80756537691455ab83d275bb2f8a",
-          "createdAt": "2026-04-03T09:25:15.656Z",
-          "lastUpdated": "2026-04-03T09:25:15.751Z"
-        },
         "2138": {
           "number": 2138,
           "title": "pofcc-75 initial check-in. altering tab position on entering page.",
