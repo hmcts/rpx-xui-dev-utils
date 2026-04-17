@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1776434155.743099",
-    "lastUpdated": "2026-04-17T13:55:44.075Z",
+    "lastUpdated": "2026-04-17T14:01:18.909Z",
     "approvalListMessageHash": "beaa71bf65d2657122769e7fa9b6bc466ad6f526d365527e214e5b675db5cbad"
   },
   "repositories": {
@@ -510,6 +510,18 @@
           "headSha": "ef8b94a04b7112016e6efa2c2a71117e3044a9a7",
           "createdAt": "2026-04-17T09:06:41.570Z",
           "lastUpdated": "2026-04-17T13:25:47.439Z"
+        },
+        "5091": {
+          "number": 5091,
+          "title": "test: retire Codecept Wave 2 integration coverage (EXUI-4512, EXUI-4513, EXUI-4514)",
+          "author": "andyg-cgi",
+          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/5091",
+          "changesRequested": false,
+          "approvals": 0,
+          "buildSuccess": false,
+          "headSha": "f5b23a0b288064afff1677eb4d0d9ec9a3c6f294",
+          "createdAt": "2026-04-17T14:01:18.681Z",
+          "lastUpdated": "2026-04-17T14:01:18.909Z"
         }
       }
     },
