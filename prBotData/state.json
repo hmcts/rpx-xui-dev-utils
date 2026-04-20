@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1776696397.238579",
-    "lastUpdated": "2026-04-20T14:46:27.178Z",
+    "lastUpdated": "2026-04-20T14:52:19.814Z",
     "approvalListMessageHash": "4d24dd0e9c46e4945b490a4c8fd42c121a21f5a4941a141e4db8852b69edf618"
   },
   "repositories": {
@@ -498,18 +498,6 @@
           "headSha": "9b0c23cc615714cad01a449920ae16ebcd30d090",
           "createdAt": "2026-04-17T15:04:20.776Z",
           "lastUpdated": "2026-04-17T15:04:20.896Z"
-        },
-        "5094": {
-          "number": 5094,
-          "title": "Test/EXUI-4509 EXUI-4511 add Playwright manage-tasks coverage",
-          "author": "andyg-cgi",
-          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/5094",
-          "changesRequested": false,
-          "approvals": 0,
-          "buildSuccess": true,
-          "headSha": "9224bb9c5f17920446941ea60590aa5d7b215b17",
-          "createdAt": "2026-04-20T09:15:21.640Z",
-          "lastUpdated": "2026-04-20T14:15:19.444Z"
         }
       }
     },
