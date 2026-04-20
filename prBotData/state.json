@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1776672654.199169",
-    "lastUpdated": "2026-04-20T09:15:21.757Z",
+    "lastUpdated": "2026-04-20T09:22:26.495Z",
     "approvalListMessageHash": "e9d1526a005f7da173be899c1108f311e33349afd71802b97fbd8cc8fc7d2d7b"
   },
   "repositories": {
@@ -486,18 +486,6 @@
           "headSha": "4f841e82bbd35e063073d8e882dd0761af4e228e",
           "createdAt": "2026-04-16T16:00:44.923Z",
           "lastUpdated": "2026-04-16T16:25:50.671Z"
-        },
-        "5089": {
-          "number": 5089,
-          "title": "Test/EXUI-4509, EXUI-4511 add Wave 1 Playwright parity",
-          "author": "andyg-cgi",
-          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/5089",
-          "changesRequested": false,
-          "approvals": 0,
-          "buildSuccess": true,
-          "headSha": "1fe40145522a211f16e912a19a8ff74008570cbc",
-          "createdAt": "2026-04-16T18:25:21.068Z",
-          "lastUpdated": "2026-04-17T09:09:32.540Z"
         },
         "5090": {
           "number": 5090,
