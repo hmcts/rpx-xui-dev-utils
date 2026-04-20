@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1776682946.687579",
-    "lastUpdated": "2026-04-20T11:02:16.302Z",
+    "lastUpdated": "2026-04-20T11:05:15.723Z",
     "approvalListMessageHash": "b18462b537dd1c2310f59d69db881027ba1fb9105d8e2fc167515bed89509e0e"
   },
   "repositories": {
@@ -770,6 +770,18 @@
           "headSha": "c2ea77f1f7ca19f21d40822062735ece40dc0a5f",
           "createdAt": "2026-04-16T09:29:49.634Z",
           "lastUpdated": "2026-04-16T09:29:49.822Z"
+        },
+        "1026": {
+          "number": 1026,
+          "title": "EXUI-4500 - Passport release",
+          "author": "Josh-HMCTS",
+          "url": "https://github.com/hmcts/rpx-xui-approve-org/pull/1026",
+          "changesRequested": false,
+          "approvals": 0,
+          "buildSuccess": false,
+          "headSha": "382dccd31abfa211a0a8854cb2d84b6d2b936c27",
+          "createdAt": "2026-04-20T11:05:15.448Z",
+          "lastUpdated": "2026-04-20T11:05:15.723Z"
         }
       }
     },
