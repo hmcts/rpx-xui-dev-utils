@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1776682512.790679",
-    "lastUpdated": "2026-04-20T10:55:01.223Z",
+    "lastUpdated": "2026-04-20T11:02:16.302Z",
     "approvalListMessageHash": "de7ef2eacaa42ef4ccd834087724a056e8c4293a1fefc6d24a6ad6de6660709c"
   },
   "repositories": {
@@ -510,6 +510,18 @@
           "headSha": "f5b23a0b288064afff1677eb4d0d9ec9a3c6f294",
           "createdAt": "2026-04-17T14:01:18.681Z",
           "lastUpdated": "2026-04-17T14:01:18.909Z"
+        },
+        "5092": {
+          "number": 5092,
+          "title": "EXUI-2242: search page guard",
+          "author": "chrisjones-hmcts",
+          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/5092",
+          "changesRequested": false,
+          "approvals": 0,
+          "buildSuccess": true,
+          "headSha": "95b3de6c1a8b37b69d93435db014220f3a0ad4bc",
+          "createdAt": "2026-04-20T11:02:16.202Z",
+          "lastUpdated": "2026-04-20T11:02:16.302Z"
         },
         "5093": {
           "number": 5093,
