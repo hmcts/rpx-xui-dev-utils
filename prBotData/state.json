@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1776676956.517769",
-    "lastUpdated": "2026-04-20T09:22:26.495Z",
+    "lastUpdated": "2026-04-20T09:32:45.282Z",
     "approvalListMessageHash": "d1117349d2616021001ed45c18bd36a58c10425602116dace5db8ed6cb898a13"
   },
   "repositories": {
@@ -1074,6 +1074,22 @@
           "headSha": "582ebba6d0e612e081c272454b8d52bc9ad96eb1",
           "createdAt": "2026-04-17T15:41:57.764Z",
           "lastUpdated": "2026-04-17T15:41:58.068Z"
+        }
+      }
+    },
+    "hmcts/rpx-xui-common-lib": {
+      "pullRequests": {
+        "540": {
+          "number": 540,
+          "title": "Group access",
+          "author": "Josh-HMCTS",
+          "url": "https://github.com/hmcts/rpx-xui-common-lib/pull/540",
+          "changesRequested": false,
+          "approvals": 0,
+          "buildSuccess": true,
+          "headSha": "a234dea193f767b762720c9f690d45950bf53658",
+          "createdAt": "2026-04-20T09:32:45.140Z",
+          "lastUpdated": "2026-04-20T09:32:45.282Z"
         }
       }
     }
