@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1776782435.447219",
-    "lastUpdated": "2026-04-21T14:40:24.979Z",
+    "lastUpdated": "2026-04-21T14:49:29.704Z",
     "approvalListMessageHash": "b5e9f73be6b81e97c9eaffd5340289a9a1a7a9baaa23bec0ce0be125e5f047b4"
   },
   "repositories": {
@@ -558,18 +558,6 @@
           "headSha": "a70f51391851e06f4d3c8df297a759e4de5ddbea",
           "createdAt": "2026-04-21T11:29:31.923Z",
           "lastUpdated": "2026-04-21T12:51:13.776Z"
-        },
-        "5099": {
-          "number": 5099,
-          "title": "Improve Playwright integration tests manage-tasks coverage - EXUI-4511",
-          "author": "andyg-cgi",
-          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/5099",
-          "changesRequested": false,
-          "approvals": 0,
-          "buildSuccess": true,
-          "headSha": "6526437984d5765043b9df7db2d701e71f61059c",
-          "createdAt": "2026-04-21T13:48:43.922Z",
-          "lastUpdated": "2026-04-21T14:40:24.979Z"
         }
       }
     },
