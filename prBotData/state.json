@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1776786710.947539",
-    "lastUpdated": "2026-04-21T15:51:39.050Z",
+    "lastUpdated": "2026-04-21T15:53:08.771Z",
     "approvalListMessageHash": "9ceff934be68833acf2bbd6c9d0db3f83c1a65e4b1e9485ee6d6e9b0afd32126"
   },
   "repositories": {
@@ -510,18 +510,6 @@
           "headSha": "9b0c23cc615714cad01a449920ae16ebcd30d090",
           "createdAt": "2026-04-17T15:04:20.776Z",
           "lastUpdated": "2026-04-17T15:04:20.896Z"
-        },
-        "5095": {
-          "number": 5095,
-          "title": "Test/EXUI-4522 deactivate codecept tests and remove packages",
-          "author": "danH-test",
-          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/5095",
-          "changesRequested": false,
-          "approvals": 1,
-          "buildSuccess": true,
-          "headSha": "36f6c19acf3196a4b86a8805ffd271e333885fda",
-          "createdAt": "2026-04-21T14:52:50.987Z",
-          "lastUpdated": "2026-04-21T15:06:57.433Z"
         },
         "5096": {
           "number": 5096,
