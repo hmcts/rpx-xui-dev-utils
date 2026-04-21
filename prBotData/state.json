@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1776762053.512769",
-    "lastUpdated": "2026-04-21T09:00:43.683Z",
+    "lastUpdated": "2026-04-21T09:37:28.075Z",
     "approvalListMessageHash": "1c4c80d44635b8e71437e5981b4bad9ba2cfffb5b0d8732be11564f1c37b1fe9"
   },
   "repositories": {
@@ -1071,6 +1071,18 @@
     },
     "hmcts/ccd-case-ui-toolkit": {
       "pullRequests": {
+        "2135": {
+          "number": 2135,
+          "title": "include dependencies package in npm package",
+          "author": "RiteshHMCTS",
+          "url": "https://github.com/hmcts/ccd-case-ui-toolkit/pull/2135",
+          "changesRequested": false,
+          "approvals": 1,
+          "buildSuccess": true,
+          "headSha": "658a25a0becc560006f7c4be576f25a26c01a804",
+          "createdAt": "2026-04-21T09:37:27.885Z",
+          "lastUpdated": "2026-04-21T09:37:28.075Z"
+        },
         "2138": {
           "number": 2138,
           "title": "pofcc-75 initial check-in. altering tab position on entering page.",
