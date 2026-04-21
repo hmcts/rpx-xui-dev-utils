@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1776770853.676489",
-    "lastUpdated": "2026-04-21T11:27:23.196Z",
+    "lastUpdated": "2026-04-21T11:29:32.073Z",
     "approvalListMessageHash": "d51b13a98731015529461fcc68ef1e2266b7f9d6bc192ab360c63a9efb425e68"
   },
   "repositories": {
@@ -534,6 +534,18 @@
           "headSha": "0c9e5e967bdf15e26c718c28026e05511d6f15fc",
           "createdAt": "2026-04-20T16:09:26.742Z",
           "lastUpdated": "2026-04-20T16:33:05.631Z"
+        },
+        "5098": {
+          "number": 5098,
+          "title": "EXUI-4438 Investigate rpx-xui-webapp event loop",
+          "author": "nathan-clark",
+          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/5098",
+          "changesRequested": false,
+          "approvals": 0,
+          "buildSuccess": false,
+          "headSha": "2204fddb17488b5b4aa151e1e59f1d5335e925fd",
+          "createdAt": "2026-04-21T11:29:31.923Z",
+          "lastUpdated": "2026-04-21T11:29:32.073Z"
         }
       }
     },
