@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1776777463.375599",
-    "lastUpdated": "2026-04-21T13:17:31.535Z",
+    "lastUpdated": "2026-04-21T13:19:05.539Z",
     "approvalListMessageHash": "438fd6ddaf5c4e5bb5734cc51d7d17cf2aa75ffafc429cfdfbfc18da4b441f9b"
   },
   "repositories": {
@@ -1095,18 +1095,6 @@
     },
     "hmcts/ccd-case-ui-toolkit": {
       "pullRequests": {
-        "2132": {
-          "number": 2132,
-          "title": "fix: package library update to fix cve",
-          "author": "olusegz07",
-          "url": "https://github.com/hmcts/ccd-case-ui-toolkit/pull/2132",
-          "changesRequested": false,
-          "approvals": 1,
-          "buildSuccess": true,
-          "headSha": "dc73dc6bc05feb6e1aa007271069ac5ff468b1af",
-          "createdAt": "2026-04-21T13:17:31.225Z",
-          "lastUpdated": "2026-04-21T13:17:31.535Z"
-        },
         "2138": {
           "number": 2138,
           "title": "pofcc-75 initial check-in. altering tab position on entering page.",
