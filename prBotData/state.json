@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1776787262.119489",
-    "lastUpdated": "2026-04-21T16:00:51.111Z",
+    "lastUpdated": "2026-04-21T16:02:15.982Z",
     "approvalListMessageHash": "1d97990091a237552cc1e9ba8d36a412fe678f1485d729798a86a7bcaabfbbb4"
   },
   "repositories": {
@@ -906,18 +906,6 @@
           "headSha": "61d9e8d0465220cb1b322cb448694d5f7d772d54",
           "createdAt": "2026-04-15T16:58:04.243Z",
           "lastUpdated": "2026-04-15T16:58:04.362Z"
-        },
-        "782": {
-          "number": 782,
-          "title": "DTSPO-30193 - Grant new Jenkins MIs access to keyvault",
-          "author": "ryanmcalary11",
-          "url": "https://github.com/hmcts/em-showcase/pull/782",
-          "changesRequested": false,
-          "approvals": 1,
-          "buildSuccess": true,
-          "headSha": "7ce3056dcb66da8118be416aa2437461cc069f98",
-          "createdAt": "2026-04-21T15:51:38.733Z",
-          "lastUpdated": "2026-04-21T16:00:51.111Z"
         }
       }
     },
