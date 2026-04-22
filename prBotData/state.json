@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1776851252.817069",
-    "lastUpdated": "2026-04-22T09:47:21.709Z",
+    "lastUpdated": "2026-04-22T09:48:00.807Z",
     "approvalListMessageHash": "5ab5486aca01f83a9700f87c5414419400512a8b1316ff97fb44168d3b0125c7"
   },
   "repositories": {
@@ -994,18 +994,6 @@
           "headSha": "3a31a85494b03c5e3dd42882011f0d22829f02d4",
           "createdAt": "2026-04-10T03:38:57.001Z",
           "lastUpdated": "2026-04-10T03:38:57.197Z"
-        },
-        "1298": {
-          "number": 1298,
-          "title": "Revert \"Ex UI 4369 CVE fix\"",
-          "author": "Josh-HMCTS",
-          "url": "https://github.com/hmcts/em-media-viewer/pull/1298",
-          "changesRequested": false,
-          "approvals": 0,
-          "buildSuccess": false,
-          "headSha": "7fc54bc6a1c91648a83c6d0809122857da2e5d8d",
-          "createdAt": "2026-04-22T09:26:24.795Z",
-          "lastUpdated": "2026-04-22T09:26:25.092Z"
         }
       }
     },
