@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1776845200.166559",
-    "lastUpdated": "2026-04-22T08:06:29.660Z",
+    "lastUpdated": "2026-04-22T08:07:05.842Z",
     "approvalListMessageHash": "9d7bafa8da27c50012e5a455df54f2fec3fc73926a1b768acdfa7feb6ed76af1"
   },
   "repositories": {
@@ -1018,18 +1018,6 @@
           "headSha": "7b83aecf19e860c79c285d37ef184a72da04fc3e",
           "createdAt": "2026-04-13T09:13:18.879Z",
           "lastUpdated": "2026-04-15T09:32:02.023Z"
-        },
-        "1286": {
-          "number": 1286,
-          "title": "Replace dependency cucumber with @cucumber/cucumber ^7.0.0",
-          "author": "renovate[bot]",
-          "url": "https://github.com/hmcts/em-media-viewer/pull/1286",
-          "changesRequested": false,
-          "approvals": 0,
-          "buildSuccess": true,
-          "headSha": "eb054ce98c0080c012f16b8d3898d1c990982505",
-          "createdAt": "2026-03-30T06:38:50.177Z",
-          "lastUpdated": "2026-04-21T13:51:42.075Z"
         },
         "1287": {
           "number": 1287,
