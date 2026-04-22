@@ -599,18 +599,6 @@
           "createdAt": "2026-01-29T15:53:47.458Z",
           "lastUpdated": "2026-01-29T15:53:47.529Z"
         },
-        "1507": {
-          "number": 1507,
-          "title": "task: cve fix",
-          "author": "olusegz07",
-          "url": "https://github.com/hmcts/rpx-xui-manage-organisations/pull/1507",
-          "changesRequested": true,
-          "approvals": 2,
-          "buildSuccess": true,
-          "headSha": "8599887a205e7aaef905d474680de8d1b4e872d0",
-          "createdAt": "2026-04-21T12:26:02.922Z",
-          "lastUpdated": "2026-04-21T12:26:03.043Z"
-        },
         "1510": {
           "number": 1510,
           "title": "EX-UI-4500 - Passport release MO",
