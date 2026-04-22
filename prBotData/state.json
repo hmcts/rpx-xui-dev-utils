@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1776854402.217139",
-    "lastUpdated": "2026-04-22T10:39:52.657Z",
+    "lastUpdated": "2026-04-22T10:58:58.752Z",
     "approvalListMessageHash": "d6d27a57127a2e39eb0571e26a1f8800e788a4e5e3120e9426f92cbe71d898e8"
   },
   "repositories": {
@@ -934,18 +934,6 @@
           "headSha": "6bb63757067cfb78726a9246bfa8558db5ea096a",
           "createdAt": "2026-03-30T20:44:50.875Z",
           "lastUpdated": "2026-03-30T20:44:51.043Z"
-        },
-        "1283": {
-          "number": 1283,
-          "title": "Update dependency @angular/ssr to v20.3.21 [SECURITY]",
-          "author": "renovate[bot]",
-          "url": "https://github.com/hmcts/em-media-viewer/pull/1283",
-          "changesRequested": false,
-          "approvals": 0,
-          "buildSuccess": true,
-          "headSha": "e24f853d96fbc929ae2d47b059f8870a4d48649f",
-          "createdAt": "2026-04-22T09:58:42.925Z",
-          "lastUpdated": "2026-04-22T10:39:09.363Z"
         },
         "1285": {
           "number": 1285,
