@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1776851220.607479",
-    "lastUpdated": "2026-04-22T09:46:50.158Z",
+    "lastUpdated": "2026-04-22T09:47:21.709Z",
     "approvalListMessageHash": "03b9a450dac8e03405142541ab7ece463a4496898f3ec1ce8f59ec9c0cd3ce85"
   },
   "repositories": {
@@ -1022,18 +1022,6 @@
           "headSha": "611a663aa7395ec80c595bb73b17b86032c0e421",
           "createdAt": "2026-04-08T16:46:32.168Z",
           "lastUpdated": "2026-04-08T16:46:32.260Z"
-        },
-        "2141": {
-          "number": 2141,
-          "title": "Revert \"update translation\"",
-          "author": "Josh-HMCTS",
-          "url": "https://github.com/hmcts/ccd-case-ui-toolkit/pull/2141",
-          "changesRequested": false,
-          "approvals": 0,
-          "buildSuccess": true,
-          "headSha": "e8495c402eae0db89857fef2acd3f48eb4e27383",
-          "createdAt": "2026-04-22T09:26:44.489Z",
-          "lastUpdated": "2026-04-22T09:26:44.604Z"
         }
       }
     },
