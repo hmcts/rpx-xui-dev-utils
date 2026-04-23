@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1776956999.274559",
-    "lastUpdated": "2026-04-23T15:09:47.376Z",
+    "lastUpdated": "2026-04-23T15:10:52.385Z",
     "approvalListMessageHash": "17cad41b68c32d8bc7a8429eafee32e0a4a1520f3391a5abec798491fba487ff"
   },
   "repositories": {
@@ -758,6 +758,18 @@
           "headSha": "382dccd31abfa211a0a8854cb2d84b6d2b936c27",
           "createdAt": "2026-04-20T11:05:15.448Z",
           "lastUpdated": "2026-04-20T11:05:15.723Z"
+        },
+        "1027": {
+          "number": 1027,
+          "title": "EXUI-4449: TLS Reject Unauthorised Disabled",
+          "author": "chrisjones-hmcts",
+          "url": "https://github.com/hmcts/rpx-xui-approve-org/pull/1027",
+          "changesRequested": false,
+          "approvals": 0,
+          "buildSuccess": true,
+          "headSha": "72ffc97e786cfc44e3259e9161018dd6969de7f8",
+          "createdAt": "2026-04-23T15:10:52.173Z",
+          "lastUpdated": "2026-04-23T15:10:52.385Z"
         }
       }
     },
