@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1776944251.792379",
-    "lastUpdated": "2026-04-23T11:37:20.982Z",
+    "lastUpdated": "2026-04-23T11:50:58.474Z",
     "approvalListMessageHash": "67f794dcd584c269bc8cff03bb635924182c897c31b14170afac34aa65a5a6ee"
   },
   "repositories": {
@@ -474,18 +474,6 @@
           "headSha": "af8921457b1fbfcf0983c54e692b52a831336d08",
           "createdAt": "2026-04-20T11:02:16.202Z",
           "lastUpdated": "2026-04-22T15:08:38.871Z"
-        },
-        "5096": {
-          "number": 5096,
-          "title": "chore: add  caseworker-employment-legalrep-solicitor. to NOC config",
-          "author": "olusegz07",
-          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/5096",
-          "changesRequested": false,
-          "approvals": 1,
-          "buildSuccess": true,
-          "headSha": "14f54dde43664e9ffdfb3d83cd66fb5725d83903",
-          "createdAt": "2026-04-23T09:54:21.932Z",
-          "lastUpdated": "2026-04-23T09:54:22.043Z"
         },
         "5098": {
           "number": 5098,
