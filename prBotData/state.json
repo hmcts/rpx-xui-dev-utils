@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1776955843.508329",
-    "lastUpdated": "2026-04-23T14:50:32.004Z",
+    "lastUpdated": "2026-04-23T14:51:57.549Z",
     "approvalListMessageHash": "873a7d6d81b2bbc4dc60581d474003ab8c187a71ddc53bf320d504de7ed34cf0"
   },
   "repositories": {
@@ -1118,6 +1118,18 @@
           "headSha": "46f13162c95b341c8c86a485d2e547020c22fe25",
           "createdAt": "2026-04-23T14:19:18.587Z",
           "lastUpdated": "2026-04-23T14:19:18.745Z"
+        },
+        "2149": {
+          "number": 2149,
+          "title": "Revert \"include dependencies package in npm package\"",
+          "author": "Josh-HMCTS",
+          "url": "https://github.com/hmcts/ccd-case-ui-toolkit/pull/2149",
+          "changesRequested": false,
+          "approvals": 0,
+          "buildSuccess": true,
+          "headSha": "28beefe025ff4a81ca74779ef804b668ab9e0907",
+          "createdAt": "2026-04-23T14:51:57.365Z",
+          "lastUpdated": "2026-04-23T14:51:57.549Z"
         },
         "2150": {
           "number": 2150,
