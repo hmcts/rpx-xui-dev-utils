@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1776958122.144619",
-    "lastUpdated": "2026-04-23T15:28:31.908Z",
+    "lastUpdated": "2026-04-23T15:28:44.898Z",
     "approvalListMessageHash": "e32b2f4f530475e81182da8c4f872149027fe8686007bc0a809f362d4974694c"
   },
   "repositories": {
@@ -1066,6 +1066,18 @@
           "headSha": "b6f2259ab5003f87122a23242a537c40e5cd6670",
           "createdAt": "2026-04-23T11:18:32.747Z",
           "lastUpdated": "2026-04-23T12:20:56.648Z"
+        },
+        "1302": {
+          "number": 1302,
+          "title": "Revert \"exui-4425-copying dependencies in npm package\"",
+          "author": "RiteshHMCTS",
+          "url": "https://github.com/hmcts/em-media-viewer/pull/1302",
+          "changesRequested": false,
+          "approvals": 0,
+          "buildSuccess": false,
+          "headSha": "032947316d900a26fa14a304c74e36ce5178e591",
+          "createdAt": "2026-04-23T15:28:44.740Z",
+          "lastUpdated": "2026-04-23T15:28:44.898Z"
         }
       }
     },
