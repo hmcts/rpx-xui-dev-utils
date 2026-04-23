@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1776933316.520969",
-    "lastUpdated": "2026-04-23T08:35:06.257Z",
+    "lastUpdated": "2026-04-23T09:04:11.149Z",
     "approvalListMessageHash": "68fe134df9ce1be5a9020914cfeec4b7acb5d089f0d4d0d30d875562016623c1"
   },
   "repositories": {
@@ -498,6 +498,18 @@
           "headSha": "a70f51391851e06f4d3c8df297a759e4de5ddbea",
           "createdAt": "2026-04-21T11:29:31.923Z",
           "lastUpdated": "2026-04-21T12:51:13.776Z"
+        },
+        "5100": {
+          "number": 5100,
+          "title": "EXUI-4506: Halo IN-0091229 Logout issue v2",
+          "author": "chrisjones-hmcts",
+          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/5100",
+          "changesRequested": false,
+          "approvals": 0,
+          "buildSuccess": true,
+          "headSha": "20f4ef0a4593d37b9596a17f70a77adec4598bca",
+          "createdAt": "2026-04-23T09:04:10.963Z",
+          "lastUpdated": "2026-04-23T09:04:11.149Z"
         },
         "5101": {
           "number": 5101,
