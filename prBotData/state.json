@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1776940689.409509",
-    "lastUpdated": "2026-04-23T11:03:58.311Z",
+    "lastUpdated": "2026-04-23T11:18:32.910Z",
     "approvalListMessageHash": "b0efe96acdfd382608480ff9bf5e65aa90ea4ece9101a092b3f5fa8f3ccc17b6"
   },
   "repositories": {
@@ -1030,6 +1030,18 @@
           "headSha": "3c58de91d47db0a880b7a8bf196ebb3bedae3ce9",
           "createdAt": "2026-04-23T04:27:28.766Z",
           "lastUpdated": "2026-04-23T04:27:28.907Z"
+        },
+        "1301": {
+          "number": 1301,
+          "title": "EXUI-4435 - Update packages",
+          "author": "Josh-HMCTS",
+          "url": "https://github.com/hmcts/em-media-viewer/pull/1301",
+          "changesRequested": false,
+          "approvals": 0,
+          "buildSuccess": false,
+          "headSha": "ce8bb56246699496963f4f306562ed6a6f6d0d52",
+          "createdAt": "2026-04-23T11:18:32.747Z",
+          "lastUpdated": "2026-04-23T11:18:32.910Z"
         }
       }
     },
