@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1776870530.113999",
-    "lastUpdated": "2026-04-22T23:01:32.412Z",
+    "lastUpdated": "2026-04-23T04:27:28.907Z",
     "approvalListMessageHash": "29068482def2ac7ac051158ae2c09225f5982dab6561988e875861984c7245f8"
   },
   "repositories": {
@@ -1030,6 +1030,18 @@
           "headSha": "022a0d5bfdf87e2e18b6578557dbc0c5a5c6701a",
           "createdAt": "2026-04-22T09:48:43.536Z",
           "lastUpdated": "2026-04-22T15:08:04.809Z"
+        },
+        "1300": {
+          "number": 1300,
+          "title": "Update dependency uuid to v14 [SECURITY]",
+          "author": "renovate[bot]",
+          "url": "https://github.com/hmcts/em-media-viewer/pull/1300",
+          "changesRequested": false,
+          "approvals": 0,
+          "buildSuccess": false,
+          "headSha": "3c58de91d47db0a880b7a8bf196ebb3bedae3ce9",
+          "createdAt": "2026-04-23T04:27:28.766Z",
+          "lastUpdated": "2026-04-23T04:27:28.907Z"
         }
       }
     },
