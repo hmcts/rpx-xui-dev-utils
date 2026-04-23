@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1776946867.094449",
-    "lastUpdated": "2026-04-23T12:20:56.648Z",
+    "lastUpdated": "2026-04-23T13:48:06.297Z",
     "approvalListMessageHash": "0468c1018e72612a3dff3fa3736a0f41452a94d01d65cdb9e373de72d6ee6b99"
   },
   "repositories": {
@@ -1082,6 +1082,18 @@
           "headSha": "ff2252a5896bd5ce240b0291fd0410e72ff50a08",
           "createdAt": "2026-04-23T11:37:20.852Z",
           "lastUpdated": "2026-04-23T11:37:20.982Z"
+        },
+        "2146": {
+          "number": 2146,
+          "title": "EXUI-4435 - Update cves",
+          "author": "Josh-HMCTS",
+          "url": "https://github.com/hmcts/ccd-case-ui-toolkit/pull/2146",
+          "changesRequested": false,
+          "approvals": 0,
+          "buildSuccess": true,
+          "headSha": "19bc8f8c6d11d38e20dc4e36420865bf9c6c87d0",
+          "createdAt": "2026-04-23T13:48:06.041Z",
+          "lastUpdated": "2026-04-23T13:48:06.297Z"
         }
       }
     },
