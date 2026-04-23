@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1776956589.606459",
-    "lastUpdated": "2026-04-23T15:02:57.670Z",
+    "lastUpdated": "2026-04-23T15:09:47.376Z",
     "approvalListMessageHash": "c2c7ba676860b5214547b42616648ee7a40aeedb78446b976f65a1b92ae2da4f"
   },
   "repositories": {
@@ -846,6 +846,18 @@
           "headSha": "220a4b75c0054e849d244c6f5dc474f440386498",
           "createdAt": "2026-04-10T09:16:50.469Z",
           "lastUpdated": "2026-04-10T09:16:50.698Z"
+        },
+        "783": {
+          "number": 783,
+          "title": "EXUI-4449: TLS Reject Unauthorised Disabled",
+          "author": "chrisjones-hmcts",
+          "url": "https://github.com/hmcts/em-showcase/pull/783",
+          "changesRequested": false,
+          "approvals": 0,
+          "buildSuccess": true,
+          "headSha": "fa66d1279efdb838077857a58cd692b79a9f85e5",
+          "createdAt": "2026-04-23T15:09:47.024Z",
+          "lastUpdated": "2026-04-23T15:09:47.376Z"
         }
       }
     },
