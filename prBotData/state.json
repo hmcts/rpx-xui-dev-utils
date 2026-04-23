@@ -747,18 +747,6 @@
           "createdAt": "2026-03-04T14:32:15.851Z",
           "lastUpdated": "2026-03-04T14:32:15.944Z"
         },
-        "1014": {
-          "number": 1014,
-          "title": "EXUI-4344 test: strengthen Playwright smoke reporting for approve org",
-          "author": "andyg-cgi",
-          "url": "https://github.com/hmcts/rpx-xui-approve-org/pull/1014",
-          "changesRequested": false,
-          "approvals": 1,
-          "buildSuccess": true,
-          "headSha": "ffa7f0621cc1c007ef52067ee334f220dec853e8",
-          "createdAt": "2026-03-31T15:49:36.463Z",
-          "lastUpdated": "2026-03-31T15:49:36.572Z"
-        },
         "1025": {
           "number": 1025,
           "title": "Update dependency codeceptjs to v3.7.8",
