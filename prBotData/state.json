@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1776957928.184779",
-    "lastUpdated": "2026-04-23T15:25:16.333Z",
+    "lastUpdated": "2026-04-23T15:27:03.467Z",
     "approvalListMessageHash": "09b1fb67e4434a254d898ee0e9f82827343c27c788bce549c9e33eecf5b6bc53"
   },
   "repositories": {
@@ -1210,6 +1210,18 @@
           "headSha": "a234dea193f767b762720c9f690d45950bf53658",
           "createdAt": "2026-04-20T09:32:45.140Z",
           "lastUpdated": "2026-04-20T09:32:45.282Z"
+        },
+        "541": {
+          "number": 541,
+          "title": "Revert \"exui-4425-sync dependency packages\"",
+          "author": "RiteshHMCTS",
+          "url": "https://github.com/hmcts/rpx-xui-common-lib/pull/541",
+          "changesRequested": false,
+          "approvals": 0,
+          "buildSuccess": true,
+          "headSha": "50029ff60829a9cb173a6ff393319368f5d4201a",
+          "createdAt": "2026-04-23T15:27:03.210Z",
+          "lastUpdated": "2026-04-23T15:27:03.467Z"
         }
       }
     }
