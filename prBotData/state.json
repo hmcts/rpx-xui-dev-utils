@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1777035294.816429",
-    "lastUpdated": "2026-04-24T12:54:43.823Z",
+    "lastUpdated": "2026-04-24T13:24:44.517Z",
     "approvalListMessageHash": "b7a189691ea983e9458906488ed73a0ac7153d95309c55dfccd6ff93a7efaccb"
   },
   "repositories": {
@@ -534,6 +534,18 @@
           "headSha": "0f87e1609475e361da21fd9ac826c533791211c9",
           "createdAt": "2026-04-24T11:06:49.128Z",
           "lastUpdated": "2026-04-24T11:06:49.196Z"
+        },
+        "5107": {
+          "number": 5107,
+          "title": "EXUI-4512: tune Jenkins Playwright workers",
+          "author": "andyg-cgi",
+          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/5107",
+          "changesRequested": false,
+          "approvals": 1,
+          "buildSuccess": true,
+          "headSha": "44973915047e2c24202460128c8826ec5cb2676b",
+          "createdAt": "2026-04-24T13:24:44.333Z",
+          "lastUpdated": "2026-04-24T13:24:44.517Z"
         }
       }
     },
