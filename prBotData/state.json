@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1777024584.323159",
-    "lastUpdated": "2026-04-24T11:03:51.190Z",
+    "lastUpdated": "2026-04-24T11:06:49.196Z",
     "approvalListMessageHash": "bc573a72a06401a2ef8123f92ca9c3329b1234bd9c4ed984367fe40006091aad"
   },
   "repositories": {
@@ -522,6 +522,18 @@
           "headSha": "a235dbb50ba74d330b52fe8dc007675199b2db37",
           "createdAt": "2026-04-24T09:49:39.564Z",
           "lastUpdated": "2026-04-24T09:49:39.670Z"
+        },
+        "5106": {
+          "number": 5106,
+          "title": "EXUI-4534: add shared manage-tasks Playwright foundation",
+          "author": "andyg-cgi",
+          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/5106",
+          "changesRequested": false,
+          "approvals": 0,
+          "buildSuccess": false,
+          "headSha": "0f87e1609475e361da21fd9ac826c533791211c9",
+          "createdAt": "2026-04-24T11:06:49.128Z",
+          "lastUpdated": "2026-04-24T11:06:49.196Z"
         }
       }
     },
