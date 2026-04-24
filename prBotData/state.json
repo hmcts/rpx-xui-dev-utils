@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1777040982.918529",
-    "lastUpdated": "2026-04-24T14:30:16.738Z",
+    "lastUpdated": "2026-04-24T14:32:29.093Z",
     "approvalListMessageHash": "0742d02d85d2af3156b02d0fc5da884b65481905339de74861242465e52332d5"
   },
   "repositories": {
@@ -498,18 +498,6 @@
           "headSha": "12bea5b8514117aa3e4570f3bdebd3d6c8df088d",
           "createdAt": "2026-04-22T23:01:32.191Z",
           "lastUpdated": "2026-04-22T23:01:32.412Z"
-        },
-        "5104": {
-          "number": 5104,
-          "title": "EXUI-4449: TLS Reject Unauthorised Disabled",
-          "author": "chrisjones-hmcts",
-          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/5104",
-          "changesRequested": false,
-          "approvals": 1,
-          "buildSuccess": true,
-          "headSha": "e6815753bfa3a88df36ffbd2e4020c6270daefba",
-          "createdAt": "2026-04-24T14:08:39.754Z",
-          "lastUpdated": "2026-04-24T14:08:39.868Z"
         },
         "5105": {
           "number": 5105,
