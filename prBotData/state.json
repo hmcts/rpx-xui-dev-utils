@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1777024584.323159",
-    "lastUpdated": "2026-04-24T09:56:13.984Z",
+    "lastUpdated": "2026-04-24T11:03:51.190Z",
     "approvalListMessageHash": "bc573a72a06401a2ef8123f92ca9c3329b1234bd9c4ed984367fe40006091aad"
   },
   "repositories": {
@@ -486,18 +486,6 @@
           "headSha": "20f4ef0a4593d37b9596a17f70a77adec4598bca",
           "createdAt": "2026-04-23T09:04:10.963Z",
           "lastUpdated": "2026-04-23T09:04:11.149Z"
-        },
-        "5102": {
-          "number": 5102,
-          "title": "test: add EXUI-4512A manage-tasks list and filter coverage",
-          "author": "andyg-cgi",
-          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/5102",
-          "changesRequested": false,
-          "approvals": 0,
-          "buildSuccess": false,
-          "headSha": "ca0fc7eb941b0826c7c7db0d31f28e95360a1d8c",
-          "createdAt": "2026-04-22T21:27:53.732Z",
-          "lastUpdated": "2026-04-22T21:27:53.856Z"
         },
         "5103": {
           "number": 5103,
