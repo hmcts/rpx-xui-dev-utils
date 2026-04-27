@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1777303422.318699",
-    "lastUpdated": "2026-04-27T15:23:31.242Z",
+    "lastUpdated": "2026-04-27T15:25:55.214Z",
     "approvalListMessageHash": "64a77f716bfe0c43210dd015cf41dc5052b8428c44b2840d1e2199d8185c924d"
   },
   "repositories": {
@@ -1181,11 +1181,11 @@
           "author": "Josh-HMCTS",
           "url": "https://github.com/hmcts/rpx-xui-common-lib/pull/540",
           "changesRequested": false,
-          "approvals": 0,
+          "approvals": 1,
           "buildSuccess": true,
           "headSha": "a234dea193f767b762720c9f690d45950bf53658",
-          "createdAt": "2026-04-20T09:32:45.140Z",
-          "lastUpdated": "2026-04-20T09:32:45.282Z"
+          "createdAt": "2026-04-27T15:25:54.996Z",
+          "lastUpdated": "2026-04-27T15:25:55.214Z"
         }
       }
     }
