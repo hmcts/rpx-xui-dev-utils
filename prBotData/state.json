@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1777307859.510579",
-    "lastUpdated": "2026-04-27T16:52:23.222Z",
+    "lastUpdated": "2026-04-27T17:03:51.507Z",
     "approvalListMessageHash": "9da3240a58bd7896af94a946bb37bcdf7a083c5284c3665fc0181b5b441c9462"
   },
   "repositories": {
@@ -822,18 +822,6 @@
           "headSha": "481199d27b85b3887df449a700e3b4f11bc5c337",
           "createdAt": "2025-11-20T09:56:36.353Z",
           "lastUpdated": "2025-11-20T09:56:36.568Z"
-        },
-        "759": {
-          "number": 759,
-          "title": "Update dependency @angular/compiler to v20.3.18 [SECURITY]",
-          "author": "renovate[bot]",
-          "url": "https://github.com/hmcts/em-showcase/pull/759",
-          "changesRequested": false,
-          "approvals": 0,
-          "buildSuccess": false,
-          "headSha": "cf6fcc21deef1cd348e9a3c34c8a9e89dbc36f64",
-          "createdAt": "2026-03-30T19:39:41.003Z",
-          "lastUpdated": "2026-04-09T12:31:50.978Z"
         },
         "765": {
           "number": 765,
