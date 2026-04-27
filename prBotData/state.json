@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1777280537.690689",
-    "lastUpdated": "2026-04-27T09:02:05.508Z",
+    "lastUpdated": "2026-04-27T09:35:37.468Z",
     "approvalListMessageHash": "28a4c23ee61e467231dc1b9be707dfe0a35d1d957624c8007b06cc0102aa970c"
   },
   "repositories": {
@@ -546,6 +546,18 @@
           "headSha": "76def93382ba29975be79e5e6ec7088620b74511",
           "createdAt": "2026-04-24T16:58:23.899Z",
           "lastUpdated": "2026-04-24T16:58:24.023Z"
+        },
+        "5115": {
+          "number": 5115,
+          "title": "increase to 500 ops for stalebot",
+          "author": "AntonyLeons",
+          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/5115",
+          "changesRequested": false,
+          "approvals": 0,
+          "buildSuccess": false,
+          "headSha": "b02abcde1be87f64dc8de383dd8542ffa8f14389",
+          "createdAt": "2026-04-27T09:35:37.292Z",
+          "lastUpdated": "2026-04-27T09:35:37.468Z"
         }
       }
     },
