@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1777287537.050959",
-    "lastUpdated": "2026-04-27T10:58:45.038Z",
+    "lastUpdated": "2026-04-27T11:21:01.556Z",
     "approvalListMessageHash": "90ab9c985a3db3ce4671a8ec525aa1f371a47cf45bea084f1bf2466f2d6ac04c"
   },
   "repositories": {
@@ -1146,18 +1146,6 @@
           "headSha": "edb3316c82ae5f4eda2351d91b75fe72705cbde5",
           "createdAt": "2026-02-26T17:23:08.789Z",
           "lastUpdated": "2026-02-26T17:23:08.893Z"
-        },
-        "317": {
-          "number": 317,
-          "title": "chore: Passport latest",
-          "author": "Josh-HMCTS",
-          "url": "https://github.com/hmcts/rpx-xui-node-lib/pull/317",
-          "changesRequested": false,
-          "approvals": 1,
-          "buildSuccess": true,
-          "headSha": "582ebba6d0e612e081c272454b8d52bc9ad96eb1",
-          "createdAt": "2026-04-17T15:41:57.764Z",
-          "lastUpdated": "2026-04-17T15:41:58.068Z"
         }
       }
     },
