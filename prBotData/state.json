@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1777280439.492379",
-    "lastUpdated": "2026-04-27T09:00:27.540Z",
+    "lastUpdated": "2026-04-27T09:02:05.508Z",
     "approvalListMessageHash": "3d417b4f9759dedc0485848d0e953cb5229831bf24730bc740df6b8b63e01620"
   },
   "repositories": {
@@ -782,18 +782,6 @@
           "headSha": "c7c167c615750af6181562efb16bb64c9172ea21",
           "createdAt": "2026-04-24T11:32:20.895Z",
           "lastUpdated": "2026-04-24T14:27:25.066Z"
-        },
-        "1029": {
-          "number": 1029,
-          "title": "Fix master pipeline",
-          "author": "Josh-HMCTS",
-          "url": "https://github.com/hmcts/rpx-xui-approve-org/pull/1029",
-          "changesRequested": false,
-          "approvals": 1,
-          "buildSuccess": true,
-          "headSha": "2e8a0bbd9014ab753566059b07588faf2b5be0fe",
-          "createdAt": "2026-04-27T08:43:13.382Z",
-          "lastUpdated": "2026-04-27T08:43:13.495Z"
         }
       }
     },
