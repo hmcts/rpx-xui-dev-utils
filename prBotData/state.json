@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1777306121.363759",
-    "lastUpdated": "2026-04-27T16:08:30.375Z",
+    "lastUpdated": "2026-04-27T16:08:51.560Z",
     "approvalListMessageHash": "9f1a3b235f3e4df4700ca734fda68c288b045fb7ad7b7ea9242c9ece9883fbf8"
   },
   "repositories": {
@@ -1006,18 +1006,6 @@
           "headSha": "7b83aecf19e860c79c285d37ef184a72da04fc3e",
           "createdAt": "2026-04-13T09:13:18.879Z",
           "lastUpdated": "2026-04-15T09:32:02.023Z"
-        },
-        "1287": {
-          "number": 1287,
-          "title": "Update angular monorepo",
-          "author": "renovate[bot]",
-          "url": "https://github.com/hmcts/em-media-viewer/pull/1287",
-          "changesRequested": false,
-          "approvals": 0,
-          "buildSuccess": true,
-          "headSha": "152c19f0e63ee2d97afdebb539d9076b264c09e4",
-          "createdAt": "2026-03-30T06:39:25.665Z",
-          "lastUpdated": "2026-04-22T10:39:52.657Z"
         },
         "1291": {
           "number": 1291,
