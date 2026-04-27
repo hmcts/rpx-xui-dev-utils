@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1777307859.510579",
-    "lastUpdated": "2026-04-27T17:03:51.507Z",
+    "lastUpdated": "2026-04-27T17:04:28.648Z",
     "approvalListMessageHash": "9da3240a58bd7896af94a946bb37bcdf7a083c5284c3665fc0181b5b441c9462"
   },
   "repositories": {
@@ -858,18 +858,6 @@
           "headSha": "de6e33b62c73281deb8ee6418e74e6e07cac345e",
           "createdAt": "2026-03-30T19:40:23.531Z",
           "lastUpdated": "2026-03-30T19:40:23.776Z"
-        },
-        "772": {
-          "number": 772,
-          "title": "Update dependency serialize-javascript to v7 [SECURITY]",
-          "author": "renovate[bot]",
-          "url": "https://github.com/hmcts/em-showcase/pull/772",
-          "changesRequested": false,
-          "approvals": 0,
-          "buildSuccess": false,
-          "headSha": "3282689990af3699b07b77b97872f3fac9e5b338",
-          "createdAt": "2026-03-29T15:24:18.637Z",
-          "lastUpdated": "2026-03-29T15:24:18.827Z"
         },
         "778": {
           "number": 778,
