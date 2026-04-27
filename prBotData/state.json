@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1777314835.185969",
-    "lastUpdated": "2026-04-27T18:33:44.438Z",
+    "lastUpdated": "2026-04-27T19:19:27.707Z",
     "approvalListMessageHash": "9da3240a58bd7896af94a946bb37bcdf7a083c5284c3665fc0181b5b441c9462"
   },
   "repositories": {
@@ -646,6 +646,18 @@
           "headSha": "2644248344bb81f0e19d395f6cd5e6a77958d6b9",
           "createdAt": "2026-04-27T13:43:42.390Z",
           "lastUpdated": "2026-04-27T13:43:42.785Z"
+        },
+        "1513": {
+          "number": 1513,
+          "title": "EXUI-4435 - CVE updates",
+          "author": "Josh-HMCTS",
+          "url": "https://github.com/hmcts/rpx-xui-manage-organisations/pull/1513",
+          "changesRequested": false,
+          "approvals": 0,
+          "buildSuccess": false,
+          "headSha": "e781d00af54ce8e4f1e642516d33f8776f007745",
+          "createdAt": "2026-04-27T19:19:27.434Z",
+          "lastUpdated": "2026-04-27T19:19:27.707Z"
         }
       }
     },
