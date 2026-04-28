@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1777368961.128619",
-    "lastUpdated": "2026-04-28T09:35:49.385Z",
+    "lastUpdated": "2026-04-28T09:37:01.377Z",
     "approvalListMessageHash": "6af53f5d2f23e8ea09fab7bd9510c71709870fd5a6eabd04203af3a24860a429"
   },
   "repositories": {
@@ -345,15 +345,15 @@
         },
         "5009": {
           "number": 5009,
-          "title": "DO NOT MERGE: CME-767",
+          "title": "CME-767",
           "author": "AntonyLeons",
           "url": "https://github.com/hmcts/rpx-xui-webapp/pull/5009",
           "changesRequested": true,
           "approvals": 1,
           "buildSuccess": false,
-          "headSha": "dc02e37aadbb66e3c46222ad39eadf5dc32f5df5",
-          "createdAt": "2026-04-02T08:53:04.785Z",
-          "lastUpdated": "2026-04-02T08:53:04.921Z"
+          "headSha": "b6d13316a1538420709bd829dc9d736171dd56c0",
+          "createdAt": "2026-04-28T09:37:01.128Z",
+          "lastUpdated": "2026-04-28T09:37:01.377Z"
         },
         "5027": {
           "number": 5027,
