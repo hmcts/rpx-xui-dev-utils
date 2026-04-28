@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1777393133.613099",
-    "lastUpdated": "2026-04-28T16:18:42.183Z",
+    "lastUpdated": "2026-04-28T16:32:51.840Z",
     "approvalListMessageHash": "cd73ab79c9a46a863d0d870e33507c6c5263024dc995d08b9ce98f121e22f513"
   },
   "repositories": {
@@ -546,18 +546,6 @@
           "headSha": "d5d8afaf160a8bb9ab22dc45a46b490ec08383fb",
           "createdAt": "2026-04-27T15:05:30.759Z",
           "lastUpdated": "2026-04-27T15:05:30.906Z"
-        },
-        "5119": {
-          "number": 5119,
-          "title": "test: prewarm case file view integration sessions",
-          "author": "andyg-cgi",
-          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/5119",
-          "changesRequested": false,
-          "approvals": 0,
-          "buildSuccess": true,
-          "headSha": "bd4d158cc7bec42de999912512607c73b77a7353",
-          "createdAt": "2026-04-28T11:18:21.466Z",
-          "lastUpdated": "2026-04-28T15:44:36.479Z"
         }
       }
     },
