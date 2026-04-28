@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1777393983.323829",
-    "lastUpdated": "2026-04-28T16:32:51.840Z",
+    "lastUpdated": "2026-04-28T16:46:23.846Z",
     "approvalListMessageHash": "20594e9a642c2171be4f90301dac72caceec43326a0457a63e8b762b2f7bf578"
   },
   "repositories": {
@@ -546,6 +546,18 @@
           "headSha": "d5d8afaf160a8bb9ab22dc45a46b490ec08383fb",
           "createdAt": "2026-04-27T15:05:30.759Z",
           "lastUpdated": "2026-04-27T15:05:30.906Z"
+        },
+        "5120": {
+          "number": 5120,
+          "title": "EXUI-4550 test: harden Playwright integration framework waits",
+          "author": "andyg-cgi",
+          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/5120",
+          "changesRequested": false,
+          "approvals": 0,
+          "buildSuccess": false,
+          "headSha": "4a5ba44f46e95726b7c850dbe76194fc236bb66c",
+          "createdAt": "2026-04-28T16:46:23.469Z",
+          "lastUpdated": "2026-04-28T16:46:23.846Z"
         }
       }
     },
