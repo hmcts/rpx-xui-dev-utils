@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1777314835.185969",
-    "lastUpdated": "2026-04-28T01:12:37.222Z",
+    "lastUpdated": "2026-04-28T01:13:49.101Z",
     "approvalListMessageHash": "9da3240a58bd7896af94a946bb37bcdf7a083c5284c3665fc0181b5b441c9462"
   },
   "repositories": {
@@ -894,6 +894,18 @@
           "headSha": "220a4b75c0054e849d244c6f5dc474f440386498",
           "createdAt": "2026-04-10T09:16:50.469Z",
           "lastUpdated": "2026-04-10T09:16:50.698Z"
+        },
+        "781": {
+          "number": 781,
+          "title": "Update dependency path-to-regexp to v8 [SECURITY]",
+          "author": "renovate[bot]",
+          "url": "https://github.com/hmcts/em-showcase/pull/781",
+          "changesRequested": false,
+          "approvals": 0,
+          "buildSuccess": false,
+          "headSha": "680667608c6f52e0e4968582260de46e1692e5cb",
+          "createdAt": "2026-04-28T01:13:48.842Z",
+          "lastUpdated": "2026-04-28T01:13:49.101Z"
         }
       }
     },
