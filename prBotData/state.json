@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1777368961.128619",
-    "lastUpdated": "2026-04-28T09:37:01.377Z",
+    "lastUpdated": "2026-04-28T09:37:40.144Z",
     "approvalListMessageHash": "6af53f5d2f23e8ea09fab7bd9510c71709870fd5a6eabd04203af3a24860a429"
   },
   "repositories": {
@@ -658,6 +658,18 @@
           "headSha": "e781d00af54ce8e4f1e642516d33f8776f007745",
           "createdAt": "2026-04-27T19:19:27.434Z",
           "lastUpdated": "2026-04-27T19:19:27.707Z"
+        },
+        "1514": {
+          "number": 1514,
+          "title": "EXUI-4348: add Phase5 Playwright coverage",
+          "author": "andyg-cgi",
+          "url": "https://github.com/hmcts/rpx-xui-manage-organisations/pull/1514",
+          "changesRequested": false,
+          "approvals": 0,
+          "buildSuccess": false,
+          "headSha": "d3f1e6e9ed90ce3142402a3cb4f6bcfbcd946526",
+          "createdAt": "2026-04-28T09:37:40.017Z",
+          "lastUpdated": "2026-04-28T09:37:40.144Z"
         }
       }
     },
