@@ -1107,18 +1107,6 @@
           "createdAt": "2026-04-08T16:46:32.168Z",
           "lastUpdated": "2026-04-08T16:46:32.260Z"
         },
-        "2143": {
-          "number": 2143,
-          "title": "EXUI-4369 ",
-          "author": "Josh-HMCTS",
-          "url": "https://github.com/hmcts/ccd-case-ui-toolkit/pull/2143",
-          "changesRequested": false,
-          "approvals": 1,
-          "buildSuccess": true,
-          "headSha": "5a419bd65047099b0052cd8a4d9e1cf1b1b81b89",
-          "createdAt": "2026-04-27T15:26:32.658Z",
-          "lastUpdated": "2026-04-27T15:26:32.800Z"
-        },
         "2145": {
           "number": 2145,
           "title": "Pofcc-75 resolving skip to main content link",
