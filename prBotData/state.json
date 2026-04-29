@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1777474687.717009",
-    "lastUpdated": "2026-04-29T14:57:56.129Z",
+    "lastUpdated": "2026-04-29T15:08:58.577Z",
     "approvalListMessageHash": "2eca733382f3134431d2ed1c22b0ed3c0cde3a94d59ec72362886760780248ff"
   },
   "repositories": {
@@ -1042,18 +1042,6 @@
           "headSha": "2729360bd5896f7a56717113ff6939d42d6c7af3",
           "createdAt": "2026-04-27T21:38:39.969Z",
           "lastUpdated": "2026-04-27T21:38:40.106Z"
-        },
-        "1297": {
-          "number": 1297,
-          "title": "Update dependency @angular/platform-server to v20.3.19 [SECURITY]",
-          "author": "renovate[bot]",
-          "url": "https://github.com/hmcts/em-media-viewer/pull/1297",
-          "changesRequested": false,
-          "approvals": 0,
-          "buildSuccess": true,
-          "headSha": "ff3d269dcda153233bd4e5553f352d7ac6a3edcb",
-          "createdAt": "2026-04-27T21:37:34.099Z",
-          "lastUpdated": "2026-04-28T07:17:44.624Z"
         },
         "1300": {
           "number": 1300,
