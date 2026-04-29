@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1777466889.874959",
-    "lastUpdated": "2026-04-29T12:47:58.290Z",
+    "lastUpdated": "2026-04-29T12:49:31.184Z",
     "approvalListMessageHash": "150cbebfbaa4ad5fc32ebbad8c2c2b8d9860389d90e82fda6cfc100b93795d7b"
   },
   "repositories": {
@@ -510,18 +510,6 @@
           "headSha": "0f87e1609475e361da21fd9ac826c533791211c9",
           "createdAt": "2026-04-24T11:06:49.128Z",
           "lastUpdated": "2026-04-24T11:06:49.196Z"
-        },
-        "5114": {
-          "number": 5114,
-          "title": "Exui 4370 ps writer pdf replace",
-          "author": "balajisridharanhmcts",
-          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/5114",
-          "changesRequested": false,
-          "approvals": 1,
-          "buildSuccess": true,
-          "headSha": "7aa614c8246d3934806f6ab44112df11e40fa015",
-          "createdAt": "2026-04-29T12:43:41.468Z",
-          "lastUpdated": "2026-04-29T12:43:41.642Z"
         },
         "5116": {
           "number": 5116,
