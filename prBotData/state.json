@@ -415,18 +415,6 @@
           "createdAt": "2026-04-09T08:49:07.447Z",
           "lastUpdated": "2026-04-27T10:36:11.741Z"
         },
-        "5076": {
-          "number": 5076,
-          "title": "EXUI-4142-E2E-Case File View",
-          "author": "ShamrezDarw",
-          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/5076",
-          "changesRequested": false,
-          "approvals": 0,
-          "buildSuccess": true,
-          "headSha": "87613954241cc22a0d9d32645d6e5d9c434aa582",
-          "createdAt": "2026-04-09T08:56:52.841Z",
-          "lastUpdated": "2026-04-09T10:02:55.052Z"
-        },
         "5090": {
           "number": 5090,
           "title": "Test/EXUI-4213 add Playwright work allocation mock coverage",
