@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1777466772.357219",
-    "lastUpdated": "2026-04-29T12:47:39.150Z",
+    "lastUpdated": "2026-04-29T12:47:58.290Z",
     "approvalListMessageHash": "9de36721bd6cf3a6bc87dd52ad35a98eca8221e0519723df8fdac4a6cf5719b6"
   },
   "repositories": {
@@ -634,18 +634,6 @@
           "headSha": "63fdb1b7fba6ef02a2bf8a462d85dc06942b2a40",
           "createdAt": "2026-04-20T11:17:48.303Z",
           "lastUpdated": "2026-04-27T13:33:19.194Z"
-        },
-        "1512": {
-          "number": 1512,
-          "title": "fix: resolve issue with data loss when page is refereshed",
-          "author": "olusegz07",
-          "url": "https://github.com/hmcts/rpx-xui-manage-organisations/pull/1512",
-          "changesRequested": false,
-          "approvals": 1,
-          "buildSuccess": true,
-          "headSha": "a8e96bc62732eaeb99bc8e0c425bb289e47dc6cd",
-          "createdAt": "2026-04-29T12:43:39.277Z",
-          "lastUpdated": "2026-04-29T12:43:39.511Z"
         },
         "1513": {
           "number": 1513,
