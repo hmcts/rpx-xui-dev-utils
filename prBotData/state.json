@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1777466772.357219",
-    "lastUpdated": "2026-04-29T12:46:01.365Z",
+    "lastUpdated": "2026-04-29T12:47:39.150Z",
     "approvalListMessageHash": "9de36721bd6cf3a6bc87dd52ad35a98eca8221e0519723df8fdac4a6cf5719b6"
   },
   "repositories": {
@@ -942,18 +942,6 @@
           "headSha": "680667608c6f52e0e4968582260de46e1692e5cb",
           "createdAt": "2026-04-28T01:13:48.842Z",
           "lastUpdated": "2026-04-28T01:13:49.101Z"
-        },
-        "784": {
-          "number": 784,
-          "title": "Chore: add codeowners",
-          "author": "gregs-cgi",
-          "url": "https://github.com/hmcts/em-showcase/pull/784",
-          "changesRequested": false,
-          "approvals": 1,
-          "buildSuccess": false,
-          "headSha": "a2ebea6beb8cb0cc76560af4df95a8d750095ed1",
-          "createdAt": "2026-04-29T12:42:36.963Z",
-          "lastUpdated": "2026-04-29T12:42:37.209Z"
         }
       }
     },
