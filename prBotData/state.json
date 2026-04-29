@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1777452877.812729",
-    "lastUpdated": "2026-04-29T08:54:25.963Z",
+    "lastUpdated": "2026-04-29T12:09:12.549Z",
     "approvalListMessageHash": "2ed536c3d7d532d084f6c8e560f3391d3f12096ed33ed8534c50d1cf605c6d34"
   },
   "repositories": {
@@ -1246,6 +1246,22 @@
           "headSha": "a234dea193f767b762720c9f690d45950bf53658",
           "createdAt": "2026-04-27T15:25:54.996Z",
           "lastUpdated": "2026-04-27T15:25:55.214Z"
+        }
+      }
+    },
+    "hmcts/rpx-xui-translation": {
+      "pullRequests": {
+        "68": {
+          "number": 68,
+          "title": "Chore: add codeowners",
+          "author": "gregs-cgi",
+          "url": "https://github.com/hmcts/rpx-xui-translation/pull/68",
+          "changesRequested": false,
+          "approvals": 0,
+          "buildSuccess": true,
+          "headSha": "73ee8b0ecf92d4cf9459bd3f71d0fd480b519e5e",
+          "createdAt": "2026-04-29T12:09:12.291Z",
+          "lastUpdated": "2026-04-29T12:09:12.549Z"
         }
       }
     }
