@@ -1067,18 +1067,6 @@
           "createdAt": "2026-04-27T21:37:34.099Z",
           "lastUpdated": "2026-04-28T07:17:44.624Z"
         },
-        "1299": {
-          "number": 1299,
-          "title": "Ex UI 4369 CVE fix",
-          "author": "Josh-HMCTS",
-          "url": "https://github.com/hmcts/em-media-viewer/pull/1299",
-          "changesRequested": false,
-          "approvals": 1,
-          "buildSuccess": true,
-          "headSha": "0625af933c6b5a7b397cbd073b45e5a57d29b2ec",
-          "createdAt": "2026-04-27T15:26:18.715Z",
-          "lastUpdated": "2026-04-27T15:26:18.968Z"
-        },
         "1300": {
           "number": 1300,
           "title": "Update dependency uuid to v14 [SECURITY]",
