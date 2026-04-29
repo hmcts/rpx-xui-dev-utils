@@ -1119,18 +1119,6 @@
           "createdAt": "2026-04-23T13:48:06.041Z",
           "lastUpdated": "2026-04-23T13:48:06.297Z"
         },
-        "2150": {
-          "number": 2150,
-          "title": "Test revert",
-          "author": "Josh-HMCTS",
-          "url": "https://github.com/hmcts/ccd-case-ui-toolkit/pull/2150",
-          "changesRequested": false,
-          "approvals": 1,
-          "buildSuccess": true,
-          "headSha": "9a3c0e6e136838c40fd093fc9fc83152e7ae904f",
-          "createdAt": "2026-04-23T15:24:16.675Z",
-          "lastUpdated": "2026-04-23T15:24:16.989Z"
-        },
         "2151": {
           "number": 2151,
           "title": "pofcc-75 fresh version",
