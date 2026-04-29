@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1777488326.236469",
-    "lastUpdated": "2026-04-29T19:41:30.551Z",
+    "lastUpdated": "2026-04-29T19:58:26.029Z",
     "approvalListMessageHash": "6331626f248884e612d3c39803689d922602b53470e9078b4f48214834f27591"
   },
   "repositories": {
@@ -770,6 +770,18 @@
           "headSha": "4fe67e18a926b8bf0e5f9e40c13841318b7d7eb3",
           "createdAt": "2026-04-24T11:32:20.895Z",
           "lastUpdated": "2026-04-29T15:11:28.006Z"
+        },
+        "1031": {
+          "number": 1031,
+          "title": "Fix yarn lock",
+          "author": "Josh-HMCTS",
+          "url": "https://github.com/hmcts/rpx-xui-approve-org/pull/1031",
+          "changesRequested": false,
+          "approvals": 0,
+          "buildSuccess": false,
+          "headSha": "94232a3e4e907ec8bc3415008c8b05e3c8e1db32",
+          "createdAt": "2026-04-29T19:58:25.931Z",
+          "lastUpdated": "2026-04-29T19:58:26.029Z"
         }
       }
     },
