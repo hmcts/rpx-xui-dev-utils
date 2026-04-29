@@ -451,18 +451,6 @@
           "createdAt": "2026-04-17T14:01:18.681Z",
           "lastUpdated": "2026-04-17T14:01:18.909Z"
         },
-        "5092": {
-          "number": 5092,
-          "title": "EXUI-2242: search page guard",
-          "author": "chrisjones-hmcts",
-          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/5092",
-          "changesRequested": false,
-          "approvals": 1,
-          "buildSuccess": true,
-          "headSha": "dde34a3c92413a2853e3c62f725b7c1257b5399d",
-          "createdAt": "2026-04-27T16:37:27.784Z",
-          "lastUpdated": "2026-04-27T16:37:27.956Z"
-        },
         "5098": {
           "number": 5098,
           "title": "EXUI-4438 Investigate rpx-xui-webapp event loop",
