@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1777488326.236469",
-    "lastUpdated": "2026-04-29T19:41:25.508Z",
+    "lastUpdated": "2026-04-29T19:41:30.551Z",
     "approvalListMessageHash": "6331626f248884e612d3c39803689d922602b53470e9078b4f48214834f27591"
   },
   "repositories": {
@@ -586,18 +586,6 @@
           "headSha": "284cc904b2ffb71635ecd0b175635e246c37386c",
           "createdAt": "2026-01-29T15:53:47.458Z",
           "lastUpdated": "2026-01-29T15:53:47.529Z"
-        },
-        "1510": {
-          "number": 1510,
-          "title": "EX-UI-4500 - Passport release MO",
-          "author": "Josh-HMCTS",
-          "url": "https://github.com/hmcts/rpx-xui-manage-organisations/pull/1510",
-          "changesRequested": false,
-          "approvals": 1,
-          "buildSuccess": false,
-          "headSha": "d8a899d76b26c6aaf07b2cef05d75421409ef62f",
-          "createdAt": "2026-04-29T19:40:07.747Z",
-          "lastUpdated": "2026-04-29T19:40:07.871Z"
         },
         "1513": {
           "number": 1513,
