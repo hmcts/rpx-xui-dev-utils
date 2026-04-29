@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1777466632.133229",
-    "lastUpdated": "2026-04-29T12:43:41.642Z",
+    "lastUpdated": "2026-04-29T12:44:40.832Z",
     "approvalListMessageHash": "a3381cd20f116251b877b3755e01e25e1e16936f9aac8c545d16fb12e512a59a"
   },
   "repositories": {
@@ -1226,6 +1226,18 @@
           "headSha": "3561a1c486e404077dfd1da6233ee949cf6055a5",
           "createdAt": "2026-04-27T13:32:26.589Z",
           "lastUpdated": "2026-04-27T13:32:26.772Z"
+        },
+        "2152": {
+          "number": 2152,
+          "title": "EXUI-3003 & 3005 timezone bugs",
+          "author": "chrisjones-hmcts",
+          "url": "https://github.com/hmcts/ccd-case-ui-toolkit/pull/2152",
+          "changesRequested": false,
+          "approvals": 0,
+          "buildSuccess": true,
+          "headSha": "04bfdc1dc18a792b6aeb3979643b2c6991272566",
+          "createdAt": "2026-04-29T12:44:40.721Z",
+          "lastUpdated": "2026-04-29T12:44:40.832Z"
         }
       }
     },
