@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1777549018.160059",
-    "lastUpdated": "2026-04-30T11:42:50.445Z",
+    "lastUpdated": "2026-04-30T12:09:42.323Z",
     "approvalListMessageHash": "27ceb034b456e734967c91e44b3b7a724c4ded075d54b0d8714b3f358de028e0"
   },
   "repositories": {
@@ -622,18 +622,6 @@
           "headSha": "4568bdf473c5e565a5af13e39959b96275d28b3e",
           "createdAt": "2026-04-28T15:54:57.575Z",
           "lastUpdated": "2026-04-28T17:17:08.106Z"
-        },
-        "1516": {
-          "number": 1516,
-          "title": "Add 'PCS' roles",
-          "author": "marianadpereira",
-          "url": "https://github.com/hmcts/rpx-xui-manage-organisations/pull/1516",
-          "changesRequested": false,
-          "approvals": 0,
-          "buildSuccess": false,
-          "headSha": "ce30f3c4cf8db023ba83459684ac31c3f948c475",
-          "createdAt": "2026-04-30T11:42:50.227Z",
-          "lastUpdated": "2026-04-30T11:42:50.445Z"
         }
       }
     },
