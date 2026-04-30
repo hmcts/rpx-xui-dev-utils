@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1777546476.567679",
-    "lastUpdated": "2026-04-30T10:54:25.520Z",
+    "lastUpdated": "2026-04-30T11:01:11.915Z",
     "approvalListMessageHash": "5bf0a9362b67d6bd88849d0545df1b783921502f696228ed466aed5689829cde"
   },
   "repositories": {
@@ -1106,18 +1106,6 @@
           "headSha": "04bfdc1dc18a792b6aeb3979643b2c6991272566",
           "createdAt": "2026-04-29T12:44:40.721Z",
           "lastUpdated": "2026-04-29T12:44:40.832Z"
-        },
-        "2153": {
-          "number": 2153,
-          "title": "exui-4526-org details hides when collection item deleted",
-          "author": "RiteshHMCTS",
-          "url": "https://github.com/hmcts/ccd-case-ui-toolkit/pull/2153",
-          "changesRequested": false,
-          "approvals": 1,
-          "buildSuccess": true,
-          "headSha": "053bbe93113e8869d8843cd066189da9cbdb9b59",
-          "createdAt": "2026-04-30T10:54:25.303Z",
-          "lastUpdated": "2026-04-30T10:54:25.520Z"
         }
       }
     },
