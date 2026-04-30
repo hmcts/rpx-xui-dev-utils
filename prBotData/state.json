@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1777561593.517629",
-    "lastUpdated": "2026-04-30T15:06:21.596Z",
+    "lastUpdated": "2026-04-30T15:17:12.233Z",
     "approvalListMessageHash": "c3d59656ee477a2086b60837d884592ba1fba27535c48df50079c5dd297f1135"
   },
   "repositories": {
@@ -445,11 +445,11 @@
           "author": "nathan-clark",
           "url": "https://github.com/hmcts/rpx-xui-webapp/pull/5098",
           "changesRequested": false,
-          "approvals": 0,
+          "approvals": 1,
           "buildSuccess": true,
           "headSha": "827d2bc5b8a465f3ddd3c508337693a3162142e2",
-          "createdAt": "2026-04-21T11:29:31.923Z",
-          "lastUpdated": "2026-04-30T11:17:29.135Z"
+          "createdAt": "2026-04-30T15:17:12.126Z",
+          "lastUpdated": "2026-04-30T15:17:12.233Z"
         },
         "5103": {
           "number": 5103,
