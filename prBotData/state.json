@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1777547861.271519",
-    "lastUpdated": "2026-04-30T11:17:29.135Z",
+    "lastUpdated": "2026-04-30T11:23:46.122Z",
     "approvalListMessageHash": "af6f4e7727d44b5dee41ab45df3561f7bc93d437c74315f3e6d01112680ebbf6"
   },
   "repositories": {
@@ -354,18 +354,6 @@
           "headSha": "b6d13316a1538420709bd829dc9d736171dd56c0",
           "createdAt": "2026-04-28T09:46:28.839Z",
           "lastUpdated": "2026-04-28T09:46:29.072Z"
-        },
-        "5027": {
-          "number": 5027,
-          "title": "EXUI-4265-Integration tests - Update the case list positive tests",
-          "author": "ShamrezDarw",
-          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/5027",
-          "changesRequested": false,
-          "approvals": 1,
-          "buildSuccess": true,
-          "headSha": "71e8f8e10b086042ab9c16456ed88355629e3d6f",
-          "createdAt": "2026-04-24T09:20:29.746Z",
-          "lastUpdated": "2026-04-30T10:51:18.284Z"
         },
         "5049": {
           "number": 5049,
