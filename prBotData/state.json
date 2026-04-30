@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1777558486.857749",
-    "lastUpdated": "2026-04-30T14:15:36.128Z",
+    "lastUpdated": "2026-04-30T14:23:29.359Z",
     "approvalListMessageHash": "d8a6cb62239d89770021f2a864f72c16473047a84026bae2794b9c7ded5e27c4"
   },
   "repositories": {
@@ -1047,18 +1047,6 @@
     },
     "hmcts/ccd-case-ui-toolkit": {
       "pullRequests": {
-        "2118": {
-          "number": 2118,
-          "title": "Ex UI 3906 remove unsed packages",
-          "author": "olusegz07",
-          "url": "https://github.com/hmcts/ccd-case-ui-toolkit/pull/2118",
-          "changesRequested": false,
-          "approvals": 1,
-          "buildSuccess": true,
-          "headSha": "84f2b1fffd59b78dcacb7a96855e6c376ded204c",
-          "createdAt": "2026-04-30T13:46:45.445Z",
-          "lastUpdated": "2026-04-30T13:46:45.598Z"
-        },
         "2138": {
           "number": 2138,
           "title": "pofcc-75 initial check-in. altering tab position on entering page.",
