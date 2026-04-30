@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1777561435.114089",
-    "lastUpdated": "2026-04-30T15:03:43.612Z",
+    "lastUpdated": "2026-04-30T15:06:21.596Z",
     "approvalListMessageHash": "7380a142ca55aa7b8d57724fe87ff8bde4766a6012d62d72c25fbec2b23f8f59"
   },
   "repositories": {
@@ -1118,6 +1118,18 @@
           "headSha": "04bfdc1dc18a792b6aeb3979643b2c6991272566",
           "createdAt": "2026-04-29T12:44:40.721Z",
           "lastUpdated": "2026-04-29T12:44:40.832Z"
+        },
+        "2154": {
+          "number": 2154,
+          "title": "copy dependent packages in npm",
+          "author": "RiteshHMCTS",
+          "url": "https://github.com/hmcts/ccd-case-ui-toolkit/pull/2154",
+          "changesRequested": false,
+          "approvals": 0,
+          "buildSuccess": true,
+          "headSha": "e56354995a62ef5053e7dfb6d9a18f02a37d3b41",
+          "createdAt": "2026-04-30T15:06:21.479Z",
+          "lastUpdated": "2026-04-30T15:06:21.596Z"
         }
       }
     },
