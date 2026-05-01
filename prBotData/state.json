@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1777655264.137789",
-    "lastUpdated": "2026-05-01T17:07:32.964Z",
+    "lastUpdated": "2026-05-01T17:34:34.692Z",
     "approvalListMessageHash": "290ecef81978237fb5b76eea56bb672cc3abd5632b81cc0d60778d55fb23363f"
   },
   "repositories": {
@@ -634,6 +634,18 @@
           "headSha": "bb5219cdea50c707f5c68a177336e0f53f92ca3e",
           "createdAt": "2026-05-01T12:51:59.451Z",
           "lastUpdated": "2026-05-01T17:07:32.964Z"
+        },
+        "1519": {
+          "number": 1519,
+          "title": "EXUI-4361: migrate user admin journey",
+          "author": "andyg-cgi",
+          "url": "https://github.com/hmcts/rpx-xui-manage-organisations/pull/1519",
+          "changesRequested": false,
+          "approvals": 0,
+          "buildSuccess": false,
+          "headSha": "f6867ccb80f60fe0a7f0c20f8244720b00dd282d",
+          "createdAt": "2026-05-01T17:34:34.613Z",
+          "lastUpdated": "2026-05-01T17:34:34.692Z"
         }
       }
     },
