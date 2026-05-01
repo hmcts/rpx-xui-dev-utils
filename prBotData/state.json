@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1777633828.540779",
-    "lastUpdated": "2026-05-01T11:10:18.144Z",
+    "lastUpdated": "2026-05-01T11:31:22.421Z",
     "approvalListMessageHash": "e04dd7f0b97c8b425902123186de90e4ee2c90ff43dc0b1c6c7e51cd881daf1d"
   },
   "repositories": {
@@ -522,18 +522,6 @@
           "headSha": "bc47f65738e9441c820c1efa155707a175b0f64b",
           "createdAt": "2026-04-30T15:19:48.239Z",
           "lastUpdated": "2026-05-01T09:28:45.271Z"
-        },
-        "5123": {
-          "number": 5123,
-          "title": "EXUI-3772: update test section in the main READ ME ",
-          "author": "danH-test",
-          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/5123",
-          "changesRequested": false,
-          "approvals": 1,
-          "buildSuccess": true,
-          "headSha": "f38c70ba64f0e21e6a1e7fb0686eec431fd4694b",
-          "createdAt": "2026-05-01T10:46:37.310Z",
-          "lastUpdated": "2026-05-01T11:07:29.722Z"
         }
       }
     },
