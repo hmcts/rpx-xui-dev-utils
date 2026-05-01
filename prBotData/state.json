@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1777639325.055429",
-    "lastUpdated": "2026-05-01T12:41:53.237Z",
+    "lastUpdated": "2026-05-01T12:51:59.568Z",
     "approvalListMessageHash": "18fe320f1b055bbd13cac7bdbc7b3324e963f4a6e836649a34ba1f7d6d9c33ee"
   },
   "repositories": {
@@ -634,6 +634,18 @@
           "headSha": "610b613abad6e2e9a1474468155f86851ea1bd5e",
           "createdAt": "2026-05-01T09:58:55.862Z",
           "lastUpdated": "2026-05-01T11:10:18.144Z"
+        },
+        "1518": {
+          "number": 1518,
+          "title": "EXUI-4362: migrate register organisation journey",
+          "author": "andyg-cgi",
+          "url": "https://github.com/hmcts/rpx-xui-manage-organisations/pull/1518",
+          "changesRequested": false,
+          "approvals": 0,
+          "buildSuccess": false,
+          "headSha": "33ba22b58b7e3367bace8cff75822dd0845b8140",
+          "createdAt": "2026-05-01T12:51:59.451Z",
+          "lastUpdated": "2026-05-01T12:51:59.568Z"
         }
       }
     },
