@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1777638473.399199",
-    "lastUpdated": "2026-05-01T12:27:41.937Z",
+    "lastUpdated": "2026-05-01T12:29:08.860Z",
     "approvalListMessageHash": "9d0ee6f9b200fa203844e419ec6e6e219c1923b0d5eb9b967ee60bb3154b79f6"
   },
   "repositories": {
@@ -773,15 +773,15 @@
         },
         "1028": {
           "number": 1028,
-          "title": "Switch the smoke test to playwright",
+          "title": "EXUI-4344 : Update Playwright usage and initial structure",
           "author": "danH-test",
           "url": "https://github.com/hmcts/rpx-xui-approve-org/pull/1028",
           "changesRequested": false,
-          "approvals": 0,
+          "approvals": 1,
           "buildSuccess": true,
           "headSha": "1d91d914f5a9e4e53062731e5cb5afb4a1a70b58",
-          "createdAt": "2026-04-24T11:32:20.895Z",
-          "lastUpdated": "2026-05-01T08:46:57.015Z"
+          "createdAt": "2026-05-01T12:29:08.719Z",
+          "lastUpdated": "2026-05-01T12:29:08.860Z"
         },
         "1031": {
           "number": 1031,
