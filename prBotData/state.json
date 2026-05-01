@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1777643258.661319",
-    "lastUpdated": "2026-05-01T13:47:28.158Z",
+    "lastUpdated": "2026-05-01T13:51:12.635Z",
     "approvalListMessageHash": "2f5504abae92939cb60e058d72d9340a9bd9e25fd825fdaf9bc78ff32c88a07b"
   },
   "repositories": {
@@ -622,18 +622,6 @@
           "headSha": "61bbd1b6d89ef6802cad53fbf441122b34ee8dcd",
           "createdAt": "2026-04-30T14:15:35.846Z",
           "lastUpdated": "2026-04-30T14:54:12.880Z"
-        },
-        "1517": {
-          "number": 1517,
-          "title": "EXUI-4360: migrate organisation details journey",
-          "author": "andyg-cgi",
-          "url": "https://github.com/hmcts/rpx-xui-manage-organisations/pull/1517",
-          "changesRequested": false,
-          "approvals": 1,
-          "buildSuccess": true,
-          "headSha": "610b613abad6e2e9a1474468155f86851ea1bd5e",
-          "createdAt": "2026-05-01T13:14:27.260Z",
-          "lastUpdated": "2026-05-01T13:14:27.356Z"
         },
         "1518": {
           "number": 1518,
