@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1777625227.262309",
-    "lastUpdated": "2026-05-01T08:46:57.015Z",
+    "lastUpdated": "2026-05-01T09:26:17.974Z",
     "approvalListMessageHash": "9335ed085477fcd2ffadbe24966f3214dfa51a11d84f9ecf4240f729ec2463d3"
   },
   "repositories": {
@@ -1130,6 +1130,18 @@
           "headSha": "e56354995a62ef5053e7dfb6d9a18f02a37d3b41",
           "createdAt": "2026-04-30T15:06:21.479Z",
           "lastUpdated": "2026-04-30T15:06:21.596Z"
+        },
+        "2155": {
+          "number": 2155,
+          "title": "Update angular-cli monorepo to v20.3.25",
+          "author": "renovate[bot]",
+          "url": "https://github.com/hmcts/ccd-case-ui-toolkit/pull/2155",
+          "changesRequested": false,
+          "approvals": 0,
+          "buildSuccess": true,
+          "headSha": "dd5201025de8f46252842e7668efd0dbed7a965b",
+          "createdAt": "2026-05-01T09:26:17.795Z",
+          "lastUpdated": "2026-05-01T09:26:17.974Z"
         }
       }
     },
