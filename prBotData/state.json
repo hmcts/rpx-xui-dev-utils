@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1777903474.043609",
-    "lastUpdated": "2026-05-04T14:04:23.279Z",
+    "lastUpdated": "2026-05-04T16:07:45.446Z",
     "approvalListMessageHash": "b3c51353834f73a658221566225c1156ec203601905d377c6455d5569c97db33"
   },
   "repositories": {
@@ -1090,6 +1090,18 @@
           "headSha": "a17096a0a8b1dbc2f3f28ad96541c0fc7e3cab8c",
           "createdAt": "2026-04-27T21:40:27.585Z",
           "lastUpdated": "2026-04-27T21:40:27.683Z"
+        },
+        "1303": {
+          "number": 1303,
+          "title": "exui-4425-script to copy dependencies to npm",
+          "author": "RiteshHMCTS",
+          "url": "https://github.com/hmcts/em-media-viewer/pull/1303",
+          "changesRequested": false,
+          "approvals": 0,
+          "buildSuccess": false,
+          "headSha": "7aac69fea77762457dbeb26eab47f855a51878b5",
+          "createdAt": "2026-05-04T16:07:45.204Z",
+          "lastUpdated": "2026-05-04T16:07:45.446Z"
         }
       }
     },
