@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1777980982.264839",
-    "lastUpdated": "2026-05-05T13:45:03.134Z",
+    "lastUpdated": "2026-05-05T13:50:04.802Z",
     "approvalListMessageHash": "9a0da9c73203da612a8fdbd6173c3674c0d1aa61dbab264a8b3d523f83ac929a"
   },
   "repositories": {
@@ -558,6 +558,18 @@
           "headSha": "3ce5069f50f028e80fd0a695b21629080320abea",
           "createdAt": "2026-05-05T13:45:03.038Z",
           "lastUpdated": "2026-05-05T13:45:03.134Z"
+        },
+        "5130": {
+          "number": 5130,
+          "title": "chore: ngx-markdown version update",
+          "author": "olusegz07",
+          "url": "https://github.com/hmcts/rpx-xui-webapp/pull/5130",
+          "changesRequested": false,
+          "approvals": 0,
+          "buildSuccess": false,
+          "headSha": "b560579fea4bf9e01afbad6bef12ea1014b213b4",
+          "createdAt": "2026-05-05T13:50:04.562Z",
+          "lastUpdated": "2026-05-05T13:50:04.802Z"
         }
       }
     },
