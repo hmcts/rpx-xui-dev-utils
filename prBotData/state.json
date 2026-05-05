@@ -1,7 +1,7 @@
 {
   "metadata": {
     "approvalListMessageTs": "1777973514.782039",
-    "lastUpdated": "2026-05-05T09:31:42.720Z",
+    "lastUpdated": "2026-05-05T09:37:28.476Z",
     "approvalListMessageHash": "c2cb43b977f34cdf9659a764d4ee77f22c48d9ebf62fcdbdc2d39c641fa52169"
   },
   "repositories": {
@@ -641,11 +641,11 @@
           "author": "andyg-cgi",
           "url": "https://github.com/hmcts/rpx-xui-manage-organisations/pull/1519",
           "changesRequested": false,
-          "approvals": 0,
-          "buildSuccess": true,
-          "headSha": "77bb906b3a67352a89e1c5349ee10e0f26e81e90",
-          "createdAt": "2026-05-01T17:34:34.613Z",
-          "lastUpdated": "2026-05-05T09:31:42.720Z"
+          "approvals": 1,
+          "buildSuccess": false,
+          "headSha": "a88348f6aae084ce546b0b18201daea16952ca0d",
+          "createdAt": "2026-05-05T09:37:28.238Z",
+          "lastUpdated": "2026-05-05T09:37:28.476Z"
         },
         "1520": {
           "number": 1520,
